@@ -1,8 +1,44 @@
 {
   "status": "success",
-  "lastUpdated": "2026-11-09T03:19:14.224907+00:00",
-  "total": 2,
+  "lastUpdated": "2026-11-09T03:28:59.402600+00:00",
+  "total": 8,
   "articles": [
+    {
+      "id": "f594657fc3097a6b",
+      "title": "Banjir di Gaza Tiga Anak-Anak Meninggal",
+      "description": "Hujan deras membanjiri ribuan tenda di seluruh Gaza sejak Sabtu, membuat keluarga-keluarga pengungsi terpapar cuaca dingin, genangan air yang terus naik, serta risiko kerusakan lebih lanjut pada bangunan-bangunan yang...",
+      "image": "https://static.republika.co.id/uploads/images/medium_portrait/074453400-1794190503-oardefaultjpg.jpg",
+      "category": "Palestina",
+      "source": "Republika",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-09T02:15:02+00:00",
+      "originalUrl": "https://republika.co.id/page/shorts/yt-to7q921361291241/banjir-di-gaza-tiga-anak-anak-meninggal"
+    },
+    {
+      "id": "54ea139523ea2ad4",
+      "title": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency",
+      "description": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitarian needs. Gaza's civil defence declared a maximum state of emergency as overwhelmed rescue teams struggled to respond to thousands of distress calls amid limited resources and inadequate shelter. Rescue teams received over 2000 distress calls since the storm began, while only having capacity to respond to a tenth of the calls ",
+      "image": "",
+      "category": "Palestina",
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-09T02:08:15+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-flooding-brings-gazas-civil-defence-declare-maximum-state"
+    },
+    {
+      "id": "4ea0e77f2e9aa427",
+      "title": "Child shot by Israeli forces during West Bank raid into Jenin-area town",
+      "description": "Child shot by Israeli forces during West Bank raid into Jenin-area town A thirteen-year-old Palestinian child was injured by Israeli forces' live fire on Sunday during a military raid into the town of Zababdeh, south of Jenin in the occupied West Bank, Wafa news agency reported, citing the Palestine Red Crescent Society (PRCS). The PRCS reported that its emergency crews provided first aid to a child who sustained a live-fire wound to the chest before transporting him to the hospital.",
+      "image": "",
+      "category": "Palestina",
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-08T22:44:09+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/child-shot-israeli-forces-during-west-bank-raid-jenin-area-town"
+    },
     {
       "id": "0fec8f0159716b0d",
       "title": "Deadly sand cliff collapses on displaced families in Gaza",
@@ -14,6 +50,42 @@
       "country": "International",
       "publishedAt": "2026-11-08T21:05:07+00:00",
       "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/8/deadly-sand-cliff-collapses-on-displaced-families-in-gaza?traffic_source=rss"
+    },
+    {
+      "id": "58229efe8b6b6a51",
+      "title": "Gaza sandbank collapse kills five amid heavy rains",
+      "description": "Gaza sandbank collapse kills five amid heavy rains At least five people have been killed, including three children, after heavy rains caused a sandbank to collapse in central Gaza's Deir al-Balah, Wafa news reported on Sunday. A civil defence spokesman added that five wounded people had been pulled out of the rubble after their tents were hit, and teams are continuing to search for survivors. The incident comes amid worsening conditions faced by displaced Palestinians in Gaza, as national and internation institutions warned heavy rainfall and bad weather require urgent intervention and the pro",
+      "image": "",
+      "category": "Palestina",
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-08T19:53:24+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/gaza-sandbank-collapse-kills-5-amid-heavy-rains"
+    },
+    {
+      "id": "88cad794369276ca",
+      "title": "Eisenkot says any party involved in next government must commit to action on Hamas",
+      "description": "Eisenkot says any party involved in next government must commit to action on Hamas Israeli opposition leader Gadi Eisenkot has said that any party willing to sign on to the “recognition of Hamas as a terrorist organisation and a commitment to destroying its military and governing capabilities” is a potential partner in his national emergency government. Earlier, Israeli President Isaac Herzog officially gave Eisenkot six weeks to try to form the next government after the success of the anti-Netanyahu bloc in the recent Israeli elections. “Israel does not have the luxury of wasting time or retu",
+      "image": "",
+      "category": "Palestina",
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-08T19:35:21+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/eisenkot-says-any-party-involved-next-government-must-commit-action"
+    },
+    {
+      "id": "bb157927cb00c228",
+      "title": "Israel kills two Palestinians in attack on Gaza's Khan Younis",
+      "description": "Israel kills two Palestinians in attack on Gaza's Khan Younis Israeli bombardment of southern Gaza's Khan Younis city has killed two people, including a woman, Wafa reports citing a medical source. According to the source, the attack struck a group of civilians near the Taiba Towers, in the city's west, resulting in the two fatalaties and several other casualties.",
+      "image": "",
+      "category": "Palestina",
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-08T15:59:50+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-kills-two-palestinians-attack-gazas-khan-younis"
     },
     {
       "id": "6f87cce88ee43aa9",
