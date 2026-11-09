@@ -1,6 +1,6 @@
 [
   {
-    "name": "NU Online",
+    "name": "NU Online Hikmah",
     "url": "https://islam.nu.or.id/post/feed",
     "category": "Hikmah & Ibadah",
     "language": "id"
@@ -18,15 +18,21 @@
     "language": "id"
   },
   {
-    "name": "Palestine Chronicle",
-    "url": "https://www.palestinechronicle.com/category/news/feed/",
+    "name": "Muhammadiyah Org",
+    "url": "https://muhammadiyah.or.id/feed/",
+    "category": "Hikmah & Ibadah",
+    "language": "id"
+  },
+  {
+    "name": "Palestine Chronicle (Islam & Culture)",
+    "url": "https://www.palestinechronicle.com/category/analysis-and-features/feed/",
     "category": "Dunia Islam & Palestina",
     "language": "en"
   },
   {
-    "name": "WAFA Agency News",
-    "url": "https://english.wafa.ps/Rss/index",
-    "category": "Dunia Islam & Palestina",
-    "language": "en"
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/xml/rss/all.xml",
+    "language": "en",
+    "country": "International"
   }
 ]
