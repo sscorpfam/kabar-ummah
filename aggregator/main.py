@@ -10,7 +10,6 @@ from urllib.parse import urlsplit, urlunsplit
 
 import requests
 import feedparser
-from deep_translator import GoogleTranslator
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
@@ -32,27 +31,11 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 
 # =========================================================
-# PENERJEMAH TEKS (TRANSLATOR)
-# =========================================================
-
-def translate_text(text, target_lang="en"):
-    """Menerjemahkan teks secara otomatis menggunakan deep-translator."""
-    if not text:
-        return ""
-    try:
-        # Batasi panjang teks jika terlalu panjang untuk menghindari error limit translator
-        trimmed_text = text[:1000]
-        translated = GoogleTranslator(source='auto', target=target_lang).translate(trimmed_text)
-        return translated if translated else text
-    except Exception as error:
-        logging.error("Gagal menerjemahkan teks: %s", error)
-        return text
-
-
-# =========================================================
 # FILTER BERITA ISLAMI
 # =========================================================
 
+# Kata kunci yang menunjukkan topik Islam secara langsung.
+# Istilah umum seperti nama organisasi saja tidak cukup untuk meloloskan berita.
 DIRECT_ISLAMIC_KEYWORDS = (
     "islam", "islami", "islamic", "muslim", "muslimah", "umat islam",
     "umat muslim", "kaum muslimin", "al quran", "alquran", "quran",
@@ -76,6 +59,8 @@ DIRECT_ISLAMIC_KEYWORDS = (
     "masjid al-aqsa", "al aqsa"
 )
 
+# Topik yang bisa relevan, tetapi sering muncul juga dalam berita umum/promosi.
+# Untuk istilah ini diperlukan konteks pendukung yang lebih kuat.
 CONTEXT_TITLE_KEYWORDS = (
     "haji", "hajj", "umrah", "umroh", "jamaah", "jemaah", "masjid",
     "mosque", "pesantren", "santri", "madrasah", "musholla", "musala",
@@ -83,6 +68,7 @@ CONTEXT_TITLE_KEYWORDS = (
     "persis", "mui", "kemenag", "kemenhaj", "menhaj", "baznas", "majelis taklim"
 )
 
+# Konteks yang menandakan isi berita benar-benar membahas agama/umat Islam.
 ISLAMIC_CONTEXT_KEYWORDS = (
     "ibadah", "keimanan", "iman", "takwa", "ketaqwaan", "syariat",
     "syariah", "ajaran islam", "hukum islam", "hukum syariat", "fatwa",
@@ -103,6 +89,8 @@ ISLAMIC_CONTEXT_KEYWORDS = (
     "diskriminasi muslim", "kemanusiaan palestina", "rakyat palestina"
 )
 
+# Frasa yang sering menandakan konten komersial/promosi. Tidak otomatis ditolak
+# bila artikel juga memiliki pembahasan ibadah atau kebijakan Islam yang jelas.
 PROMOTIONAL_KEYWORDS = (
     "kurir terbaik", "promo", "diskon", "brand ambassador", "endorsement",
     "program loyalitas", "peluncuran produk", "produk terbaru", "kampanye merek",
@@ -125,13 +113,17 @@ def _contains_keyword(text, keywords):
 
 
 def is_islamic_news(title, description=""):
+    """Filter konservatif: harus ada topik Islam, bukan sekadar nama/mention."""
     title_text = clean_text(title or "").lower()
     description_text = clean_text(description or "").lower()
     combined_text = f"{title_text} {description_text}"
 
+    # Topik Islam yang eksplisit di judul biasanya cukup kuat.
     if _contains_keyword(title_text, DIRECT_ISLAMIC_KEYWORDS):
         return True
 
+    # Topik yang rawan dipakai sebagai konteks promosi/berita umum perlu
+    # didukung isi yang benar-benar membahas ibadah, umat, atau kebijakan Islam.
     has_context_title = _contains_keyword(title_text, CONTEXT_TITLE_KEYWORDS)
     context_matches = sum(
         1 for keyword in ISLAMIC_CONTEXT_KEYWORDS
@@ -139,6 +131,7 @@ def is_islamic_news(title, description=""):
     )
 
     if has_context_title and context_matches >= 2:
+        # Berita promosi yang hanya menempelkan kata umrah/haji tidak lolos.
         if _contains_keyword(combined_text, PROMOTIONAL_KEYWORDS):
             substantive = (
                 "manasik", "ihram", "tawaf", "sa'i", "miqat", "petugas haji",
@@ -150,6 +143,8 @@ def is_islamic_news(title, description=""):
                 return False
         return True
 
+    # Artikel dari organisasi Islam dapat diterima jika isi artikelnya memang
+    # membahas kegiatan keagamaan, bukan sekadar menyebut nama organisasinya.
     organization_terms = (
         "muhammadiyah", "nahdlatul ulama", "persis", "mui",
         "kemenag", "kemenhaj", "baznas", "pesantren", "madrasah"
@@ -209,6 +204,7 @@ def normalize_url(url):
         return ""
 
     parts = urlsplit(url.strip())
+    # Fragment tidak diperlukan untuk identitas artikel.
     return urlunsplit((
         parts.scheme.lower(),
         parts.netloc.lower(),
@@ -256,6 +252,7 @@ def get_published_date(entry):
 def extract_image(entry):
     candidates = []
 
+    # Media RSS.
     for field in ("media_content", "media_thumbnail"):
         values = entry.get(field, [])
         if isinstance(values, dict):
@@ -265,14 +262,17 @@ def extract_image(entry):
             if isinstance(item, dict):
                 candidates.append(item.get("url", ""))
 
+    # Enclosure RSS.
     for item in entry.get("enclosures", []):
         if isinstance(item, dict):
             candidates.append(item.get("href", ""))
 
+    # Link rel=enclosure.
     for item in entry.get("links", []):
         if isinstance(item, dict) and item.get("rel") == "enclosure":
             candidates.append(item.get("href", ""))
 
+    # Gambar dalam HTML content atau summary.
     html_fields = []
     for item in entry.get("content", []):
         if isinstance(item, dict):
@@ -302,6 +302,7 @@ def extract_image(entry):
 def categorize(title, description, categories):
     text = clean_text(title + " " + description).lower()
 
+    # Syarat pertama: artikel wajib memiliki konteks Islami.
     if not is_islamic_news(title, description):
         return None, []
 
@@ -395,6 +396,7 @@ def fetch_source(source, categories):
                 result["filtered"] += 1
                 continue
 
+            # Filter Islami sebelum proses artikel.
             if not is_islamic_news(title, description):
                 result["filtered"] += 1
                 continue
@@ -405,17 +407,10 @@ def fetch_source(source, categories):
                 result["filtered"] += 1
                 continue
 
-            # --- PROSES TERJEMAHAN OTOMATIS KE BAHASA INGGRIS ---
-            cleaned_desc = description[:800]
-            title_en = translate_text(title, target_lang="en")
-            description_en = translate_text(cleaned_desc, target_lang="en")
-
             article = {
                 "id": generate_id(url),
                 "title": title,
-                "titleEn": title_en,
-                "description": cleaned_desc,
-                "descriptionEn": description_en,
+                "description": description[:800],
                 "image": extract_image(entry),
                 "category": category,
                 "tags": tags,
@@ -469,6 +464,7 @@ def load_previous_articles():
 def merge_articles(new_articles, old_articles):
     merged = {}
 
+    # Berita lama: hanya pertahankan berita Islami.
     for article in old_articles:
         if not isinstance(article, dict):
             continue
@@ -483,6 +479,7 @@ def merge_articles(new_articles, old_articles):
         if url:
             merged[url] = article
 
+    # Berita baru menggantikan berita lama jika URL sama.
     for article in new_articles:
         if not isinstance(article, dict):
             continue
@@ -582,6 +579,7 @@ def main():
     logging.info("Total berita tersimpan: %d", len(final_articles))
     logging.info("--------------------------------")
 
+    # Jika semua sumber gagal, workflow dibuat gagal.
     if successful == 0:
         raise RuntimeError("Semua sumber RSS gagal diakses.")
 
