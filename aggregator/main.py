@@ -3,9 +3,10 @@ import json
 import os
 import re
 import time
+import html
 from deep_translator import GoogleTranslator
 
-# 1. Kata Kunci Islami & Umat (Indonesia)
+# 1. Kata kunci Bahasa Indonesia
 ISLAMIC_KEYWORDS_ID = [
     'islam', 'islami', 'muslim', 'muslimah', 'alquran', 'al-qur\'an', 'hadits', 'hadis', 
     'sunnah', 'zakat', 'infaq', 'sedekah', 'wakaf', 'shalat', 'salat', 'solat', 'puasa', 
@@ -15,13 +16,12 @@ ISLAMIC_KEYWORDS_ID = [
     'ekonomi syariah', 'bank syariah', 'palestina', 'gaza', 'al-aqsa', 'alaqsa'
 ]
 
-# 2. Kata Kunci Islami & Palestina (English)
+# 2. Kata kunci Bahasa Inggris (Luar Negeri)
 ISLAMIC_KEYWORDS_EN = [
     'islam', 'islamic', 'muslim', 'muslims', 'quran', 'koran', 'hadith', 'sunnah', 
     'zakat', 'palestine', 'palestinian', 'gaza', 'al-aqsa', 'aqsa', 'ramadan', 
     'hajj', 'umrah', 'mosque', 'scholars', 'sharia', 'shariah', 'halal', 
-    'islamophobia', 'fatwa', 'imam', 'caliphate', 'jerusalem', 'west bank', 
-    'rafah', 'jenin', 'khan younis', 'ceasefire', 'martyr', 'occupation'
+    'islamophobia', 'fatwa', 'imam', 'caliphate', 'jerusalem'
 ]
 
 EXCLUDE_KEYWORDS = [
@@ -51,10 +51,6 @@ def detect_category(title, summary, default_category="Hikmah & Ibadah"):
     return default_category
 
 def is_valid_news(title, summary, lang='id', is_trusted=False):
-    """
-    Validasi kelayakan berita. Jika dari sumber internasional tepercaya (WAFA/Palestine Chronicle),
-    otomatis loloskan agar berita luar negeri tidak terbuang.
-    """
     if is_trusted:
         return True
 
@@ -73,29 +69,34 @@ def is_valid_news(title, summary, lang='id', is_trusted=False):
 
     return False
 
-def clean_html(text):
+def clean_text(text):
+    """Membersihkan tag HTML dan HTML Entities (&mdash;, &nbsp;, &ndash;, dll)"""
     if not text:
         return ""
+    # Decode HTML Entities
+    text = html.unescape(text)
+    # Hapus tag HTML
     clean = re.compile('<.*?>')
     text = re.sub(clean, '', text)
+    # Hapus spasi berlebih
     return re.sub(r'\s+', ' ', text).strip()
 
 def safe_translate(text):
     """
-    Menerjemahkan dengan pengaman error: Jika server penerjemah sibuk,
-    kembalikan teks asli agar data berita TIDAK hilang.
+    Jika terjemahan sukses -> Kembalikan hasil terjemahan
+    Jika terjemahan diputus/limit oleh Google -> Kembalikan teks asli (TIDAK BOLEH DROP BERITA)
     """
     if not text:
         return text
-    text_short = text[:400]
+    text_to_translate = text[:400]
     try:
         translator = GoogleTranslator(source='auto', target='id')
-        translated = translator.translate(text_short)
-        time.sleep(0.8) # Jeda aman
+        translated = translator.translate(text_to_translate)
+        time.sleep(0.5)
         return translated
     except Exception as e:
-        print(f"  [Info Translate] Menggunakan teks asli karena limit: {e}")
-        return text_short
+        print(f"  [Info] Terjemahan terbatasi server ({e}), menyimpan teks asli.")
+        return text_to_translate
 
 def fetch_news():
     if not os.path.exists('aggregator/sources.json'):
@@ -114,11 +115,11 @@ def fetch_news():
             lang = source.get('language', 'id')
             is_trusted_source = source.get('category') in ['Dunia Islam & Palestina', 'palestina']
 
-            print(f"[Proses] Fetching {source['name']} ({len(feed.entries)} item ditemukan)...")
+            print(f"[Proses] Fetching {source['name']} ({len(feed.entries)} berita)...")
 
             for entry in feed.entries[:15]:
-                title_raw = clean_html(entry.get('title', ''))
-                summary_raw = clean_html(entry.get('summary', entry.get('description', '')))
+                title_raw = clean_text(entry.get('title', ''))
+                summary_raw = clean_text(entry.get('summary', entry.get('description', '')))
                 link = entry.get('link', '')
                 published = entry.get('published', entry.get('updated', ''))
 
@@ -127,13 +128,19 @@ def fetch_news():
                     
                     title = title_raw
                     summary = summary_raw[:250]
+                    is_translated_success = False
 
-                    # Terjemahkan jika berita bahasa Inggris
+                    # Proses Terjemahan Berita Internasional
                     if lang == 'en':
-                        print(f"  -> Process EN: {title_raw[:35]}...")
-                        title = safe_translate(title_raw)
-                        if summary_raw:
-                            summary = safe_translate(summary_raw[:250])
+                        translated_title = safe_translate(title_raw)
+                        translated_summary = safe_translate(summary_raw[:250]) if summary_raw else ""
+                        
+                        # Cek apakah berhasil diterjemahkan atau menggunakan fallback
+                        if translated_title != title_raw:
+                            is_translated_success = True
+
+                        title = translated_title
+                        summary = translated_summary
 
                     item = {
                         "title": title,
@@ -142,13 +149,13 @@ def fetch_news():
                         "published": published,
                         "source_name": source['name'],
                         "category": matched_category,
-                        "is_translated": (lang == 'en')
+                        "is_translated": is_translated_success
                     }
                     all_news.append(item)
         except Exception as e:
             print(f"[Error] Gagal pada sumber {source.get('name')}: {e}")
 
-    # Hapus duplikat berdasarkan judul
+    # Hapus duplikasi berdasarkan judul
     seen_titles = set()
     unique_news = []
     for news in all_news:
@@ -157,7 +164,7 @@ def fetch_news():
             seen_titles.add(title_key)
             unique_news.append(news)
 
-    # Simpan hingga 80 berita terbaru
+    # Simpan hasil akhir ke data/news.json
     os.makedirs('data', exist_ok=True)
     with open('data/news.json', 'w', encoding='utf-8') as f:
         json.dump(unique_news[:80], f, ensure_ascii=False, indent=2)
