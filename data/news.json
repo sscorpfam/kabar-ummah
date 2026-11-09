@@ -1,6 +1,6 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-09T07:21:26.863002+00:00",
+  "lastUpdated": "2026-11-09T07:34:48.161506+00:00",
   "total": 17,
   "newArticles": 15,
   "sourcesChecked": 9,
@@ -69,7 +69,7 @@
       "raw": 0,
       "accepted": 0,
       "filtered": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=40)"
     },
     {
       "name": "Muhammadiyah Org",
