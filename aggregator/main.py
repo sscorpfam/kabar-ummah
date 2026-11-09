@@ -193,46 +193,71 @@ def extract_image(entry):
     return ""
 
 
+
 def categorize(title, description, categories):
-    text = (
+
+    text = clean_text(
         title + " " + description
     ).lower()
 
     scores = {}
+    matched_keywords = {}
 
     for category, keywords in categories.items():
 
         score = 0
+        matches = []
 
         for keyword in keywords:
+
             keyword = keyword.lower().strip()
 
             if not keyword:
                 continue
 
-            if keyword in text:
-                score += 1
+            # Cocokkan kata atau frasa secara utuh,
+            # bukan sekadar substring.
+            pattern = (
+                r"(?<![a-z0-9])"
+                + re.escape(keyword)
+                + r"(?![a-z0-9])"
+            )
 
-        scores[category] = score
+            if re.search(pattern, text):
+                matches.append(keyword)
+
+                # Frasa spesifik memperoleh bobot lebih tinggi.
+                if len(keyword.split()) >= 2:
+                    score += 3
+                else:
+                    score += 2
+
+        if matches:
+            scores[category] = score
+            matched_keywords[category] = matches
 
     if not scores:
         return None, []
 
+    # Kategori dengan skor tertinggi menjadi kategori utama.
     best_category = max(
         scores,
         key=scores.get
     )
 
-    if scores[best_category] < 1:
+    # Minimal satu kata kunci utuh harus cocok.
+    if scores[best_category] < 2:
         return None, []
 
-    matched_categories = [
-        category
-        for category, score in scores.items()
-        if score > 0
-    ]
+    # Kategori tambahan hanya diberikan jika benar-benar cocok.
+    matched_categories = sorted(
+        matched_keywords.keys(),
+        key=lambda category: scores[category],
+        reverse=True
+    )
 
     return best_category, matched_categories
+
 
 
 def fetch_source(source, categories):
