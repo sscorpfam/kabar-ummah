@@ -1,11 +1,11 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-09T07:11:00.093025+00:00",
+  "lastUpdated": "2026-11-09T07:21:26.863002+00:00",
   "total": 17,
   "newArticles": 15,
   "sourcesChecked": 9,
-  "sourcesSucceeded": 7,
-  "sourcesFailed": 2,
+  "sourcesSucceeded": 8,
+  "sourcesFailed": 1,
   "sourceStats": [
     {
       "name": "Al Jazeera",
@@ -33,11 +33,11 @@
     },
     {
       "name": "ANTARA Terkini",
-      "status": "error",
-      "raw": 0,
+      "status": "success",
+      "raw": 50,
       "accepted": 0,
-      "filtered": 0,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "filtered": 50,
+      "error": null
     },
     {
       "name": "ANTARA Dunia",
@@ -96,7 +96,8 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-09T05:50:47+00:00",
-      "originalUrl": "https://muhammadiyah.or.id/2026/11/umat-islam-harus-bangun-keberanian-dan-integritas-dalam-menegakkan-kebenaran"
+      "originalUrl": "https://muhammadiyah.or.id/2026/11/umat-islam-harus-bangun-keberanian-dan-integritas-dalam-menegakkan-kebenaran",
+      "translationStatus": "not_needed"
     },
     {
       "id": "9c01057ebc9957a5",
@@ -113,7 +114,8 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-09T05:46:37+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5840979/5-orang-tewas-akibat-tebing-pasir-runtuh-timpa-tenda-pengungsi-di-gaza"
+      "originalUrl": "https://www.antaranews.com/berita/5840979/5-orang-tewas-akibat-tebing-pasir-runtuh-timpa-tenda-pengungsi-di-gaza",
+      "translationStatus": "not_needed"
     },
     {
       "id": "6ef7c3f1264bee74",
@@ -130,7 +132,8 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-09T05:23:22+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to7yyy366/khofifah-minta-seleksi-petugas-haji-daerah-2027-transparan-dan-objektif"
+      "originalUrl": "https://khazanah.republika.co.id/berita/to7yyy366/khofifah-minta-seleksi-petugas-haji-daerah-2027-transparan-dan-objektif",
+      "translationStatus": "not_needed"
     },
     {
       "id": "af111e98746fe8aa",
@@ -147,7 +150,11 @@
       "language": "en",
       "country": "International",
       "publishedAt": "2026-11-09T05:18:39+00:00",
-      "originalUrl": "https://www.aljazeera.com/features/2026/11/9/tents-dont-protect-us-rains-flood-displaced-palestinians-in-gaza?traffic_source=rss"
+      "originalUrl": "https://www.aljazeera.com/features/2026/11/9/tents-dont-protect-us-rains-flood-displaced-palestinians-in-gaza?traffic_source=rss",
+      "originalTitle": "‘Tents don’t protect us’: Rains flood displaced Palestinians in Gaza",
+      "originalDescription": "Hundreds of thousands of Palestinians are vulnerable to flooding as Israel continues to block entry of mobile homes.",
+      "translationStatus": "failed",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
     },
     {
       "id": "54ea139523ea2ad4",
@@ -164,7 +171,11 @@
       "language": "en",
       "country": "International",
       "publishedAt": "2026-11-09T02:08:15+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-flooding-brings-gazas-civil-defence-declare-maximum-state"
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-flooding-brings-gazas-civil-defence-declare-maximum-state",
+      "originalTitle": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency",
+      "originalDescription": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitarian needs. Gaza's civil defence declared a maximum state of emergency as overwhelmed rescue teams struggled to respond to thousands of distress calls amid limited resources and inadequate shelter. Rescue teams received over 2000 distress calls since the storm began, while only having capacity to respond to a tenth of the calls received. Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitari",
+      "translationStatus": "failed",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
     },
     {
       "id": "ef94b41c82a7a7bd",
@@ -181,7 +192,8 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-09T02:04:26+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to7pre366/serap-aspirasi-jamaah-di-makkah-menhaj-siapkan-perbaikan-layanan-haji-2027"
+      "originalUrl": "https://khazanah.republika.co.id/berita/to7pre366/serap-aspirasi-jamaah-di-makkah-menhaj-siapkan-perbaikan-layanan-haji-2027",
+      "translationStatus": "not_needed"
     },
     {
       "id": "58229efe8b6b6a51",
@@ -198,7 +210,11 @@
       "language": "en",
       "country": "International",
       "publishedAt": "2026-11-08T19:53:24+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/gaza-sandbank-collapse-kills-5-amid-heavy-rains"
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/gaza-sandbank-collapse-kills-5-amid-heavy-rains",
+      "originalTitle": "Gaza sandbank collapse kills five amid heavy rains",
+      "originalDescription": "Gaza sandbank collapse kills five amid heavy rains At least five people have been killed, including three children, after heavy rains caused a sandbank to collapse in central Gaza's Deir al-Balah, Wafa news reported on Sunday. A civil defence spokesman added that five wounded people had been pulled out of the rubble after their tents were hit, and teams are continuing to search for survivors. The incident comes amid worsening conditions faced by displaced Palestinians in Gaza, as national and internation institutions warned heavy rainfall and bad weather require urgent intervention and the provision of safe shelter and winter supplies.",
+      "translationStatus": "failed",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
     },
     {
       "id": "638cbb1532255585",
@@ -215,7 +231,8 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-08T05:47:14+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to65eq487/menimbang-keadilan-tuhan-dari-tiga-mimbar-tafsir"
+      "originalUrl": "https://khazanah.republika.co.id/berita/to65eq487/menimbang-keadilan-tuhan-dari-tiga-mimbar-tafsir",
+      "translationStatus": "not_needed"
     },
     {
       "id": "2645088467e83847",
@@ -232,7 +249,8 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-08T04:57:19+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to633j366/haji-melampaui-simbol-toleransi"
+      "originalUrl": "https://khazanah.republika.co.id/berita/to633j366/haji-melampaui-simbol-toleransi",
+      "translationStatus": "not_needed"
     },
     {
       "id": "2acc8197e90523be",
@@ -249,7 +267,8 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-08T04:55:00+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to61as366/dahsyatnya-doa-nabi-muhammad-saw-untuk-umat-manusia"
+      "originalUrl": "https://khazanah.republika.co.id/berita/to61as366/dahsyatnya-doa-nabi-muhammad-saw-untuk-umat-manusia",
+      "translationStatus": "not_needed"
     },
     {
       "id": "a04ddb2b0ebd223c",
@@ -266,7 +285,8 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-08T00:59:05+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to5s2h430/menhaj-imbau-jamaah-umrah-santun-dan-bijak-di-tanah-suci"
+      "originalUrl": "https://khazanah.republika.co.id/berita/to5s2h430/menhaj-imbau-jamaah-umrah-santun-dan-bijak-di-tanah-suci",
+      "translationStatus": "not_needed"
     },
     {
       "id": "4b1e7ef7b37e7793",
@@ -283,7 +303,8 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-07T23:57:59+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to5p8n430/bandara-dhoho-kediri-resmi-jadi-embarkasi-haji-reguler-2027"
+      "originalUrl": "https://khazanah.republika.co.id/berita/to5p8n430/bandara-dhoho-kediri-resmi-jadi-embarkasi-haji-reguler-2027",
+      "translationStatus": "not_needed"
     },
     {
       "id": "6f87cce88ee43aa9",
@@ -300,7 +321,11 @@
       "language": "en",
       "country": "International",
       "publishedAt": "2026-11-07T17:58:41+00:00",
-      "originalUrl": "https://www.bbc.co.uk/news/videos/ckr5ygm78j76o?at_medium=RSS&at_campaign=rss"
+      "originalUrl": "https://www.bbc.co.uk/news/videos/ckr5ygm78j76o?at_medium=RSS&at_campaign=rss",
+      "originalTitle": "Gaza wedding festival sees 250 couples married at the same time",
+      "originalDescription": "A mass wedding for Palestinian brides and grooms has taken place in the rubble-strewn streets of Gaza.",
+      "translationStatus": "failed",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
     },
     {
       "id": "b001ec5de43f56cc",
@@ -317,7 +342,8 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-07T15:07:29+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to50oh320/kemenhaj-dukung-arab-saudi-berantas-makelar-ilegal-perhajian"
+      "originalUrl": "https://khazanah.republika.co.id/berita/to50oh320/kemenhaj-dukung-arab-saudi-berantas-makelar-ilegal-perhajian",
+      "translationStatus": "not_needed"
     },
     {
       "id": "ee386142c6147e67",
@@ -334,7 +360,8 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-07T12:24:29+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to4t4t320/enam-ayat-sakinah-dalam-alquran-yang-dapat-dijadikan-penuntun-hati-menuju-ketenangan"
+      "originalUrl": "https://khazanah.republika.co.id/berita/to4t4t320/enam-ayat-sakinah-dalam-alquran-yang-dapat-dijadikan-penuntun-hati-menuju-ketenangan",
+      "translationStatus": "not_needed"
     },
     {
       "id": "681b530b3d235210",
@@ -351,7 +378,8 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-07T07:03:59+00:00",
-      "originalUrl": "https://muhammadiyah.or.id/2026/11/kebersamaan-dan-kegembiraan-jadi-kunci-mengabdi-di-muhammadiyah"
+      "originalUrl": "https://muhammadiyah.or.id/2026/11/kebersamaan-dan-kegembiraan-jadi-kunci-mengabdi-di-muhammadiyah",
+      "translationStatus": "not_needed"
     },
     {
       "id": "420ecbaa1b016b64",
@@ -368,7 +396,8 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-10-24T04:53:41+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5809067/cara-menghitung-zakat-akhir-tahun-2026-dan-contoh-nominalnya"
+      "originalUrl": "https://www.antaranews.com/berita/5809067/cara-menghitung-zakat-akhir-tahun-2026-dan-contoh-nominalnya",
+      "translationStatus": "not_needed"
     }
   ]
 }
