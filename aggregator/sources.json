@@ -1,21 +1,9 @@
 [
   {
-    "name": "WAFA Agency (Palestina)",
-    "url": "https://english.wafa.ps/Rss/index",
-    "category": "Dunia Islam & Palestina",
-    "language": "en"
-  },
-  {
-    "name": "Palestine Chronicle",
-    "url": "https://www.palestinechronicle.com/feed/",
-    "category": "Dunia Islam & Palestina",
-    "language": "en"
-  },
-  {
-    "name": "Al Jazeera World",
-    "url": "https://www.aljazeera.com/xml/rss/all.xml",
-    "category": "Dunia Islam & Palestina",
-    "language": "en"
+    "name": "NU Online",
+    "url": "https://islam.nu.or.id/post/feed",
+    "category": "Hikmah & Ibadah",
+    "language": "id"
   },
   {
     "name": "Republika Khazanah",
@@ -24,15 +12,21 @@
     "language": "id"
   },
   {
-    "name": "NU Online",
-    "url": "https://islam.nu.or.id/post/feed",
-    "category": "Hikmah & Ibadah",
-    "language": "id"
-  },
-  {
     "name": "Detik Hikmah",
     "url": "https://news.detik.com/hikmah/rss",
     "category": "Hikmah & Ibadah",
     "language": "id"
+  },
+  {
+    "name": "Palestine Chronicle",
+    "url": "https://www.palestinechronicle.com/category/news/feed/",
+    "category": "Dunia Islam & Palestina",
+    "language": "en"
+  },
+  {
+    "name": "WAFA Agency News",
+    "url": "https://english.wafa.ps/Rss/index",
+    "category": "Dunia Islam & Palestina",
+    "language": "en"
   }
 ]
