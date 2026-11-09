@@ -1,14 +1,139 @@
 {
   "status": "success",
-  "lastUpdated": "2026-11-09T03:28:59.402600+00:00",
-  "total": 8,
+  "lastUpdated": "2026-11-09T03:34:26.217545+00:00",
+  "total": 15,
+  "newArticles": 14,
+  "sourcesChecked": 7,
+  "sourcesSucceeded": 7,
+  "sourcesFailed": 0,
+  "sourceStats": [
+    {
+      "name": "Al Jazeera",
+      "status": "success",
+      "raw": 25,
+      "accepted": 1,
+      "filtered": 24,
+      "error": null
+    },
+    {
+      "name": "BBC World",
+      "status": "success",
+      "raw": 27,
+      "accepted": 1,
+      "filtered": 26,
+      "error": null
+    },
+    {
+      "name": "Republika",
+      "status": "success",
+      "raw": 15,
+      "accepted": 2,
+      "filtered": 13,
+      "error": null
+    },
+    {
+      "name": "ANTARA Terkini",
+      "status": "success",
+      "raw": 50,
+      "accepted": 5,
+      "filtered": 45,
+      "error": null
+    },
+    {
+      "name": "ANTARA Dunia",
+      "status": "success",
+      "raw": 20,
+      "accepted": 0,
+      "filtered": 20,
+      "error": null
+    },
+    {
+      "name": "ANTARA Humaniora",
+      "status": "success",
+      "raw": 20,
+      "accepted": 1,
+      "filtered": 19,
+      "error": null
+    },
+    {
+      "name": "Middle East Eye",
+      "status": "success",
+      "raw": 20,
+      "accepted": 4,
+      "filtered": 16,
+      "error": null
+    }
+  ],
   "articles": [
+    {
+      "id": "9f3df26805d0201b",
+      "title": "Harga tiga jenama emas di Pegadaian kompak stabil pada Senin",
+      "description": "Harga emas di laman Pegadaian dikutip dari Jakarta, Senin, pukul 10.12 WIB, menunjukkan harga emas jenama Galeri24, ...",
+      "image": "https://img.antaranews.com/cache/800x533/2026/03/29/bazar-emas-pegadaian-di-palu-2718734.jpg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "ANTARA Terkini",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-09T03:20:11+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5840659/harga-tiga-jenama-emas-di-pegadaian-kompak-stabil-pada-senin"
+    },
+    {
+      "id": "02785f0ddcdcdff9",
+      "title": "Khofifah minta seleksi Petugas Haji Daerah 2027 berjalan transparan",
+      "description": "Gubernur Jawa Timur Khofifah Indar Parawansa meminta seleksi Petugas Haji Daerah (PHD) 1448 Hijriah/2027 Masehi ...",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/09/1662580.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "ANTARA Terkini",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-09T02:58:24+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5840619/khofifah-minta-seleksi-petugas-haji-daerah-2027-berjalan-transparan"
+    },
+    {
+      "id": "1914b1a23f2ca06a",
+      "title": "Kronologi Penyerangan Mendadak ke Jamaah Shalat Subuh di Jaktim Versi Polisi",
+      "description": "JAKARTA -- Polda Metro Jaya menangani kasus penyerangan menggunakan senjata tajam terhadap jamaah yang hendak melaksanakan shalat Subuh di Masjid Darul Ma’arif, Pondok Kelapa, Duren Sawit, Jakarta Timur, pada...",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/garis-polisi-ilustrasi-_140812075244-795.jpg",
+      "category": "Masjid dan Peradaban",
+      "tags": [
+        "Masjid dan Peradaban"
+      ],
+      "source": "Republika",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-09T02:37:02+00:00",
+      "originalUrl": "https://news.republika.co.id/berita/to7r9q377/kronologi-penyerangan-mendadak-ke-jamaah-shalat-subuh-di-jaktim-versi-polisi"
+    },
+    {
+      "id": "fe19ed11f5e6cfe4",
+      "title": "BMKG: Waspada gelombang 2,5 meter di perairan NTT hingga 12 November",
+      "description": "Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) mengimbau masyarakat mewaspadai potensi gelombang laut setinggi ...",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/09/1000000340.jpg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "ANTARA Terkini",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-09T02:35:51+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5840591/bmkg-waspada-gelombang-25-meter-di-perairan-ntt-hingga-12-november"
+    },
     {
       "id": "f594657fc3097a6b",
       "title": "Banjir di Gaza Tiga Anak-Anak Meninggal",
       "description": "Hujan deras membanjiri ribuan tenda di seluruh Gaza sejak Sabtu, membuat keluarga-keluarga pengungsi terpapar cuaca dingin, genangan air yang terus naik, serta risiko kerusakan lebih lanjut pada bangunan-bangunan yang...",
       "image": "https://static.republika.co.id/uploads/images/medium_portrait/074453400-1794190503-oardefaultjpg.jpg",
       "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
       "source": "Republika",
       "language": "id",
       "country": "Indonesia",
@@ -18,9 +143,12 @@
     {
       "id": "54ea139523ea2ad4",
       "title": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency",
-      "description": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitarian needs. Gaza's civil defence declared a maximum state of emergency as overwhelmed rescue teams struggled to respond to thousands of distress calls amid limited resources and inadequate shelter. Rescue teams received over 2000 distress calls since the storm began, while only having capacity to respond to a tenth of the calls ",
+      "description": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitarian needs. Gaza's civil defence declared a maximum state of emergency as overwhelmed rescue teams struggled to respond to thousands of distress calls amid limited resources and inadequate shelter. Rescue teams received over 2000 distress calls since the storm began, while only having capacity to respond to a tenth of the calls received. Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitari",
       "image": "",
       "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
       "source": "Middle East Eye",
       "language": "en",
       "country": "International",
@@ -28,11 +156,44 @@
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-flooding-brings-gazas-civil-defence-declare-maximum-state"
     },
     {
+      "id": "dd1f2d0625b0000f",
+      "title": "Kiai Kampung se-Indonesia doakan keselamatan bangsa danPresiden",
+      "description": "Mujadalah Kiai Kampung (MKK) se-Indonesia melaksanakan gerakan doa bersama dan munajat nasional secara serentak di ...",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/09/1000897706.jpg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "ANTARA Terkini",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-09T01:49:15+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5840559/kiai-kampung-se-indonesia-doakan-keselamatan-bangsa-danpresiden"
+    },
+    {
+      "id": "b7a490a204e810ad",
+      "title": "BMKG: Waspadai cuaca hujan di mayoritas wilayah Indonesia pada Senin",
+      "description": "Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) memprakirakan cuaca di berbagai wilayah Indonesia pada Senin ...",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/02/IMG_5679.jpeg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "ANTARA Terkini",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-09T00:31:53+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5840491/bmkg-waspadai-cuaca-hujan-di-mayoritas-wilayah-indonesia-pada-senin"
+    },
+    {
       "id": "4ea0e77f2e9aa427",
       "title": "Child shot by Israeli forces during West Bank raid into Jenin-area town",
       "description": "Child shot by Israeli forces during West Bank raid into Jenin-area town A thirteen-year-old Palestinian child was injured by Israeli forces' live fire on Sunday during a military raid into the town of Zababdeh, south of Jenin in the occupied West Bank, Wafa news agency reported, citing the Palestine Red Crescent Society (PRCS). The PRCS reported that its emergency crews provided first aid to a child who sustained a live-fire wound to the chest before transporting him to the hospital.",
       "image": "",
       "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
       "source": "Middle East Eye",
       "language": "en",
       "country": "International",
@@ -45,6 +206,9 @@
       "description": "Deadly sand cliff collapses on displaced families in Gaza",
       "image": "",
       "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
       "source": "Al Jazeera",
       "language": "en",
       "country": "International",
@@ -54,9 +218,12 @@
     {
       "id": "58229efe8b6b6a51",
       "title": "Gaza sandbank collapse kills five amid heavy rains",
-      "description": "Gaza sandbank collapse kills five amid heavy rains At least five people have been killed, including three children, after heavy rains caused a sandbank to collapse in central Gaza's Deir al-Balah, Wafa news reported on Sunday. A civil defence spokesman added that five wounded people had been pulled out of the rubble after their tents were hit, and teams are continuing to search for survivors. The incident comes amid worsening conditions faced by displaced Palestinians in Gaza, as national and internation institutions warned heavy rainfall and bad weather require urgent intervention and the pro",
+      "description": "Gaza sandbank collapse kills five amid heavy rains At least five people have been killed, including three children, after heavy rains caused a sandbank to collapse in central Gaza's Deir al-Balah, Wafa news reported on Sunday. A civil defence spokesman added that five wounded people had been pulled out of the rubble after their tents were hit, and teams are continuing to search for survivors. The incident comes amid worsening conditions faced by displaced Palestinians in Gaza, as national and internation institutions warned heavy rainfall and bad weather require urgent intervention and the provision of safe shelter and winter supplies.",
       "image": "",
       "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
       "source": "Middle East Eye",
       "language": "en",
       "country": "International",
@@ -66,9 +233,12 @@
     {
       "id": "88cad794369276ca",
       "title": "Eisenkot says any party involved in next government must commit to action on Hamas",
-      "description": "Eisenkot says any party involved in next government must commit to action on Hamas Israeli opposition leader Gadi Eisenkot has said that any party willing to sign on to the “recognition of Hamas as a terrorist organisation and a commitment to destroying its military and governing capabilities” is a potential partner in his national emergency government. Earlier, Israeli President Isaac Herzog officially gave Eisenkot six weeks to try to form the next government after the success of the anti-Netanyahu bloc in the recent Israeli elections. “Israel does not have the luxury of wasting time or retu",
-      "image": "",
+      "description": "Eisenkot says any party involved in next government must commit to action on Hamas Israeli opposition leader Gadi Eisenkot has said that any party willing to sign on to the “recognition of Hamas as a terrorist organisation and a commitment to destroying its military and governing capabilities” is a potential partner in his national emergency government. Earlier, Israeli President Isaac Herzog officially gave Eisenkot six weeks to try to form the next government after the success of the anti-Netanyahu bloc in the recent Israeli elections. “Israel does not have the luxury of wasting time or returning to endless rounds of elections. The challenges are too urgent,” he said in a speech alongside Herzog, adding that Israel is “in the midst of a destructive diplomatic crisis” as its closest allie",
+      "image": "https://www.middleeasteye.net/sites/default/files/000_D6U96BH.jpg",
       "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
       "source": "Middle East Eye",
       "language": "en",
       "country": "International",
@@ -93,11 +263,29 @@
       "description": "A mass wedding for Palestinian brides and grooms has taken place in the rubble-strewn streets of Gaza.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/354f/live/49a10e60-daba-11f1-b441-2b33b063138f.jpg",
       "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
       "source": "BBC World",
       "language": "en",
       "country": "International",
       "publishedAt": "2026-11-07T17:58:41+00:00",
       "originalUrl": "https://www.bbc.co.uk/news/videos/ckr5ygm78j76o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "420ecbaa1b016b64",
+      "title": "Cara menghitung zakat akhir tahun 2026 dan contoh nominalnya",
+      "description": "Istilah zakat akhir tahun umumnya merujuk pada kebiasaan mengevaluasi harta menjelang pergantian tahun untuk memastikan ...",
+      "image": "https://img.antaranews.com/cache/800x533/2026/09/08/IMG_20260908_102801.jpg.jpeg",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "ANTARA Humaniora",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-10-24T04:53:41+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5809067/cara-menghitung-zakat-akhir-tahun-2026-dan-contoh-nominalnya"
     }
   ]
 }
