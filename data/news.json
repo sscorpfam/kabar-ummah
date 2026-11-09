@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-09T12:16:09.767196+00:00",
-  "total": 20,
-  "newArticles": 15,
+  "lastUpdated": "2026-11-09T22:40:14.301149+00:00",
+  "total": 29,
+  "newArticles": 17,
   "sourcesChecked": 9,
   "sourcesSucceeded": 8,
   "sourcesFailed": 1,
@@ -18,9 +18,9 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 31,
+      "raw": 26,
       "accepted": 1,
-      "filtered": 30,
+      "filtered": 25,
       "error": null
     },
     {
@@ -35,8 +35,8 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 0,
-      "filtered": 50,
+      "accepted": 1,
+      "filtered": 49,
       "error": null
     },
     {
@@ -59,8 +59,8 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 2,
-      "filtered": 18,
+      "accepted": 3,
+      "filtered": 17,
       "error": null
     },
     {
@@ -82,6 +82,168 @@
   ],
   "articles": [
     {
+      "id": "7f2c246d7b1814e7",
+      "title": "How is Gaza coping with another severe winter?",
+      "description": "How is Gaza coping with another severe winter?",
+      "image": "",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sourceCountry": "International",
+      "region": "",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-09T19:47:46+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/9/how-is-gaza-coping-with-another-severe-winter?traffic_source=rss",
+      "originalTitle": "How is Gaza coping with another severe winter?",
+      "originalDescription": "How is Gaza coping with another severe winter?",
+      "translationStatus": "failed",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
+    },
+    {
+      "id": "15d52da74431d73e",
+      "title": "Jerusalem Daily: Deadly aftermath of Gaza rainstorm continues",
+      "description": "Five Palestinians were killed in Gaza when heavy rain collapsed a sand embankment on a displacement camp.",
+      "image": "",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sourceCountry": "International",
+      "region": "",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-09T17:55:47+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/9/jerusalem-daily-deadly-aftermath-of-gaza-rainstorm-continues?traffic_source=rss",
+      "originalTitle": "Jerusalem Daily: Deadly aftermath of Gaza rainstorm continues",
+      "originalDescription": "Five Palestinians were killed in Gaza when heavy rain collapsed a sand embankment on a displacement camp.",
+      "translationStatus": "failed",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
+    },
+    {
+      "id": "2386370aaabc7585",
+      "title": "Three injured as wall collapses on displaced family's tent in Gaza, Al Jazeera reports",
+      "description": "Three injured as wall collapses on displaced family's tent in Gaza, Al Jazeera reports Three Palestinians were injured when a wall collapsed on a tent sheltering displaced people in the Nuseirat refugee camp in central Gaza, a source at al-Awda hospital told Al Jazeera.",
+      "image": "",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sourceCountry": "International",
+      "region": "",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-09T17:18:43+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/three-injured-wall-collapses-displaced-familys-tent-gaza-al-jazeera",
+      "originalTitle": "Three injured as wall collapses on displaced family's tent in Gaza, Al Jazeera reports",
+      "originalDescription": "Three injured as wall collapses on displaced family's tent in Gaza, Al Jazeera reports Three Palestinians were injured when a wall collapsed on a tent sheltering displaced people in the Nuseirat refugee camp in central Gaza, a source at al-Awda hospital told Al Jazeera.",
+      "translationStatus": "failed",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
+    },
+    {
+      "id": "2890b3676902f057",
+      "title": "Anti-Muslim influence campaign targeting UK traced back to Israel",
+      "description": "Anti-Muslim influence campaign targeting UK traced back to Israel Submitted by Imran Mulla on Mon, 11/09/2026 - 14:11 Large numbers of paid advertisements warned of a Qatar-backed Islamic takeover of Britain in run-up to 2024 election and riots Far-right rioters hurl projectiles at police in Bristol, UK, on 3 August 2024 (Justin Tallis/AFP) Off A new investigation has traced a major anti-Muslim propaganda campaign targeting Britain back to Israel . The campaign, uncovered by academics Marc Owen Jones and Sohan Dsouza, was at its height before the UK's 2024 general election and the anti-Muslim riots that raged across the country later that year. It involved large numbers of paid advertisements warning of an Islamic takeover of Britain masterminded by Qatar . \"Between 2024 and 2026, our inve",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Screenshot%202026-11-09%20at%2015.26.44.png.jpg?itok=L45ATZAQ",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Dunia Muslim",
+        "Masjid dan Peradaban",
+        "Islamofobia dan Diskriminasi"
+      ],
+      "source": "Middle East Eye",
+      "sourceCountry": "International",
+      "region": "",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-09T16:41:08+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/major-anti-muslim-influence-campaign-targeting-uk-elections-and-riots-traced-israel",
+      "originalTitle": "Anti-Muslim influence campaign targeting UK traced back to Israel",
+      "originalDescription": "Anti-Muslim influence campaign targeting UK traced back to Israel Submitted by Imran Mulla on Mon, 11/09/2026 - 14:11 Large numbers of paid advertisements warned of a Qatar-backed Islamic takeover of Britain in run-up to 2024 election and riots Far-right rioters hurl projectiles at police in Bristol, UK, on 3 August 2024 (Justin Tallis/AFP) Off A new investigation has traced a major anti-Muslim propaganda campaign targeting Britain back to Israel . The campaign, uncovered by academics Marc Owen Jones and Sohan Dsouza, was at its height before the UK's 2024 general election and the anti-Muslim riots that raged across the country later that year. It involved large numbers of paid advertisements warning of an Islamic takeover of Britain masterminded by Qatar . \"Between 2024 and 2026, our inve",
+      "translationStatus": "failed",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
+    },
+    {
+      "id": "e0040cc8530253a5",
+      "title": "Kemenhaj Sumbar upayakan pemulangan jamaah umrah asal Pasaman Barat",
+      "description": "Kantor Wilayah (Kanwil) Kementerian Haji dan Umrah (Kemenhaj) Sumatera Barat (Sumbar) mengupayakan pemulangan jamaah ...",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/09/36421.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "ANTARA Terkini",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-09T15:33:24+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5842751/kemenhaj-sumbar-upayakan-pemulangan-jamaah-umrah-asal-pasaman-barat",
+      "translationStatus": "not_needed"
+    },
+    {
+      "id": "5b4ce1e03708c74e",
+      "title": "More than 200,000 join Amsterdam march against Gaza genocide",
+      "description": "More than 200,000 join Amsterdam march against Gaza genocide Submitted by MEE staff on Mon, 11/09/2026 - 14:35 Protesters want the Netherlands to halt arms sales to Israel, tighten sanctions and recognise the Gaza genocide Demonstrators take part in a \"Red Line\" protest demanding \"government action to stop the genocide in Gaza\" in Amsterdam on October 5, 2025. (Koen van Weel/ANP/AFP) Off Tens of thousands of people marched through Amsterdam on Sunday, demanding that the Dutch government end arms sales to Israel and impose tougher trade sanctions over its genocide in Gaza. Many wore red for the Red Line protest, which drew more than 200,000 people, according to Amnesty International’s Dutch branch, one of the organisers. Campaigners called on the Netherlands to formally recognise Israel’s a",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_77R8387.jpg.jpg?itok=GgFIIlDm",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sourceCountry": "International",
+      "region": "",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-09T14:46:58+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/more-200000-join-amsterdam-march-against-gaza-genocide",
+      "originalTitle": "More than 200,000 join Amsterdam march against Gaza genocide",
+      "originalDescription": "More than 200,000 join Amsterdam march against Gaza genocide Submitted by MEE staff on Mon, 11/09/2026 - 14:35 Protesters want the Netherlands to halt arms sales to Israel, tighten sanctions and recognise the Gaza genocide Demonstrators take part in a \"Red Line\" protest demanding \"government action to stop the genocide in Gaza\" in Amsterdam on October 5, 2025. (Koen van Weel/ANP/AFP) Off Tens of thousands of people marched through Amsterdam on Sunday, demanding that the Dutch government end arms sales to Israel and impose tougher trade sanctions over its genocide in Gaza. Many wore red for the Red Line protest, which drew more than 200,000 people, according to Amnesty International’s Dutch branch, one of the organisers. Campaigners called on the Netherlands to formally recognise Israel’s a",
+      "translationStatus": "failed",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
+    },
+    {
+      "id": "4a0636c2172fba4f",
+      "title": "Pemerintah Umumkan Biaya Pelunasan Haji 2027 per Embarkasi, Ini Rinciannya",
+      "description": "JAKARTA -- Pemerintah melalui Kementerian Haji dan Umrah mengumumkan besaran pelunasan Biaya Perjalanan Ibadah Haji (Bipih) 1448 Hijriah/2027 Masehi yang harus dibayarkan jamaah berdasarkan embarkasi keberangkatan. “Kami mengimbau jamaah haji...",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/012963900-1781062288-830-556.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "Republika",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-09T14:10:00+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/to8n3t423/pemerintah-umumkan-biaya-pelunasan-haji-2027-per-embarkasi-ini-rinciannya",
+      "translationStatus": "not_needed"
+    },
+    {
+      "id": "93eba80e8f5a69cd",
+      "title": "Pemerintah Kembali Tegaskan Jamaah dengan 9 Penyakit Berikut Bisa Batal Haji Permanen",
+      "description": "JAKARTA – Kementerian Haji dan Umrah (Kemenhaj) RI mengingatkan calon jamaah haji untuk memperhatikan kondisi kesehatan sejak dini menjelang penyelenggaraan ibadah haji 2027. Calon jamaah yang masuk kategori sembilan penyakit...",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/004797400-1782790905-830-556.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "Republika",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-09T13:44:34+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/to8m6a320/pemerintah-kembali-tegaskan-jamaah-dengan-9-penyakit-berikut-bisa-batal-haji-permanen",
+      "translationStatus": "not_needed"
+    },
+    {
       "id": "e9c11a0a45d3726d",
       "title": "Gaza authorities slam global ‘inaction’ after mudslide kills five people",
       "description": "Four children and a woman were killed after heavy rain caused a sandbank to collapse on their tent.",
@@ -99,6 +261,27 @@
       "originalUrl": "https://www.aljazeera.com/news/2026/11/9/gaza-authorities-slam-global-inaction-after-mudslide-kills-five-people?traffic_source=rss",
       "originalTitle": "Gaza authorities slam global ‘inaction’ after mudslide kills five people",
       "originalDescription": "Four children and a woman were killed after heavy rain caused a sandbank to collapse on their tent.",
+      "translationStatus": "failed",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
+    },
+    {
+      "id": "aa3a8317433b5331",
+      "title": "Four killed in Gaza after sand embankment collapses onto tents, health ministry says",
+      "description": "Three children are among those killed in the incident that came a day after heavy rain reportedly flooded tens of thousands of tents across Gaza.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/84c7/live/fc845070-dc20-11f1-a701-fddedf244c16.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "BBC World",
+      "sourceCountry": "International",
+      "region": "",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-09T10:41:57+00:00",
+      "originalUrl": "https://www.bbc.co.uk/news/articles/cqd090ee8px5o?at_medium=RSS&at_campaign=rss",
+      "originalTitle": "Four killed in Gaza after sand embankment collapses onto tents, health ministry says",
+      "originalDescription": "Three children are among those killed in the incident that came a day after heavy rain reportedly flooded tens of thousands of tents across Gaza.",
       "translationStatus": "failed",
       "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
     },
