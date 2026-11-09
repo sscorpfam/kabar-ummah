@@ -5,7 +5,7 @@ import re
 import time
 from deep_translator import GoogleTranslator
 
-# 1. Kata kunci Islami & Umat (Indonesia)
+# 1. Kata Kunci Islami & Umat (Indonesia)
 ISLAMIC_KEYWORDS_ID = [
     'islam', 'islami', 'muslim', 'muslimah', 'alquran', 'al-qur\'an', 'hadits', 'hadis', 
     'sunnah', 'zakat', 'infaq', 'sedekah', 'wakaf', 'shalat', 'salat', 'solat', 'puasa', 
@@ -15,16 +15,15 @@ ISLAMIC_KEYWORDS_ID = [
     'ekonomi syariah', 'bank syariah', 'palestina', 'gaza', 'al-aqsa', 'alaqsa'
 ]
 
-# 2. Kata kunci Islami & Palestina (English / International)
+# 2. Kata Kunci Islami & Palestina (English)
 ISLAMIC_KEYWORDS_EN = [
     'islam', 'islamic', 'muslim', 'muslims', 'quran', 'koran', 'hadith', 'sunnah', 
-    'zakat', 'palestine', 'palestinian', 'gaza', 'al-aqsa', 'alaqsa', 'aqsa', 'ramadan', 
+    'zakat', 'palestine', 'palestinian', 'gaza', 'al-aqsa', 'aqsa', 'ramadan', 
     'hajj', 'umrah', 'mosque', 'scholars', 'sharia', 'shariah', 'halal', 
     'islamophobia', 'fatwa', 'imam', 'caliphate', 'jerusalem', 'west bank', 
     'rafah', 'jenin', 'khan younis', 'ceasefire', 'martyr', 'occupation'
 ]
 
-# 3. Kata Kunci Penolak Berita Non-Islami / Hiburan / Olahraga Murni
 EXCLUDE_KEYWORDS = [
     'casino', 'gambling', 'judi', 'narkoba', 'lgbt', 'hollywood', 'celebrity gossip', 
     'stock market', 'premier league', 'champions league', 'bursa efek'
@@ -51,23 +50,23 @@ def detect_category(title, summary, default_category="Hikmah & Ibadah"):
                     return category_name
     return default_category
 
-def is_strict_islamic_content(title, summary, lang='id'):
+def is_valid_news(title, summary, lang='id', is_trusted=False):
     """
-    Validasi ketat berdasarkan bahasa berita (ID / EN)
+    Validasi kelayakan berita. Jika dari sumber internasional tepercaya (WAFA/Palestine Chronicle),
+    otomatis loloskan agar berita luar negeri tidak terbuang.
     """
+    if is_trusted:
+        return True
+
     content = f"{title} {summary}".lower()
 
-    # Reject jika ada kata kunci terlarang
     for bad_word in EXCLUDE_KEYWORDS:
         pattern = r'(?<!\w)' + re.escape(bad_word) + r'(?!\w)'
         if re.search(pattern, content):
             return False
 
-    # Pilih kamus kata kunci berdasarkan bahasa asal feed
     keywords_to_check = ISLAMIC_KEYWORDS_EN if lang == 'en' else ISLAMIC_KEYWORDS_ID
-
     for keyword in keywords_to_check:
-        # Gunakan regex boundary safe untuk tanda hubung (-) dan petik (')
         pattern = r'(?<!\w)' + re.escape(keyword) + r'(?!\w)'
         if re.search(pattern, content):
             return True
@@ -82,19 +81,21 @@ def clean_html(text):
     return re.sub(r'\s+', ' ', text).strip()
 
 def safe_translate(text):
+    """
+    Menerjemahkan dengan pengaman error: Jika server penerjemah sibuk,
+    kembalikan teks asli agar data berita TIDAK hilang.
+    """
     if not text:
         return text
-    text_to_translate = text[:500]
-    for attempt in range(2):
-        try:
-            translator = GoogleTranslator(source='auto', target='id')
-            translated = translator.translate(text_to_translate)
-            time.sleep(1.0)
-            return translated
-        except Exception as e:
-            print(f"  [Error Translate] Menunggu retry... ({e})")
-            time.sleep(1.5)
-    return text_to_translate
+    text_short = text[:400]
+    try:
+        translator = GoogleTranslator(source='auto', target='id')
+        translated = translator.translate(text_short)
+        time.sleep(0.8) # Jeda aman
+        return translated
+    except Exception as e:
+        print(f"  [Info Translate] Menggunakan teks asli karena limit: {e}")
+        return text_short
 
 def fetch_news():
     if not os.path.exists('aggregator/sources.json'):
@@ -111,8 +112,9 @@ def fetch_news():
         try:
             feed = feedparser.parse(source['url'], agent=user_agent)
             lang = source.get('language', 'id')
-            
-            print(f"[Info] Memproses {source['name']} ({len(feed.entries)} berita)...")
+            is_trusted_source = source.get('category') in ['Dunia Islam & Palestina', 'palestina']
+
+            print(f"[Proses] Fetching {source['name']} ({len(feed.entries)} item ditemukan)...")
 
             for entry in feed.entries[:15]:
                 title_raw = clean_html(entry.get('title', ''))
@@ -120,8 +122,7 @@ def fetch_news():
                 link = entry.get('link', '')
                 published = entry.get('published', entry.get('updated', ''))
 
-                # Filter sesuai bahasa sumber (EN atau ID)
-                if is_strict_islamic_content(title_raw, summary_raw, lang=lang):
+                if is_valid_news(title_raw, summary_raw, lang=lang, is_trusted=is_trusted_source):
                     matched_category = detect_category(title_raw, summary_raw, source.get('category', 'Hikmah & Ibadah'))
                     
                     title = title_raw
@@ -129,7 +130,7 @@ def fetch_news():
 
                     # Terjemahkan jika berita bahasa Inggris
                     if lang == 'en':
-                        print(f"  -> Menerjemahkan: {title_raw[:40]}...")
+                        print(f"  -> Process EN: {title_raw[:35]}...")
                         title = safe_translate(title_raw)
                         if summary_raw:
                             summary = safe_translate(summary_raw[:250])
@@ -147,7 +148,7 @@ def fetch_news():
         except Exception as e:
             print(f"[Error] Gagal pada sumber {source.get('name')}: {e}")
 
-    # Hapus duplikat berita
+    # Hapus duplikat berdasarkan judul
     seen_titles = set()
     unique_news = []
     for news in all_news:
@@ -156,7 +157,7 @@ def fetch_news():
             seen_titles.add(title_key)
             unique_news.append(news)
 
-    # Simpan ke file data/news.json
+    # Simpan hingga 80 berita terbaru
     os.makedirs('data', exist_ok=True)
     with open('data/news.json', 'w', encoding='utf-8') as f:
         json.dump(unique_news[:80], f, ensure_ascii=False, indent=2)
