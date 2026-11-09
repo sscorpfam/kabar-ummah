@@ -1,7 +1,31 @@
-
 {
   "status": "success",
-  "lastUpdated": null,
-  "total": 0,
-  "articles": []
+  "lastUpdated": "2026-11-09T03:19:14.224907+00:00",
+  "total": 2,
+  "articles": [
+    {
+      "id": "0fec8f0159716b0d",
+      "title": "Deadly sand cliff collapses on displaced families in Gaza",
+      "description": "Deadly sand cliff collapses on displaced families in Gaza",
+      "image": "",
+      "category": "Palestina",
+      "source": "Al Jazeera",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-08T21:05:07+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/8/deadly-sand-cliff-collapses-on-displaced-families-in-gaza?traffic_source=rss"
+    },
+    {
+      "id": "6f87cce88ee43aa9",
+      "title": "Gaza wedding festival sees 250 couples married at the same time",
+      "description": "A mass wedding for Palestinian brides and grooms has taken place in the rubble-strewn streets of Gaza.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/354f/live/49a10e60-daba-11f1-b441-2b33b063138f.jpg",
+      "category": "Palestina",
+      "source": "BBC World",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-07T17:58:41+00:00",
+      "originalUrl": "https://www.bbc.co.uk/news/videos/ckr5ygm78j76o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
 }
