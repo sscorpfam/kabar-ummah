@@ -1,96 +1,122 @@
-import os
-import re
-import json
-import html
-import hashlib
-import logging
-from datetime import datetime, timezone, timedelta
-from email.utils import parsedate_to_datetime
-from urllib.parse import urlsplit, urlunsplit
+    )
 
-import requests
-import feedparser
+    valid_articles = []
 
+    for article in merged.values():
 
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+        try:
+            date = datetime.fromisoformat(
+                article["publishedAt"].replace("Z", "+00:00")
+            )
 
-SOURCES_FILE = os.path.join(
-    BASE_DIR, "aggregator", "sources.json"
-)
+            if date.tzinfo is None:
+                date = date.replace(tzinfo=timezone.utc)
 
-CATEGORIES_FILE = os.path.join(
-    BASE_DIR, "aggregator", "categories.json"
-)
+            if date < cutoff:
+                continue
 
-OUTPUT_FILE = os.path.join(
-    BASE_DIR, "data", "news.json"
-)
+        except Exception:
+            pass
 
+        valid_articles.append(article)
 
-MAX_ARTICLES = 500
-MAX_AGE_DAYS = 90
-TIMEOUT = 25
+    valid_articles.sort(
+        key=lambda item: item.get("publishedAt", ""),
+        reverse=True
+    )
 
-HEADERS = {
-    "User-Agent": "KabarUmmahNewsBot/1.0 (+https://github.com/sscorpfam/kabar-ummah)",
-    "Accept": "application/rss+xml, application/xml, text/xml, */*"
-}
-
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(levelname)s: %(message)s"
-)
+    return valid_articles[:MAX_ARTICLES]
 
 
 # =========================================================
-# FILTER KHUSUS BERITA ISLAMI
+# MAIN
 # =========================================================
 
-ISLAMIC_KEYWORDS = [
-    # Identitas dan komunitas Islam
-    "islam", "islami", "islamic", "muslim", "muslimah",
-    "umat islam", "umat muslim", "kaum muslimin",
-    "masyarakat muslim", "komunitas muslim",
+def main():
 
-    # Al-Quran dan hadis
-    "al quran", "alquran", "quran", "qur'an",
-    "mushaf", "ayat alquran", "tafsir",
-    "hadis", "hadits", "sunnah", "sahih",
-    "ulumul quran", "ilmu hadis",
+    sources = load_json(
+        SOURCES_FILE,
+        default=[]
+    )
 
-    # Ibadah
-    "shalat", "salat", "sholat", "sujud",
-    "zakat", "infak", "infaq", "sedekah",
-    "puasa", "shaum", "ramadan", "ramadhan",
-    "haji", "umrah", "qurban", "kurban",
-    "tahajud", "tarawih", "witir",
-    "azan", "adzan", "iqamah",
-    "doa", "dzikir", "zikir", "istighfar",
-    "wudhu", "wudu", "tayamum",
+    categories = load_json(
+        CATEGORIES_FILE,
+        default={}
+    )
 
-    # Ulama dan tokoh Islam
-    "ulama", "ustadz", "ustaz", "kyai", "kiai",
-    "dai", "da'i", "mufti", "imam",
-    "habib", "syekh", "syaikh",
-    "ustadzah", "ustazah",
+    if not sources:
+        raise RuntimeError("Daftar RSS kosong.")
 
-    # Nabi dan sejarah Islam
-    "nabi", "rasul", "rasulullah",
-    "muhammad saw", "muhammad ﷺ",
-    "sahabat nabi", "tabiin", "tabi'in",
-    "sirah nabawi", "sejarah islam",
-    "peradaban islam", "khilafah",
-    "bani umayyah", "bani abbasiyah",
-    "khulafaur rasyidin",
+    if not categories:
+        raise RuntimeError("Kategori berita kosong.")
 
-    # Pendidikan, dakwah, dan hukum Islam
-    "dakwah", "dakwah islam", "kajian islam",
-    "kajian islami", "ceramah agama",
-    "pesantren", "madrasah", "santri",
-    "majelis taklim", "majelis ilmu",
-    "fatwa", "fikih", "fiqih", "akidah",
-    "aqidah", "syariah", "syariat",
-    "hukum islam", "pendidikan islam",
-    "ekonomi syariah", "perbankan syariah",
-    "wakaf", "badan amil zakat",
+    previous_articles = load_previous_articles()
+
+    all_articles = []
+    source_stats = []
+
+    for source in sources:
+
+        articles, stats = fetch_source(
+            source,
+            categories
+        )
+
+        all_articles.extend(articles)
+        source_stats.append(stats)
+
+    successful = sum(
+        1 for item in source_stats
+        if item["status"] == "success"
+    )
+
+    failed = len(source_stats) - successful
+
+    final_articles = merge_articles(
+        all_articles,
+        previous_articles
+    )
+
+    if successful == 0:
+        status = "error"
+    elif failed > 0:
+        status = "partial"
+    else:
+        status = "success"
+
+    result = {
+        "status": status,
+        "lastUpdated": datetime.now(
+            timezone.utc
+        ).isoformat(),
+        "total": len(final_articles),
+        "newArticles": len(all_articles),
+        "sourcesChecked": len(sources),
+        "sourcesSucceeded": successful,
+        "sourcesFailed": failed,
+        "sourceStats": source_stats,
+        "articles": final_articles
+    }
+
+    save_json(
+        OUTPUT_FILE,
+        result
+    )
+
+    logging.info("--------------------------------")
+    logging.info("Status: %s", status)
+    logging.info("Sumber berhasil: %d/%d", successful, len(sources))
+    logging.info("Berita baru lolos filter: %d", len(all_articles))
+    logging.info("Total berita tersimpan: %d", len(final_articles))
+    logging.info("--------------------------------")
+
+    # Jika semua sumber gagal, workflow dibuat gagal
+    # agar masalah terlihat di GitHub Actions.
+    if successful == 0:
+        raise RuntimeError(
+            "Semua sumber RSS gagal diakses."
+        )
+
+
+if __name__ == "__main__":
+    main()
