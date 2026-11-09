@@ -27,9 +27,13 @@ OUTPUT_FILE = os.path.join(BASE_DIR, "data", "news.json")
 
 MAX_ARTICLES = 500
 MAX_AGE_DAYS = 90
-TIMEOUT = 25
-TRANSLATION_RETRIES = 2
-TRANSLATION_RETRY_DELAY = 2
+TIMEOUT = 40  # Timeout RSS; beberapa server berita lambat merespons.
+
+# Google Translate tidak resmi (deep-translator) dapat membatasi permintaan
+# dari IP GitHub Actions. Batasi frekuensi dan gunakan jeda bertingkat.
+TRANSLATION_MIN_INTERVAL = 3.0  # Minimal 3 detik antarpermintaan.
+TRANSLATION_RETRY_DELAYS = (10, 30, 60)  # Jeda jika layanan menolak permintaan.
+_last_translation_request = 0.0
 
 HEADERS = {
     "User-Agent": "KabarUmmahNewsBot/1.0 (+https://github.com/sscorpfam/kabar-ummah)",
@@ -351,21 +355,42 @@ def is_english_language(language):
 
 
 def translate_text(text, translator):
+    """Terjemahkan teks dengan pembatasan laju dan retry bertahap."""
+    global _last_translation_request
+
     text = str(text or "").strip()
     if not text:
         return ""
 
     last_error = None
-    for attempt in range(TRANSLATION_RETRIES + 1):
+    total_attempts = len(TRANSLATION_RETRY_DELAYS) + 1
+
+    for attempt in range(total_attempts):
         try:
+            # Pastikan jarak antar-request tidak terlalu rapat.
+            elapsed = time.monotonic() - _last_translation_request
+            wait_time = TRANSLATION_MIN_INTERVAL - elapsed
+            if wait_time > 0:
+                time.sleep(wait_time)
+
+            _last_translation_request = time.monotonic()
             translated = translator.translate(text)
+
             if not translated or not str(translated).strip():
                 raise ValueError("Hasil terjemahan kosong")
+
             return str(translated).strip()
+
         except Exception as error:
             last_error = error
-            if attempt < TRANSLATION_RETRIES:
-                time.sleep(TRANSLATION_RETRY_DELAY)
+            if attempt < len(TRANSLATION_RETRY_DELAYS):
+                delay = TRANSLATION_RETRY_DELAYS[attempt]
+                logging.warning(
+                    "Permintaan terjemahan gagal (percobaan %d/%d). "
+                    "Coba lagi dalam %d detik: %s",
+                    attempt + 1, total_attempts, delay, error,
+                )
+                time.sleep(delay)
 
     raise RuntimeError(str(last_error))
 
@@ -403,6 +428,7 @@ def translate_article(article):
         article["description"] = translated_description
         article["translationStatus"] = "success"
         article["translatedTo"] = "id"
+        article.pop("translationError", None)
 
         logging.info("Terjemahan berhasil: %s", original_title[:100])
 
