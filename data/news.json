@@ -1,311 +1,236 @@
-{
-  "status": "success",
-  "lastUpdated": "2026-11-09T03:43:35.428433+00:00",
-  "total": 15,
-  "newArticles": 10,
-  "sourcesChecked": 7,
-  "sourcesSucceeded": 7,
-  "sourcesFailed": 0,
-  "sourceStats": [
-    {
-      "name": "Al Jazeera",
-      "status": "success",
-      "raw": 25,
-      "accepted": 1,
-      "filtered": 24,
-      "error": null
-    },
-    {
-      "name": "BBC World",
-      "status": "success",
-      "raw": 27,
-      "accepted": 1,
-      "filtered": 26,
-      "error": null
-    },
-    {
-      "name": "Republika",
-      "status": "success",
-      "raw": 15,
-      "accepted": 1,
-      "filtered": 14,
-      "error": null
-    },
-    {
-      "name": "ANTARA Terkini",
-      "status": "success",
-      "raw": 50,
-      "accepted": 2,
-      "filtered": 48,
-      "error": null
-    },
-    {
-      "name": "ANTARA Dunia",
-      "status": "success",
-      "raw": 20,
-      "accepted": 0,
-      "filtered": 20,
-      "error": null
-    },
-    {
-      "name": "ANTARA Humaniora",
-      "status": "success",
-      "raw": 20,
-      "accepted": 1,
-      "filtered": 19,
-      "error": null
-    },
-    {
-      "name": "Middle East Eye",
-      "status": "success",
-      "raw": 20,
-      "accepted": 4,
-      "filtered": 16,
-      "error": null
-    }
-  ],
-  "articles": [
-    {
-      "id": "9f3df26805d0201b",
-      "title": "Harga tiga jenama emas di Pegadaian kompak stabil pada Senin",
-      "description": "Harga emas di laman Pegadaian dikutip dari Jakarta, Senin, pukul 10.12 WIB, menunjukkan harga emas jenama Galeri24, ...",
-      "image": "https://img.antaranews.com/cache/800x533/2026/03/29/bazar-emas-pegadaian-di-palu-2718734.jpg",
-      "category": "Dakwah dan Ulama",
-      "tags": [
-        "Dakwah dan Ulama"
-      ],
-      "source": "ANTARA Terkini",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T03:20:11+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5840659/harga-tiga-jenama-emas-di-pegadaian-kompak-stabil-pada-senin"
-    },
-    {
-      "id": "02785f0ddcdcdff9",
-      "title": "Khofifah minta seleksi Petugas Haji Daerah 2027 berjalan transparan",
-      "description": "Gubernur Jawa Timur Khofifah Indar Parawansa meminta seleksi Petugas Haji Daerah (PHD) 1448 Hijriah/2027 Masehi ...",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/09/1662580.jpg",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "ANTARA Terkini",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T02:58:24+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5840619/khofifah-minta-seleksi-petugas-haji-daerah-2027-berjalan-transparan"
-    },
-    {
-      "id": "1914b1a23f2ca06a",
-      "title": "Kronologi Penyerangan Mendadak ke Jamaah Shalat Subuh di Jaktim Versi Polisi",
-      "description": "JAKARTA -- Polda Metro Jaya menangani kasus penyerangan menggunakan senjata tajam terhadap jamaah yang hendak melaksanakan shalat Subuh di Masjid Darul Ma’arif, Pondok Kelapa, Duren Sawit, Jakarta Timur, pada...",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/garis-polisi-ilustrasi-_140812075244-795.jpg",
-      "category": "Masjid dan Peradaban",
-      "tags": [
-        "Masjid dan Peradaban"
-      ],
-      "source": "Republika",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T02:37:02+00:00",
-      "originalUrl": "https://news.republika.co.id/berita/to7r9q377/kronologi-penyerangan-mendadak-ke-jamaah-shalat-subuh-di-jaktim-versi-polisi"
-    },
-    {
-      "id": "fe19ed11f5e6cfe4",
-      "title": "BMKG: Waspada gelombang 2,5 meter di perairan NTT hingga 12 November",
-      "description": "Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) mengimbau masyarakat mewaspadai potensi gelombang laut setinggi ...",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/09/1000000340.jpg",
-      "category": "Dakwah dan Ulama",
-      "tags": [
-        "Dakwah dan Ulama"
-      ],
-      "source": "ANTARA Terkini",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T02:35:51+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5840591/bmkg-waspada-gelombang-25-meter-di-perairan-ntt-hingga-12-november"
-    },
-    {
-      "id": "f594657fc3097a6b",
-      "title": "Banjir di Gaza Tiga Anak-Anak Meninggal",
-      "description": "Hujan deras membanjiri ribuan tenda di seluruh Gaza sejak Sabtu, membuat keluarga-keluarga pengungsi terpapar cuaca dingin, genangan air yang terus naik, serta risiko kerusakan lebih lanjut pada bangunan-bangunan yang...",
-      "image": "https://static.republika.co.id/uploads/images/medium_portrait/074453400-1794190503-oardefaultjpg.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Republika",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T02:15:02+00:00",
-      "originalUrl": "https://republika.co.id/page/shorts/yt-to7q921361291241/banjir-di-gaza-tiga-anak-anak-meninggal"
-    },
-    {
-      "id": "54ea139523ea2ad4",
-      "title": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency",
-      "description": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitarian needs. Gaza's civil defence declared a maximum state of emergency as overwhelmed rescue teams struggled to respond to thousands of distress calls amid limited resources and inadequate shelter. Rescue teams received over 2000 distress calls since the storm began, while only having capacity to respond to a tenth of the calls received. Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitari",
-      "image": "",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sourceCountry": "International",
-      "region": "",
-      "language": "en",
-      "country": "International",
-      "publishedAt": "2026-11-09T02:08:15+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-flooding-brings-gazas-civil-defence-declare-maximum-state"
-    },
-    {
-      "id": "dd1f2d0625b0000f",
-      "title": "Kiai Kampung se-Indonesia doakan keselamatan bangsa danPresiden",
-      "description": "Mujadalah Kiai Kampung (MKK) se-Indonesia melaksanakan gerakan doa bersama dan munajat nasional secara serentak di ...",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/09/1000897706.jpg",
-      "category": "Dakwah dan Ulama",
-      "tags": [
-        "Dakwah dan Ulama"
-      ],
-      "source": "ANTARA Terkini",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T01:49:15+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5840559/kiai-kampung-se-indonesia-doakan-keselamatan-bangsa-danpresiden"
-    },
-    {
-      "id": "b7a490a204e810ad",
-      "title": "BMKG: Waspadai cuaca hujan di mayoritas wilayah Indonesia pada Senin",
-      "description": "Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) memprakirakan cuaca di berbagai wilayah Indonesia pada Senin ...",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/02/IMG_5679.jpeg",
-      "category": "Dakwah dan Ulama",
-      "tags": [
-        "Dakwah dan Ulama"
-      ],
-      "source": "ANTARA Terkini",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T00:31:53+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5840491/bmkg-waspadai-cuaca-hujan-di-mayoritas-wilayah-indonesia-pada-senin"
-    },
-    {
-      "id": "4ea0e77f2e9aa427",
-      "title": "Child shot by Israeli forces during West Bank raid into Jenin-area town",
-      "description": "Child shot by Israeli forces during West Bank raid into Jenin-area town A thirteen-year-old Palestinian child was injured by Israeli forces' live fire on Sunday during a military raid into the town of Zababdeh, south of Jenin in the occupied West Bank, Wafa news agency reported, citing the Palestine Red Crescent Society (PRCS). The PRCS reported that its emergency crews provided first aid to a child who sustained a live-fire wound to the chest before transporting him to the hospital.",
-      "image": "",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sourceCountry": "International",
-      "region": "",
-      "language": "en",
-      "country": "International",
-      "publishedAt": "2026-11-08T22:44:09+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/child-shot-israeli-forces-during-west-bank-raid-jenin-area-town"
-    },
-    {
-      "id": "0fec8f0159716b0d",
-      "title": "Deadly sand cliff collapses on displaced families in Gaza",
-      "description": "Deadly sand cliff collapses on displaced families in Gaza",
-      "image": "",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Al Jazeera",
-      "sourceCountry": "International",
-      "region": "",
-      "language": "en",
-      "country": "International",
-      "publishedAt": "2026-11-08T21:05:07+00:00",
-      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/8/deadly-sand-cliff-collapses-on-displaced-families-in-gaza?traffic_source=rss"
-    },
-    {
-      "id": "58229efe8b6b6a51",
-      "title": "Gaza sandbank collapse kills five amid heavy rains",
-      "description": "Gaza sandbank collapse kills five amid heavy rains At least five people have been killed, including three children, after heavy rains caused a sandbank to collapse in central Gaza's Deir al-Balah, Wafa news reported on Sunday. A civil defence spokesman added that five wounded people had been pulled out of the rubble after their tents were hit, and teams are continuing to search for survivors. The incident comes amid worsening conditions faced by displaced Palestinians in Gaza, as national and internation institutions warned heavy rainfall and bad weather require urgent intervention and the provision of safe shelter and winter supplies.",
-      "image": "",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sourceCountry": "International",
-      "region": "",
-      "language": "en",
-      "country": "International",
-      "publishedAt": "2026-11-08T19:53:24+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/gaza-sandbank-collapse-kills-5-amid-heavy-rains"
-    },
-    {
-      "id": "88cad794369276ca",
-      "title": "Eisenkot says any party involved in next government must commit to action on Hamas",
-      "description": "Eisenkot says any party involved in next government must commit to action on Hamas Israeli opposition leader Gadi Eisenkot has said that any party willing to sign on to the “recognition of Hamas as a terrorist organisation and a commitment to destroying its military and governing capabilities” is a potential partner in his national emergency government. Earlier, Israeli President Isaac Herzog officially gave Eisenkot six weeks to try to form the next government after the success of the anti-Netanyahu bloc in the recent Israeli elections. “Israel does not have the luxury of wasting time or returning to endless rounds of elections. The challenges are too urgent,” he said in a speech alongside Herzog, adding that Israel is “in the midst of a destructive diplomatic crisis” as its closest allie",
-      "image": "https://www.middleeasteye.net/sites/default/files/000_D6U96BH.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sourceCountry": "International",
-      "region": "",
-      "language": "en",
-      "country": "International",
-      "publishedAt": "2026-11-08T19:35:21+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/eisenkot-says-any-party-involved-next-government-must-commit-action"
-    },
-    {
-      "id": "bb157927cb00c228",
-      "title": "Israel kills two Palestinians in attack on Gaza's Khan Younis",
-      "description": "Israel kills two Palestinians in attack on Gaza's Khan Younis Israeli bombardment of southern Gaza's Khan Younis city has killed two people, including a woman, Wafa reports citing a medical source. According to the source, the attack struck a group of civilians near the Taiba Towers, in the city's west, resulting in the two fatalaties and several other casualties.",
-      "image": "",
-      "category": "Palestina",
-      "source": "Middle East Eye",
-      "language": "en",
-      "country": "International",
-      "publishedAt": "2026-11-08T15:59:50+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-kills-two-palestinians-attack-gazas-khan-younis"
-    },
-    {
-      "id": "6f87cce88ee43aa9",
-      "title": "Gaza wedding festival sees 250 couples married at the same time",
-      "description": "A mass wedding for Palestinian brides and grooms has taken place in the rubble-strewn streets of Gaza.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/354f/live/49a10e60-daba-11f1-b441-2b33b063138f.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "BBC World",
-      "sourceCountry": "International",
-      "region": "",
-      "language": "en",
-      "country": "International",
-      "publishedAt": "2026-11-07T17:58:41+00:00",
-      "originalUrl": "https://www.bbc.co.uk/news/videos/ckr5ygm78j76o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "420ecbaa1b016b64",
-      "title": "Cara menghitung zakat akhir tahun 2026 dan contoh nominalnya",
-      "description": "Istilah zakat akhir tahun umumnya merujuk pada kebiasaan mengevaluasi harta menjelang pergantian tahun untuk memastikan ...",
-      "image": "https://img.antaranews.com/cache/800x533/2026/09/08/IMG_20260908_102801.jpg.jpeg",
-      "category": "Ekonomi Syariah",
-      "tags": [
-        "Ekonomi Syariah"
-      ],
-      "source": "ANTARA Humaniora",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-10-24T04:53:41+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5809067/cara-menghitung-zakat-akhir-tahun-2026-dan-contoh-nominalnya"
-    }
-  ]
-}
+[
+  {
+    "title": "Muktamar ICMI VIII Digelar di Ambon, Bahas Peran Cendekiawan untuk Indonesia",
+    "summary": "JAKARTA &mdash; Ikatan Cendekiawan Muslim se-Indonesia (ICMI) akan menggelar Muktamar ICMI VIII 2026 dengan rangkaian kegiatan yang berlangsung di Jakarta dan Ambon. Presiden dijadwalkan membuka muktamar melalui penyampaian Pidato...",
+    "link": "https://khazanah.republika.co.id/berita/to7qq9370/muktamar-icmi-viii-digelar-di-ambon-bahas-peran-cendekiawan-untuk-indonesia",
+    "published": "Mon, 09 Nov 2026 09:25:21 +0700",
+    "source_name": "Republika Khazanah",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Serap Aspirasi Jamaah di Makkah, Menhaj Siapkan Perbaikan Layanan Haji 2027",
+    "summary": "MAKKAH -- Menteri Haji dan Umrah (Menhaj) RI, Mochamad Irfan Yusuf, menyerap aspirasi dan masukan langsung dari jamaah sebagai bahan peningkatan kualitas layanan haji dan umrah. Hal tersebut dilakukan...",
+    "link": "https://khazanah.republika.co.id/berita/to7pre366/serap-aspirasi-jamaah-di-makkah-menhaj-siapkan-perbaikan-layanan-haji-2027",
+    "published": "Mon, 09 Nov 2026 09:04:26 +0700",
+    "source_name": "Republika Khazanah",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Doktor Unas Ungkap Etika Islam dalam Forum Ekologi Spiritual 2026 di Taiwan",
+    "summary": "TAIWAN &mdash; Dekan Fakultas Biologi dan Pertanian (FBP) Universitas Nasional (UNAS), Dr. Fachruddin M. Mangunjaya, mendapat undangan sebagai pembicara dalam International Spiritual Ecology Forum 2026 yang berlangsung pada 7&ndash;9...",
+    "link": "https://khazanah.republika.co.id/berita/to6r59483/doktor-unas-ungkap-etika-islam-dalam-forum-ekologi-spiritual-2026-di-taiwan",
+    "published": "Sun, 08 Nov 2026 20:36:45 +0700",
+    "source_name": "Republika Khazanah",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Jimly Minta Penyadapan Presiden Diusut hingga ke Akarnya",
+    "summary": "JAKARTA -- Ketua Pembina Aksi Bela Rakyat Indonesia, Prof Jimly Asshiddiqie meminta Kapolri mengusut tuntas dugaan penyadapan terhadap Presiden Prabowo Subianto hingga ke akar-akarnya. Dia menilai, dugaan penyadapan tersebut...",
+    "link": "https://khazanah.republika.co.id/berita/to6am0430/jimly-minta-penyadapan-presiden-diusut-hingga-ke-akarnya",
+    "published": "Sun, 08 Nov 2026 14:39:36 +0700",
+    "source_name": "Republika Khazanah",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Menimbang Keadilan Tuhan dari Tiga Mimbar Tafsir",
+    "summary": "Judul Artikel: Menggugat Keadilan Tuhan: Studi Komparasi Tafsīr Al-Kasysyāf, Al-Tafsīr Al-Munīr, dan Tafsir Al-MīzānPenulis: Hasani Ahmad Said, Azizah Romadhona, Wardatul JannahDimuat di: Cakrawala: Jurnal Studi Islam, Vol. 18 No....",
+    "link": "https://khazanah.republika.co.id/berita/to65eq487/menimbang-keadilan-tuhan-dari-tiga-mimbar-tafsir",
+    "published": "Sun, 08 Nov 2026 12:47:14 +0700",
+    "source_name": "Republika Khazanah",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Haji Melampaui Simbol Toleransi",
+    "summary": "&nbsp; Pelibatan warga non-Muslim dalam pelayanan haji memantik perdebatan setelah Wakil Menteri Haji dan Umrah Dahnil Anzar Simanjuntak mengaitkannya dengan toleransi dan gotong royong. Gagasan tersebut mengandung pesan kebinekaan yang...",
+    "link": "https://khazanah.republika.co.id/berita/to633j366/haji-melampaui-simbol-toleransi",
+    "published": "Sun, 08 Nov 2026 11:57:19 +0700",
+    "source_name": "Republika Khazanah",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Dahsyatnya Doa Nabi Muhammad SAW untuk Umat Manusia",
+    "summary": "JAKARTA -- Cendekiawan dan ulama asal Turki, Badiuzzaman Said Nursi, mengungkapkan keistimewaan doa Nabi Muhammad SAW bagi seluruh makhluk. Menurut dia, doa yang dipanjatkan Rasulullah SAW menunjukkan betapa mulianya...",
+    "link": "https://khazanah.republika.co.id/berita/to61as366/dahsyatnya-doa-nabi-muhammad-saw-untuk-umat-manusia",
+    "published": "Sun, 08 Nov 2026 11:55:00 +0700",
+    "source_name": "Republika Khazanah",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Puluhan Ribu Jamaah PERSIS Jawa Barat Putihkan Masjid Raya Al-Jabbar",
+    "summary": "BANDUNG-- Suasana kawasan Masjid Raya Al-Jabbar, Gedebage, Kota Bandung dipadati oleh lautan jamaah pada Ahad (8/11/2026) pagi. Pimpinan Wilayah Persatuan Islam (PW PERSIS) Jawa Barat beserta seluruh badan otonomnya...",
+    "link": "https://khazanah.republika.co.id/berita/to601m430/puluhan-ribu-jamaah-persis-jawa-barat-putihkan-masjid-raya-aljabbar",
+    "published": "Sun, 08 Nov 2026 10:51:22 +0700",
+    "source_name": "Republika Khazanah",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "PB Alkhairaat Dukung Langkah Presiden Wujudkan Stabilitas Nasional",
+    "summary": "PALU &mdash; Pengurus Besar (PB) Alkhairaat secara resmi menyatakan bahwa PB Alkhairaat Dukung Prabowo Subianto dalam mengambil tindakan tegas guna membersihkan anasir yang mengganggu stabilitas nasional. Langkah ini dinilai penting...",
+    "link": "https://khazanah.republika.co.id/berita/to5vd8430/pb-alkhairaat-dukung-langkah-presiden-wujudkan-stabilitas-nasional",
+    "published": "Sun, 08 Nov 2026 09:12:00 +0700",
+    "source_name": "Republika Khazanah",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Menhaj Imbau Jamaah Umrah Santun dan Bijak di Tanah Suci",
+    "summary": "JAKARTA -- Menteri Haji dan Umrah (Menhaj), Mochamad Irfan Yusuf mengimbau jamaah umrah Indonesia untuk mengedepankan sikap santun dan bijaksana selama menjalankan ibadah di Tanah Suci. Jamaah diharapkan mampu...",
+    "link": "https://khazanah.republika.co.id/berita/to5s2h430/menhaj-imbau-jamaah-umrah-santun-dan-bijak-di-tanah-suci",
+    "published": "Sun, 08 Nov 2026 07:59:05 +0700",
+    "source_name": "Republika Khazanah",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Bandara Dhoho Kediri Resmi Jadi Embarkasi Haji Reguler 2027",
+    "summary": "KEDIRI -- Bandara Internasional Dhoho Kediri, Jawa Timur&nbsp;resmi ditetapkan sebagai bandara embarkasi dan debarkasi haji reguler untuk penyelenggaraan ibadah haji 1448 Hijriah/2027 Masehi dengan proyeksi melayani 9.641 calon haji...",
+    "link": "https://khazanah.republika.co.id/berita/to5p8n430/bandara-dhoho-kediri-resmi-jadi-embarkasi-haji-reguler-2027",
+    "published": "Sun, 08 Nov 2026 06:57:59 +0700",
+    "source_name": "Republika Khazanah",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Kemenhaj Dukung Arab Saudi Berantas Makelar Ilegal Perhajian",
+    "summary": "JAKARTA &ndash; Kementerian Haji dan Umrah (Kemenhaj) Republik Indonesia menyambut baik langkah tegas Pemerintah Arab Saudi dalam mencegah praktik perantara atau makelar ilegal dalam pengadaan layanan haji. Langkah ini sejalan...",
+    "link": "https://khazanah.republika.co.id/berita/to50oh320/kemenhaj-dukung-arab-saudi-berantas-makelar-ilegal-perhajian",
+    "published": "Sat, 07 Nov 2026 22:07:29 +0700",
+    "source_name": "Republika Khazanah",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Enam Ayat Sakinah dalam Alquran yang Dapat Dijadikan Penuntun Hati Menuju Ketenangan",
+    "summary": "JAKARTA&mdash; Setiap hamba membutuhkan keyakinan, ketenteraman, kenyamanan, dan ketenangan. Tidak ada kenyamanan dan ketenangan yang hakiki kecuali dengan mengingat Allah. Karena itu, Allah SWT berfirman: إِنَّمَا الْمُؤْمِنُونَ الَّذِينَ إِذَا ذُكِرَ...",
+    "link": "https://khazanah.republika.co.id/berita/to4t4t320/enam-ayat-sakinah-dalam-alquran-yang-dapat-dijadikan-penuntun-hati-menuju-ketenangan",
+    "published": "Sat, 07 Nov 2026 19:24:29 +0700",
+    "source_name": "Republika Khazanah",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "12 Perkara yang Dosanya Terus Mengalir Meski Pelakunya Telah Meninggal Dunia",
+    "summary": "JAKARTA&mdash; Dosa jariyah adalah dosa yang terus dicatat atas nama pelakunya meskipun ia telah berada di dalam kubur. Dosa tersebut terus berlangsung dan tidak pernah terhenti. Pelakunya telah meninggal dunia...",
+    "link": "https://khazanah.republika.co.id/berita/to4m5q320/12-perkara-yang-dosanya-terus-mengalir-meski-pelakunya-telah-meninggal-dunia",
+    "published": "Sat, 07 Nov 2026 16:53:50 +0700",
+    "source_name": "Republika Khazanah",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Rusia Resmikan Russian Space di Masjid Istiqlal, Pagar Nusa Dorong Diplomasi Kebudayaan",
+    "summary": "JAKARTA &ndash; Peresmian Russian Space di Perpustakaan Masjid Istiqlal, Jakarta, Jumat (6/11/2026), menjadi momentum penguatan hubungan kebudayaan, pendidikan, dan dialog antarumat beragama antara Indonesia dan Federasi Rusia. Fasilitas ini...",
+    "link": "https://khazanah.republika.co.id/berita/to3297430/rusia-resmikan-russian-space-di-masjid-istiqlal-pagar-nusa-dorong-diplomasi-kebudayaan",
+    "published": "Fri, 06 Nov 2026 20:46:19 +0700",
+    "source_name": "Republika Khazanah",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "PRIM Zliten Perkuat Sinergi dengan KBRI Libya, Siapkan Pengenalan Muhammadiyah di Kampus",
+    "summary": "MUHAMMADIYAH.OR.ID, ZLITEN – Pimpinan Ranting Istimewa Muhammadiyah (PRIM) Zliten, Libya, melakukan audiensi dengan Kedutaan Besar Republik Indonesia (KBRI) untuk Libya di Tripoli, Kamis (5/11). Pertemuan tersebut menjadi momentum untuk memperkuat sinergi sekaligus menyampaikan perkembangan gerakan ...",
+    "link": "https://muhammadiyah.or.id/2026/11/prim-zliten-perkuat-sinergi-dengan-kbri-libya-siapkan-pengenalan-muhammadiyah-di-kampus/",
+    "published": "Sat, 07 Nov 2026 10:11:50 +0000",
+    "source_name": "Muhammadiyah Org",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Haedar Nashir: Guru Bukan Sekadar Pengajar, tetapi Penjaga Peradaban Bangsa",
+    "summary": "MUHAMMADIYAH.OR.ID, SURAKARTA – Ketua Umum Pimpinan Pusat Muhammadiyah, Haedar Nashir menyampaikan sejumlah pesan penting bagi para guru dalam Silaturahmi Forum Guru Muhammadiyah. Kegiatan yang berlangsung di Edutorium Universitas Muhammadiyah Surakarta (UMS) ini digelar dalam rangka memperingati Mi...",
+    "link": "https://muhammadiyah.or.id/2026/11/haedar-nashir-guru-bukan-sekadar-pengajar-tetapi-penjaga-peradaban-bangsa/",
+    "published": "Sat, 07 Nov 2026 09:37:27 +0000",
+    "source_name": "Muhammadiyah Org",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Di Tengah Riuhnya Era Digital, Jaga Hati dan Kenali Diri Jadi Kunci Kehidupan",
+    "summary": "MUHAMMADIYAH.OR.ID YOGYAKARTA &#8211; Di tengah arus informasi global dan dinamika era digital yang bergerak sangat cepat, diperlukan menjaga kejernihan hati, mengenali kapasitas diri, serta memegang teguh kendali diri. Pesan tersebut mengemuka dalam kegiatan Pengajian Semarak Milad ke-114 yang diha...",
+    "link": "https://muhammadiyah.or.id/2026/11/di-tengah-riuhnya-era-digital-jaga-hati-dan-kenali-diri-jadi-kunci-kehidupan/",
+    "published": "Sat, 07 Nov 2026 07:08:00 +0000",
+    "source_name": "Muhammadiyah Org",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Kebersamaan dan Kegembiraan Jadi Kunci Mengabdi di Muhammadiyah",
+    "summary": "MUHAMMADIYAH.OR.ID, YOGYAKARTA &#8211; Kantor Pimpinan Pusat (PP) Muhammadiyah Yogyakarta menggelar pengajian dalam rangka Milad ke-114 Muhammadiyah dengan menghadirkan Ustaz Irfan Rizki Haas pada Sabtu (6/11). Dalam kesempatan itu, para pegawai kantor diajak bersatu hati dan bekerja dengan gembira....",
+    "link": "https://muhammadiyah.or.id/2026/11/kebersamaan-dan-kegembiraan-jadi-kunci-mengabdi-di-muhammadiyah/",
+    "published": "Sat, 07 Nov 2026 07:03:59 +0000",
+    "source_name": "Muhammadiyah Org",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "LDK PP Muhammadiyah dan Pondok Shabran UMS Perkuat Kaderisasi Dai untuk Wilayah 3T",
+    "summary": "MUHAMMADIYAH.OR.ID, SURABAYA – Lembaga Dakwah Komunitas (LDK) Pimpinan Pusat Muhammadiyah terus memperkuat kolaborasi dengan pondok pesantren dan Ma’had di lingkungan Perguruan Tinggi Muhammadiyah dan ‘Aisyiyah (PTMA) untuk memenuhi kebutuhan dai di wilayah tertinggal, terdepan, dan terluar (3T). Ko...",
+    "link": "https://muhammadiyah.or.id/2026/11/ldk-pp-muhammadiyah-dan-pondok-shabran-ums-perkuat-kaderisasi-dai-untuk-wilayah-3t/",
+    "published": "Sat, 07 Nov 2026 03:03:57 +0000",
+    "source_name": "Muhammadiyah Org",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Lepas Jalan Sehat Milad ke-114 Muhammadiyah, Wamen Fajar: Bermuhammadiyah Itu Menggembirakan dan Memajukan",
+    "summary": "MUHAMMADIYAH.OR.ID, BANDUNG &#8212; Wakil Menteri Pendidikan Dasar dan Menengah, Fajar Riza Ul Haq, melepas peserta jalan sehat yang diselenggarakan Pimpinan Wilayah Muhammadiyah (PWM) Jawa Barat dalam rangka menyambut Milad Muhammadiyah ke-114 di Bandung, Sabtu (7/11). Ia mengajak warga Muhammadiya...",
+    "link": "https://muhammadiyah.or.id/2026/11/lepas-jalan-sehat-milad-ke-114-muhammadiyah-wamen-fajar-bermuhammadiyah-itu-menggembirakan-dan-memajukan/",
+    "published": "Sat, 07 Nov 2026 02:57:11 +0000",
+    "source_name": "Muhammadiyah Org",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Sehari Diluncurkan, ChatHPT Diserbu 50 Ribu Lebih Pertanyaan",
+    "summary": "MUHAMMADIYAH.OR.ID, YOGYAKARTA &#8211; Selama tiga bulan ujicoba, ChatHPT telah menerima sekitar 13 ribu pertanyaan. Diketahui, sehari setelah diluncurkan, angkanya telah mencapai 50.756. Hal itu diungkap oleh Wakil Ketua Majelis Pustaka dan Informatika (MPI) Pimpinan Pusat Muhammadiyah, Ismail Fahm...",
+    "link": "https://muhammadiyah.or.id/2026/11/sehari-diluncurkan-chathpt-diserbu-50-ribu-lebih-pertanyaan/",
+    "published": "Sat, 07 Nov 2026 02:53:50 +0000",
+    "source_name": "Muhammadiyah Org",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Baru Dua Hari Diluncurkan, ChatHPT Dibanjiri Pertanyaan Seputar Ibadah",
+    "summary": "MUHAMMADIYAH.OR.ID, YOGYAKARTA &#8211; Hal menarik terpapar dari pemaparan Wakil Ketua Majelis Pustaka dan Informatika (MPI) Pimpinan Pusat Muhammadiyah, Ismail Fahmi tentang ChatHPT dalam pernyataannya melalui kanal Facebook, Sabtu (7/11). Dua hari pasca peluncuran, Ismail Fahmi mengungkap bahwa ma...",
+    "link": "https://muhammadiyah.or.id/2026/11/baru-dua-hari-diluncurkan-chathpt-dibanjiri-pertanyaan-seputar-ibadah/",
+    "published": "Sat, 07 Nov 2026 02:50:37 +0000",
+    "source_name": "Muhammadiyah Org",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Women Empowerment Camp, IPM Bangun Kesadaran Pelajar tentang Hak dan Perlindungan Perempuan",
+    "summary": "MUHAMMADIYAH.OR.ID BANTEN &#8211; Pimpinan Pusat Ikatan Pelajar Muhammadiyah (PP IPM) melalui Bidang Pengarusutamaan Gender (PUG) menggelar Women Empowerment Camp (WEC) yang diikuti 35 peserta terbaik delegasi daerah, di Balai Penjaminan Mutu Pendidikan (BPMP) Provinsi Banten pada Jumat (6/11). WEC ...",
+    "link": "https://muhammadiyah.or.id/2026/11/women-empowerment-camp-ipm-bangun-kesadaran-pelajar-tentang-hak-dan-perlindungan-perempuan/",
+    "published": "Fri, 06 Nov 2026 12:41:37 +0000",
+    "source_name": "Muhammadiyah Org",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Muhammadiyah Perkuat Karakter Akidah Islam Berkemajuan melalui Prinsip Rahamutiyah dan Taqaddumiyah",
+    "summary": "MUHAMMADIYAH.OR.ID, SURABAYA – Akidah Muhammadiyah perlu memiliki karakter yang membumi, mencerahkan, dan mendorong umat Islam menjadi pelopor dalam menghadirkan kebaikan. Karakter tersebut dapat dibangun melalui prinsip rahāmūtiyyah yang berlandaskan kasih sayang dan taqaddumiyyah yang menempatkan ...",
+    "link": "https://muhammadiyah.or.id/2026/11/muhammadiyah-perkuat-karakter-akidah-islam-berkemajuan-melalui-prinsip-rahamutiyah-dan-taqaddumiyah/",
+    "published": "Fri, 06 Nov 2026 12:38:18 +0000",
+    "source_name": "Muhammadiyah Org",
+    "category": "islami",
+    "is_translated": false
+  },
+  {
+    "title": "Deadly sand cliff collapses on displaced families in Gaza",
+    "summary": "Deadly sand cliff collapses on displaced families in Gaza",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/8/deadly-sand-cliff-collapses-on-displaced-families-in-gaza?traffic_source=rss",
+    "published": "Sun, 08 Nov 2026 21:05:07 +0000",
+    "source_name": "Al Jazeera World",
+    "category": "internasional",
+    "is_translated": true
+  }
+]
