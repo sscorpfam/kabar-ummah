@@ -1,67 +1,155 @@
 {
   "Nasional Islam": [
-    "islam indonesia",
     "umat islam indonesia",
+    "umat muslim indonesia",
+    "islam indonesia",
     "organisasi islam",
-    "pesantren",
+    "ormas islam",
+    "majelis ulama",
+    "mui",
     "kementerian agama",
-    "ulama indonesia"
+    "kemenag",
+    "tokoh islam",
+    "muslim indonesia",
+    "masyarakat muslim"
   ],
-
   "Internasional Islam": [
     "muslim world",
     "islamic world",
+    "islamic countries",
     "muslim countries",
-    "islamic community"
+    "islamic community",
+    "muslim community",
+    "islamic affairs",
+    "muslim leaders",
+    "umat muslim dunia"
   ],
-
   "Palestina": [
     "palestine",
     "palestinian",
     "gaza",
     "west bank",
-    "jerusalem"
+    "jerusalem",
+    "al aqsa",
+    "masjid al-aqsa",
+    "israel palestine",
+    "palestina",
+    "palestinian refugees"
   ],
-
+  "Dunia Muslim": [
+    "muslim minority",
+    "muslim refugees",
+    "muslim population",
+    "muslim community",
+    "islamophobia",
+    "anti-muslim",
+    "islamic world"
+  ],
   "Dakwah dan Ulama": [
     "ulama",
     "dakwah",
+    "dai",
+    "da'i",
+    "ustaz",
+    "ustadz",
+    "kyai",
+    "kiai",
     "islamic scholar",
-    "preacher",
-    "mosque"
+    "muslim cleric",
+    "islamic preacher"
   ],
-
-  "Al-Quran dan Hadis": [
+  "Al-Qur'an dan Hadis": [
+    "al-quran",
+    "alquran",
     "quran",
     "holy quran",
+    "hadis",
     "hadith",
-    "islamic scripture"
+    "tafsir",
+    "tilawah",
+    "quranic"
   ],
-
   "Pendidikan Islam": [
+    "pendidikan islam",
     "islamic education",
-    "islamic school",
+    "sekolah islam",
+    "madrasah",
     "madrasa",
-    "pesantren"
+    "universitas islam",
+    "islamic university"
   ],
-
+  "Pesantren dan Madrasah": [
+    "pesantren",
+    "santri",
+    "pondok pesantren",
+    "kiai pesantren",
+    "pendidikan pesantren",
+    "islamic boarding school"
+  ],
   "Ekonomi Syariah": [
+    "ekonomi syariah",
+    "keuangan syariah",
     "islamic finance",
     "sharia finance",
     "halal economy",
     "zakat",
-    "waqf"
+    "wakaf",
+    "waqf",
+    "sukuk",
+    "bank syariah",
+    "islamic banking"
   ],
-
   "Haji dan Umrah": [
-    "hajj",
+    "haji",
     "umrah",
-    "pilgrimage"
+    "umroh",
+    "jamaah haji",
+    "jemaah haji",
+    "jamaah umrah",
+    "pilgrimage",
+    "hajj",
+    "umrah pilgrims"
   ],
-
+  "Masjid dan Peradaban": [
+    "masjid",
+    "mosque",
+    "islamic civilization",
+    "peradaban islam",
+    "islamic heritage",
+    "islamic architecture"
+  ],
   "Sosial dan Kemanusiaan": [
     "muslim humanitarian",
     "islamic charity",
-    "muslim refugees"
+    "bantuan kemanusiaan muslim",
+    "pengungsi muslim",
+    "muslim refugees",
+    "islamic relief",
+    "humanitarian aid muslim"
+  ],
+  "Islamofobia dan Diskriminasi": [
+    "islamophobia",
+    "anti-muslim",
+    "anti islam",
+    "diskriminasi muslim",
+    "muslim discrimination",
+    "serangan terhadap muslim",
+    "muslim hate crime"
+  ],
+  "Keluarga dan Muslim": [
+    "keluarga muslim",
+    "muslim family",
+    "parenting islam",
+    "keluarga islam",
+    "pernikahan islam",
+    "muslim marriage"
+  ],
+  "Sains dan Teknologi Islam": [
+    "islamic science",
+    "muslim scientists",
+    "ilmuwan muslim",
+    "teknologi islam",
+    "islamic technology",
+    "islamic research"
   ]
 }
