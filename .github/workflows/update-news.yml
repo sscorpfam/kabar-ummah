@@ -1,0 +1,37 @@
+name: Update Kabar Ummah
+
+on:
+  schedule:
+    - cron: '7,37 * * * *'
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Requirements
+        run: pip install -r requirements.txt
+
+      - name: Fetch Islamic News
+        run: python aggregator/main.py
+
+      - name: Commit Updated News
+        run: |
+          git config user.name "Kabar Ummah Bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/news.json
+          git diff --cached --quiet || git commit -m "Update Kabar Ummah News"
+          git push
