@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-09T06:26:23.973438+00:00",
+  "lastUpdated": "2026-11-09T06:31:09.966651+00:00",
   "total": 23,
-  "newArticles": 23,
+  "newArticles": 22,
   "sourcesChecked": 9,
   "sourcesSucceeded": 8,
   "sourcesFailed": 1,
@@ -75,8 +75,8 @@
       "name": "Muhammadiyah Org",
       "status": "success",
       "raw": 10,
-      "accepted": 2,
-      "filtered": 8,
+      "accepted": 1,
+      "filtered": 9,
       "error": null
     }
   ],
