@@ -1,62 +1,38 @@
 [
   {
-    "name": "NU Online",
-    "url": "https://islam.nu.or.id/post/feed",
-    "category": "islami",
-    "language": "id"
-  },
-  {
-    "name": "Republika Khazanah",
-    "url": "https://www.republika.co.id/rss/khazanah",
-    "category": "islami",
-    "language": "id"
-  },
-  {
-    "name": "Detik Hikmah",
-    "url": "https://news.detik.com/hikmah/rss",
-    "category": "islami",
-    "language": "id"
-  },
-  {
-    "name": "Muhammadiyah Org",
-    "url": "https://muhammadiyah.or.id/feed/",
-    "category": "islami",
-    "language": "id"
-  },
-  {
-    "name": "Hidayatullah",
-    "url": "https://www.hidayatullah.com/feed",
-    "category": "islami",
-    "language": "id"
-  },
-  {
-    "name": "Liputan6 Muslim",
-    "url": "https://www.liputan6.com/feed/islami",
-    "category": "islami",
-    "language": "id"
-  },
-  {
     "name": "WAFA Agency (Palestina)",
     "url": "https://english.wafa.ps/Rss/index",
-    "category": "palestina",
+    "category": "Dunia Islam & Palestina",
     "language": "en"
   },
   {
     "name": "Palestine Chronicle",
     "url": "https://www.palestinechronicle.com/feed/",
-    "category": "palestina",
+    "category": "Dunia Islam & Palestina",
     "language": "en"
   },
   {
-    "name": "Al Jazeera World",
+    "name": "Al Jazeera News",
     "url": "https://www.aljazeera.com/xml/rss/all.xml",
-    "category": "internasional",
+    "category": "Dunia Islam & Palestina",
     "language": "en"
   },
   {
-    "name": "Arab News Middle East",
-    "url": "https://www.arabnews.com/cat/3/rss.xml",
-    "category": "internasional",
-    "language": "en"
+    "name": "NU Online",
+    "url": "https://islam.nu.or.id/post/feed",
+    "category": "Hikmah & Ibadah",
+    "language": "id"
+  },
+  {
+    "name": "Republika Khazanah",
+    "url": "https://www.republika.co.id/rss/khazanah",
+    "category": "Hikmah & Ibadah",
+    "language": "id"
+  },
+  {
+    "name": "Detik Hikmah",
+    "url": "https://news.detik.com/hikmah/rss",
+    "category": "Hikmah & Ibadah",
+    "language": "id"
   }
 ]
