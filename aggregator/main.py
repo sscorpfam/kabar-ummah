@@ -6,29 +6,32 @@ import time
 import html
 from deep_translator import GoogleTranslator
 
-# 1. Kata kunci WAJIB Islami (Bahasa Indonesia)
-ISLAMIC_KEYWORDS_ID = [
-    'islam', 'islami', 'muslim', 'muslimah', 'alquran', 'al-qur\'an', 'hadits', 'hadis', 
-    'sunnah', 'zakat', 'infaq', 'sedekah', 'wakaf', 'shalat', 'salat', 'solat', 'puasa', 
-    'ramadhan', 'ramadan', 'haji', 'umrah', 'umroh', 'masjid', 'musholla', 'ulama', 
-    'ustadz', 'ustad', 'kyai', 'kiai', 'pesantren', 'fiqih', 'fiqh', 'fatwa', 'syariah', 
-    'halal', 'khazanah', 'mufti', 'khutbah', 'dakwah', 'syiar', 'tahfidz', 'santri',
-    'ekonomi syariah', 'bank syariah', 'al-aqsa', 'alaqsa', 'masjidil haram', 'kabah'
+# 1. KATA KUNCI WAJIB ISLAMI (ID & EN)
+# Artikel HARUS mengandung salah satu dari kata kunci spesifik keagamaan ini
+STRICT_ISLAMIC_KEYWORDS_ID = [
+    'al-qur\'an', 'alquran', 'hadits', 'hadis', 'sunnah', 'tafsir', 'fiqih', 'fiqh', 
+    'fatwa', 'syariah', 'sharia', 'halal', 'zakat', 'infaq', 'sedekah', 'wakaf', 
+    'shalat', 'salat', 'solat', 'tahajud', 'dhuha', 'puasa', 'ramadhan', 'ramadan', 
+    'khutbah', 'dakwah', 'tahfidz', 'do\'a', 'doa nabi', 'keutamaan', 'bacaan sholat',
+    'masjid al-aqsa', 'masjidil haram', 'ka\'bah', 'kabah', 'ulama', 'ustadz', 'kyai', 
+    'khazanah islam', 'sejarah islam', 'peradaban islam'
 ]
 
-# 2. Kata kunci WAJIB Islami (Bahasa Inggris / Luar Negeri)
-ISLAMIC_KEYWORDS_EN = [
-    'islam', 'islamic', 'muslim', 'muslims', 'quran', 'koran', 'hadith', 'sunnah', 
-    'zakat', 'al-aqsa', 'alaqsa', 'aqsa mosque', 'ramadan', 'hajj', 'umrah', 
-    'mosque', 'scholars', 'sharia', 'shariah', 'halal', 'islamophobia', 'fatwa', 
-    'imam', 'caliphate', 'palestinian muslims', 'gaza mosque', 'islamic heritage'
+STRICT_ISLAMIC_KEYWORDS_EN = [
+    'quran', 'koran', 'hadith', 'sunnah', 'tafsir', 'sharia', 'shariah', 'fatwa', 
+    'zakat', 'halal', 'ramadan', 'hajj', 'umrah', 'mosque', 'al-aqsa mosque', 
+    'islamic scholar', 'islamic preaching', 'prophet muhammad', 'islamic heritage',
+    'islamophobia', 'islamic jurisprudence'
 ]
 
-# 3. Kata kunci PENOLAK (Berita politik umum, olahraga, hiburan langsung DIBUANG)
+# 2. KATA KUNCI PENOLAK (POLITIK, DIPLOMASI, BIROKRASI, HIBURAN, KECELAKAAN)
+# Jika mengandung kata ini, BERITA LANGSUNG DIBUANG
 EXCLUDE_KEYWORDS = [
-    'casino', 'gambling', 'judi', 'narkoba', 'lgbt', 'hollywood', 'celebrity gossip', 
-    'stock market', 'premier league', 'champions league', 'bursa efek', 'election', 
-    'parliament', 'presidential', 'stock exchange', 'formula 1'
+    'pemilu', 'pilkada', 'capres', 'cawapres', 'parpol', 'dpr', 'dprd', 'menteri', 
+    'politikus', 'diplomasi', 'pBB', 'gencatan senjata', 'serangan udara', 'rudal', 
+    'tank', 'militer', 'korupsi', 'kriminal', 'pembunuhan', 'pemerkosaan', 'judi', 
+    'narkoba', 'lgbt', 'hollywood', 'celebrity gossip', 'stock market', 'bursa efek',
+    'premier league', 'champions league', 'investasi', 'saham'
 ]
 
 def load_categories():
@@ -52,21 +55,22 @@ def detect_category(title, summary, default_category="Hikmah & Ibadah"):
                     return category_name
     return default_category
 
-def is_strictly_islamic(title, summary, lang='id'):
+def is_murni_islami(title, summary, lang='id'):
     """
-    MEMERIKSA KETAT: Berita WAJIB mengandung kata kunci Islami,
-    tanpa pengecualian sumber.
+    LOGIKA FILTER KETAT:
+    1. Tolak jika ada kata kunci politik/birokrasi/militer murni.
+    2. Wajib memuat minimal 1 kata kunci spiritual/keislaman utama.
     """
     content = f"{title} {summary}".lower()
 
-    # Reject jika ada kata penolak
+    # Reject jika memuat topik politik / non-keagamaan
     for bad_word in EXCLUDE_KEYWORDS:
         pattern = r'(?<!\w)' + re.escape(bad_word) + r'(?!\w)'
         if re.search(pattern, content):
             return False
 
-    # Check kata kunci Islami sesuai bahasa
-    keywords = ISLAMIC_KEYWORDS_EN if lang == 'en' else ISLAMIC_KEYWORDS_ID
+    # Accept HANYA jika memuat kata kunci Islami murni
+    keywords = STRICT_ISLAMIC_KEYWORDS_EN if lang == 'en' else STRICT_ISLAMIC_KEYWORDS_ID
     for kw in keywords:
         pattern = r'(?<!\w)' + re.escape(kw) + r'(?!\w)'
         if re.search(pattern, content):
@@ -77,6 +81,7 @@ def is_strictly_islamic(title, summary, lang='id'):
 def clean_text(text):
     if not text:
         return ""
+    # Decode HTML Entities (&mdash;, &nbsp;, dll)
     text = html.unescape(text)
     clean = re.compile('<.*?>')
     text = re.sub(clean, '', text)
@@ -89,7 +94,7 @@ def safe_translate(text):
     try:
         translator = GoogleTranslator(source='auto', target='id')
         translated = translator.translate(text_short)
-        time.sleep(0.5)
+        time.sleep(0.6)
         return translated
     except Exception:
         return text_short
@@ -112,14 +117,14 @@ def fetch_news():
 
             print(f"[Fetch] {source['name']} ({len(feed.entries)} berita)...")
 
-            for entry in feed.entries[:20]:
+            for entry in feed.entries[:25]:
                 title_raw = clean_text(entry.get('title', ''))
                 summary_raw = clean_text(entry.get('summary', entry.get('description', '')))
                 link = entry.get('link', '')
                 published = entry.get('published', entry.get('updated', ''))
 
-                # FILTER KETAT: Hanya lolos jika benar-benar berita Islami
-                if is_strictly_islamic(title_raw, summary_raw, lang=lang):
+                # EKSEKUSI FILTER MURNI ISLAMI
+                if is_murni_islami(title_raw, summary_raw, lang=lang):
                     matched_category = detect_category(title_raw, summary_raw, source.get('category', 'Hikmah & Ibadah'))
                     
                     title = title_raw
@@ -149,7 +154,7 @@ def fetch_news():
         except Exception as e:
             print(f"[Error] Gagal pada {source.get('name')}: {e}")
 
-    # Hapus duplikat judul
+    # Deduplikasi berdasarkan judul
     seen_titles = set()
     unique_news = []
     for news in all_news:
@@ -158,12 +163,12 @@ def fetch_news():
             seen_titles.add(title_key)
             unique_news.append(news)
 
-    # Simpan ke file JSON
+    # Simpan hasil agregasi murni Islami
     os.makedirs('data', exist_ok=True)
     with open('data/news.json', 'w', encoding='utf-8') as f:
         json.dump(unique_news[:80], f, ensure_ascii=False, indent=2)
 
-    print(f"[Sukses] Tersimpan {len(unique_news[:80])} berita murni Islami.")
+    print(f"[Sukses] Tersimpan {len(unique_news[:80])} berita MURNI Islami ke data/news.json")
 
 if __name__ == '__main__':
     fetch_news()
