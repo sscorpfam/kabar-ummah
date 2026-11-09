@@ -1,529 +1,131 @@
+import feedparser
+import json
 import os
 import re
-import json
-import html
-import hashlib
-import logging
-from datetime import datetime, timezone, timedelta
-from email.utils import parsedate_to_datetime
-from urllib.parse import urlsplit, urlunsplit
+from deep_translator import GoogleTranslator
 
-import requests
-import feedparser
+# Kata kunci Islami & Umat Islam (ID & EN) yang spesifik dan akurat
+ISLAMIC_KEYWORDS = [
+    # Indonesia / Melayu
+    'islam', 'islami', 'muslim', 'muslimah', 'al-qur\'an', 'alquran', 'hadits', 'hadis', 
+    'sunnah', 'zakat', 'infaq', 'sedekah', 'wakaf', 'shalat', 'salat', 'solat', 'puasa', 
+    'ramadhan', 'ramadan', 'haji', 'umrah', 'umroh', 'masjid', 'musholla', 'ulama', 
+    'ustadz', 'ustad', 'kyai', 'kiai', 'pesantren', 'fiqih', 'fiqh', 'fatwa', 'syariah', 
+    'halal', 'khazanah', 'palestina', 'gaza', 'al-aqsa', 'alaqsa', 'yerusalem timur', 
+    'mufti', 'khutbah', 'dakwah', 'syiar', 'tahfidz', 'santri',
 
+    # English / International (Directly related to Islam & Palestinian Struggle)
+    'islam', 'islamic', 'muslim', 'muslims', 'quran', 'koran', 'hadith', 'sunnah', 
+    'zakat', 'palestine', 'palestinian', 'gaza', 'al-aqsa', 'aqsa', 'ramadan', 
+    'hajj', 'umrah', 'mosque', 'scholars', 'sharia', 'shariah', 'halal', 
+    'islamophobia', 'fatwa', 'imam', 'caliphate'
+]
 
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+# Kata kunci pembatal (Negative Keywords): Jika mengandung kata ini, berita langsung DITOLAK
+# Mencegah berita politik umum/militer murni meloloskan isu non-religius
+EXCLUDE_KEYWORDS = [
+    'casino', 'gambling', 'judi', 'narkoba', 'lgbt', 'hollywood', 'celebrity gossip'
+]
 
-SOURCES_FILE = os.path.join(
-    BASE_DIR, "aggregator", "sources.json"
-)
+translator = GoogleTranslator(source='auto', target='id')
 
-CATEGORIES_FILE = os.path.join(
-    BASE_DIR, "aggregator", "categories.json"
-)
+def is_islamic_content(title, summary, is_trusted_islamic_source=False):
+    """
+    Memeriksa apakah konten berita benar-benar Islami.
+    Jika sumbernya sudah 100% portal khusus Islam, otomatis return True.
+    """
+    if is_trusted_islamic_source:
+        return True
 
-OUTPUT_FILE = os.path.join(
-    BASE_DIR, "data", "news.json"
-)
+    content = f"{title} {summary}".lower()
 
-MAX_ARTICLES = 500
-MAX_AGE_DAYS = 90
-TIMEOUT = 25
-
-HEADERS = {
-    "User-Agent": "KabarUmmahNewsBot/1.0 (+https://github.com/sscorpfam/kabar-ummah)",
-    "Accept": "application/rss+xml, application/xml, text/xml, */*"
-}
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(levelname)s: %(message)s"
-)
-
-
-def load_json(path, default=None):
-    try:
-        with open(path, "r", encoding="utf-8") as file:
-            return json.load(file)
-    except Exception as error:
-        logging.error("Gagal membaca %s: %s", path, error)
-        return default
-
-
-def save_json(path, data):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-
-    temp_path = path + ".tmp"
-
-    with open(temp_path, "w", encoding="utf-8") as file:
-        json.dump(
-            data,
-            file,
-            ensure_ascii=False,
-            indent=2
-        )
-
-    os.replace(temp_path, path)
-
-
-def clean_text(value):
-    value = html.unescape(str(value or ""))
-    value = re.sub(r"<[^>]+>", " ", value)
-    return re.sub(r"\s+", " ", value).strip()
-
-
-def valid_http_url(url):
-    if not url:
+    # Cek apakah ada kata kunci terlarang/non-islami
+    if any(re.search(r'\b' + re.escape(word) + r'\b', content) for word in EXCLUDE_KEYWORDS):
         return False
 
-    try:
-        parts = urlsplit(url)
-        return parts.scheme in ("http", "https") and bool(parts.netloc)
-    except Exception:
-        return False
+    # Validasi kata kunci Islami dengan word boundary (\b)
+    return any(re.search(r'\b' + re.escape(keyword) + r'\b', content) for keyword in ISLAMIC_KEYWORDS)
 
-
-def normalize_url(url):
-    if not valid_http_url(url):
+def clean_html(text):
+    if not text:
         return ""
+    clean = re.compile('<.*?>')
+    text = re.sub(clean, '', text)
+    return re.sub(r'\s+', ' ', text).strip()
 
-    parts = urlsplit(url.strip())
-
-    # Fragment tidak diperlukan untuk identitas artikel.
-    return urlunsplit((
-        parts.scheme.lower(),
-        parts.netloc.lower(),
-        parts.path.rstrip("/"),
-        parts.query,
-        ""
-    ))
-
-
-def generate_id(url):
-    return hashlib.sha256(
-        url.encode("utf-8")
-    ).hexdigest()[:16]
-
-
-def get_published_date(entry):
-    parsed = entry.get("published_parsed")
-
-    if not parsed:
-        parsed = entry.get("updated_parsed")
-
-    if parsed:
-        from time import mktime
-        from calendar import timegm
-
-        return datetime.fromtimestamp(
-            timegm(parsed),
-            timezone.utc
-        ).isoformat()
-
-    for field in ("published", "updated", "pubDate"):
-        value = entry.get(field)
-
-        if not value:
-            continue
-
-        try:
-            date = parsedate_to_datetime(value)
-
-            if date.tzinfo is None:
-                date = date.replace(tzinfo=timezone.utc)
-
-            return date.astimezone(
-                timezone.utc
-            ).isoformat()
-
-        except Exception:
-            continue
-
-    return datetime.now(timezone.utc).isoformat()
-
-
-def extract_image(entry):
-    candidates = []
-
-    # Media RSS.
-    for field in ("media_content", "media_thumbnail"):
-        values = entry.get(field, [])
-
-        if isinstance(values, dict):
-            values = [values]
-
-        for item in values:
-            if isinstance(item, dict):
-                candidates.append(item.get("url", ""))
-
-    # Enclosure RSS.
-    for item in entry.get("enclosures", []):
-        if isinstance(item, dict):
-            candidates.append(item.get("href", ""))
-
-    # Link dengan rel=enclosure.
-    for item in entry.get("links", []):
-        if isinstance(item, dict):
-            if item.get("rel") == "enclosure":
-                candidates.append(item.get("href", ""))
-
-    # Gambar di HTML content.
-    html_fields = []
-
-    for item in entry.get("content", []):
-        if isinstance(item, dict):
-            html_fields.append(item.get("value", ""))
-
-    html_fields.append(entry.get("summary", ""))
-
-    for content in html_fields:
-        match = re.search(
-            r'<img[^>]+src=["\']([^"\']+)["\']',
-            content or "",
-            re.IGNORECASE
-        )
-
-        if match:
-            candidates.append(html.unescape(match.group(1)))
-
-    for candidate in candidates:
-        if valid_http_url(candidate):
-            return candidate
-
-    return ""
-
-
-
-def categorize(title, description, categories):
-
-    text = clean_text(
-        title + " " + description
-    ).lower()
-
-    scores = {}
-    matched_keywords = {}
-
-    for category, keywords in categories.items():
-
-        score = 0
-        matches = []
-
-        for keyword in keywords:
-
-            keyword = keyword.lower().strip()
-
-            if not keyword:
-                continue
-
-            # Cocokkan kata atau frasa secara utuh,
-            # bukan sekadar substring.
-            pattern = (
-                r"(?<![a-z0-9])"
-                + re.escape(keyword)
-                + r"(?![a-z0-9])"
-            )
-
-            if re.search(pattern, text):
-                matches.append(keyword)
-
-                # Frasa spesifik memperoleh bobot lebih tinggi.
-                if len(keyword.split()) >= 2:
-                    score += 3
-                else:
-                    score += 2
-
-        if matches:
-            scores[category] = score
-            matched_keywords[category] = matches
-
-    if not scores:
-        return None, []
-
-    # Kategori dengan skor tertinggi menjadi kategori utama.
-    best_category = max(
-        scores,
-        key=scores.get
-    )
-
-    # Minimal satu kata kunci utuh harus cocok.
-    if scores[best_category] < 2:
-        return None, []
-
-    # Kategori tambahan hanya diberikan jika benar-benar cocok.
-    matched_categories = sorted(
-        matched_keywords.keys(),
-        key=lambda category: scores[category],
-        reverse=True
-    )
-
-    return best_category, matched_categories
-
-
-
-def fetch_source(source, categories):
-    result = {
-        "name": source.get("name", "Unknown"),
-        "status": "error",
-        "raw": 0,
-        "accepted": 0,
-        "filtered": 0,
-        "error": None
-    }
-
+def translate_text(text):
+    if not text:
+        return ""
     try:
-        response = requests.get(
-            source["url"],
-            headers=HEADERS,
-            timeout=TIMEOUT
-        )
+        # Terjemahkan per klausa/teks pendek agar hasil presisi
+        return translator.translate(text[:800])
+    except Exception as e:
+        print(f"[Peringatan] Gagal menerjemahkan: {e}")
+        return text
 
-        response.raise_for_status()
+def fetch_news():
+    if not os.path.exists('aggregator/sources.json'):
+        print("[Error] File aggregator/sources.json tidak ditemukan.")
+        return
 
-        feed = feedparser.parse(response.content)
+    with open('aggregator/sources.json', 'r', encoding='utf-8') as f:
+        sources = json.load(f)
 
-        entries = feed.entries
-
-        result["raw"] = len(entries)
-
-        if not entries and feed.bozo:
-            raise ValueError(
-                "RSS tidak dapat dibaca: "
-                + str(feed.bozo_exception)
-            )
-
-        result["status"] = "success"
-
-        articles = []
-
-        for entry in entries:
-
-            title = clean_text(
-                entry.get("title", "")
-            )
-
-            description = clean_text(
-                entry.get("summary", "")
-            )
-
-            if not description:
-                description = clean_text(
-                    entry.get("description", "")
-                )
-
-            url = normalize_url(
-                entry.get("link", "")
-            )
-
-            if not title or not url:
-                result["filtered"] += 1
-                continue
-
-            category, tags = categorize(
-                title,
-                description,
-                categories
-            )
-
-            if not category:
-                result["filtered"] += 1
-                continue
-
-            article = {
-                "id": generate_id(url),
-                "title": title,
-                "description": description[:800],
-                "image": extract_image(entry),
-                "category": category,
-                "tags": tags,
-                "source": source["name"],
-                "sourceCountry": source.get("country", ""),
-                "region": "",
-                "language": source.get("language", "id"),
-                "country": source.get("country", ""),
-                "publishedAt": get_published_date(entry),
-                "originalUrl": url
-            }
-
-            articles.append(article)
-
-        result["accepted"] = len(articles)
-
-        logging.info(
-            "%s | RSS: %d | Lolos: %d | Disaring: %d",
-            result["name"],
-            result["raw"],
-            result["accepted"],
-            result["filtered"]
-        )
-
-        return articles, result
-
-    except Exception as error:
-
-        result["error"] = str(error)
-
-        logging.error(
-            "%s gagal: %s",
-            result["name"],
-            error
-        )
-
-        return [], result
-
-
-def load_previous_articles():
-    previous = load_json(
-        OUTPUT_FILE,
-        default={}
-    )
-
-    if not isinstance(previous, dict):
-        return []
-
-    articles = previous.get("articles", [])
-
-    return articles if isinstance(articles, list) else []
-
-
-def merge_articles(new_articles, old_articles):
-    merged = {}
-
-    # Berita lama dimasukkan terlebih dahulu.
-    for article in old_articles:
-        url = normalize_url(
-            article.get("originalUrl", "")
-        )
-
-        if url:
-            merged[url] = article
-
-    # Berita terbaru menggantikan data lama
-    # jika URL-nya sama.
-    for article in new_articles:
-        url = normalize_url(
-            article.get("originalUrl", "")
-        )
-
-        if url:
-            merged[url] = article
-
-    cutoff = datetime.now(timezone.utc) - timedelta(
-        days=MAX_AGE_DAYS
-    )
-
-    valid_articles = []
-
-    for article in merged.values():
-
-        try:
-            date = datetime.fromisoformat(
-                article["publishedAt"].replace("Z", "+00:00")
-            )
-
-            if date.tzinfo is None:
-                date = date.replace(tzinfo=timezone.utc)
-
-            if date < cutoff:
-                continue
-
-        except Exception:
-            pass
-
-        valid_articles.append(article)
-
-    valid_articles.sort(
-        key=lambda item: item.get("publishedAt", ""),
-        reverse=True
-    )
-
-    return valid_articles[:MAX_ARTICLES]
-
-
-def main():
-
-    sources = load_json(
-        SOURCES_FILE,
-        default=[]
-    )
-
-    categories = load_json(
-        CATEGORIES_FILE,
-        default={}
-    )
-
-    if not sources:
-        raise RuntimeError("Daftar RSS kosong.")
-
-    if not categories:
-        raise RuntimeError("Kategori berita kosong.")
-
-    previous_articles = load_previous_articles()
-
-    all_articles = []
-    source_stats = []
+    all_news = []
 
     for source in sources:
+        try:
+            feed = feedparser.parse(source['url'])
+            # Sumber yang kategorinya 'islami' atau 'palestina' dianggap trusted
+            is_trusted = source.get('category') in ['islami', 'palestina']
+            lang = source.get('language', 'id')
 
-        articles, stats = fetch_source(
-            source,
-            categories
-        )
+            for entry in feed.entries[:20]:
+                title_raw = clean_html(entry.get('title', ''))
+                summary_raw = clean_html(entry.get('summary', entry.get('description', '')))
+                link = entry.get('link', '')
+                published = entry.get('published', entry.get('updated', ''))
 
-        all_articles.extend(articles)
-        source_stats.append(stats)
+                # Filter kelayakan berita
+                if is_islamic_content(title_raw, summary_raw, is_trusted_islamic_source=is_trusted):
+                    title = title_raw
+                    summary = summary_raw
 
-    successful = sum(
-        1 for item in source_stats
-        if item["status"] == "success"
-    )
+                    # Terjemahkan berita internasional (EN) ke Bahasa Indonesia
+                    if lang == 'en':
+                        title = translate_text(title_raw)
+                        summary = translate_text(summary_raw[:300])
+                    else:
+                        summary = summary[:300]
 
-    failed = len(source_stats) - successful
+                    news_item = {
+                        "title": title,
+                        "summary": summary + ('...' if len(summary_raw) > 300 else ''),
+                        "link": link,
+                        "published": published,
+                        "source_name": source['name'],
+                        "category": source.get('category', 'islami'),
+                        "is_translated": True if lang == 'en' else False
+                    }
+                    all_news.append(news_item)
+        except Exception as e:
+            print(f"[Error] Gagal mengambil dari sumber {source.get('name')}: {e}")
 
-    final_articles = merge_articles(
-        all_articles,
-        previous_articles
-    )
+    # Hapus duplikat berita berdasarkan kemiripan Judul
+    seen_titles = set()
+    unique_news = []
+    for news in all_news:
+        title_key = news['title'].lower().strip()
+        if title_key not in seen_titles:
+            seen_titles.add(title_key)
+            unique_news.append(news)
 
-    if successful == 0:
-        status = "error"
-    elif failed > 0:
-        status = "partial"
-    else:
-        status = "success"
+    # Simpan hasil agregasi (Maksimal 80 berita terbaru)
+    os.makedirs('data', exist_ok=True)
+    with open('data/news.json', 'w', encoding='utf-8') as f:
+        json.dump(unique_news[:80], f, ensure_ascii=False, indent=2)
 
-    result = {
-        "status": status,
-        "lastUpdated": datetime.now(
-            timezone.utc
-        ).isoformat(),
-        "total": len(final_articles),
-        "newArticles": len(all_articles),
-        "sourcesChecked": len(sources),
-        "sourcesSucceeded": successful,
-        "sourcesFailed": failed,
-        "sourceStats": source_stats,
-        "articles": final_articles
-    }
+    print(f"[Sukses] Berhasil menyimpan {len(unique_news[:80])} berita Islami ke data/news.json")
 
-    save_json(
-        OUTPUT_FILE,
-        result
-    )
-
-    logging.info("--------------------------------")
-    logging.info("Status: %s", status)
-    logging.info("Sumber berhasil: %d/%d", successful, len(sources))
-    logging.info("Berita baru lolos filter: %d", len(all_articles))
-    logging.info("Total berita tersimpan: %d", len(final_articles))
-    logging.info("--------------------------------")
-
-    # Jika semua sumber gagal, workflow dibuat gagal
-    # agar masalah terlihat di GitHub Actions.
-    if successful == 0:
-        raise RuntimeError(
-            "Semua sumber RSS gagal diakses."
-        )
-
-
-if __name__ == "__main__":
-    main()
+if __name__ == '__main__':
+    fetch_news()
