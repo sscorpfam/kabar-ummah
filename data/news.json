@@ -1,7 +1,7 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-09T07:34:48.161506+00:00",
-  "total": 17,
+  "lastUpdated": "2026-11-09T12:16:09.767196+00:00",
+  "total": 20,
   "newArticles": 15,
   "sourcesChecked": 9,
   "sourcesSucceeded": 8,
@@ -11,24 +11,24 @@
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 1,
-      "filtered": 24,
+      "accepted": 2,
+      "filtered": 23,
       "error": null
     },
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 28,
+      "raw": 31,
       "accepted": 1,
-      "filtered": 27,
+      "filtered": 30,
       "error": null
     },
     {
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 9,
-      "filtered": 6,
+      "accepted": 8,
+      "filtered": 7,
       "error": null
     },
     {
@@ -69,7 +69,7 @@
       "raw": 0,
       "accepted": 0,
       "filtered": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=40)"
+      "error": "404 Client Error: NOT FOUND for url: https://news.detik.com/hikmah/rss"
     },
     {
       "name": "Muhammadiyah Org",
@@ -81,6 +81,66 @@
     }
   ],
   "articles": [
+    {
+      "id": "e9c11a0a45d3726d",
+      "title": "Gaza authorities slam global ‘inaction’ after mudslide kills five people",
+      "description": "Four children and a woman were killed after heavy rain caused a sandbank to collapse on their tent.",
+      "image": "",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sourceCountry": "International",
+      "region": "",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-09T10:50:49+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/9/gaza-authorities-slam-global-inaction-after-mudslide-kills-five-people?traffic_source=rss",
+      "originalTitle": "Gaza authorities slam global ‘inaction’ after mudslide kills five people",
+      "originalDescription": "Four children and a woman were killed after heavy rain caused a sandbank to collapse on their tent.",
+      "translationStatus": "failed",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
+    },
+    {
+      "id": "27e8d3318cbd9edf",
+      "title": "Gaza: Five Palestinians killed as sand embankment collapses on displacement tents",
+      "description": "Gaza: Five Palestinians killed as sand embankment collapses on displacement tents Submitted by MEE staff on Mon, 11/09/2026 - 07:57 Three children and two women die in Deir al-Balah as torrential rain and severe weather batter makeshift displacement camps across the Strip Two women and three children died after a sand embankment collapsed on them in Deir al-Balah, the Gaza Strip, on 8 November 2026 (X) Off A sand embankment collapsed on tents sheltering displaced Palestinians in the Gaza Strip late on Sunday, killing three children and two women as severe weather battered the territory. At least five other people were rescued with injuries by Civil Defence search-and-rescue teams at the makeshift camp in Deir al-Balah, where operations to locate missing people continued. Mahmoud Basal, spo",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/gaa-sand-cliff.jpg.jpg?itok=Lonq8Gon",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sourceCountry": "International",
+      "region": "",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-09T08:08:55+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/gaza-five-palestinians-killed-sand-embankment-collapses-displacement-tents",
+      "originalTitle": "Gaza: Five Palestinians killed as sand embankment collapses on displacement tents",
+      "originalDescription": "Gaza: Five Palestinians killed as sand embankment collapses on displacement tents Submitted by MEE staff on Mon, 11/09/2026 - 07:57 Three children and two women die in Deir al-Balah as torrential rain and severe weather batter makeshift displacement camps across the Strip Two women and three children died after a sand embankment collapsed on them in Deir al-Balah, the Gaza Strip, on 8 November 2026 (X) Off A sand embankment collapsed on tents sheltering displaced Palestinians in the Gaza Strip late on Sunday, killing three children and two women as severe weather battered the territory. At least five other people were rescued with injuries by Civil Defence search-and-rescue teams at the makeshift camp in Deir al-Balah, where operations to locate missing people continued. Mahmoud Basal, spo",
+      "translationStatus": "failed",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
+    },
+    {
+      "id": "8d3c959850842408",
+      "title": "Mengenal Persamaan dan Perbedaan Zakat dengan Pajak",
+      "description": "JAKARTA -- Zakat dan pajak sama-sama mewajibkan seseorang mengeluarkan sebagian hartanya untuk kepentingan masyarakat. Namun, keduanya memiliki perbedaan mendasar dalam hal landasan, tujuan, hingga mekanisme penyalurannya. Dalam kitab Fiqhuz...",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/ilustrasi-pajak_250913175421-642.jpg",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "Republika",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-09T07:31:28+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/to84wg430/mengenal-persamaan-dan-perbedaan-zakat-dengan-pajak",
+      "translationStatus": "not_needed"
+    },
     {
       "id": "7cd1c024996b944c",
       "title": "Umat Islam harus Bangun Keberanian dan Integritas dalam Menegakkan Kebenaran",
