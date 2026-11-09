@@ -336,6 +336,8 @@ def fetch_source(source, categories):
                 "category": category,
                 "tags": tags,
                 "source": source["name"],
+                "sourceCountry": source.get("country", ""),
+                "region": "",
                 "language": source.get("language", "id"),
                 "country": source.get("country", ""),
                 "publishedAt": get_published_date(entry),
