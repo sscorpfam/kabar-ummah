@@ -1,11 +1,11 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-09T07:07:41.665132+00:00",
+  "lastUpdated": "2026-11-09T07:11:00.093025+00:00",
   "total": 17,
   "newArticles": 15,
   "sourcesChecked": 9,
-  "sourcesSucceeded": 8,
-  "sourcesFailed": 1,
+  "sourcesSucceeded": 7,
+  "sourcesFailed": 2,
   "sourceStats": [
     {
       "name": "Al Jazeera",
@@ -33,11 +33,11 @@
     },
     {
       "name": "ANTARA Terkini",
-      "status": "success",
-      "raw": 50,
+      "status": "error",
+      "raw": 0,
       "accepted": 0,
-      "filtered": 50,
-      "error": null
+      "filtered": 0,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "name": "ANTARA Dunia",
@@ -69,7 +69,7 @@
       "raw": 0,
       "accepted": 0,
       "filtered": 0,
-      "error": "404 Client Error: NOT FOUND for url: https://news.detik.com/hikmah/rss"
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
     },
     {
       "name": "Muhammadiyah Org",
@@ -84,9 +84,7 @@
     {
       "id": "7cd1c024996b944c",
       "title": "Umat Islam harus Bangun Keberanian dan Integritas dalam Menegakkan Kebenaran",
-      "titleEn": "Umat Islam harus Bangun Keberanian dan Integritas dalam Menegakkan Kebenaran",
       "description": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Anggota Majelis Tabligh Pimpinan Wilayah Muhammadiyah Daerah Istimewa Yogyakarta (DIY), Hendra Darmawan, mengajak umat Islam membangun keberanian dalam menegakkan kebenaran dan mencegah kemungkaran. Menurutnya, keberanian merupakan bagian penting dari keimanan yang harus diwujudkan dalam kehidupan pribadi maupun sosial. Hal itu disampaikan Hendra dalam khutbah Jumat di Masjid Islamic Center Universitas Ahmad Dahlan […] The post Umat Islam harus Bangun Keberanian dan Integritas dalam Menegakkan Kebenaran appeared first on Muhammadiyah .",
-      "descriptionEn": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Anggota Majelis Tabligh Pimpinan Wilayah Muhammadiyah Daerah Istimewa Yogyakarta (DIY), Hendra Darmawan, mengajak umat Islam membangun keberanian dalam menegakkan kebenaran dan mencegah kemungkaran. Menurutnya, keberanian merupakan bagian penting dari keimanan yang harus diwujudkan dalam kehidupan pribadi maupun sosial. Hal itu disampaikan Hendra dalam khutbah Jumat di Masjid Islamic Center Universitas Ahmad Dahlan […] The post Umat Islam harus Bangun Keberanian dan Integritas dalam Menegakkan Kebenaran appeared first on Muhammadiyah .",
       "image": "",
       "category": "Masjid dan Peradaban",
       "tags": [
@@ -120,9 +118,7 @@
     {
       "id": "6ef7c3f1264bee74",
       "title": "Khofifah Minta Seleksi Petugas Haji Daerah 2027 Transparan dan Objektif",
-      "titleEn": "Khofifah Minta Seleksi Petugas Haji Daerah 2027 Transparan dan Objektif",
       "description": "SURABAYA -- Gubernur Jawa Timur Khofifah Indar Parawansa meminta seleksi Petugas Haji Daerah (PHD) 1448 Hijriyah/2027 Masehi berjalan objektif, transparan, akuntabel, dan nondiskriminatif sesuai Keputusan Menteri Haji dan Umrah...",
-      "descriptionEn": "SURABAYA -- Gubernur Jawa Timur Khofifah Indar Parawansa meminta seleksi Petugas Haji Daerah (PHD) 1448 Hijriyah/2027 Masehi berjalan objektif, transparan, akuntabel, dan nondiskriminatif sesuai Keputusan Menteri Haji dan Umrah...",
       "image": "https://static.republika.co.id/uploads/images/detailnews/_251110215458-825.png",
       "category": "Haji dan Umrah",
       "tags": [
@@ -139,9 +135,7 @@
     {
       "id": "af111e98746fe8aa",
       "title": "‘Tents don’t protect us’: Rains flood displaced Palestinians in Gaza",
-      "titleEn": "‘Tents don’t protect us’: Rains flood displaced Palestinians in Gaza",
       "description": "Hundreds of thousands of Palestinians are vulnerable to flooding as Israel continues to block entry of mobile homes.",
-      "descriptionEn": "Hundreds of thousands of Palestinians are vulnerable to flooding as Israel continues to block entry of mobile homes.",
       "image": "",
       "category": "Palestina",
       "tags": [
@@ -158,9 +152,7 @@
     {
       "id": "54ea139523ea2ad4",
       "title": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency",
-      "titleEn": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency",
       "description": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitarian needs. Gaza's civil defence declared a maximum state of emergency as overwhelmed rescue teams struggled to respond to thousands of distress calls amid limited resources and inadequate shelter. Rescue teams received over 2000 distress calls since the storm began, while only having capacity to respond to a tenth of the calls received. Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitari",
-      "descriptionEn": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitarian needs. Gaza's civil defence declared a maximum state of emergency as overwhelmed rescue teams struggled to respond to thousands of distress calls amid limited resources and inadequate shelter. Rescue teams received over 2000 distress calls since the storm began, while only having capacity to respond to a tenth of the calls received. Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitari",
       "image": "",
       "category": "Palestina",
       "tags": [
@@ -177,9 +169,7 @@
     {
       "id": "ef94b41c82a7a7bd",
       "title": "Serap Aspirasi Jamaah di Makkah, Menhaj Siapkan Perbaikan Layanan Haji 2027",
-      "titleEn": "Serap Aspirasi Jamaah di Makkah, Menhaj Siapkan Perbaikan Layanan Haji 2027",
       "description": "MAKKAH -- Menteri Haji dan Umrah (Menhaj) RI, Mochamad Irfan Yusuf, menyerap aspirasi dan masukan langsung dari jamaah sebagai bahan peningkatan kualitas layanan haji dan umrah. Hal tersebut dilakukan...",
-      "descriptionEn": "MAKKAH -- Menteri Haji dan Umrah (Menhaj) RI, Mochamad Irfan Yusuf, menyerap aspirasi dan masukan langsung dari jamaah sebagai bahan peningkatan kualitas layanan haji dan umrah. Hal tersebut dilakukan...",
       "image": "https://static.republika.co.id/uploads/images/detailnews/menteri-haji-dan-umrah-menhaj-mochamad-irfan-yusuf-buka_260508141001-926.jpeg",
       "category": "Haji dan Umrah",
       "tags": [
@@ -196,9 +186,7 @@
     {
       "id": "58229efe8b6b6a51",
       "title": "Gaza sandbank collapse kills five amid heavy rains",
-      "titleEn": "Gaza sandbank collapse kills five amid heavy rains",
       "description": "Gaza sandbank collapse kills five amid heavy rains At least five people have been killed, including three children, after heavy rains caused a sandbank to collapse in central Gaza's Deir al-Balah, Wafa news reported on Sunday. A civil defence spokesman added that five wounded people had been pulled out of the rubble after their tents were hit, and teams are continuing to search for survivors. The incident comes amid worsening conditions faced by displaced Palestinians in Gaza, as national and internation institutions warned heavy rainfall and bad weather require urgent intervention and the provision of safe shelter and winter supplies.",
-      "descriptionEn": "Gaza sandbank collapse kills five amid heavy rains At least five people have been killed, including three children, after heavy rains caused a sandbank to collapse in central Gaza's Deir al-Balah, Wafa news reported on Sunday. A civil defence spokesman added that five wounded people had been pulled out of the rubble after their tents were hit, and teams are continuing to search for survivors. The incident comes amid worsening conditions faced by displaced Palestinians in Gaza, as national and internation institutions warned heavy rainfall and bad weather require urgent intervention and the provision of safe shelter and winter supplies.",
       "image": "",
       "category": "Palestina",
       "tags": [
@@ -215,9 +203,7 @@
     {
       "id": "638cbb1532255585",
       "title": "Menimbang Keadilan Tuhan dari Tiga Mimbar Tafsir",
-      "titleEn": "Menimbang Keadilan Tuhan dari Tiga Mimbar Tafsir",
       "description": "Judul Artikel: Menggugat Keadilan Tuhan: Studi Komparasi Tafsīr Al-Kasysyāf, Al-Tafsīr Al-Munīr, dan Tafsir Al-MīzānPenulis: Hasani Ahmad Said, Azizah Romadhona, Wardatul JannahDimuat di: Cakrawala: Jurnal Studi Islam, Vol. 18 No....",
-      "descriptionEn": "Judul Artikel: Menggugat Keadilan Tuhan: Studi Komparasi Tafsīr Al-Kasysyāf, Al-Tafsīr Al-Munīr, dan Tafsir Al-MīzānPenulis: Hasani Ahmad Said, Azizah Romadhona, Wardatul JannahDimuat di: Cakrawala: Jurnal Studi Islam, Vol. 18 No....",
       "image": "https://static.republika.co.id/uploads/images/detailnews/sejumlah-kitab-tafsir-karya-para-ulama-_140218193139-381.jpg",
       "category": "Al-Qur'an dan Hadis",
       "tags": [
@@ -234,9 +220,7 @@
     {
       "id": "2645088467e83847",
       "title": "Haji Melampaui Simbol Toleransi",
-      "titleEn": "Haji Melampaui Simbol Toleransi",
       "description": "Pelibatan warga non-Muslim dalam pelayanan haji memantik perdebatan setelah Wakil Menteri Haji dan Umrah Dahnil Anzar Simanjuntak mengaitkannya dengan toleransi dan gotong royong. Gagasan tersebut mengandung pesan kebinekaan yang...",
-      "descriptionEn": "Pelibatan warga non-Muslim dalam pelayanan haji memantik perdebatan setelah Wakil Menteri Haji dan Umrah Dahnil Anzar Simanjuntak mengaitkannya dengan toleransi dan gotong royong. Gagasan tersebut mengandung pesan kebinekaan yang...",
       "image": "https://static.republika.co.id/uploads/images/detailnews/051480200-1780406876-830-556.jpg",
       "category": "Haji dan Umrah",
       "tags": [
@@ -253,9 +237,7 @@
     {
       "id": "2acc8197e90523be",
       "title": "Dahsyatnya Doa Nabi Muhammad SAW untuk Umat Manusia",
-      "titleEn": "Dahsyatnya Doa Nabi Muhammad SAW untuk Umat Manusia",
       "description": "JAKARTA -- Cendekiawan dan ulama asal Turki, Badiuzzaman Said Nursi, mengungkapkan keistimewaan doa Nabi Muhammad SAW bagi seluruh makhluk. Menurut dia, doa yang dipanjatkan Rasulullah SAW menunjukkan betapa mulianya...",
-      "descriptionEn": "JAKARTA -- Cendekiawan dan ulama asal Turki, Badiuzzaman Said Nursi, mengungkapkan keistimewaan doa Nabi Muhammad SAW bagi seluruh makhluk. Menurut dia, doa yang dipanjatkan Rasulullah SAW menunjukkan betapa mulianya...",
       "image": "https://static.republika.co.id/uploads/images/detailnews/010400200-1771745617-830-556.jpg",
       "category": "Dakwah dan Ulama",
       "tags": [
@@ -272,9 +254,7 @@
     {
       "id": "a04ddb2b0ebd223c",
       "title": "Menhaj Imbau Jamaah Umrah Santun dan Bijak di Tanah Suci",
-      "titleEn": "Menhaj Imbau Jamaah Umrah Santun dan Bijak di Tanah Suci",
       "description": "JAKARTA -- Menteri Haji dan Umrah (Menhaj), Mochamad Irfan Yusuf mengimbau jamaah umrah Indonesia untuk mengedepankan sikap santun dan bijaksana selama menjalankan ibadah di Tanah Suci. Jamaah diharapkan mampu...",
-      "descriptionEn": "JAKARTA -- Menteri Haji dan Umrah (Menhaj), Mochamad Irfan Yusuf mengimbau jamaah umrah Indonesia untuk mengedepankan sikap santun dan bijaksana selama menjalankan ibadah di Tanah Suci. Jamaah diharapkan mampu...",
       "image": "https://static.republika.co.id/uploads/images/detailnews/kabah-ilustrasi-_180530210639-733.jpg",
       "category": "Haji dan Umrah",
       "tags": [
@@ -291,9 +271,7 @@
     {
       "id": "4b1e7ef7b37e7793",
       "title": "Bandara Dhoho Kediri Resmi Jadi Embarkasi Haji Reguler 2027",
-      "titleEn": "Bandara Dhoho Kediri Resmi Jadi Embarkasi Haji Reguler 2027",
       "description": "KEDIRI -- Bandara Internasional Dhoho Kediri, Jawa Timur resmi ditetapkan sebagai bandara embarkasi dan debarkasi haji reguler untuk penyelenggaraan ibadah haji 1448 Hijriah/2027 Masehi dengan proyeksi melayani 9.641 calon haji...",
-      "descriptionEn": "KEDIRI -- Bandara Internasional Dhoho Kediri, Jawa Timur resmi ditetapkan sebagai bandara embarkasi dan debarkasi haji reguler untuk penyelenggaraan ibadah haji 1448 Hijriah/2027 Masehi dengan proyeksi melayani 9.641 calon haji...",
       "image": "https://static.republika.co.id/uploads/images/detailnews/039585000-1750239596-830-556.jpg",
       "category": "Haji dan Umrah",
       "tags": [
@@ -310,9 +288,7 @@
     {
       "id": "6f87cce88ee43aa9",
       "title": "Gaza wedding festival sees 250 couples married at the same time",
-      "titleEn": "Gaza wedding festival sees 250 couples married at the same time",
       "description": "A mass wedding for Palestinian brides and grooms has taken place in the rubble-strewn streets of Gaza.",
-      "descriptionEn": "A mass wedding for Palestinian brides and grooms has taken place in the rubble-strewn streets of Gaza.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/354f/live/49a10e60-daba-11f1-b441-2b33b063138f.jpg",
       "category": "Palestina",
       "tags": [
@@ -329,9 +305,7 @@
     {
       "id": "b001ec5de43f56cc",
       "title": "Kemenhaj Dukung Arab Saudi Berantas Makelar Ilegal Perhajian",
-      "titleEn": "Kemenhaj Dukung Arab Saudi Berantas Makelar Ilegal Perhajian",
       "description": "JAKARTA – Kementerian Haji dan Umrah (Kemenhaj) Republik Indonesia menyambut baik langkah tegas Pemerintah Arab Saudi dalam mencegah praktik perantara atau makelar ilegal dalam pengadaan layanan haji. Langkah ini sejalan...",
-      "descriptionEn": "JAKARTA – Kementerian Haji dan Umrah (Kemenhaj) Republik Indonesia menyambut baik langkah tegas Pemerintah Arab Saudi dalam mencegah praktik perantara atau makelar ilegal dalam pengadaan layanan haji. Langkah ini sejalan...",
       "image": "https://static.republika.co.id/uploads/images/detailnews/000402000-1793365941-830-556.jpg",
       "category": "Haji dan Umrah",
       "tags": [
@@ -348,9 +322,7 @@
     {
       "id": "ee386142c6147e67",
       "title": "Enam Ayat Sakinah dalam Alquran yang Dapat Dijadikan Penuntun Hati Menuju Ketenangan",
-      "titleEn": "Enam Ayat Sakinah dalam Alquran yang Dapat Dijadikan Penuntun Hati Menuju Ketenangan",
       "description": "JAKARTA— Setiap hamba membutuhkan keyakinan, ketenteraman, kenyamanan, dan ketenangan. Tidak ada kenyamanan dan ketenangan yang hakiki kecuali dengan mengingat Allah. Karena itu, Allah SWT berfirman: إِنَّمَا الْمُؤْمِنُونَ الَّذِينَ إِذَا ذُكِرَ...",
-      "descriptionEn": "JAKARTA— Setiap hamba membutuhkan keyakinan, ketenteraman, kenyamanan, dan ketenangan. Tidak ada kenyamanan dan ketenangan yang hakiki kecuali dengan mengingat Allah. Karena itu, Allah SWT berfirman: إِنَّمَا الْمُؤْمِنُونَ الَّذِينَ إِذَا ذُكِرَ...",
       "image": "https://static.republika.co.id/uploads/images/detailnews/042998800-1773973944-830-556.jpg",
       "category": "Al-Qur'an dan Hadis",
       "tags": [
@@ -384,9 +356,7 @@
     {
       "id": "420ecbaa1b016b64",
       "title": "Cara menghitung zakat akhir tahun 2026 dan contoh nominalnya",
-      "titleEn": "Cara menghitung zakat akhir tahun 2026 dan contoh nominalnya",
       "description": "Istilah zakat akhir tahun umumnya merujuk pada kebiasaan mengevaluasi harta menjelang pergantian tahun untuk memastikan ...",
-      "descriptionEn": "Istilah zakat akhir tahun umumnya merujuk pada kebiasaan mengevaluasi harta menjelang pergantian tahun untuk memastikan ...",
       "image": "https://img.antaranews.com/cache/800x533/2026/09/08/IMG_20260908_102801.jpg.jpeg",
       "category": "Ekonomi Syariah",
       "tags": [
