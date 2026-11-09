@@ -14,7 +14,7 @@
     "link": "https://khazanah.republika.co.id/berita/to7pre366/serap-aspirasi-jamaah-di-makkah-menhaj-siapkan-perbaikan-layanan-haji-2027",
     "published": "Mon, 09 Nov 2026 09:04:26 +0700",
     "source_name": "Republika Khazanah",
-    "category": "islami",
+    "category": "Haji dan Umrah",
     "is_translated": false
   },
   {
@@ -41,7 +41,7 @@
     "link": "https://khazanah.republika.co.id/berita/to65eq487/menimbang-keadilan-tuhan-dari-tiga-mimbar-tafsir",
     "published": "Sun, 08 Nov 2026 12:47:14 +0700",
     "source_name": "Republika Khazanah",
-    "category": "islami",
+    "category": "Al-Qur'an dan Hadis",
     "is_translated": false
   },
   {
@@ -50,7 +50,7 @@
     "link": "https://khazanah.republika.co.id/berita/to633j366/haji-melampaui-simbol-toleransi",
     "published": "Sun, 08 Nov 2026 11:57:19 +0700",
     "source_name": "Republika Khazanah",
-    "category": "islami",
+    "category": "Haji dan Umrah",
     "is_translated": false
   },
   {
@@ -59,7 +59,7 @@
     "link": "https://khazanah.republika.co.id/berita/to61as366/dahsyatnya-doa-nabi-muhammad-saw-untuk-umat-manusia",
     "published": "Sun, 08 Nov 2026 11:55:00 +0700",
     "source_name": "Republika Khazanah",
-    "category": "islami",
+    "category": "Dakwah dan Ulama",
     "is_translated": false
   },
   {
@@ -68,7 +68,7 @@
     "link": "https://khazanah.republika.co.id/berita/to601m430/puluhan-ribu-jamaah-persis-jawa-barat-putihkan-masjid-raya-aljabbar",
     "published": "Sun, 08 Nov 2026 10:51:22 +0700",
     "source_name": "Republika Khazanah",
-    "category": "islami",
+    "category": "Masjid dan Peradaban",
     "is_translated": false
   },
   {
@@ -86,7 +86,7 @@
     "link": "https://khazanah.republika.co.id/berita/to5s2h430/menhaj-imbau-jamaah-umrah-santun-dan-bijak-di-tanah-suci",
     "published": "Sun, 08 Nov 2026 07:59:05 +0700",
     "source_name": "Republika Khazanah",
-    "category": "islami",
+    "category": "Haji dan Umrah",
     "is_translated": false
   },
   {
@@ -95,7 +95,7 @@
     "link": "https://khazanah.republika.co.id/berita/to5p8n430/bandara-dhoho-kediri-resmi-jadi-embarkasi-haji-reguler-2027",
     "published": "Sun, 08 Nov 2026 06:57:59 +0700",
     "source_name": "Republika Khazanah",
-    "category": "islami",
+    "category": "Haji dan Umrah",
     "is_translated": false
   },
   {
@@ -104,7 +104,7 @@
     "link": "https://khazanah.republika.co.id/berita/to50oh320/kemenhaj-dukung-arab-saudi-berantas-makelar-ilegal-perhajian",
     "published": "Sat, 07 Nov 2026 22:07:29 +0700",
     "source_name": "Republika Khazanah",
-    "category": "islami",
+    "category": "Haji dan Umrah",
     "is_translated": false
   },
   {
@@ -113,7 +113,7 @@
     "link": "https://khazanah.republika.co.id/berita/to4t4t320/enam-ayat-sakinah-dalam-alquran-yang-dapat-dijadikan-penuntun-hati-menuju-ketenangan",
     "published": "Sat, 07 Nov 2026 19:24:29 +0700",
     "source_name": "Republika Khazanah",
-    "category": "islami",
+    "category": "Al-Qur'an dan Hadis",
     "is_translated": false
   },
   {
@@ -131,7 +131,7 @@
     "link": "https://khazanah.republika.co.id/berita/to3297430/rusia-resmikan-russian-space-di-masjid-istiqlal-pagar-nusa-dorong-diplomasi-kebudayaan",
     "published": "Fri, 06 Nov 2026 20:46:19 +0700",
     "source_name": "Republika Khazanah",
-    "category": "islami",
+    "category": "Masjid dan Peradaban",
     "is_translated": false
   },
   {
@@ -167,7 +167,7 @@
     "link": "https://muhammadiyah.or.id/2026/11/kebersamaan-dan-kegembiraan-jadi-kunci-mengabdi-di-muhammadiyah/",
     "published": "Sat, 07 Nov 2026 07:03:59 +0000",
     "source_name": "Muhammadiyah Org",
-    "category": "islami",
+    "category": "Dakwah dan Ulama",
     "is_translated": false
   },
   {
@@ -176,7 +176,7 @@
     "link": "https://muhammadiyah.or.id/2026/11/ldk-pp-muhammadiyah-dan-pondok-shabran-ums-perkuat-kaderisasi-dai-untuk-wilayah-3t/",
     "published": "Sat, 07 Nov 2026 03:03:57 +0000",
     "source_name": "Muhammadiyah Org",
-    "category": "islami",
+    "category": "Dakwah dan Ulama",
     "is_translated": false
   },
   {
@@ -226,11 +226,11 @@
   },
   {
     "title": "Deadly sand cliff collapses on displaced families in Gaza",
-    "summary": "Deadly sand cliff collapses on displaced families in Gaza",
+    "summary": "Deadly sand cliff collapses on displaced families in Gaza...",
     "link": "https://www.aljazeera.com/video/newsfeed/2026/11/8/deadly-sand-cliff-collapses-on-displaced-families-in-gaza?traffic_source=rss",
     "published": "Sun, 08 Nov 2026 21:05:07 +0000",
     "source_name": "Al Jazeera World",
-    "category": "internasional",
+    "category": "Palestina",
     "is_translated": true
   }
 ]
