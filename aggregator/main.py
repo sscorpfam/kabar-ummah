@@ -2,6 +2,7 @@ import feedparser
 import json
 import os
 import re
+import time
 from deep_translator import GoogleTranslator
 
 # Kata kunci Islami & Umat Islam (ID & EN) yang spesifik dan akurat
@@ -22,12 +23,31 @@ ISLAMIC_KEYWORDS = [
 ]
 
 # Kata kunci pembatal (Negative Keywords): Jika mengandung kata ini, berita langsung DITOLAK
-# Mencegah berita politik umum/militer murni meloloskan isu non-religius
 EXCLUDE_KEYWORDS = [
     'casino', 'gambling', 'judi', 'narkoba', 'lgbt', 'hollywood', 'celebrity gossip'
 ]
 
-translator = GoogleTranslator(source='auto', target='id')
+# Memuat categories.json jika tersedia
+def load_categories():
+    if os.path.exists('aggregator/categories.json'):
+        try:
+            with open('aggregator/categories.json', 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"[Peringatan] Gagal membaca categories.json: {e}")
+    return {}
+
+CATEGORIES = load_categories()
+
+def detect_category(title, summary, default_category="Hikmah & Ibadah"):
+    """Mendeteksi kategori berita berdasarkan kata kunci di categories.json"""
+    content = f"{title} {summary}".lower()
+    for category_name, keywords in CATEGORIES.items():
+        if isinstance(keywords, list):
+            for keyword in keywords:
+                if re.search(r'\b' + re.escape(keyword.lower()) + r'\b', content):
+                    return category_name
+    return default_category
 
 def is_islamic_content(title, summary, is_trusted_islamic_source=False):
     """
@@ -53,15 +73,21 @@ def clean_html(text):
     text = re.sub(clean, '', text)
     return re.sub(r'\s+', ' ', text).strip()
 
-def translate_text(text):
-    if not text:
-        return ""
+def safe_translate_batch(texts):
+    """
+    Menerjemahkan kumpulan teks (batch) sekaligus agar terhindar dari rate-limit 5 req/sec.
+    """
+    if not texts:
+        return []
+    
+    translator = GoogleTranslator(source='auto', target='id')
     try:
-        # Terjemahkan per klausa/teks pendek agar hasil presisi
-        return translator.translate(text[:800])
+        translated = translator.translate_batch(texts)
+        time.sleep(1) # Jeda aman 1 detik
+        return translated
     except Exception as e:
-        print(f"[Peringatan] Gagal menerjemahkan: {e}")
-        return text
+        print(f"[Peringatan] Batch translation gagal: {e}. Menggunakan teks asli.")
+        return texts
 
 def fetch_news():
     if not os.path.exists('aggregator/sources.json'):
@@ -71,13 +97,14 @@ def fetch_news():
     with open('aggregator/sources.json', 'r', encoding='utf-8') as f:
         sources = json.load(f)
 
-    all_news = []
+    raw_items = []
+    texts_to_translate = []
+    translate_indices = []
 
     for source in sources:
         try:
             feed = feedparser.parse(source['url'])
-            # Sumber yang kategorinya 'islami' atau 'palestina' dianggap trusted
-            is_trusted = source.get('category') in ['islami', 'palestina']
+            is_trusted = source.get('category') in ['islami', 'palestina', 'Hikmah & Ibadah']
             lang = source.get('language', 'id')
 
             for entry in feed.entries[:20]:
@@ -86,38 +113,51 @@ def fetch_news():
                 link = entry.get('link', '')
                 published = entry.get('published', entry.get('updated', ''))
 
-                # Filter kelayakan berita
+                # Filter kelayakan berita Islami
                 if is_islamic_content(title_raw, summary_raw, is_trusted_islamic_source=is_trusted):
-                    title = title_raw
-                    summary = summary_raw
-
-                    # Terjemahkan berita internasional (EN) ke Bahasa Indonesia
-                    if lang == 'en':
-                        title = translate_text(title_raw)
-                        summary = translate_text(summary_raw[:300])
-                    else:
-                        summary = summary[:300]
-
-                    news_item = {
-                        "title": title,
-                        "summary": summary + ('...' if len(summary_raw) > 300 else ''),
+                    matched_category = detect_category(title_raw, summary_raw, source.get('category', 'Hikmah & Ibadah'))
+                    
+                    item = {
+                        "title": title_raw,
+                        "summary": summary_raw[:300],
                         "link": link,
                         "published": published,
                         "source_name": source['name'],
-                        "category": source.get('category', 'islami'),
-                        "is_translated": True if lang == 'en' else False
+                        "category": matched_category,
+                        "is_translated": (lang == 'en')
                     }
-                    all_news.append(news_item)
+                    
+                    # Jika bahasa Inggris, kumpulkan untuk diterjemahkan via batch
+                    if lang == 'en':
+                        translate_indices.append((len(raw_items), 'title'))
+                        texts_to_translate.append(title_raw)
+                        
+                        if summary_raw:
+                            translate_indices.append((len(raw_items), 'summary'))
+                            texts_to_translate.append(summary_raw[:300])
+
+                    raw_items.append(item)
         except Exception as e:
             print(f"[Error] Gagal mengambil dari sumber {source.get('name')}: {e}")
 
-    # Hapus duplikat berita berdasarkan kemiripan Judul
+    # Eksekusi Penerjemahan Massal (Batch)
+    if texts_to_translate:
+        print(f"[Info] Memproses terjemahan {len(texts_to_translate)} elemen teks...")
+        translated_texts = safe_translate_batch(texts_to_translate)
+        
+        for (item_idx, field), translated_text in zip(translate_indices, translated_texts):
+            raw_items[item_idx][field] = translated_text
+
+    # Hapus duplikat berita berdasarkan kemiripan judul
     seen_titles = set()
     unique_news = []
-    for news in all_news:
+    for news in raw_items:
         title_key = news['title'].lower().strip()
         if title_key not in seen_titles:
             seen_titles.add(title_key)
+            # Format akhiran summary
+            if news['summary'] and not news['summary'].endswith('...'):
+                news['summary'] += '...'
             unique_news.append(news)
 
     # Simpan hasil agregasi (Maksimal 80 berita terbaru)
