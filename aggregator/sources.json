@@ -1,3 +1,4 @@
+
 [
   {
     "name": "Al Jazeera",
@@ -10,5 +11,24 @@
     "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
     "language": "en",
     "country": "International"
+  },
+  {
+    "name": "Republika",
+    "url": "https://www.republika.co.id/rss",
+    "language": "id",
+    "country": "Indonesia"
+  },
+  {
+    "name": "ANTARA",
+    "url": "https://www.antaranews.com/rss/terkini.xml",
+    "language": "id",
+    "country": "Indonesia"
+  },
+  {
+    "name": "Middle East Eye",
+    "url": "https://www.middleeasteye.net/rss",
+    "language": "en",
+    "country": "International"
   }
 ]
+
