@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/xml/rss/all.xml",
+    "language": "en",
+    "country": "International"
+  },
+  {
+    "name": "BBC World",
+    "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "language": "en",
+    "country": "International"
+  }
+]
