@@ -1,8 +1,8 @@
 {
   "status": "success",
-  "lastUpdated": "2026-11-09T03:34:26.217545+00:00",
+  "lastUpdated": "2026-11-09T03:43:35.428433+00:00",
   "total": 15,
-  "newArticles": 14,
+  "newArticles": 10,
   "sourcesChecked": 7,
   "sourcesSucceeded": 7,
   "sourcesFailed": 0,
@@ -27,16 +27,16 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 2,
-      "filtered": 13,
+      "accepted": 1,
+      "filtered": 14,
       "error": null
     },
     {
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 5,
-      "filtered": 45,
+      "accepted": 2,
+      "filtered": 48,
       "error": null
     },
     {
@@ -90,6 +90,8 @@
         "Haji dan Umrah"
       ],
       "source": "ANTARA Terkini",
+      "sourceCountry": "Indonesia",
+      "region": "",
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-09T02:58:24+00:00",
@@ -105,6 +107,8 @@
         "Masjid dan Peradaban"
       ],
       "source": "Republika",
+      "sourceCountry": "Indonesia",
+      "region": "",
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-09T02:37:02+00:00",
@@ -150,6 +154,8 @@
         "Palestina"
       ],
       "source": "Middle East Eye",
+      "sourceCountry": "International",
+      "region": "",
       "language": "en",
       "country": "International",
       "publishedAt": "2026-11-09T02:08:15+00:00",
@@ -165,6 +171,8 @@
         "Dakwah dan Ulama"
       ],
       "source": "ANTARA Terkini",
+      "sourceCountry": "Indonesia",
+      "region": "",
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-09T01:49:15+00:00",
@@ -195,6 +203,8 @@
         "Palestina"
       ],
       "source": "Middle East Eye",
+      "sourceCountry": "International",
+      "region": "",
       "language": "en",
       "country": "International",
       "publishedAt": "2026-11-08T22:44:09+00:00",
@@ -210,6 +220,8 @@
         "Palestina"
       ],
       "source": "Al Jazeera",
+      "sourceCountry": "International",
+      "region": "",
       "language": "en",
       "country": "International",
       "publishedAt": "2026-11-08T21:05:07+00:00",
@@ -225,6 +237,8 @@
         "Palestina"
       ],
       "source": "Middle East Eye",
+      "sourceCountry": "International",
+      "region": "",
       "language": "en",
       "country": "International",
       "publishedAt": "2026-11-08T19:53:24+00:00",
@@ -240,6 +254,8 @@
         "Palestina"
       ],
       "source": "Middle East Eye",
+      "sourceCountry": "International",
+      "region": "",
       "language": "en",
       "country": "International",
       "publishedAt": "2026-11-08T19:35:21+00:00",
@@ -267,6 +283,8 @@
         "Palestina"
       ],
       "source": "BBC World",
+      "sourceCountry": "International",
+      "region": "",
       "language": "en",
       "country": "International",
       "publishedAt": "2026-11-07T17:58:41+00:00",
@@ -282,6 +300,8 @@
         "Ekonomi Syariah"
       ],
       "source": "ANTARA Humaniora",
+      "sourceCountry": "Indonesia",
+      "region": "",
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-10-24T04:53:41+00:00",
