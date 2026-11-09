@@ -1,25 +1,25 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-09T06:43:28.065404+00:00",
-  "total": 15,
-  "newArticles": 12,
+  "lastUpdated": "2026-11-09T06:49:52.663169+00:00",
+  "total": 17,
+  "newArticles": 16,
   "sourcesChecked": 9,
-  "sourcesSucceeded": 7,
-  "sourcesFailed": 2,
+  "sourcesSucceeded": 8,
+  "sourcesFailed": 1,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 0,
-      "filtered": 25,
+      "accepted": 1,
+      "filtered": 24,
       "error": null
     },
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 27,
-      "accepted": 0,
+      "raw": 28,
+      "accepted": 1,
       "filtered": 27,
       "error": null
     },
@@ -27,17 +27,17 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 10,
-      "filtered": 5,
+      "accepted": 9,
+      "filtered": 6,
       "error": null
     },
     {
       "name": "ANTARA Terkini",
-      "status": "error",
-      "raw": 0,
-      "accepted": 0,
-      "filtered": 0,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "status": "success",
+      "raw": 50,
+      "accepted": 1,
+      "filtered": 49,
+      "error": null
     },
     {
       "name": "ANTARA Dunia",
@@ -59,8 +59,8 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 0,
-      "filtered": 20,
+      "accepted": 2,
+      "filtered": 18,
       "error": null
     },
     {
@@ -82,40 +82,6 @@
   ],
   "articles": [
     {
-      "id": "bc7b9a1ebe25ebf7",
-      "title": "ICMI dorong perempuan lebih cakap kelola keuangan di era digital",
-      "description": "Ikatan Cendekiawan Muslim Indonesia (ICMI) mendorong peningkatan literasi keuangan perempuan agar semakin cakap ...",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/09/1000511314.jpg",
-      "category": "Nasional Islam",
-      "tags": [
-        "Nasional Islam"
-      ],
-      "source": "ANTARA Terkini",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T06:20:23+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5841067/icmi-dorong-perempuan-lebih-cakap-kelola-keuangan-di-era-digital"
-    },
-    {
-      "id": "0becfe54c6fc9189",
-      "title": "Shopee bersama Anteraja berangkatkan 31 kurir terbaik ibadah umrah",
-      "description": "Shopee Indonesia kembali berkolaborasi dengan Anteraja dalam mendukung penyelenggaraan program SATRIA Umrah 2026, ...",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/09/SeaTalk_IMG_20261104_160951.jpg",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "ANTARA Terkini",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T05:59:22+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5841007/shopee-bersama-anteraja-berangkatkan-31-kurir-terbaik-ibadah-umrah"
-    },
-    {
       "id": "7cd1c024996b944c",
       "title": "Umat Islam harus Bangun Keberanian dan Integritas dalam Menegakkan Kebenaran",
       "description": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Anggota Majelis Tabligh Pimpinan Wilayah Muhammadiyah Daerah Istimewa Yogyakarta (DIY), Hendra Darmawan, mengajak umat Islam membangun keberanian dalam menegakkan kebenaran dan mencegah kemungkaran. Menurutnya, keberanian merupakan bagian penting dari keimanan yang harus diwujudkan dalam kehidupan pribadi maupun sosial. Hal itu disampaikan Hendra dalam khutbah Jumat di Masjid Islamic Center Universitas Ahmad Dahlan […] The post Umat Islam harus Bangun Keberanian dan Integritas dalam Menegakkan Kebenaran appeared first on Muhammadiyah .",
@@ -131,6 +97,23 @@
       "country": "Indonesia",
       "publishedAt": "2026-11-09T05:50:47+00:00",
       "originalUrl": "https://muhammadiyah.or.id/2026/11/umat-islam-harus-bangun-keberanian-dan-integritas-dalam-menegakkan-kebenaran"
+    },
+    {
+      "id": "9c01057ebc9957a5",
+      "title": "5 orang tewas akibat tebing pasir runtuh timpa tenda pengungsi di Gaza",
+      "description": "Setidaknya lima warga Palestina, termasuk tiga anak-anak, tewas pada Minggu malam (8/11) saat tebing pasir runtuh ...",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/09/CjkinzN000008_20261109_CBMFN0A001.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "ANTARA Terkini",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-09T05:46:37+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5840979/5-orang-tewas-akibat-tebing-pasir-runtuh-timpa-tenda-pengungsi-di-gaza"
     },
     {
       "id": "6ef7c3f1264bee74",
@@ -150,6 +133,40 @@
       "originalUrl": "https://khazanah.republika.co.id/berita/to7yyy366/khofifah-minta-seleksi-petugas-haji-daerah-2027-transparan-dan-objektif"
     },
     {
+      "id": "af111e98746fe8aa",
+      "title": "‘Tents don’t protect us’: Rains flood displaced Palestinians in Gaza",
+      "description": "Hundreds of thousands of Palestinians are vulnerable to flooding as Israel continues to block entry of mobile homes.",
+      "image": "",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sourceCountry": "International",
+      "region": "",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-09T05:18:39+00:00",
+      "originalUrl": "https://www.aljazeera.com/features/2026/11/9/tents-dont-protect-us-rains-flood-displaced-palestinians-in-gaza?traffic_source=rss"
+    },
+    {
+      "id": "54ea139523ea2ad4",
+      "title": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency",
+      "description": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitarian needs. Gaza's civil defence declared a maximum state of emergency as overwhelmed rescue teams struggled to respond to thousands of distress calls amid limited resources and inadequate shelter. Rescue teams received over 2000 distress calls since the storm began, while only having capacity to respond to a tenth of the calls received. Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitari",
+      "image": "",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sourceCountry": "International",
+      "region": "",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-09T02:08:15+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-flooding-brings-gazas-civil-defence-declare-maximum-state"
+    },
+    {
       "id": "ef94b41c82a7a7bd",
       "title": "Serap Aspirasi Jamaah di Makkah, Menhaj Siapkan Perbaikan Layanan Haji 2027",
       "description": "MAKKAH -- Menteri Haji dan Umrah (Menhaj) RI, Mochamad Irfan Yusuf, menyerap aspirasi dan masukan langsung dari jamaah sebagai bahan peningkatan kualitas layanan haji dan umrah. Hal tersebut dilakukan...",
@@ -165,6 +182,23 @@
       "country": "Indonesia",
       "publishedAt": "2026-11-09T02:04:26+00:00",
       "originalUrl": "https://khazanah.republika.co.id/berita/to7pre366/serap-aspirasi-jamaah-di-makkah-menhaj-siapkan-perbaikan-layanan-haji-2027"
+    },
+    {
+      "id": "58229efe8b6b6a51",
+      "title": "Gaza sandbank collapse kills five amid heavy rains",
+      "description": "Gaza sandbank collapse kills five amid heavy rains At least five people have been killed, including three children, after heavy rains caused a sandbank to collapse in central Gaza's Deir al-Balah, Wafa news reported on Sunday. A civil defence spokesman added that five wounded people had been pulled out of the rubble after their tents were hit, and teams are continuing to search for survivors. The incident comes amid worsening conditions faced by displaced Palestinians in Gaza, as national and internation institutions warned heavy rainfall and bad weather require urgent intervention and the provision of safe shelter and winter supplies.",
+      "image": "",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sourceCountry": "International",
+      "region": "",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-08T19:53:24+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/gaza-sandbank-collapse-kills-5-amid-heavy-rains"
     },
     {
       "id": "638cbb1532255585",
@@ -218,23 +252,6 @@
       "originalUrl": "https://khazanah.republika.co.id/berita/to61as366/dahsyatnya-doa-nabi-muhammad-saw-untuk-umat-manusia"
     },
     {
-      "id": "84b0cf534e84c71f",
-      "title": "Puluhan Ribu Jamaah PERSIS Jawa Barat Putihkan Masjid Raya Al-Jabbar",
-      "description": "BANDUNG-- Suasana kawasan Masjid Raya Al-Jabbar, Gedebage, Kota Bandung dipadati oleh lautan jamaah pada Ahad (8/11/2026) pagi. Pimpinan Wilayah Persatuan Islam (PW PERSIS) Jawa Barat beserta seluruh badan otonomnya...",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/suasana-kawasan-masjid-raya-al-jabbar-gedebage-kota-bandung-dipadati_261108105042-291.jpg",
-      "category": "Masjid dan Peradaban",
-      "tags": [
-        "Masjid dan Peradaban"
-      ],
-      "source": "Republika",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-08T03:51:22+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to601m430/puluhan-ribu-jamaah-persis-jawa-barat-putihkan-masjid-raya-aljabbar"
-    },
-    {
       "id": "a04ddb2b0ebd223c",
       "title": "Menhaj Imbau Jamaah Umrah Santun dan Bijak di Tanah Suci",
       "description": "JAKARTA -- Menteri Haji dan Umrah (Menhaj), Mochamad Irfan Yusuf mengimbau jamaah umrah Indonesia untuk mengedepankan sikap santun dan bijaksana selama menjalankan ibadah di Tanah Suci. Jamaah diharapkan mampu...",
@@ -267,6 +284,23 @@
       "country": "Indonesia",
       "publishedAt": "2026-11-07T23:57:59+00:00",
       "originalUrl": "https://khazanah.republika.co.id/berita/to5p8n430/bandara-dhoho-kediri-resmi-jadi-embarkasi-haji-reguler-2027"
+    },
+    {
+      "id": "6f87cce88ee43aa9",
+      "title": "Gaza wedding festival sees 250 couples married at the same time",
+      "description": "A mass wedding for Palestinian brides and grooms has taken place in the rubble-strewn streets of Gaza.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/354f/live/49a10e60-daba-11f1-b441-2b33b063138f.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "BBC World",
+      "sourceCountry": "International",
+      "region": "",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-07T17:58:41+00:00",
+      "originalUrl": "https://www.bbc.co.uk/news/videos/ckr5ygm78j76o?at_medium=RSS&at_campaign=rss"
     },
     {
       "id": "b001ec5de43f56cc",
