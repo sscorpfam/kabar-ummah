@@ -1,4 +1,3 @@
-
 [
   {
     "name": "Al Jazeera",
@@ -19,8 +18,20 @@
     "country": "Indonesia"
   },
   {
-    "name": "ANTARA",
+    "name": "ANTARA Terkini",
     "url": "https://www.antaranews.com/rss/terkini.xml",
+    "language": "id",
+    "country": "Indonesia"
+  },
+  {
+    "name": "ANTARA Dunia",
+    "url": "https://www.antaranews.com/rss/dunia.xml",
+    "language": "id",
+    "country": "Indonesia"
+  },
+  {
+    "name": "ANTARA Humaniora",
+    "url": "https://www.antaranews.com/rss/humaniora.xml",
     "language": "id",
     "country": "Indonesia"
   },
@@ -31,4 +42,3 @@
     "country": "International"
   }
 ]
-
