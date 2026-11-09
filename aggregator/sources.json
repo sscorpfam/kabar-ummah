@@ -1,38 +1,56 @@
 [
   {
-    "name": "NU Online Hikmah",
-    "url": "https://islam.nu.or.id/post/feed",
-    "category": "Hikmah & Ibadah",
-    "language": "id"
-  },
-  {
-    "name": "Republika Khazanah",
-    "url": "https://www.republika.co.id/rss/khazanah",
-    "category": "Hikmah & Ibadah",
-    "language": "id"
-  },
-  {
-    "name": "Detik Hikmah",
-    "url": "https://news.detik.com/hikmah/rss",
-    "category": "Hikmah & Ibadah",
-    "language": "id"
-  },
-  {
-    "name": "Muhammadiyah Org",
-    "url": "https://muhammadiyah.or.id/feed/",
-    "category": "Hikmah & Ibadah",
-    "language": "id"
-  },
-  {
-    "name": "Palestine Chronicle (Islam & Culture)",
-    "url": "https://www.palestinechronicle.com/category/analysis-and-features/feed/",
-    "category": "Dunia Islam & Palestina",
-    "language": "en"
-  },
-  {
     "name": "Al Jazeera",
     "url": "https://www.aljazeera.com/xml/rss/all.xml",
     "language": "en",
     "country": "International"
+  },
+  {
+    "name": "BBC World",
+    "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "language": "en",
+    "country": "International"
+  },
+  {
+    "name": "Republika",
+    "url": "https://www.republika.co.id/rss/khazanah",
+    "language": "id",
+    "country": "Indonesia"
+  },
+  {
+    "name": "ANTARA Terkini",
+    "url": "https://www.antaranews.com/rss/terkini.xml",
+    "language": "id",
+    "country": "Indonesia"
+  },
+  {
+    "name": "ANTARA Dunia",
+    "url": "https://www.antaranews.com/rss/dunia.xml",
+    "language": "id",
+    "country": "Indonesia"
+  },
+  {
+    "name": "ANTARA Humaniora",
+    "url": "https://www.antaranews.com/rss/humaniora.xml",
+    "language": "id",
+    "country": "Indonesia"
+  },
+  {
+    "name": "Middle East Eye",
+    "url": "https://www.middleeasteye.net/rss",
+    "language": "en",
+    "country": "International"
+  },
+  {
+    "name": "Detik Hikmah",
+    "url": "https://news.detik.com/hikmah/rss",
+    "language": "id",
+    "country": "Indonesia"
+  },
+  {
+    "name": "Muhammadiyah Org",
+    "url": "https://muhammadiyah.or.id/feed/",
+    "language": "id",
+    "country": "Indonesia"
   }
 ]
