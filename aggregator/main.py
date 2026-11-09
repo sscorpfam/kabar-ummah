@@ -194,6 +194,7 @@ def extract_image(entry):
 
 
 
+
 def categorize(title, description, categories):
 
     text = clean_text(
@@ -257,8 +258,6 @@ def categorize(title, description, categories):
     )
 
     return best_category, matched_categories
-
-
 
 def fetch_source(source, categories):
     result = {
