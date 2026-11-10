@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-10T12:43:47.654799+00:00",
-  "total": 52,
-  "newArticles": 22,
+  "lastUpdated": "2026-11-10T20:27:59.580908+00:00",
+  "total": 69,
+  "newArticles": 27,
   "sourcesChecked": 9,
   "sourcesSucceeded": 8,
   "sourcesFailed": 1,
@@ -11,32 +11,32 @@
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 1,
-      "filtered": 24,
+      "accepted": 4,
+      "filtered": 21,
       "error": null
     },
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 30,
-      "accepted": 1,
-      "filtered": 29,
+      "raw": 35,
+      "accepted": 2,
+      "filtered": 33,
       "error": null
     },
     {
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 8,
-      "filtered": 7,
+      "accepted": 7,
+      "filtered": 8,
       "error": null
     },
     {
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 1,
-      "filtered": 49,
+      "accepted": 2,
+      "filtered": 48,
       "error": null
     },
     {
@@ -59,8 +59,8 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 9,
-      "filtered": 11,
+      "accepted": 10,
+      "filtered": 10,
       "error": null
     },
     {
@@ -81,6 +81,265 @@
     }
   ],
   "articles": [
+    {
+      "id": "2d1d43e268545e03",
+      "title": "F1 champion Lewis Hamilton visits Gaza border",
+      "description": "North Sinai Governor Khaled Megawer briefs the British driver on Egypt-coordinated aid efforts through Rafah crossing.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af364c8736e-1794335944.jpg?resize=1920%2C1440",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T20:14:34+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/10/f1-champion-lewis-hamilton-visits-gaza-border?traffic_source=rss"
+    },
+    {
+      "id": "aa63a602b6db429c",
+      "title": "France is ‘shifting blame’ for cyberattack on supermarket fridges, Iran says",
+      "description": "France is ‘shifting blame’ for cyberattack on supermarket fridges, Iran says Iran’s Foreign Minister Abbas Araghchi said France is “shifting blame for its failures” by accusing an IRGC-affiliated cyber unit of hacking supermarket fridges earlier in October. “Unable to manage fridges let alone addressing grievances of its people, French government is shifting blame for its failures onto others,\" Araghchi said in a post on X. “Yes, Iran is powerful. But unlike France, we do not exercise power via support for massacres in Gaza or bombings of schools and hospitals,\" he said. Unable to manage fridges let alone addressing grievances of its people, French government is shifting blame for its failures onto others. Yes, Iran is powerful. But unlike France, we do not exercise power via support for m",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T19:51:22+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/france-shifting-blame-cyberattack-supermarket-fridges-iran-says"
+    },
+    {
+      "id": "bbf8c1042f97909b",
+      "title": "F1 star Lewis Hamilton visits Gaza border",
+      "description": "F1 star Lewis Hamilton visits Gaza border Formula One star Lewis Hamilton visited Egypt's Rafah border crossing on Tuesday and met aid workers delivering assistance to the war-battered Gaza Strip, according to an Egyptian government statement. North Sinai governor \"Khaled Megawer took Lewis Hamilton on a visit to the Rafah land crossing to learn about the Egyptian efforts to support the Palestinian brothers in the Gaza Strip\", the statement read. Video shared by Megawer's office showed the seven-time world champion greeting aid workers and learning about their efforts to get supplies into Gaza, where this week heavy rains swept away tens of thousands of tents. According to a truce struck by Israel and Hamas last year, at least 600 trucks of aid per day should enter Gaza, where more than tw",
+      "image": "https://www.middleeasteye.net/sites/default/files/lewis%20hamilton%20gaza%20border%20reuters%2010%20novermber%202026%20%281%29%20%281%29.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T19:35:15+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/f1-star-lewis-hamilton-visits-gaza-border"
+    },
+    {
+      "id": "f03922da3ddc1a93",
+      "title": "Michigan election: How Abdul El-Sayed's critics smeared his defence of Palestinians as 'hate'",
+      "description": "Michigan election: How Abdul El-Sayed's critics smeared his defence of Palestinians as 'hate' Submitted by Murad Idris on Fri, 11/06/2026 - 20:51 By attacking his motives, the senator-elect's opponents turned a debate over US funding for Israel's genocide in Gaza into a trial of his character Abdul El-Sayed (left) won Michigan’s US Senate seat on 3 November, two days after Haley Stevens (centre), the Democrat he beat in the primary, endorsed his Republican opponent Mike Rogers (right) (Jeff Kowalsky, Jim Watson and Blake Fagan/AFP) Off In his victory speech last week, Abdulrahman El-Sayed , the first Muslim American elected to the US Senate, said \"hate\" or \"hateful\" five times, and each time the word did something different. He recalled supporters asking why he never called his opponents h",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_D6446WE%281%29.jpg.jpg?itok=mxiJIKJe",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Dunia Muslim",
+        "Islamofobia dan Diskriminasi"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T18:59:51+00:00",
+      "originalUrl": "https://www.middleeasteye.net/opinion/michigan-election-how-abdul-el-sayeds-critics-smeared-his-defence-palestinians-hate"
+    },
+    {
+      "id": "8eaf6577d9402af3",
+      "title": "Jerusalem Daily: 14-year-old killed in West Bank raid",
+      "description": "Israeli forces kill a 14-year-old Palestinian boy in Burqa, as settlers assault a woman near Hebron.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794337066.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T18:58:05+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/10/jerusalem-daily-14-year-old-killed-in-west-bank-raid?traffic_source=rss"
+    },
+    {
+      "id": "d84592a7dca61ba6",
+      "title": "Israeli fire kills seven, including a father and son, in Gaza",
+      "description": "Israeli fire kills seven, including a father and son, in Gaza Israeli forces killed at least seven Palestinians, including a father and his 13-year-old son, in the Gaza Strip on Tuesday, local health officials said. Medics said Fadi Rajab and his son Abubakr were killed in an air strike that hit the roof of a displacement shelter in the Zeitoun neighbourhood in Gaza City. A third Palestinian was killed in an Israeli air strike near a school in Gaza City's Daraj neighbourhood, health officials added. In Khan Younis, in southern Gaza, Israeli gunfire killed a man, medics said. Later on Tuesday, an Israeli air strike hit a metal foundry in the Sabra neighbourhood of Gaza City, killing three people, medics said, taking the day's death toll to at least seven.",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T18:31:30+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-fire-kills-seven-including-father-and-son-gaza-medics-say"
+    },
+    {
+      "id": "b6c55126abcb0c9e",
+      "title": "Kiai Abbas \"Sang Macan dari Barat\" dianugerahi gelar pahlawan nasional",
+      "description": "Kiai Haji Abbas Abdul Jamil, yang merupakan ulama pejuang dan pendiri Pondok Pesantren Buntet, ...",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/11/Image-11-11-26-at-00.54.jpeg",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah",
+        "Dakwah dan Ulama",
+        "Haji dan Umrah"
+      ],
+      "source": "ANTARA Terkini",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-10T18:15:32+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5845455/kiai-abbas-sang-macan-dari-barat-dianugerahi-gelar-pahlawan-nasional"
+    },
+    {
+      "id": "68a911b8a2e46237",
+      "title": "UIN Ar-Raniry dukung pengembangan edukasi Syekh Yusuf Al-Makassari",
+      "description": "Fakultas Adab dan Humaniora (FAH) Universitas Islam Negeri (UIN) Ar-Raniry Banda Aceh mendukung pengembangan video ...",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/10/WhatsApp-Image-2026-11-10-at-14.39.28_1.jpeg",
+      "category": "Pendidikan Islam",
+      "tags": [
+        "Pendidikan Islam"
+      ],
+      "source": "ANTARA Terkini",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-10T16:21:20+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5845343/uin-ar-raniry-dukung-pengembangan-edukasi-syekh-yusuf-al-makassari"
+    },
+    {
+      "id": "c681a12612308b4e",
+      "title": "Burnham's plan to 'end neoliberalism' includes hiring US firm linked to Gaza aid site massacres",
+      "description": "Burnham's plan to 'end neoliberalism' includes hiring US firm linked to Gaza aid site massacres British Prime Minister Andy Burnham has turned to an American consulting group that worked with the US and Israeli -backed Gaza Humanitarian Foundation to help draft a plan that was supposed to “end neoliberalism” in the UK . Boston Consulting Group (BCG), whose former employees include Israeli Prime Minister Benjamin Netanyahu and Burnham’s chief of staff, James Purnell, has been hired to help shape the prime minister’s 10-year plan. One of the “big three” management consultancy firms, BCG has been accused of aiding Israeli starvation tactics that amount to war crimes and genocide , and of being implicated in the killing of thousands of Palestinians . The Boston-based consultancy helped establi",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/GHF%20afp.jpg.jpg?itok=fDiWjsSz",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T16:03:17+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/burnhams-plan-end-neoliberalism-includes-hiring-us-firm-linked-gaza-aid"
+    },
+    {
+      "id": "70ee145858138d83",
+      "title": "Burnham's plan to 'end neoliberalism' includes involvement of US firm linked to Gaza aid site massacres",
+      "description": "Burnham's plan to 'end neoliberalism' includes involvement of US firm linked to Gaza aid site massacres Submitted by Oscar Rickett on Tue, 11/10/2026 - 14:44 Boston Consulting Group, whose former employees include Benjamin Netanyahu and James Purnell, to consult on UK prime minister's 10-year plan A GHF aid site pictured on 8 June 2025, as smoke bombs are fired by Israeli troops (Eyad Baba/AFP) Off British Prime Minister Andy Burnham has turned to an American consulting group that worked with the US and Israeli -backed Gaza Humanitarian Foundation to help draft a plan that was supposed to “end neoliberalism” in the UK . Boston Consulting Group (BCG), whose former employees include Israeli Prime Minister Benjamin Netanyahu and Burnham’s chief of staff, James Purnell, will provide a consulta",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/GHF%20afp.jpg.jpg?itok=fDiWjsSz",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T15:55:26+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/burnhams-plan-end-neoliberalism-includes-hiring-us-firm-linked-gaza-aid-site-massacres"
+    },
+    {
+      "id": "2625c752ecc45cba",
+      "title": "Joint Tory-Labour motion that 'Zionism is not racism' goes to vote at Westminster council",
+      "description": "Joint Tory-Labour motion that 'Zionism is not racism' goes to vote at Westminster council Submitted by Imran Mulla on Tue, 11/10/2026 - 14:09 The motion, which is set to be voted on by the full council on Wednesday, has been proposed in response to the Green Party’s motion that Zionism is racism An Uber boat travels up the River Thames in Westminster, central London on 23 July 2026 (AFP) Off Conservative and Labour councillors are preparing to bring a joint motion to Westminster City Council declaring that “Zionism is not racism”. The motion , which is set to be voted on by the full council on Wednesday evening, has been proposed in response to the Green Party’s motion , adopted last month, to declare Zionism a form of racism. Wednesday’s joint motion by the Tories and Labour says that “Zi",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_C2Y3928%20%281%29.jpg.jpg?itok=5viRj_39",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T15:49:52+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/joint-tory-labour-motion-zionism-not-racism-goes-vote-westminster-council"
+    },
+    {
+      "id": "c23236cddcf42a7c",
+      "title": "Father, child among eight Palestinians killed in Israeli attacks on Gaza",
+      "description": "Israel has killed more than 1,600 people in Gaza since last year's 'ceasefire', the enclave's Health Ministry says.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af33128b29b3-1794322728.jpg?resize=1920%2C1440",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T15:49:36+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/10/israeli-attacks-kill-at-least-six-in-gaza-including-father-and-son?traffic_source=rss"
+    },
+    {
+      "id": "af1eb0f1fbea412d",
+      "title": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
+      "description": "The group, formed by Trump, issues rare criticism of Israel, while also blaming Hamas for the suffering of civilians in Gaza.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd6f/live/934efd20-dcfd-11f1-933b-ff2499ee76f6.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "BBC World",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T15:21:18+00:00",
+      "originalUrl": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "2776ff231bc71296",
+      "title": "Lewis Hamilton visits Rafah crossing to witness Gaza aid efforts",
+      "description": "Lewis Hamilton visits Rafah crossing to witness Gaza aid efforts",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/Lewis-Hamilton-horizontal-thumb-1794323987.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T15:21:11+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/10/lewis-hamilton-visits-rafah-crossing-to-witness-gaza-aid-efforts?traffic_source=rss"
+    },
+    {
+      "id": "6724b791d22fd143",
+      "title": "Israeli settlers torch machinery in attack on Palestinian industrial zone",
+      "description": "Israeli settlers torch machinery in attack on Palestinian industrial zone Submitted by Muhammad Ateeq on Tue, 11/10/2026 - 13:58 The assault destroys machinery worth more than $1m and threatens the livelihoods of hundreds of Palestinian workers and their families Settlers torched excavators, vehicles and pieces of equipment belonging to local stone-cutting workshops in Beita, near Nablus, in the occupied West Bank, 10 November 2026 (Muhammad Ateeq/MEE) Off Israeli settlers attacked an industrial zone in the Palestinian town of Beita, south of Nablus in the occupied West Bank, on Monday, setting fire to heavy machinery, vehicles and equipment and causing extensive damage. Dozens of settlers stormed the industrial zone and torched three excavators, along with several other vehicles and piece",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/IMG_0170.jpeg.jpg?h=4309f91d&itok=v76HGgmM",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T14:25:13+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/israeli-settlers-torch-machinery-attack-palestinian-industrial-zone"
+    },
+    {
+      "id": "fbf7ee9dbef31570",
+      "title": "‘We woke up soaking wet’: Gaza’s displaced face another winter of floods and collapsed shelters",
+      "description": "‘We woke up soaking wet’: Gaza’s displaced face another winter of floods and collapsed shelters For the past four days, Nahla al-Majdoub, 48, and her family of eight have been staying with neighbours in the west of Gaza City after their tent was destroyed by the latest heavy rainfall. Majdoub and her family had been sheltering in a makeshift tent at the port of Gaza for nearly two years after their home in the northern Gaza Strip was destroyed during Israel’s ground invasion. But when heavy rain and strong winds swept across the besieged enclave last week, their fragile shelter could no longer protect them. They were asleep when the storm began. They woke to the sound of thunder and rainwater pouring into their shelter, seeping through the roof and flooding the ground beneath their tent. “",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/gaza-flood-afp-2026-11-07.jpg.jpg?itok=B36y3dAt",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T14:20:29+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/we-woke-soaking-wet-gazas-displaced-face-another-winter-floods-and"
+    },
+    {
+      "id": "815dfe2d48de93e7",
+      "title": "‘We woke up soaking wet’: Gaza’s displaced face another winter of floods and collapsed shelters",
+      "description": "‘We woke up soaking wet’: Gaza’s displaced face another winter of floods and collapsed shelters Submitted by Ahmed Dremly on Tue, 11/10/2026 - 11:52 Heavy rains flood tents and threaten damaged buildings, leaving families with nowhere safe to go as Israel restricts humanitarian supplies Displaced Palestinians at a partially flooded tent camp during a rainy day in Gaza City, 7 November 2026 (Dawoud Abu Alkas/Reuters) Off For the past four days, Nahla al-Majdoub, 48, and her family of eight have been staying with neighbours in the west of Gaza City after their tent was destroyed by the latest heavy rainfall. Majdoub and her family had been sheltering in a makeshift tent at the port of Gaza for nearly two years after their home in the northern Gaza Strip was destroyed during Israel’s ground i",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/gaza-flood-afp-2026-11-07.jpg.jpg?itok=B36y3dAt",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T13:32:47+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/we-woke-soaking-wet-gazas-displaced-face-another-winter-floods-and-collapsed-shelters"
+    },
     {
       "id": "efc297549274c20d",
       "title": "UK awards deals worth millions to firms linked to illegal Israeli settlements",
