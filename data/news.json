@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-09T22:40:14.301149+00:00",
-  "total": 29,
-  "newArticles": 17,
+  "lastUpdated": "2026-11-10T04:39:57.636463+00:00",
+  "total": 30,
+  "newArticles": 13,
   "sourcesChecked": 9,
   "sourcesSucceeded": 8,
   "sourcesFailed": 1,
@@ -11,16 +11,16 @@
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 2,
-      "filtered": 23,
+      "accepted": 0,
+      "filtered": 25,
       "error": null
     },
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 26,
-      "accepted": 1,
-      "filtered": 25,
+      "raw": 31,
+      "accepted": 0,
+      "filtered": 31,
       "error": null
     },
     {
@@ -59,8 +59,8 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 3,
-      "filtered": 17,
+      "accepted": 2,
+      "filtered": 18,
       "error": null
     },
     {
@@ -69,7 +69,7 @@
       "raw": 0,
       "accepted": 0,
       "filtered": 0,
-      "error": "404 Client Error: NOT FOUND for url: https://news.detik.com/hikmah/rss"
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=40)"
     },
     {
       "name": "Muhammadiyah Org",
@@ -81,6 +81,24 @@
     }
   ],
   "articles": [
+    {
+      "id": "61166f528925ecb3",
+      "title": "Hamas: Dewan Perdamaian abaikan peran Israel dalam krisis banjir Gaza",
+      "description": "Kelompok Palestina Hamas, Senin (9/11), menuduh Dewan Perdamaian (Board of Peace) memberikan gambaran yang keliru ...",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/08/XxjpbeE000595_20261108_PEPFN0A001.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "ANTARA Terkini",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-10T04:10:40+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5843299/hamas-dewan-perdamaian-abaikan-peran-israel-dalam-krisis-banjir-gaza",
+      "translationStatus": "not_needed"
+    },
     {
       "id": "7f2c246d7b1814e7",
       "title": "How is Gaza coping with another severe winter?",
