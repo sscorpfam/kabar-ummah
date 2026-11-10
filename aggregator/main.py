@@ -304,26 +304,46 @@ def extract_image(entry):
 # =========================================================
 
 
-def categorize(title, description, categories):
-    text = clean_text(title + " " + description).lower()
 
-    if not is_islamic_news(title, description):
-        return None, []
+def categorize(title, description, categories):
+
+    text = clean_text(
+        title + " " + description
+    ).lower()
 
     scores = {}
     matched_keywords = {}
 
     for category, keywords in categories.items():
+
         score = 0
         matches = []
+
         for keyword in keywords:
-            keyword = str(keyword).lower().strip()
+
+            keyword = keyword.lower().strip()
+
             if not keyword:
                 continue
-            pattern = r"(?<![a-z0-9])" + re.escape(keyword) + r"(?![a-z0-9])"
-            if re.search(pattern, text):
+
+            # Regex untuk mencocokkan kata/frasa lengkap.
+            # Tidak boleh cocok di tengah kata lain.
+            pattern = (
+                r"(?<![a-z0-9])"
+                + re.escape(keyword)
+                + r"(?![a-z0-9])"
+            )
+
+            if re.search(pattern, text, re.IGNORECASE):
+
                 matches.append(keyword)
-                score += 3 if len(keyword.split()) >= 2 else 2
+
+                # Frasa yang terdiri dari beberapa kata
+                # mendapat bobot lebih tinggi.
+                if len(keyword.split()) >= 2:
+                    score += 3
+                else:
+                    score += 2
 
         if matches:
             scores[category] = score
@@ -332,16 +352,25 @@ def categorize(title, description, categories):
     if not scores:
         return None, []
 
-    best_category = max(scores, key=scores.get)
+    # Pilih kategori dengan skor tertinggi.
+    best_category = max(
+        scores,
+        key=scores.get
+    )
+
+    # Tidak ada kecocokan berarti berita ditolak.
     if scores[best_category] < 2:
         return None, []
 
+    # Urutkan kategori tambahan berdasarkan skor.
     matched_categories = sorted(
         matched_keywords.keys(),
         key=lambda category: scores[category],
-        reverse=True,
+        reverse=True
     )
+
     return best_category, matched_categories
+
 
 
 # =========================================================
