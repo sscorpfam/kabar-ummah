@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-10T12:34:02.439644+00:00",
-  "total": 51,
-  "newArticles": 21,
+  "lastUpdated": "2026-11-10T12:43:47.654799+00:00",
+  "total": 52,
+  "newArticles": 22,
   "sourcesChecked": 9,
   "sourcesSucceeded": 8,
   "sourcesFailed": 1,
@@ -59,8 +59,8 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 8,
-      "filtered": 12,
+      "accepted": 9,
+      "filtered": 11,
       "error": null
     },
     {
@@ -69,7 +69,7 @@
       "raw": 0,
       "accepted": 0,
       "filtered": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
+      "error": "404 Client Error: NOT FOUND for url: https://news.detik.com/hikmah/rss"
     },
     {
       "name": "Muhammadiyah Org",
@@ -82,10 +82,25 @@
   ],
   "articles": [
     {
+      "id": "efc297549274c20d",
+      "title": "UK awards deals worth millions to firms linked to illegal Israeli settlements",
+      "description": "UK awards deals worth millions to firms linked to illegal Israeli settlements Submitted by Imran Mulla on Tue, 11/10/2026 - 11:06 Sanctions announced by the Burnham government in September have not yet come into force Britain's Prime Minister Andy Burnham meets with staff during a visit to a hospital in Watford, Hertfordshire, north-west of London on 9 November 2026 (AFP) Off The British government has awarded £10.7m ($14.4m) in public contracts to firms linked to illegal Israeli settlements in the occupied West Bank, it has emerged. The contracts were published after Foreign Secretary Ed Miliband announced comprehensive sanctions on the settlements on 8 September in parliament, according to an Al Jazeera investigation. \"To those who finance or facilitate illegal settlements, let me say th",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_D6W23QC%20%281%29.jpg.jpg?itok=dUpbDG5o",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T12:37:33+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/uk-awards-deals-worth-ps10m-firms-linked-illegal-israeli-settlements"
+    },
+    {
       "id": "ab21cb64e4648197",
       "title": "Israeli settlers injure Palestinian photojournalist in occupied West Bank",
       "description": "Israeli settlers injure Palestinian photojournalist in occupied West Bank Israeli settlers wounded Palestinian photojournalist Alaa Badarneh during an attack south of Nablus in the occupied West Bank, the Palestinian news agency Wafa reports. Qusra Mayor Abdul Azim Wadi told Wafa that settlers assaulted olive harvesters and international solidarity activists between Qusra and Jalud. Stones the settlers threw struck Badarneh, who works for the EPA photo agency, leaving him with bruises, Wadi said. On 16 October, about 80 masked settlers carrying clubs rushed Palestinians harvesting olives in Abu Falah, northeast of Ramallah. Washington Post photojournalist Heidi Levine, 63, fell during the attack, and settlers beat her for more than 10 minutes. Levine suffered fractures to her ribs and spin",
-      "image": "",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/iran-protest-4-november-2026-afp.jpg",
       "category": "Palestina",
       "tags": [
         "Palestina"
@@ -100,7 +115,7 @@
       "id": "3382201cb7b177b2",
       "title": "Israeli air strike kills two Palestinians, including child, in Gaza City",
       "description": "Israeli air strike kills two Palestinians, including child, in Gaza City An Israeli air strike hit the roof of a shelter in Zeitoun, in southeastern Gaza City, killing a child and another Palestinian. A source at al-Ahli Hospital told Al Jazeera in Gaza that the strike also wounded several people.",
-      "image": "",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/iran-protest-4-november-2026-afp.jpg",
       "category": "Palestina",
       "tags": [
         "Palestina"
@@ -236,7 +251,7 @@
       "id": "fcf7e58bae257871",
       "title": "Majukan Muhammadiyah dari Akar Rumput, LPCRPM Dorong PDM Lebih Peduli Cabang dan Ranting",
       "description": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Lembaga Pengembangan Cabang Ranting dan Pembinaan Masjid (LPRCPM) Pimpinan Pusat (PP) Muhammadiyah mendorong Pimpinan Daerah Muhammadiyah (PDM) untuk meningkatkan perhatian kepada Cabang, Ranting, dan Masjid Muhammadiyah. Menurut Ketua LPCRPM PP Muhammadiyah, Jamaluddin Ahmad, kemajuan suatu daerah yang memiliki keselarasan dengan majunya tingkatan pimpinan di bawahnya. Mengambil contoh PDM Gunungkidul, Jamal menyebut wajah […] The post Majukan Muhammadiyah dari Akar Rumput, LPCRPM Dorong PDM Lebih Peduli Cabang dan Ranting appeared first on Muhammadiyah .",
-      "image": "",
+      "image": "https://muhammadiyah.or.id/wp-content/uploads/2025/04/Jamaluddin-Ahmad.jpeg",
       "category": "Masjid dan Peradaban",
       "tags": [
         "Masjid dan Peradaban"
@@ -251,7 +266,7 @@
       "id": "4d70bd7a6b9c72bc",
       "title": "The Arab vote in the Israeli elections",
       "description": "The Arab vote in the Israeli elections Two weeks after Israel held its first general elections since October 2023, opposition leader Gadi Eisenkot has been tasked with forming a government. The election saw a historic voter turnout for Palestinian citizens of Israel, who headed to the ballot for one reason: to oust Benjamin Netanyahu. On this One on One, Balad party leader Sami Abou Shehadeh tells Middle East Eye that although the Arab vote has prevented Netanyahu from forming another far-right government, racism against Palestinians is still prevalent across the Israeli political board. \"The current situation for the Palestinian minority in Israel, we do not have good options. We are choosing between bad and worse,\" he tells MEE, warning that Netanyahu is \"in a very dangerous phase\" as he",
-      "image": "",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/iran-protest-4-november-2026-afp.jpg",
       "category": "Palestina",
       "tags": [
         "Palestina"
@@ -281,7 +296,7 @@
       "id": "6cfcda2fdd3473f1",
       "title": "Palestine Weekly: West Bank on fire – and Gaza’s tents under water",
       "description": "More than 2,000 Gaza buildings risk collapse amid floods, with 400,000 displaced in vulnerable zones, says government.",
-      "image": "",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af242668f9a-1794261606.jpg?resize=1920%2C1440",
       "category": "Palestina",
       "tags": [
         "Palestina"
