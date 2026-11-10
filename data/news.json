@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-10T04:39:57.636463+00:00",
-  "total": 30,
-  "newArticles": 13,
+  "lastUpdated": "2026-11-10T09:42:08.304859+00:00",
+  "total": 43,
+  "newArticles": 17,
   "sourcesChecked": 9,
   "sourcesSucceeded": 8,
   "sourcesFailed": 1,
@@ -11,16 +11,16 @@
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 0,
-      "filtered": 25,
+      "accepted": 3,
+      "filtered": 22,
       "error": null
     },
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 31,
+      "raw": 28,
       "accepted": 0,
-      "filtered": 31,
+      "filtered": 28,
       "error": null
     },
     {
@@ -59,8 +59,8 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 2,
-      "filtered": 18,
+      "accepted": 3,
+      "filtered": 17,
       "error": null
     },
     {
@@ -69,7 +69,7 @@
       "raw": 0,
       "accepted": 0,
       "filtered": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=40)"
+      "error": "404 Client Error: NOT FOUND for url: https://news.detik.com/hikmah/rss"
     },
     {
       "name": "Muhammadiyah Org",
@@ -81,6 +81,141 @@
     }
   ],
   "articles": [
+    {
+      "id": "179680e6ad4dab42",
+      "title": "As heavy rains swamp Gaza's tents, Israel must face sanctions",
+      "description": "As heavy rains swamp Gaza's tents, Israel must face sanctions Submitted by Chris Doyle on Mon, 11/09/2026 - 20:03 The world cannot sit idly by as the Netanyahu regime, withholding vital supplies, imposes mass collective punishment A displaced Palestinian boy stands at the entrance to his flooded tent as he looks at a water puddle after heavy rainfall in Gaza City's Al-Remal neighbourhood on 7 November, 2026 (AFP) Off It took a mere dozen hours of the first winter storm to flood around 70,000 tents in Gaza. Even 1,000 would be worthy of major humanitarian action, but just imagine that multiplied by 70. These devastating floods were predicted and predictable. Nothing about this should surprise anyone who has paid even the scantest attention to the humanitarian situation in Gaza. Every year, ",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/A%20displaced%20Palestinian%20boy%20reacts%20as%20he%20stands%20at%20the%20entrance%20to%20his%20flooded%20tent%20as%20he%20looks%20at%20a%20water%20puddle%20after%20heavy%20rainfall%20in%20Gaza%20City%27s%20Al-Remal%20neighbourhood%20on%20November%207%2C%202026-afp.jpg.jpg?itok=OUlwodkH",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T09:30:03+00:00",
+      "originalUrl": "https://www.middleeasteye.net/opinion/heavy-rains-swamp-gazas-tents-israel-must-face-sanctions"
+    },
+    {
+      "id": "fe380ddd91c52284",
+      "title": "Menag dorong Waqf Run jadi sarana edukasi-sosialisasi wakaf produktif",
+      "description": "Menteri Agama Nasaruddin Umar mendukung penyelenggaraan Waqf Run yang digagas Badan Wakaf Indonesia (BWI) sebagai upaya ...",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/10/19300.jpg",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "ANTARA Terkini",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-10T08:57:11+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5844091/menag-dorong-waqf-run-jadi-sarana-edukasi-sosialisasi-wakaf-produktif"
+    },
+    {
+      "id": "fcf7e58bae257871",
+      "title": "Majukan Muhammadiyah dari Akar Rumput, LPCRPM Dorong PDM Lebih Peduli Cabang dan Ranting",
+      "description": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Lembaga Pengembangan Cabang Ranting dan Pembinaan Masjid (LPRCPM) Pimpinan Pusat (PP) Muhammadiyah mendorong Pimpinan Daerah Muhammadiyah (PDM) untuk meningkatkan perhatian kepada Cabang, Ranting, dan Masjid Muhammadiyah. Menurut Ketua LPCRPM PP Muhammadiyah, Jamaluddin Ahmad, kemajuan suatu daerah yang memiliki keselarasan dengan majunya tingkatan pimpinan di bawahnya. Mengambil contoh PDM Gunungkidul, Jamal menyebut wajah […] The post Majukan Muhammadiyah dari Akar Rumput, LPCRPM Dorong PDM Lebih Peduli Cabang dan Ranting appeared first on Muhammadiyah .",
+      "image": "",
+      "category": "Masjid dan Peradaban",
+      "tags": [
+        "Masjid dan Peradaban"
+      ],
+      "source": "Muhammadiyah Org",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-10T08:10:31+00:00",
+      "originalUrl": "https://muhammadiyah.or.id/2026/11/majukan-muhammadiyah-dari-akar-rumput-lpcrpm-dorong-pdm-lebih-peduli-cabang-dan-ranting"
+    },
+    {
+      "id": "4d70bd7a6b9c72bc",
+      "title": "The Arab vote in the Israeli elections",
+      "description": "The Arab vote in the Israeli elections Two weeks after Israel held its first general elections since October 2023, opposition leader Gadi Eisenkot has been tasked with forming a government. The election saw a historic voter turnout for Palestinian citizens of Israel, who headed to the ballot for one reason: to oust Benjamin Netanyahu. On this One on One, Balad party leader Sami Abou Shehadeh tells Middle East Eye that although the Arab vote has prevented Netanyahu from forming another far-right government, racism against Palestinians is still prevalent across the Israeli political board. \"The current situation for the Palestinian minority in Israel, we do not have good options. We are choosing between bad and worse,\" he tells MEE, warning that Netanyahu is \"in a very dangerous phase\" as he",
+      "image": "",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T07:03:34+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/arab-vote-israeli-elections"
+    },
+    {
+      "id": "f863ba801b6dc2ed",
+      "title": "Deddy Corbuzier dan Rumah Zakat Salurkan 5.000 Liter Air Siap Minum untuk Warga Terdampak Karhutla",
+      "description": "PONTIANAK — Deddy Corbuzier bersama Rumah Zakat menyalurkan 5.000 liter air siap minum untuk membantu warga terdampak kebakaran hutan dan lahan (karhutla) di Rusun Harapan Jaya, Pontianak Selatan, Kalimantan...",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/_261110135414-633.png",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "Republika",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-10T06:54:27+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/to9xur490/deddy-corbuzier-dan-rumah-zakat-salurkan-5000-liter-air-siap-minum-untuk-warga-terdampak-karhutla"
+    },
+    {
+      "id": "6cfcda2fdd3473f1",
+      "title": "Palestine Weekly: West Bank on fire – and Gaza’s tents under water",
+      "description": "More than 2,000 Gaza buildings risk collapse amid floods, with 400,000 displaced in vulnerable zones, says government.",
+      "image": "",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T06:37:13+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/10/palestine-weekly-west-bank-on-fire-and-gazas-tents-under?traffic_source=rss"
+    },
+    {
+      "id": "20a2a9eb0614bfff",
+      "title": "Rumah Zakat Terima Apresiasi Mitra dari Direktorat Kemahasiswaan ITB Tahun 2026",
+      "description": "BANDUNG – Rumah Zakat menerima apresiasi dan penghargaan dari Direktorat Kemahasiswaan Institut Teknologi Bandung (ITB) atas kontribusinya dalam mendukung berbagai program kemahasiswaan. Penghargaan tersebut diberikan dalam kegiatan Apresiasi Mitra...",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/_261110133203-418.png",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "Republika",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-10T06:32:32+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/to9wu8490/rumah-zakat-terima-apresiasi-mitra-dari-direktorat-kemahasiswaan-itb-tahun-2026"
+    },
+    {
+      "id": "73025c173d491971",
+      "title": "Firms tied to West Bank settlements win $15m UK deals despite sanctions",
+      "description": "Former Labour leader Jeremy Corbyn called the findings ‘outrageous and frankly insulting to the public’.",
+      "image": "",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T05:39:50+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/10/firms-tied-to-west-bank-settlements-win-15m-uk-deals-despite-sanctions?traffic_source=rss"
+    },
+    {
+      "id": "f7b334071d24cb98",
+      "title": "Israeli forces kill 14-year-old Palestinian boy in occupied West Bank",
+      "description": "Israel's military says its soldiers opened fire to prevent Palestinians from throwing stones at vehicles in Burqa.",
+      "image": "",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T05:23:57+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/10/israeli-forces-kill-14-year-old-palestinian-boy-in-occupied-west-bank?traffic_source=rss"
+    },
     {
       "id": "61166f528925ecb3",
       "title": "Hamas: Dewan Perdamaian abaikan peran Israel dalam krisis banjir Gaza",
@@ -98,6 +233,36 @@
       "publishedAt": "2026-11-10T04:10:40+00:00",
       "originalUrl": "https://www.antaranews.com/berita/5843299/hamas-dewan-perdamaian-abaikan-peran-israel-dalam-krisis-banjir-gaza",
       "translationStatus": "not_needed"
+    },
+    {
+      "id": "11f00d1d0f27a304",
+      "title": "Nearly 80 percent of Britons see Israel as a threat to world peace",
+      "description": "Nearly 80 percent of Britons see Israel as a threat to world peace Nearly four in five Britons see Israel as a serious threat to world peace, according to a survey published last week by the National Centre for Social Research (NatCen). The figure rose from 48 percent in 2005 to 78 percent this spring, two-and-a-half years into the genocide in Gaza and just after Israel and the US had attacked Iran. In July, a YouGov opinion poll commissioned by the Council for British-Arab Understanding found that only 17 percent of the British population believes that Israel is not committing genocide in Gaza. The war on Iran has hit the UK economy, leaving households paying more for energy, food and mortgages. The rising bills have brought the cost of Israel’s wars in the Middle East home to British hou",
+      "image": "https://www.middleeasteye.net/sites/default/files/images-story/Palestine%20London%20AFP.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T03:35:49+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/nearly-80-percent-britons-see-israel-threat-world-peace"
+    },
+    {
+      "id": "1bd74929ce67ab98",
+      "title": "Putra Bungsu Pendiri NU KH Yusuf Hasyim Dianugerahi Pahlawan Nasional",
+      "description": "JAKARTA — Presiden RI Prabowo Subianto menganugerahkan gelar Pahlawan Nasional kepada KH Muhammad Yusuf Hasyim atau yang akrab disapa Pak Ud. Putra bungsu pendiri Nahdlatul Ulama (NU), Hadratussyaikh KH...",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/kh-yusuf_240818065127-905.jpg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "Republika",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-10T02:28:10+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/to9liy483/putra-bungsu-pendiri-nu-kh-yusuf-hasyim-dianugerahi-pahlawan-nasional"
     },
     {
       "id": "7f2c246d7b1814e7",
@@ -244,6 +409,21 @@
       "translationStatus": "not_needed"
     },
     {
+      "id": "a27a18f22040926f",
+      "title": "Pemerintah Umumkan Biaya Pelunasan Haji 2027 per Embarkasi, Ini Perinciannya",
+      "description": "JAKARTA -- Pemerintah melalui Kementerian Haji dan Umrah mengumumkan besaran pelunasan Biaya Perjalanan Ibadah Haji (Bipih) 1448 Hijriah/2027 Masehi yang harus dibayarkan jamaah berdasarkan embarkasi keberangkatan. “Kami mengimbau jamaah haji...",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/012963900-1781062288-830-556.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "Republika",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-09T14:10:00+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/to8n3t423/pemerintah-umumkan-biaya-pelunasan-haji-2027-per-embarkasi-ini-perinciannya"
+    },
+    {
       "id": "93eba80e8f5a69cd",
       "title": "Pemerintah Kembali Tegaskan Jamaah dengan 9 Penyakit Berikut Bisa Batal Haji Permanen",
       "description": "JAKARTA – Kementerian Haji dan Umrah (Kemenhaj) RI mengingatkan calon jamaah haji untuk memperhatikan kondisi kesehatan sejak dini menjelang penyelenggaraan ibadah haji 2027. Calon jamaah yang masuk kategori sembilan penyakit...",
@@ -253,13 +433,25 @@
         "Haji dan Umrah"
       ],
       "source": "Republika",
-      "sourceCountry": "Indonesia",
-      "region": "",
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-09T13:44:34+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to8m6a320/pemerintah-kembali-tegaskan-jamaah-dengan-9-penyakit-berikut-bisa-batal-haji-permanen",
-      "translationStatus": "not_needed"
+      "originalUrl": "https://khazanah.republika.co.id/berita/to8m6a320/pemerintah-kembali-tegaskan-jamaah-dengan-9-penyakit-berikut-bisa-batal-haji-permanen"
+    },
+    {
+      "id": "ac5cb27b5f7c0a7f",
+      "title": "BPKH Optimalkan Pengelolaan Dana Kemaslahatan Rp 4 Triliun",
+      "description": "BANDUNG — Badan Pengelola Keuangan Haji (BPKH) menegaskan komitmennya dalam mengelola dan menyalurkan dana haji secara transparan, akuntabel, dan tepat sasaran. Selain pengelolaan dana utama jamaah yang secara konsisten...",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/anggota-badan-pelaksana-bpkh-indra-gunawan-menegaskan-komitmennya-dalam_261109175709-696.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "Republika",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-09T10:58:16+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/to8eh4430/bpkh-optimalkan-pengelolaan-dana-kemaslahatan-rp-4-triliun"
     },
     {
       "id": "e9c11a0a45d3726d",
@@ -334,13 +526,10 @@
         "Ekonomi Syariah"
       ],
       "source": "Republika",
-      "sourceCountry": "Indonesia",
-      "region": "",
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-09T07:31:28+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to84wg430/mengenal-persamaan-dan-perbedaan-zakat-dengan-pajak",
-      "translationStatus": "not_needed"
+      "originalUrl": "https://khazanah.republika.co.id/berita/to84wg430/mengenal-persamaan-dan-perbedaan-zakat-dengan-pajak"
     },
     {
       "id": "7cd1c024996b944c",
@@ -388,13 +577,10 @@
         "Haji dan Umrah"
       ],
       "source": "Republika",
-      "sourceCountry": "Indonesia",
-      "region": "",
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-09T05:23:22+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to7yyy366/khofifah-minta-seleksi-petugas-haji-daerah-2027-transparan-dan-objektif",
-      "translationStatus": "not_needed"
+      "originalUrl": "https://khazanah.republika.co.id/berita/to7yyy366/khofifah-minta-seleksi-petugas-haji-daerah-2027-transparan-dan-objektif"
     },
     {
       "id": "af111e98746fe8aa",
@@ -652,13 +838,10 @@
         "Ekonomi Syariah"
       ],
       "source": "ANTARA Humaniora",
-      "sourceCountry": "Indonesia",
-      "region": "",
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-10-24T04:53:41+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5809067/cara-menghitung-zakat-akhir-tahun-2026-dan-contoh-nominalnya",
-      "translationStatus": "not_needed"
+      "originalUrl": "https://www.antaranews.com/berita/5809067/cara-menghitung-zakat-akhir-tahun-2026-dan-contoh-nominalnya"
     }
   ]
 }
