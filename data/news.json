@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-10T09:42:08.304859+00:00",
-  "total": 43,
-  "newArticles": 17,
+  "lastUpdated": "2026-11-10T12:34:02.439644+00:00",
+  "total": 51,
+  "newArticles": 21,
   "sourcesChecked": 9,
   "sourcesSucceeded": 8,
   "sourcesFailed": 1,
@@ -11,16 +11,16 @@
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 3,
-      "filtered": 22,
+      "accepted": 1,
+      "filtered": 24,
       "error": null
     },
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 28,
-      "accepted": 0,
-      "filtered": 28,
+      "raw": 30,
+      "accepted": 1,
+      "filtered": 29,
       "error": null
     },
     {
@@ -59,8 +59,8 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 3,
-      "filtered": 17,
+      "accepted": 8,
+      "filtered": 12,
       "error": null
     },
     {
@@ -69,7 +69,7 @@
       "raw": 0,
       "accepted": 0,
       "filtered": 0,
-      "error": "404 Client Error: NOT FOUND for url: https://news.detik.com/hikmah/rss"
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
     },
     {
       "name": "Muhammadiyah Org",
@@ -81,6 +81,127 @@
     }
   ],
   "articles": [
+    {
+      "id": "ab21cb64e4648197",
+      "title": "Israeli settlers injure Palestinian photojournalist in occupied West Bank",
+      "description": "Israeli settlers injure Palestinian photojournalist in occupied West Bank Israeli settlers wounded Palestinian photojournalist Alaa Badarneh during an attack south of Nablus in the occupied West Bank, the Palestinian news agency Wafa reports. Qusra Mayor Abdul Azim Wadi told Wafa that settlers assaulted olive harvesters and international solidarity activists between Qusra and Jalud. Stones the settlers threw struck Badarneh, who works for the EPA photo agency, leaving him with bruises, Wadi said. On 16 October, about 80 masked settlers carrying clubs rushed Palestinians harvesting olives in Abu Falah, northeast of Ramallah. Washington Post photojournalist Heidi Levine, 63, fell during the attack, and settlers beat her for more than 10 minutes. Levine suffered fractures to her ribs and spin",
+      "image": "",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T12:20:51+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-injure-palestinian-photojournalist-occupied-west-bank"
+    },
+    {
+      "id": "3382201cb7b177b2",
+      "title": "Israeli air strike kills two Palestinians, including child, in Gaza City",
+      "description": "Israeli air strike kills two Palestinians, including child, in Gaza City An Israeli air strike hit the roof of a shelter in Zeitoun, in southeastern Gaza City, killing a child and another Palestinian. A source at al-Ahli Hospital told Al Jazeera in Gaza that the strike also wounded several people.",
+      "image": "",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T11:58:05+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strike-kills-two-palestinians-including-child-gaza-city"
+    },
+    {
+      "id": "0923bebe2f86fbcd",
+      "title": "Prabowo anugerahkan gelar pahlawan nasional untuk Kiai Modjo",
+      "description": "Presiden Prabowo Subianto menganugerahkan gelar pahlawan nasional untuk mendiang Muslim Mochammad Khalifah alias Kiai ...",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/10/IMG_8944.jpg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "ANTARA Terkini",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-10T11:50:53+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5844587/prabowo-anugerahkan-gelar-pahlawan-nasional-untuk-kiai-modjo"
+    },
+    {
+      "id": "0cd8f3bffacddd4b",
+      "title": "Anti-Muslim influence campaign targeting UK traced back to Israel",
+      "description": "Anti-Muslim influence campaign targeting UK traced back to Israel A new investigation has traced a major anti-Muslim propaganda campaign targeting Britain back to Israel . The campaign, uncovered by academics Marc Owen Jones and Sohan Dsouza, was at its height before the UK's 2024 general election and the anti-Muslim riots that raged across the country later that year. It involved large numbers of paid advertisements warning of an Islamic takeover of Britain masterminded by Qatar . \"Between 2024 and 2026, our investigation recorded more than 154m exposures to its British-targeted material,\" Jones and Dsouza wrote in an article published by The Nerve . \"Its first wave of British advertising ran in the months before the 2024 general election. The ads were also hammering the UK in the winter ",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Screenshot%202026-11-09%20at%2015.26.44.png.jpg?itok=L45ATZAQ",
+      "category": "Dunia Muslim",
+      "tags": [
+        "Dunia Muslim",
+        "Islamofobia dan Diskriminasi"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T11:38:44+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/anti-muslim-influence-campaign-targeting-uk-traced-back-israel"
+    },
+    {
+      "id": "cac21c00e51da4e7",
+      "title": "Israel kills 14-year-old Palestinian boy in West Bank, wounds two others in Gaza",
+      "description": "Israel kills 14-year-old Palestinian boy in West Bank, wounds two others in Gaza Submitted by MEE staff on Tue, 11/10/2026 - 09:59 Palestinian officials said Israeli forces withheld the boy's body as the UN reported more than 2,060 settler attacks across the occupied West Bank so far this year Palestinian Bedouin children play at a new location after Israeli settlers took over their homes near Jericho, occupied West Bank, 9 November 2026 (Ilia Yefimovich/AFP) Off Israeli forces killed a 14-year-old Palestinian boy during an operation in the occupied West Bank village of Burqa, northwest of Nablus, Palestinian officials said on Tuesday. The Palestinian Ministry of Health identified the boy as Moataz Iyad and said Israeli authorities were withholding his body. Two other teenagers were also w",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Palestinian%20Bedouin%20children%20play%20at%20a%20new%20location%20after%20Israeli%20settlers%20took%20over%20their%20homes%20near%20Jericho%2C%20occupied%20West%20Bank%2C%209%20November%202026%20%28Ilia%20Yefimovich%20AFP%29.jpg.jpg?itok=atlbPaRr",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T11:25:29+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/israel-kills-14-year-old-palestinian-boy-west-bank-wounds-two-gaza"
+    },
+    {
+      "id": "aa0c24a4bfc70983",
+      "title": "Israeli forces kill Palestinian boy in West Bank, health ministry says",
+      "description": "The Israeli military says its soldiers opened fire at individuals “who intended to hurl stones” at a road used by Israelis.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cbd6/live/72504f00-dcf5-11f1-93e1-3b657b665bcf.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "BBC World",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T11:23:18+00:00",
+      "originalUrl": "https://www.bbc.co.uk/news/articles/cqpvgv318yyeo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "f7bdce4caa5e6c84",
+      "title": "As heavy rains swamp Gaza's tents, Israel must face sanctions",
+      "description": "As heavy rains swamp Gaza's tents, Israel must face sanctions It took a mere dozen hours of the first winter storm to flood around 70,000 tents in Gaza. Even 1,000 would be worthy of major humanitarian action, but just imagine that multiplied by 70. These devastating floods were predicted and predictable. Nothing about this should surprise anyone who has paid even the scantest attention to the humanitarian situation in Gaza. Every year, Palestinians in the coastal enclave face the threat of flooding due to winter rains. Years ago, it was already challenging enough, as raw sewage flooded the streets, fuelling the spread of disease. Israel ’s blockade of Gaza , in place for two decades, along with periodic military bombardments, would render these inundations particularly life-threatening. M",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/A%20displaced%20Palestinian%20boy%20reacts%20as%20he%20stands%20at%20the%20entrance%20to%20his%20flooded%20tent%20as%20he%20looks%20at%20a%20water%20puddle%20after%20heavy%20rainfall%20in%20Gaza%20City%27s%20Al-Remal%20neighbourhood%20on%20November%207%2C%202026-afp.jpg.jpg?itok=OUlwodkH",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T10:11:10+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/heavy-rains-swamp-gazas-tents-israel-must-face-sanctions"
+    },
+    {
+      "id": "ab4563498d622f96",
+      "title": "Netanyahu pressed Qatar to continue funding Gaza despite security warnings, report finds",
+      "description": "Netanyahu pressed Qatar to continue funding Gaza despite security warnings, report finds Submitted by Nadav Rapaport on Mon, 11/09/2026 - 14:49 Channel 12 investigation says Doha gave Israeli military and security officials gifts worth tens of thousands of shekels Palestinians walk along a street lined with destroyed buildings at the Jabalia refugee camp in the northern Gaza Strip on 5 October 2026 (AFP) Off An Israeli Channel 12 News investigation has revealed that the Israeli government sought to ensure that Qatar continued transferring funds to the occupied Gaza Strip before 7 October 2023, despite warnings from security officials that the money was strengthening Hamas. The report details how Qatar became instrumental to Israel's policies in the besieged enclave over the past 15 years. ",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/gaza-jabalia-camp-5-oct-2026-afp.jpg.jpg?itok=au_WgHO0",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T09:53:04+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/netanyahu-pressed-qatar-continue-funding-gaza-despite-security-warnings-report-finds"
+    },
     {
       "id": "179680e6ad4dab42",
       "title": "As heavy rains swamp Gaza's tents, Israel must face sanctions",
