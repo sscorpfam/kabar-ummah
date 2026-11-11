@@ -531,17 +531,17 @@ def get_translation_cache_key(text):
     ).hexdigest()
 
 
+
 def initialize_translator():
 
-    global TRANSLATOR_READY
-    global TRANSLATOR_ERROR
     global TRANSLATION_MODEL
 
-    if TRANSLATOR_READY:
-        return True
+    # ---------------------------------------------
+    # 1. Periksa apakah translator sudah tersedia
+    # ---------------------------------------------
 
-    if TRANSLATOR_ERROR:
-        return False
+    if TRANSLATION_MODEL is not None:
+        return True
 
     try:
 
@@ -549,43 +549,60 @@ def initialize_translator():
         import argostranslate.translate
 
         logging.info(
-            "Memeriksa model penerjemah Inggris-Indonesia..."
+            "Memulai inisialisasi Argos Translate..."
         )
+
+        from_code = "en"
+        to_code = "id"
+
+        # -----------------------------------------
+        # 2. Periksa bahasa yang sudah terpasang
+        # -----------------------------------------
 
         installed_languages = (
             argostranslate.translate.get_installed_languages()
         )
 
-        english_language = next(
+        from_lang = next(
             (
-                language
-                for language in installed_languages
-                if language.code == TRANSLATION_SOURCE_LANGUAGE
+                lang for lang in installed_languages
+                if lang.code == from_code
             ),
             None
         )
 
-        model_available = False
+        to_lang = next(
+            (
+                lang for lang in installed_languages
+                if lang.code == to_code
+            ),
+            None
+        )
 
-        if english_language:
+        translation = None
 
-            model_available = any(
-                translation.to_lang.code
-                == TRANSLATION_TARGET_LANGUAGE
+        # -----------------------------------------
+        # 3. Cari pasangan bahasa yang sudah tersedia
+        # -----------------------------------------
 
-                for translation in english_language.translations
+        if from_lang is not None and to_lang is not None:
+
+            translation = from_lang.get_translation(
+                to_lang
             )
 
-        # ---------------------------------------------
-        # Unduh model jika belum tersedia
-        # ---------------------------------------------
+        # -----------------------------------------
+        # 4. Jika model belum tersedia, instal model
+        # -----------------------------------------
 
-        if not model_available:
+        if translation is None:
 
             logging.info(
-                "Model en-id belum tersedia. "
-                "Mengunduh model Argos Translate..."
+                "Model Inggris-Indonesia belum tersedia. "
+                "Memulai pengunduhan model..."
             )
+
+            # Perbarui daftar model Argos.
 
             argostranslate.package.update_package_index()
 
@@ -593,100 +610,171 @@ def initialize_translator():
                 argostranslate.package.get_available_packages()
             )
 
-            package = next(
+            # Cari model en -> id.
+
+            available_package = next(
                 (
-                    item
-                    for item in available_packages
-
-                    if (
-                        item.from_code
-                        == TRANSLATION_SOURCE_LANGUAGE
-
-                        and item.to_code
-                        == TRANSLATION_TARGET_LANGUAGE
-                    )
+                    package
+                    for package in available_packages
+                    if package.from_code == from_code
+                    and package.to_code == to_code
                 ),
                 None
             )
 
-            if package is None:
+            if available_package is None:
 
                 raise RuntimeError(
-                    "Model Argos Translate en-id tidak ditemukan."
+                    "Model penerjemah Inggris-Indonesia "
+                    "tidak ditemukan pada indeks Argos."
                 )
 
-            package_path = package.download()
+            logging.info(
+                "Model ditemukan: %s -> %s",
+                from_code,
+                to_code
+            )
+
+            # Unduh model.
+
+            download_path = available_package.download()
+
+            if not download_path:
+
+                raise RuntimeError(
+                    "Pengunduhan model Argos gagal."
+                )
+
+            logging.info(
+                "Model berhasil diunduh. "
+                "Memulai instalasi..."
+            )
+
+            # Instal model.
 
             argostranslate.package.install_from_path(
-                package_path
+                download_path
             )
 
             logging.info(
-                "Model penerjemah en-id berhasil dipasang."
+                "Instalasi model selesai."
             )
 
-        # ---------------------------------------------
-        # Ambil model yang sudah terpasang
-        # ---------------------------------------------
+            # -------------------------------------
+            # 5. Muat ulang daftar bahasa
+            # -------------------------------------
 
-        installed_languages = (
-            argostranslate.translate.get_installed_languages()
-        )
+            # Argos menggunakan cache pada fungsi ini.
+            # Bersihkan cache agar model baru terdeteksi.
 
-        english_language = next(
-            (
-                language
-                for language in installed_languages
-                if language.code == TRANSLATION_SOURCE_LANGUAGE
-            ),
-            None
-        )
-
-        if not english_language:
-
-            raise RuntimeError(
-                "Bahasa Inggris belum tersedia."
+            clear_cache = getattr(
+                argostranslate.translate.get_installed_languages,
+                "cache_clear",
+                None
             )
 
-        TRANSLATION_MODEL = next(
-            (
-                translation
-                for translation in english_language.translations
+            if callable(clear_cache):
+                clear_cache()
 
-                if (
-                    translation.to_lang.code
-                    == TRANSLATION_TARGET_LANGUAGE
+            # Ambil kembali bahasa yang sudah terpasang.
+
+            installed_languages = (
+                argostranslate.translate.get_installed_languages()
+            )
+
+            from_lang = next(
+                (
+                    lang for lang in installed_languages
+                    if lang.code == from_code
+                ),
+                None
+            )
+
+            to_lang = next(
+                (
+                    lang for lang in installed_languages
+                    if lang.code == to_code
+                ),
+                None
+            )
+
+            if from_lang is None or to_lang is None:
+
+                raise RuntimeError(
+                    "Model sudah diinstal, tetapi bahasa "
+                    "Inggris atau Indonesia tidak terdeteksi."
                 )
-            ),
-            None
-        )
 
-        if TRANSLATION_MODEL is None:
+            # -------------------------------------
+            # 6. Ambil objek penerjemah
+            # -------------------------------------
 
-            raise RuntimeError(
-                "Model penerjemah Inggris-Indonesia "
-                "belum berhasil dipasang."
+            translation = from_lang.get_translation(
+                to_lang
             )
 
-        TRANSLATOR_READY = True
-        TRANSLATOR_ERROR = None
+        # -----------------------------------------
+        # 7. Validasi objek penerjemah
+        # -----------------------------------------
+
+        if translation is None:
+
+            raise RuntimeError(
+                "Pasangan penerjemah en -> id "
+                "tidak berhasil dibuat."
+            )
+
+        if not callable(
+            getattr(translation, "translate", None)
+        ):
+
+            raise RuntimeError(
+                "Objek penerjemah tidak memiliki "
+                "metode translate()."
+            )
+
+        # -----------------------------------------
+        # 8. Simpan translator secara global
+        # -----------------------------------------
+
+        TRANSLATION_MODEL = translation
 
         logging.info(
-            "Penerjemah Inggris-Indonesia siap digunakan."
+            "========================================"
+        )
+
+        logging.info(
+            "Argos Translate berhasil diinisialisasi."
+        )
+
+        logging.info(
+            "Bahasa sumber  : Inggris (en)"
+        )
+
+        logging.info(
+            "Bahasa tujuan  : Indonesia (id)"
+        )
+
+        logging.info(
+            "Translator siap digunakan."
+        )
+
+        logging.info(
+            "========================================"
         )
 
         return True
 
-    except Exception as error:
+    except Exception:
 
-        TRANSLATOR_ERROR = str(error)
+        TRANSLATION_MODEL = None
 
-        logging.error(
-            "Gagal menginisialisasi penerjemah: %s",
-            error
+        logging.exception(
+            "Gagal menginisialisasi penerjemah Argos."
         )
 
         return False
+
 
 
 
