@@ -689,11 +689,16 @@ def initialize_translator():
         return False
 
 
+
 def translate_to_indonesian(text):
 
     global TRANSLATION_CACHE_DIRTY
 
-    if not text:
+    # ---------------------------------------------
+    # 1. Validasi teks
+    # ---------------------------------------------
+
+    if text is None:
         return text
 
     original_text = str(text).strip()
@@ -701,14 +706,45 @@ def translate_to_indonesian(text):
     if not original_text:
         return original_text
 
-    cache = load_translation_cache()
+    # ---------------------------------------------
+    # 2. Muat cache terjemahan
+    # ---------------------------------------------
 
-    cache_key = get_translation_cache_key(
-        original_text
-    )
+    try:
+
+        cache = load_translation_cache()
+
+        if not isinstance(cache, dict):
+            cache = {}
+
+    except Exception:
+
+        logging.exception(
+            "Gagal memuat cache terjemahan."
+        )
+
+        cache = {}
 
     # ---------------------------------------------
-    # 1. Periksa cache terlebih dahulu
+    # 3. Buat kunci cache
+    # ---------------------------------------------
+
+    try:
+
+        cache_key = get_translation_cache_key(
+            original_text
+        )
+
+    except Exception:
+
+        logging.exception(
+            "Gagal membuat cache key terjemahan."
+        )
+
+        return original_text
+
+    # ---------------------------------------------
+    # 4. Periksa cache terlebih dahulu
     # ---------------------------------------------
 
     cached_translation = cache.get(
@@ -724,23 +760,36 @@ def translate_to_indonesian(text):
             "Terjemahan ditemukan di cache."
         )
 
-        return cached_translation
+        return cached_translation.strip()
 
     # ---------------------------------------------
-    # 2. Inisialisasi penerjemah
+    # 5. Inisialisasi penerjemah
     # ---------------------------------------------
 
-    if not initialize_translator():
+    try:
 
-        logging.warning(
-            "Penerjemah tidak tersedia. "
-            "Menggunakan teks asli."
+        translator_ready = initialize_translator()
+
+    except Exception:
+
+        logging.exception(
+            "Terjadi kesalahan saat menginisialisasi "
+            "Argos Translate."
+        )
+
+        return original_text
+
+    if not translator_ready or TRANSLATION_MODEL is None:
+
+        logging.error(
+            "Translator tidak tersedia. "
+            "Teks tidak dapat diterjemahkan."
         )
 
         return original_text
 
     # ---------------------------------------------
-    # 3. Proses penerjemahan
+    # 6. Proses penerjemahan
     # ---------------------------------------------
 
     try:
@@ -753,30 +802,56 @@ def translate_to_indonesian(text):
             translated_text or ""
         ).strip()
 
+        # -----------------------------------------
+        # 7. Validasi hasil terjemahan
+        # -----------------------------------------
+
         if not translated_text:
 
             logging.warning(
-                "Hasil terjemahan kosong."
+                "Hasil terjemahan kosong. "
+                "Teks asli akan digunakan."
             )
 
             return original_text
 
-        # Simpan hasil ke cache.
+        if translated_text == original_text:
+
+            logging.warning(
+                "Hasil terjemahan sama dengan teks asli. "
+                "Periksa model bahasa yang digunakan."
+            )
+
+            return original_text
+
+        # -----------------------------------------
+        # 8. Simpan hasil ke cache
+        # -----------------------------------------
 
         cache[cache_key] = translated_text
 
         TRANSLATION_CACHE_DIRTY = True
 
+        logging.debug(
+            "Berhasil menerjemahkan teks: %s",
+            original_text[:100]
+        )
+
         return translated_text
 
-    except Exception as error:
+    # ---------------------------------------------
+    # 9. Tangani kesalahan penerjemahan
+    # ---------------------------------------------
 
-        logging.error(
+    except Exception:
+
+        logging.exception(
             "Gagal menerjemahkan teks: %s",
-            error
+            original_text[:150]
         )
 
         return original_text
+
 
 
 def translate_article(title, description, language):
