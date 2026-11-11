@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-11T02:35:53.065650+00:00",
-  "total": 79,
-  "newArticles": 30,
+  "lastUpdated": "2026-11-11T02:47:50.835775+00:00",
+  "total": 81,
+  "newArticles": 32,
   "sourcesChecked": 10,
   "sourcesSucceeded": 9,
   "sourcesFailed": 1,
@@ -41,8 +41,8 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 0,
-      "filtered": 50,
+      "accepted": 2,
+      "filtered": 48,
       "translated": 0,
       "translationFailed": 0,
       "error": null
@@ -117,6 +117,44 @@
   },
   "articles": [
     {
+      "id": "40e017338cf68ca7",
+      "title": "Baznas ajak kampus perkuat ekosistem zakat menuju Indonesia Emas 2045",
+      "description": "Badan Amil Zakat Nasional (Baznas) RI mendorong perguruan tinggi di Indonesia untuk bersama-sama memperkuat ekosistem ...",
+      "originalTitle": "Baznas ajak kampus perkuat ekosistem zakat menuju Indonesia Emas 2045",
+      "originalDescription": "Badan Amil Zakat Nasional (Baznas) RI mendorong perguruan tinggi di Indonesia untuk bersama-sama memperkuat ekosistem ...",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/11/IMG_20261111_092614.jpg.jpeg",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "ANTARA Terkini",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T02:44:51+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5845703/baznas-ajak-kampus-perkuat-ekosistem-zakat-menuju-indonesia-emas-2045"
+    },
+    {
+      "id": "409e1a104e88842b",
+      "title": "Baznas perluas beasiswa pendidikan lintas negara dengan KPMAIWP",
+      "description": "Badan Amil Zakat Nasional (Baznas) RI menjajaki sinergi dengan Kolej Profesional Majlis Agama Islam Wilayah Persekutuan ...",
+      "originalTitle": "Baznas perluas beasiswa pendidikan lintas negara dengan KPMAIWP",
+      "originalDescription": "Badan Amil Zakat Nasional (Baznas) RI menjajaki sinergi dengan Kolej Profesional Majlis Agama Islam Wilayah Persekutuan ...",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/11/IMG_20261111_092629.jpg.jpeg",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "ANTARA Terkini",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T02:37:07+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5845691/baznas-perluas-beasiswa-pendidikan-lintas-negara-dengan-kpmaiwp"
+    },
+    {
       "id": "03650c311f963787",
       "title": "Penipuan Haji dan Umrah Kian Marak, Kemenhaj akan Perkuat Penyidik PNS",
       "description": "JAKARTA — Kementerian Haji dan Umrah merevitalisasi fungsi Penyidik Pegawai Negeri Sipil (PPNS) demi memperkuat penegakan hukum terhadap praktik penipuan penyelenggaraan ibadah haji dan umrah. Wakil Menteri Haji dan Umrah...",
@@ -133,7 +171,10 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-11T02:19:39+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/tobfsr483/penipuan-haji-dan-umrah-kian-marak-kemenhaj-akan-perkuat-penyidik-pns"
+      "originalUrl": "https://khazanah.republika.co.id/berita/tobfsr483/penipuan-haji-dan-umrah-kian-marak-kemenhaj-akan-perkuat-penyidik-pns",
+      "sources": [
+        "Republika"
+      ]
     },
     {
       "id": "dafbe69a723620cc",
@@ -152,7 +193,10 @@
       "language": "id",
       "country": "International",
       "publishedAt": "2026-11-11T02:12:22+00:00",
-      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/11/protesters-throw-milk-at-joe-biden-during-hunter-event-in-dublin"
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/11/protesters-throw-milk-at-joe-biden-during-hunter-event-in-dublin",
+      "sources": [
+        "Al Jazeera"
+      ]
     },
     {
       "id": "bd6eb905a8f011ca",
