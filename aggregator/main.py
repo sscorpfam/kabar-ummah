@@ -10,6 +10,7 @@ from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from urllib.parse import urlsplit, urlunsplit, urljoin
 from html.parser import HTMLParser
+from difflib import SequenceMatcher
 
 import requests
 import feedparser
@@ -784,14 +785,193 @@ def load_previous_articles():
 
 
 # =========================================================
+# NEWS DUPLICATE DETECTION
+# =========================================================
+
+# Rentang waktu maksimal untuk mendeteksi berita
+# yang membahas peristiwa sama.
+DUPLICATE_TIME_WINDOW_HOURS = 72
+
+
+def normalize_title(title):
+    """
+    Membersihkan judul agar perbedaan tanda baca,
+    huruf besar/kecil, dan spasi tidak memengaruhi
+    pencocokan.
+    """
+
+    title = clean_text(title).lower()
+
+    title = re.sub(
+        r"[^a-z0-9\s]",
+        " ",
+        title
+    )
+
+    title = re.sub(
+        r"\s+",
+        " ",
+        title
+    ).strip()
+
+    return title
+
+
+def get_title_tokens(title):
+    """
+    Mengambil kata-kata penting dari judul.
+    """
+
+    stopwords = {
+        "yang", "dan", "di", "ke", "dari", "untuk",
+        "pada", "dengan", "ini", "itu", "dalam",
+        "the", "a", "an", "of", "to", "in", "on",
+        "at", "for", "with", "and", "is", "are",
+        "as", "by", "from"
+    }
+
+    normalized = normalize_title(title)
+
+    return {
+        word
+        for word in normalized.split()
+        if len(word) > 2 and word not in stopwords
+    }
+
+
+def get_article_datetime(article):
+    """
+    Membaca tanggal publikasi berita.
+    """
+
+    value = article.get("publishedAt", "")
+
+    if not value:
+        return None
+
+    try:
+
+        date = datetime.fromisoformat(
+            value.replace("Z", "+00:00")
+        )
+
+        if date.tzinfo is None:
+            date = date.replace(tzinfo=timezone.utc)
+
+        return date.astimezone(timezone.utc)
+
+    except (ValueError, TypeError):
+        return None
+
+
+def is_same_news(article_a, article_b):
+    """
+    Memeriksa apakah dua artikel kemungkinan
+    membahas berita atau peristiwa yang sama.
+    """
+
+    title_a = normalize_title(
+        article_a.get("title", "")
+    )
+
+    title_b = normalize_title(
+        article_b.get("title", "")
+    )
+
+    if not title_a or not title_b:
+        return False
+
+    # Judul identik setelah normalisasi.
+    if title_a == title_b:
+        return True
+
+    # Batasi perbandingan berita berdasarkan waktu.
+    date_a = get_article_datetime(article_a)
+    date_b = get_article_datetime(article_b)
+
+    if date_a and date_b:
+
+        difference = abs(
+            (date_a - date_b).total_seconds()
+        )
+
+        if difference > DUPLICATE_TIME_WINDOW_HOURS * 3600:
+            return False
+
+    tokens_a = get_title_tokens(title_a)
+    tokens_b = get_title_tokens(title_b)
+
+    if not tokens_a or not tokens_b:
+        return False
+
+    common_tokens = tokens_a.intersection(tokens_b)
+
+    # Minimal harus memiliki beberapa kata penting sama.
+    if len(common_tokens) < 3:
+        return False
+
+    # Mengukur kesamaan urutan judul.
+    sequence_score = SequenceMatcher(
+        None,
+        title_a,
+        title_b
+    ).ratio()
+
+    # Mengukur kesamaan kumpulan kata.
+    union_tokens = tokens_a.union(tokens_b)
+
+    jaccard_score = (
+        len(common_tokens) / len(union_tokens)
+        if union_tokens else 0
+    )
+
+    # Salah satu kriteria kemiripan harus terpenuhi.
+    return (
+        sequence_score >= 0.86
+        or (
+            jaccard_score >= 0.72
+            and len(common_tokens) >= 4
+        )
+    )
+
+
+def article_quality(article):
+    """
+    Menentukan artikel mana yang lebih layak
+    dipertahankan ketika ditemukan duplikasi.
+    """
+
+    image_score = 1 if article.get("image") else 0
+
+    description_score = len(
+        article.get("description", "")
+    )
+
+    title_score = len(
+        article.get("title", "")
+    )
+
+    return (
+        image_score,
+        description_score,
+        title_score
+    )
+
+
+
+# =========================================================
 # MERGE OLD AND NEW ARTICLES
 # =========================================================
 
 def merge_articles(new_articles, old_articles):
 
-    merged = {}
+    # -----------------------------------------------------
+    # TAHAP 1: DEDUPLIKASI BERDASARKAN URL
+    # -----------------------------------------------------
 
-    # Berita lama dimasukkan terlebih dahulu.
+    url_map = {}
+
+    # Masukkan berita lama.
     for article in old_articles:
 
         url = normalize_url(
@@ -799,35 +979,36 @@ def merge_articles(new_articles, old_articles):
         )
 
         if url:
+            url_map[url] = article
 
-            merged[url] = article
-
-    # Berita terbaru menggantikan data lama
-    # jika URL-nya sama.
+    # Masukkan berita terbaru.
+    # Jika URL sama, data terbaru menggantikan data lama.
     for article in new_articles:
 
         url = normalize_url(
             article.get("originalUrl", "")
         )
 
-        if url:
+        if not url:
+            continue
 
-            # Pertahankan gambar lama jika RSS baru
-            # maupun halaman artikel tidak menyediakan gambar.
-            if not article.get("image"):
+        old_article = url_map.get(url, {})
 
-                old_article = merged.get(url, {})
+        # Pertahankan gambar lama jika gambar terbaru kosong.
+        if not article.get("image"):
 
-                old_image = old_article.get(
-                    "image",
-                    ""
-                )
+            old_image = old_article.get("image", "")
 
-                if old_image:
+            if old_image:
+                article["image"] = old_image
 
-                    article["image"] = old_image
+        url_map[url] = article
 
-            merged[url] = article
+    candidates = list(url_map.values())
+
+    # -----------------------------------------------------
+    # TAHAP 2: FILTER BERITA KADALUWARSA
+    # -----------------------------------------------------
 
     cutoff = datetime.now(
         timezone.utc
@@ -837,41 +1018,76 @@ def merge_articles(new_articles, old_articles):
 
     valid_articles = []
 
-    for article in merged.values():
+    for article in candidates:
 
-        try:
+        date = get_article_datetime(article)
 
-            date = datetime.fromisoformat(
-                article["publishedAt"].replace(
-                    "Z",
-                    "+00:00"
-                )
-            )
-
-            if date.tzinfo is None:
-
-                date = date.replace(
-                    tzinfo=timezone.utc
-                )
-
-            if date < cutoff:
-
-                continue
-
-        except Exception:
-            pass
+        if date and date < cutoff:
+            continue
 
         valid_articles.append(article)
 
+    # -----------------------------------------------------
+    # TAHAP 3: URUTKAN BERITA TERBARU
+    # -----------------------------------------------------
+
     valid_articles.sort(
         key=lambda item: item.get(
-            "publishedAt",
-            ""
+            "publishedAt", ""
         ),
         reverse=True
     )
 
-    return valid_articles[:MAX_ARTICLES]
+    # -----------------------------------------------------
+    # TAHAP 4: DEDUPLIKASI BERDASARKAN JUDUL
+    # -----------------------------------------------------
+
+    unique_articles = []
+
+    for article in valid_articles:
+
+        duplicate_index = None
+
+        for index, existing in enumerate(unique_articles):
+
+            if is_same_news(article, existing):
+
+                duplicate_index = index
+                break
+
+        # Berita belum pernah ditemukan.
+        if duplicate_index is None:
+
+            unique_articles.append(article)
+            continue
+
+        # Berita sudah ditemukan.
+        existing = unique_articles[duplicate_index]
+
+        logging.info(
+            "Duplikasi ditemukan: %s | %s",
+            article.get("source", ""),
+            article.get("title", "")
+        )
+
+        # Pertahankan artikel yang memiliki data lebih baik.
+        if article_quality(article) > article_quality(existing):
+
+            unique_articles[duplicate_index] = article
+
+    # -----------------------------------------------------
+    # TAHAP 5: BATASI JUMLAH BERITA
+    # -----------------------------------------------------
+
+    unique_articles.sort(
+        key=lambda item: item.get(
+            "publishedAt", ""
+        ),
+        reverse=True
+    )
+
+    return unique_articles[:MAX_ARTICLES]
+
 
 
 # =========================================================
