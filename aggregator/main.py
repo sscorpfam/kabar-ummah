@@ -1,3 +1,4 @@
+
 import os
 import re
 import json
@@ -39,21 +40,32 @@ OUTPUT_FILE = os.path.join(
     BASE_DIR, "data", "news.json"
 )
 
-
 MAX_ARTICLES = 500
 MAX_AGE_DAYS = 90
 
 TIMEOUT = 25
-IMAGE_TIMEOUT = 10
+IMAGE_TIMEOUT = 12
 
-# Rentang waktu untuk membandingkan berita lintas media.
 DUPLICATE_TIME_WINDOW_HOURS = 72
 
-# Batas minimum kesamaan teks.
 TITLE_SIMILARITY_THRESHOLD = 0.82
 DESCRIPTION_SIMILARITY_THRESHOLD = 0.48
 
 HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/131.0.0.0 Safari/537.36"
+    ),
+    "Accept": (
+        "text/html,application/xhtml+xml,"
+        "application/xml;q=0.9,image/avif,"
+        "image/webp,*/*;q=0.8"
+    ),
+    "Accept-Language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"
+}
+
+RSS_HEADERS = {
     "User-Agent": (
         "KabarUmmahNewsBot/1.0 "
         "(+https://github.com/sscorpfam/kabar-ummah)"
@@ -78,13 +90,23 @@ logging.basicConfig(
 class ImageHTMLParser(HTMLParser):
 
     def __init__(self):
+
         super().__init__()
+
         self.images = []
+        self.jsonld_scripts = []
+
+        self._inside_jsonld = False
+        self._script_data = []
 
     def handle_starttag(self, tag, attrs):
 
         attrs = dict(attrs)
         tag = tag.lower()
+
+        # -------------------------------------------------
+        # META IMAGE
+        # -------------------------------------------------
 
         if tag == "meta":
 
@@ -97,24 +119,39 @@ class ImageHTMLParser(HTMLParser):
             if key in (
                 "og:image",
                 "og:image:url",
+                "og:image:secure_url",
                 "twitter:image",
                 "twitter:image:src",
-                "image"
+                "image",
+                "thumbnail",
+                "thumbnailurl"
             ):
 
                 self.images.append(
                     attrs.get("content", "")
                 )
 
+        # -------------------------------------------------
+        # IMG ELEMENT
+        # -------------------------------------------------
+
         elif tag == "img":
 
-            for key in (
+            image_attributes = (
                 "src",
                 "data-src",
                 "data-original",
                 "data-lazy-src",
-                "data-original-src"
-            ):
+                "data-original-src",
+                "data-lazy",
+                "data-image",
+                "data-url",
+                "data-actualsrc",
+                "data-echo",
+                "data-fallback-src"
+            )
+
+            for key in image_attributes:
 
                 value = attrs.get(key)
 
@@ -127,13 +164,11 @@ class ImageHTMLParser(HTMLParser):
             )
 
             if srcset:
+                self.add_srcset(srcset)
 
-                first = srcset.split(",")[0].strip()
-
-                if first:
-                    self.images.append(
-                        first.split()[0]
-                    )
+        # -------------------------------------------------
+        # SOURCE ELEMENT
+        # -------------------------------------------------
 
         elif tag == "source":
 
@@ -143,13 +178,11 @@ class ImageHTMLParser(HTMLParser):
             )
 
             if srcset:
+                self.add_srcset(srcset)
 
-                first = srcset.split(",")[0].strip()
-
-                if first:
-                    self.images.append(
-                        first.split()[0]
-                    )
+        # -------------------------------------------------
+        # LINK IMAGE
+        # -------------------------------------------------
 
         elif tag == "link":
 
@@ -161,6 +194,90 @@ class ImageHTMLParser(HTMLParser):
                     attrs.get("href", "")
                 )
 
+        # -------------------------------------------------
+        # JSON-LD
+        # -------------------------------------------------
+
+        elif tag == "script":
+
+            script_type = attrs.get(
+                "type", ""
+            ).lower()
+
+            if "application/ld+json" in script_type:
+
+                self._inside_jsonld = True
+                self._script_data = []
+
+    def add_srcset(self, srcset):
+
+        candidates = []
+
+        for item in srcset.split(","):
+
+            parts = item.strip().split()
+
+            if not parts:
+                continue
+
+            url = parts[0]
+            width = 0
+
+            if len(parts) > 1:
+
+                descriptor = parts[1].lower()
+
+                try:
+
+                    if descriptor.endswith("w"):
+
+                        width = int(
+                            descriptor[:-1]
+                        )
+
+                    elif descriptor.endswith("x"):
+
+                        width = int(
+                            float(descriptor[:-1]) * 1000
+                        )
+
+                except ValueError:
+                    pass
+
+            candidates.append(
+                (width, url)
+            )
+
+        candidates.sort(
+            key=lambda item: item[0],
+            reverse=True
+        )
+
+        for _, url in candidates:
+            self.images.append(url)
+
+    def handle_data(self, data):
+
+        if self._inside_jsonld:
+            self._script_data.append(data)
+
+    def handle_endtag(self, tag):
+
+        if (
+            tag.lower() == "script"
+            and self._inside_jsonld
+        ):
+
+            content = "".join(
+                self._script_data
+            ).strip()
+
+            if content:
+                self.jsonld_scripts.append(content)
+
+            self._inside_jsonld = False
+            self._script_data = []
+
 
 # =========================================================
 # JSON FUNCTIONS
@@ -170,7 +287,12 @@ def load_json(path, default=None):
 
     try:
 
-        with open(path, "r", encoding="utf-8") as file:
+        with open(
+            path,
+            "r",
+            encoding="utf-8"
+        ) as file:
+
             return json.load(file)
 
     except Exception as error:
@@ -195,7 +317,11 @@ def save_json(path, data):
 
     temp_path = path + ".tmp"
 
-    with open(temp_path, "w", encoding="utf-8") as file:
+    with open(
+        temp_path,
+        "w",
+        encoding="utf-8"
+    ) as file:
 
         json.dump(
             data,
@@ -204,7 +330,10 @@ def save_json(path, data):
             indent=2
         )
 
-    os.replace(temp_path, path)
+    os.replace(
+        temp_path,
+        path
+    )
 
 
 # =========================================================
@@ -213,7 +342,9 @@ def save_json(path, data):
 
 def clean_text(value):
 
-    value = html.unescape(str(value or ""))
+    value = html.unescape(
+        str(value or "")
+    )
 
     value = re.sub(
         r"<[^>]+>",
@@ -257,7 +388,9 @@ def valid_http_url(url):
 
     try:
 
-        parts = urlsplit(url)
+        parts = urlsplit(
+            str(url).strip()
+        )
 
         return (
             parts.scheme.lower() in ("http", "https")
@@ -270,18 +403,12 @@ def valid_http_url(url):
 
 def normalize_url(url):
 
-    """
-    Membersihkan URL dari fragment dan parameter tracking.
-
-    Parameter yang berpotensi menjadi bagian URL artikel
-    tetap dipertahankan agar tidak salah menggabungkan
-    dua artikel yang berbeda.
-    """
-
     if not valid_http_url(url):
         return ""
 
-    parts = urlsplit(url.strip())
+    parts = urlsplit(
+        url.strip()
+    )
 
     tracking_names = {
         "fbclid",
@@ -309,7 +436,9 @@ def normalize_url(url):
         if key_lower in tracking_names:
             continue
 
-        query_items.append((key, value))
+        query_items.append(
+            (key, value)
+        )
 
     clean_query = urlencode(
         sorted(query_items),
@@ -338,10 +467,15 @@ def generate_id(url):
 
 def get_published_date(entry):
 
-    parsed = entry.get("published_parsed")
+    parsed = entry.get(
+        "published_parsed"
+    )
 
     if not parsed:
-        parsed = entry.get("updated_parsed")
+
+        parsed = entry.get(
+            "updated_parsed"
+        )
 
     if parsed:
 
@@ -365,7 +499,9 @@ def get_published_date(entry):
 
         try:
 
-            date = parsedate_to_datetime(value)
+            date = parsedate_to_datetime(
+                value
+            )
 
             if date.tzinfo is None:
 
@@ -387,7 +523,9 @@ def get_published_date(entry):
 
 def get_article_datetime(article):
 
-    value = article.get("publishedAt", "")
+    value = article.get(
+        "publishedAt", ""
+    )
 
     if not value:
         return None
@@ -404,7 +542,9 @@ def get_article_datetime(article):
                 tzinfo=timezone.utc
             )
 
-        return date.astimezone(timezone.utc)
+        return date.astimezone(
+            timezone.utc
+        )
 
     except (ValueError, TypeError):
         return None
@@ -416,6 +556,20 @@ def get_article_datetime(article):
 
 def find_valid_image(candidates, base_url=""):
 
+    rejected_extensions = (
+        ".svg",
+        ".ico"
+    )
+
+    rejected_names = (
+        "favicon",
+        "avatar",
+        "placeholder",
+        "default-image",
+        "no-image",
+        "blank.gif"
+    )
+
     for candidate in candidates:
 
         if not isinstance(candidate, str):
@@ -425,11 +579,19 @@ def find_valid_image(candidates, base_url=""):
             candidate.strip()
         )
 
+        candidate = candidate.strip(
+            "\"'"
+        )
+
         if not candidate:
             continue
 
         if candidate.lower().startswith(
-            ("data:", "javascript:")
+            (
+                "data:",
+                "javascript:",
+                "blob:"
+            )
         ):
             continue
 
@@ -444,15 +606,229 @@ def find_valid_image(candidates, base_url=""):
                 candidate
             )
 
-        if valid_http_url(candidate):
+        if not valid_http_url(candidate):
+            continue
 
-            return candidate
+        lower_url = candidate.lower()
+
+        if any(
+            name in lower_url
+            for name in rejected_names
+        ):
+            continue
+
+        path = urlsplit(
+            lower_url
+        ).path
+
+        if path.endswith(
+            rejected_extensions
+        ):
+            continue
+
+        return candidate
 
     return ""
 
 
 # =========================================================
-# IMAGE EXTRACTION
+# JSON-LD IMAGE EXTRACTION
+# =========================================================
+
+def collect_jsonld_images(data, candidates):
+
+    if isinstance(data, dict):
+
+        for key, value in data.items():
+
+            key_lower = key.lower()
+
+            if key_lower in (
+                "image",
+                "thumbnailurl",
+                "contenturl",
+                "thumbnail"
+            ):
+
+                if isinstance(value, str):
+
+                    candidates.append(value)
+
+                elif isinstance(value, list):
+
+                    for item in value:
+
+                        if isinstance(item, str):
+
+                            candidates.append(item)
+
+                        elif isinstance(item, dict):
+
+                            collect_jsonld_images(
+                                item,
+                                candidates
+                            )
+
+                elif isinstance(value, dict):
+
+                    collect_jsonld_images(
+                        value,
+                        candidates
+                    )
+
+            elif isinstance(
+                value,
+                (dict, list)
+            ):
+
+                collect_jsonld_images(
+                    value,
+                    candidates
+                )
+
+    elif isinstance(data, list):
+
+        for item in data:
+
+            collect_jsonld_images(
+                item,
+                candidates
+            )
+
+
+# =========================================================
+# HTML IMAGE EXTRACTION
+# =========================================================
+
+def extract_html_images(
+    page_html,
+    base_url=""
+):
+
+    if not page_html:
+        return ""
+
+    candidates = []
+
+    try:
+
+        parser = ImageHTMLParser()
+
+        parser.feed(
+            page_html
+        )
+
+        # 1. Metadata dan elemen gambar HTML.
+        candidates.extend(
+            parser.images
+        )
+
+        # 2. JSON-LD.
+        for script in parser.jsonld_scripts:
+
+            try:
+
+                json_data = json.loads(
+                    script
+                )
+
+                collect_jsonld_images(
+                    json_data,
+                    candidates
+                )
+
+            except (
+                ValueError,
+                TypeError
+            ):
+                continue
+
+        return find_valid_image(
+            candidates,
+            base_url
+        )
+
+    except Exception as error:
+
+        logging.warning(
+            "Gagal membaca gambar HTML: %s",
+            error
+        )
+
+        return ""
+
+
+# =========================================================
+# DIRECT ARTICLE PAGE IMAGE
+# =========================================================
+
+def extract_image_from_article_page(article_url):
+
+    if not valid_http_url(article_url):
+        return ""
+
+    try:
+
+        response = requests.get(
+            article_url,
+            headers={
+                **HEADERS,
+                "Referer": article_url
+            },
+            timeout=IMAGE_TIMEOUT,
+            allow_redirects=True
+        )
+
+        response.raise_for_status()
+
+        content_type = response.headers.get(
+            "Content-Type", ""
+        ).lower()
+
+        if (
+            content_type
+            and "html" not in content_type
+        ):
+
+            logging.warning(
+                "Halaman bukan HTML: %s",
+                article_url
+            )
+
+            return ""
+
+        image_url = extract_html_images(
+            response.text,
+            response.url
+        )
+
+        if image_url:
+
+            logging.info(
+                "Gambar ditemukan pada halaman artikel: %s",
+                article_url
+            )
+
+            return image_url
+
+        logging.warning(
+            "Halaman dibuka tetapi metadata gambar tidak ditemukan: %s",
+            article_url
+        )
+
+    except Exception as error:
+
+        logging.warning(
+            "Gagal membuka halaman artikel %s: %s",
+            article_url,
+            error
+        )
+
+    return ""
+
+
+# =========================================================
+# IMAGE EXTRACTION FROM RSS
 # =========================================================
 
 def extract_image(entry, article_url=""):
@@ -467,7 +843,10 @@ def extract_image(entry, article_url=""):
 
         if isinstance(value, dict):
 
-            image_url = value.get("url", "")
+            image_url = (
+                value.get("url", "")
+                or value.get("href", "")
+            )
 
             if image_url:
                 candidates.append(image_url)
@@ -484,6 +863,7 @@ def extract_image(entry, article_url=""):
         elif isinstance(value, list):
 
             for item in value:
+
                 collect_media(item)
 
     for field in (
@@ -500,7 +880,9 @@ def extract_image(entry, article_url=""):
     # 2. ENCLOSURE RSS
     # -----------------------------------------------------
 
-    for item in entry.get("enclosures", []):
+    for item in entry.get(
+        "enclosures", []
+    ):
 
         if isinstance(item, dict):
 
@@ -513,7 +895,9 @@ def extract_image(entry, article_url=""):
     # 3. LINK ENCLOSURE
     # -----------------------------------------------------
 
-    for item in entry.get("links", []):
+    for item in entry.get(
+        "links", []
+    ):
 
         if isinstance(item, dict):
 
@@ -529,7 +913,9 @@ def extract_image(entry, article_url=""):
 
     html_fields = []
 
-    for item in entry.get("content", []):
+    for item in entry.get(
+        "content", []
+    ):
 
         if isinstance(item, dict):
 
@@ -552,25 +938,16 @@ def extract_image(entry, article_url=""):
         if not content:
             continue
 
-        parser = ImageHTMLParser()
+        image_url = extract_html_images(
+            str(content),
+            article_url
+        )
 
-        try:
-
-            parser.feed(str(content))
-
-            candidates.extend(
-                parser.images
-            )
-
-        except Exception as error:
-
-            logging.debug(
-                "Gagal membaca HTML RSS: %s",
-                error
-            )
+        if image_url:
+            candidates.append(image_url)
 
     # -----------------------------------------------------
-    # 5. GAMBAR DARI RSS
+    # 5. PRIORITAS GAMBAR DARI RSS
     # -----------------------------------------------------
 
     image_url = find_valid_image(
@@ -582,62 +959,135 @@ def extract_image(entry, article_url=""):
         return image_url
 
     # -----------------------------------------------------
-    # 6. FALLBACK KE HALAMAN ARTIKEL
+    # 6. FALLBACK HALAMAN ARTIKEL
     # -----------------------------------------------------
 
-    if not valid_http_url(article_url):
-        return ""
+    return extract_image_from_article_page(
+        article_url
+    )
 
-    try:
 
-        response = requests.get(
-            article_url,
-            headers={
-                **HEADERS,
-                "Accept": (
-                    "text/html,application/xhtml+xml,*/*"
-                )
-            },
-            timeout=IMAGE_TIMEOUT,
-            allow_redirects=True
+# =========================================================
+# REFRESH MISSING IMAGES
+# =========================================================
+
+def refresh_missing_images(articles):
+
+    missing_articles = [
+        article
+        for article in articles
+        if not article.get("image")
+    ]
+
+    total_missing = len(
+        missing_articles
+    )
+
+    if total_missing == 0:
+
+        logging.info(
+            "Semua berita sudah memiliki gambar."
         )
 
-        response.raise_for_status()
+        return articles
 
-        parser = ImageHTMLParser()
+    logging.info(
+        "========================================"
+    )
 
-        parser.feed(response.text)
+    logging.info(
+        "Memeriksa ulang %d berita tanpa gambar.",
+        total_missing
+    )
 
-        image_url = find_valid_image(
-            parser.images,
-            response.url
+    logging.info(
+        "========================================"
+    )
+
+    recovered = 0
+    failed = 0
+
+    for index, article in enumerate(
+        missing_articles,
+        start=1
+    ):
+
+        title = article.get(
+            "title", "Tanpa judul"
+        )
+
+        article_url = article.get(
+            "originalUrl", ""
+        )
+
+        logging.info(
+            "[%d/%d] Mencari gambar: %s",
+            index,
+            total_missing,
+            title
+        )
+
+        if not valid_http_url(article_url):
+
+            logging.warning(
+                "URL artikel tidak valid: %s",
+                article_url
+            )
+
+            failed += 1
+            continue
+
+        # Coba ekstraksi dari halaman artikel.
+        image_url = extract_image_from_article_page(
+            article_url
         )
 
         if image_url:
 
+            article["image"] = image_url
+
+            recovered += 1
+
             logging.info(
-                "Gambar ditemukan dari halaman artikel: %s",
-                article_url
+                "BERHASIL mendapatkan gambar: %s",
+                title
             )
 
-            return image_url
+        else:
 
-    except Exception as error:
+            failed += 1
 
-        logging.warning(
-            "Gagal mengambil gambar artikel %s: %s",
-            article_url,
-            error
-        )
+            logging.warning(
+                "Gambar belum ditemukan: %s",
+                title
+            )
 
-    return ""
+    logging.info(
+        "========================================"
+    )
+
+    logging.info(
+        "Hasil pemulihan gambar: %d berhasil, %d belum ditemukan.",
+        recovered,
+        failed
+    )
+
+    logging.info(
+        "========================================"
+    )
+
+    return articles
 
 
 # =========================================================
 # NEWS CATEGORIZATION
 # =========================================================
 
-def categorize(title, description, categories):
+def categorize(
+    title,
+    description,
+    categories
+):
 
     text = normalize_text(
         title + " " + description
@@ -653,7 +1103,9 @@ def categorize(title, description, categories):
 
         for keyword in keywords:
 
-            keyword = normalize_text(keyword)
+            keyword = normalize_text(
+                keyword
+            )
 
             if not keyword:
                 continue
@@ -665,7 +1117,10 @@ def categorize(title, description, categories):
                 + r"(?!\w)"
             )
 
-            if re.search(pattern, text):
+            if re.search(
+                pattern,
+                text
+            ):
 
                 matches.append(keyword)
 
@@ -677,6 +1132,7 @@ def categorize(title, description, categories):
         if matches:
 
             scores[category] = score
+
             matched_keywords[category] = matches
 
     if not scores:
@@ -696,7 +1152,10 @@ def categorize(title, description, categories):
         reverse=True
     )
 
-    return best_category, matched_categories
+    return (
+        best_category,
+        matched_categories
+    )
 
 
 # =========================================================
@@ -706,7 +1165,9 @@ def categorize(title, description, categories):
 def fetch_source(source, categories):
 
     result = {
-        "name": source.get("name", "Unknown"),
+        "name": source.get(
+            "name", "Unknown"
+        ),
         "status": "error",
         "raw": 0,
         "accepted": 0,
@@ -718,7 +1179,7 @@ def fetch_source(source, categories):
 
         response = requests.get(
             source["url"],
-            headers=HEADERS,
+            headers=RSS_HEADERS,
             timeout=TIMEOUT
         )
 
@@ -730,7 +1191,9 @@ def fetch_source(source, categories):
 
         entries = feed.entries
 
-        result["raw"] = len(entries)
+        result["raw"] = len(
+            entries
+        )
 
         if not entries and feed.bozo:
 
@@ -792,15 +1255,23 @@ def fetch_source(source, categories):
                 "category": category,
                 "tags": tags,
                 "source": source["name"],
-                "language": source.get("language", "id"),
-                "country": source.get("country", ""),
-                "publishedAt": get_published_date(entry),
+                "language": source.get(
+                    "language", "id"
+                ),
+                "country": source.get(
+                    "country", ""
+                ),
+                "publishedAt": get_published_date(
+                    entry
+                ),
                 "originalUrl": url
             }
 
             articles.append(article)
 
-        result["accepted"] = len(articles)
+        result["accepted"] = len(
+            articles
+        )
 
         logging.info(
             "%s | RSS: %d | Lolos: %d | Disaring: %d",
@@ -836,7 +1307,10 @@ def load_previous_articles():
         default={}
     )
 
-    if not isinstance(previous, dict):
+    if not isinstance(
+        previous,
+        dict
+    ):
         return []
 
     articles = previous.get(
@@ -879,7 +1353,6 @@ DEDUP_STOPWORDS = {
 }
 
 
-# Normalisasi kata kerja bahasa Inggris.
 IRREGULAR_WORDS = {
 
     "killed": "kill",
@@ -969,7 +1442,9 @@ def normalize_dedup_token(token):
 
 def news_tokens(value):
 
-    tokens = normalize_text(value).split()
+    tokens = normalize_text(
+        value
+    ).split()
 
     result = set()
 
@@ -988,7 +1463,10 @@ def news_tokens(value):
     return result
 
 
-def token_jaccard(tokens_a, tokens_b):
+def token_jaccard(
+    tokens_a,
+    tokens_b
+):
 
     if not tokens_a or not tokens_b:
         return 0.0
@@ -998,10 +1476,16 @@ def token_jaccard(tokens_a, tokens_b):
     if not union:
         return 0.0
 
-    return len(tokens_a & tokens_b) / len(union)
+    return (
+        len(tokens_a & tokens_b)
+        / len(union)
+    )
 
 
-def token_overlap(tokens_a, tokens_b):
+def token_overlap(
+    tokens_a,
+    tokens_b
+):
 
     if not tokens_a or not tokens_b:
         return 0.0
@@ -1014,16 +1498,25 @@ def token_overlap(tokens_a, tokens_b):
     if smaller == 0:
         return 0.0
 
-    return len(tokens_a & tokens_b) / smaller
+    return (
+        len(tokens_a & tokens_b)
+        / smaller
+    )
 
 
-def is_within_duplicate_window(article_a, article_b):
+def is_within_duplicate_window(
+    article_a,
+    article_b
+):
 
-    date_a = get_article_datetime(article_a)
-    date_b = get_article_datetime(article_b)
+    date_a = get_article_datetime(
+        article_a
+    )
 
-    # Jika tanggal tidak tersedia, jangan menggunakan
-    # fuzzy matching yang berisiko salah menghapus berita.
+    date_b = get_article_datetime(
+        article_b
+    )
+
     if not date_a or not date_b:
         return False
 
@@ -1037,14 +1530,10 @@ def is_within_duplicate_window(article_a, article_b):
     )
 
 
-def is_same_news(article_a, article_b):
-    """
-    Memeriksa apakah dua artikel kemungkinan membahas
-    peristiwa yang sama.
-
-    Tidak menghapus artikel hanya karena menyebut
-    wilayah, negara, konflik, atau tokoh yang sama.
-    """
+def is_same_news(
+    article_a,
+    article_b
+):
 
     title_a = normalize_text(
         article_a.get("title", "")
@@ -1057,7 +1546,6 @@ def is_same_news(article_a, article_b):
     if not title_a or not title_b:
         return False
 
-    # Fuzzy matching wajib berada dalam jendela waktu.
     if not is_within_duplicate_window(
         article_a,
         article_b
@@ -1095,9 +1583,7 @@ def is_same_news(article_a, article_b):
         title_b
     ).ratio()
 
-    # -----------------------------------------------------
     # 1. JUDUL SANGAT MIRIP
-    # -----------------------------------------------------
 
     if (
         len(common_title) >= 3
@@ -1108,9 +1594,7 @@ def is_same_news(article_a, article_b):
     ):
         return True
 
-    # -----------------------------------------------------
     # 2. POLA PERISTIWA YANG SAMA
-    # -----------------------------------------------------
 
     shared_actions = (
         common_title & EVENT_ACTIONS
@@ -1123,9 +1607,7 @@ def is_same_news(article_a, article_b):
     ):
         return True
 
-    # -----------------------------------------------------
     # 3. PERBANDINGAN DESKRIPSI
-    # -----------------------------------------------------
 
     description_a = news_tokens(
         article_a.get("description", "")
@@ -1149,7 +1631,6 @@ def is_same_news(article_a, article_b):
         description_b
     )
 
-    # Isi hampir sama meskipun judul berbeda.
     if (
         len(common_description) >= 8
         and description_similarity
@@ -1157,8 +1638,6 @@ def is_same_news(article_a, article_b):
     ):
         return True
 
-    # Isi memiliki kemiripan tinggi dan judul memiliki
-    # beberapa kata penting yang sama.
     if (
         len(common_description) >= 8
         and description_overlap >= 0.72
@@ -1167,9 +1646,7 @@ def is_same_news(article_a, article_b):
     ):
         return True
 
-    # -----------------------------------------------------
     # 4. GABUNGAN JUDUL DAN DESKRIPSI
-    # -----------------------------------------------------
 
     combined_a = (
         title_tokens_a | description_a
@@ -1213,10 +1690,6 @@ def article_quality(article):
         article.get("title", "")
     )
 
-    # Prioritas utama: deskripsi paling lengkap.
-    # Prioritas kedua: artikel memiliki gambar.
-    # Prioritas ketiga: judul tersedia dengan baik.
-
     return (
         len(description),
         1 if article.get("image") else 0,
@@ -1224,13 +1697,14 @@ def article_quality(article):
     )
 
 
-def merge_duplicate_metadata(preferred, other):
+def merge_duplicate_metadata(
+    preferred,
+    other
+):
 
     result = dict(preferred)
 
-    # -----------------------------------------------------
-    # DESKRIPSI TERLENGKAP
-    # -----------------------------------------------------
+    # DESCRIPTION TERLENGKAP
 
     preferred_description = clean_text(
         result.get("description", "")
@@ -1240,13 +1714,15 @@ def merge_duplicate_metadata(preferred, other):
         other.get("description", "")
     )
 
-    if len(other_description) > len(preferred_description):
+    if len(other_description) > len(
+        preferred_description
+    ):
 
-        result["description"] = other_description[:2000]
+        result["description"] = (
+            other_description[:2000]
+        )
 
-    # -----------------------------------------------------
     # GAMBAR
-    # -----------------------------------------------------
 
     if (
         not result.get("image")
@@ -1255,9 +1731,7 @@ def merge_duplicate_metadata(preferred, other):
 
         result["image"] = other["image"]
 
-    # -----------------------------------------------------
     # TAG
-    # -----------------------------------------------------
 
     tags = []
 
@@ -1271,9 +1745,7 @@ def merge_duplicate_metadata(preferred, other):
 
     result["tags"] = tags
 
-    # -----------------------------------------------------
-    # DAFTAR MEDIA
-    # -----------------------------------------------------
+    # SUMBER MEDIA
 
     sources = []
 
@@ -1297,12 +1769,17 @@ def merge_duplicate_metadata(preferred, other):
 # MERGE OLD AND NEW ARTICLES
 # =========================================================
 
-def merge_articles(new_articles, old_articles):
+def merge_articles(
+    new_articles,
+    old_articles
+):
 
-    logging.info("Memulai pembersihan berita lama dan baru.")
+    logging.info(
+        "Memulai pembersihan berita lama dan baru."
+    )
 
     # -----------------------------------------------------
-    # TAHAP 1: NORMALISASI URL DAN ID
+    # 1. NORMALISASI URL
     # -----------------------------------------------------
 
     url_map = {}
@@ -1345,7 +1822,7 @@ def merge_articles(new_articles, old_articles):
         url_map[url] = article
 
     # -----------------------------------------------------
-    # TAHAP 2: MASUKKAN BERITA RSS TERBARU
+    # 2. MASUKKAN BERITA BARU
     # -----------------------------------------------------
 
     for article in new_articles:
@@ -1395,7 +1872,7 @@ def merge_articles(new_articles, old_articles):
     )
 
     # -----------------------------------------------------
-    # TAHAP 3: HAPUS BERITA KEDALUWARSA
+    # 3. HAPUS BERITA KEDALUWARSA
     # -----------------------------------------------------
 
     cutoff = datetime.now(
@@ -1408,7 +1885,9 @@ def merge_articles(new_articles, old_articles):
 
     for article in candidates:
 
-        date = get_article_datetime(article)
+        date = get_article_datetime(
+            article
+        )
 
         if date and date < cutoff:
             continue
@@ -1416,7 +1895,7 @@ def merge_articles(new_articles, old_articles):
         valid_articles.append(article)
 
     # -----------------------------------------------------
-    # TAHAP 4: URUTKAN BERDASARKAN PUBLIKASI
+    # 4. URUTKAN BERITA
     # -----------------------------------------------------
 
     valid_articles.sort(
@@ -1427,23 +1906,28 @@ def merge_articles(new_articles, old_articles):
     )
 
     # -----------------------------------------------------
-    # TAHAP 5: DEDUPLIKASI BERDASARKAN ID
+    # 5. DEDUPLIKASI ID
     # -----------------------------------------------------
 
     id_map = {}
 
     for article in valid_articles:
 
-        article_id = article.get("id", "")
+        article_id = article.get(
+            "id", ""
+        )
 
         if not article_id:
+
             article_id = generate_id(
                 article.get("originalUrl", "")
             )
 
         article["id"] = article_id
 
-        existing = id_map.get(article_id)
+        existing = id_map.get(
+            article_id
+        )
 
         if existing:
 
@@ -1468,7 +1952,7 @@ def merge_articles(new_articles, old_articles):
     )
 
     # -----------------------------------------------------
-    # TAHAP 6: DEDUPLIKASI PERISTIWA LINTAS MEDIA
+    # 6. DEDUPLIKASI PERISTIWA
     # -----------------------------------------------------
 
     unique_articles = []
@@ -1479,7 +1963,9 @@ def merge_articles(new_articles, old_articles):
 
         duplicate_index = None
 
-        for index, existing in enumerate(unique_articles):
+        for index, existing in enumerate(
+            unique_articles
+        ):
 
             if is_same_news(
                 article,
@@ -1489,16 +1975,16 @@ def merge_articles(new_articles, old_articles):
                 duplicate_index = index
                 break
 
-        # Berita baru, belum ditemukan duplikat.
         if duplicate_index is None:
 
             unique_articles.append(article)
             continue
 
-        # Berita merupakan duplikat.
         duplicate_count += 1
 
-        existing = unique_articles[duplicate_index]
+        existing = unique_articles[
+            duplicate_index
+        ]
 
         logging.info(
             "Duplikasi ditemukan: %s | %s",
@@ -1506,7 +1992,6 @@ def merge_articles(new_articles, old_articles):
             article.get("title", "")
         )
 
-        # Pilih artikel dengan kualitas terbaik.
         if article_quality(article) > article_quality(existing):
 
             preferred = article
@@ -1525,14 +2010,16 @@ def merge_articles(new_articles, old_articles):
         )
 
     # -----------------------------------------------------
-    # TAHAP 7: PEMBERSIHAN ID TERAKHIR
+    # 7. PEMBERSIHAN ID TERAKHIR
     # -----------------------------------------------------
 
     final_map = {}
 
     for article in unique_articles:
 
-        article_id = article.get("id", "")
+        article_id = article.get(
+            "id", ""
+        )
 
         if not article_id:
             continue
@@ -1546,7 +2033,7 @@ def merge_articles(new_articles, old_articles):
     )
 
     # -----------------------------------------------------
-    # TAHAP 8: URUTKAN DAN BATASI
+    # 8. URUTKAN DAN BATASI
     # -----------------------------------------------------
 
     final_articles.sort(
@@ -1556,7 +2043,9 @@ def merge_articles(new_articles, old_articles):
         reverse=True
     )
 
-    final_articles = final_articles[:MAX_ARTICLES]
+    final_articles = final_articles[
+        :MAX_ARTICLES
+    ]
 
     logging.info(
         "========================================"
@@ -1612,8 +2101,10 @@ def main():
             "Kategori berita kosong."
         )
 
-    # Membaca data berita lama.
-    # Data lama juga akan dibersihkan kembali.
+    # -----------------------------------------------------
+    # 1. BACA BERITA LAMA
+    # -----------------------------------------------------
+
     previous_articles = load_previous_articles()
 
     logging.info(
@@ -1621,13 +2112,13 @@ def main():
         len(previous_articles)
     )
 
+    # -----------------------------------------------------
+    # 2. AMBIL BERITA RSS
+    # -----------------------------------------------------
+
     all_articles = []
 
     source_stats = []
-
-    # -----------------------------------------------------
-    # FETCH SELURUH RSS
-    # -----------------------------------------------------
 
     for source in sources:
 
@@ -1636,9 +2127,13 @@ def main():
             categories
         )
 
-        all_articles.extend(articles)
+        all_articles.extend(
+            articles
+        )
 
-        source_stats.append(stats)
+        source_stats.append(
+            stats
+        )
 
     successful = sum(
         1
@@ -1651,7 +2146,7 @@ def main():
     )
 
     # -----------------------------------------------------
-    # DEDUPLIKASI BERITA LAMA DAN BARU
+    # 3. GABUNGKAN DAN BERSIHKAN BERITA
     # -----------------------------------------------------
 
     final_articles = merge_articles(
@@ -1660,7 +2155,15 @@ def main():
     )
 
     # -----------------------------------------------------
-    # STATUS
+    # 4. PULIHKAN GAMBAR BERITA LAMA DAN BARU
+    # -----------------------------------------------------
+
+    final_articles = refresh_missing_images(
+        final_articles
+    )
+
+    # -----------------------------------------------------
+    # 5. STATUS RSS
     # -----------------------------------------------------
 
     if successful == 0:
@@ -1676,10 +2179,25 @@ def main():
         status = "success"
 
     # -----------------------------------------------------
-    # OUTPUT JSON
+    # 6. STATISTIK GAMBAR
+    # -----------------------------------------------------
+
+    images_found = sum(
+        1
+        for article in final_articles
+        if article.get("image")
+    )
+
+    images_missing = (
+        len(final_articles) - images_found
+    )
+
+    # -----------------------------------------------------
+    # 7. OUTPUT JSON
     # -----------------------------------------------------
 
     result = {
+
         "status": status,
 
         "lastUpdated": datetime.now(
@@ -1701,33 +2219,18 @@ def main():
         "articles": final_articles
     }
 
-    # Menulis ulang news.json.
-    # Seluruh data lama yang duplikat akan diganti
-    # oleh hasil pembersihan di atas.
     save_json(
         OUTPUT_FILE,
         result
     )
 
     # -----------------------------------------------------
-    # STATISTIK GAMBAR
+    # 8. LOGGING
     # -----------------------------------------------------
 
-    images_found = sum(
-        1
-        for article in final_articles
-        if article.get("image")
+    logging.info(
+        "--------------------------------"
     )
-
-    images_missing = (
-        len(final_articles) - images_found
-    )
-
-    # -----------------------------------------------------
-    # LOGGING
-    # -----------------------------------------------------
-
-    logging.info("--------------------------------")
 
     logging.info(
         "Status: %s",
@@ -1765,11 +2268,9 @@ def main():
         images_missing
     )
 
-    logging.info("--------------------------------")
-
-    # -----------------------------------------------------
-    # GAGAL JIKA SEMUA RSS GAGAL
-    # -----------------------------------------------------
+    logging.info(
+        "--------------------------------"
+    )
 
     if successful == 0:
 
