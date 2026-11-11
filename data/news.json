@@ -1,18 +1,18 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-11T01:31:39.312326+00:00",
+  "lastUpdated": "2026-11-11T01:50:30.259432+00:00",
   "total": 65,
-  "newArticles": 23,
-  "sourcesChecked": 9,
+  "newArticles": 22,
+  "sourcesChecked": 10,
   "sourcesSucceeded": 8,
-  "sourcesFailed": 1,
+  "sourcesFailed": 2,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 3,
-      "filtered": 22,
+      "accepted": 2,
+      "filtered": 23,
       "error": null
     },
     {
@@ -78,6 +78,14 @@
       "accepted": 1,
       "filtered": 9,
       "error": null
+    },
+    {
+      "name": "NU Online Hikmah",
+      "status": "error",
+      "raw": 0,
+      "accepted": 0,
+      "filtered": 0,
+      "error": "RSS tidak dapat dibaca: <unknown>:55:48: not well-formed (invalid token)"
     }
   ],
   "articles": [
@@ -638,7 +646,7 @@
       "id": "43e4ba29bdf50246",
       "title": "Firms tied to West Bank settlements win $15m UK deals despite sanctions",
       "description": "Former Labour leader Jeremy Corbyn called the findings ‘outrageous and frankly insulting to the public’.",
-      "image": "",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2025-08-07T093805Z_1053934506_RC272GA3YZBD_RTRMADP_3_ISRAEL-PALESTINIANS-SETTLERS-1794323256.jpg?resize=1920%2C1440",
       "category": "Palestina",
       "tags": [
         "Palestina"
@@ -704,7 +712,7 @@
       "id": "74ebd4ca37cb6b06",
       "title": "How is Gaza coping with another severe winter?",
       "description": "How is Gaza coping with another severe winter?",
-      "image": "",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794253648.jpg?resize=1920%2C1080&quality=80",
       "category": "Palestina",
       "tags": [
         "Palestina"
@@ -725,7 +733,7 @@
       "id": "9a47210a9956b138",
       "title": "Jerusalem Daily: Deadly aftermath of Gaza rainstorm continues",
       "description": "Five Palestinians were killed in Gaza when heavy rain collapsed a sand embankment on a displacement camp.",
-      "image": "",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794246886.jpg?resize=1920%2C1080&quality=80",
       "category": "Palestina",
       "tags": [
         "Palestina"
@@ -746,7 +754,7 @@
       "id": "2386370aaabc7585",
       "title": "Three injured as wall collapses on displaced family's tent in Gaza, Al Jazeera reports",
       "description": "Three injured as wall collapses on displaced family's tent in Gaza, Al Jazeera reports Three Palestinians were injured when a wall collapsed on a tent sheltering displaced people in the Nuseirat refugee camp in central Gaza, a source at al-Awda hospital told Al Jazeera.",
-      "image": "",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
       "category": "Palestina",
       "tags": [
         "Palestina"
@@ -860,7 +868,7 @@
       "id": "e6fd0a5010ad82b4",
       "title": "Gaza authorities slam global ‘inaction’ after mudslide kills five people",
       "description": "Four children and a woman were killed after heavy rain caused a sandbank to collapse on their tent.",
-      "image": "",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af1a39dc6406-1794220957.jpg?resize=1920%2C1440",
       "category": "Palestina",
       "tags": [
         "Palestina"
@@ -921,7 +929,7 @@
       "id": "7cd1c024996b944c",
       "title": "Umat Islam harus Bangun Keberanian dan Integritas dalam Menegakkan Kebenaran",
       "description": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Anggota Majelis Tabligh Pimpinan Wilayah Muhammadiyah Daerah Istimewa Yogyakarta (DIY), Hendra Darmawan, mengajak umat Islam membangun keberanian dalam menegakkan kebenaran dan mencegah kemungkaran. Menurutnya, keberanian merupakan bagian penting dari keimanan yang harus diwujudkan dalam kehidupan pribadi maupun sosial. Hal itu disampaikan Hendra dalam khutbah Jumat di Masjid Islamic Center Universitas Ahmad Dahlan […] The post Umat Islam harus Bangun Keberanian dan Integritas dalam Menegakkan Kebenaran appeared first on Muhammadiyah .",
-      "image": "",
+      "image": "https://muhammadiyah.or.id/wp-content/uploads/2024/09/Nabi-Muhammad-Saw-Figur-Pemberani-Sekaligus-Dermawan-Sejati.webp",
       "category": "Masjid dan Peradaban",
       "tags": [
         "Masjid dan Peradaban"
@@ -972,7 +980,7 @@
       "id": "e210834da65c9e9f",
       "title": "‘Tents don’t protect us’: Rains flood displaced Palestinians in Gaza",
       "description": "Hundreds of thousands of Palestinians are vulnerable to flooding as Israel continues to block entry of mobile homes.",
-      "image": "",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/873A0709-copy-1794143945.jpeg?resize=1920%2C1440",
       "category": "Palestina",
       "tags": [
         "Palestina"
@@ -993,7 +1001,7 @@
       "id": "54ea139523ea2ad4",
       "title": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency",
       "description": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitarian needs. Gaza's civil defence declared a maximum state of emergency as overwhelmed rescue teams struggled to respond to thousands of distress calls amid limited resources and inadequate shelter. Rescue teams received over 2000 distress calls since the storm began, while only having capacity to respond to a tenth of the calls received. Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitari",
-      "image": "",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
       "category": "Palestina",
       "tags": [
         "Palestina"
@@ -1032,7 +1040,7 @@
       "id": "58229efe8b6b6a51",
       "title": "Gaza sandbank collapse kills five amid heavy rains",
       "description": "Gaza sandbank collapse kills five amid heavy rains At least five people have been killed, including three children, after heavy rains caused a sandbank to collapse in central Gaza's Deir al-Balah, Wafa news reported on Sunday. A civil defence spokesman added that five wounded people had been pulled out of the rubble after their tents were hit, and teams are continuing to search for survivors. The incident comes amid worsening conditions faced by displaced Palestinians in Gaza, as national and internation institutions warned heavy rainfall and bad weather require urgent intervention and the provision of safe shelter and winter supplies.",
-      "image": "",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
       "category": "Palestina",
       "tags": [
         "Palestina"
@@ -1200,7 +1208,7 @@
       "id": "681b530b3d235210",
       "title": "Kebersamaan dan Kegembiraan Jadi Kunci Mengabdi di Muhammadiyah",
       "description": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Kantor Pimpinan Pusat (PP) Muhammadiyah Yogyakarta menggelar pengajian dalam rangka Milad ke-114 Muhammadiyah dengan menghadirkan Ustaz Irfan Rizki Haas pada Sabtu (6/11). Dalam kesempatan itu, para pegawai kantor diajak bersatu hati dan bekerja dengan gembira. Ajakan tersebut disampaikan Ketua PP Muhammadiyah, Agus Taufiqurrohman, dalam sambutannya. Turut hadir Sekretaris PP Muhammadiyah, Muhammad Sayuti, […] The post Kebersamaan dan Kegembiraan Jadi Kunci Mengabdi di Muhammadiyah appeared first on Muhammadiyah .",
-      "image": "",
+      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/11/kebersamaan-dan-kegembiraan-jadi-kunci-mengabdi-di-muhammadiyah.jpeg",
       "category": "Dakwah dan Ulama",
       "tags": [
         "Dakwah dan Ulama"
