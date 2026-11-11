@@ -1,4 +1,3 @@
-
 import os
 import re
 import json
@@ -8,13 +7,23 @@ import logging
 
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
-from urllib.parse import urlsplit, urlunsplit, urljoin
+from urllib.parse import (
+    urlsplit,
+    urlunsplit,
+    urljoin,
+    parse_qsl,
+    urlencode
+)
 from html.parser import HTMLParser
 from difflib import SequenceMatcher
 
 import requests
 import feedparser
 
+
+# =========================================================
+# CONFIGURATION
+# =========================================================
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
@@ -33,8 +42,16 @@ OUTPUT_FILE = os.path.join(
 
 MAX_ARTICLES = 500
 MAX_AGE_DAYS = 90
+
 TIMEOUT = 25
 IMAGE_TIMEOUT = 10
+
+# Rentang waktu untuk membandingkan berita lintas media.
+DUPLICATE_TIME_WINDOW_HOURS = 72
+
+# Batas minimum kesamaan teks.
+TITLE_SIMILARITY_THRESHOLD = 0.82
+DESCRIPTION_SIMILARITY_THRESHOLD = 0.48
 
 HEADERS = {
     "User-Agent": (
@@ -67,10 +84,8 @@ class ImageHTMLParser(HTMLParser):
     def handle_starttag(self, tag, attrs):
 
         attrs = dict(attrs)
-
         tag = tag.lower()
 
-        # Metadata gambar.
         if tag == "meta":
 
             key = (
@@ -91,7 +106,6 @@ class ImageHTMLParser(HTMLParser):
                     attrs.get("content", "")
                 )
 
-        # Tag gambar.
         elif tag == "img":
 
             for key in (
@@ -107,7 +121,6 @@ class ImageHTMLParser(HTMLParser):
                 if value:
                     self.images.append(value)
 
-            # Responsive image.
             srcset = (
                 attrs.get("srcset", "")
                 or attrs.get("data-srcset", "")
@@ -122,7 +135,6 @@ class ImageHTMLParser(HTMLParser):
                         first.split()[0]
                     )
 
-        # Gambar dari tag picture/source.
         elif tag == "source":
 
             srcset = (
@@ -139,7 +151,6 @@ class ImageHTMLParser(HTMLParser):
                         first.split()[0]
                     )
 
-        # Link image_src.
         elif tag == "link":
 
             rel = attrs.get("rel", "").lower()
@@ -175,8 +186,10 @@ def load_json(path, default=None):
 
 def save_json(path, data):
 
+    directory = os.path.dirname(path)
+
     os.makedirs(
-        os.path.dirname(path),
+        directory,
         exist_ok=True
     )
 
@@ -215,6 +228,24 @@ def clean_text(value):
     ).strip()
 
 
+def normalize_text(value):
+
+    value = clean_text(value).lower()
+
+    value = re.sub(
+        r"[^\w\s]",
+        " ",
+        value,
+        flags=re.UNICODE
+    )
+
+    return re.sub(
+        r"\s+",
+        " ",
+        value
+    ).strip()
+
+
 # =========================================================
 # URL FUNCTIONS
 # =========================================================
@@ -229,7 +260,7 @@ def valid_http_url(url):
         parts = urlsplit(url)
 
         return (
-            parts.scheme in ("http", "https")
+            parts.scheme.lower() in ("http", "https")
             and bool(parts.netloc)
         )
 
@@ -239,17 +270,57 @@ def valid_http_url(url):
 
 def normalize_url(url):
 
+    """
+    Membersihkan URL dari fragment dan parameter tracking.
+
+    Parameter yang berpotensi menjadi bagian URL artikel
+    tetap dipertahankan agar tidak salah menggabungkan
+    dua artikel yang berbeda.
+    """
+
     if not valid_http_url(url):
         return ""
 
     parts = urlsplit(url.strip())
 
-    # Fragment tidak diperlukan untuk identitas artikel.
+    tracking_names = {
+        "fbclid",
+        "gclid",
+        "dclid",
+        "mc_cid",
+        "mc_eid",
+        "ref_src",
+        "traffic_source",
+        "utm"
+    }
+
+    query_items = []
+
+    for key, value in parse_qsl(
+        parts.query,
+        keep_blank_values=True
+    ):
+
+        key_lower = key.lower()
+
+        if key_lower.startswith("utm_"):
+            continue
+
+        if key_lower in tracking_names:
+            continue
+
+        query_items.append((key, value))
+
+    clean_query = urlencode(
+        sorted(query_items),
+        doseq=True
+    )
+
     return urlunsplit((
         parts.scheme.lower(),
         parts.netloc.lower(),
         parts.path.rstrip("/"),
-        parts.query,
+        clean_query,
         ""
     ))
 
@@ -314,6 +385,31 @@ def get_published_date(entry):
     ).isoformat()
 
 
+def get_article_datetime(article):
+
+    value = article.get("publishedAt", "")
+
+    if not value:
+        return None
+
+    try:
+
+        date = datetime.fromisoformat(
+            value.replace("Z", "+00:00")
+        )
+
+        if date.tzinfo is None:
+
+            date = date.replace(
+                tzinfo=timezone.utc
+            )
+
+        return date.astimezone(timezone.utc)
+
+    except (ValueError, TypeError):
+        return None
+
+
 # =========================================================
 # IMAGE URL VALIDATION
 # =========================================================
@@ -332,18 +428,15 @@ def find_valid_image(candidates, base_url=""):
         if not candidate:
             continue
 
-        # Abaikan placeholder kosong.
         if candidate.lower().startswith(
             ("data:", "javascript:")
         ):
             continue
 
-        # URL protocol-relative.
         if candidate.startswith("//"):
 
             candidate = "https:" + candidate
 
-        # URL relatif.
         elif base_url:
 
             candidate = urljoin(
@@ -379,7 +472,6 @@ def extract_image(entry, article_url=""):
             if image_url:
                 candidates.append(image_url)
 
-            # Mendukung struktur media bertingkat.
             for nested in value.values():
 
                 if isinstance(
@@ -478,7 +570,7 @@ def extract_image(entry, article_url=""):
             )
 
     # -----------------------------------------------------
-    # 5. AMBIL GAMBAR DARI RSS
+    # 5. GAMBAR DARI RSS
     # -----------------------------------------------------
 
     image_url = find_valid_image(
@@ -487,18 +579,13 @@ def extract_image(entry, article_url=""):
     )
 
     if image_url:
-
         return image_url
 
     # -----------------------------------------------------
     # 6. FALLBACK KE HALAMAN ARTIKEL
     # -----------------------------------------------------
 
-    if (
-        not article_url
-        or not valid_http_url(article_url)
-    ):
-
+    if not valid_http_url(article_url):
         return ""
 
     try:
@@ -552,9 +639,9 @@ def extract_image(entry, article_url=""):
 
 def categorize(title, description, categories):
 
-    text = clean_text(
+    text = normalize_text(
         title + " " + description
-    ).lower()
+    )
 
     scores = {}
     matched_keywords = {}
@@ -566,59 +653,43 @@ def categorize(title, description, categories):
 
         for keyword in keywords:
 
-            keyword = keyword.lower().strip()
+            keyword = normalize_text(keyword)
 
             if not keyword:
                 continue
 
-            # Regex untuk mencocokkan kata/frasa lengkap.
-            # Tidak boleh cocok di tengah kata lain.
+            # Unicode-aware word boundary.
             pattern = (
-                r"(?<![a-z0-9])"
+                r"(?<!\w)"
                 + re.escape(keyword)
-                + r"(?![a-z0-9])"
+                + r"(?!\w)"
             )
 
-            if re.search(
-                pattern,
-                text,
-                re.IGNORECASE
-            ):
+            if re.search(pattern, text):
 
                 matches.append(keyword)
 
-                # Frasa yang terdiri dari beberapa kata
-                # mendapat bobot lebih tinggi.
                 if len(keyword.split()) >= 2:
-
                     score += 3
-
                 else:
-
                     score += 2
 
         if matches:
 
             scores[category] = score
-
             matched_keywords[category] = matches
 
     if not scores:
-
         return None, []
 
-    # Pilih kategori dengan skor tertinggi.
     best_category = max(
         scores,
         key=scores.get
     )
 
-    # Tidak ada kecocokan berarti berita ditolak.
     if scores[best_category] < 2:
-
         return None, []
 
-    # Urutkan kategori tambahan berdasarkan skor.
     matched_categories = sorted(
         matched_keywords.keys(),
         key=lambda category: scores[category],
@@ -695,7 +766,6 @@ def fetch_source(source, categories):
             if not title or not url:
 
                 result["filtered"] += 1
-
                 continue
 
             category, tags = categorize(
@@ -707,10 +777,8 @@ def fetch_source(source, categories):
             if not category:
 
                 result["filtered"] += 1
-
                 continue
 
-            # Ambil gambar RSS atau halaman artikel.
             image_url = extract_image(
                 entry,
                 url
@@ -719,7 +787,7 @@ def fetch_source(source, categories):
             article = {
                 "id": generate_id(url),
                 "title": title,
-                "description": description[:800],
+                "description": description[:2000],
                 "image": image_url,
                 "category": category,
                 "tags": tags,
@@ -769,7 +837,6 @@ def load_previous_articles():
     )
 
     if not isinstance(previous, dict):
-
         return []
 
     articles = previous.get(
@@ -785,178 +852,445 @@ def load_previous_articles():
 
 
 # =========================================================
-# NEWS DUPLICATE DETECTION
+# DUPLICATE DETECTION
 # =========================================================
 
-# Rentang waktu maksimal untuk mendeteksi berita
-# yang membahas peristiwa sama.
-DUPLICATE_TIME_WINDOW_HOURS = 72
+DEDUP_STOPWORDS = {
+
+    # Indonesia
+    "yang", "dan", "di", "ke", "dari", "untuk",
+    "pada", "dengan", "ini", "itu", "dalam",
+    "oleh", "sebagai", "karena", "setelah",
+    "sebelum", "hingga", "saat", "akan",
+    "telah", "kembali", "agar", "atau",
+    "juga", "masih", "lebih", "para",
+    "sejumlah", "sebuah", "orang", "tersebut",
+    "menjadi", "adalah", "bukan",
+
+    # English
+    "the", "and", "for", "with", "from",
+    "that", "this", "after", "before",
+    "over", "into", "amid", "says", "said",
+    "have", "has", "was", "were", "are",
+    "its", "their", "they", "will", "who",
+    "how", "why", "what", "when", "where",
+    "his", "her", "about", "not", "but",
+    "all", "new", "one", "two"
+}
 
 
-def normalize_title(title):
-    """
-    Membersihkan judul agar perbedaan tanda baca,
-    huruf besar/kecil, dan spasi tidak memengaruhi
-    pencocokan.
-    """
+# Normalisasi kata kerja bahasa Inggris.
+IRREGULAR_WORDS = {
 
-    title = clean_text(title).lower()
+    "killed": "kill",
+    "kills": "kill",
+    "killing": "kill",
 
-    title = re.sub(
-        r"[^a-z0-9\s]",
-        " ",
-        title
+    "attacked": "attack",
+    "attacks": "attack",
+    "attacking": "attack",
+
+    "wounded": "wound",
+    "wounds": "wound",
+    "wounding": "wound",
+
+    "injured": "injure",
+    "injures": "injure",
+    "injuring": "injure",
+
+    "flooded": "flood",
+    "floods": "flood",
+    "flooding": "flood",
+
+    "died": "die",
+    "dies": "die",
+    "dying": "die",
+
+    "burned": "burn",
+    "burns": "burn",
+    "burning": "burn",
+
+    "collapsed": "collapse",
+    "collapses": "collapse",
+    "collapsing": "collapse",
+
+    "arrested": "arrest",
+    "arrests": "arrest",
+    "arresting": "arrest",
+
+    "detained": "detain",
+    "detains": "detain",
+    "detaining": "detain",
+
+    "bombed": "bomb",
+    "bombs": "bomb",
+    "bombing": "bomb",
+
+    "struck": "strike",
+    "strikes": "strike",
+    "striking": "strike",
+
+    "rescued": "rescue",
+    "rescues": "rescue",
+    "rescuing": "rescue"
+}
+
+
+EVENT_ACTIONS = {
+    "kill",
+    "attack",
+    "bomb",
+    "strike",
+    "wound",
+    "injure",
+    "arrest",
+    "detain",
+    "flood",
+    "fire",
+    "burn",
+    "collapse",
+    "die",
+    "rescue",
+    "release",
+    "capture",
+    "evacuate",
+    "explode",
+    "destroy"
+}
+
+
+def normalize_dedup_token(token):
+
+    return IRREGULAR_WORDS.get(
+        token,
+        token
     )
 
-    title = re.sub(
-        r"\s+",
-        " ",
-        title
-    ).strip()
 
-    return title
+def news_tokens(value):
 
+    tokens = normalize_text(value).split()
 
-def get_title_tokens(title):
-    """
-    Mengambil kata-kata penting dari judul.
-    """
+    result = set()
 
-    stopwords = {
-        "yang", "dan", "di", "ke", "dari", "untuk",
-        "pada", "dengan", "ini", "itu", "dalam",
-        "the", "a", "an", "of", "to", "in", "on",
-        "at", "for", "with", "and", "is", "are",
-        "as", "by", "from"
-    }
+    for token in tokens:
 
-    normalized = normalize_title(title)
+        if len(token) < 3:
+            continue
 
-    return {
-        word
-        for word in normalized.split()
-        if len(word) > 2 and word not in stopwords
-    }
+        if token in DEDUP_STOPWORDS:
+            continue
 
-
-def get_article_datetime(article):
-    """
-    Membaca tanggal publikasi berita.
-    """
-
-    value = article.get("publishedAt", "")
-
-    if not value:
-        return None
-
-    try:
-
-        date = datetime.fromisoformat(
-            value.replace("Z", "+00:00")
+        result.add(
+            normalize_dedup_token(token)
         )
 
-        if date.tzinfo is None:
-            date = date.replace(tzinfo=timezone.utc)
+    return result
 
-        return date.astimezone(timezone.utc)
 
-    except (ValueError, TypeError):
-        return None
+def token_jaccard(tokens_a, tokens_b):
+
+    if not tokens_a or not tokens_b:
+        return 0.0
+
+    union = tokens_a | tokens_b
+
+    if not union:
+        return 0.0
+
+    return len(tokens_a & tokens_b) / len(union)
+
+
+def token_overlap(tokens_a, tokens_b):
+
+    if not tokens_a or not tokens_b:
+        return 0.0
+
+    smaller = min(
+        len(tokens_a),
+        len(tokens_b)
+    )
+
+    if smaller == 0:
+        return 0.0
+
+    return len(tokens_a & tokens_b) / smaller
+
+
+def is_within_duplicate_window(article_a, article_b):
+
+    date_a = get_article_datetime(article_a)
+    date_b = get_article_datetime(article_b)
+
+    # Jika tanggal tidak tersedia, jangan menggunakan
+    # fuzzy matching yang berisiko salah menghapus berita.
+    if not date_a or not date_b:
+        return False
+
+    difference = abs(
+        (date_a - date_b).total_seconds()
+    )
+
+    return (
+        difference
+        <= DUPLICATE_TIME_WINDOW_HOURS * 3600
+    )
 
 
 def is_same_news(article_a, article_b):
     """
-    Memeriksa apakah dua artikel kemungkinan
-    membahas berita atau peristiwa yang sama.
+    Memeriksa apakah dua artikel kemungkinan membahas
+    peristiwa yang sama.
+
+    Tidak menghapus artikel hanya karena menyebut
+    wilayah, negara, konflik, atau tokoh yang sama.
     """
 
-    title_a = normalize_title(
+    title_a = normalize_text(
         article_a.get("title", "")
     )
 
-    title_b = normalize_title(
+    title_b = normalize_text(
         article_b.get("title", "")
     )
 
     if not title_a or not title_b:
         return False
 
-    # Judul identik setelah normalisasi.
-    if title_a == title_b:
-        return True
-
-    # Batasi perbandingan berita berdasarkan waktu.
-    date_a = get_article_datetime(article_a)
-    date_b = get_article_datetime(article_b)
-
-    if date_a and date_b:
-
-        difference = abs(
-            (date_a - date_b).total_seconds()
-        )
-
-        if difference > DUPLICATE_TIME_WINDOW_HOURS * 3600:
-            return False
-
-    tokens_a = get_title_tokens(title_a)
-    tokens_b = get_title_tokens(title_b)
-
-    if not tokens_a or not tokens_b:
+    # Fuzzy matching wajib berada dalam jendela waktu.
+    if not is_within_duplicate_window(
+        article_a,
+        article_b
+    ):
         return False
 
-    common_tokens = tokens_a.intersection(tokens_b)
+    title_tokens_a = news_tokens(
+        article_a.get("title", "")
+    )
 
-    # Minimal harus memiliki beberapa kata penting sama.
-    if len(common_tokens) < 3:
+    title_tokens_b = news_tokens(
+        article_b.get("title", "")
+    )
+
+    if not title_tokens_a or not title_tokens_b:
         return False
 
-    # Mengukur kesamaan urutan judul.
-    sequence_score = SequenceMatcher(
+    common_title = (
+        title_tokens_a & title_tokens_b
+    )
+
+    title_similarity = token_jaccard(
+        title_tokens_a,
+        title_tokens_b
+    )
+
+    title_overlap = token_overlap(
+        title_tokens_a,
+        title_tokens_b
+    )
+
+    sequence_similarity = SequenceMatcher(
         None,
         title_a,
         title_b
     ).ratio()
 
-    # Mengukur kesamaan kumpulan kata.
-    union_tokens = tokens_a.union(tokens_b)
+    # -----------------------------------------------------
+    # 1. JUDUL SANGAT MIRIP
+    # -----------------------------------------------------
 
-    jaccard_score = (
-        len(common_tokens) / len(union_tokens)
-        if union_tokens else 0
-    )
-
-    # Salah satu kriteria kemiripan harus terpenuhi.
-    return (
-        sequence_score >= 0.86
-        or (
-            jaccard_score >= 0.72
-            and len(common_tokens) >= 4
+    if (
+        len(common_title) >= 3
+        and (
+            sequence_similarity >= TITLE_SIMILARITY_THRESHOLD
+            or title_similarity >= 0.68
         )
+    ):
+        return True
+
+    # -----------------------------------------------------
+    # 2. POLA PERISTIWA YANG SAMA
+    # -----------------------------------------------------
+
+    shared_actions = (
+        common_title & EVENT_ACTIONS
     )
 
+    if (
+        len(common_title) >= 5
+        and title_overlap >= 0.65
+        and shared_actions
+    ):
+        return True
+
+    # -----------------------------------------------------
+    # 3. PERBANDINGAN DESKRIPSI
+    # -----------------------------------------------------
+
+    description_a = news_tokens(
+        article_a.get("description", "")
+    )
+
+    description_b = news_tokens(
+        article_b.get("description", "")
+    )
+
+    common_description = (
+        description_a & description_b
+    )
+
+    description_similarity = token_jaccard(
+        description_a,
+        description_b
+    )
+
+    description_overlap = token_overlap(
+        description_a,
+        description_b
+    )
+
+    # Isi hampir sama meskipun judul berbeda.
+    if (
+        len(common_description) >= 8
+        and description_similarity
+        >= DESCRIPTION_SIMILARITY_THRESHOLD
+    ):
+        return True
+
+    # Isi memiliki kemiripan tinggi dan judul memiliki
+    # beberapa kata penting yang sama.
+    if (
+        len(common_description) >= 8
+        and description_overlap >= 0.72
+        and len(common_title) >= 2
+        and title_similarity >= 0.25
+    ):
+        return True
+
+    # -----------------------------------------------------
+    # 4. GABUNGAN JUDUL DAN DESKRIPSI
+    # -----------------------------------------------------
+
+    combined_a = (
+        title_tokens_a | description_a
+    )
+
+    combined_b = (
+        title_tokens_b | description_b
+    )
+
+    combined_common = (
+        combined_a & combined_b
+    )
+
+    combined_similarity = token_jaccard(
+        combined_a,
+        combined_b
+    )
+
+    if (
+        len(combined_common) >= 10
+        and combined_similarity >= 0.50
+        and len(common_title) >= 3
+        and title_overlap >= 0.50
+    ):
+        return True
+
+    return False
+
+
+# =========================================================
+# ARTICLE QUALITY
+# =========================================================
 
 def article_quality(article):
-    """
-    Menentukan artikel mana yang lebih layak
-    dipertahankan ketika ditemukan duplikasi.
-    """
 
-    image_score = 1 if article.get("image") else 0
-
-    description_score = len(
+    description = clean_text(
         article.get("description", "")
     )
 
-    title_score = len(
+    title = clean_text(
         article.get("title", "")
     )
 
+    # Prioritas utama: deskripsi paling lengkap.
+    # Prioritas kedua: artikel memiliki gambar.
+    # Prioritas ketiga: judul tersedia dengan baik.
+
     return (
-        image_score,
-        description_score,
-        title_score
+        len(description),
+        1 if article.get("image") else 0,
+        len(title)
     )
 
+
+def merge_duplicate_metadata(preferred, other):
+
+    result = dict(preferred)
+
+    # -----------------------------------------------------
+    # DESKRIPSI TERLENGKAP
+    # -----------------------------------------------------
+
+    preferred_description = clean_text(
+        result.get("description", "")
+    )
+
+    other_description = clean_text(
+        other.get("description", "")
+    )
+
+    if len(other_description) > len(preferred_description):
+
+        result["description"] = other_description[:2000]
+
+    # -----------------------------------------------------
+    # GAMBAR
+    # -----------------------------------------------------
+
+    if (
+        not result.get("image")
+        and other.get("image")
+    ):
+
+        result["image"] = other["image"]
+
+    # -----------------------------------------------------
+    # TAG
+    # -----------------------------------------------------
+
+    tags = []
+
+    for tag in (
+        (result.get("tags") or [])
+        + (other.get("tags") or [])
+    ):
+
+        if tag not in tags:
+            tags.append(tag)
+
+    result["tags"] = tags
+
+    # -----------------------------------------------------
+    # DAFTAR MEDIA
+    # -----------------------------------------------------
+
+    sources = []
+
+    for source in (
+        (result.get("sources") or [])
+        + [result.get("source", "")]
+        + (other.get("sources") or [])
+        + [other.get("source", "")]
+    ):
+
+        if source and source not in sources:
+            sources.append(source)
+
+    if sources:
+        result["sources"] = sources
+
+    return result
 
 
 # =========================================================
@@ -965,25 +1299,18 @@ def article_quality(article):
 
 def merge_articles(new_articles, old_articles):
 
+    logging.info("Memulai pembersihan berita lama dan baru.")
+
     # -----------------------------------------------------
-    # TAHAP 1: DEDUPLIKASI BERDASARKAN URL
+    # TAHAP 1: NORMALISASI URL DAN ID
     # -----------------------------------------------------
 
     url_map = {}
 
-    # Masukkan berita lama.
     for article in old_articles:
 
-        url = normalize_url(
-            article.get("originalUrl", "")
-        )
-
-        if url:
-            url_map[url] = article
-
-    # Masukkan berita terbaru.
-    # Jika URL sama, data terbaru menggantikan data lama.
-    for article in new_articles:
+        if not isinstance(article, dict):
+            continue
 
         url = normalize_url(
             article.get("originalUrl", "")
@@ -992,22 +1319,83 @@ def merge_articles(new_articles, old_articles):
         if not url:
             continue
 
-        old_article = url_map.get(url, {})
+        article = dict(article)
 
-        # Pertahankan gambar lama jika gambar terbaru kosong.
-        if not article.get("image"):
+        article["originalUrl"] = url
+        article["id"] = generate_id(url)
 
-            old_image = old_article.get("image", "")
+        existing = url_map.get(url)
 
-            if old_image:
-                article["image"] = old_image
+        if existing:
+
+            if article_quality(article) > article_quality(existing):
+
+                article = merge_duplicate_metadata(
+                    article,
+                    existing
+                )
+
+            else:
+
+                article = merge_duplicate_metadata(
+                    existing,
+                    article
+                )
 
         url_map[url] = article
 
-    candidates = list(url_map.values())
+    # -----------------------------------------------------
+    # TAHAP 2: MASUKKAN BERITA RSS TERBARU
+    # -----------------------------------------------------
+
+    for article in new_articles:
+
+        if not isinstance(article, dict):
+            continue
+
+        url = normalize_url(
+            article.get("originalUrl", "")
+        )
+
+        if not url:
+            continue
+
+        article = dict(article)
+
+        article["originalUrl"] = url
+        article["id"] = generate_id(url)
+
+        existing = url_map.get(url)
+
+        if existing:
+
+            if article_quality(article) > article_quality(existing):
+
+                article = merge_duplicate_metadata(
+                    article,
+                    existing
+                )
+
+            else:
+
+                article = merge_duplicate_metadata(
+                    existing,
+                    article
+                )
+
+        url_map[url] = article
+
+    candidates = list(
+        url_map.values()
+    )
+
+    logging.info(
+        "Artikel setelah pembersihan URL: %d",
+        len(candidates)
+    )
 
     # -----------------------------------------------------
-    # TAHAP 2: FILTER BERITA KADALUWARSA
+    # TAHAP 3: HAPUS BERITA KEDALUWARSA
     # -----------------------------------------------------
 
     cutoff = datetime.now(
@@ -1028,7 +1416,7 @@ def merge_articles(new_articles, old_articles):
         valid_articles.append(article)
 
     # -----------------------------------------------------
-    # TAHAP 3: URUTKAN BERITA TERBARU
+    # TAHAP 4: URUTKAN BERDASARKAN PUBLIKASI
     # -----------------------------------------------------
 
     valid_articles.sort(
@@ -1039,10 +1427,53 @@ def merge_articles(new_articles, old_articles):
     )
 
     # -----------------------------------------------------
-    # TAHAP 4: DEDUPLIKASI BERDASARKAN JUDUL
+    # TAHAP 5: DEDUPLIKASI BERDASARKAN ID
+    # -----------------------------------------------------
+
+    id_map = {}
+
+    for article in valid_articles:
+
+        article_id = article.get("id", "")
+
+        if not article_id:
+            article_id = generate_id(
+                article.get("originalUrl", "")
+            )
+
+        article["id"] = article_id
+
+        existing = id_map.get(article_id)
+
+        if existing:
+
+            if article_quality(article) > article_quality(existing):
+
+                article = merge_duplicate_metadata(
+                    article,
+                    existing
+                )
+
+            else:
+
+                article = merge_duplicate_metadata(
+                    existing,
+                    article
+                )
+
+        id_map[article_id] = article
+
+    valid_articles = list(
+        id_map.values()
+    )
+
+    # -----------------------------------------------------
+    # TAHAP 6: DEDUPLIKASI PERISTIWA LINTAS MEDIA
     # -----------------------------------------------------
 
     unique_articles = []
+
+    duplicate_count = 0
 
     for article in valid_articles:
 
@@ -1050,18 +1481,23 @@ def merge_articles(new_articles, old_articles):
 
         for index, existing in enumerate(unique_articles):
 
-            if is_same_news(article, existing):
+            if is_same_news(
+                article,
+                existing
+            ):
 
                 duplicate_index = index
                 break
 
-        # Berita belum pernah ditemukan.
+        # Berita baru, belum ditemukan duplikat.
         if duplicate_index is None:
 
             unique_articles.append(article)
             continue
 
-        # Berita sudah ditemukan.
+        # Berita merupakan duplikat.
+        duplicate_count += 1
+
         existing = unique_articles[duplicate_index]
 
         logging.info(
@@ -1070,24 +1506,82 @@ def merge_articles(new_articles, old_articles):
             article.get("title", "")
         )
 
-        # Pertahankan artikel yang memiliki data lebih baik.
+        # Pilih artikel dengan kualitas terbaik.
         if article_quality(article) > article_quality(existing):
 
-            unique_articles[duplicate_index] = article
+            preferred = article
+            other = existing
+
+        else:
+
+            preferred = existing
+            other = article
+
+        unique_articles[duplicate_index] = (
+            merge_duplicate_metadata(
+                preferred,
+                other
+            )
+        )
 
     # -----------------------------------------------------
-    # TAHAP 5: BATASI JUMLAH BERITA
+    # TAHAP 7: PEMBERSIHAN ID TERAKHIR
     # -----------------------------------------------------
 
-    unique_articles.sort(
+    final_map = {}
+
+    for article in unique_articles:
+
+        article_id = article.get("id", "")
+
+        if not article_id:
+            continue
+
+        if article_id not in final_map:
+
+            final_map[article_id] = article
+
+    final_articles = list(
+        final_map.values()
+    )
+
+    # -----------------------------------------------------
+    # TAHAP 8: URUTKAN DAN BATASI
+    # -----------------------------------------------------
+
+    final_articles.sort(
         key=lambda item: item.get(
             "publishedAt", ""
         ),
         reverse=True
     )
 
-    return unique_articles[:MAX_ARTICLES]
+    final_articles = final_articles[:MAX_ARTICLES]
 
+    logging.info(
+        "========================================"
+    )
+
+    logging.info(
+        "Artikel sebelum deduplikasi: %d",
+        len(valid_articles)
+    )
+
+    logging.info(
+        "Duplikasi peristiwa digabung: %d",
+        duplicate_count
+    )
+
+    logging.info(
+        "Total berita unik: %d",
+        len(final_articles)
+    )
+
+    logging.info(
+        "========================================"
+    )
+
+    return final_articles
 
 
 # =========================================================
@@ -1118,11 +1612,22 @@ def main():
             "Kategori berita kosong."
         )
 
+    # Membaca data berita lama.
+    # Data lama juga akan dibersihkan kembali.
     previous_articles = load_previous_articles()
+
+    logging.info(
+        "Berita lama ditemukan: %d",
+        len(previous_articles)
+    )
 
     all_articles = []
 
     source_stats = []
+
+    # -----------------------------------------------------
+    # FETCH SELURUH RSS
+    # -----------------------------------------------------
 
     for source in sources:
 
@@ -1141,12 +1646,22 @@ def main():
         if item["status"] == "success"
     )
 
-    failed = len(source_stats) - successful
+    failed = (
+        len(source_stats) - successful
+    )
+
+    # -----------------------------------------------------
+    # DEDUPLIKASI BERITA LAMA DAN BARU
+    # -----------------------------------------------------
 
     final_articles = merge_articles(
         all_articles,
         previous_articles
     )
+
+    # -----------------------------------------------------
+    # STATUS
+    # -----------------------------------------------------
 
     if successful == 0:
 
@@ -1160,26 +1675,44 @@ def main():
 
         status = "success"
 
+    # -----------------------------------------------------
+    # OUTPUT JSON
+    # -----------------------------------------------------
+
     result = {
         "status": status,
+
         "lastUpdated": datetime.now(
             timezone.utc
         ).isoformat(),
+
         "total": len(final_articles),
+
         "newArticles": len(all_articles),
+
         "sourcesChecked": len(sources),
+
         "sourcesSucceeded": successful,
+
         "sourcesFailed": failed,
+
         "sourceStats": source_stats,
+
         "articles": final_articles
     }
 
+    # Menulis ulang news.json.
+    # Seluruh data lama yang duplikat akan diganti
+    # oleh hasil pembersihan di atas.
     save_json(
         OUTPUT_FILE,
         result
     )
 
-    # Statistik gambar.
+    # -----------------------------------------------------
+    # STATISTIK GAMBAR
+    # -----------------------------------------------------
+
     images_found = sum(
         1
         for article in final_articles
@@ -1189,6 +1722,10 @@ def main():
     images_missing = (
         len(final_articles) - images_found
     )
+
+    # -----------------------------------------------------
+    # LOGGING
+    # -----------------------------------------------------
 
     logging.info("--------------------------------")
 
@@ -1209,6 +1746,11 @@ def main():
     )
 
     logging.info(
+        "Berita lama sebelum pembersihan: %d",
+        len(previous_articles)
+    )
+
+    logging.info(
         "Total berita tersimpan: %d",
         len(final_articles)
     )
@@ -1225,14 +1767,20 @@ def main():
 
     logging.info("--------------------------------")
 
-    # Jika semua sumber gagal, workflow dibuat gagal
-    # agar masalah terlihat di GitHub Actions.
+    # -----------------------------------------------------
+    # GAGAL JIKA SEMUA RSS GAGAL
+    # -----------------------------------------------------
+
     if successful == 0:
 
         raise RuntimeError(
             "Semua sumber RSS gagal diakses."
         )
 
+
+# =========================================================
+# ENTRY POINT
+# =========================================================
 
 if __name__ == "__main__":
 
