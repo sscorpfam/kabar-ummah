@@ -1,7 +1,7 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-11T01:15:20.917583+00:00",
-  "total": 75,
+  "lastUpdated": "2026-11-11T01:19:38.183553+00:00",
+  "total": 69,
   "newArticles": 23,
   "sourcesChecked": 9,
   "sourcesSucceeded": 8,
@@ -69,7 +69,7 @@
       "raw": 0,
       "accepted": 0,
       "filtered": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
+      "error": "404 Client Error: NOT FOUND for url: https://news.detik.com/hikmah/rss"
     },
     {
       "name": "Muhammadiyah Org",
@@ -170,21 +170,6 @@
       "country": "International",
       "publishedAt": "2026-11-10T21:03:39+00:00",
       "originalUrl": "https://www.middleeasteye.net/news/petition-opposing-hakeem-jeffries-us-house-speaker-passes-one-million-signatures"
-    },
-    {
-      "id": "2d1d43e268545e03",
-      "title": "F1 champion Lewis Hamilton visits Gaza border",
-      "description": "North Sinai Governor Khaled Megawer briefs the British driver on Egypt-coordinated aid efforts through Rafah crossing.",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af364c8736e-1794335944.jpg?resize=1920%2C1440",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Al Jazeera",
-      "language": "en",
-      "country": "International",
-      "publishedAt": "2026-11-10T20:14:34+00:00",
-      "originalUrl": "https://www.aljazeera.com/news/2026/11/10/f1-champion-lewis-hamilton-visits-gaza-border?traffic_source=rss"
     },
     {
       "id": "aa63a602b6db429c",
@@ -296,21 +281,6 @@
       "originalUrl": "https://www.antaranews.com/berita/5845343/uin-ar-raniry-dukung-pengembangan-edukasi-syekh-yusuf-al-makassari"
     },
     {
-      "id": "c681a12612308b4e",
-      "title": "Burnham's plan to 'end neoliberalism' includes hiring US firm linked to Gaza aid site massacres",
-      "description": "Burnham's plan to 'end neoliberalism' includes hiring US firm linked to Gaza aid site massacres British Prime Minister Andy Burnham has turned to an American consulting group that worked with the US and Israeli -backed Gaza Humanitarian Foundation to help draft a plan that was supposed to “end neoliberalism” in the UK . Boston Consulting Group (BCG), whose former employees include Israeli Prime Minister Benjamin Netanyahu and Burnham’s chief of staff, James Purnell, has been hired to help shape the prime minister’s 10-year plan. One of the “big three” management consultancy firms, BCG has been accused of aiding Israeli starvation tactics that amount to war crimes and genocide , and of being implicated in the killing of thousands of Palestinians . The Boston-based consultancy helped establi",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/GHF%20afp.jpg.jpg?itok=fDiWjsSz",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "language": "en",
-      "country": "International",
-      "publishedAt": "2026-11-10T16:03:17+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/burnhams-plan-end-neoliberalism-includes-hiring-us-firm-linked-gaza-aid"
-    },
-    {
       "id": "70ee145858138d83",
       "title": "Burnham's plan to 'end neoliberalism' includes involvement of US firm linked to Gaza aid site massacres",
       "description": "Burnham's plan to 'end neoliberalism' includes involvement of US firm linked to Gaza aid site massacres Submitted by Oscar Rickett on Tue, 11/10/2026 - 14:44 Boston Consulting Group, whose former employees include Benjamin Netanyahu and James Purnell, to consult on UK prime minister's 10-year plan A GHF aid site pictured on 8 June 2025, as smoke bombs are fired by Israeli troops (Eyad Baba/AFP) Off British Prime Minister Andy Burnham has turned to an American consulting group that worked with the US and Israeli -backed Gaza Humanitarian Foundation to help draft a plan that was supposed to “end neoliberalism” in the UK . Boston Consulting Group (BCG), whose former employees include Israeli Prime Minister Benjamin Netanyahu and Burnham’s chief of staff, James Purnell, will provide a consulta",
@@ -414,21 +384,6 @@
       "country": "International",
       "publishedAt": "2026-11-10T14:20:29+00:00",
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/we-woke-soaking-wet-gazas-displaced-face-another-winter-floods-and"
-    },
-    {
-      "id": "815dfe2d48de93e7",
-      "title": "‘We woke up soaking wet’: Gaza’s displaced face another winter of floods and collapsed shelters",
-      "description": "‘We woke up soaking wet’: Gaza’s displaced face another winter of floods and collapsed shelters Submitted by Ahmed Dremly on Tue, 11/10/2026 - 11:52 Heavy rains flood tents and threaten damaged buildings, leaving families with nowhere safe to go as Israel restricts humanitarian supplies Displaced Palestinians at a partially flooded tent camp during a rainy day in Gaza City, 7 November 2026 (Dawoud Abu Alkas/Reuters) Off For the past four days, Nahla al-Majdoub, 48, and her family of eight have been staying with neighbours in the west of Gaza City after their tent was destroyed by the latest heavy rainfall. Majdoub and her family had been sheltering in a makeshift tent at the port of Gaza for nearly two years after their home in the northern Gaza Strip was destroyed during Israel’s ground i",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/gaza-flood-afp-2026-11-07.jpg.jpg?itok=B36y3dAt",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "language": "en",
-      "country": "International",
-      "publishedAt": "2026-11-10T13:32:47+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/we-woke-soaking-wet-gazas-displaced-face-another-winter-floods-and-collapsed-shelters"
     },
     {
       "id": "efc297549274c20d",
@@ -565,21 +520,6 @@
       "country": "International",
       "publishedAt": "2026-11-10T09:53:04+00:00",
       "originalUrl": "https://www.middleeasteye.net/news/netanyahu-pressed-qatar-continue-funding-gaza-despite-security-warnings-report-finds"
-    },
-    {
-      "id": "179680e6ad4dab42",
-      "title": "As heavy rains swamp Gaza's tents, Israel must face sanctions",
-      "description": "As heavy rains swamp Gaza's tents, Israel must face sanctions Submitted by Chris Doyle on Mon, 11/09/2026 - 20:03 The world cannot sit idly by as the Netanyahu regime, withholding vital supplies, imposes mass collective punishment A displaced Palestinian boy stands at the entrance to his flooded tent as he looks at a water puddle after heavy rainfall in Gaza City's Al-Remal neighbourhood on 7 November, 2026 (AFP) Off It took a mere dozen hours of the first winter storm to flood around 70,000 tents in Gaza. Even 1,000 would be worthy of major humanitarian action, but just imagine that multiplied by 70. These devastating floods were predicted and predictable. Nothing about this should surprise anyone who has paid even the scantest attention to the humanitarian situation in Gaza. Every year, ",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/A%20displaced%20Palestinian%20boy%20reacts%20as%20he%20stands%20at%20the%20entrance%20to%20his%20flooded%20tent%20as%20he%20looks%20at%20a%20water%20puddle%20after%20heavy%20rainfall%20in%20Gaza%20City%27s%20Al-Remal%20neighbourhood%20on%20November%207%2C%202026-afp.jpg.jpg?itok=OUlwodkH",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "language": "en",
-      "country": "International",
-      "publishedAt": "2026-11-10T09:30:03+00:00",
-      "originalUrl": "https://www.middleeasteye.net/opinion/heavy-rains-swamp-gazas-tents-israel-must-face-sanctions"
     },
     {
       "id": "fe380ddd91c52284",
@@ -813,30 +753,6 @@
       "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
     },
     {
-      "id": "2890b3676902f057",
-      "title": "Anti-Muslim influence campaign targeting UK traced back to Israel",
-      "description": "Anti-Muslim influence campaign targeting UK traced back to Israel Submitted by Imran Mulla on Mon, 11/09/2026 - 14:11 Large numbers of paid advertisements warned of a Qatar-backed Islamic takeover of Britain in run-up to 2024 election and riots Far-right rioters hurl projectiles at police in Bristol, UK, on 3 August 2024 (Justin Tallis/AFP) Off A new investigation has traced a major anti-Muslim propaganda campaign targeting Britain back to Israel . The campaign, uncovered by academics Marc Owen Jones and Sohan Dsouza, was at its height before the UK's 2024 general election and the anti-Muslim riots that raged across the country later that year. It involved large numbers of paid advertisements warning of an Islamic takeover of Britain masterminded by Qatar . \"Between 2024 and 2026, our inve",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Screenshot%202026-11-09%20at%2015.26.44.png.jpg?itok=L45ATZAQ",
-      "category": "Palestina",
-      "tags": [
-        "Palestina",
-        "Dunia Muslim",
-        "Masjid dan Peradaban",
-        "Islamofobia dan Diskriminasi"
-      ],
-      "source": "Middle East Eye",
-      "sourceCountry": "International",
-      "region": "",
-      "language": "en",
-      "country": "International",
-      "publishedAt": "2026-11-09T16:41:08+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/major-anti-muslim-influence-campaign-targeting-uk-elections-and-riots-traced-israel",
-      "originalTitle": "Anti-Muslim influence campaign targeting UK traced back to Israel",
-      "originalDescription": "Anti-Muslim influence campaign targeting UK traced back to Israel Submitted by Imran Mulla on Mon, 11/09/2026 - 14:11 Large numbers of paid advertisements warned of a Qatar-backed Islamic takeover of Britain in run-up to 2024 election and riots Far-right rioters hurl projectiles at police in Bristol, UK, on 3 August 2024 (Justin Tallis/AFP) Off A new investigation has traced a major anti-Muslim propaganda campaign targeting Britain back to Israel . The campaign, uncovered by academics Marc Owen Jones and Sohan Dsouza, was at its height before the UK's 2024 general election and the anti-Muslim riots that raged across the country later that year. It involved large numbers of paid advertisements warning of an Islamic takeover of Britain masterminded by Qatar . \"Between 2024 and 2026, our inve",
-      "translationStatus": "failed",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
-    },
-    {
       "id": "e0040cc8530253a5",
       "title": "Kemenhaj Sumbar upayakan pemulangan jamaah umrah asal Pasaman Barat",
       "description": "Kantor Wilayah (Kanwil) Kementerian Haji dan Umrah (Kemenhaj) Sumatera Barat (Sumbar) mengupayakan pemulangan jamaah ...",
@@ -874,24 +790,6 @@
       "originalDescription": "More than 200,000 join Amsterdam march against Gaza genocide Submitted by MEE staff on Mon, 11/09/2026 - 14:35 Protesters want the Netherlands to halt arms sales to Israel, tighten sanctions and recognise the Gaza genocide Demonstrators take part in a \"Red Line\" protest demanding \"government action to stop the genocide in Gaza\" in Amsterdam on October 5, 2025. (Koen van Weel/ANP/AFP) Off Tens of thousands of people marched through Amsterdam on Sunday, demanding that the Dutch government end arms sales to Israel and impose tougher trade sanctions over its genocide in Gaza. Many wore red for the Red Line protest, which drew more than 200,000 people, according to Amnesty International’s Dutch branch, one of the organisers. Campaigners called on the Netherlands to formally recognise Israel’s a",
       "translationStatus": "failed",
       "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
-    },
-    {
-      "id": "4a0636c2172fba4f",
-      "title": "Pemerintah Umumkan Biaya Pelunasan Haji 2027 per Embarkasi, Ini Rinciannya",
-      "description": "JAKARTA -- Pemerintah melalui Kementerian Haji dan Umrah mengumumkan besaran pelunasan Biaya Perjalanan Ibadah Haji (Bipih) 1448 Hijriah/2027 Masehi yang harus dibayarkan jamaah berdasarkan embarkasi keberangkatan. “Kami mengimbau jamaah haji...",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/012963900-1781062288-830-556.jpg",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "Republika",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T14:10:00+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to8n3t423/pemerintah-umumkan-biaya-pelunasan-haji-2027-per-embarkasi-ini-rinciannya",
-      "translationStatus": "not_needed"
     },
     {
       "id": "a27a18f22040926f",
