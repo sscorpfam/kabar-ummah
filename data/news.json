@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-11T08:07:32.492141+00:00",
-  "total": 82,
-  "newArticles": 0,
+  "lastUpdated": "2026-11-11T08:15:41.951119+00:00",
+  "total": 92,
+  "newArticles": 33,
   "sourcesChecked": 10,
   "sourcesSucceeded": 9,
   "sourcesFailed": 1,
@@ -11,111 +11,283 @@
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 0,
-      "filtered": 0,
-      "translated": 0,
+      "accepted": 1,
+      "filtered": 24,
+      "translated": 25,
       "translationFailed": 0,
-      "error": "name 'translation' is not defined"
+      "error": null
     },
     {
       "name": "BBC World",
       "status": "success",
       "raw": 38,
-      "accepted": 0,
-      "filtered": 0,
-      "translated": 0,
+      "accepted": 1,
+      "filtered": 37,
+      "translated": 38,
       "translationFailed": 0,
-      "error": "name 'translation' is not defined"
+      "error": null
     },
     {
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 0,
-      "filtered": 0,
+      "accepted": 8,
+      "filtered": 7,
       "translated": 0,
       "translationFailed": 0,
-      "error": "name 'translation' is not defined"
+      "error": null
     },
     {
       "name": "ANTARA Terkini",
-      "status": "success",
-      "raw": 50,
-      "accepted": 0,
-      "filtered": 0,
-      "translated": 0,
-      "translationFailed": 0,
-      "error": "name 'translation' is not defined"
-    },
-    {
-      "name": "ANTARA Dunia",
-      "status": "success",
-      "raw": 20,
-      "accepted": 0,
-      "filtered": 0,
-      "translated": 0,
-      "translationFailed": 0,
-      "error": "name 'translation' is not defined"
-    },
-    {
-      "name": "ANTARA Humaniora",
-      "status": "success",
-      "raw": 20,
-      "accepted": 0,
-      "filtered": 0,
-      "translated": 0,
-      "translationFailed": 0,
-      "error": "name 'translation' is not defined"
-    },
-    {
-      "name": "Middle East Eye",
-      "status": "success",
-      "raw": 20,
-      "accepted": 0,
-      "filtered": 0,
-      "translated": 0,
-      "translationFailed": 0,
-      "error": "name 'translation' is not defined"
-    },
-    {
-      "name": "Detik",
       "status": "error",
       "raw": 0,
       "accepted": 0,
       "filtered": 0,
       "translated": 0,
       "translationFailed": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "name": "ANTARA Dunia",
+      "status": "success",
+      "raw": 20,
+      "accepted": 0,
+      "filtered": 20,
+      "translated": 0,
+      "translationFailed": 0,
+      "error": null
+    },
+    {
+      "name": "ANTARA Humaniora",
+      "status": "success",
+      "raw": 20,
+      "accepted": 1,
+      "filtered": 19,
+      "translated": 0,
+      "translationFailed": 0,
+      "error": null
+    },
+    {
+      "name": "Middle East Eye",
+      "status": "success",
+      "raw": 20,
+      "accepted": 5,
+      "filtered": 15,
+      "translated": 20,
+      "translationFailed": 0,
+      "error": null
+    },
+    {
+      "name": "Detik",
+      "status": "success",
+      "raw": 100,
+      "accepted": 8,
+      "filtered": 92,
+      "translated": 0,
+      "translationFailed": 0,
+      "error": null
     },
     {
       "name": "Muhammadiyah",
       "status": "success",
       "raw": 10,
-      "accepted": 0,
-      "filtered": 0,
+      "accepted": 1,
+      "filtered": 9,
       "translated": 0,
       "translationFailed": 0,
-      "error": "name 'translation' is not defined"
+      "error": null
     },
     {
       "name": "NU Online",
       "status": "success",
       "raw": 48,
-      "accepted": 0,
-      "filtered": 0,
+      "accepted": 8,
+      "filtered": 40,
       "translated": 0,
       "translationFailed": 0,
-      "error": "name 'translation' is not defined"
+      "error": null
     }
   ],
   "translation": {
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 0,
+    "translatedArticles": 83,
     "failedArticles": 0
   },
   "articles": [
+    {
+      "id": "b23ed4a8a4a3bb08",
+      "title": "Korban Tewas di Gaza Capai 74.645 Jiwa, 70 Ribu Tenda Pengungsi Terendam Hujan",
+      "description": "Korban tewas di Gaza mencapai 74.645 jiwa. Hujan juga merendam 70 ribu tenda pengungsian, memperburuk krisis kemanusiaan menjelang musim dingin.",
+      "originalTitle": "Korban Tewas di Gaza Capai 74.645 Jiwa, 70 Ribu Tenda Pengungsi Terendam Hujan",
+      "originalDescription": "Korban tewas di Gaza mencapai 74.645 jiwa. Hujan juga merendam 70 ribu tenda pengungsian, memperburuk krisis kemanusiaan menjelang musim dingin.",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/gaza-quds-network_1794379663.webp",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "NU Online",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T07:30:14+00:00",
+      "originalUrl": "https://www.nu.or.id/internasional/korban-tewas-di-gaza-capai-74-645-jiwa-70-ribu-tenda-pengungsi-terendam-hujan-mACo6"
+    },
+    {
+      "id": "8645118e25c9ca46",
+      "title": "Watch: Unicef mengatakan Israel memblokir perbaikan basin Gaza memperingatkan risiko limbah overflow",
+      "description": "Lihat: Unicef mengatakan Israel menghalangi perbaikan basin Gaza memperingatkan risiko limbah meluap juru bicara Unicef James Elder mengatakan kepada wartawan pada hari Selasa bahwa Israel menolak peralatan yang diperlukan untuk memperbaiki baskom air hujan Gaza. \"Rencana ditarik, uang dinaikkan, peralatan siap. Kami telah bekerja dengan insinyur mereka, tapi baru-baru ini, Cogat menolak proyek itu,\" Elder mengatakan, peringatan bahwa fasilitas bisa meluap dan membahayakan warga terdekat melalui banjir dan penyakit. Juru bicara Unicef James Elder mengatakan kepada wartawan pada hari Selasa bahwa Israel menolak peralatan yang diperlukan untuk memperbaiki baskom air hujan Gaza, memperingatkan bahwa fasilitas bisa meluap dan membahayakan warga terdekat melalui banjir dan penyakit. https: / / t.co / wyW2HZ5Sd3 - Middle East Eye (@ MiddleEastEye) November 11, 2026",
+      "originalTitle": "Watch: Unicef says Israel blocking Gaza basin repairs warns of risk of sewage overflow",
+      "originalDescription": "Watch: Unicef says Israel blocking Gaza basin repairs warns of risk of sewage overflow Unicef spokesperson James Elder told reporters on Tuesday that Israel had rejected equipment needed to repair a key Gaza rainwater basin. \"Plans are drawn, money’s raised, equipment is ready. We’ve worked with their engineers, but just recently, Cogat rejected the project,\" Elder said, warning that the facility could overflow and endanger nearby residents through flooding and disease. Unicef spokesperson James Elder told reporters on Tuesday that Israel had rejected equipment needed to repair a key Gaza rainwater basin, warning that the facility could overflow and endanger nearby residents through flooding and disease. https://t.co/wyW2HZ5Sd3 — Middle East Eye (@MiddleEastEye) November 11, 2026",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T06:46:28+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-unicef-says-israel-blocking-gaza-basin-repairs-warns-risk-sewage",
+      "translationStatus": "success"
+    },
+    {
+      "id": "61be5c31f96c6145",
+      "title": "Kongres IPNU-IPPNU di Kendal Angkat Isu Perlindungan Santri hingga Pemanfaatan AI",
+      "description": "Kongres IPNU-IPPNU bahas kekerasan seksual, pemanfaatan AI, kemandirian santri. Forum juga akan dorong kiprah internasional pelajar NU.",
+      "originalTitle": "Kongres IPNU-IPPNU di Kendal Angkat Isu Perlindungan Santri hingga Pemanfaatan AI",
+      "originalDescription": "Kongres IPNU-IPPNU bahas kekerasan seksual, pemanfaatan AI, kemandirian santri. Forum juga akan dorong kiprah internasional pelajar NU.",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/logo-kongres-ipnu-ippnu-2026_1794377546.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T06:30:57+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/kongres-ipnu-ippnu-di-kendal-angkat-isu-perlindungan-santri-hingga-pemanfaatan-ai-BX4z6"
+    },
+    {
+      "id": "26183ef4f7308d32",
+      "title": "Dharmapala Minta Polisi Usut Jubah Biksu Dipakai Peneror di Masjid Jaktim",
+      "description": "Dharmapala Nusantara mendesak polisi menyelidiki penggunaan jubah biksu pelaku teror di Masjid Darul Ma'arif. Mereka khawatir akan provokasi antaragama.",
+      "originalTitle": "Dharmapala Minta Polisi Usut Jubah Biksu Dipakai Peneror di Masjid Jaktim",
+      "originalDescription": "Dharmapala Nusantara mendesak polisi menyelidiki penggunaan jubah biksu pelaku teror di Masjid Darul Ma'arif. Mereka khawatir akan provokasi antaragama.",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/09/tangkapan-layar-rekaman-cctv-pelaku-penyerangan-jemaah-di-masjid-darul-maarif-jakarta-timur-1794196012838_169.jpeg?w=360&q=90",
+      "category": "Masjid dan Peradaban",
+      "tags": [
+        "Masjid dan Peradaban"
+      ],
+      "source": "Detik",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T05:45:37+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8748058/dharmapala-minta-polisi-usut-jubah-biksu-dipakai-peneror-di-masjid-jaktim"
+    },
+    {
+      "id": "9b2b6b3b4a61ea57",
+      "title": "Prabowo Resmikan Masjid Giok Aceh: Satu-satunya Masjid dari Giok di Dunia",
+      "description": "Prabowo meresmikan Masjid Giok Baitul A'la di Kabupaten Nagan Raya, Aceh. Masjid Baitul A'la menjadi satu-satunya masjid yang dibangun dengan giok di dunia.",
+      "originalTitle": "Prabowo Resmikan Masjid Giok Aceh: Satu-satunya Masjid dari Giok di Dunia",
+      "originalDescription": "Prabowo meresmikan Masjid Giok Baitul A'la di Kabupaten Nagan Raya, Aceh. Masjid Baitul A'la menjadi satu-satunya masjid yang dibangun dengan giok di dunia.",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/11/prabowo-meresmikan-masjid-giok-baitul-ala-di-kabupaten-nagan-raya-aceh-dokyoutube-setpres-1794375712300_169.jpeg?w=360&q=90",
+      "category": "Masjid dan Peradaban",
+      "tags": [
+        "Masjid dan Peradaban"
+      ],
+      "source": "Detik",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T05:43:59+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8748047/prabowo-resmikan-masjid-giok-aceh-satu-satunya-masjid-dari-giok-di-dunia"
+    },
+    {
+      "id": "2340540c58ba1b37",
+      "title": "Bupati Nagan Raya Dukung Prabowo 2 Periode",
+      "description": "Bupati Nagan Raya, Teuku Raja Keumangan, apresiasi kunjungan Presiden Prabowo yang meresmikan Masjid Giok. Ia dukung Prabowo dua periode",
+      "originalTitle": "Bupati Nagan Raya Dukung Prabowo 2 Periode",
+      "originalDescription": "Bupati Nagan Raya, Teuku Raja Keumangan, apresiasi kunjungan Presiden Prabowo yang meresmikan Masjid Giok. Ia dukung Prabowo dua periode",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/08/31/prabowo-kumpulkan-para-ketua-partai-begini-hasil-pertemuannya-1756638529816_169.jpeg?w=360&q=90",
+      "category": "Masjid dan Peradaban",
+      "tags": [
+        "Masjid dan Peradaban"
+      ],
+      "source": "Detik",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T05:14:14+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8747985/bupati-nagan-raya-dukung-prabowo-2-periode"
+    },
+    {
+      "id": "14c8ff513d584cd0",
+      "title": "Nikita Willy dan Indra Priawan Bersama Rumah Zakat Salurkan Air Bersih untuk Warga Palangka Raya",
+      "description": "PALANGKA RAYA — Kekeringan yang melanda sejumlah wilayah di Palangka Raya membuat warga kesulitan memperoleh air bersih. Merespons kondisi tersebut, tim Nikita Willy dan Indra Priawan bersama Sahabat Influencer dan...",
+      "originalTitle": "Nikita Willy dan Indra Priawan Bersama Rumah Zakat Salurkan Air Bersih untuk Warga Palangka Raya",
+      "originalDescription": "PALANGKA RAYA — Kekeringan yang melanda sejumlah wilayah di Palangka Raya membuat warga kesulitan memperoleh air bersih. Merespons kondisi tersebut, tim Nikita Willy dan Indra Priawan bersama Sahabat Influencer dan...",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/_261111112627-690.png",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "Republika",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T04:26:37+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/toblod490/nikita-willy-dan-indra-priawan-bersama-rumah-zakat-salurkan-air-bersih-untuk-warga-palangka-raya"
+    },
+    {
+      "id": "a92fff2b49eecb07",
+      "title": "Pemprov DKI Tambah 100 Sekolah Swasta Gratis, Ponpes-Madrasah Masuk Sasaran",
+      "description": "Pramono mengatakan perluasan program tersebut merupakan bagian dari upaya Pemprov DKI menindaklanjuti putusan Mahkamah Konstitusi (MK) terkait sekolah gratis.",
+      "originalTitle": "Pemprov DKI Tambah 100 Sekolah Swasta Gratis, Ponpes-Madrasah Masuk Sasaran",
+      "originalDescription": "Pramono mengatakan perluasan program tersebut merupakan bagian dari upaya Pemprov DKI menindaklanjuti putusan Mahkamah Konstitusi (MK) terkait sekolah gratis.",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/11/gubernur-dki-jakarta-pramono-anung-beliadetikcom-1794369998366_169.jpeg?w=360&q=90",
+      "category": "Pendidikan Islam",
+      "tags": [
+        "Pendidikan Islam"
+      ],
+      "source": "Detik",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T04:13:39+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8747849/pemprov-dki-tambah-100-sekolah-swasta-gratis-ponpes-madrasah-masuk-sasaran"
+    },
+    {
+      "id": "b226a23aa7c44c19",
+      "title": "Seskab: Presiden Prabowo Kunjungi Aceh, Saksikan Bentangan Merah Putih 24 Km",
+      "description": "Presiden Prabowo Subianto kunjungi Aceh untuk menyaksikan pembentangan bendera Merah Putih 24 km dan meresmikan masjid serta Sekolah Rakyat.",
+      "originalTitle": "Seskab: Presiden Prabowo Kunjungi Aceh, Saksikan Bentangan Merah Putih 24 Km",
+      "originalDescription": "Presiden Prabowo Subianto kunjungi Aceh untuk menyaksikan pembentangan bendera Merah Putih 24 km dan meresmikan masjid serta Sekolah Rakyat.",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/11/presiden-prabowo-subianto-menaiki-pesawat-kepresidenan-bertolak-ke-aceh-firda-cynthiadetikcom-1794366413535_169.jpeg?w=360&q=90",
+      "category": "Masjid dan Peradaban",
+      "tags": [
+        "Masjid dan Peradaban"
+      ],
+      "source": "Detik",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T03:09:06+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8747726/seskab-presiden-prabowo-kunjungi-aceh-saksikan-bentangan-merah-putih-24-km"
+    },
     {
       "id": "a57cd653a67e31ce",
       "title": "Baznas RI salurkan bantuan untuk ibu dan anak guna mencegah stunting",
@@ -134,6 +306,25 @@
       "country": "Indonesia",
       "publishedAt": "2026-11-11T02:52:41+00:00",
       "originalUrl": "https://www.antaranews.com/berita/5845719/baznas-ri-salurkan-bantuan-untuk-ibu-dan-anak-guna-mencegah-stunting"
+    },
+    {
+      "id": "ae0eab16f87396b9",
+      "title": "HNW Minta Polisi Usut Penyerangan Jemaah dan Dugaan Pembakaran Masjid",
+      "description": "Politikus Hidayat Nur Wahid mengecam penyerangan jemaah di Masjid Darul Ma'arif, Jakarta. Ia mendesak polisi usut tuntas dan jamin keamanan rumah ibadah.",
+      "originalTitle": "HNW Minta Polisi Usut Penyerangan Jemaah dan Dugaan Pembakaran Masjid",
+      "originalDescription": "Politikus Hidayat Nur Wahid mengecam penyerangan jemaah di Masjid Darul Ma'arif, Jakarta. Ia mendesak polisi usut tuntas dan jamin keamanan rumah ibadah.",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/11/hnw-1794365295004_169.jpeg?w=360&q=90",
+      "category": "Masjid dan Peradaban",
+      "tags": [
+        "Masjid dan Peradaban"
+      ],
+      "source": "Detik",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T02:48:32+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8747703/hnw-minta-polisi-usut-penyerangan-jemaah-dan-dugaan-pembakaran-masjid"
     },
     {
       "id": "40e017338cf68ca7",
@@ -237,7 +428,13 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-11T02:00:43+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8747646/anggota-dpr-dorong-usulan-pelarangan-vape-lewat-uu-dikaji-komprehensif"
+      "originalUrl": "https://news.detik.com/berita/d-8747646/anggota-dpr-dorong-usulan-pelarangan-vape-lewat-uu-dikaji-komprehensif",
+      "originalTitle": "Anggota DPR Dorong Usulan Pelarangan Vape Lewat UU Dikaji Komprehensif",
+      "originalDescription": "MUI menerbitkan fatwa haram untuk rokok elektronik (vape). Anggota DPR, Lola Oktavia, mendorong kajian mendalam terkait usulan pelarangan vape melalui UU.",
+      "originalLanguage": "id",
+      "sources": [
+        "Detik"
+      ]
     },
     {
       "id": "40f44e6d73143eb1",
@@ -341,7 +538,13 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-10T23:51:45+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8747498/dukung-fatwa-haram-mui-legislator-pdip-desak-pemerintah-ikut-larang-vape"
+      "originalUrl": "https://news.detik.com/berita/d-8747498/dukung-fatwa-haram-mui-legislator-pdip-desak-pemerintah-ikut-larang-vape",
+      "originalTitle": "Dukung Fatwa Haram MUI, Legislator PDIP Desak Pemerintah Ikut Larang Vape",
+      "originalDescription": "Gus Falah mendukung langkah MUI yang menerbitkan fatwa haram rokok elektronik atau vape. Gus Falah mengatakan penggunaan vape bertentangan dengan hukum agama.",
+      "originalLanguage": "id",
+      "sources": [
+        "Detik"
+      ]
     },
     {
       "id": "2604d0e614109c5d",
@@ -392,7 +595,7 @@
     {
       "id": "31784fd7eb02a748",
       "title": "Pemimpin Demokrat US Jeffries akan mempertahankan posisi meskipun oposisi, sumber mengatakan",
-      "description": "Pemimpin Partai Demokrat Amerika Serikat Jeffries akan mempertahankan posisi meskipun oposisi, sumber mengatakan Diwariskan oleh Yasmine El- Sabawi pada Tue, 11 / 10 / 2026 - 19: 15 Di Senat, kecuali progress didukung oleh Chris Van Hollen secara resmi melangkah ke depan untuk menyatukan jajaran sebagai penantang, Chuck Schumer akan menang sebagai pemimpin DPR Demokrat, New York Kongres Hakeem Jeffries, benar, berbicara kepada wartawan bersama dengan pemimpin Senat Demokrat, New York Senator Chuck Schumer, pada langkah-langkah Senat AS pada 21 Mei 2026 di Washington, DC (Win McNamee / Getty Refairs) Tidak ada pemimpin alternatif dalam pelarian. \"Ini adalah biaya untuk pergi melawan seseorang yang akhirnya akan menjadi pemimpin caucus. Tidak cukup orang yang bersedia melakukan itu\", satu sumber kata. Ini datang karena banyak pemilih telah menyatakan keinginan mereka untuk melihat Jeffries mengosongkan posisi, menuduhnya keluar dari langkah dengan partai tumbuh sayap progresif kiri, yang ingin melihat uang keluar dari politik, dan berhenti untuk transfer senjata untuk Israel. Sebagai gantinya pembuat hukum baru ingin bekerja dengannya, tiga sumber akrab dengan proses internal di Capitol Hill dikonfirmasi MEE. The 56- tahun-tua Jeffries didukung oleh pro- Israel melobi kelompok dan telah membuatnya jelas ia adalah seorang pelindung diilhami Israel. Dia juga menerima dukungan finansial dari perusahaan besar, termasuk pabrik teknologi dan senjata. Mungkin yang paling penting, pencalonannya di distrik New York dan tawaran kepemimpinannya didukung oleh pembuat raja progresif dan Walikota kota New York Zohran Mamdani - banyak pendukungnya Mamdani sendiri. Petisi menentang Hakeem Jeffries sebagai Speaker US House melewati satu juta tanda tangan R",
+      "description": "Pemimpin Demokrat Amerika Serikat Jeffries akan mempertahankan posisi meskipun oposisi, sumber mengatakan Diberikan oleh Yasmine El- Sabawi pada Tue, 11 / 10 / 2026 - 19: 15 Di Senat, kecuali para anggota Kongres New York Hakeem Jeffries secara resmi melangkah ke depan untuk menyatukan peringkat sebagai penantang, Chuck Schumer akan menang sebagai pemimpin Kongres New York Hakeem Jeffries, benar, berbicara kepada wartawan bersama dengan pemimpin Senat Demokrat, New York Senator Chuck Schumer, pada langkah-langkah Senat AS pada 21 Mei 2026 di Washington, DC (Win McNamee / Getty Bagines) Tidak ada pemimpin alternatif dalam pelarian. \"Ini adalah biaya untuk melawan seseorang yang akhirnya akan menjadi pemimpin dari kuucus. Tidak cukup orang yang bersedia melakukan itu\", satu sumber kata. Ini datang karena banyak pemilih telah menyatakan keinginan mereka untuk melihat Jeffries mengosongkan posisi, menuduhnya keluar dari langkah dengan partai tumbuh sayap progresif kiri, yang ingin melihat uang keluar dari politik, dan berhenti untuk transfer senjata untuk Israel. Sebagai gantinya pembuat hukum baru ingin bekerja dengannya, tiga sumber akrab dengan proses internal di Capitol Hill dikonfirmasi MeE. The 56- tahun-tua Jeffries didukung oleh pro- Israel melobi kelompok dan telah membuatnya jelas ia adalah seorang pelindung diilhami Israel. Dia juga menerima dukungan finansial yang besar dari perusahaan besar, termasuk pabrik teknologi dan senjata. Mungkin yang paling penting, pencalonannya di distrik New York dan tawaran kepemimpinannya didukung oleh pembuat raja progresif dan Walikota kota New York Zohran Mamdani - banyak ketawa dari pendukung Mamdani sendiri. Petisi menentang Hakeem Jeffries saat Speaker US House melewati satu juta tanda tangan Baca Lebih \"Mamdani sebagian besar dikreditkan dengan menetapkan gelombang muda Demokrat Sosialis meluncurkan kampanye untuk kantor. Tepat sebelum pemilihan tengah semester 3 November, polling Redbox menunjukkan hanya 19 persen dari",
       "originalTitle": "US House Democrat leader Jeffries will retain position despite opposition, sources say",
       "originalDescription": "US House Democrat leader Jeffries will retain position despite opposition, sources say Submitted by Yasmine El-Sabawi on Tue, 11/10/2026 - 19:15 In the Senate, unless progressive-backed Chris Van Hollen formally steps up to unite the ranks as a challenger, Chuck Schumer will likely win The leader of the House Democrats, New York Congressman Hakeem Jeffries, right, speaks to reporters alongside the leader of the Senate Democrats, New York Senator Chuck Schumer, on the steps of the US Senate on 21 May 2026 in Washington, DC (Win McNamee/Getty Images via AFP) Off The top Democrat in the House of Representatives, Hakeem Jeffries, is all but certain to become the next Speaker of the House, despite dissatisfaction among some freshman lawmakers and their progressive colleagues in the chamber, sources have told Middle East Eye. There simply is no alternative leader in the running. \"It's a cost to go against someone who will eventually be the leader of the caucus. There's not enough people who are willing to do that,\" one source said. This comes as many voters have expressed their desire to see Jeffries vacate the position, accusing him of being out of step with the party's growing leftist progressive wing, which wants to see money out of politics, and a stop to the transfer of weapons to Israel. New lawmakers are looking to work with him instead, three sources familiar with the internal process on Capitol Hill confirmed to MEE. The 56-year-old Jeffries is backed by pro-Israel lobbying groups and has made it clear he is an avowed protector of Israel . He has also received substantial financial support from a litany of big corporations , including tech and weapons manufacturers. Perhaps most importantly, his candidacy in his New York district and his leadership bid were endorsed by progressive kingmaker and New York City Mayor Zohran Mamdani - much to the chagrin of Mamdani's own supporters. Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures R",
       "translated": true,
@@ -407,15 +610,15 @@
       "country": "International",
       "publishedAt": "2026-11-10T22:52:39+00:00",
       "originalUrl": "https://www.middleeasteye.net/news/us-house-democrat-leader-jeffries-will-retain-position-despite-opposition-sources-say",
+      "translationStatus": "success",
       "sources": [
         "Middle East Eye"
-      ],
-      "translationStatus": "success"
+      ]
     },
     {
       "id": "5562e87769f3fa2e",
       "title": "Petisi menentang Hakeem Jeffries sebagai Speaker US House melewati satu juta tanda tangan",
-      "description": "Petisi menentang Hakeem Jeffries sebagai Speaker US House melewati satu juta tanda tangan Diberikan oleh Mounira Elsamra pada Tue, 11 / 10 / 2026 - 19: 08 Jeffries diharapkan untuk menjadi pembicara Hitam pertama ketika Kongres baru berkumpul di bulan Januari AS House of Compeations Minority Leader Hakeem Jeffries berbicara selama konferensi pers di US Capitol di Washington, DC, pada 9 November 2026 (Jim Watson / AFP) Lebih dari satu juta orang telah menandatangani petisi mendesak Demokrat untuk menolak Hakem Jeffries sebagai Ketua berikutnya dari Perwakilan AS, sebagai semakin banyak menentang kepemimpinannya untuk mendukung Israel dan kebijakan asing. Jeffries, yang saat ini memimpin Partai Demokrat, diharapkan menjadi pembicara Black pertama ketika Kongres baru berkumpul pada bulan Januari, setelah Demokrat 'menyapu pertengahan kemenangan pada 3 November. Tapi Jeffries bukan pembicara yang dipilih. Dia mengkonfirmasi pencalonannya minggu lalu, tapi rekan-rekannya harus memilih dia bulan ini. Jeffries berdiri saat ini uncontested, dengan tidak ada penegak hukum Demokrat lainnya melemparkan topi mereka di atas ring untuk posisi itu. Sementara tak seorang pun di partai telah datang ke depan untuk menjalankan melawan Jeffries, beberapa anggota baru terpilih telah menyuarakan pemesanan tentang posisi kebijakan nya, melemparkan keraguan pada apakah mereka akan mendukung dia atau tidak. Beberapa pemilih dan influencer telah memobilisasi, dengan puluhan video viral mendesak warga untuk memanggil perwakilan mereka dan menandatangani petisi melawan Jeffries. \"Kami percaya Pembicara harus mewakili pemilih Demokrat, bukan hanya pembentukan Demokratis\", kata petisi diajukan oleh media sosial Nicole yang berpengaruh. Petisi meminta perwakilan untuk memeriksa catatan publik Jeffries, posisi kebijakan, catatan kampanye, dan kepemimpinan. \"Ini tidak cukup untuk mengkritik perang yang kita butuhkan untuk menurunkan dana itu'",
+      "description": "Petisi menentang Hakeem Jeffries sebagai Speaker US House melewati satu juta tanda tangan Diberikan oleh Mounira Elsamra pada Tue, 11 / 10 / 2026 - 19: 08 Jeffries diharapkan untuk menjadi pembicara Black pertama ketika Kongres baru berkumpul di bulan Januari AS House of Perwakilan Pemimpin Minoritas Hasem Jeffries berbicara selama konferensi pers di gedung senat AS di Washington, DC, pada 9 November 2026 (Jim Watson / AFP) Off Lebih dari satu juta orang telah menandatangani petisi mendesak Demokrat untuk menolak Hakem Jeffries sebagai Ketua berikutnya dari Dewan Perwakilan AS, seperti tumbuh oposisi kepada kepemimpinannya untuk memberikan dukungan bagi Israel dan kebijakan asing. Jeffries, yang saat ini memimpin Partai Demokrat, diharapkan untuk menjadi pembicara Black pertama ketika Kongres baru berkumpul pada bulan Januari, setelah Demokrat 'menyapu pertengahan kemenangan pada 3 November. Tapi Jeffries belum bisa bicara. Dia mengkonfirmasi pencalonannya minggu lalu, tapi rekan-rekannya harus memilih dia bulan ini. Jeffries berdiri saat ini uncontested, dengan tidak ada penegak hukum Demokrat lainnya melemparkan topi mereka di atas ring untuk posisi itu. Sementara tak seorang pun di partai telah datang ke depan untuk menjalankan melawan Jeffries, beberapa anggota baru terpilih telah menyuarakan pemesanan tentang posisi kebijakan nya, melemparkan keraguan pada apakah mereka akan mendukungnya. Beberapa pemilih dan influencer telah memobilisasi, dengan puluhan video viral mendesak warga untuk memanggil perwakilan mereka dan menandatangani petisi terhadap Jeffries. \"Kami percaya Pembicara harus mewakili pemilih Demokrat, bukan hanya pembentukan Demokrat\", kata petisi diajukan oleh sosial media berpengaruh Nicole Whited. Petisi meminta perwakilan untuk memeriksa catatan publik Jeffries, posisi kebijakan, catatan kampanye donor, dan kepemimpinan. \"Ini tidak cukup untuk mengkritik perang yang kita butuhkan untuk menurunkan dana\". Kritik mengatakan bahwa satu alasan popul",
       "originalTitle": "Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures",
       "originalDescription": "Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures Submitted by Mounira Elsamra on Tue, 11/10/2026 - 19:08 Jeffries is expected to become the first Black speaker when the new Congress convenes in January US House of Representatives Minority Leader Hakeem Jeffries speaks during a press conference at the US Capitol in Washington, DC, on 9 November 2026 (Jim Watson/AFP) Off More than a million people have signed a petition urging Democrats to reject Hakeem Jeffries as the next Speaker of the US House of Representatives, as growing opposition to his leadership puts his support for Israel and US foreign policy under renewed scrutiny. Jeffries, who currently leads the House Democrats, is expected to become the first Black speaker when the new Congress convenes in January, after the Democrats' sweeping midterm victories on 3 November. But Jeffries is not the speaker-elect yet. He confirmed his candidacy last week, but his colleagues must elect him later this month. Jeffries stands currently uncontested, with no other Democratic lawmaker throwing their hat in the ring for the position. While no one in the party has come forward to run against Jeffries, several newly elected lawmakers have voiced reservations about his policy positions, casting doubt on whether or not they will endorse him. Some voters and influencers have mobilised, with dozens of viral videos urging citizens to call their representatives and sign the petition against Jeffries. “We believe the Speaker should represent the Democratic voters, not just the Democratic establishment,” says the petition put forward by social media influencer Nicole Whitted . The petition calls on representatives to examine Jeffries' public record, policy positions, campaign donor record, and leadership. 'It’s not enough to criticise the war we need to defund it' - Etan Mabourakh, National Iranian American Council An Economist/YouGov poll published last month found that Jeffries had just a 26 perce",
       "translated": true,
@@ -430,10 +633,10 @@
       "country": "International",
       "publishedAt": "2026-11-10T21:03:39+00:00",
       "originalUrl": "https://www.middleeasteye.net/news/petition-opposing-hakeem-jeffries-us-house-speaker-passes-one-million-signatures",
+      "translationStatus": "success",
       "sources": [
         "Middle East Eye"
-      ],
-      "translationStatus": "success"
+      ]
     },
     {
       "id": "aa63a602b6db429c",
