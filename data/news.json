@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-11T08:15:41.951119+00:00",
-  "total": 92,
-  "newArticles": 33,
+  "lastUpdated": "2026-11-11T16:17:06.362749+00:00",
+  "total": 111,
+  "newArticles": 32,
   "sourcesChecked": 10,
   "sourcesSucceeded": 9,
   "sourcesFailed": 1,
@@ -11,8 +11,8 @@
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 1,
-      "filtered": 24,
+      "accepted": 3,
+      "filtered": 22,
       "translated": 25,
       "translationFailed": 0,
       "error": null
@@ -20,10 +20,10 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 38,
-      "accepted": 1,
-      "filtered": 37,
-      "translated": 38,
+      "raw": 25,
+      "accepted": 0,
+      "filtered": 25,
+      "translated": 25,
       "translationFailed": 0,
       "error": null
     },
@@ -31,21 +31,21 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 8,
-      "filtered": 7,
+      "accepted": 10,
+      "filtered": 5,
       "translated": 0,
       "translationFailed": 0,
       "error": null
     },
     {
       "name": "ANTARA Terkini",
-      "status": "error",
-      "raw": 0,
+      "status": "success",
+      "raw": 50,
       "accepted": 0,
-      "filtered": 0,
+      "filtered": 50,
       "translated": 0,
       "translationFailed": 0,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": null
     },
     {
       "name": "ANTARA Dunia",
@@ -71,21 +71,21 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 5,
-      "filtered": 15,
+      "accepted": 10,
+      "filtered": 10,
       "translated": 20,
       "translationFailed": 0,
       "error": null
     },
     {
       "name": "Detik",
-      "status": "success",
-      "raw": 100,
-      "accepted": 8,
-      "filtered": 92,
+      "status": "error",
+      "raw": 0,
+      "accepted": 0,
+      "filtered": 0,
       "translated": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
     },
     {
       "name": "Muhammadiyah",
@@ -100,9 +100,9 @@
     {
       "name": "NU Online",
       "status": "success",
-      "raw": 48,
-      "accepted": 8,
-      "filtered": 40,
+      "raw": 50,
+      "accepted": 7,
+      "filtered": 43,
       "translated": 0,
       "translationFailed": 0,
       "error": null
@@ -112,10 +112,388 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 83,
+    "translatedArticles": 70,
     "failedArticles": 0
   },
   "articles": [
+    {
+      "id": "6b9b97fd43d00794",
+      "title": "Netanyahu menarik panggilan 'pidato kebencian' di parlemen Israel yang baru terpilih",
+      "description": "Netanyahu menarik panggilan 'pidato kebencian' di parlemen Israel terpilih yang baru saja diturunkan oleh Nayav Rapaport di Wed, 11 / 2026 - 13: 34 Perdana Menteri marah pada pemimpin oposisi setelah menyiratkan Palestina yang dipimpin oleh pihak ingin menghancurkan Israel Caretaker Perdana Menteri Benjamin Netanyahu melihat selama pidato selama pembukaan parlemen baru Israel, di Yerusalem pada 10 November 2026 (Ilia Yefimovich / AFP) dari Perdana Menteri Israel Benjamin Netanyahu dituduh memberikan pidato \"penghinaan\" terhadap parlemen-Palestina - dipimpin oleh pihak dalam parlemen terpilih baru pada hari Selasa. Pada hari Selasa, dua minggu setelah Netanyahu 's far- hak bloc kehilangan pemilu berikut pemilih bersejarah berasal dari warga Palestina Israel, parlemen disumpah di Yerusalem, dengan 19 anggota yang belum pernah terjadi sebelumnya dari Palestina-memimpin aliansi Daftar Gabungan dan Ra' am Party. Menandai hari upacara, Netanyahu awalnya mengatakan kepada anggota baru Knesset bahwa Israel menghadapi \"ancaman besar\" dari program nuklir Iran, menyatakan bahwa \"satu-satunya cara untuk menghapus ancaman eksistensial ini secara permanen adalah dengan menggulingkan rezim Ayatollahs\". Namun, setelah membual tentang prestasi militer Israel dalam wilayah Palestina yang diduduki, Suriah, Lebanon, dan Iran, Netanyahu mulai menyerang pihak-pihak Palestina. premier Israel mengatakan bahwa Israel harus \"mengesampingkan setiap pertimbangan lainnya dan membentuk pemerintahan persatuan nasional\" dengan penantang utamanya Gadi Eisenkot. \"Hanya pemerintah tersebut akan dapat memenuhi tantangan sebesar ini\", katanya, menuduh Eisenkot yang luas bloc jika tidak ingin membentuk \"pemerintah yang termasuk di dalamnya pendukung teror, pembenci Israel.\" Netanyahu menjelaskan ia tidak mengacu pada warga Palestina Israel secara keseluruhan - beberapa dari mereka, katanya, memilih partai Likud. \"Apakah Anda siap untuk tergantung pada mereka yang tujuannya adalah kehancuran negara Yahudi?\" - Benjamin Netanyahu \"Saya berbicara tentang orang-orang ideologi yang",
+      "originalTitle": "Netanyahu draws calls of 'hate speech' in the newly elected Israeli parliament",
+      "originalDescription": "Netanyahu draws calls of 'hate speech' in the newly elected Israeli parliament Submitted by Nadav Rapaport on Wed, 11/11/2026 - 13:34 Prime minister angers opposition leaders after implying Palestinian-led parties want to destroy Israel Caretaker Prime Minister Benjamin Netanyahu looks on during a speech during the opening day of Israel's new parliament, in Jerusalem on 10 November 2026 (Ilia Yefimovich/AFP) Off Israeli Prime Minister Benjamin Netanyahu was accused of giving a \"hate-filled speech\" against the Palestinian -led parties in the newly elected parliament on Tuesday. On Tuesday, two weeks after Netanyahu's far-right bloc lost the elections following an historic voter turnout from Palestinian citizens of Israel, the parliament was sworn in in Jerusalem, with an unprecedented 19 members from the Palestinian-led Joint List alliance and Ra'am party. Marking the ceremonial day, Netanyahu initially told the new Knesset members that Israel was facing \"great threats\" from Iran's nuclear programme, stating that \"the only way to remove this existential threat permanently is by toppling the regime of the ayatollahs\". However, after boasting about Israeli military achievements in the occupied Palestinian territories, Syria, Lebanon and Iran, Netanyahu began lashing out at the Palestinian-led parties. The Israeli premier said that Israel must \"set aside every other consideration and form a national unity government\" with his main challenger Gadi Eisenkot. \"Only such a government will be able to meet challenges of this magnitude,\" he said, accusing Eisenkot's broad bloc of otherwise wanting to form \"a government that includes within it terror supporters, haters of Israel\". Netanyahu clarified he was not referring to Palestinian citizens of Israel as a whole - some of whom, he said, voted for his Likud party. 'Are you prepared to be dependent on those whose purpose is the destruction of the Jewish state?' - Benjamin Netanyahu \"I am talking about people whose ideology is",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Jerusalem-Benjamin-Netanyahu-Knesset-November-2026-AFP.jpg.jpg?itok=6bsp4IJB",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T15:24:40+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/netanyahus-hate-speech-newly-elected-knesset",
+      "translationStatus": "success"
+    },
+    {
+      "id": "16082d9c3cbb89e3",
+      "title": "Mengungkapkan: rantai stasiun bensin West Bank menghadapi $325m klaim dalam penyelidikan penyelundupan PA",
+      "description": "Diungkapkan: rantai stasiun bensin West Bank menghadapi $325m klaim dalam PA fuel- penyelundupan probe Dikirim oleh Simon Hooper pada Wed, 11 / 11 / 2026 - 12: 12 Laporan kementerian keuangan yang bocor menuduh Tarek adalah Al- Natsheh 's Al- Huda Grup penggelapan pajak dan kesalahan keuangan. Natsheh, yang saat ini ditahan, menyangkal kesalahan stasiun bensin Al Huda di Nablus di Tepi Barat yang diduduki pada bulan Juni 2025 (Jaafar Ashtiyeh / AFP) Pada rantai stasiun bensin yang dimiliki oleh salah satu pengusaha terkaya Bank Barat menghadapi tuduhan penyelundupan bahan bakar yang diduga, kesalahan finansial dan penggelapan pajak lebih dari 1bn shekels ($325m), menurut laporan bocor yang dilihat oleh Mata Timur Tengah. Penyelidikannya, yang telah terbuka terhadap latar belakang kekurangan bahan bakar yang memburuk di wilayah Palestina yang diduduki, telah menyebabkan penangkapan dan minggu-panjang penahanan Tarek al- Natsheh, ketua Al- Huda Group, serta penggerebekan oleh pasukan keamanan di kantor perusahaannya dan konstruksi komputer dan catatan keuangan. Pengacara untuk Natsheh, yang dituduh dalam laporan keuntungan dari kegiatan penyelundupan, mengatakan ia menyangkal kesalahan dan berdiri siap untuk membayar pajak ia mungkin berutang secara hukum. Mereka mengatakan perusahaan dan Natsheh bekerja sama dengan proses hukum, tetapi telah mengkritik penahanannya, berkomentar bahwa \"kebebasan pribadi tidak boleh digunakan sebagai sarana tekanan untuk menerima angka yang akurasi belum didirikan.\" MEE mengirim daftar pertanyaan rinci dan permintaan untuk komentar Malek al- Acwi, penasihat hukum untuk tim pertahanan, sebelum publikasi artikel ini. Acwi merujuk MEE ke pernyataan sebelumnya ia telah diberikan kepada surat kabar Watan Palestina bulan lalu. MEE juga meminta kepada Kementerian Keuangan Otoritas Palestina, yang menugaskan laporan, untuk berkomentar. Tanker menyita Al- Huda Group mengendalikan sejumlah bisnis di Tepi Barat, termasuk Al- Huda Fuel Group, yang mengoperasikan jaringan 28 stasiun bensin di seluruh wilayah. Pada tanggal 10 Juli, salah satu tanker bahan bakarnya",
+      "originalTitle": "Revealed: West Bank petrol station chain faces $325m claim in PA fuel-smuggling probe",
+      "originalDescription": "Revealed: West Bank petrol station chain faces $325m claim in PA fuel-smuggling probe Submitted by Simon Hooper on Wed, 11/11/2026 - 12:12 Leaked finance ministry report accuses Tarek al-Natsheh’s Al-Huda Group of tax evasion and financial misconduct. Natsheh, who is currently detained, denies wrongdoing An Al Huda petrol station in Nablus in the occupied West Bank in June 2025 (Jaafar Ashtiyeh/AFP) On A petrol station chain owned by one of the West Bank’s wealthiest businessmen is facing accusations of alleged fuel smuggling, financial misconduct and tax evasion totalling more than 1bn shekels ($325m), according to a leaked report seen by Middle East Eye. The investigation, which has unfolded against a backdrop of worsening fuel shortages in the occupied Palestinian territory, has led to the arrest and weeks-long detention of Tarek al-Natsheh, the chairman of Al-Huda Group, as well as raids by security forces on his company’s offices and the confiscation of computers and financial records. Lawyers for Natsheh, who is accused in the report of profiting from smuggling activities, say he denies wrongdoing and stands ready to pay any taxes he may legally owe. They say the company and Natsheh are cooperating with legal proceedings, but have criticised his detention, commenting that “personal freedom should not be used as a means of pressure to accept figures whose accuracy has not been established”. MEE sent a detailed list of questions and a request for comment to Malek al-Awri, legal adviser for the defence team, ahead of publication of this article. Awri referred MEE to a previous statement he had given to the Palestinian Watan newspaper last month. MEE has also asked the Palestinian Authority’s Ministry of Finance, which commissioned the report, for comment. Tanker seized Al-Huda Group controls a number of businesses in the West Bank, including Al-Huda Fuel Group, which operates a network of 28 petrol stations across the territory. On 10 July, one of its fuel tanker",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/palestine-petrol-station-nablus-2025-afp.jpg.jpg?itok=sKNEcC-6",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T15:08:08+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/revealed-west-bank-petrol-station-chain-faces-325m-claim-pa-fuel-smuggling-probe",
+      "translationStatus": "success"
+    },
+    {
+      "id": "a8a4c50f1f85d133",
+      "title": "Kelak Jelang Kiamat Muncul Hewan Melata yang Mampu Berbicara kepada Manusia, Seperti Apa?",
+      "description": "JAKARTA— Keluarnya binatang melata (dabbah) pada akhir zaman merupakan perkara yang telah ditetapkan berdasarkan Alquran, sunah, dan ijmak. Allah Tabaraka wa Ta’ala berfirman: وَإِذَا وَقَعَ الْقَوْلُ عَلَيْهِمْ أَخْرَجْنَا لَهُمْ دَابَّةً مِنَ...",
+      "originalTitle": "Kelak Jelang Kiamat Muncul Hewan Melata yang Mampu Berbicara kepada Manusia, Seperti Apa?",
+      "originalDescription": "JAKARTA— Keluarnya binatang melata (dabbah) pada akhir zaman merupakan perkara yang telah ditetapkan berdasarkan Alquran, sunah, dan ijmak. Allah Tabaraka wa Ta’ala berfirman: وَإِذَا وَقَعَ الْقَوْلُ عَلَيْهِمْ أَخْرَجْنَا لَهُمْ دَابَّةً مِنَ...",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/049421400-1720412792-830-556.jpg",
+      "category": "Al-Qur'an dan Hadis",
+      "tags": [
+        "Al-Qur'an dan Hadis"
+      ],
+      "source": "Republika",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T14:41:17+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/toce4t320/kelak-jelang-kiamat-muncul-hewan-melata-yang-mampu-berbicara-kepada-manusia-seperti-apa"
+    },
+    {
+      "id": "d56014e524b895b6",
+      "title": "Hujan Deras dan Banjir Terjang Gaza, Tiga Anak dan Seorang Ibu Wafat",
+      "description": "GAZA -- Tiga anak berusia empat, lima, dan delapan tahun wafat bersama ibu mereka pada akhir pekan lalu, setelah sebuah bukit pasir runtuh menimpa tenda mereka di Deir al-Balah,...",
+      "originalTitle": "Hujan Deras dan Banjir Terjang Gaza, Tiga Anak dan Seorang Ibu Wafat",
+      "originalDescription": "GAZA -- Tiga anak berusia empat, lima, dan delapan tahun wafat bersama ibu mereka pada akhir pekan lalu, setelah sebuah bukit pasir runtuh menimpa tenda mereka di Deir al-Balah,...",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/_261109052139-303.png",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Republika",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T14:24:00+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/toccr9430/hujan-deras-dan-banjir-terjang-gaza-tiga-anak-dan-seorang-ibu-wafat"
+    },
+    {
+      "id": "62f815ee2e6bd91b",
+      "title": "KH Said Aqil Minta Konflik Politik Diakhiri, Utamakan Kepentingan Rakyat",
+      "description": "JAKARTA -- Lembaga Persahabatan Ormas Islam (LPOI) sebagai Asosiasi Ormas Islam merasa penting untuk menyampaikan sikap kritis demi dan untuk masa depan kehidupan Indonesia yang lebih baik. LPOI mengatakan...",
+      "originalTitle": "KH Said Aqil Minta Konflik Politik Diakhiri, Utamakan Kepentingan Rakyat",
+      "originalDescription": "JAKARTA -- Lembaga Persahabatan Ormas Islam (LPOI) sebagai Asosiasi Ormas Islam merasa penting untuk menyampaikan sikap kritis demi dan untuk masa depan kehidupan Indonesia yang lebih baik. LPOI mengatakan...",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/004648700-1790939190-830-556.jpg",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam"
+      ],
+      "source": "Republika",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T14:06:15+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/toccif430/kh-said-aqil-minta-konflik-politik-diakhiri-utamakan-kepentingan-rakyat"
+    },
+    {
+      "id": "5e1cd8b46cb2f79a",
+      "title": "'Tetangga kami pergi': Gaza selamat menceritakan kengerian banjir mematikan",
+      "description": "Sebuah keruntuhan Sandbank yang mematikan mengubur keluarga hidup-hidup di Deir-III, sebagai korban menggambarkan upaya penyelamatan putus asa.",
+      "originalTitle": "‘Our neighbours are gone’: Gaza survivors recount horrors of deadly floods",
+      "originalDescription": "A deadly sandbank collapse buried families alive in Deir el-Balah, as survivors describe desperate rescue attempts.",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/IMG_1392-1794387587.jpeg?resize=1920%2C1440",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T14:04:17+00:00",
+      "originalUrl": "https://www.aljazeera.com/features/2026/11/11/as-gaza-flood-waters-subside-palestinians-assess-human-and-material-damage",
+      "translationStatus": "success"
+    },
+    {
+      "id": "c86c9d8aac38b0cb",
+      "title": "Perlu Penguatan Kajian Ilmu Falak dan Digitalisasi Karya Ulama di PTKI",
+      "description": "PTKI perlu memperkuat kajian ilmu falak dan digitalisasi karya ulama untuk menjaga warisan keilmuan Islam serta regenerasi ahli falak.",
+      "originalTitle": "Perlu Penguatan Kajian Ilmu Falak dan Digitalisasi Karya Ulama di PTKI",
+      "originalDescription": "PTKI perlu memperkuat kajian ilmu falak dan digitalisasi karya ulama untuk menjaga warisan keilmuan Islam serta regenerasi ahli falak.",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/penguatan-ilmu-falak_1794402952.webp",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "NU Online",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T14:00:32+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/perlu-penguatan-kajian-ilmu-falak-dan-digitalisasi-karya-ulama-di-ptki-JIp1X"
+    },
+    {
+      "id": "eca593498ecb3a7e",
+      "title": "Kemenhaj Moratorium Izin Travel Umrah, Sebut 50 Persen Travel tak Aktif",
+      "description": "JAKARTA – Kementerian Haji dan Umrah (Kemenhaj) memberlakukan moratorium perizinan baru bagi penyelenggara perjalanan ibadah umrah (PPIU) atau travel haji dan umrah. Kebijakan ini dilakukan untuk membenahi data penyelenggara travel...",
+      "originalTitle": "Kemenhaj Moratorium Izin Travel Umrah, Sebut 50 Persen Travel tak Aktif",
+      "originalDescription": "JAKARTA – Kementerian Haji dan Umrah (Kemenhaj) memberlakukan moratorium perizinan baru bagi penyelenggara perjalanan ibadah umrah (PPIU) atau travel haji dan umrah. Kebijakan ini dilakukan untuk membenahi data penyelenggara travel...",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/000402000-1793365941-830-556.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "Republika",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T13:50:59+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tocbsz320/kemenhaj-moratorium-izin-travel-umrah-sebut-50-persen-travel-tak-aktif"
+    },
+    {
+      "id": "b4bad7589d19462c",
+      "title": "Sidang ulang jurnalis Mesir Lina Attalah ditunda di tengah kritik media yang rusak",
+      "description": "Persidangan ulang jurnalis Mesir Lina Attalah ditunda di tengah kritikan media yang patah hati diturunkan oleh staf MEE pada Wed, 11 / 11 / 2026 - 10: 13 Mada Pengacara editor Masr mengatakan hakim telah membentuk pandangan terhadap dirinya setelah memesan outlet 's penutupan terpisah dalam kasus Mada Masr pendiri dan editor- di - kepala Lina Attalah berbicara selama wawancara di Kairo pada 8 November 2026 (Khaled Desouki / AFP) Pengadilan Mesir pada hari Rabu menunda sidang ulang dari Mada Masr -in -kepala Lina Attalah sampai 18 November untuk mempertimbangkan permintaan pertahanan untuk membuang berita independen. Attalah menghadapi tuntutan penerbitan berita palsu dan mengoperasikan sebuah situs tanpa izin dalam sebuah kasus di mana dia dijatuhi hukuman setahun penjara karena ketidakhadirannya pada tahun 2024. Pengacara Mada Masr, Hassan Al- Azhari, mengatakan pertahanan akan mengajukan alasan untuk mencari hakim penghapusan depan sidang berikutnya, berpendapat bahwa ia telah \"sudah membentuk pandangan terhadap terdakwa\". Hakim ketua, Mohamed Mubarak, juga mengeluarkan putusan pada 27 Oktober dalam kasus terpisah fining Attalah tiga juta pound Mesir (sekitar $56.000) dan memerintahkan penutupan Mada Masr' s. Proses ini terjadi di tengah banyaknya media independen yang lebih luas, termasuk penahanan pada bulan September dari enam jurnalis yang bekerja untuk pemeriksaan wajah-outlet Matsadash. Mada Masr mengatakan Attalah menerima panggilan dalam kasus lisensi terbaru pada 19 Oktober, jam setelah bergabung dengan tujuh lainnya independen media Arab dalam berita independen inisiatif dimaksudkan untuk mengisi kesenjangan kiri oleh penangkapan Matsadaash. Dalam pernyataannya pada hari Rabu, Mada Masr mengatakan kasus ini didengar tanggal kembali untuk ditanyai oleh Penuntut Banding Kairo pada bulan November 2023, berikut keluhan oleh Dewan Agung untuk Peraturan Media. Keluhan tersebut mengkhawatirkan laporan yang diterbitkan setelah wabah perang Israel di Gaza pada bulan Oktober 2023. Jaksa lagi menanyai Attalah pada bulan Februari 2024 setelah Mada Masr menerbitkan laporan lain tentang Sinai Busi",
+      "originalTitle": "Retrial of Egyptian journalist Lina Attalah adjourned amid criticism of media crackdown",
+      "originalDescription": "Retrial of Egyptian journalist Lina Attalah adjourned amid criticism of media crackdown Submitted by MEE staff on Wed, 11/11/2026 - 10:13 Mada Masr editor’s lawyers say judge has already formed a view against her after ordering the outlet’s closure in a separate case Mada Masr co-founder and editor-in-chief Lina Attalah speaks during an interview in Cairo on 8 November 2026 (Khaled Desouki/AFP) Off An Egyptian court on Wednesday adjourned the retrial of Mada Masr editor-in-chief Lina Attalah until 18 November to consider a defence request for the judge’s removal, the independent news outlet said . Attalah faces charges of publishing false news and operating a website without a licence in a case in which she was sentenced to a year in prison in her absence in 2024. Mada Masr’s lawyer, Hassan al-Azhari, said the defence would submit its grounds for seeking the judge’s removal ahead of the next hearing, arguing that he had “already formed a view against the defendant”. The presiding judge, Mohamed Mubarak, also issued a ruling on 27 October in a separate case fining Attalah three million Egyptian pounds (about $56,000) and ordering Mada Masr’s closure. The proceedings come amid a wider crackdown on independent media, including the detention in September of all six journalists working for fact-checking outlet Matsadaash. Mada Masr said Attalah received a summons in the latest licensing case on 19 October, hours after it joined seven other independent Arab media outlets in a joint newsroom initiative intended to fill the gap left by the Matsadaash arrests. In its statement on Wednesday, Mada Masr said the case being heard dates back to questioning by the Cairo Appeals Prosecution in November 2023, following a complaint by the Supreme Council for Media Regulation. The complaint concerned a report published after the outbreak of Israel’s war on Gaza in October 2023. Prosecutors questioned Attalah again in February 2024 after Mada Masr published another report on Sinai busi",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/LINA_MADR_AFP.jpg.jpg?itok=VXD_86Ev",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T13:44:47+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/mada-masr-chief-lina-attalah-trial-adjourned-egypt",
+      "translationStatus": "success"
+    },
+    {
+      "id": "0b8d674cee9ecbbf",
+      "title": "Erdogan mengutuk Gaza 'eksolasi' di Cop31 konferensi iklim di Turki",
+      "description": "Erdogan mengutuk Gaza 'eksolasi' di konferensi iklim Cop31 di Turki Dipersembahkan oleh Ragip Soylu pada Wed, 11 / 11 / 2026 - 12: 30 Presiden Turki mendeskripsikan perubahan iklim sebagai 'salah satu krisis eksistensial terdalam' dalam sejarah umat manusia Presiden Rewep Tayyip Erdogan berbicara selama Konferensi Perubahan Iklim PBB, Kop31, di Antalya, Turki, 11 November 2026 (Murad Sezer / Reuters) Off Gaza telah menderita ektala dan juga terjadi genosida, Presiden Turki Rewep Erdogan berkata pada hari Rabu selama pembukaan alamatnya di konferensi iklim Cop31, yang diadakan Anya. \"Seperti saya juga menekankan dalam alamat saya kepada PBB Umum Majelis, Gaza telah menderita tidak hanya genosida tetapi juga eksoris\", kata Erdogan tentang enclave Palestina, yang telah tunduk kepada serangan Israel sejak Oktober 2023. \"Centuries- pohon zaitun tua telah ditebang, tanah dan air telah terkontaminasi, dan kota-kota telah berkurang menjadi tumpukan besar reruntuhan.\" Erdogan mengatakan hujan lebat dan banjir telah mengumpulkan penderitaan kemanusiaan di Gaza, meninggalkan puluhan ribu tenda dan penampungan terendam. \"Ratusan ribu saudara-saudara kita di Gaza, tanpa atap untuk berlindung, terutama anak-anak yang tidak bersalah gemetar kedinginan, berjuang untuk bertahan hidup di tengah banjir di tengah kondisi musim dingin ini, seringkali tanpa ibu atau ayah mereka\", katanya. Presiden Turki meminta bantuan kemanusiaan untuk diizinkan ke Gaza segera dan mengakhiri kebijakan isolasi. Perubahan iklim adalah krisis eksistensial yang mendalam Beralih ke krisis iklim yang lebih luas, Erdogan menggambarkan perubahan iklim Sebagai \"salah satu krisis eksistensial terdalam\" dalam sejarah manusia. \"Sebagai manusia, rumah kita hanya memiliki satu atap, dan itu adalah langit. Sebagai umat manusia, rumah kami hanya memiliki satu taman, dan itu adalah Bumi,\" katanya. Seorang pria Palestina yang dibuang berdiri di kamp tenda yang banjir sebagian selama hari hujan di Gaza City, 7 November 2026 (Daoud Abu Alkas / Reuters) \"Saya ingin mengatakan ini",
+      "originalTitle": "Erdogan condemns Gaza 'ecocide' at Cop31 climate summit in Turkey",
+      "originalDescription": "Erdogan condemns Gaza 'ecocide' at Cop31 climate summit in Turkey Submitted by Ragip Soylu on Wed, 11/11/2026 - 12:30 Turkish president describes climate change as 'one of the deepest existential crises' in humanity’s history Turkish President Recep Tayyip Erdogan speaks during the UN Climate Change Conference, Cop31, in Antalya, Turkey, 11 November 2026 (Murad Sezer/Reuters) Off Gaza has suffered an ecocide as well as a genocide, Turkish President Recep Tayyip Erdogan said on Wednesday during his opening address at the Cop31 climate conference, which is being held in Antalya. “As I also emphasised in my address to the UN General Assembly, Gaza has suffered not only genocide but also ecocide,” Erdogan said of the Palestinian enclave, which has been subject to an Israeli onslaught since October 2023. “Centuries-old olive trees have been cut down, the soil and water have been contaminated, and cities have been reduced to enormous piles of rubble.” Erdogan said heavy rainfall and flooding had compounded the humanitarian suffering in Gaza, leaving tens of thousands of tents and shelters submerged. “Hundreds of thousands of our brothers and sisters in Gaza, with no roof under which to take shelter, especially innocent children trembling with cold, are struggling to survive amid the floodwaters in these winter conditions, often without their mothers or fathers,” he said. The Turkish president called for humanitarian aid to be allowed into Gaza immediately and for an end to the policy of isolation. Climate change is a deep existential crisis Turning to the broader climate crisis, Erdogan described climate change as “one of the deepest existential crises” in humanity’s history. “As humanity, our home has only one roof, and that is the sky. As humanity, our home has only one garden, and that is the Earth,\" he said. A displaced Palestinian man stands in a partially flooded tent camp during a rainy day in Gaza City, 7 November 2026 (Dawoud Abu Alkas/Reuters) “I want to say thi",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Erdogan%20Cop31%20Reuters%20MAIN.jpg.jpg?itok=C7zZcNQi",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T13:33:22+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/erdogan-condemns-gaza-ecocide-cop31-climate-summit-turkey",
+      "translationStatus": "success"
+    },
+    {
+      "id": "b27cd952bfb06042",
+      "title": "Netanyahu mencari pembicaraan pribadi dengan pemimpin partai Palestina meskipun serangan publik",
+      "description": "Netanyahu mencari pembicaraan pribadi dengan pemimpin partai Palestina, meskipun serangan publik dilakukan oleh staf MEE di Wed, 11 / 2026 - 11: 17 Mansour Abbas mengatakan bahwa pidato perdana menteri yang menjelekkan pihak Palestina, membuat dia beresiko menjadi Perdana Menteri Benjamin Netanyahu, terlihat selama pidato pembukaan pada parlemen Israel baru di Yerusalem pada 10 November 2026 (Ilia Yefimovich), \"Dia tertarik pada posisi kita pada hukum kecuali seorang penegak hukum yang didakwa dari menjabat sebagai perdana menteri, dan apakah kita benar-benar bermaksud untuk memasukkan koalisi dan menggantikan pemerintahan Netanyahu\", Abbas mengatakan kepada Kan radio publik. \"Ketika melayani kepentingannya, warga Arab tiba-tiba menjadi sah, ia menjadi 'Abu Yair', dan Mansour Abbas menjadi mitra layak di matanya.\" Daftar Arab (Ra 'am) yang dipimpin Palestina dan Daftar Gabungan memenangkan rekor 19 kursi digabungkan, menyusul lonjakan antara pemilih Palestina di Israel, memberikan mereka keseimbangan kekuasaan. Dalam sebuah pidato kepada parlemen pada Selasa malam, Netanyahu berkata Daftar Arab dan Daftar Bersama sedang berusaha untuk mengakhiri keberadaan Israel, menambahkan bahwa dua pihak tidak setuju hanya pada \"negara seperti apa yang akan muncul pada reruntuhan itu\". \"Apa tujuan sebenarnya dari faksi-faksi ini?\" Netanyahu bilang. \"Apakah hanya untuk meningkatkan kondisi sosioekonomi dari warga Arab di Israel? Kami tidak punya masalah dengan itu. Tapi itu bukan tujuan mereka yang sebenarnya\". Additessi yang mempertimbangkan membentuk pemerintahan dengan pihak Palestina, menambahkan Netanyahu: \"Tidakkah Anda mengerti apa yang ingin mereka capai? Apa cita-cita nasional mereka?\" Abbas mengatakan pidato Netanyahu telah menempatkan dia dan keluarganya dalam bahaya. Maka tatkala (Muhammad) memberitahukan pembicaraan (antara Hafsah dan Aisyah) lalu (Hafsah) bertanya: \"Siapakah yang telah memperingatkan kamu?\"",
+      "originalTitle": "Netanyahu sought private talks with Palestinian party leader despite public attacks",
+      "originalDescription": "Netanyahu sought private talks with Palestinian party leader despite public attacks Submitted by MEE staff on Wed, 11/11/2026 - 11:17 Mansour Abbas says the prime minister's speech vilifying Palestinian parties put him at risk Caretaker Prime Minister Benjamin Netanyahu looks on during a speech on the opening day of the new Israeli parliament in Jerusalem on 10 November 2026 (Ilia Yefimovich/AFP) Off The leader of the United Arab List, Mansour Abbas, said on Wednesday that Israeli Prime Minister Benjamin Netanyahu had held private talks with him through a close associate, despite publicly branding Palestinian parties \"terror supporters who hate Israel\". \"He was interested in our position on the law barring an indicted lawmaker from serving as prime minister, and whether we really intended to enter a coalition and replace Netanyahu's government,\" Abbas told Kan public radio. \"When it serves his interests, Arab citizens suddenly become legitimate, he becomes 'Abu Yair', and Mansour Abbas becomes a worthy partner in his eyes.\" The Palestinian-led United Arab List (Ra'am) and the Joint List won a record 19 seats combined, following a surge in turnout among Palestinian voters in Israel, giving them the balance of power. In a speech to parliament on Tuesday evening, Netanyahu said the United Arab List and the Joint List were seeking to end Israel’s existence, adding that the two parties disagreed only on \"what kind of state will arise on its ruins\". \"What is the true goal of these factions?\" Netanyahu said. \"Is it only to improve the socioeconomic conditions of Arab citizens in Israel? We have no problem with that. But that is not their real goal.\" Addressing those considering forming a government with Palestinian parties, Netanyahu added: \"Don't you understand what they really want to achieve? What their national aspiration is?\" Abbas said Netanyahu’s speech had put him and his family in danger. Asked whether he had received threats, Abbas replied: \"There are threats fro",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_D7393NR.jpg.jpg?itok=nWq8d0Zn",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T13:07:18+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/netanyahu-sought-private-talks-palestinian-party-leader-despite-public-attacks",
+      "translationStatus": "success",
+      "sources": [
+        "Middle East Eye"
+      ]
+    },
+    {
+      "id": "08c5fbab54bea4a0",
+      "title": "Dana HSBC 'Sarah-compliant' untuk mengecualikan perusahaan senjata setelah Israel menghubungkan pendapatan terkena",
+      "description": "Dana HSBC 'shari- compliant' untuk mengecualikan perusahaan senjata setelah Israel - pendapatan terkait yang diekspos oleh Imran Mulla pada Wed, 11 / 2026 - 10: 11 Move datang setelah MeE mengungkapkan HSBC Global Equity Index Fund membeli saham di perusahaan senjata terbesar di dunia sebuah cabang HSBC bank di jalan di London pada 27 Oktober 2026 (AFP) dana terbesar di Inggris \"shari- compliant\" yang dikeluarkan dari perusahaan-perusahaan yang mengambil lebih dari 5 persen pendapatan mereka dari persenjataan, setelah Mata Timur Tengah mengungkapkan bulan lalu bahwa dana itu membeli lebih dari $100m saham di perusahaan-perusahaan Israel terkait dengan setengah tahun pertama dalam tahun pertama militer di Israel dalam tahun ini. Perubahan baru berarti raksasa perbankan Inggris HSBC 's Islam Global Equity Index Fund diharapkan untuk mencabut dari perusahaan-perusahaan besar termasuk RTX, Rolls-Royce, Honeywell International, BAE Systems dan Palantir. Dana HSBC mulai pelacakan S & P Global 1200 Shariah Pilih Indeks, sebuah tanda tangan perusahaan disaring untuk kepatuhan dengan prinsip keuangan Islam, pada Maret. Dana tersebut secara pasif dikelola, yang berarti itu mencerminkan investasi indeks. Pada awal November, indeks diperbarui metodologinya dan diatur untuk mengimplementasikan perubahan pada 23 November. Sekarang ini akan mengecualikan pertahanan dan perusahaan senjata, kontraktor militer dan sektor terkait dari indeks. Menurut kriteria baru, indeks akan mengecualikan perusahaan dengan lebih dari 5 persen eksposur militer kontrak, senjata nuklir, habis uranium, senjata pembakar, senjata biologis dan senjata kecil, di antara jenis persenjataan lainnya. Menurut kebanyakan pedoman penyaringan, bisnis dapat dianggap \"syaria- compliant\" jika kurang dari 5 persen pendapatan mereka berasal dari sumber-sumber yang dikategorikan sebagai tidak dapat ditembus. Indeks sebelumnya tidak mengecualikan perusahaan dengan eksposur untuk sebagian besar jenis persenjataan. Dana HSBC diawasi oleh dewan sarjana Islam. MEE melaporkan bulan lalu bahwa dana dibeli $35.7m senilai saham di RTX, kedua dunia compa senjata terbesar",
+      "originalTitle": "HSBC 'sharia-compliant' fund to exclude arms companies after Israeli-linked revenue exposed",
+      "originalDescription": "HSBC 'sharia-compliant' fund to exclude arms companies after Israeli-linked revenue exposed Submitted by Imran Mulla on Wed, 11/11/2026 - 10:11 Move comes after MEE revealed HSBC’s Islamic Global Equity Index Fund purchased shares in world’s second-largest arms company A branch of HSBC bank on a street in central London on 27 October 2026 (AFP) Off The UK ’s largest “sharia-compliant” fund is divesting from companies which take more than 5 percent of their revenue from weaponry, after Middle East Eye revealed last month that it purchased more than $100m worth of shares in companies linked to the Israeli military in the first half of this year. The new change means the British banking giant HSBC’s Islamic Global Equity Index Fund is expected to divest from major companies including RTX, Rolls-Royce, Honeywell International, BAE Systems and Palantir. The HSBC fund began tracking the S&P Global 1200 Shariah Select Index, a benchmark of companies screened for compliance with Islamic finance principles, in March. The fund is passively managed, which means it mirrors the index's investments . In early November, the index updated its methodology and is set to implement the changes on 23 November. It will now exclude defence and weapons companies, military contractors and related sectors from the index. According to the new criteria , the index will exclude companies with a more than 5 percent exposure to military contracting, nuclear weapons, depleted uranium, incendiary weapons, biological weapons and small arms, among other types of weaponry. According to most screening guidelines, businesses can be deemed “sharia-compliant” if less than 5 percent of their income derives from sources categorised as impermissible. The index did not previously exclude companies with exposure to most types of weaponry. The HSBC fund is overseen by a board of Islamic scholars. MEE reported last month that the fund purchased $35.7m worth of shares in RTX, the world’s second-largest arms compa",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_D4K86UZ%20%281%29.jpg.jpg?itok=mIIMH2dM",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T12:47:33+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/hsbc-sharia-compliant-fund-exclude-arms-companies-after-spending-100m-israeli-military-linked",
+      "translationStatus": "success"
+    },
+    {
+      "id": "181ee3d410164808",
+      "title": "Kelompok hak-hak menimbulkan kekhawatiran tentang penjara Dr Abu Safila di tengah serangan di Gaza",
+      "description": "PhRI mengatakan penahanan sewenang-wenang dokter Gaza melanggar hak-hak individu dan sistem perawatan kesehatan.",
+      "originalTitle": "Rights group raises concerns about jailed Dr Abu Safia amid strikes on Gaza",
+      "originalDescription": "PHRI says the arbitrary detention of Gaza doctors violates individual rights and undermines healthcare system.",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/ap_6a4aaec89d929-1783279304-1-1788435078.jpg?resize=1200%2C630",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T12:05:51+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/11/rights-group-raises-concerns-about-jailed-dr-abu-safia-amid-strikes-on-gaza",
+      "translationStatus": "success"
+    },
+    {
+      "id": "0f52af55d8314d03",
+      "title": "Dia melihat suami dan putrinya pergi ke Mesir. Seorang tentara Israel membunuhnya dalam perjalanan pulang",
+      "description": "Dia melihat suami dan putrinya pergi ke Mesir. Seorang tentara Israel membunuhnya dalam perjalanan pulang. Dikirim oleh Maha Hussaini di Wed, 11 / 11 / 2026 - 11: 07 Jam-jam setelah mengucapkan selamat tinggal kepada keluarganya yang meninggalkan Gaza untuk pengobatan medis, seorang ibu Palestina ditembak mati Relatif Noura Sheikh al- Eid, 54, yang dibunuh oleh pasukan Israel di Khan Younis, Gaza Selatan, pada 5 November 2026 (Hani Abu Rezeq / MEE) Off Noura Sheikh al- Eid salam perpisahan kepada suami dan putrinya saat mereka meninggalkan Gaza untuk pengobatan medis di Mesir. Itu dimaksudkan untuk menjadi perpisahan sementara. Tapi ketika ibu Palestina berusia 54 tahun kembali dari stasiun keberangkatan ke tenda perpindahannya pada 5 November, seorang tentara Israel ditembak dan membunuhnya. \"Kami shock\", Mohammed Sheikh al- Idul Fitri, saudara Noura, mengatakan kepada Mata Timur Tengah. \"Saya kehilangan anak saya yang berusia 14 tahun selama kelaparan, sementara ia mencoba untuk mendapatkan bantuan. Saya bersumpah kepada Allah, bahwa saya tidak bersedih hati atas dia seperti saya sedih untuk adik saya\", katanya. \"Saya menganggap dia ibu kedua saya karena dia adalah orang yang membesarkan saya.\" Sejak perjanjian gencatan senjata Oktober 2025, pasukan Israel telah berulang kali menembaki orang Palestina di dekat garis kuning, yang menandai batas daerah di bawah kendali militer Israel di Gaza. Warga menghadapi baku tembak tanpa diskriminasi dari tentara Israel, kendaraan militer, lifters dan quadcopters, termasuk di daerah di luar garis di mana warga sipil mencoba untuk pergi tentang kehidupan sehari-hari mereka. Kembalilah ke dokter. Malam sebelum Noura dibunuh, kerabat berkumpul di tenda mereka di Khan Younis, di Jalur Gaza selatan, untuk mengucapkan selamat tinggal kepada suaminya, Atallah Abu Astra, dan putri mereka, Hiba Abu Astra. \"Suaminya menderita penyakit jantung dan diabetes, dan kondisinya telah memburuk ke titik di mana ia mengembangkan gangren,\" Sheikh al- Idul Fitri mengatakan. \"Lima jari kakinya dan sebagian kakinya telah diamputasi\". Pasukan Israel menyalahgunakan Palestina kembali ke Gaza di pos pemeriksaan Rafah Baca Lebih \"Hiba baru-baru ini selesai",
+      "originalTitle": "She saw her husband and daughter off to Egypt. An Israeli soldier killed her on the way home",
+      "originalDescription": "She saw her husband and daughter off to Egypt. An Israeli soldier killed her on the way home Submitted by Maha Hussaini on Wed, 11/11/2026 - 11:07 Hours after bidding farewell to her family members leaving Gaza for medical treatment, a Palestinian mother is shot dead Relatives mourn Noura Sheikh al-Eid, 54, who was killed by Israeli forces in Khan Younis, southern Gaza, on 5 November 2026 (Hani Abu Rezeq/MEE) Off Noura Sheikh al-Eid bid farewell to her husband and daughter as they left Gaza for medical treatment in Egypt. It was meant to be a temporary goodbye. But as the 54-year-old Palestinian mother returned from the departure station to her displacement tent on 5 November, an Israeli soldier shot and killed her. “We are in shock,” Mohammed Sheikh al-Eid, Noura’s brother, told Middle East Eye. “I lost my 14-year-old son during the famine, while he was trying to get aid. I swear to God, I did not grieve for him the way I have grieved for my sister,” he said. “I considered her my second mother because she was the one who raised me.” Since the October 2025 ceasefire agreement, Israeli forces have repeatedly opened fire on Palestinians near the so-called \"yellow line\", which marks the boundary of areas under Israeli military control in Gaza. Residents face indiscriminate gunfire from Israeli soldiers, military vehicles, lifters and quadcopters, including in areas beyond the line where civilians attempt to go about their daily lives. ‘Come back a doctor’ The night before Noura was killed, relatives gathered at their tent in Khan Younis, in the southern Gaza Strip, to bid farewell to her husband, Atallah Abu Athra, and their daughter, Hiba Abu Athra. “Her husband suffers from heart disease and diabetes, and his condition has deteriorated to the point where he developed gangrene,” Sheikh al-Eid said. “Five of his toes and part of his foot had been amputated.” Israeli forces abuse Palestinians returning to Gaza at Rafah checkpoint Read More » Hiba had recently completed",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/gaza-woman-killed.jpg.jpg?itok=vFYEAvr-",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T12:05:08+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/she-saw-her-husband-and-daughter-egypt-israeli-sniper-killed-her-way-home",
+      "translationStatus": "success"
+    },
+    {
+      "id": "63d72e57113aed56",
+      "title": "Rumah Zakat Salurkan 10.000 Liter Air Bersih untuk 150 KK di Makassar",
+      "description": "MAKASSAR -- Kesulitan mendapatkan air bersih membuat warga di Kelurahan Camba Berua, Kecamatan Ujung Tanah, Kota Makassar, harus mengeluarkan biaya tambahan setiap hari. Untuk memenuhi kebutuhan keluarga, sebagian warga bahkan...",
+      "originalTitle": "Rumah Zakat Salurkan 10.000 Liter Air Bersih untuk 150 KK di Makassar",
+      "originalDescription": "MAKASSAR -- Kesulitan mendapatkan air bersih membuat warga di Kelurahan Camba Berua, Kecamatan Ujung Tanah, Kota Makassar, harus mengeluarkan biaya tambahan setiap hari. Untuk memenuhi kebutuhan keluarga, sebagian warga bahkan...",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/_261111183912-228.png",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "Republika",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T11:39:59+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/toc5qn423/rumah-zakat-salurkan-10000-liter-air-bersih-untuk-150-kk-di-makassar"
+    },
+    {
+      "id": "208ac383a837100c",
+      "title": "UNICEF Salurkan Bantuan Musim Dingin dan Bersihkan 50 Saluran Air di Gaza Usai Hujan Deras",
+      "description": "UNICEF menyalurkan bantuan musim dingin bagi anak-anak Gaza dan membersihkan saluran air. Hujan deras berdampak pada lebih dari 106.000 orang.",
+      "originalTitle": "UNICEF Salurkan Bantuan Musim Dingin dan Bersihkan 50 Saluran Air di Gaza Usai Hujan Deras",
+      "originalDescription": "UNICEF menyalurkan bantuan musim dingin bagi anak-anak Gaza dan membersihkan saluran air. Hujan deras berdampak pada lebih dari 106.000 orang.",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/anak-gaza-unicef_1794397746.webp",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "NU Online",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T11:30:59+00:00",
+      "originalUrl": "https://www.nu.or.id/internasional/unicef-salurkan-bantuan-musim-dingin-dan-bersihkan-50-saluran-air-di-gaza-usai-hujan-deras-agXoS"
+    },
+    {
+      "id": "47904c38450eab66",
+      "title": "Sebuah perjalanan menyusuri pantai Laut Merah Mesir untuk menemukan Sufi kudus dan lyre mistis",
+      "description": "Sebuah perjalanan ke pantai Laut Merah Mesir untuk menemukan Sufi dan lyre mistis Dipersembahkan oleh Sean Mathews pada Mon, 11 / 09 / 2026 - 10: 44 El- Quseir pernah menyambut penjelajah, pejuang dan peziarah haji haji, tetapi hari ini adalah bypass dalam mendukung dari resor Laut Merah yang lebih besar El- Quseir diisi dengan runtuh Ottoman-era rumah dengan balconies kayu protruding (MEE / Sean Mathews) Off ElQuseir. Satu-satunya cahaya di dalam labirin yang membusuk ini dari sebuah pelabuhan datang ketika sebuah sepeda motor Bajaj mendengkur menyusuri gang aneh, melemparkan lampu di salah satu dari banyak anjing liar kota, atau seorang pejalan kaki berkedip telepon, menyalakan balkon kayu yang membusuk. Rumah walikota tua mudah ditemukan dalam kegelapan. Ini memancarkan hangat, cahaya emas. Ketika saya tiba, kerumunan sudah berkumpul di beranda tiang; beberapa orang di djallabas, yang lain dengan seragam jins kurus dari Timur Tengah. Aku melihat hipster Kairo aneh di antara mereka. Para peserta terutama berseri-seri dalam make-up. Mengapa tidak seharusnya. Malam ini adalah malam Hazz, nama, yang dalam bahasa Arab berarti keberuntungan, diberikan untuk soirees menyusuri pantai Laut Merah Mesir, mana simsimiyya, lyre segitiga, dimainkan untuk balada tentang pelabuhan tua, persahabatan dan pelaut legendaris. Simsimiyya tampak besar di atas El-Quseir. \"Orang-orang di sini akan berada di laut selama empat bulan pada suatu waktu. Mereka akan menyimpan tempat pada cara mereka hanya untuk pemain Simoniyya untuk menghibur mereka,\" Aly El- Sayed, pendiri Bahar, sebuah organisasi komunitas bekerja untuk melestarikan warisan kota dan ekosistem laut, mengatakan kepada saya. Aly adalah tuan rumah pertemuan malam ini. Rumah walikota tua, bungalow kupu-kupu kuning dibangun pada tahun 1888, telah ditarik kembali sebagai rumah Bahar. \"Kami mencoba untuk tidak banyak berubah. Kami bahkan berhati-hati untuk tidak melukis terlalu banyak,\" kata El-Sayed. 'Mereka bernyanyi sepanjang waktu' Saya tahu bahwa musik adalah pusat bagi kehidupan kapal dhows, tradisional kapal layar kayu, barang yang diolesi, termasuk budak, antara Afrika Timur dan Arab sampai abad pertengahan-20. Australia expandor",
+      "originalTitle": "A journey down Egypt's Red Sea coast to find Sufi saints and a mystical lyre",
+      "originalDescription": "A journey down Egypt's Red Sea coast to find Sufi saints and a mystical lyre Submitted by Sean Mathews on Mon, 11/09/2026 - 10:44 El-Quseir once welcomed explorers, warriors and Hajj pilgrims, but today it is bypassed in favour of bigger Red Sea resorts El-Quseir is filled with crumbling Ottoman-era houses with protruding wooden balconies (MEE/Sean Mathews) Off El-Quseir is pitch black at night. The only light inside this decaying labyrinth of a port comes when a battered Bajaj motorcycle purrs down the odd alley, casting a headlight on one of the town’s many stray dogs, or a passerby flashes a phone, lighting up a decaying wooden balcony. The old mayor’s house is easy to find in the darkness. It emits a warm, golden light. When I arrive, a crowd is already gathered on the colonnaded veranda; some men in djellabas, others in the uniform skinny jeans of the Middle East. I spot the odd Cairo hipster among them. The women attendees are especially radiant in make-up. Why shouldn’t they be. Tonight is a Hazz night, the name, which in Arabic means luck, given to soirees down Egypt’s Red Sea coast, where the simsimiyya , a triangular lyre, is played to ballads about old ports, friendships and legendary seafarers. The simsimiyya looms large over El-Quseir. “The men here would be at sea for four months at a time. They would save a spot on their dhow just for a simsimiyya player to entertain them,” Aly El-Sayed, the founder of Bahar, a community organisation working to preserve the city's heritage and marine ecosystem, told me. Aly is the host of tonight’s gathering. The old mayor’s house, a butter-yellow bungalow built in 1888, has been repurposed as Bahar’s home. “We tried not to change much. We were even careful not to paint too much,” El-Sayed said. 'They sang all the time' I knew that music was central to life aboard dhows, traditional wooden sailing boats, that plied goods, including slaves, between East Africa and Arabia up until the mid-20th century. Australian explor",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Quseir-old-town-2.jpg.jpg?itok=m0wCOHQA",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Middle East Eye",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T11:26:26+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/journey-down-egypts-red-sea-coast-revealed-sufi-saints-and-mystical-lyre",
+      "translationStatus": "success"
+    },
+    {
+      "id": "26adc07002f19b98",
+      "title": "Ratusan orang Yahudi Inggris menuduh Dewan 'denial genosida'",
+      "description": "Ratusan orang Yahudi Inggris menuduh Dewan 'Penyangkalan Genosida' Dibatalkan oleh staf MEE pada Tue, 11 / 10 / 2026 - 14: 09 Surat tantangan terbuka komunitas tubuh Yahudi atas kecaman Partai Hijau dan respon atas tindakan Israel terhadap Anggota-anggota Yahudi Bloc untuk Palestina mengambil bagian dalam protes Free Gaza, dekat Admiral Arch di tengah London, pada 1 Mei 1 Mei 1 / 2024 (Adrian Dennis / AFP) Ratusan Yahudi Inggris telah menuduh Dewan of British Yahudi menolak \"genosida penolakan\" dalam sebuah surat terbuka mengutuk keputusannya untuk menyatakan rasis Partai Hijau atas sikap Zionis. Surat itu, dirilis pada hari Selasa oleh Yahudi yang menentang Genosida Denial, menuduh organisasi perwakilan Yahudi terkemuka yang melindungi Israel dari tanggung jawab dan keheningan kritik dalam jajaran sendiri. Sejarawan Avi Shlaim, mantan MP Afrika Selatan dan kampanye perdagangan senjata Andrew Feinstein, dan pengacara hak asasi manusia Margaret Owen adalah salah satu dari lebih dari 250 tanda-tanda yang terdaftar dalam dokumen. intervensi mengikuti keputusan dewan pada 25 Oktober untuk menyatakan bahwa Partai Hijau Inggris dan Wales telah menjadi partai rasis setelah mengadopsi konferensi gerak memperlakukan Zionisme sebagai bentuk rasisme. Resolusi dewan, melewati 118 suara ke satu, berpendapat bahwa kebijakan Hijau menstigmatisasi koneksi ke Israel yang membentuk bagian dari banyak Yahudi Inggris 'agama, budaya dan identitas nasional. Tanda-tanda surat itu menolak interpretasi itu, sementara mereka tidak semua berbagi pandangan yang sama tentang manfaat gerakan hijau. \"Beberapa Yahudi Hijau mendukungnya, beberapa menentangnya, beberapa berpikir itu tidak perlu, mengingat partai sudah kuat sikap terhadap Israel menindas rezim dan kejahatan perang,\" mereka menulis.' Tuduhan antisemitisme Anda terhadap Partai Hijau adalah palsu, menggunakan antisemitisme sebagai senjata politik, dan karena itu merupakan penyalahgunaan Yahudi '- Yahudi Terhadap Genosida Denial Mereka menuduh dewan menargetkan partai dan Yahudi l",
+      "originalTitle": "Hundreds of British Jews accuse Board of Deputies of 'genocide denial'",
+      "originalDescription": "Hundreds of British Jews accuse Board of Deputies of 'genocide denial' Submitted by MEE staff on Tue, 11/10/2026 - 14:09 Open letter challenges Jewish community body over its denunciation of Green Party and response to Israel’s actions against Palestinians Members of the Jewish Bloc for Palestine take part in a Free Gaza protest, near Admiralty Arch in central London, on 1 May 1 2024 (Adrian Dennis/AFP) Off Hundreds of British Jews have accused the Board of Deputies of British Jews of “genocide denial” in an open letter condemning its decision to declare the Green Party racist over its stance on Zionism. The letter, released on Tuesday by Jews Against Genocide Denial, accuses the prominent Jewish representative organisation of shielding Israel from accountability and silencing criticism within its own ranks. Historian Avi Shlaim, former South African MP and arms trade campaigner Andrew Feinstein, and human rights lawyer Margaret Owen are among the more than 250 signatories listed in the document. The intervention follows the board’s decision on 25 October to declare that the Green Party of England and Wales had become a racist party after adopting a conference motion treating Zionism as a form of racism. The board’s resolution, passed by 118 votes to one, argued that the Green policy stigmatised a connection to Israel that forms part of many British Jews’ religious, cultural and national identity. The letter’s signatories rejected that interpretation, while stressing that they did not all share the same view of the Green motion’s merits. “Some Jewish Greens supported it, some opposed it, some thought it unnecessary, given the party’s already strong stance against Israel’s oppressive regime and war crimes,” they wrote. 'Your allegations of institutional antisemitism against the Green Party are false, use antisemitism as a political weapon, and are therefore an abuse of Jews' - Jews Against Genocide Denial They accused the board of targeting the party and its Jewish l",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/JEWISH_BLOC_GAZA_AFP.jpg.jpg?itok=qzUwH2ek",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Dakwah dan Ulama"
+      ],
+      "source": "Middle East Eye",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T11:20:01+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/hundreds-british-jews-accuse-board-deputies-genocide-denial-open-letter",
+      "translationStatus": "success"
+    },
+    {
+      "id": "f81c77ba75e529f5",
+      "title": "Israel membunuh penjaga gawang Gaza berhari-hari setelah bermain di cangkir untuk atlet yang terbunuh",
+      "description": "Mahmoud Abdel-Malek, penjaga gawang berusia 20 tahun untuk Klub Olahraga Gaza, tewas dalam serangan udara Israel di Gaza City.",
+      "originalTitle": "Israel kills Gaza goalkeeper days after playing in cup for slain athletes",
+      "originalDescription": "Mahmoud Abdel-Malek, a 20-year-old goalkeeper for Gaza Sports Club, was killed in an Israeli airstrike on Gaza City.",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794394570.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T10:57:39+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/11/israel-kills-gaza-goalkeeper-days-after-playing-in-cup-for-slain-athletes",
+      "translationStatus": "success"
+    },
     {
       "id": "b23ed4a8a4a3bb08",
       "title": "Korban Tewas di Gaza Capai 74.645 Jiwa, 70 Ribu Tenda Pengungsi Terendam Hujan",
@@ -133,7 +511,10 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-11T07:30:14+00:00",
-      "originalUrl": "https://www.nu.or.id/internasional/korban-tewas-di-gaza-capai-74-645-jiwa-70-ribu-tenda-pengungsi-terendam-hujan-mACo6"
+      "originalUrl": "https://www.nu.or.id/internasional/korban-tewas-di-gaza-capai-74-645-jiwa-70-ribu-tenda-pengungsi-terendam-hujan-mACo6",
+      "sources": [
+        "NU Online"
+      ]
     },
     {
       "id": "8645118e25c9ca46",
@@ -172,7 +553,10 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-11T06:30:57+00:00",
-      "originalUrl": "https://www.nu.or.id/nasional/kongres-ipnu-ippnu-di-kendal-angkat-isu-perlindungan-santri-hingga-pemanfaatan-ai-BX4z6"
+      "originalUrl": "https://www.nu.or.id/nasional/kongres-ipnu-ippnu-di-kendal-angkat-isu-perlindungan-santri-hingga-pemanfaatan-ai-BX4z6",
+      "sources": [
+        "NU Online"
+      ]
     },
     {
       "id": "26183ef4f7308d32",
@@ -248,7 +632,10 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-11T04:26:37+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/toblod490/nikita-willy-dan-indra-priawan-bersama-rumah-zakat-salurkan-air-bersih-untuk-warga-palangka-raya"
+      "originalUrl": "https://khazanah.republika.co.id/berita/toblod490/nikita-willy-dan-indra-priawan-bersama-rumah-zakat-salurkan-air-bersih-untuk-warga-palangka-raya",
+      "sources": [
+        "Republika"
+      ]
     },
     {
       "id": "a92fff2b49eecb07",
