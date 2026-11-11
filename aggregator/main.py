@@ -1285,18 +1285,18 @@ def fetch_source(source, categories):
         response.raise_for_status()
 
         feed = parse_rss_safely(
-            response.content,
-            response.encoding
-        )
+    response.content,
+    response.encoding
+)
 
-        entries = feed.entries
+entries = feed.entries
 
-        if not entries:
-        raise ValueError(
-            "RSS tidak menghasilkan artikel. "
-            "Periksa apakah URL mengembalikan XML RSS "
-            "atau justru halaman HTML."
-        )
+if not entries:
+    raise ValueError(
+        "RSS tidak menghasilkan artikel. "
+        "Periksa apakah URL mengembalikan XML RSS "
+        "atau justru halaman HTML."
+    )
 
         result["raw"] = len(
             entries
