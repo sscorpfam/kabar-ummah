@@ -1285,8 +1285,8 @@ def fetch_source(source, categories):
         response.raise_for_status()
 
         feed = parse_rss_safely(
-        response.content,
-        response.encoding
+            response.content,
+            response.encoding
         )
 
         entries = feed.entries
