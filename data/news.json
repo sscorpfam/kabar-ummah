@@ -1,18 +1,20 @@
 {
-  "status": "success",
-  "lastUpdated": "2026-11-11T02:10:42.976784+00:00",
-  "total": 77,
-  "newArticles": 33,
+  "status": "partial",
+  "lastUpdated": "2026-11-11T02:35:53.065650+00:00",
+  "total": 79,
+  "newArticles": 30,
   "sourcesChecked": 10,
-  "sourcesSucceeded": 10,
-  "sourcesFailed": 0,
+  "sourcesSucceeded": 9,
+  "sourcesFailed": 1,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 2,
-      "filtered": 23,
+      "accepted": 3,
+      "filtered": 22,
+      "translated": 0,
+      "translationFailed": 25,
       "error": null
     },
     {
@@ -21,6 +23,8 @@
       "raw": 38,
       "accepted": 2,
       "filtered": 36,
+      "translated": 0,
+      "translationFailed": 38,
       "error": null
     },
     {
@@ -29,14 +33,18 @@
       "raw": 15,
       "accepted": 8,
       "filtered": 7,
+      "translated": 0,
+      "translationFailed": 0,
       "error": null
     },
     {
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 1,
-      "filtered": 49,
+      "accepted": 0,
+      "filtered": 50,
+      "translated": 0,
+      "translationFailed": 0,
       "error": null
     },
     {
@@ -45,6 +53,8 @@
       "raw": 20,
       "accepted": 0,
       "filtered": 20,
+      "translated": 0,
+      "translationFailed": 0,
       "error": null
     },
     {
@@ -53,6 +63,8 @@
       "raw": 20,
       "accepted": 1,
       "filtered": 19,
+      "translated": 0,
+      "translationFailed": 0,
       "error": null
     },
     {
@@ -61,15 +73,19 @@
       "raw": 20,
       "accepted": 8,
       "filtered": 12,
+      "translated": 0,
+      "translationFailed": 20,
       "error": null
     },
     {
       "name": "Detik",
-      "status": "success",
-      "raw": 100,
-      "accepted": 3,
-      "filtered": 97,
-      "error": null
+      "status": "error",
+      "raw": 0,
+      "accepted": 0,
+      "filtered": 0,
+      "translated": 0,
+      "translationFailed": 0,
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
     },
     {
       "name": "Muhammadiyah",
@@ -77,18 +93,67 @@
       "raw": 10,
       "accepted": 1,
       "filtered": 9,
+      "translated": 0,
+      "translationFailed": 0,
       "error": null
     },
     {
       "name": "NU Online",
       "status": "success",
-      "raw": 50,
+      "raw": 49,
       "accepted": 7,
-      "filtered": 43,
+      "filtered": 42,
+      "translated": 0,
+      "translationFailed": 0,
       "error": null
     }
   ],
+  "translation": {
+    "engine": "Argos Translate",
+    "sourceLanguage": "en",
+    "targetLanguage": "id",
+    "translatedArticles": 0,
+    "failedArticles": 83
+  },
   "articles": [
+    {
+      "id": "03650c311f963787",
+      "title": "Penipuan Haji dan Umrah Kian Marak, Kemenhaj akan Perkuat Penyidik PNS",
+      "description": "JAKARTA — Kementerian Haji dan Umrah merevitalisasi fungsi Penyidik Pegawai Negeri Sipil (PPNS) demi memperkuat penegakan hukum terhadap praktik penipuan penyelenggaraan ibadah haji dan umrah. Wakil Menteri Haji dan Umrah...",
+      "originalTitle": "Penipuan Haji dan Umrah Kian Marak, Kemenhaj akan Perkuat Penyidik PNS",
+      "originalDescription": "JAKARTA — Kementerian Haji dan Umrah merevitalisasi fungsi Penyidik Pegawai Negeri Sipil (PPNS) demi memperkuat penegakan hukum terhadap praktik penipuan penyelenggaraan ibadah haji dan umrah. Wakil Menteri Haji dan Umrah...",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/_261111082450-613.png",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "Republika",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T02:19:39+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tobfsr483/penipuan-haji-dan-umrah-kian-marak-kemenhaj-akan-perkuat-penyidik-pns"
+    },
+    {
+      "id": "dafbe69a723620cc",
+      "title": "Protesters throw milk at Joe Biden during Hunter event in Dublin",
+      "description": "Pro-Palestinian protesters hurled milk towards Joe Biden in Ireland over his support for Israel.",
+      "originalTitle": "Protesters throw milk at Joe Biden during Hunter event in Dublin",
+      "originalDescription": "Pro-Palestinian protesters hurled milk towards Joe Biden in Ireland over his support for Israel.",
+      "translated": false,
+      "originalLanguage": "en",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794363073.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T02:12:22+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/11/protesters-throw-milk-at-joe-biden-during-hunter-event-in-dublin"
+    },
     {
       "id": "bd6eb905a8f011ca",
       "title": "Anggota DPR Dorong Usulan Pelarangan Vape Lewat UU Dikaji Komprehensif",
@@ -117,7 +182,14 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-11T01:58:07+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/tobesv430/gerakan-lgbt-di-aksi-womens-march-kemenag-ajak-jaga-nilai-dan-etika-bangsa"
+      "originalUrl": "https://khazanah.republika.co.id/berita/tobesv430/gerakan-lgbt-di-aksi-womens-march-kemenag-ajak-jaga-nilai-dan-etika-bangsa",
+      "sources": [
+        "Republika"
+      ],
+      "originalTitle": "Gerakan LGBT di Aksi Women's March, Kemenag Ajak Jaga Nilai dan Etika Bangsa",
+      "originalDescription": "JAKARTA — Sekretaris Jenderal Kementerian Agama (Sekjen Kemenag), Kamaruddin Amin mengecam tindakan ciuman sesama laki-laki kaum LGBTQ dalam rangkaian aksi Women's March Jakarta pada Sabtu (7/11/2026) kemarin. Ia pun...",
+      "originalLanguage": "id",
+      "translated": false
     },
     {
       "id": "013047f4181a5593",
@@ -132,7 +204,14 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-11T01:52:35+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/tobejn483/menhaj-ungkap-sejumlah-usulan-diterima-saudi-dalam-mou-persiapan-haji-2027"
+      "originalUrl": "https://khazanah.republika.co.id/berita/tobejn483/menhaj-ungkap-sejumlah-usulan-diterima-saudi-dalam-mou-persiapan-haji-2027",
+      "sources": [
+        "Republika"
+      ],
+      "originalTitle": "Menhaj Ungkap Sejumlah Usulan Diterima Saudi dalam MoU Persiapan Haji 2027",
+      "originalDescription": "JEDDAH — Menteri Haji dan Umrah Republik Indonesia, Mochamad Irfan Yusuf, menyampaikan bahwa sejumlah usulan Indonesia terkait penyelenggaraan ibadah haji 1448 H/2027 M telah diterima oleh Pemerintah Arab Saudi....",
+      "originalLanguage": "id",
+      "translated": false
     },
     {
       "id": "790f281dad5be8fc",
@@ -150,7 +229,11 @@
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/all-i-can-do-hug-my-children-and-cry-palestinians-gaza-face-deadly",
       "sources": [
         "Middle East Eye"
-      ]
+      ],
+      "originalTitle": "‘All I can do is hug my children and cry’: Palestinians in Gaza face deadly winter floods",
+      "originalDescription": "‘All I can do is hug my children and cry’: Palestinians in Gaza face deadly winter floods On MEE Live, Palestinian journalist Nada Nabil spoke to MEE journalist James Schneider about how heavy rains and flooding are worsening conditions for displaced families in Gaza, where many are living in tents and damaged homes. Nabil said people who would normally welcome the rain are now afraid of it. She recounted how one mother told her that all she could do was hug her children, cry and promise them better days when the sun returned. The flooding comes as Palestinians in Gaza continue to face the consequences of Israel’s restrictions on humanitarian aid entering Gaza. Despite the ceasefire, Israel continues to obstruct the entry of essential supplies, including tents, blankets and materials needed to repair damaged infrastructure. On MEE Live, Palestinian journalist Nada Nabil spoke to MEE journalist James Schneider about how heavy rains and flooding are worsening conditions for displaced families in Gaza, where many are living in tents and damaged homes. https://t.co/74Zd01uf8u — Middle East Eye (@MiddleEastEye) November 10, 2026",
+      "originalLanguage": "en",
+      "translated": false
     },
     {
       "id": "1b087f9b0b73343b",
@@ -168,7 +251,11 @@
       "originalUrl": "https://khazanah.republika.co.id/berita/toba5s483/wamenhaj-sebut-penipu-haji-dan-umrah-sebagai-bandit-agama",
       "sources": [
         "Republika"
-      ]
+      ],
+      "originalTitle": "Wamenhaj Sebut Penipu Haji dan Umrah Sebagai Bandit Agama",
+      "originalDescription": "JAKARTA — Wakil Menteri Haji dan Umrah (Wamenhaj) Dahnil Anzar Simanjuntak menyebut para pelaku penipuan penyelenggaraan ibadah haji dan umrah sebagai bandit agama. Mereka dinilai memanfaatkan tingginya semangat spiritualitas...",
+      "originalLanguage": "id",
+      "translated": false
     },
     {
       "id": "7ddbffafbc3e1831",
@@ -201,7 +288,11 @@
       "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/10/massive-fire-as-israeli-settlers-burn-down-business-near-nablus",
       "sources": [
         "Al Jazeera"
-      ]
+      ],
+      "originalTitle": "Massive fire as Israeli settlers burn down business near Nablus",
+      "originalDescription": "Israeli settlers have set fire to Palestinian property in the village of Luban ash-Sharqiya, near Nablus.",
+      "originalLanguage": "en",
+      "translated": false
     },
     {
       "id": "a782bc3aba7cebd1",
@@ -219,7 +310,11 @@
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/japan-pledges-197m-support-gaza-health-response",
       "sources": [
         "Middle East Eye"
-      ]
+      ],
+      "originalTitle": "Japan pledges $1.97m to support Gaza health response",
+      "originalDescription": "Japan pledges $1.97m to support Gaza health response Japan signed an agreement with the World Health Organisation on Tuesday to provide approximately $1.97 million to support the health response in Gaza, Wafa reported, citing Japan’s representative office to Palestine. The agreement was signed in Ramallah by Japan’s representative to Palestine, Katsuhiko Araike, and WHO representative in the occupied Palestinian territory, Reinhilde Van De Weerdt. A key component of the grant is the establishment of an Emergency Medical Team (EMT) coordination cell within the Ministry’s Emergency Operations Centre in Gaza City, the report said.",
+      "originalLanguage": "en",
+      "translated": false
     },
     {
       "id": "31784fd7eb02a748",
@@ -237,7 +332,11 @@
       "originalUrl": "https://www.middleeasteye.net/news/us-house-democrat-leader-jeffries-will-retain-position-despite-opposition-sources-say",
       "sources": [
         "Middle East Eye"
-      ]
+      ],
+      "originalTitle": "US House Democrat leader Jeffries will retain position despite opposition, sources say",
+      "originalDescription": "US House Democrat leader Jeffries will retain position despite opposition, sources say Submitted by Yasmine El-Sabawi on Tue, 11/10/2026 - 19:15 In the Senate, unless progressive-backed Chris Van Hollen formally steps up to unite the ranks as a challenger, Chuck Schumer will likely win The leader of the House Democrats, New York Congressman Hakeem Jeffries, right, speaks to reporters alongside the leader of the Senate Democrats, New York Senator Chuck Schumer, on the steps of the US Senate on 21 May 2026 in Washington, DC (Win McNamee/Getty Images via AFP) Off The top Democrat in the House of Representatives, Hakeem Jeffries, is all but certain to become the next Speaker of the House, despite dissatisfaction among some freshman lawmakers and their progressive colleagues in the chamber, sources have told Middle East Eye. There simply is no alternative leader in the running. \"It's a cost to go against someone who will eventually be the leader of the caucus. There's not enough people who are willing to do that,\" one source said. This comes as many voters have expressed their desire to see Jeffries vacate the position, accusing him of being out of step with the party's growing leftist progressive wing, which wants to see money out of politics, and a stop to the transfer of weapons to Israel. New lawmakers are looking to work with him instead, three sources familiar with the internal process on Capitol Hill confirmed to MEE. The 56-year-old Jeffries is backed by pro-Israel lobbying groups and has made it clear he is an avowed protector of Israel . He has also received substantial financial support from a litany of big corporations , including tech and weapons manufacturers. Perhaps most importantly, his candidacy in his New York district and his leadership bid were endorsed by progressive kingmaker and New York City Mayor Zohran Mamdani - much to the chagrin of Mamdani's own supporters. Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures R",
+      "originalLanguage": "en",
+      "translated": false
     },
     {
       "id": "5562e87769f3fa2e",
@@ -255,7 +354,11 @@
       "originalUrl": "https://www.middleeasteye.net/news/petition-opposing-hakeem-jeffries-us-house-speaker-passes-one-million-signatures",
       "sources": [
         "Middle East Eye"
-      ]
+      ],
+      "originalTitle": "Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures",
+      "originalDescription": "Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures Submitted by Mounira Elsamra on Tue, 11/10/2026 - 19:08 Jeffries is expected to become the first Black speaker when the new Congress convenes in January US House of Representatives Minority Leader Hakeem Jeffries speaks during a press conference at the US Capitol in Washington, DC, on 9 November 2026 (Jim Watson/AFP) Off More than a million people have signed a petition urging Democrats to reject Hakeem Jeffries as the next Speaker of the US House of Representatives, as growing opposition to his leadership puts his support for Israel and US foreign policy under renewed scrutiny. Jeffries, who currently leads the House Democrats, is expected to become the first Black speaker when the new Congress convenes in January, after the Democrats' sweeping midterm victories on 3 November. But Jeffries is not the speaker-elect yet. He confirmed his candidacy last week, but his colleagues must elect him later this month. Jeffries stands currently uncontested, with no other Democratic lawmaker throwing their hat in the ring for the position. While no one in the party has come forward to run against Jeffries, several newly elected lawmakers have voiced reservations about his policy positions, casting doubt on whether or not they will endorse him. Some voters and influencers have mobilised, with dozens of viral videos urging citizens to call their representatives and sign the petition against Jeffries. “We believe the Speaker should represent the Democratic voters, not just the Democratic establishment,” says the petition put forward by social media influencer Nicole Whitted . The petition calls on representatives to examine Jeffries' public record, policy positions, campaign donor record, and leadership. 'It’s not enough to criticise the war we need to defund it' - Etan Mabourakh, National Iranian American Council An Economist/YouGov poll published last month found that Jeffries had just a 26 perce",
+      "originalLanguage": "en",
+      "translated": false
     },
     {
       "id": "aa63a602b6db429c",
@@ -273,7 +376,11 @@
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/france-shifting-blame-cyberattack-supermarket-fridges-iran-says",
       "sources": [
         "Middle East Eye"
-      ]
+      ],
+      "originalTitle": "France is ‘shifting blame’ for cyberattack on supermarket fridges, Iran says",
+      "originalDescription": "France is ‘shifting blame’ for cyberattack on supermarket fridges, Iran says Iran’s Foreign Minister Abbas Araghchi said France is “shifting blame for its failures” by accusing an IRGC-affiliated cyber unit of hacking supermarket fridges earlier in October. “Unable to manage fridges let alone addressing grievances of its people, French government is shifting blame for its failures onto others,\" Araghchi said in a post on X. “Yes, Iran is powerful. But unlike France, we do not exercise power via support for massacres in Gaza or bombings of schools and hospitals,\" he said. Unable to manage fridges let alone addressing grievances of its people, French government is shifting blame for its failures onto others. Yes, Iran is powerful. But unlike France, we do not exercise power via support for massacres in Gaza or bombings of schools and hospitals. — Seyed Abbas Araghchi (@araghchi) November 10, 2026",
+      "originalLanguage": "en",
+      "translated": false
     },
     {
       "id": "bbf8c1042f97909b",
@@ -292,7 +399,11 @@
       "sources": [
         "Middle East Eye",
         "Al Jazeera"
-      ]
+      ],
+      "originalTitle": "F1 star Lewis Hamilton visits Gaza border",
+      "originalDescription": "F1 star Lewis Hamilton visits Gaza border Formula One star Lewis Hamilton visited Egypt's Rafah border crossing on Tuesday and met aid workers delivering assistance to the war-battered Gaza Strip, according to an Egyptian government statement. North Sinai governor \"Khaled Megawer took Lewis Hamilton on a visit to the Rafah land crossing to learn about the Egyptian efforts to support the Palestinian brothers in the Gaza Strip\", the statement read. Video shared by Megawer's office showed the seven-time world champion greeting aid workers and learning about their efforts to get supplies into Gaza, where this week heavy rains swept away tens of thousands of tents. According to a truce struck by Israel and Hamas last year, at least 600 trucks of aid per day should enter Gaza, where more than two million people are facing a severe humanitarian crisis. Aid workers say only a fraction of that amount is being allowed through by Israeli authorities, who control all entry into the territory. Ferrari's Formula One world champion Lewis Hamilton speaks with North Sinai Governor Khaled Megawer during his visit to the Rafah border crossing between Egypt and the Gaza Strip to see firsthand efforts to receive humanitarian and relief aid bound for the Gaza Strip, in Rafah, Egypt, 10 November 2026 (Reuters)",
+      "originalLanguage": "en",
+      "translated": false
     },
     {
       "id": "f03922da3ddc1a93",
@@ -312,7 +423,11 @@
       "originalUrl": "https://www.middleeasteye.net/opinion/michigan-election-how-abdul-el-sayeds-critics-smeared-his-defence-palestinians-hate",
       "sources": [
         "Middle East Eye"
-      ]
+      ],
+      "originalTitle": "Michigan election: How Abdul El-Sayed's critics smeared his defence of Palestinians as 'hate'",
+      "originalDescription": "Michigan election: How Abdul El-Sayed's critics smeared his defence of Palestinians as 'hate' Submitted by Murad Idris on Fri, 11/06/2026 - 20:51 By attacking his motives, the senator-elect's opponents turned a debate over US funding for Israel's genocide in Gaza into a trial of his character Abdul El-Sayed (left) won Michigan’s US Senate seat on 3 November, two days after Haley Stevens (centre), the Democrat he beat in the primary, endorsed his Republican opponent Mike Rogers (right) (Jeff Kowalsky, Jim Watson and Blake Fagan/AFP) Off In his victory speech last week, Abdulrahman El-Sayed , the first Muslim American elected to the US Senate, said \"hate\" or \"hateful\" five times, and each time the word did something different. He recalled supporters asking why he never called his opponents hateful. Those opponents, he said, \"hate the idea\" of an America big enough for people who pray differently. He told Mike Rogers, the Republican he had just beaten, \"You chose hate, and Michigan chose hope.\" Then he turned to those who call people hateful for believing that Palestinian children should not be killed with American tax dollars: \" That's not hate . It's love.\" In one speech, Sayed declined the word \"hate\", turned it around, used it as a weapon and refused it as a name. The rhetoric of hate is the currency of American politics . It gets minted, exchanged and spent, and it buys moral standing, which converts into votes and endorsements . Everyone trades in it, including the man it was aimed at, but its real value is sorting groups into those accused of hate and those who make the accusation. Follow its circulation through Michigan. \"Hate\" hounded Sayed throughout his campaign. Rogers regularly denounced his \"hateful ideology\". One Democrat told CNN he could not vote for Sayed \"because I'm against hate\". Democratic Congresswoman Haley Stevens, whom Sayed beat in the primary, switched her endorsement to Rogers, \"choosing country over hate \". She announced it after attending",
+      "originalLanguage": "en",
+      "translated": false
     },
     {
       "id": "d84592a7dca61ba6",
@@ -330,7 +445,11 @@
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-fire-kills-seven-including-father-and-son-gaza-medics-say",
       "sources": [
         "Middle East Eye"
-      ]
+      ],
+      "originalTitle": "Israeli fire kills seven, including a father and son, in Gaza",
+      "originalDescription": "Israeli fire kills seven, including a father and son, in Gaza Israeli forces killed at least seven Palestinians, including a father and his 13-year-old son, in the Gaza Strip on Tuesday, local health officials said. Medics said Fadi Rajab and his son Abubakr were killed in an air strike that hit the roof of a displacement shelter in the Zeitoun neighbourhood in Gaza City. A third Palestinian was killed in an Israeli air strike near a school in Gaza City's Daraj neighbourhood, health officials added. In Khan Younis, in southern Gaza, Israeli gunfire killed a man, medics said. Later on Tuesday, an Israeli air strike hit a metal foundry in the Sabra neighbourhood of Gaza City, killing three people, medics said, taking the day's death toll to at least seven.",
+      "originalLanguage": "en",
+      "translated": false
     },
     {
       "id": "b6c55126abcb0c9e",
@@ -425,7 +544,14 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-10T15:30:01+00:00",
-      "originalUrl": "https://www.nu.or.id/internasional/hujan-rendam-puluhan-ribu-tenda-ancam-tempat-tinggal-dua-juta-warga-gaza-saat-musim-dingin-n0ubz"
+      "originalUrl": "https://www.nu.or.id/internasional/hujan-rendam-puluhan-ribu-tenda-ancam-tempat-tinggal-dua-juta-warga-gaza-saat-musim-dingin-n0ubz",
+      "sources": [
+        "NU Online"
+      ],
+      "originalTitle": "Hujan Rendam Puluhan Ribu Tenda, Ancam Tempat Tinggal Dua Juta Warga Gaza saat Musim Dingin",
+      "originalDescription": "Kemlu Palestina memperingatkan ancaman bencana kemanusiaan di Gaza menjelang musim dingin. Puluhan ribu tenda pengungsi dilaporkan terendam hujan.",
+      "originalLanguage": "id",
+      "translated": false
     },
     {
       "id": "6e4490013d24e5b3",
@@ -443,7 +569,11 @@
       "originalUrl": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_campaign=rss&at_medium=RSS",
       "sources": [
         "BBC World"
-      ]
+      ],
+      "originalTitle": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
+      "originalDescription": "The group, formed by Trump, issues rare criticism of Israel, while also blaming Hamas for the suffering of civilians in Gaza.",
+      "originalLanguage": "en",
+      "translated": false
     },
     {
       "id": "e26cc43fefa2a58c",
@@ -458,7 +588,14 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-10T15:00:22+00:00",
-      "originalUrl": "https://www.nu.or.id/nasional/ditetapkan-pahlawan-nasional-ini-peran-kh-abbas-buntet-ulama-dalam-pertempuran-10-november-0Dmwl"
+      "originalUrl": "https://www.nu.or.id/nasional/ditetapkan-pahlawan-nasional-ini-peran-kh-abbas-buntet-ulama-dalam-pertempuran-10-november-0Dmwl",
+      "sources": [
+        "NU Online"
+      ],
+      "originalTitle": "Ditetapkan Pahlawan Nasional, Ini Peran KH Abbas Buntet Ulama dalam Pertempuran 10 November",
+      "originalDescription": "KH Abbas Abdul Jamil dianugerahi Pahlawan Nasional 2026. Keluarga berharap perjuangannya menginspirasi generasi penerus mengisi kemerdekaan.",
+      "originalLanguage": "id",
+      "translated": false
     },
     {
       "id": "6724b791d22fd143",
@@ -518,7 +655,14 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-10T13:05:45+00:00",
-      "originalUrl": "https://www.nu.or.id/opini/kh-yusuf-hasyim-pahlawan-nasional-kiai-pejuang-yang-gigih-mengabdi-TiWMN"
+      "originalUrl": "https://www.nu.or.id/opini/kh-yusuf-hasyim-pahlawan-nasional-kiai-pejuang-yang-gigih-mengabdi-TiWMN",
+      "sources": [
+        "NU Online"
+      ],
+      "originalTitle": "KH Yusuf Hasyim: Pahlawan Nasional, Kiai Pejuang yang Gigih Mengabdi",
+      "originalDescription": "KH Yusuf Hasyim pejuang sejati yang konsisten mengabdi sejak remaja hingga usia lanjut. Teladan hidupnya membuktikan ketulusan dalam merawat umat.",
+      "originalLanguage": "id",
+      "translated": false
     },
     {
       "id": "efc297549274c20d",
@@ -631,7 +775,11 @@
       "originalUrl": "https://www.bbc.co.uk/news/articles/cqpvgv318yyeo?at_campaign=rss&at_medium=RSS",
       "sources": [
         "BBC World"
-      ]
+      ],
+      "originalTitle": "Israeli forces kill Palestinian boy in West Bank, health ministry says",
+      "originalDescription": "The Israeli military says its soldiers opened fire at individuals “who intended to hurl stones” at a road used by Israelis.",
+      "originalLanguage": "en",
+      "translated": false
     },
     {
       "id": "f7bdce4caa5e6c84",
@@ -695,7 +843,11 @@
       "sources": [
         "Muhammadiyah Org",
         "Muhammadiyah"
-      ]
+      ],
+      "originalTitle": "Majukan Muhammadiyah dari Akar Rumput, LPCRPM Dorong PDM Lebih Peduli Cabang dan Ranting",
+      "originalDescription": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Lembaga Pengembangan Cabang Ranting dan Pembinaan Masjid (LPRCPM) Pimpinan Pusat (PP) Muhammadiyah mendorong Pimpinan Daerah Muhammadiyah (PDM) untuk meningkatkan perhatian kepada Cabang, Ranting, dan Masjid Muhammadiyah. Menurut Ketua LPCRPM PP Muhammadiyah, Jamaluddin Ahmad, kemajuan suatu daerah yang memiliki keselarasan dengan majunya tingkatan pimpinan di bawahnya. Mengambil contoh PDM Gunungkidul, Jamal menyebut wajah […] The post Majukan Muhammadiyah dari Akar Rumput, LPCRPM Dorong PDM Lebih Peduli Cabang dan Ranting appeared first on Muhammadiyah .",
+      "originalLanguage": "id",
+      "translated": false
     },
     {
       "id": "4d70bd7a6b9c72bc",
@@ -728,7 +880,11 @@
       "originalUrl": "https://khazanah.republika.co.id/berita/to9xur490/deddy-corbuzier-dan-rumah-zakat-salurkan-5000-liter-air-siap-minum-untuk-warga-terdampak-karhutla",
       "sources": [
         "Republika"
-      ]
+      ],
+      "originalTitle": "Deddy Corbuzier dan Rumah Zakat Salurkan 5.000 Liter Air Siap Minum untuk Warga Terdampak Karhutla",
+      "originalDescription": "PONTIANAK — Deddy Corbuzier bersama Rumah Zakat menyalurkan 5.000 liter air siap minum untuk membantu warga terdampak kebakaran hutan dan lahan (karhutla) di Rusun Harapan Jaya, Pontianak Selatan, Kalimantan...",
+      "originalLanguage": "id",
+      "translated": false
     },
     {
       "id": "63d4bca6b7d8d689",
@@ -761,7 +917,11 @@
       "originalUrl": "https://khazanah.republika.co.id/berita/to9wu8490/rumah-zakat-terima-apresiasi-mitra-dari-direktorat-kemahasiswaan-itb-tahun-2026",
       "sources": [
         "Republika"
-      ]
+      ],
+      "originalTitle": "Rumah Zakat Terima Apresiasi Mitra dari Direktorat Kemahasiswaan ITB Tahun 2026",
+      "originalDescription": "BANDUNG – Rumah Zakat menerima apresiasi dan penghargaan dari Direktorat Kemahasiswaan Institut Teknologi Bandung (ITB) atas kontribusinya dalam mendukung berbagai program kemahasiswaan. Penghargaan tersebut diberikan dalam kegiatan Apresiasi Mitra...",
+      "originalLanguage": "id",
+      "translated": false
     },
     {
       "id": "43bad8162aa31155",
@@ -776,7 +936,14 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-10T06:30:22+00:00",
-      "originalUrl": "https://www.nu.or.id/nasional/mui-tetapkan-vape-haram-dorong-pemerintah-susun-aturan-larangan-juEWx"
+      "originalUrl": "https://www.nu.or.id/nasional/mui-tetapkan-vape-haram-dorong-pemerintah-susun-aturan-larangan-juEWx",
+      "sources": [
+        "NU Online"
+      ],
+      "originalTitle": "MUI Tetapkan Vape Haram, Dorong Pemerintah Susun Aturan Larangan",
+      "originalDescription": "MUI menetapkan vape haram karena membahayakan kesehatan. Pemerintah didesak menyusun undang-undang larangan beserta sanksinya.",
+      "originalLanguage": "id",
+      "translated": false
     },
     {
       "id": "43e4ba29bdf50246",
@@ -806,7 +973,14 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-10T04:30:27+00:00",
-      "originalUrl": "https://www.nu.or.id/nasional/hari-pahlawan-rais-pbnu-teladani-perjuangan-pendahulu-lanjutkan-pengabdian-untuk-negeri-SQQR7"
+      "originalUrl": "https://www.nu.or.id/nasional/hari-pahlawan-rais-pbnu-teladani-perjuangan-pendahulu-lanjutkan-pengabdian-untuk-negeri-SQQR7",
+      "sources": [
+        "NU Online"
+      ],
+      "originalTitle": "Hari Pahlawan, Rais PBNU: Teladani Perjuangan Pendahulu, Lanjutkan Pengabdian untuk Negeri",
+      "originalDescription": "Masyarakat perlu teruskan semangat Resolusi Jihad melalui pendidikan, ekonomi, keadilan sosial. Pesantren dapat berpera menjawab tantangan kebangsaan.",
+      "originalLanguage": "id",
+      "translated": false
     },
     {
       "id": "61166f528925ecb3",
@@ -854,7 +1028,14 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-10T03:30:00+00:00",
-      "originalUrl": "https://www.nu.or.id/nasional/kemenhaj-buka-pelunasan-bipih-haji-reguler-mulai-10-november-2026-edQQ9"
+      "originalUrl": "https://www.nu.or.id/nasional/kemenhaj-buka-pelunasan-bipih-haji-reguler-mulai-10-november-2026-edQQ9",
+      "sources": [
+        "NU Online"
+      ],
+      "originalTitle": "Kemenhaj Buka Pelunasan Bipih Haji Reguler Mulai 10 November 2026",
+      "originalDescription": "Kemenhaj membuka pelunasan Bipih haji reguler 1448 H/2027 M mulai 10 November 2026. Pelunasan tahap pertama berlangsung hingga 10 Desember 2026.",
+      "originalLanguage": "id",
+      "translated": false
     },
     {
       "id": "1bd74929ce67ab98",
@@ -872,7 +1053,11 @@
       "originalUrl": "https://khazanah.republika.co.id/berita/to9liy483/putra-bungsu-pendiri-nu-kh-yusuf-hasyim-dianugerahi-pahlawan-nasional",
       "sources": [
         "Republika"
-      ]
+      ],
+      "originalTitle": "Putra Bungsu Pendiri NU KH Yusuf Hasyim Dianugerahi Pahlawan Nasional",
+      "originalDescription": "JAKARTA — Presiden RI Prabowo Subianto menganugerahkan gelar Pahlawan Nasional kepada KH Muhammad Yusuf Hasyim atau yang akrab disapa Pak Ud. Putra bungsu pendiri Nahdlatul Ulama (NU), Hadratussyaikh KH...",
+      "originalLanguage": "id",
+      "translated": false
     },
     {
       "id": "74ebd4ca37cb6b06",
@@ -992,7 +1177,11 @@
       "originalUrl": "https://khazanah.republika.co.id/berita/to8n3t423/pemerintah-umumkan-biaya-pelunasan-haji-2027-per-embarkasi-ini-perinciannya",
       "sources": [
         "Republika"
-      ]
+      ],
+      "originalTitle": "Pemerintah Umumkan Biaya Pelunasan Haji 2027 per Embarkasi, Ini Perinciannya",
+      "originalDescription": "JAKARTA -- Pemerintah melalui Kementerian Haji dan Umrah mengumumkan besaran pelunasan Biaya Perjalanan Ibadah Haji (Bipih) 1448 Hijriah/2027 Masehi yang harus dibayarkan jamaah berdasarkan embarkasi keberangkatan. “Kami mengimbau jamaah haji...",
+      "originalLanguage": "id",
+      "translated": false
     },
     {
       "id": "93eba80e8f5a69cd",
@@ -1025,7 +1214,14 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-09T11:42:55+00:00",
-      "originalUrl": "https://www.nu.or.id/opini/menjadi-kiblat-demokrasi-dunia-islam-1wAge"
+      "originalUrl": "https://www.nu.or.id/opini/menjadi-kiblat-demokrasi-dunia-islam-1wAge",
+      "sources": [
+        "NU Online"
+      ],
+      "originalTitle": "Menjadi Kiblat Demokrasi Dunia Islam",
+      "originalDescription": "Indonesia bisa jadi jembatan perdamaian dunia. Mari jadikan demokrasi sebagai jalan terang kemanusiaan.",
+      "originalLanguage": "id",
+      "translated": false
     },
     {
       "id": "ac5cb27b5f7c0a7f",
@@ -1419,7 +1615,11 @@
       "originalUrl": "https://www.antaranews.com/berita/5809067/cara-menghitung-zakat-akhir-tahun-2026-dan-contoh-nominalnya",
       "sources": [
         "ANTARA Humaniora"
-      ]
+      ],
+      "originalTitle": "Cara menghitung zakat akhir tahun 2026 dan contoh nominalnya",
+      "originalDescription": "Istilah zakat akhir tahun umumnya merujuk pada kebiasaan mengevaluasi harta menjelang pergantian tahun untuk memastikan ...",
+      "originalLanguage": "id",
+      "translated": false
     }
   ]
 }
