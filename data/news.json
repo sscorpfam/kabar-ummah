@@ -1,6 +1,6 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-11T07:48:04.492174+00:00",
+  "lastUpdated": "2026-11-11T08:07:32.492141+00:00",
   "total": 82,
   "newArticles": 0,
   "sourcesChecked": 10,
@@ -100,7 +100,7 @@
     {
       "name": "NU Online",
       "status": "success",
-      "raw": 47,
+      "raw": 48,
       "accepted": 0,
       "filtered": 0,
       "translated": 0,
