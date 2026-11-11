@@ -1978,7 +1978,11 @@ def fetch_source(source, categories):
 
             # 4. Terjemahkan sebelum kategorisasi
 
-            
+            translation = translate_article(
+    original_title,
+    original_description,
+    source_language
+)
 
             title = translation["title"]
 
