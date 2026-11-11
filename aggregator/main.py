@@ -2493,6 +2493,7 @@ def article_quality(article):
     )
 
 
+
 def merge_duplicate_metadata(
     preferred,
     other
@@ -2500,25 +2501,201 @@ def merge_duplicate_metadata(
 
     result = dict(preferred)
 
-    # DESCRIPTION TERLENGKAP
+    # =============================================
+    # 1. FUNGSI PEMERIKSA STATUS TERJEMAHAN
+    # =============================================
 
-    preferred_description = clean_text(
-        result.get("description", "")
-    )
+    def is_translation_success(article):
 
-    other_description = clean_text(
-        other.get("description", "")
-    )
+        if not isinstance(article, dict):
+            return False
 
-    if len(other_description) > len(
-        preferred_description
-    ):
+        status = str(
+            article.get("translationStatus", "")
+        ).lower().strip()
 
-        result["description"] = (
-            other_description[:2000]
+        language = str(
+            article.get("language", "")
+        ).lower().strip()
+
+        translated = article.get("translated", False)
+
+        return (
+            translated is True
+            and language == "id"
+            and status in ("success", "")
         )
 
-    # GAMBAR
+    preferred_success = is_translation_success(
+        preferred
+    )
+
+    other_success = is_translation_success(
+        other
+    )
+
+    # =============================================
+    # 2. PILIH METADATA TERJEMAHAN TERBAIK
+    # =============================================
+
+    if other_success and not preferred_success:
+
+        # Artikel lain memiliki terjemahan berhasil,
+        # sedangkan artikel utama belum berhasil.
+
+        for key in (
+            "title",
+            "description",
+            "originalTitle",
+            "originalDescription",
+            "originalLanguage",
+            "language",
+            "translated",
+            "translationStatus"
+        ):
+
+            if key in other:
+                result[key] = other[key]
+
+    elif preferred_success and other_success:
+
+        # Keduanya berhasil diterjemahkan.
+        # Pertahankan terjemahan yang dipilih sebagai utama.
+
+        preferred_description = clean_text(
+            preferred.get("description", "")
+        )
+
+        other_description = clean_text(
+            other.get("description", "")
+        )
+
+        if len(other_description) > len(
+            preferred_description
+        ):
+
+            result["description"] = (
+                other_description[:2000]
+            )
+
+    elif not preferred_success and not other_success:
+
+        # Tidak ada terjemahan yang berhasil.
+        # Jangan menganggap artikel sudah berbahasa Indonesia.
+
+        preferred_description = clean_text(
+            preferred.get("description", "")
+        )
+
+        other_description = clean_text(
+            other.get("description", "")
+        )
+
+        if len(other_description) > len(
+            preferred_description
+        ):
+
+            result["description"] = (
+                other_description[:2000]
+            )
+
+        # Pertahankan status partial jika ada.
+
+        statuses = [
+            str(article.get("translationStatus", "")).lower()
+            for article in (preferred, other)
+        ]
+
+        if "partial" in statuses:
+
+            result["translationStatus"] = "partial"
+            result["translated"] = False
+
+        elif "failed" in statuses:
+
+            result["translationStatus"] = "failed"
+            result["translated"] = False
+
+        # Normalisasi bahasa untuk artikel Inggris.
+
+        original_language = str(
+            result.get(
+                "originalLanguage",
+                result.get("language", "id")
+            ) or "id"
+        ).lower().strip()
+
+        if original_language in (
+            "en",
+            "eng",
+            "english"
+        ):
+
+            result["originalLanguage"] = "en"
+            result["language"] = "en"
+            result["translated"] = False
+
+    # =============================================
+    # 3. PERTAHANKAN JUDUL ASLI
+    # =============================================
+
+    if not result.get("originalTitle"):
+
+        result["originalTitle"] = (
+            other.get("originalTitle")
+            or other.get("title", "")
+        )
+
+    # =============================================
+    # 4. PERTAHANKAN DESKRIPSI ASLI TERLENGKAP
+    # =============================================
+
+    preferred_original_description = clean_text(
+        result.get("originalDescription", "")
+    )
+
+    other_original_description = clean_text(
+        other.get("originalDescription", "")
+    )
+
+    if len(other_original_description) > len(
+        preferred_original_description
+    ):
+
+        result["originalDescription"] = (
+            other_original_description[:2000]
+        )
+
+    elif not preferred_original_description:
+
+        result["originalDescription"] = (
+            other_original_description
+        )
+
+    # =============================================
+    # 5. PERTAHANKAN BAHASA ASLI
+    # =============================================
+
+    if not result.get("originalLanguage"):
+
+        result["originalLanguage"] = (
+            other.get("originalLanguage")
+            or other.get("language", "id")
+        )
+
+    # =============================================
+    # 6. NORMALISASI STATUS TERJEMAHAN
+    # =============================================
+
+    if is_translation_success(result):
+
+        result["translated"] = True
+        result["translationStatus"] = "success"
+        result["language"] = "id"
+
+    # =============================================
+    # 7. GAMBAR TERBAIK
+    # =============================================
 
     if (
         not result.get("image")
@@ -2527,7 +2704,9 @@ def merge_duplicate_metadata(
 
         result["image"] = other["image"]
 
-    # TAG
+    # =============================================
+    # 8. TAG
+    # =============================================
 
     tags = []
 
@@ -2536,12 +2715,14 @@ def merge_duplicate_metadata(
         + (other.get("tags") or [])
     ):
 
-        if tag not in tags:
+        if tag and tag not in tags:
             tags.append(tag)
 
     result["tags"] = tags
 
-    # SUMBER MEDIA
+    # =============================================
+    # 9. SUMBER MEDIA
+    # =============================================
 
     sources = []
 
@@ -2556,35 +2737,37 @@ def merge_duplicate_metadata(
             sources.append(source)
 
     if sources:
+
         result["sources"] = sources
 
-    # PERTAHANKAN INFORMASI BAHASA ASLI
+    # =============================================
+    # 10. PERTAHANKAN SUMBER UTAMA
+    # =============================================
 
-    if not result.get("originalTitle"):
+    if not result.get("source"):
 
-        result["originalTitle"] = (
-            other.get("originalTitle", "")
+        result["source"] = other.get(
+            "source",
+            ""
         )
 
-    if not result.get("originalDescription"):
+    # =============================================
+    # 11. PERTAHANKAN URL
+    # =============================================
 
-        result["originalDescription"] = (
-            other.get("originalDescription", "")
+    if not result.get("originalUrl"):
+
+        result["originalUrl"] = other.get(
+            "originalUrl",
+            ""
         )
 
-    if not result.get("originalLanguage"):
-
-        result["originalLanguage"] = (
-            other.get("originalLanguage", "")
-        )
-
-    if result.get("translated") is None:
-
-        result["translated"] = (
-            other.get("translated", False)
-        )
+    # =============================================
+    # 12. KEMBALIKAN HASIL
+    # =============================================
 
     return result
+
 
 
 # =========================================================
