@@ -1,118 +1,118 @@
 {
-  "status": "partial",
-  "lastUpdated": "2026-11-11T02:56:28.527003+00:00",
+  "status": "success",
+  "lastUpdated": "2026-11-11T03:20:53.283731+00:00",
   "total": 82,
-  "newArticles": 33,
+  "newArticles": 0,
   "sourcesChecked": 10,
-  "sourcesSucceeded": 9,
-  "sourcesFailed": 1,
+  "sourcesSucceeded": 10,
+  "sourcesFailed": 0,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 3,
-      "filtered": 22,
-      "translated": 25,
+      "accepted": 0,
+      "filtered": 0,
+      "translated": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "name 'translation' is not defined"
     },
     {
       "name": "BBC World",
       "status": "success",
       "raw": 38,
-      "accepted": 2,
-      "filtered": 36,
-      "translated": 38,
+      "accepted": 0,
+      "filtered": 0,
+      "translated": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "name 'translation' is not defined"
     },
     {
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 8,
-      "filtered": 7,
+      "accepted": 0,
+      "filtered": 0,
       "translated": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "name 'translation' is not defined"
     },
     {
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 3,
-      "filtered": 47,
+      "accepted": 0,
+      "filtered": 0,
       "translated": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "name 'translation' is not defined"
     },
     {
       "name": "ANTARA Dunia",
       "status": "success",
       "raw": 20,
       "accepted": 0,
-      "filtered": 20,
+      "filtered": 0,
       "translated": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "name 'translation' is not defined"
     },
     {
       "name": "ANTARA Humaniora",
       "status": "success",
       "raw": 20,
-      "accepted": 1,
-      "filtered": 19,
+      "accepted": 0,
+      "filtered": 0,
       "translated": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "name 'translation' is not defined"
     },
     {
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 8,
-      "filtered": 12,
-      "translated": 20,
-      "translationFailed": 0,
-      "error": null
-    },
-    {
-      "name": "Detik",
-      "status": "error",
-      "raw": 0,
       "accepted": 0,
       "filtered": 0,
       "translated": 0,
       "translationFailed": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
+      "error": "name 'translation' is not defined"
+    },
+    {
+      "name": "Detik",
+      "status": "success",
+      "raw": 100,
+      "accepted": 0,
+      "filtered": 0,
+      "translated": 0,
+      "translationFailed": 0,
+      "error": "name 'translation' is not defined"
     },
     {
       "name": "Muhammadiyah",
       "status": "success",
       "raw": 10,
-      "accepted": 1,
-      "filtered": 9,
+      "accepted": 0,
+      "filtered": 0,
       "translated": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "name 'translation' is not defined"
     },
     {
       "name": "NU Online",
       "status": "success",
       "raw": 49,
-      "accepted": 7,
-      "filtered": 42,
+      "accepted": 0,
+      "filtered": 0,
       "translated": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "name 'translation' is not defined"
     }
   ],
   "translation": {
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 83,
+    "translatedArticles": 0,
     "failedArticles": 0
   },
   "articles": [
@@ -203,11 +203,11 @@
     },
     {
       "id": "dafbe69a723620cc",
-      "title": "Protesters throw milk at Joe Biden during Hunter event in Dublin",
-      "description": "Pro-Palestinian protesters hurled milk towards Joe Biden in Ireland over his support for Israel.",
+      "title": "Pengunjuk rasa melempar susu pada Joe Biden selama acara berburu di Dublin.",
+      "description": "Protes Palestina melemparkan susu ke arah Joe Biden di Irlandia atas dukungannya untuk Israel.",
       "originalTitle": "Protesters throw milk at Joe Biden during Hunter event in Dublin",
       "originalDescription": "Pro-Palestinian protesters hurled milk towards Joe Biden in Ireland over his support for Israel.",
-      "translated": false,
+      "translated": true,
       "originalLanguage": "en",
       "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794363073.jpg?resize=1920%2C1080&quality=80",
       "category": "Palestina",
@@ -221,7 +221,8 @@
       "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/11/protesters-throw-milk-at-joe-biden-during-hunter-event-in-dublin",
       "sources": [
         "Al Jazeera"
-      ]
+      ],
+      "translationStatus": "success"
     },
     {
       "id": "bd6eb905a8f011ca",
@@ -302,7 +303,8 @@
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/all-i-can-do-hug-my-children-and-cry-palestinians-gaza-face-deadly",
       "sources": [
         "Middle East Eye"
-      ]
+      ],
+      "translationStatus": "success"
     },
     {
       "id": "1b087f9b0b73343b",
@@ -343,15 +345,15 @@
     },
     {
       "id": "2604d0e614109c5d",
-      "title": "Massive fire as Israeli settlers burn down business near Nablus",
-      "description": "Israeli settlers have set fire to Palestinian property in the village of Luban ash-Sharqiya, near Nablus.",
+      "title": "Kebakaran besar-besaran sebagai pemukim Israel membakar bisnis dekat Nablus",
+      "description": "Penduduk Israel telah membakar tanah Palestina di desa Luban ash-Sharqiya, dekat Nablus.",
       "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794353598.jpg?resize=1916%2C1080&quality=80",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Al Jazeera",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T23:33:43+00:00",
       "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/10/massive-fire-as-israeli-settlers-burn-down-business-near-nablus",
@@ -361,7 +363,8 @@
       "originalTitle": "Massive fire as Israeli settlers burn down business near Nablus",
       "originalDescription": "Israeli settlers have set fire to Palestinian property in the village of Luban ash-Sharqiya, near Nablus.",
       "originalLanguage": "en",
-      "translated": false
+      "translated": true,
+      "translationStatus": "success"
     },
     {
       "id": "a782bc3aba7cebd1",
@@ -383,12 +386,13 @@
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/japan-pledges-197m-support-gaza-health-response",
       "sources": [
         "Middle East Eye"
-      ]
+      ],
+      "translationStatus": "success"
     },
     {
       "id": "31784fd7eb02a748",
       "title": "Pemimpin Demokrat US Jeffries akan mempertahankan posisi meskipun oposisi, sumber mengatakan",
-      "description": "Pemimpin Demokrat Amerika Serikat Jeffries akan mempertahankan posisi meskipun oposisi, sumber mengatakan Diberikan oleh Yasmine El- Sabawi pada Tue, 11 / 10 / 2026 - 19: 15 Di Senat, kecuali para anggota Kongres New York Hakeem Jeffries secara resmi melangkah ke depan untuk menyatukan peringkat sebagai penantang, Chuck Schumer akan menang sebagai pemimpin Kongres New York Hakeem Jeffries, benar, berbicara kepada wartawan bersama dengan pemimpin Senat Demokrat, New York Senator Chuck Schumer, pada langkah-langkah Senat AS pada 21 Mei 2026 di Washington, DC (Win McNamee / Getty Bagines) Tidak ada pemimpin alternatif dalam pelarian. \"Ini adalah biaya untuk melawan seseorang yang akhirnya akan menjadi pemimpin dari kuucus. Tidak cukup orang yang bersedia melakukan itu\", satu sumber kata. Ini datang karena banyak pemilih telah menyatakan keinginan mereka untuk melihat Jeffries mengosongkan posisi, menuduhnya keluar dari langkah dengan partai tumbuh sayap progresif kiri, yang ingin melihat uang keluar dari politik, dan berhenti untuk transfer senjata untuk Israel. Sebagai gantinya pembuat hukum baru ingin bekerja dengannya, tiga sumber akrab dengan proses internal di Capitol Hill dikonfirmasi MeE. The 56- tahun-tua Jeffries didukung oleh pro- Israel melobi kelompok dan telah membuatnya jelas ia adalah seorang pelindung diilhami Israel. Dia juga menerima dukungan finansial yang besar dari perusahaan besar, termasuk pabrik teknologi dan senjata. Mungkin yang paling penting, pencalonannya di distrik New York dan tawaran kepemimpinannya didukung oleh pembuat raja progresif dan Walikota kota New York Zohran Mamdani - banyak ketawa dari pendukung Mamdani sendiri. Petisi menentang Hakeem Jeffries saat Speaker US House melewati satu juta tanda tangan Baca Lebih \"Mamdani sebagian besar dikreditkan dengan menetapkan gelombang muda Demokrat Sosialis meluncurkan kampanye untuk kantor. Tepat sebelum pemilihan tengah semester 3 November, polling Redbox menunjukkan hanya 19 persen dari",
+      "description": "Pemimpin Partai Demokrat Amerika Serikat Jeffries akan mempertahankan posisi meskipun oposisi, sumber mengatakan Diwariskan oleh Yasmine El- Sabawi pada Tue, 11 / 10 / 2026 - 19: 15 Di Senat, kecuali progress didukung oleh Chris Van Hollen secara resmi melangkah ke depan untuk menyatukan jajaran sebagai penantang, Chuck Schumer akan menang sebagai pemimpin DPR Demokrat, New York Kongres Hakeem Jeffries, benar, berbicara kepada wartawan bersama dengan pemimpin Senat Demokrat, New York Senator Chuck Schumer, pada langkah-langkah Senat AS pada 21 Mei 2026 di Washington, DC (Win McNamee / Getty Refairs) Tidak ada pemimpin alternatif dalam pelarian. \"Ini adalah biaya untuk pergi melawan seseorang yang akhirnya akan menjadi pemimpin caucus. Tidak cukup orang yang bersedia melakukan itu\", satu sumber kata. Ini datang karena banyak pemilih telah menyatakan keinginan mereka untuk melihat Jeffries mengosongkan posisi, menuduhnya keluar dari langkah dengan partai tumbuh sayap progresif kiri, yang ingin melihat uang keluar dari politik, dan berhenti untuk transfer senjata untuk Israel. Sebagai gantinya pembuat hukum baru ingin bekerja dengannya, tiga sumber akrab dengan proses internal di Capitol Hill dikonfirmasi MEE. The 56- tahun-tua Jeffries didukung oleh pro- Israel melobi kelompok dan telah membuatnya jelas ia adalah seorang pelindung diilhami Israel. Dia juga menerima dukungan finansial dari perusahaan besar, termasuk pabrik teknologi dan senjata. Mungkin yang paling penting, pencalonannya di distrik New York dan tawaran kepemimpinannya didukung oleh pembuat raja progresif dan Walikota kota New York Zohran Mamdani - banyak pendukungnya Mamdani sendiri. Petisi menentang Hakeem Jeffries sebagai Speaker US House melewati satu juta tanda tangan R",
       "originalTitle": "US House Democrat leader Jeffries will retain position despite opposition, sources say",
       "originalDescription": "US House Democrat leader Jeffries will retain position despite opposition, sources say Submitted by Yasmine El-Sabawi on Tue, 11/10/2026 - 19:15 In the Senate, unless progressive-backed Chris Van Hollen formally steps up to unite the ranks as a challenger, Chuck Schumer will likely win The leader of the House Democrats, New York Congressman Hakeem Jeffries, right, speaks to reporters alongside the leader of the Senate Democrats, New York Senator Chuck Schumer, on the steps of the US Senate on 21 May 2026 in Washington, DC (Win McNamee/Getty Images via AFP) Off The top Democrat in the House of Representatives, Hakeem Jeffries, is all but certain to become the next Speaker of the House, despite dissatisfaction among some freshman lawmakers and their progressive colleagues in the chamber, sources have told Middle East Eye. There simply is no alternative leader in the running. \"It's a cost to go against someone who will eventually be the leader of the caucus. There's not enough people who are willing to do that,\" one source said. This comes as many voters have expressed their desire to see Jeffries vacate the position, accusing him of being out of step with the party's growing leftist progressive wing, which wants to see money out of politics, and a stop to the transfer of weapons to Israel. New lawmakers are looking to work with him instead, three sources familiar with the internal process on Capitol Hill confirmed to MEE. The 56-year-old Jeffries is backed by pro-Israel lobbying groups and has made it clear he is an avowed protector of Israel . He has also received substantial financial support from a litany of big corporations , including tech and weapons manufacturers. Perhaps most importantly, his candidacy in his New York district and his leadership bid were endorsed by progressive kingmaker and New York City Mayor Zohran Mamdani - much to the chagrin of Mamdani's own supporters. Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures R",
       "translated": true,
@@ -405,12 +409,13 @@
       "originalUrl": "https://www.middleeasteye.net/news/us-house-democrat-leader-jeffries-will-retain-position-despite-opposition-sources-say",
       "sources": [
         "Middle East Eye"
-      ]
+      ],
+      "translationStatus": "success"
     },
     {
       "id": "5562e87769f3fa2e",
       "title": "Petisi menentang Hakeem Jeffries sebagai Speaker US House melewati satu juta tanda tangan",
-      "description": "Petisi menentang Hakeem Jeffries sebagai Speaker US House melewati satu juta tanda tangan Diberikan oleh Mounira Elsamra pada Tue, 11 / 10 / 2026 - 19: 08 Jeffries diharapkan untuk menjadi pembicara Black pertama ketika Kongres baru berkumpul di bulan Januari AS House of Perwakilan Pemimpin Minoritas Hasem Jeffries berbicara selama konferensi pers di gedung senat AS di Washington, DC, pada 9 November 2026 (Jim Watson / AFP) Off Lebih dari satu juta orang telah menandatangani petisi mendesak Demokrat untuk menolak Hakem Jeffries sebagai Ketua berikutnya dari Dewan Perwakilan AS, seperti tumbuh oposisi kepada kepemimpinannya untuk memberikan dukungan bagi Israel dan kebijakan asing. Jeffries, yang saat ini memimpin Partai Demokrat, diharapkan untuk menjadi pembicara Black pertama ketika Kongres baru berkumpul pada bulan Januari, setelah Demokrat 'menyapu pertengahan kemenangan pada 3 November. Tapi Jeffries belum bisa bicara. Dia mengkonfirmasi pencalonannya minggu lalu, tapi rekan-rekannya harus memilih dia bulan ini. Jeffries berdiri saat ini uncontested, dengan tidak ada penegak hukum Demokrat lainnya melemparkan topi mereka di atas ring untuk posisi itu. Sementara tak seorang pun di partai telah datang ke depan untuk menjalankan melawan Jeffries, beberapa anggota baru terpilih telah menyuarakan pemesanan tentang posisi kebijakan nya, melemparkan keraguan pada apakah mereka akan mendukungnya. Beberapa pemilih dan influencer telah memobilisasi, dengan puluhan video viral mendesak warga untuk memanggil perwakilan mereka dan menandatangani petisi terhadap Jeffries. \"Kami percaya Pembicara harus mewakili pemilih Demokrat, bukan hanya pembentukan Demokrat\", kata petisi diajukan oleh sosial media berpengaruh Nicole Whited. Petisi meminta perwakilan untuk memeriksa catatan publik Jeffries, posisi kebijakan, catatan kampanye donor, dan kepemimpinan. \"Ini tidak cukup untuk mengkritik perang yang kita butuhkan untuk menurunkan dana\". Kritik mengatakan bahwa satu alasan popul",
+      "description": "Petisi menentang Hakeem Jeffries sebagai Speaker US House melewati satu juta tanda tangan Diberikan oleh Mounira Elsamra pada Tue, 11 / 10 / 2026 - 19: 08 Jeffries diharapkan untuk menjadi pembicara Hitam pertama ketika Kongres baru berkumpul di bulan Januari AS House of Compeations Minority Leader Hakeem Jeffries berbicara selama konferensi pers di US Capitol di Washington, DC, pada 9 November 2026 (Jim Watson / AFP) Lebih dari satu juta orang telah menandatangani petisi mendesak Demokrat untuk menolak Hakem Jeffries sebagai Ketua berikutnya dari Perwakilan AS, sebagai semakin banyak menentang kepemimpinannya untuk mendukung Israel dan kebijakan asing. Jeffries, yang saat ini memimpin Partai Demokrat, diharapkan menjadi pembicara Black pertama ketika Kongres baru berkumpul pada bulan Januari, setelah Demokrat 'menyapu pertengahan kemenangan pada 3 November. Tapi Jeffries bukan pembicara yang dipilih. Dia mengkonfirmasi pencalonannya minggu lalu, tapi rekan-rekannya harus memilih dia bulan ini. Jeffries berdiri saat ini uncontested, dengan tidak ada penegak hukum Demokrat lainnya melemparkan topi mereka di atas ring untuk posisi itu. Sementara tak seorang pun di partai telah datang ke depan untuk menjalankan melawan Jeffries, beberapa anggota baru terpilih telah menyuarakan pemesanan tentang posisi kebijakan nya, melemparkan keraguan pada apakah mereka akan mendukung dia atau tidak. Beberapa pemilih dan influencer telah memobilisasi, dengan puluhan video viral mendesak warga untuk memanggil perwakilan mereka dan menandatangani petisi melawan Jeffries. \"Kami percaya Pembicara harus mewakili pemilih Demokrat, bukan hanya pembentukan Demokratis\", kata petisi diajukan oleh media sosial Nicole yang berpengaruh. Petisi meminta perwakilan untuk memeriksa catatan publik Jeffries, posisi kebijakan, catatan kampanye, dan kepemimpinan. \"Ini tidak cukup untuk mengkritik perang yang kita butuhkan untuk menurunkan dana itu'",
       "originalTitle": "Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures",
       "originalDescription": "Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures Submitted by Mounira Elsamra on Tue, 11/10/2026 - 19:08 Jeffries is expected to become the first Black speaker when the new Congress convenes in January US House of Representatives Minority Leader Hakeem Jeffries speaks during a press conference at the US Capitol in Washington, DC, on 9 November 2026 (Jim Watson/AFP) Off More than a million people have signed a petition urging Democrats to reject Hakeem Jeffries as the next Speaker of the US House of Representatives, as growing opposition to his leadership puts his support for Israel and US foreign policy under renewed scrutiny. Jeffries, who currently leads the House Democrats, is expected to become the first Black speaker when the new Congress convenes in January, after the Democrats' sweeping midterm victories on 3 November. But Jeffries is not the speaker-elect yet. He confirmed his candidacy last week, but his colleagues must elect him later this month. Jeffries stands currently uncontested, with no other Democratic lawmaker throwing their hat in the ring for the position. While no one in the party has come forward to run against Jeffries, several newly elected lawmakers have voiced reservations about his policy positions, casting doubt on whether or not they will endorse him. Some voters and influencers have mobilised, with dozens of viral videos urging citizens to call their representatives and sign the petition against Jeffries. “We believe the Speaker should represent the Democratic voters, not just the Democratic establishment,” says the petition put forward by social media influencer Nicole Whitted . The petition calls on representatives to examine Jeffries' public record, policy positions, campaign donor record, and leadership. 'It’s not enough to criticise the war we need to defund it' - Etan Mabourakh, National Iranian American Council An Economist/YouGov poll published last month found that Jeffries had just a 26 perce",
       "translated": true,
@@ -427,7 +432,8 @@
       "originalUrl": "https://www.middleeasteye.net/news/petition-opposing-hakeem-jeffries-us-house-speaker-passes-one-million-signatures",
       "sources": [
         "Middle East Eye"
-      ]
+      ],
+      "translationStatus": "success"
     },
     {
       "id": "aa63a602b6db429c",
@@ -449,7 +455,8 @@
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/france-shifting-blame-cyberattack-supermarket-fridges-iran-says",
       "sources": [
         "Middle East Eye"
-      ]
+      ],
+      "translationStatus": "success"
     },
     {
       "id": "bbf8c1042f97909b",
@@ -472,12 +479,13 @@
       "sources": [
         "Middle East Eye",
         "Al Jazeera"
-      ]
+      ],
+      "translationStatus": "success"
     },
     {
       "id": "f03922da3ddc1a93",
       "title": "Pemilihan Michigan: Bagaimana kritikus Abdul El- Sayed meremukkan pertahanan orang Palestina sebagai 'benci'",
-      "description": "Pemilihan Michigan: Bagaimana kritikus Abdul El- Sayed dioleskan pembelaannya terhadap Palestina sebagai 'benci' yang diturunkan oleh Murad Idris pada Fri, 11 / 06 / 2026 - 20: 51 Dengan menyerang motivasinya, lawan-lawan Senator- yang terpilih, berpaling dalam perdebatan terhadap AS pendanaan genosida Israel di Gaza menjadi persidangan karakter Abdul El- Sayed (kiri) memenangkan kursi Senat AS Michigan pada 3 November, dua hari setelah Haley Stevens (pusat), Demokrat dia mengalahkan di primer, mendukung lawan Republik-nya Mike Sayed (kanan) (Jeff Schulsky, Jim Watson dan Blake FAGP) dalam pidato kemenangannya minggu lalu, Abdullah, \"kebencian setiap kali Amerika\" Dipilih \"kata-kali\". Dia ingat para pendukung bertanya mengapa dia tidak pernah menyebut lawannya kebencian. Mereka lawan, katanya, \"benci ide\" dari Amerika cukup besar bagi orang-orang yang berdoa berbeda. Dia bilang Mike Rogers, Republik yang baru saja dia kalahkan, \"Kau memilih benci, dan Michigan memilih harapan\". Kemudian dia berpaling kepada mereka yang menyebut orang-orang kebencian karena percaya bahwa anak-anak Palestina tidak boleh dibunuh dengan uang pajak Amerika: \"Itu bukan kebencian. Ini cinta\". Dalam satu pidato, Sayed menolak kata \"benci\", mengubahnya, menggunakannya sebagai senjata dan menolaknya sebagai nama. Retorika kebencian adalah mata uang politik Amerika. Ia mendapat minted, diperdagangkan dan dibelanjakan, dan membeli berdiri moral, yang mengubah menjadi suara dan dukungan. Semua orang perdagangan di dalamnya, termasuk orang itu ditujukan pada, tetapi nilai yang sebenarnya adalah memilah kelompok ke mereka dituduh kebencian dan mereka yang membuat tuduhan. Ikuti sirkulasi melalui Michigan. \"Benci\" Diikat sepanjang kampanyenya. Rogers secara teratur mencela \"ideologi kebencian\" nya. Satu Demokrat mengatakan kepada CNN dia tidak bisa memilih Sayed \"karena aku melawan kebencian\". Anggota Kongres Demokratik Haley Stevens, yang dikalahkan Sayed di pemilihan utama, menukar dukungannya de",
+      "description": "Pemilihan Michigan: Bagaimana kritikus Abdul El- Sayed dioleskan pembelaannya terhadap Palestina sebagai 'benci' Diberikan oleh Murad Idris pada Fri, 11 / 06 / 2026 - 20: 51 Dengan menyerang motivasinya, lawan-lawan Senator Amerika Serikat, berpaling perdebatan atas dukungan AS terhadap genosida Israel di Gaza menjadi persidangan karakter Abdul El- Sayed (kiri) memenangkan kursi Senat AS Michigan pada 3 November, dua hari setelah Haley Stevens (pusat), Partai Demokrat dia mengalahkan di primer, mendukung lawan Republik-nya Mike-Sayed (kanan) (Jeff Schusky, Jim Watson dan Blake Fagan / AFAP) dalam pidato kemenangannya minggu lalu, Kiriman Elhman \"kata-kali\" berbeda, Dia ingat para pendukungnya bertanya mengapa dia tidak pernah menyebut lawannya penuh kebencian. Mereka lawan, katanya, \"benci ide\" dari Amerika cukup besar bagi orang-orang yang berdoa berbeda. Dia mengatakan kepada Mike Rogers, Republik yang baru saja dia kalahkan, \"Kau memilih benci, dan Michigan memilih harapan\". Kemudian dia berpaling kepada mereka yang menyebut orang-orang kebencian karena percaya bahwa anak-anak Palestina tidak boleh dibunuh dengan uang pajak Amerika: \"Itu bukan kebencian. Ini cinta\". Dalam satu pidato, Sayed menolak kata \"benci\", mengubahnya, menggunakannya sebagai senjata dan menolaknya sebagai nama. Retorika kebencian adalah mata uang politik Amerika. Hal ini digemari, diperdagangkan dan dibelanjakan, dan membeli berdiri moral, yang mengubah menjadi suara dan dukungan. Semua orang perdagangan di dalamnya, termasuk orang itu ditujukan pada, tetapi nilai yang sebenarnya adalah memilah kelompok ke mereka dituduh kebencian dan mereka yang membuat tuduhan. Ikuti sirkulasi melalui Michigan. \"Benci\" Diikat sepanjang kampanyenya. Rogers secara teratur mencela \"ideologi kebencian\" nya. Satu Demokrat memberitahu CNN dia tidak bisa memilih Sayed \"karena aku menentang kebencian\". Anggota Kongres Demokratik Haley Stevens, yang dikalahkan Sayed di pemilihan utama, menukar dukungannya dengan Rogers, \"memilih negara ketimbang kebencian\". Dia mengumumkan itu setelah menghadiri",
       "originalTitle": "Michigan election: How Abdul El-Sayed's critics smeared his defence of Palestinians as 'hate'",
       "originalDescription": "Michigan election: How Abdul El-Sayed's critics smeared his defence of Palestinians as 'hate' Submitted by Murad Idris on Fri, 11/06/2026 - 20:51 By attacking his motives, the senator-elect's opponents turned a debate over US funding for Israel's genocide in Gaza into a trial of his character Abdul El-Sayed (left) won Michigan’s US Senate seat on 3 November, two days after Haley Stevens (centre), the Democrat he beat in the primary, endorsed his Republican opponent Mike Rogers (right) (Jeff Kowalsky, Jim Watson and Blake Fagan/AFP) Off In his victory speech last week, Abdulrahman El-Sayed , the first Muslim American elected to the US Senate, said \"hate\" or \"hateful\" five times, and each time the word did something different. He recalled supporters asking why he never called his opponents hateful. Those opponents, he said, \"hate the idea\" of an America big enough for people who pray differently. He told Mike Rogers, the Republican he had just beaten, \"You chose hate, and Michigan chose hope.\" Then he turned to those who call people hateful for believing that Palestinian children should not be killed with American tax dollars: \" That's not hate . It's love.\" In one speech, Sayed declined the word \"hate\", turned it around, used it as a weapon and refused it as a name. The rhetoric of hate is the currency of American politics . It gets minted, exchanged and spent, and it buys moral standing, which converts into votes and endorsements . Everyone trades in it, including the man it was aimed at, but its real value is sorting groups into those accused of hate and those who make the accusation. Follow its circulation through Michigan. \"Hate\" hounded Sayed throughout his campaign. Rogers regularly denounced his \"hateful ideology\". One Democrat told CNN he could not vote for Sayed \"because I'm against hate\". Democratic Congresswoman Haley Stevens, whom Sayed beat in the primary, switched her endorsement to Rogers, \"choosing country over hate \". She announced it after attending",
       "translated": true,
@@ -496,7 +504,8 @@
       "originalUrl": "https://www.middleeasteye.net/opinion/michigan-election-how-abdul-el-sayeds-critics-smeared-his-defence-palestinians-hate",
       "sources": [
         "Middle East Eye"
-      ]
+      ],
+      "translationStatus": "success"
     },
     {
       "id": "d84592a7dca61ba6",
@@ -518,7 +527,8 @@
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-fire-kills-seven-including-father-and-son-gaza-medics-say",
       "sources": [
         "Middle East Eye"
-      ]
+      ],
+      "translationStatus": "success"
     },
     {
       "id": "b6c55126abcb0c9e",
@@ -557,48 +567,63 @@
     },
     {
       "id": "70ee145858138d83",
-      "title": "Burnham's plan to 'end neoliberalism' includes involvement of US firm linked to Gaza aid site massacres",
-      "description": "Burnham's plan to 'end neoliberalism' includes involvement of US firm linked to Gaza aid site massacres Submitted by Oscar Rickett on Tue, 11/10/2026 - 14:44 Boston Consulting Group, whose former employees include Benjamin Netanyahu and James Purnell, to consult on UK prime minister's 10-year plan A GHF aid site pictured on 8 June 2025, as smoke bombs are fired by Israeli troops (Eyad Baba/AFP) Off British Prime Minister Andy Burnham has turned to an American consulting group that worked with the US and Israeli -backed Gaza Humanitarian Foundation to help draft a plan that was supposed to “end neoliberalism” in the UK . Boston Consulting Group (BCG), whose former employees include Israeli Prime Minister Benjamin Netanyahu and Burnham’s chief of staff, James Purnell, will provide a consulta",
+      "title": "Rencana Burnham untuk 'mengakhiri neoliberalisme' termasuk keterlibatan perusahaan AS terkait dengan situs bantuan Gaza pembantaian",
+      "description": "Rencana Burnham untuk mengakhiri neoliberalism 'termasuk keterlibatan perusahaan bantuan AS yang terkait dengan Gaza pembantaian oleh Oscar Rickett di Tue, 11 / 10 / 2026 - 14: 44 Boston Consulting Group, yang mantan karyawan termasuk Benjamin Netanyahu dan James Purnell, untuk berkonsultasi pada Perdana Menteri Inggris pada Tue, sebuah situs bantuan GHF yang digambar pada 8 Juni 2025, sebagai bom asap yang digunakan oleh pasukan Israel (Eyad / AFP)",
       "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/GHF%20afp.jpg.jpg?itok=fDiWjsSz",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T15:55:26+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/burnhams-plan-end-neoliberalism-includes-hiring-us-firm-linked-gaza-aid-site-massacres"
+      "originalUrl": "https://www.middleeasteye.net/news/burnhams-plan-end-neoliberalism-includes-hiring-us-firm-linked-gaza-aid-site-massacres",
+      "originalTitle": "Burnham's plan to 'end neoliberalism' includes involvement of US firm linked to Gaza aid site massacres",
+      "originalDescription": "Burnham's plan to 'end neoliberalism' includes involvement of US firm linked to Gaza aid site massacres Submitted by Oscar Rickett on Tue, 11/10/2026 - 14:44 Boston Consulting Group, whose former employees include Benjamin Netanyahu and James Purnell, to consult on UK prime minister's 10-year plan A GHF aid site pictured on 8 June 2025, as smoke bombs are fired by Israeli troops (Eyad Baba/AFP) Off British Prime Minister Andy Burnham has turned to an American consulting group that worked with the US and Israeli -backed Gaza Humanitarian Foundation to help draft a plan that was supposed to “end neoliberalism” in the UK . Boston Consulting Group (BCG), whose former employees include Israeli Prime Minister Benjamin Netanyahu and Burnham’s chief of staff, James Purnell, will provide a consulta",
+      "originalLanguage": "en",
+      "translated": true,
+      "translationStatus": "success"
     },
     {
       "id": "2625c752ecc45cba",
-      "title": "Joint Tory-Labour motion that 'Zionism is not racism' goes to vote at Westminster council",
-      "description": "Joint Tory-Labour motion that 'Zionism is not racism' goes to vote at Westminster council Submitted by Imran Mulla on Tue, 11/10/2026 - 14:09 The motion, which is set to be voted on by the full council on Wednesday, has been proposed in response to the Green Party’s motion that Zionism is racism An Uber boat travels up the River Thames in Westminster, central London on 23 July 2026 (AFP) Off Conservative and Labour councillors are preparing to bring a joint motion to Westminster City Council declaring that “Zionism is not racism”. The motion , which is set to be voted on by the full council on Wednesday evening, has been proposed in response to the Green Party’s motion , adopted last month, to declare Zionism a form of racism. Wednesday’s joint motion by the Tories and Labour says that “Zi",
+      "title": "Gabungan Tory- Gerakan Buruh bahwa 'Zionisme bukan rasisme' pergi untuk memilih di dewan Westminster",
+      "description": "Gabungan gerak Tory- Bubour bahwa 'Zionisme tidak rasisme' pergi untuk memilih di dewan Westminster Diberikan oleh Imran Mulla pada Tue, 11 / 10 / 2026 - 14: 09 Mosi tersebut, yang ditetapkan untuk dipilih oleh dewan penuh pada hari Rabu, telah diusulkan sebagai respon atas gerak Partai Hijau bahwa Zionisme adalah rasisme Sebuah perahu Uber perjalanan ke Sungai Thames di Westminster, pusat London pada 23 Juli 2026 (AFP) Off Conservative dan Dewan Tenaga Kerja sedang mempersiapkan untuk membawa gerakan bersama untuk Dewan Kota Westminster menyatakan bahwa \"Zionisme bukanlah rasisme\". Mosi, yang ditetapkan untuk dipilih oleh dewan penuh pada Rabu malam, telah diusulkan dalam menanggapi gerakan Partai Hijau, diadopsi bulan lalu, untuk menyatakan Zionisme bentuk rasisme. Gerakan bersama Rabu oleh Tories dan Buruh mengatakan bahwa \"Zi",
       "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_C2Y3928%20%281%29.jpg.jpg?itok=5viRj_39",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T15:49:52+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/joint-tory-labour-motion-zionism-not-racism-goes-vote-westminster-council"
+      "originalUrl": "https://www.middleeasteye.net/news/joint-tory-labour-motion-zionism-not-racism-goes-vote-westminster-council",
+      "originalTitle": "Joint Tory-Labour motion that 'Zionism is not racism' goes to vote at Westminster council",
+      "originalDescription": "Joint Tory-Labour motion that 'Zionism is not racism' goes to vote at Westminster council Submitted by Imran Mulla on Tue, 11/10/2026 - 14:09 The motion, which is set to be voted on by the full council on Wednesday, has been proposed in response to the Green Party’s motion that Zionism is racism An Uber boat travels up the River Thames in Westminster, central London on 23 July 2026 (AFP) Off Conservative and Labour councillors are preparing to bring a joint motion to Westminster City Council declaring that “Zionism is not racism”. The motion , which is set to be voted on by the full council on Wednesday evening, has been proposed in response to the Green Party’s motion , adopted last month, to declare Zionism a form of racism. Wednesday’s joint motion by the Tories and Labour says that “Zi",
+      "originalLanguage": "en",
+      "translated": true,
+      "translationStatus": "success"
     },
     {
       "id": "c17d246c14cfec88",
-      "title": "Father, child among eight Palestinians killed in Israeli attacks on Gaza",
-      "description": "Israel has killed more than 1,600 people in Gaza since last year's 'ceasefire', the enclave's Health Ministry says.",
+      "title": "Ayah, anak di antara delapan orang Palestina tewas dalam serangan Israel di Gaza",
+      "description": "Israel telah membunuh lebih dari 1.600 orang di Gaza sejak tahun lalu \"gencatan senjata\", kata Kementerian Kesehatan enclave.",
       "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af33128b29b3-1794322728.jpg?resize=1920%2C1440",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Al Jazeera",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T15:49:36+00:00",
-      "originalUrl": "https://www.aljazeera.com/news/2026/11/10/israeli-attacks-kill-at-least-six-in-gaza-including-father-and-son"
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/10/israeli-attacks-kill-at-least-six-in-gaza-including-father-and-son",
+      "originalTitle": "Father, child among eight Palestinians killed in Israeli attacks on Gaza",
+      "originalDescription": "Israel has killed more than 1,600 people in Gaza since last year's 'ceasefire', the enclave's Health Ministry says.",
+      "originalLanguage": "en",
+      "translated": true,
+      "translationStatus": "success"
     },
     {
       "id": "3d8b6173cf1fdc42",
@@ -642,7 +667,8 @@
       "originalUrl": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_campaign=rss&at_medium=RSS",
       "sources": [
         "BBC World"
-      ]
+      ],
+      "translationStatus": "success"
     },
     {
       "id": "e26cc43fefa2a58c",
@@ -668,33 +694,43 @@
     },
     {
       "id": "6724b791d22fd143",
-      "title": "Israeli settlers torch machinery in attack on Palestinian industrial zone",
-      "description": "Israeli settlers torch machinery in attack on Palestinian industrial zone Submitted by Muhammad Ateeq on Tue, 11/10/2026 - 13:58 The assault destroys machinery worth more than $1m and threatens the livelihoods of hundreds of Palestinian workers and their families Settlers torched excavators, vehicles and pieces of equipment belonging to local stone-cutting workshops in Beita, near Nablus, in the occupied West Bank, 10 November 2026 (Muhammad Ateeq/MEE) Off Israeli settlers attacked an industrial zone in the Palestinian town of Beita, south of Nablus in the occupied West Bank, on Monday, setting fire to heavy machinery, vehicles and equipment and causing extensive damage. Dozens of settlers stormed the industrial zone and torched three excavators, along with several other vehicles and piece",
+      "title": "Penduduk Israel membakar mesin dalam serangan di zona industri Palestina",
+      "description": "Penduduk Israel membakar mesin dalam serangan di zona industri Palestina Dikirimkan oleh Muhammad Ateeq pada Tue, 11 / 10 / 2026 - 13: 58 Penyerangan menghancurkan mesin seharga lebih dari $1m dan mengancam mata pencaharian ratusan pekerja Palestina dan keluarga menetap mereka, para pelancong, kendaraan dan peralatan milik toko-toko lokal - pemotongan lokakarya di Beita, dekat Nablus, di Tepi Barat yang diduduki, 10 November 2026 (Muhammad Aeeq / MEE) dari penduduk Israel menyerang zona industri di kota Beita, selatan Nablus di barat, pada Monday, para pemukim dan alat-alat kebakaran, menyebabkan kerusakan besar. Puluhan pemukim menyerbu zona industri dan membakar tiga penggalian, bersama dengan beberapa kendaraan lain dan sepotong",
       "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/IMG_0170.jpeg.jpg?h=4309f91d&itok=v76HGgmM",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T14:25:13+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/israeli-settlers-torch-machinery-attack-palestinian-industrial-zone"
+      "originalUrl": "https://www.middleeasteye.net/news/israeli-settlers-torch-machinery-attack-palestinian-industrial-zone",
+      "originalTitle": "Israeli settlers torch machinery in attack on Palestinian industrial zone",
+      "originalDescription": "Israeli settlers torch machinery in attack on Palestinian industrial zone Submitted by Muhammad Ateeq on Tue, 11/10/2026 - 13:58 The assault destroys machinery worth more than $1m and threatens the livelihoods of hundreds of Palestinian workers and their families Settlers torched excavators, vehicles and pieces of equipment belonging to local stone-cutting workshops in Beita, near Nablus, in the occupied West Bank, 10 November 2026 (Muhammad Ateeq/MEE) Off Israeli settlers attacked an industrial zone in the Palestinian town of Beita, south of Nablus in the occupied West Bank, on Monday, setting fire to heavy machinery, vehicles and equipment and causing extensive damage. Dozens of settlers stormed the industrial zone and torched three excavators, along with several other vehicles and piece",
+      "originalLanguage": "en",
+      "translated": true,
+      "translationStatus": "success"
     },
     {
       "id": "fbf7ee9dbef31570",
-      "title": "‘We woke up soaking wet’: Gaza’s displaced face another winter of floods and collapsed shelters",
-      "description": "‘We woke up soaking wet’: Gaza’s displaced face another winter of floods and collapsed shelters For the past four days, Nahla al-Majdoub, 48, and her family of eight have been staying with neighbours in the west of Gaza City after their tent was destroyed by the latest heavy rainfall. Majdoub and her family had been sheltering in a makeshift tent at the port of Gaza for nearly two years after their home in the northern Gaza Strip was destroyed during Israel’s ground invasion. But when heavy rain and strong winds swept across the besieged enclave last week, their fragile shelter could no longer protect them. They were asleep when the storm began. They woke to the sound of thunder and rainwater pouring into their shelter, seeping through the roof and flooding the ground beneath their tent. “",
+      "title": "'Kami terbangun basah kuyup': Gaza wajah pengungsi lain musim dingin banjir dan runtuh penampungan",
+      "description": "'Kami terbangun basah kuyup': Gaza wajah pengungsi lain musim dingin banjir dan runtuh penampungan Selama empat hari terakhir, Nahla Al- Majdoub, 48, dan keluarganya delapan telah tinggal dengan tetangga di barat Gaza City setelah tenda mereka dihancurkan oleh hujan lebat terbaru. Majdoub dan keluarganya telah berlindung di tenda darurat di pelabuhan Gaza selama hampir dua tahun setelah rumah mereka di Jalur Gaza Utara dihancurkan selama invasi tanah Israel. Tapi ketika hujan lebat dan angin kencang menyapu daerah dikepung pekan lalu, penampungan rapuh mereka tidak bisa lagi melindungi mereka. Mereka tertidur ketika badai dimulai. Mereka bangun dengan suara guntur dan air hujan mengalir ke tempat penampungan mereka, meresap melalui atap dan membanjiri tanah di bawah tenda mereka. \"",
       "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/gaza-flood-afp-2026-11-07.jpg.jpg?itok=B36y3dAt",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T14:20:29+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/we-woke-soaking-wet-gazas-displaced-face-another-winter-floods-and"
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/we-woke-soaking-wet-gazas-displaced-face-another-winter-floods-and",
+      "originalTitle": "‘We woke up soaking wet’: Gaza’s displaced face another winter of floods and collapsed shelters",
+      "originalDescription": "‘We woke up soaking wet’: Gaza’s displaced face another winter of floods and collapsed shelters For the past four days, Nahla al-Majdoub, 48, and her family of eight have been staying with neighbours in the west of Gaza City after their tent was destroyed by the latest heavy rainfall. Majdoub and her family had been sheltering in a makeshift tent at the port of Gaza for nearly two years after their home in the northern Gaza Strip was destroyed during Israel’s ground invasion. But when heavy rain and strong winds swept across the besieged enclave last week, their fragile shelter could no longer protect them. They were asleep when the storm began. They woke to the sound of thunder and rainwater pouring into their shelter, seeping through the roof and flooding the ground beneath their tent. “",
+      "originalLanguage": "en",
+      "translated": true,
+      "translationStatus": "success"
     },
     {
       "id": "a2667659e4362ba0",
@@ -735,48 +771,63 @@
     },
     {
       "id": "efc297549274c20d",
-      "title": "UK awards deals worth millions to firms linked to illegal Israeli settlements",
-      "description": "UK awards deals worth millions to firms linked to illegal Israeli settlements Submitted by Imran Mulla on Tue, 11/10/2026 - 11:06 Sanctions announced by the Burnham government in September have not yet come into force Britain's Prime Minister Andy Burnham meets with staff during a visit to a hospital in Watford, Hertfordshire, north-west of London on 9 November 2026 (AFP) Off The British government has awarded £10.7m ($14.4m) in public contracts to firms linked to illegal Israeli settlements in the occupied West Bank, it has emerged. The contracts were published after Foreign Secretary Ed Miliband announced comprehensive sanctions on the settlements on 8 September in parliament, according to an Al Jazeera investigation. \"To those who finance or facilitate illegal settlements, let me say th",
+      "title": "Perjanjian penghargaan Inggris bernilai jutaan perusahaan terkait dengan pemukiman Israel ilegal",
+      "description": "Transaksi penghargaan Inggris bernilai jutaan untuk perusahaan yang terkait dengan pemukiman ilegal Israel Diberikan oleh Imran Mulla on Tue, 11 / 10 / 2026 - 11: 06 Sanctions mengumumkan oleh pemerintah Burnham pada bulan September belum datang ke kekuatan Perdana Menteri Inggris Andy Burnham bertemu dengan staf selama kunjungan ke rumah sakit di Watford, Hertfordshire, utara London pada 9 November 2026 (AFP) Pemerintah Inggris telah diberikan £10.7m ($14.4m) dalam kontrak publik untuk perusahaan-perusahaan yang terkait ilegal pemukiman Israel di bank-bank Barat yang ditempati. Kontrak tersebut diterbitkan setelah Menteri Luar Negeri Ed Miliband mengumumkan sanksi komprehensif terhadap pemukiman pada 8 September di parlemen, menurut penyelidikan Al Jazeera. \"Bagi mereka yang membiayai atau memfasilitasi pemukiman ilegal, izinkan saya mengatakan th",
       "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_D6W23QC%20%281%29.jpg.jpg?itok=dUpbDG5o",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T12:37:33+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/uk-awards-deals-worth-ps10m-firms-linked-illegal-israeli-settlements"
+      "originalUrl": "https://www.middleeasteye.net/news/uk-awards-deals-worth-ps10m-firms-linked-illegal-israeli-settlements",
+      "originalTitle": "UK awards deals worth millions to firms linked to illegal Israeli settlements",
+      "originalDescription": "UK awards deals worth millions to firms linked to illegal Israeli settlements Submitted by Imran Mulla on Tue, 11/10/2026 - 11:06 Sanctions announced by the Burnham government in September have not yet come into force Britain's Prime Minister Andy Burnham meets with staff during a visit to a hospital in Watford, Hertfordshire, north-west of London on 9 November 2026 (AFP) Off The British government has awarded £10.7m ($14.4m) in public contracts to firms linked to illegal Israeli settlements in the occupied West Bank, it has emerged. The contracts were published after Foreign Secretary Ed Miliband announced comprehensive sanctions on the settlements on 8 September in parliament, according to an Al Jazeera investigation. \"To those who finance or facilitate illegal settlements, let me say th",
+      "originalLanguage": "en",
+      "translated": true,
+      "translationStatus": "success"
     },
     {
       "id": "ab21cb64e4648197",
-      "title": "Israeli settlers injure Palestinian photojournalist in occupied West Bank",
-      "description": "Israeli settlers injure Palestinian photojournalist in occupied West Bank Israeli settlers wounded Palestinian photojournalist Alaa Badarneh during an attack south of Nablus in the occupied West Bank, the Palestinian news agency Wafa reports. Qusra Mayor Abdul Azim Wadi told Wafa that settlers assaulted olive harvesters and international solidarity activists between Qusra and Jalud. Stones the settlers threw struck Badarneh, who works for the EPA photo agency, leaving him with bruises, Wadi said. On 16 October, about 80 masked settlers carrying clubs rushed Palestinians harvesting olives in Abu Falah, northeast of Ramallah. Washington Post photojournalist Heidi Levine, 63, fell during the attack, and settlers beat her for more than 10 minutes. Levine suffered fractures to her ribs and spin",
+      "title": "Penduduk Israel melukai wartawan Palestina di West Bank",
+      "description": "Penduduk Israel melukai wartawan Palestina dalam menduduki West Bank Israel para wartawan Palestina Ala Badarneh selama serangan ke selatan Nablus di Tepi Barat yang diduduki, agen berita Palestina Wafa melaporkan. Walikota Qusra Abdul Azim Wadi mengatakan pada Wafa bahwa pemukim menyerang pemanen zaitun dan aktivis solidaritas internasional antara Qusra dan Jalud. Batu para pemukim melemparkan memukul Balarneh, yang bekerja untuk badan foto EPA, meninggalkan dia dengan memar, kata Wadi. Pada 16 Oktober, sekitar 80 pemukim bertopeng membawa klub bergegas Palestina panen zaitun di Abu Fulah, timur laut Ramallah. Washington Post wartawan foto Heidi Levine, 63, jatuh selama serangan, dan pemukim memukulinya selama lebih dari 10 menit. Levine menderita patah tulang rusuk dan spin",
       "image": "https://www.middleeasteye.net/sites/default/files/2026-11/iran-protest-4-november-2026-afp.jpg",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T12:20:51+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-injure-palestinian-photojournalist-occupied-west-bank"
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-injure-palestinian-photojournalist-occupied-west-bank",
+      "originalTitle": "Israeli settlers injure Palestinian photojournalist in occupied West Bank",
+      "originalDescription": "Israeli settlers injure Palestinian photojournalist in occupied West Bank Israeli settlers wounded Palestinian photojournalist Alaa Badarneh during an attack south of Nablus in the occupied West Bank, the Palestinian news agency Wafa reports. Qusra Mayor Abdul Azim Wadi told Wafa that settlers assaulted olive harvesters and international solidarity activists between Qusra and Jalud. Stones the settlers threw struck Badarneh, who works for the EPA photo agency, leaving him with bruises, Wadi said. On 16 October, about 80 masked settlers carrying clubs rushed Palestinians harvesting olives in Abu Falah, northeast of Ramallah. Washington Post photojournalist Heidi Levine, 63, fell during the attack, and settlers beat her for more than 10 minutes. Levine suffered fractures to her ribs and spin",
+      "originalLanguage": "en",
+      "translated": true,
+      "translationStatus": "success"
     },
     {
       "id": "3382201cb7b177b2",
-      "title": "Israeli air strike kills two Palestinians, including child, in Gaza City",
-      "description": "Israeli air strike kills two Palestinians, including child, in Gaza City An Israeli air strike hit the roof of a shelter in Zeitoun, in southeastern Gaza City, killing a child and another Palestinian. A source at al-Ahli Hospital told Al Jazeera in Gaza that the strike also wounded several people.",
+      "title": "Serangan udara Israel membunuh dua orang Palestina, termasuk anak-anak, di Gaza City",
+      "description": "Serangan udara Israel membunuh dua orang Palestina, termasuk anak-anak, di Gaza, sebuah serangan udara Israel menabrak atap sebuah tempat penampungan di Zeitoun, di tenggara Gaza City, membunuh seorang anak dan orang Palestina lainnya. Sebuah sumber di Rumah Sakit AL- Ahli mengatakan Al Jazeera di Gaza bahwa pemogokan juga melukai beberapa orang.",
       "image": "https://www.middleeasteye.net/sites/default/files/2026-11/iran-protest-4-november-2026-afp.jpg",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T11:58:05+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strike-kills-two-palestinians-including-child-gaza-city"
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strike-kills-two-palestinians-including-child-gaza-city",
+      "originalTitle": "Israeli air strike kills two Palestinians, including child, in Gaza City",
+      "originalDescription": "Israeli air strike kills two Palestinians, including child, in Gaza City An Israeli air strike hit the roof of a shelter in Zeitoun, in southeastern Gaza City, killing a child and another Palestinian. A source at al-Ahli Hospital told Al Jazeera in Gaza that the strike also wounded several people.",
+      "originalLanguage": "en",
+      "translated": true,
+      "translationStatus": "success"
     },
     {
       "id": "0923bebe2f86fbcd",
@@ -795,8 +846,8 @@
     },
     {
       "id": "0cd8f3bffacddd4b",
-      "title": "Anti-Muslim influence campaign targeting UK traced back to Israel",
-      "description": "Anti-Muslim influence campaign targeting UK traced back to Israel A new investigation has traced a major anti-Muslim propaganda campaign targeting Britain back to Israel . The campaign, uncovered by academics Marc Owen Jones and Sohan Dsouza, was at its height before the UK's 2024 general election and the anti-Muslim riots that raged across the country later that year. It involved large numbers of paid advertisements warning of an Islamic takeover of Britain masterminded by Qatar . \"Between 2024 and 2026, our investigation recorded more than 154m exposures to its British-targeted material,\" Jones and Dsouza wrote in an article published by The Nerve . \"Its first wave of British advertising ran in the months before the 2024 general election. The ads were also hammering the UK in the winter ",
+      "title": "Anti- Muslim pengaruh kampanye menargetkan Inggris ditelusuri kembali ke Israel",
+      "description": "Anti- Muslim pengaruh kampanye menargetkan Inggris ditelusuri kembali ke Israel Sebuah penyelidikan baru telah menelusuri kampanye propaganda anti- Muslim besar menargetkan Inggris kembali ke Israel. Kampanye tersebut, ditemukan oleh akademisi Marc Owen Jones dan Sohan Dsouza, berada di puncaknya sebelum pemilihan umum Inggris 2024 dan kerusuhan anti- Muslim yang berkecamuk di seluruh negeri tahun itu. Ini melibatkan sejumlah besar peringatan iklan dibayar dari pengambilalihan Islam dari Inggris mendalangi oleh Qatar. \"Antara 2024 dan 2026, penyelidikan kami mencatat lebih dari 154m paparan ke bahan yang ditargetkan Inggris,\" Jones dan Dsouza menulis dalam sebuah artikel yang diterbitkan oleh The Nerve. \"Gelombang pertama iklan Inggris dijalankan dalam bulan-bulan sebelum pemilihan umum 2024. Iklan juga memalu Inggris di musim dingin",
       "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Screenshot%202026-11-09%20at%2015.26.44.png.jpg?itok=L45ATZAQ",
       "category": "Dunia Muslim",
       "tags": [
@@ -804,29 +855,39 @@
         "Islamofobia dan Diskriminasi"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T11:38:44+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/anti-muslim-influence-campaign-targeting-uk-traced-back-israel"
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/anti-muslim-influence-campaign-targeting-uk-traced-back-israel",
+      "originalTitle": "Anti-Muslim influence campaign targeting UK traced back to Israel",
+      "originalDescription": "Anti-Muslim influence campaign targeting UK traced back to Israel A new investigation has traced a major anti-Muslim propaganda campaign targeting Britain back to Israel . The campaign, uncovered by academics Marc Owen Jones and Sohan Dsouza, was at its height before the UK's 2024 general election and the anti-Muslim riots that raged across the country later that year. It involved large numbers of paid advertisements warning of an Islamic takeover of Britain masterminded by Qatar . \"Between 2024 and 2026, our investigation recorded more than 154m exposures to its British-targeted material,\" Jones and Dsouza wrote in an article published by The Nerve . \"Its first wave of British advertising ran in the months before the 2024 general election. The ads were also hammering the UK in the winter",
+      "originalLanguage": "en",
+      "translated": true,
+      "translationStatus": "success"
     },
     {
       "id": "cac21c00e51da4e7",
-      "title": "Israel kills 14-year-old Palestinian boy in West Bank, wounds two others in Gaza",
-      "description": "Israel kills 14-year-old Palestinian boy in West Bank, wounds two others in Gaza Submitted by MEE staff on Tue, 11/10/2026 - 09:59 Palestinian officials said Israeli forces withheld the boy's body as the UN reported more than 2,060 settler attacks across the occupied West Bank so far this year Palestinian Bedouin children play at a new location after Israeli settlers took over their homes near Jericho, occupied West Bank, 9 November 2026 (Ilia Yefimovich/AFP) Off Israeli forces killed a 14-year-old Palestinian boy during an operation in the occupied West Bank village of Burqa, northwest of Nablus, Palestinian officials said on Tuesday. The Palestinian Ministry of Health identified the boy as Moataz Iyad and said Israeli authorities were withholding his body. Two other teenagers were also w",
+      "title": "Israel membunuh anak Palestina berusia 14 tahun di Tepi Barat, melukai dua orang di Gaza",
+      "description": "Israel membunuh anak Palestina berusia 14 tahun di Tepi Barat, dua luka lainnya di Gaza diturunkan oleh staf MEE pada Tue, 11 / 10 / 2026 - 09: 59 Pejabat Palestina mengatakan pasukan Israel menahan tubuh anak itu saat PBB melaporkan serangan lebih dari 2.060 pemukim di seluruh Tepi Barat yang diduduki tahun ini anak-anak Palestina Bedouin bermain di lokasi baru setelah pemukim Israel mengambil alih rumah mereka di dekat Yerikho, menduduki Bank Barat, 9 November 2026 (Ilia Yefimovich / AFP) dari pasukan Israel membunuh anak laki-laki Palestina berusia 14 tahun di sebuah operasi di desa Barat yang ditempati di Burqa, Barat, barat Nabolus, mengatakan pada hari Selasa. Kementerian Kesehatan Palestina mengidentifikasi anak itu sebagai Moataz Iyad dan mengatakan pemerintah Israel menahan tubuhnya. Dua remaja lainnya juga",
       "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Palestinian%20Bedouin%20children%20play%20at%20a%20new%20location%20after%20Israeli%20settlers%20took%20over%20their%20homes%20near%20Jericho%2C%20occupied%20West%20Bank%2C%209%20November%202026%20%28Ilia%20Yefimovich%20AFP%29.jpg.jpg?itok=atlbPaRr",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T11:25:29+00:00",
       "originalUrl": "https://www.middleeasteye.net/news/israel-kills-14-year-old-palestinian-boy-west-bank-wounds-two-gaza",
       "sources": [
         "Middle East Eye",
         "Al Jazeera"
-      ]
+      ],
+      "originalTitle": "Israel kills 14-year-old Palestinian boy in West Bank, wounds two others in Gaza",
+      "originalDescription": "Israel kills 14-year-old Palestinian boy in West Bank, wounds two others in Gaza Submitted by MEE staff on Tue, 11/10/2026 - 09:59 Palestinian officials said Israeli forces withheld the boy's body as the UN reported more than 2,060 settler attacks across the occupied West Bank so far this year Palestinian Bedouin children play at a new location after Israeli settlers took over their homes near Jericho, occupied West Bank, 9 November 2026 (Ilia Yefimovich/AFP) Off Israeli forces killed a 14-year-old Palestinian boy during an operation in the occupied West Bank village of Burqa, northwest of Nablus, Palestinian officials said on Tuesday. The Palestinian Ministry of Health identified the boy as Moataz Iyad and said Israeli authorities were withholding his body. Two other teenagers were also w",
+      "originalLanguage": "en",
+      "translated": true,
+      "translationStatus": "success"
     },
     {
       "id": "2de89f37a952ab32",
@@ -848,37 +909,48 @@
       "originalUrl": "https://www.bbc.co.uk/news/articles/cqpvgv318yyeo?at_campaign=rss&at_medium=RSS",
       "sources": [
         "BBC World"
-      ]
+      ],
+      "translationStatus": "success"
     },
     {
       "id": "f7bdce4caa5e6c84",
-      "title": "As heavy rains swamp Gaza's tents, Israel must face sanctions",
-      "description": "As heavy rains swamp Gaza's tents, Israel must face sanctions It took a mere dozen hours of the first winter storm to flood around 70,000 tents in Gaza. Even 1,000 would be worthy of major humanitarian action, but just imagine that multiplied by 70. These devastating floods were predicted and predictable. Nothing about this should surprise anyone who has paid even the scantest attention to the humanitarian situation in Gaza. Every year, Palestinians in the coastal enclave face the threat of flooding due to winter rains. Years ago, it was already challenging enough, as raw sewage flooded the streets, fuelling the spread of disease. Israel ’s blockade of Gaza , in place for two decades, along with periodic military bombardments, would render these inundations particularly life-threatening. M",
+      "title": "Sebagai rawa berat Gaza tenda, Israel harus menghadapi sanksi",
+      "description": "Sebagai rawa berat Gaza tenda, Israel harus menghadapi sanksi Butuh selusin jam badai musim dingin pertama banjir sekitar 70.000 tenda di Gaza. Bahkan 1.000 akan layak tindakan kemanusiaan utama, tapi hanya membayangkan yang dikalikan dengan 70. Banjir yang menghancurkan ini diprediksi dan dapat diprediksi. Tidak ada yang mengejutkan siapa pun yang telah membayar bahkan perhatian scantest terhadap situasi kemanusiaan di Gaza. Setiap tahun, orang Palestina di daerah pesisir menghadapi ancaman banjir karena hujan musim dingin. Bertahun-tahun yang lalu, sudah cukup menantang, limbah mentah membanjiri jalan-jalan, memicu penyebaran penyakit. blokade Israel di Gaza, di tempat selama dua dekade, bersama dengan pemboman militer periodik, akan membuat ikatan ini khususnya hidup-mengancam. M",
       "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/A%20displaced%20Palestinian%20boy%20reacts%20as%20he%20stands%20at%20the%20entrance%20to%20his%20flooded%20tent%20as%20he%20looks%20at%20a%20water%20puddle%20after%20heavy%20rainfall%20in%20Gaza%20City%27s%20Al-Remal%20neighbourhood%20on%20November%207%2C%202026-afp.jpg.jpg?itok=OUlwodkH",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T10:11:10+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/heavy-rains-swamp-gazas-tents-israel-must-face-sanctions"
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/heavy-rains-swamp-gazas-tents-israel-must-face-sanctions",
+      "originalTitle": "As heavy rains swamp Gaza's tents, Israel must face sanctions",
+      "originalDescription": "As heavy rains swamp Gaza's tents, Israel must face sanctions It took a mere dozen hours of the first winter storm to flood around 70,000 tents in Gaza. Even 1,000 would be worthy of major humanitarian action, but just imagine that multiplied by 70. These devastating floods were predicted and predictable. Nothing about this should surprise anyone who has paid even the scantest attention to the humanitarian situation in Gaza. Every year, Palestinians in the coastal enclave face the threat of flooding due to winter rains. Years ago, it was already challenging enough, as raw sewage flooded the streets, fuelling the spread of disease. Israel ’s blockade of Gaza , in place for two decades, along with periodic military bombardments, would render these inundations particularly life-threatening. M",
+      "originalLanguage": "en",
+      "translated": true,
+      "translationStatus": "success"
     },
     {
       "id": "ab4563498d622f96",
-      "title": "Netanyahu pressed Qatar to continue funding Gaza despite security warnings, report finds",
-      "description": "Netanyahu pressed Qatar to continue funding Gaza despite security warnings, report finds Submitted by Nadav Rapaport on Mon, 11/09/2026 - 14:49 Channel 12 investigation says Doha gave Israeli military and security officials gifts worth tens of thousands of shekels Palestinians walk along a street lined with destroyed buildings at the Jabalia refugee camp in the northern Gaza Strip on 5 October 2026 (AFP) Off An Israeli Channel 12 News investigation has revealed that the Israeli government sought to ensure that Qatar continued transferring funds to the occupied Gaza Strip before 7 October 2023, despite warnings from security officials that the money was strengthening Hamas. The report details how Qatar became instrumental to Israel's policies in the besieged enclave over the past 15 years. ",
+      "title": "Netanyahu menekan Qatar untuk terus mendanai Gaza meskipun peringatan keamanan, laporan menemukan",
+      "description": "Netanyahu menekan Qatar untuk terus mendanai Gaza meskipun peringatan keamanan, laporan menyatakan bahwa Nayav Rapaport telah diturunkan pada Mon, 11 / 09 / 2026 - 14: 49 Selat 12 penyelidikan mengatakan Doha memberikan hadiah militer dan keamanan Israel yang bernilai puluhan ribu warga Palestina yang berjalan di sepanjang jalan yang berjawa dan menghancurkan gedung-gedung di perkemahan pengungsi di Jalur Gaza Utara pada 5 Oktober 2026 (AFP) Laporan rincian bagaimana Qatar menjadi berperan untuk kebijakan Israel di daerah dikepung selama 15 tahun terakhir.",
       "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/gaza-jabalia-camp-5-oct-2026-afp.jpg.jpg?itok=au_WgHO0",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T09:53:04+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/netanyahu-pressed-qatar-continue-funding-gaza-despite-security-warnings-report-finds"
+      "originalUrl": "https://www.middleeasteye.net/news/netanyahu-pressed-qatar-continue-funding-gaza-despite-security-warnings-report-finds",
+      "originalTitle": "Netanyahu pressed Qatar to continue funding Gaza despite security warnings, report finds",
+      "originalDescription": "Netanyahu pressed Qatar to continue funding Gaza despite security warnings, report finds Submitted by Nadav Rapaport on Mon, 11/09/2026 - 14:49 Channel 12 investigation says Doha gave Israeli military and security officials gifts worth tens of thousands of shekels Palestinians walk along a street lined with destroyed buildings at the Jabalia refugee camp in the northern Gaza Strip on 5 October 2026 (AFP) Off An Israeli Channel 12 News investigation has revealed that the Israeli government sought to ensure that Qatar continued transferring funds to the occupied Gaza Strip before 7 October 2023, despite warnings from security officials that the money was strengthening Hamas. The report details how Qatar became instrumental to Israel's policies in the besieged enclave over the past 15 years.",
+      "originalLanguage": "en",
+      "translated": true,
+      "translationStatus": "success"
     },
     {
       "id": "fe380ddd91c52284",
@@ -920,18 +992,23 @@
     },
     {
       "id": "4d70bd7a6b9c72bc",
-      "title": "The Arab vote in the Israeli elections",
-      "description": "The Arab vote in the Israeli elections Two weeks after Israel held its first general elections since October 2023, opposition leader Gadi Eisenkot has been tasked with forming a government. The election saw a historic voter turnout for Palestinian citizens of Israel, who headed to the ballot for one reason: to oust Benjamin Netanyahu. On this One on One, Balad party leader Sami Abou Shehadeh tells Middle East Eye that although the Arab vote has prevented Netanyahu from forming another far-right government, racism against Palestinians is still prevalent across the Israeli political board. \"The current situation for the Palestinian minority in Israel, we do not have good options. We are choosing between bad and worse,\" he tells MEE, warning that Netanyahu is \"in a very dangerous phase\" as he",
+      "title": "Suara Arab dalam pemilu Israel",
+      "description": "Suara Arab dalam pemilu Israel Dua minggu setelah Israel mengadakan pemilihan umum pertama sejak Oktober 2023, pemimpin oposisi Gadi Eisenkot telah ditugaskan untuk membentuk pemerintahan. Pemilu melihat pemilih bersejarah yang hadir untuk warga Palestina di Israel, yang menuju ke pemilihan untuk satu alasan: untuk mengusir Benjamin Netanyahu. Pada One on One ini, pemimpin partai Balad Sami Abou Shehadeh mengatakan kepada Mata Timur Tengah bahwa meskipun suara Arab telah mencegah Netanyahu dari membentuk pemerintahan yang lebih baik, rasisme terhadap Palestina masih umum di seluruh dewan politik Israel. \"Situasi saat ini bagi minoritas Palestina di Israel, kita tidak memiliki pilihan yang baik. Kami memilih antara buruk dan buruk\", dia memberitahu MEE, peringatan bahwa Netanyahu adalah \"dalam fase yang sangat berbahaya\" seperti dia",
       "image": "https://www.middleeasteye.net/sites/default/files/2026-11/iran-protest-4-november-2026-afp.jpg",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T07:03:34+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/arab-vote-israeli-elections"
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/arab-vote-israeli-elections",
+      "originalTitle": "The Arab vote in the Israeli elections",
+      "originalDescription": "The Arab vote in the Israeli elections Two weeks after Israel held its first general elections since October 2023, opposition leader Gadi Eisenkot has been tasked with forming a government. The election saw a historic voter turnout for Palestinian citizens of Israel, who headed to the ballot for one reason: to oust Benjamin Netanyahu. On this One on One, Balad party leader Sami Abou Shehadeh tells Middle East Eye that although the Arab vote has prevented Netanyahu from forming another far-right government, racism against Palestinians is still prevalent across the Israeli political board. \"The current situation for the Palestinian minority in Israel, we do not have good options. We are choosing between bad and worse,\" he tells MEE, warning that Netanyahu is \"in a very dangerous phase\" as he",
+      "originalLanguage": "en",
+      "translated": true,
+      "translationStatus": "success"
     },
     {
       "id": "f863ba801b6dc2ed",
@@ -957,18 +1034,23 @@
     },
     {
       "id": "63d4bca6b7d8d689",
-      "title": "Palestine Weekly: West Bank on fire – and Gaza’s tents under water",
-      "description": "More than 2,000 Gaza buildings risk collapse amid floods, with 400,000 displaced in vulnerable zones, says government.",
+      "title": "Palestina Weekly: Tepi Barat terbakar - dan tenda Gaza di bawah air",
+      "description": "Lebih dari 2.000 bangunan Gaza runtuh di tengah banjir, dengan 400.000 dipindahkan di zona rentan, kata pemerintah.",
       "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af242668f9a-1794261606.jpg?resize=1920%2C1440",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Al Jazeera",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T06:37:13+00:00",
-      "originalUrl": "https://www.aljazeera.com/news/2026/11/10/palestine-weekly-west-bank-on-fire-and-gazas-tents-under"
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/10/palestine-weekly-west-bank-on-fire-and-gazas-tents-under",
+      "originalTitle": "Palestine Weekly: West Bank on fire – and Gaza’s tents under water",
+      "originalDescription": "More than 2,000 Gaza buildings risk collapse amid floods, with 400,000 displaced in vulnerable zones, says government.",
+      "originalLanguage": "en",
+      "translated": true,
+      "translationStatus": "success"
     },
     {
       "id": "20a2a9eb0614bfff",
@@ -1016,18 +1098,23 @@
     },
     {
       "id": "43e4ba29bdf50246",
-      "title": "Firms tied to West Bank settlements win $15m UK deals despite sanctions",
-      "description": "Former Labour leader Jeremy Corbyn called the findings ‘outrageous and frankly insulting to the public’.",
+      "title": "Perusahaan yang terikat pada pemukiman Bank Barat memenangkan kesepakatan Inggris $15m meskipun sanksi",
+      "description": "Mantan pemimpin buruh Jeremy Corbyn disebut 'keterlaluan dan terus terang menghina publik'.",
       "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2025-08-07T093805Z_1053934506_RC272GA3YZBD_RTRMADP_3_ISRAEL-PALESTINIANS-SETTLERS-1794323256.jpg?resize=1920%2C1440",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Al Jazeera",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T05:39:50+00:00",
-      "originalUrl": "https://www.aljazeera.com/news/2026/11/10/firms-tied-to-west-bank-settlements-win-15m-uk-deals-despite-sanctions"
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/10/firms-tied-to-west-bank-settlements-win-15m-uk-deals-despite-sanctions",
+      "originalTitle": "Firms tied to West Bank settlements win $15m UK deals despite sanctions",
+      "originalDescription": "Former Labour leader Jeremy Corbyn called the findings ‘outrageous and frankly insulting to the public’.",
+      "originalLanguage": "en",
+      "translated": true,
+      "translationStatus": "success"
     },
     {
       "id": "57865a412e703f5a",
@@ -1071,18 +1158,23 @@
     },
     {
       "id": "11f00d1d0f27a304",
-      "title": "Nearly 80 percent of Britons see Israel as a threat to world peace",
-      "description": "Nearly 80 percent of Britons see Israel as a threat to world peace Nearly four in five Britons see Israel as a serious threat to world peace, according to a survey published last week by the National Centre for Social Research (NatCen). The figure rose from 48 percent in 2005 to 78 percent this spring, two-and-a-half years into the genocide in Gaza and just after Israel and the US had attacked Iran. In July, a YouGov opinion poll commissioned by the Council for British-Arab Understanding found that only 17 percent of the British population believes that Israel is not committing genocide in Gaza. The war on Iran has hit the UK economy, leaving households paying more for energy, food and mortgages. The rising bills have brought the cost of Israel’s wars in the Middle East home to British hou",
+      "title": "Hampir 80 persen dari Inggris melihat Israel sebagai ancaman bagi perdamaian dunia",
+      "description": "Hampir 80 persen orang Inggris melihat Israel sebagai ancaman bagi perdamaian dunia hampir empat orang Inggris melihat Israel sebagai ancaman serius bagi perdamaian dunia, menurut survei yang diterbitkan minggu lalu oleh National Centre for Social Research (NatCen). Angka naik dari 48 persen pada tahun 2005 sampai 78 persen musim semi ini, dua setengah tahun menuju genosida di Gaza dan setelah Israel dan AS telah menyerang Iran. Pada bulan Juli, polling pendapat YouGov ditugaskan oleh Dewan Inggris-Arab Understanding menemukan bahwa hanya 17 persen dari populasi Inggris yang percaya bahwa Israel tidak melakukan genosida di Gaza. Perang terhadap Iran telah memukul ekonomi Inggris, meninggalkan rumah membayar lebih banyak untuk energi, makanan dan hipotek. Tagihan naik telah membawa biaya perang Israel di rumah di Timur Tengah ke rumah besar Inggris",
       "image": "https://www.middleeasteye.net/sites/default/files/images-story/Palestine%20London%20AFP.jpg",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T03:35:49+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/nearly-80-percent-britons-see-israel-threat-world-peace"
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/nearly-80-percent-britons-see-israel-threat-world-peace",
+      "originalTitle": "Nearly 80 percent of Britons see Israel as a threat to world peace",
+      "originalDescription": "Nearly 80 percent of Britons see Israel as a threat to world peace Nearly four in five Britons see Israel as a serious threat to world peace, according to a survey published last week by the National Centre for Social Research (NatCen). The figure rose from 48 percent in 2005 to 78 percent this spring, two-and-a-half years into the genocide in Gaza and just after Israel and the US had attacked Iran. In July, a YouGov opinion poll commissioned by the Council for British-Arab Understanding found that only 17 percent of the British population believes that Israel is not committing genocide in Gaza. The war on Iran has hit the UK economy, leaving households paying more for energy, food and mortgages. The rising bills have brought the cost of Israel’s wars in the Middle East home to British hou",
+      "originalLanguage": "en",
+      "translated": true,
+      "translationStatus": "success"
     },
     {
       "id": "8efeb8d03a4a6f38",
@@ -1130,8 +1222,8 @@
     },
     {
       "id": "74ebd4ca37cb6b06",
-      "title": "How is Gaza coping with another severe winter?",
-      "description": "How is Gaza coping with another severe winter?",
+      "title": "Bagaimana menangani Gaza dengan musim dingin lain yang parah?",
+      "description": "Bagaimana menangani Gaza dengan musim dingin lain yang parah?",
       "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794253648.jpg?resize=1920%2C1080&quality=80",
       "category": "Palestina",
       "tags": [
@@ -1140,19 +1232,21 @@
       "source": "Al Jazeera",
       "sourceCountry": "International",
       "region": "",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-09T19:47:46+00:00",
       "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/9/how-is-gaza-coping-with-another-severe-winter",
       "originalTitle": "How is Gaza coping with another severe winter?",
       "originalDescription": "How is Gaza coping with another severe winter?",
-      "translationStatus": "failed",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
+      "translationStatus": "success",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
+      "originalLanguage": "en",
+      "translated": true
     },
     {
       "id": "9a47210a9956b138",
-      "title": "Jerusalem Daily: Deadly aftermath of Gaza rainstorm continues",
-      "description": "Five Palestinians were killed in Gaza when heavy rain collapsed a sand embankment on a displacement camp.",
+      "title": "Yerusalem Daily: Setelah hujan Gaza terus berlanjut",
+      "description": "Lima orang Palestina tewas di Gaza ketika hujan lebat meruntuhkan tanggul pasir di sebuah kamp perpindahan.",
       "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794246886.jpg?resize=1920%2C1080&quality=80",
       "category": "Palestina",
       "tags": [
@@ -1161,19 +1255,21 @@
       "source": "Al Jazeera",
       "sourceCountry": "International",
       "region": "",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-09T17:55:47+00:00",
       "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/9/jerusalem-daily-deadly-aftermath-of-gaza-rainstorm-continues",
       "originalTitle": "Jerusalem Daily: Deadly aftermath of Gaza rainstorm continues",
       "originalDescription": "Five Palestinians were killed in Gaza when heavy rain collapsed a sand embankment on a displacement camp.",
-      "translationStatus": "failed",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
+      "translationStatus": "success",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
+      "originalLanguage": "en",
+      "translated": true
     },
     {
       "id": "2386370aaabc7585",
-      "title": "Three injured as wall collapses on displaced family's tent in Gaza, Al Jazeera reports",
-      "description": "Three injured as wall collapses on displaced family's tent in Gaza, Al Jazeera reports Three Palestinians were injured when a wall collapsed on a tent sheltering displaced people in the Nuseirat refugee camp in central Gaza, a source at al-Awda hospital told Al Jazeera.",
+      "title": "Tiga terluka saat dinding runtuh di tenda keluarga yang dipindahkan di Gaza, laporan Al Jazeera",
+      "description": "Tiga orang yang terluka saat tembok runtuh di tenda pengungsi di Gaza, Al Jazeera melaporkan ada tiga orang Palestina yang terluka ketika sebuah tembok runtuh pada sebuah tenda melindungi orang-orang di kamp pengungsi Nuseyat di pusat Gaza, sumber dari RS Al- Awda memberitahu Al Jazeera.",
       "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
       "category": "Palestina",
       "tags": [
@@ -1182,14 +1278,16 @@
       "source": "Middle East Eye",
       "sourceCountry": "International",
       "region": "",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-09T17:18:43+00:00",
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/three-injured-wall-collapses-displaced-familys-tent-gaza-al-jazeera",
       "originalTitle": "Three injured as wall collapses on displaced family's tent in Gaza, Al Jazeera reports",
       "originalDescription": "Three injured as wall collapses on displaced family's tent in Gaza, Al Jazeera reports Three Palestinians were injured when a wall collapsed on a tent sheltering displaced people in the Nuseirat refugee camp in central Gaza, a source at al-Awda hospital told Al Jazeera.",
-      "translationStatus": "failed",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
+      "translationStatus": "success",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
+      "originalLanguage": "en",
+      "translated": true
     },
     {
       "id": "e0040cc8530253a5",
@@ -1211,8 +1309,8 @@
     },
     {
       "id": "5b4ce1e03708c74e",
-      "title": "More than 200,000 join Amsterdam march against Gaza genocide",
-      "description": "More than 200,000 join Amsterdam march against Gaza genocide Submitted by MEE staff on Mon, 11/09/2026 - 14:35 Protesters want the Netherlands to halt arms sales to Israel, tighten sanctions and recognise the Gaza genocide Demonstrators take part in a \"Red Line\" protest demanding \"government action to stop the genocide in Gaza\" in Amsterdam on October 5, 2025. (Koen van Weel/ANP/AFP) Off Tens of thousands of people marched through Amsterdam on Sunday, demanding that the Dutch government end arms sales to Israel and impose tougher trade sanctions over its genocide in Gaza. Many wore red for the Red Line protest, which drew more than 200,000 people, according to Amnesty International’s Dutch branch, one of the organisers. Campaigners called on the Netherlands to formally recognise Israel’s a",
+      "title": "Lebih dari 200.000 bergabung Amsterdam berbaris melawan pembantaian Gaza",
+      "description": "Lebih dari 200.000 bergabung Amsterdam berbaris melawan Gaza genosida Dipersembahkan oleh staf MEE pada Mon, 11 / 09 / 2026 - 14: 35 Demonstrasi ingin Belanda menghentikan penjualan senjata di Israel, memperketat sanksi dan mengakui Demonstrasi genosida Gaza mengambil bagian dalam protes \"Red Line\" menuntut \"tindakan pemerintah untuk menghentikan pembantaian di Gaza\" di Amsterdam pada 5 Oktober 2025. (Koen van Weel / ANP / AFP) Off Sepuluh ribu orang berbaris melalui Amsterdam pada hari Minggu, menuntut pemerintah Belanda mengakhiri penjualan senjata kepada Israel dan memaksakan sanksi perdagangan yang lebih keras atas genosida di Gaza. Banyak yang mengenakan warna merah untuk protes Red Line, yang menarik lebih dari 200.000 orang, menurut cabang Belanda Amnesty International, salah satu penyelenggara. Campaigners memanggil Belanda untuk secara resmi mengakui Israel adalah",
       "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_77R8387.jpg.jpg?itok=GgFIIlDm",
       "category": "Palestina",
       "tags": [
@@ -1221,14 +1319,16 @@
       "source": "Middle East Eye",
       "sourceCountry": "International",
       "region": "",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-09T14:46:58+00:00",
       "originalUrl": "https://www.middleeasteye.net/news/more-200000-join-amsterdam-march-against-gaza-genocide",
       "originalTitle": "More than 200,000 join Amsterdam march against Gaza genocide",
       "originalDescription": "More than 200,000 join Amsterdam march against Gaza genocide Submitted by MEE staff on Mon, 11/09/2026 - 14:35 Protesters want the Netherlands to halt arms sales to Israel, tighten sanctions and recognise the Gaza genocide Demonstrators take part in a \"Red Line\" protest demanding \"government action to stop the genocide in Gaza\" in Amsterdam on October 5, 2025. (Koen van Weel/ANP/AFP) Off Tens of thousands of people marched through Amsterdam on Sunday, demanding that the Dutch government end arms sales to Israel and impose tougher trade sanctions over its genocide in Gaza. Many wore red for the Red Line protest, which drew more than 200,000 people, according to Amnesty International’s Dutch branch, one of the organisers. Campaigners called on the Netherlands to formally recognise Israel’s a",
-      "translationStatus": "failed",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
+      "translationStatus": "success",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
+      "originalLanguage": "en",
+      "translated": true
     },
     {
       "id": "a27a18f22040926f",
@@ -1312,8 +1412,8 @@
     },
     {
       "id": "e6fd0a5010ad82b4",
-      "title": "Gaza authorities slam global ‘inaction’ after mudslide kills five people",
-      "description": "Four children and a woman were killed after heavy rain caused a sandbank to collapse on their tent.",
+      "title": "Otoritas Gaza membanting global 'inaction' setelah Mudslide membunuh lima orang",
+      "description": "Empat anak dan seorang wanita tewas setelah hujan lebat menyebabkan bank pasir runtuh di tenda mereka.",
       "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af1a39dc6406-1794220957.jpg?resize=1920%2C1440",
       "category": "Palestina",
       "tags": [
@@ -1322,19 +1422,21 @@
       "source": "Al Jazeera",
       "sourceCountry": "International",
       "region": "",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-09T10:50:49+00:00",
       "originalUrl": "https://www.aljazeera.com/news/2026/11/9/gaza-authorities-slam-global-inaction-after-mudslide-kills-five-people",
       "originalTitle": "Gaza authorities slam global ‘inaction’ after mudslide kills five people",
       "originalDescription": "Four children and a woman were killed after heavy rain caused a sandbank to collapse on their tent.",
-      "translationStatus": "failed",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
+      "translationStatus": "success",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
+      "originalLanguage": "en",
+      "translated": true
     },
     {
       "id": "27e8d3318cbd9edf",
-      "title": "Gaza: Five Palestinians killed as sand embankment collapses on displacement tents",
-      "description": "Gaza: Five Palestinians killed as sand embankment collapses on displacement tents Submitted by MEE staff on Mon, 11/09/2026 - 07:57 Three children and two women die in Deir al-Balah as torrential rain and severe weather batter makeshift displacement camps across the Strip Two women and three children died after a sand embankment collapsed on them in Deir al-Balah, the Gaza Strip, on 8 November 2026 (X) Off A sand embankment collapsed on tents sheltering displaced Palestinians in the Gaza Strip late on Sunday, killing three children and two women as severe weather battered the territory. At least five other people were rescued with injuries by Civil Defence search-and-rescue teams at the makeshift camp in Deir al-Balah, where operations to locate missing people continued. Mahmoud Basal, spo",
+      "title": "Gaza: Lima orang Palestina tewas sebagai tanggul pasir runtuh pada tenda perpindahan",
+      "description": "Gaza: 5 orang Palestina tewas saat tanggul pasir runtuh pada tenda pemindahan yang diturunkan oleh staf MEE pada Mon, 11 / 09 / 2026 - 07: 57 Tiga anak dan dua perempuan meninggal di Deir al- Balah sebagai hujan yang deras dan cuaca yang parah, dan kamp perpindaman perpindaman di sepanjang jalan Dua wanita dan tiga anak meninggal setelah tanggul pasir runtuh pada mereka di Deir al- Balah, Jalur Gaza, pada 8 November 2026 (X) Tangki pasir runtuh di atas tenda-tenda yang melindungi orang Palestina di Jalur Gaza pada hari Minggu, membunuh tiga anak-anak dan dua perempuan sebagai daerah cuaca parah. Setidaknya lima orang lainnya diselamatkan dengan luka-luka oleh Pencarian Pertahanan Sipil dan tim penyelamat di kamp darurat di Deir Al- Balah, di mana operasi untuk menemukan orang hilang dilanjutkan. Mahmoud Basal, spo",
       "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/gaa-sand-cliff.jpg.jpg?itok=Lonq8Gon",
       "category": "Palestina",
       "tags": [
@@ -1343,18 +1445,20 @@
       "source": "Middle East Eye",
       "sourceCountry": "International",
       "region": "",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-09T08:08:55+00:00",
       "originalUrl": "https://www.middleeasteye.net/news/gaza-five-palestinians-killed-sand-embankment-collapses-displacement-tents",
       "originalTitle": "Gaza: Five Palestinians killed as sand embankment collapses on displacement tents",
       "originalDescription": "Gaza: Five Palestinians killed as sand embankment collapses on displacement tents Submitted by MEE staff on Mon, 11/09/2026 - 07:57 Three children and two women die in Deir al-Balah as torrential rain and severe weather batter makeshift displacement camps across the Strip Two women and three children died after a sand embankment collapsed on them in Deir al-Balah, the Gaza Strip, on 8 November 2026 (X) Off A sand embankment collapsed on tents sheltering displaced Palestinians in the Gaza Strip late on Sunday, killing three children and two women as severe weather battered the territory. At least five other people were rescued with injuries by Civil Defence search-and-rescue teams at the makeshift camp in Deir al-Balah, where operations to locate missing people continued. Mahmoud Basal, spo",
-      "translationStatus": "failed",
+      "translationStatus": "success",
       "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
       "sources": [
         "Middle East Eye",
         "BBC World"
-      ]
+      ],
+      "originalLanguage": "en",
+      "translated": true
     },
     {
       "id": "8d3c959850842408",
@@ -1424,8 +1528,8 @@
     },
     {
       "id": "e210834da65c9e9f",
-      "title": "‘Tents don’t protect us’: Rains flood displaced Palestinians in Gaza",
-      "description": "Hundreds of thousands of Palestinians are vulnerable to flooding as Israel continues to block entry of mobile homes.",
+      "title": "'Hari-hari tidak melindungi kita': Rains pengungsi Palestina di Gaza",
+      "description": "Ratusan ribu orang Palestina rentan banjir sementara Israel terus memblokir entri rumah mobile.",
       "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/873A0709-copy-1794143945.jpeg?resize=1920%2C1440",
       "category": "Palestina",
       "tags": [
@@ -1434,19 +1538,21 @@
       "source": "Al Jazeera",
       "sourceCountry": "International",
       "region": "",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-09T05:18:39+00:00",
       "originalUrl": "https://www.aljazeera.com/features/2026/11/9/tents-dont-protect-us-rains-flood-displaced-palestinians-in-gaza",
       "originalTitle": "‘Tents don’t protect us’: Rains flood displaced Palestinians in Gaza",
       "originalDescription": "Hundreds of thousands of Palestinians are vulnerable to flooding as Israel continues to block entry of mobile homes.",
-      "translationStatus": "failed",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
+      "translationStatus": "success",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
+      "originalLanguage": "en",
+      "translated": true
     },
     {
       "id": "54ea139523ea2ad4",
-      "title": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency",
-      "description": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitarian needs. Gaza's civil defence declared a maximum state of emergency as overwhelmed rescue teams struggled to respond to thousands of distress calls amid limited resources and inadequate shelter. Rescue teams received over 2000 distress calls since the storm began, while only having capacity to respond to a tenth of the calls received. Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitari",
+      "title": "Watch: Banjir membawa Pertahanan Sipil Gaza untuk menyatakan keadaan darurat maksimum",
+      "description": "Perhatikan: Flooding membawa Pertahanan Sipil Gaza untuk menyatakan keadaan maksimum hujan lebat darurat dan angin yang kuat telah membanjiri puluhan ribu tenda perpindahan di Gaza, sehingga keluarga-keluarga yang terkena air banjir meningkat, kondisi beku dan kebutuhan kemanusiaan yang buruk. Pertahanan sipil Gaza menyatakan keadaan darurat maksimum sebagai tim penyelamat kewalahan berjuang untuk menanggapi ribuan panggilan darurat di tengah sumber daya terbatas dan tidak memadai berlindung. Tim penyelamat menerima lebih dari 2000 panggilan darurat sejak badai dimulai, sedangkan hanya memiliki kapasitas untuk menanggapi sepersepuluh dari panggilan yang diterima. Hujan lebat dan angin kencang telah membanjiri puluhan ribu tenda perpindahan di seluruh Gaza, membuat keluarga-keluarga terekspos di atas perairan, kondisi pembekuan dan kemanusiaan yang buruk",
       "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
       "category": "Palestina",
       "tags": [
@@ -1455,14 +1561,16 @@
       "source": "Middle East Eye",
       "sourceCountry": "International",
       "region": "",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-09T02:08:15+00:00",
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-flooding-brings-gazas-civil-defence-declare-maximum-state",
       "originalTitle": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency",
       "originalDescription": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitarian needs. Gaza's civil defence declared a maximum state of emergency as overwhelmed rescue teams struggled to respond to thousands of distress calls amid limited resources and inadequate shelter. Rescue teams received over 2000 distress calls since the storm began, while only having capacity to respond to a tenth of the calls received. Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitari",
-      "translationStatus": "failed",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
+      "translationStatus": "success",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
+      "originalLanguage": "en",
+      "translated": true
     },
     {
       "id": "ef94b41c82a7a7bd",
@@ -1484,8 +1592,8 @@
     },
     {
       "id": "58229efe8b6b6a51",
-      "title": "Gaza sandbank collapse kills five amid heavy rains",
-      "description": "Gaza sandbank collapse kills five amid heavy rains At least five people have been killed, including three children, after heavy rains caused a sandbank to collapse in central Gaza's Deir al-Balah, Wafa news reported on Sunday. A civil defence spokesman added that five wounded people had been pulled out of the rubble after their tents were hit, and teams are continuing to search for survivors. The incident comes amid worsening conditions faced by displaced Palestinians in Gaza, as national and internation institutions warned heavy rainfall and bad weather require urgent intervention and the provision of safe shelter and winter supplies.",
+      "title": "Keruntuhan bank pasir Gaza membunuh lima di antara hujan lebat",
+      "description": "Keruntuhan bank pasir Gaza membunuh lima di antara hujan lebat Setidaknya lima orang telah terbunuh, termasuk tiga anak, setelah hujan lebat menyebabkan sebuah bank pasir runtuh di pusat Gaza Deir al- Balah, Berita Wafa dilaporkan pada hari Minggu. Juru bicara pertahanan sipil menambahkan bahwa lima orang terluka telah ditarik keluar dari reruntuhan setelah tenda mereka diserang, dan tim terus mencari korban selamat. Insiden ini terjadi di tengah-tengah kondisi yang memburuk yang dihadapi oleh warga Palestina di Gaza, seperti lembaga nasional dan antarnegara yang memperingatkan curah hujan berat dan cuaca buruk memerlukan intervensi mendesak dan penyediaan tempat penampungan yang aman dan persediaan musim dingin.",
       "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
       "category": "Palestina",
       "tags": [
@@ -1494,14 +1602,16 @@
       "source": "Middle East Eye",
       "sourceCountry": "International",
       "region": "",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-08T19:53:24+00:00",
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/gaza-sandbank-collapse-kills-5-amid-heavy-rains",
       "originalTitle": "Gaza sandbank collapse kills five amid heavy rains",
       "originalDescription": "Gaza sandbank collapse kills five amid heavy rains At least five people have been killed, including three children, after heavy rains caused a sandbank to collapse in central Gaza's Deir al-Balah, Wafa news reported on Sunday. A civil defence spokesman added that five wounded people had been pulled out of the rubble after their tents were hit, and teams are continuing to search for survivors. The incident comes amid worsening conditions faced by displaced Palestinians in Gaza, as national and internation institutions warned heavy rainfall and bad weather require urgent intervention and the provision of safe shelter and winter supplies.",
-      "translationStatus": "failed",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
+      "translationStatus": "success",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
+      "originalLanguage": "en",
+      "translated": true
     },
     {
       "id": "638cbb1532255585",
@@ -1595,8 +1705,8 @@
     },
     {
       "id": "c2e1db100c5a2367",
-      "title": "Gaza wedding festival sees 250 couples married at the same time",
-      "description": "A mass wedding for Palestinian brides and grooms has taken place in the rubble-strewn streets of Gaza.",
+      "title": "Festival pernikahan Gaza melihat 250 pasangan menikah pada saat yang sama",
+      "description": "Pernikahan massal untuk pengantin Palestina dan pengantin pria telah berlangsung di jalan-jalan rubble- bertebaran di Gaza.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/354f/live/49a10e60-daba-11f1-b441-2b33b063138f.jpg",
       "category": "Palestina",
       "tags": [
@@ -1605,14 +1715,16 @@
       "source": "BBC World",
       "sourceCountry": "International",
       "region": "",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-07T17:58:41+00:00",
       "originalUrl": "https://www.bbc.co.uk/news/videos/ckr5ygm78j76o?at_campaign=rss&at_medium=RSS",
       "originalTitle": "Gaza wedding festival sees 250 couples married at the same time",
       "originalDescription": "A mass wedding for Palestinian brides and grooms has taken place in the rubble-strewn streets of Gaza.",
-      "translationStatus": "failed",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function"
+      "translationStatus": "success",
+      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
+      "originalLanguage": "en",
+      "translated": true
     },
     {
       "id": "b001ec5de43f56cc",
