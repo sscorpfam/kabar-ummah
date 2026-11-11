@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-11T16:17:06.362749+00:00",
-  "total": 111,
-  "newArticles": 32,
+  "lastUpdated": "2026-11-11T22:45:47.587342+00:00",
+  "total": 117,
+  "newArticles": 27,
   "sourcesChecked": 10,
   "sourcesSucceeded": 9,
   "sourcesFailed": 1,
@@ -11,8 +11,8 @@
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 3,
-      "filtered": 22,
+      "accepted": 4,
+      "filtered": 21,
       "translated": 25,
       "translationFailed": 0,
       "error": null
@@ -71,8 +71,8 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 10,
-      "filtered": 10,
+      "accepted": 4,
+      "filtered": 16,
       "translated": 20,
       "translationFailed": 0,
       "error": null
@@ -116,6 +116,129 @@
     "failedArticles": 0
   },
   "articles": [
+    {
+      "id": "1d1b239fe2602763",
+      "title": "Kelompok pembayar pajak AS memanggil ICC untuk menyelidiki Trump, Rubio untuk 'membantu' Gaza genosida",
+      "description": "Kelompok pembayar pajak AS memanggil ICC untuk menyelidiki Trump, Rubio untuk 'membantu' Gaza Genosida Dikirimkan oleh staf MEE pada Wid, 11 / 11 / 2026 - 18: 54 Para penggugat mengatakan bahwa mereka telah menghabiskan semua pilihan hukum lain untuk mencari keadilan Seth Donnelly, pendiri Persatuan Taxpayers Against Genosida, memimpin konferensi pers dari The Hague, di Belanda, untuk mengumumkan penyerahan resmi kepada ICC untuk menyelidiki Presiden AS Donald Trump dan Sekretaris Negara AS Marco Rubio, pada 11 November 2026 (Screentake) dari sekelompok pembayar pajak AS dan internasional pengacara hak asasi manusia telah secara resmi dipanggil ke Pengadilan Pidana Internasional (ICC) pada 11 November 2026 (Screencick) atas kejahatan serta kejahatan yang dilakukan oleh Marco dan kejahatan serta pengirman, Mereka mengumumkan itu di sebuah konferensi pers di rumah pengadilan di Den Haag, di Belanda, pada hari Rabu. Taxpayer Alliance Against (Taag), dan termasuk surat sumpah dari dokter-dokter yang bekerja di Gaza, langsung menjadi saksi mata, kesaksian whistleblower, bukti video, dan dokumentasi ekstensif dari apa yang mereka katakan adalah militer AS, keuangan, diplomatik, dan dukungan politik bagi Israel, kata grup. Di antara mereka yang terlibat adalah Dr Feroze Sidhwa, seorang ahli bedah trauma yang menjalani dua misi di Gaza, dan David McIntsh, seorang mantan kontraktor dengan skandal-terganggu dan sekarang-menghentikan Yayasan Kemanusiaan Gaza, keduanya sebelumnya telah berbagi pengalaman rinci dengan Mata Timur Tengah. Hampir setahun untuk mengumpulkan bukti yang diperlukan bahwa tanpa Amerika Serikat, Israel tidak bisa melakukan apa yang ilmuwan PBB dan Holocaust telah dijelaskan sebagai genosida dari Palestina di Gaza, Taag mengatakan dalam pers rilis menyertai pengumuman. Taag mengajukan 15 Pasal komunikasi dengan ICC, \"menyediakan Kantor Kejaksaan dengan bukti yang luas yang mencapai lega",
+      "originalTitle": "US taxpayer group calls on ICC to investigate Trump, Rubio for 'aiding' Gaza genocide",
+      "originalDescription": "US taxpayer group calls on ICC to investigate Trump, Rubio for 'aiding' Gaza genocide Submitted by MEE staff on Wed, 11/11/2026 - 18:54 The complainants say they have exhausted all other legal options to seek justice Seth Donnelly, co-founder of the Taxpayers Alliance Against Genocide, leads a press conference from The Hague, in the Netherlands, to announce an official submission to the ICC to investigate US President Donald Trump and US Secretary of State Marco Rubio, on 11 November 2026 (Screengrab) Off A group of US taxpayers and international human rights lawyers have officially called on the International Criminal Court (ICC) to investigate President Donald Trump and his top diplomat Marco Rubio for \"aiding and abetting genocide, war crimes, and crimes against humanity committed by Israel in Gaza\". They announced it at a press conference at the court's home in The Hague, in the Netherlands, on Wednesday. The submission to the court was organised by the Taxpayer Alliance Against Genocide (Taag), and includes sworn affidavits from doctors who worked in Gaza, firsthand eyewitness accounts, whistleblower testimony, video evidence, and extensive documentation of what they say is US military, financial, diplomatic, and political support for Israel, the group said. Among those involved are Dr Feroze Sidhwa , a trauma surgeon who undertook two missions in Gaza, and David McIntosh , a former contractor with the scandal-plagued and now-defunct Gaza Humanitarian Foundation, both of whom have previously shared their detailed experiences with Middle East Eye. It took nearly a year to compile the necessary proof that without the US, Israel could not have carried out what the United Nations and Holocaust scholars have described as a genocide of Palestinians in Gaza, Taag said in a press release accompanying the announcement. Taag filed an Article 15 communication with the ICC, \"providing the Office of the Prosecutor with an extensive evidence submission that achieves the lega",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Screenshot%202026-11-11%20at%204.34.21%E2%80%AFPM.png.jpg?itok=FvhNAkEm",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T22:15:30+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/us-taxpayer-group-calls-icc-investigate-trump-rubio-aiding-gaza-genocide",
+      "translationStatus": "success",
+      "sources": [
+        "Middle East Eye"
+      ]
+    },
+    {
+      "id": "50278e7efdeaa553",
+      "title": "Kiper Gaza tewas dalam serangan Israel",
+      "description": "Pemain sepak bola Palestina Mahmoud Abdel- Malek tewas dalam serangan Israel beberapa hari setelah Piala Seribu Martir.",
+      "originalTitle": "Gaza goalkeeper killed in Israeli attack",
+      "originalDescription": "Palestinian footballer Mahmoud Abdel-Malek was killed in an Israeli strike days after the Thousand Martyrs Cup.",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794429857.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T20:44:34+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/11/gaza-goalkeeper-killed-in-israeli-attack",
+      "translationStatus": "success"
+    },
+    {
+      "id": "e9809d8ae98ecb7e",
+      "title": "Adegan menunjukkan akibat serangan Israel yang mengerikan di tenda Gaza",
+      "description": "Keluarga Palestina telah kembali ke lingkungan kota Sabra di Gaza setelah serangan Israel menewaskan tiga orang.",
+      "originalTitle": "Scenes show aftermath of horrific Israeli strike on Gaza tents",
+      "originalDescription": "Palestinian families have returned to the Sabra neighbourhood of Gaza City after an Israeli strike killed three people.",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794429164.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T20:33:35+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/11/scenes-show-aftermath-of-horrific-israeli-strike-on-gaza-tents",
+      "translationStatus": "success"
+    },
+    {
+      "id": "30fe48e81e2304b4",
+      "title": "Amerika Palestina pertama terpilih di New York berbicara dengan Al Jazeera",
+      "description": "Senator Amerika Palestina - memilih Aber Kawas mengatakan Gaza dan terjangkau di New York mendorong dia ke politik.",
+      "originalTitle": "First Palestinian American elected in New York talks to Al Jazeera",
+      "originalDescription": "Palestinian American senator-elect Aber Kawas says Gaza and affordability in New York drove her into politics.",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794428622.jpg?resize=1707%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T20:24:01+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/11/first-palestinian-american-elected-in-new-york-talks-to-al-jazeera",
+      "translationStatus": "success"
+    },
+    {
+      "id": "03bb9f1b6178012f",
+      "title": "Kepala Humanitarian PBB mengatakan 'tidak ada alasan' pada pembukaan Gaza",
+      "description": "Kepala kemanusiaan PBB mengatakan 'tidak ada lagi alasan' pada pembukaan Gaza melintasi PBB secara rahasia-umum untuk urusan kemanusiaan dan koordinator bantuan darurat Tom Fletcher mengatakan pada hari Rabu bahwa tidak ada lagi penundaan dalam pembukaan perbatasan perbatasan ke Gaza untuk memberikan bantuan kemanusiaan. \"Tidak ada lagi penundaan. Tidak ada alasan lagi. Kita harus membuka semua persimpangan, memobilisasi seluruh komunitas kemanusiaan, dan mendapatkan penuh kami Winter rencana disampaikan untuk Gaza,\" Fletcher menulis dalam posting di X Dia mengatakan bahwa beberapa negara mendukung pengiriman bantuan ke Gaza mengatakan kepadanya bahwa memberikan pasokan musim dingin harus menunggu pembentukan pemerintah Israel. \"Ini bukan alasan yang dapat diterima\", jawabnya, mengutip hukum internasional dan konsekuensi penundaan, penyumbatan dan pemotongan pendanaan. Tidak ada lagi penundaan. Tidak ada alasan lagi. Kita harus membuka semua persimpangan, memobilisasi seluruh komunitas kemanusiaan, dan mendapatkan rencana musim dingin penuh kami dikirim ke Gaza. https: / / t.co / pUGvbizZVZ - Tom Fletcher (@ UNReliefChief) November 11, 2026",
+      "originalTitle": "UN humanitarian chief says 'no more excuses' on opening Gaza crossing",
+      "originalDescription": "UN humanitarian chief says 'no more excuses' on opening Gaza crossing UN under-secretary-general for humanitarian affairs and emergency relief coordinator Tom Fletcher said on Wednesday that there cannot be any more delays in opening the border crossings into Gaza to deliver humanitarian aid. \"No more delays. No more excuses. We must open all the crossings, mobilize the whole humanitarian community, and get our full Winter plan delivered for Gaza,\" Fletcher wrote in a post on X. He said that certain countries supporting aid deliveries to Gaza told him that delivering winter supplies will have to wait for the formation of an Israeli government. “This is not an acceptable excuse,” he added, citing international law and the consequences of delays, blockages and funding cuts. No more delays. No more excuses. We must open all the crossings, mobilize the whole humanitarian community, and get our full Winter plan delivered for Gaza. https://t.co/pUGvbizZVZ — Tom Fletcher (@UNReliefChief) November 11, 2026",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Cop31%20Erdogan.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T20:09:06+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/un-humanitarian-chief-says-no-more-excuses-opening-gaza-crossing",
+      "translationStatus": "success"
+    },
+    {
+      "id": "368270add2c9b0b6",
+      "title": "Banjir Gaza adalah bencana oleh desain - dan lemah Barat terlibat",
+      "description": "Banjir Gaza adalah bencana dengan desain - dan Barat tak bertulang yang terlibat oleh David Hearst pada Wed, 11 / 11 / 2026 - 19: 01 Israel dan para pendukung Israel benar untuk tetap tenang dan melanjutkan, karena mereka jauh dari menghadapi setiap tanggung jawab nyata Displaced Palestina mencoba untuk membersihkan air di luar tenda-tenda banjir mereka di tengah hujan lebat di Gaza City, pada 7 November 2026 (Omar al- QATA / AFP) Ini adalah waktu yang besar untuk kejahatan. Anda dapat perdagangan emas dicuri Anda di Dubai dan bank uang Anda di sana, tidak ada pertanyaan yang diajukan. Kau bisa belanja Natal di Oxford Street, atau mungkin menonton musikal West End. Polisi Metropolitan tidak akan mengganggumu. Ketika satu perang selesai, panggilan lain segera. Anggap dirimu seorang penjual keliling. Dari Yaman, ke Sudan, dan sekarang ke Tigray, layanan Anda akan selalu diminta. Anda bahkan bisa mendapatkan pertunjukan yang menguntungkan pada Presiden AS Donald Trump \"Dewan Perdamaian\", dan program berita akan antri untuk mewawancarai Anda. Dari satu hal yang Anda bisa yakin: Anda tidak akan pernah menghadapi keadilan. Pengadilan Nuremberg dan The Hague begitu abad lalu. Jadi maafkan saya karena mengajukan satu pertanyaan, dalam badai salju spekulasi demam bahwa Trump dan Perdana Menteri Israel Benjamin Netanyahu akan diusir dari Gedung Putih dan Beit Agoni dengan hormat: apa yang telah berubah? Mari kita mulai menjawab pertanyaan itu dari tenda yang banjir di Gaza. Nahla al- Majdoub, 48, membawa luka berkelanjutan ketika usus nya robek oleh pecahan peluru dari rudal. Dia selalu sakit, dan dingin membuatnya lebih buruk. Tendanya hancur dalam badai baru-baru ini. Dia membutuhkan 170 shekels ($53) seminggu untuk membayar obatnya. Putrinya yang berusia tujuh tahun menderita diabetes, Majdoub memberitahu Mata Timur Tengah. \"Aku terbangun basah kuyup. Saya melihat anak-anak saya, yang juga basah dan dikelilingi air.\" Kami menangis tanpa daya, tidak tahu apa yang harus dilakukan atau bagaimana untuk melindungi mereka, \"katanya. Akhirnya, angin meniup tendanya pergi sama sekali.\" Saya minta maaf bahwa keluarga saya terbesar d",
+      "originalTitle": "Gaza flooding is a catastrophe by design - and the spineless West is complicit",
+      "originalDescription": "Gaza flooding is a catastrophe by design - and the spineless West is complicit Submitted by David Hearst on Wed, 11/11/2026 - 19:01 Israel and its backers are right to keep calm and carry on, because they are a long way from facing any real accountability Displaced Palestinians attempt to clear water outside their flooded tents amid heavy rainfall in Gaza City, on 7 November 2026 (Omar al-Qattaa/AFP) Off It’s a great time to be a war criminal. You can trade your stolen gold in Dubai and bank your money there, no questions asked. You can do your Christmas shopping on Oxford Street, or maybe catch a West End musical. The Metropolitan Police will not bother you. When one war finishes, another soon beckons. Consider yourself a travelling salesman. From Yemen , to Sudan , and now to Tigray , your services will always be in demand. You can even get a lucrative gig on US President Donald Trump’s “ Board of Peace ”, and news programmes will be queuing up to interview you. Of one thing you can be sure: you will never face justice. The Nuremberg Trials and The Hague were so last century. So forgive me for asking one question, in the blizzard of feverish speculation that Trump and Israeli Prime Minister Benjamin Netanyahu are about to be thrown out of the White House and Beit Aghion respectively: what has changed? Let’s start answering that question from a flooded tent in Gaza . Nahla al-Majdoub, 48, carries a wound sustained when her intestines were shredded by shrapnel from a missile. She is in constant pain, and the cold is making it worse. Her tent was destroyed in the recent storms. She needs 170 shekels ($53) a week to pay for her medication. Her seven-year-old daughter has diabetes, Majdoub told Middle East Eye . “I woke up soaking wet. I looked at my children, who were also wet and surrounded by water. We cried helplessly, not knowing what to do or how to protect them,” she said. Eventually, the wind blew her tent away altogether. “I am sorry that my family’s biggest d",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/palestine-gaza-tents-flood-november-2026-omar-al-qattaa-afp.jpg.jpg?itok=Z0iz-yR9",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T19:40:21+00:00",
+      "originalUrl": "https://www.middleeasteye.net/opinion/gaza-flooding-catastrophe-design-and-spineless-west-complicit",
+      "translationStatus": "success"
+    },
     {
       "id": "6b9b97fd43d00794",
       "title": "Netanyahu menarik panggilan 'pidato kebencian' di parlemen Israel yang baru terpilih",
@@ -173,7 +296,10 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-11T14:41:17+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/toce4t320/kelak-jelang-kiamat-muncul-hewan-melata-yang-mampu-berbicara-kepada-manusia-seperti-apa"
+      "originalUrl": "https://khazanah.republika.co.id/berita/toce4t320/kelak-jelang-kiamat-muncul-hewan-melata-yang-mampu-berbicara-kepada-manusia-seperti-apa",
+      "sources": [
+        "Republika"
+      ]
     },
     {
       "id": "d56014e524b895b6",
@@ -192,7 +318,10 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-11T14:24:00+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/toccr9430/hujan-deras-dan-banjir-terjang-gaza-tiga-anak-dan-seorang-ibu-wafat"
+      "originalUrl": "https://khazanah.republika.co.id/berita/toccr9430/hujan-deras-dan-banjir-terjang-gaza-tiga-anak-dan-seorang-ibu-wafat",
+      "sources": [
+        "Republika"
+      ]
     },
     {
       "id": "62f815ee2e6bd91b",
@@ -211,7 +340,10 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-11T14:06:15+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/toccif430/kh-said-aqil-minta-konflik-politik-diakhiri-utamakan-kepentingan-rakyat"
+      "originalUrl": "https://khazanah.republika.co.id/berita/toccif430/kh-said-aqil-minta-konflik-politik-diakhiri-utamakan-kepentingan-rakyat",
+      "sources": [
+        "Republika"
+      ]
     },
     {
       "id": "5e1cd8b46cb2f79a",
@@ -250,7 +382,10 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-11T14:00:32+00:00",
-      "originalUrl": "https://www.nu.or.id/nasional/perlu-penguatan-kajian-ilmu-falak-dan-digitalisasi-karya-ulama-di-ptki-JIp1X"
+      "originalUrl": "https://www.nu.or.id/nasional/perlu-penguatan-kajian-ilmu-falak-dan-digitalisasi-karya-ulama-di-ptki-JIp1X",
+      "sources": [
+        "NU Online"
+      ]
     },
     {
       "id": "eca593498ecb3a7e",
@@ -269,7 +404,10 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-11T13:50:59+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/tocbsz320/kemenhaj-moratorium-izin-travel-umrah-sebut-50-persen-travel-tak-aktif"
+      "originalUrl": "https://khazanah.republika.co.id/berita/tocbsz320/kemenhaj-moratorium-izin-travel-umrah-sebut-50-persen-travel-tak-aktif",
+      "sources": [
+        "Republika"
+      ]
     },
     {
       "id": "b4bad7589d19462c",
@@ -411,7 +549,10 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-11T11:39:59+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/toc5qn423/rumah-zakat-salurkan-10000-liter-air-bersih-untuk-150-kk-di-makassar"
+      "originalUrl": "https://khazanah.republika.co.id/berita/toc5qn423/rumah-zakat-salurkan-10000-liter-air-bersih-untuk-150-kk-di-makassar",
+      "sources": [
+        "Republika"
+      ]
     },
     {
       "id": "208ac383a837100c",
@@ -430,7 +571,10 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-11T11:30:59+00:00",
-      "originalUrl": "https://www.nu.or.id/internasional/unicef-salurkan-bantuan-musim-dingin-dan-bersihkan-50-saluran-air-di-gaza-usai-hujan-deras-agXoS"
+      "originalUrl": "https://www.nu.or.id/internasional/unicef-salurkan-bantuan-musim-dingin-dan-bersihkan-50-saluran-air-di-gaza-usai-hujan-deras-agXoS",
+      "sources": [
+        "NU Online"
+      ]
     },
     {
       "id": "47904c38450eab66",
