@@ -1261,12 +1261,11 @@ def categorize(
 # FETCH NEWS SOURCE
 # =========================================================
 
+
 def fetch_source(source, categories):
 
     result = {
-        "name": source.get(
-            "name", "Unknown"
-        ),
+        "name": source.get("name", "Unknown"),
         "status": "error",
         "raw": 0,
         "accepted": 0,
@@ -1275,7 +1274,9 @@ def fetch_source(source, categories):
     }
 
     try:
-
+        # ==========================================
+        # 1. Mengambil respons RSS
+        # ==========================================
         response = requests.get(
             source["url"],
             headers=RSS_HEADERS,
@@ -1284,35 +1285,42 @@ def fetch_source(source, categories):
 
         response.raise_for_status()
 
+        # ==========================================
+        # 2. Membaca dan memproses RSS
+        # ==========================================
         feed = parse_rss_safely(
-    response.content,
-    response.encoding
-)
-
-entries = feed.entries
-
-if not entries:
-    raise ValueError(
-        "RSS tidak menghasilkan artikel. "
-        "Periksa apakah URL mengembalikan XML RSS "
-        "atau justru halaman HTML."
-    )
-
-        result["raw"] = len(
-            entries
+            response.content,
+            response.encoding
         )
 
-        if not entries and feed.bozo:
-
+        # Periksa apakah RSS mengalami kerusakan XML
+        if feed.bozo and not feed.entries:
             raise ValueError(
                 "RSS tidak dapat dibaca: "
                 + str(feed.bozo_exception)
+            )
+
+        entries = feed.entries
+
+        result["raw"] = len(entries)
+
+        # ==========================================
+        # 3. Periksa apakah RSS memiliki artikel
+        # ==========================================
+        if not entries:
+            raise ValueError(
+                "RSS tidak menghasilkan artikel. "
+                "Periksa apakah URL mengembalikan XML RSS "
+                "atau justru halaman HTML."
             )
 
         result["status"] = "success"
 
         articles = []
 
+        # ==========================================
+        # 4. Memproses setiap artikel
+        # ==========================================
         for entry in entries:
 
             title = clean_text(
@@ -1324,7 +1332,6 @@ if not entries:
             )
 
             if not description:
-
                 description = clean_text(
                     entry.get("description", "")
                 )
@@ -1333,27 +1340,36 @@ if not entries:
                 entry.get("link", "")
             )
 
+            # Periksa judul dan URL
             if not title or not url:
-
                 result["filtered"] += 1
                 continue
 
+            # ======================================
+            # 5. Kategorisasi berita
+            # ======================================
             category, tags = categorize(
                 title,
                 description,
                 categories
             )
 
+            # Abaikan berita yang tidak relevan
             if not category:
-
                 result["filtered"] += 1
                 continue
 
+            # ======================================
+            # 6. Mengambil gambar artikel
+            # ======================================
             image_url = extract_image(
                 entry,
                 url
             )
 
+            # ======================================
+            # 7. Membuat objek artikel
+            # ======================================
             article = {
                 "id": generate_id(url),
                 "title": title,
@@ -1376,9 +1392,10 @@ if not entries:
 
             articles.append(article)
 
-        result["accepted"] = len(
-            articles
-        )
+        # ==========================================
+        # 8. Statistik hasil pemrosesan
+        # ==========================================
+        result["accepted"] = len(articles)
 
         logging.info(
             "%s | RSS: %d | Lolos: %d | Disaring: %d",
@@ -1392,6 +1409,9 @@ if not entries:
 
     except Exception as error:
 
+        # ==========================================
+        # 9. Penanganan kesalahan sumber RSS
+        # ==========================================
         result["error"] = str(error)
 
         logging.error(
@@ -1401,6 +1421,7 @@ if not entries:
         )
 
         return [], result
+
 
 
 # =========================================================
