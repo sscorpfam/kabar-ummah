@@ -52,5 +52,11 @@
     "url": "https://muhammadiyah.or.id/feed/",
     "language": "id",
     "country": "Indonesia"
+  },
+  {
+    "name": "NU Online Hikmah",
+    "url": "https://islam.nu.or.id/post/feed",
+    "language": "id",
+    "country": "Indonesia"
   }
 ]
