@@ -1,11 +1,11 @@
 {
-  "status": "success",
-  "lastUpdated": "2026-11-11T06:15:06.732560+00:00",
+  "status": "partial",
+  "lastUpdated": "2026-11-11T07:48:04.492174+00:00",
   "total": 82,
   "newArticles": 0,
   "sourcesChecked": 10,
-  "sourcesSucceeded": 10,
-  "sourcesFailed": 0,
+  "sourcesSucceeded": 9,
+  "sourcesFailed": 1,
   "sourceStats": [
     {
       "name": "Al Jazeera",
@@ -79,13 +79,13 @@
     },
     {
       "name": "Detik",
-      "status": "success",
-      "raw": 100,
+      "status": "error",
+      "raw": 0,
       "accepted": 0,
       "filtered": 0,
       "translated": 0,
       "translationFailed": 0,
-      "error": "name 'translation' is not defined"
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
     },
     {
       "name": "Muhammadiyah",
@@ -100,7 +100,7 @@
     {
       "name": "NU Online",
       "status": "success",
-      "raw": 50,
+      "raw": 47,
       "accepted": 0,
       "filtered": 0,
       "translated": 0,
