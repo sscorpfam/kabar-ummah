@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-11T02:47:50.835775+00:00",
-  "total": 81,
-  "newArticles": 32,
+  "lastUpdated": "2026-11-11T02:56:28.527003+00:00",
+  "total": 82,
+  "newArticles": 33,
   "sourcesChecked": 10,
   "sourcesSucceeded": 9,
   "sourcesFailed": 1,
@@ -13,8 +13,8 @@
       "raw": 25,
       "accepted": 3,
       "filtered": 22,
-      "translated": 0,
-      "translationFailed": 25,
+      "translated": 25,
+      "translationFailed": 0,
       "error": null
     },
     {
@@ -23,8 +23,8 @@
       "raw": 38,
       "accepted": 2,
       "filtered": 36,
-      "translated": 0,
-      "translationFailed": 38,
+      "translated": 38,
+      "translationFailed": 0,
       "error": null
     },
     {
@@ -41,8 +41,8 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 2,
-      "filtered": 48,
+      "accepted": 3,
+      "filtered": 47,
       "translated": 0,
       "translationFailed": 0,
       "error": null
@@ -73,8 +73,8 @@
       "raw": 20,
       "accepted": 8,
       "filtered": 12,
-      "translated": 0,
-      "translationFailed": 20,
+      "translated": 20,
+      "translationFailed": 0,
       "error": null
     },
     {
@@ -112,10 +112,29 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 0,
-    "failedArticles": 83
+    "translatedArticles": 83,
+    "failedArticles": 0
   },
   "articles": [
+    {
+      "id": "a57cd653a67e31ce",
+      "title": "Baznas RI salurkan bantuan untuk ibu dan anak guna mencegah stunting",
+      "description": "Badan Amil Zakat Nasional (Baznas) RI menyalurkan paket pangan bergizi secara bertahap bagi 659 anak dan ibu berisiko ...",
+      "originalTitle": "Baznas RI salurkan bantuan untuk ibu dan anak guna mencegah stunting",
+      "originalDescription": "Badan Amil Zakat Nasional (Baznas) RI menyalurkan paket pangan bergizi secara bertahap bagi 659 anak dan ibu berisiko ...",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/11/IMG_20261111_092739.jpg.jpeg",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "ANTARA Terkini",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T02:52:41+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5845719/baznas-ri-salurkan-bantuan-untuk-ibu-dan-anak-guna-mencegah-stunting"
+    },
     {
       "id": "40e017338cf68ca7",
       "title": "Baznas ajak kampus perkuat ekosistem zakat menuju Indonesia Emas 2045",
@@ -133,7 +152,10 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-11T02:44:51+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5845703/baznas-ajak-kampus-perkuat-ekosistem-zakat-menuju-indonesia-emas-2045"
+      "originalUrl": "https://www.antaranews.com/berita/5845703/baznas-ajak-kampus-perkuat-ekosistem-zakat-menuju-indonesia-emas-2045",
+      "sources": [
+        "ANTARA Terkini"
+      ]
     },
     {
       "id": "409e1a104e88842b",
@@ -152,7 +174,10 @@
       "language": "id",
       "country": "Indonesia",
       "publishedAt": "2026-11-11T02:37:07+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5845691/baznas-perluas-beasiswa-pendidikan-lintas-negara-dengan-kpmaiwp"
+      "originalUrl": "https://www.antaranews.com/berita/5845691/baznas-perluas-beasiswa-pendidikan-lintas-negara-dengan-kpmaiwp",
+      "sources": [
+        "ANTARA Terkini"
+      ]
     },
     {
       "id": "03650c311f963787",
@@ -259,25 +284,25 @@
     },
     {
       "id": "790f281dad5be8fc",
-      "title": "‘All I can do is hug my children and cry’: Palestinians in Gaza face deadly winter floods",
-      "description": "‘All I can do is hug my children and cry’: Palestinians in Gaza face deadly winter floods On MEE Live, Palestinian journalist Nada Nabil spoke to MEE journalist James Schneider about how heavy rains and flooding are worsening conditions for displaced families in Gaza, where many are living in tents and damaged homes. Nabil said people who would normally welcome the rain are now afraid of it. She recounted how one mother told her that all she could do was hug her children, cry and promise them better days when the sun returned. The flooding comes as Palestinians in Gaza continue to face the consequences of Israel’s restrictions on humanitarian aid entering Gaza. Despite the ceasefire, Israel continues to obstruct the entry of essential supplies, including tents, blankets and materials needed to repair damaged infrastructure. On MEE Live, Palestinian journalist Nada Nabil spoke to MEE journalist James Schneider about how heavy rains and flooding are worsening conditions for displaced families in Gaza, where many are living in tents and damaged homes. https://t.co/74Zd01uf8u — Middle East Eye (@MiddleEastEye) November 10, 2026",
+      "title": "\"Yang bisa saya lakukan adalah memeluk anak-anak saya dan menangis ': Palestina di Gaza menghadapi banjir musim dingin yang mematikan",
+      "description": "\"Yang bisa saya lakukan adalah memeluk anak-anak saya dan menangis ': Palestina di Gaza menghadapi banjir musim dingin yang mematikan Di MEE Live, Jurnalis Palestina, Nada Nabil berbicara kepada jurnalis MeE James Schneider tentang bagaimana hujan lebat dan banjir yang semakin parah bagi keluarga pengungsi di Gaza, di mana banyak yang tinggal di tenda dan rumah yang rusak. Nabil mengatakan orang yang biasanya akan menyambut hujan sekarang takut itu. Dia menceritakan bagaimana seorang ibu mengatakan kepadanya bahwa semua dia bisa lakukan adalah memeluk anak-anaknya, menangis dan menjanjikan mereka hari yang lebih baik ketika matahari kembali. Banjir datang ketika Palestina di Gaza terus menghadapi konsekuensi pembatasan Israel pada bantuan kemanusiaan memasuki Gaza. Meskipun gencatan senjata, Israel terus menghalangi masuk persediaan penting, termasuk tenda, selimut dan bahan yang diperlukan untuk memperbaiki infrastruktur yang rusak. Di MEE Live, Jurnalis Palestina, Nada Nabil berbicara kepada jurnalis MeE James Schneider tentang bagaimana hujan lebat dan banjir yang semakin parah bagi keluarga pengungsi di Gaza, di mana banyak yang tinggal di tenda dan rumah yang rusak. https: / / t.co / 74Zd01f8u - Middle East Eye (@ MiddleEastEye) November 10, 2026",
+      "originalTitle": "‘All I can do is hug my children and cry’: Palestinians in Gaza face deadly winter floods",
+      "originalDescription": "‘All I can do is hug my children and cry’: Palestinians in Gaza face deadly winter floods On MEE Live, Palestinian journalist Nada Nabil spoke to MEE journalist James Schneider about how heavy rains and flooding are worsening conditions for displaced families in Gaza, where many are living in tents and damaged homes. Nabil said people who would normally welcome the rain are now afraid of it. She recounted how one mother told her that all she could do was hug her children, cry and promise them better days when the sun returned. The flooding comes as Palestinians in Gaza continue to face the consequences of Israel’s restrictions on humanitarian aid entering Gaza. Despite the ceasefire, Israel continues to obstruct the entry of essential supplies, including tents, blankets and materials needed to repair damaged infrastructure. On MEE Live, Palestinian journalist Nada Nabil spoke to MEE journalist James Schneider about how heavy rains and flooding are worsening conditions for displaced families in Gaza, where many are living in tents and damaged homes. https://t.co/74Zd01uf8u — Middle East Eye (@MiddleEastEye) November 10, 2026",
+      "translated": true,
+      "originalLanguage": "en",
       "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-11T00:53:04+00:00",
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/all-i-can-do-hug-my-children-and-cry-palestinians-gaza-face-deadly",
       "sources": [
         "Middle East Eye"
-      ],
-      "originalTitle": "‘All I can do is hug my children and cry’: Palestinians in Gaza face deadly winter floods",
-      "originalDescription": "‘All I can do is hug my children and cry’: Palestinians in Gaza face deadly winter floods On MEE Live, Palestinian journalist Nada Nabil spoke to MEE journalist James Schneider about how heavy rains and flooding are worsening conditions for displaced families in Gaza, where many are living in tents and damaged homes. Nabil said people who would normally welcome the rain are now afraid of it. She recounted how one mother told her that all she could do was hug her children, cry and promise them better days when the sun returned. The flooding comes as Palestinians in Gaza continue to face the consequences of Israel’s restrictions on humanitarian aid entering Gaza. Despite the ceasefire, Israel continues to obstruct the entry of essential supplies, including tents, blankets and materials needed to repair damaged infrastructure. On MEE Live, Palestinian journalist Nada Nabil spoke to MEE journalist James Schneider about how heavy rains and flooding are worsening conditions for displaced families in Gaza, where many are living in tents and damaged homes. https://t.co/74Zd01uf8u — Middle East Eye (@MiddleEastEye) November 10, 2026",
-      "originalLanguage": "en",
-      "translated": false
+      ]
     },
     {
       "id": "1b087f9b0b73343b",
@@ -340,119 +365,123 @@
     },
     {
       "id": "a782bc3aba7cebd1",
-      "title": "Japan pledges $1.97m to support Gaza health response",
-      "description": "Japan pledges $1.97m to support Gaza health response Japan signed an agreement with the World Health Organisation on Tuesday to provide approximately $1.97 million to support the health response in Gaza, Wafa reported, citing Japan’s representative office to Palestine. The agreement was signed in Ramallah by Japan’s representative to Palestine, Katsuhiko Araike, and WHO representative in the occupied Palestinian territory, Reinhilde Van De Weerdt. A key component of the grant is the establishment of an Emergency Medical Team (EMT) coordination cell within the Ministry’s Emergency Operations Centre in Gaza City, the report said.",
+      "title": "Jepang menjanjikan $1.97m untuk mendukung respon kesehatan Gaza",
+      "description": "Jepang menjanjikan $1.97m untuk mendukung respon kesehatan Gaza Jepang menandatangani perjanjian dengan Organisasi Kesehatan Dunia pada hari Selasa untuk menyediakan sekitar $1.97 juta untuk mendukung respon kesehatan di Gaza, Wafa melaporkan, mengutip kantor perwakilan Jepang ke Palestina. Perjanjian ini ditandatangani di Ramallah oleh perwakilan Jepang untuk Palestina, Katsuhiko Araike, dan WHO perwakilan di wilayah Palestina yang ditempati, Reinhilde Van De Weerdt. Komponen utama dari hibah ini adalah pembentukan sel koordinasi Tim Medis Darurat (EMT) dalam Pusat Operasi Darurat Kementerian di Gaza City, menurut laporan tersebut.",
+      "originalTitle": "Japan pledges $1.97m to support Gaza health response",
+      "originalDescription": "Japan pledges $1.97m to support Gaza health response Japan signed an agreement with the World Health Organisation on Tuesday to provide approximately $1.97 million to support the health response in Gaza, Wafa reported, citing Japan’s representative office to Palestine. The agreement was signed in Ramallah by Japan’s representative to Palestine, Katsuhiko Araike, and WHO representative in the occupied Palestinian territory, Reinhilde Van De Weerdt. A key component of the grant is the establishment of an Emergency Medical Team (EMT) coordination cell within the Ministry’s Emergency Operations Centre in Gaza City, the report said.",
+      "translated": true,
+      "originalLanguage": "en",
       "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T23:05:46+00:00",
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/japan-pledges-197m-support-gaza-health-response",
       "sources": [
         "Middle East Eye"
-      ],
-      "originalTitle": "Japan pledges $1.97m to support Gaza health response",
-      "originalDescription": "Japan pledges $1.97m to support Gaza health response Japan signed an agreement with the World Health Organisation on Tuesday to provide approximately $1.97 million to support the health response in Gaza, Wafa reported, citing Japan’s representative office to Palestine. The agreement was signed in Ramallah by Japan’s representative to Palestine, Katsuhiko Araike, and WHO representative in the occupied Palestinian territory, Reinhilde Van De Weerdt. A key component of the grant is the establishment of an Emergency Medical Team (EMT) coordination cell within the Ministry’s Emergency Operations Centre in Gaza City, the report said.",
-      "originalLanguage": "en",
-      "translated": false
+      ]
     },
     {
       "id": "31784fd7eb02a748",
-      "title": "US House Democrat leader Jeffries will retain position despite opposition, sources say",
-      "description": "US House Democrat leader Jeffries will retain position despite opposition, sources say Submitted by Yasmine El-Sabawi on Tue, 11/10/2026 - 19:15 In the Senate, unless progressive-backed Chris Van Hollen formally steps up to unite the ranks as a challenger, Chuck Schumer will likely win The leader of the House Democrats, New York Congressman Hakeem Jeffries, right, speaks to reporters alongside the leader of the Senate Democrats, New York Senator Chuck Schumer, on the steps of the US Senate on 21 May 2026 in Washington, DC (Win McNamee/Getty Images via AFP) Off The top Democrat in the House of Representatives, Hakeem Jeffries, is all but certain to become the next Speaker of the House, despite dissatisfaction among some freshman lawmakers and their progressive colleagues in the chamber, sources have told Middle East Eye. There simply is no alternative leader in the running. \"It's a cost to go against someone who will eventually be the leader of the caucus. There's not enough people who are willing to do that,\" one source said. This comes as many voters have expressed their desire to see Jeffries vacate the position, accusing him of being out of step with the party's growing leftist progressive wing, which wants to see money out of politics, and a stop to the transfer of weapons to Israel. New lawmakers are looking to work with him instead, three sources familiar with the internal process on Capitol Hill confirmed to MEE. The 56-year-old Jeffries is backed by pro-Israel lobbying groups and has made it clear he is an avowed protector of Israel . He has also received substantial financial support from a litany of big corporations , including tech and weapons manufacturers. Perhaps most importantly, his candidacy in his New York district and his leadership bid were endorsed by progressive kingmaker and New York City Mayor Zohran Mamdani - much to the chagrin of Mamdani's own supporters. Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures R",
+      "title": "Pemimpin Demokrat US Jeffries akan mempertahankan posisi meskipun oposisi, sumber mengatakan",
+      "description": "Pemimpin Demokrat Amerika Serikat Jeffries akan mempertahankan posisi meskipun oposisi, sumber mengatakan Diberikan oleh Yasmine El- Sabawi pada Tue, 11 / 10 / 2026 - 19: 15 Di Senat, kecuali para anggota Kongres New York Hakeem Jeffries secara resmi melangkah ke depan untuk menyatukan peringkat sebagai penantang, Chuck Schumer akan menang sebagai pemimpin Kongres New York Hakeem Jeffries, benar, berbicara kepada wartawan bersama dengan pemimpin Senat Demokrat, New York Senator Chuck Schumer, pada langkah-langkah Senat AS pada 21 Mei 2026 di Washington, DC (Win McNamee / Getty Bagines) Tidak ada pemimpin alternatif dalam pelarian. \"Ini adalah biaya untuk melawan seseorang yang akhirnya akan menjadi pemimpin dari kuucus. Tidak cukup orang yang bersedia melakukan itu\", satu sumber kata. Ini datang karena banyak pemilih telah menyatakan keinginan mereka untuk melihat Jeffries mengosongkan posisi, menuduhnya keluar dari langkah dengan partai tumbuh sayap progresif kiri, yang ingin melihat uang keluar dari politik, dan berhenti untuk transfer senjata untuk Israel. Sebagai gantinya pembuat hukum baru ingin bekerja dengannya, tiga sumber akrab dengan proses internal di Capitol Hill dikonfirmasi MeE. The 56- tahun-tua Jeffries didukung oleh pro- Israel melobi kelompok dan telah membuatnya jelas ia adalah seorang pelindung diilhami Israel. Dia juga menerima dukungan finansial yang besar dari perusahaan besar, termasuk pabrik teknologi dan senjata. Mungkin yang paling penting, pencalonannya di distrik New York dan tawaran kepemimpinannya didukung oleh pembuat raja progresif dan Walikota kota New York Zohran Mamdani - banyak ketawa dari pendukung Mamdani sendiri. Petisi menentang Hakeem Jeffries saat Speaker US House melewati satu juta tanda tangan Baca Lebih \"Mamdani sebagian besar dikreditkan dengan menetapkan gelombang muda Demokrat Sosialis meluncurkan kampanye untuk kantor. Tepat sebelum pemilihan tengah semester 3 November, polling Redbox menunjukkan hanya 19 persen dari",
+      "originalTitle": "US House Democrat leader Jeffries will retain position despite opposition, sources say",
+      "originalDescription": "US House Democrat leader Jeffries will retain position despite opposition, sources say Submitted by Yasmine El-Sabawi on Tue, 11/10/2026 - 19:15 In the Senate, unless progressive-backed Chris Van Hollen formally steps up to unite the ranks as a challenger, Chuck Schumer will likely win The leader of the House Democrats, New York Congressman Hakeem Jeffries, right, speaks to reporters alongside the leader of the Senate Democrats, New York Senator Chuck Schumer, on the steps of the US Senate on 21 May 2026 in Washington, DC (Win McNamee/Getty Images via AFP) Off The top Democrat in the House of Representatives, Hakeem Jeffries, is all but certain to become the next Speaker of the House, despite dissatisfaction among some freshman lawmakers and their progressive colleagues in the chamber, sources have told Middle East Eye. There simply is no alternative leader in the running. \"It's a cost to go against someone who will eventually be the leader of the caucus. There's not enough people who are willing to do that,\" one source said. This comes as many voters have expressed their desire to see Jeffries vacate the position, accusing him of being out of step with the party's growing leftist progressive wing, which wants to see money out of politics, and a stop to the transfer of weapons to Israel. New lawmakers are looking to work with him instead, three sources familiar with the internal process on Capitol Hill confirmed to MEE. The 56-year-old Jeffries is backed by pro-Israel lobbying groups and has made it clear he is an avowed protector of Israel . He has also received substantial financial support from a litany of big corporations , including tech and weapons manufacturers. Perhaps most importantly, his candidacy in his New York district and his leadership bid were endorsed by progressive kingmaker and New York City Mayor Zohran Mamdani - much to the chagrin of Mamdani's own supporters. Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures R",
+      "translated": true,
+      "originalLanguage": "en",
       "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/063_2277503865-2.jpg.jpg?itok=r97KGlZU",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T22:52:39+00:00",
       "originalUrl": "https://www.middleeasteye.net/news/us-house-democrat-leader-jeffries-will-retain-position-despite-opposition-sources-say",
       "sources": [
         "Middle East Eye"
-      ],
-      "originalTitle": "US House Democrat leader Jeffries will retain position despite opposition, sources say",
-      "originalDescription": "US House Democrat leader Jeffries will retain position despite opposition, sources say Submitted by Yasmine El-Sabawi on Tue, 11/10/2026 - 19:15 In the Senate, unless progressive-backed Chris Van Hollen formally steps up to unite the ranks as a challenger, Chuck Schumer will likely win The leader of the House Democrats, New York Congressman Hakeem Jeffries, right, speaks to reporters alongside the leader of the Senate Democrats, New York Senator Chuck Schumer, on the steps of the US Senate on 21 May 2026 in Washington, DC (Win McNamee/Getty Images via AFP) Off The top Democrat in the House of Representatives, Hakeem Jeffries, is all but certain to become the next Speaker of the House, despite dissatisfaction among some freshman lawmakers and their progressive colleagues in the chamber, sources have told Middle East Eye. There simply is no alternative leader in the running. \"It's a cost to go against someone who will eventually be the leader of the caucus. There's not enough people who are willing to do that,\" one source said. This comes as many voters have expressed their desire to see Jeffries vacate the position, accusing him of being out of step with the party's growing leftist progressive wing, which wants to see money out of politics, and a stop to the transfer of weapons to Israel. New lawmakers are looking to work with him instead, three sources familiar with the internal process on Capitol Hill confirmed to MEE. The 56-year-old Jeffries is backed by pro-Israel lobbying groups and has made it clear he is an avowed protector of Israel . He has also received substantial financial support from a litany of big corporations , including tech and weapons manufacturers. Perhaps most importantly, his candidacy in his New York district and his leadership bid were endorsed by progressive kingmaker and New York City Mayor Zohran Mamdani - much to the chagrin of Mamdani's own supporters. Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures R",
-      "originalLanguage": "en",
-      "translated": false
+      ]
     },
     {
       "id": "5562e87769f3fa2e",
-      "title": "Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures",
-      "description": "Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures Submitted by Mounira Elsamra on Tue, 11/10/2026 - 19:08 Jeffries is expected to become the first Black speaker when the new Congress convenes in January US House of Representatives Minority Leader Hakeem Jeffries speaks during a press conference at the US Capitol in Washington, DC, on 9 November 2026 (Jim Watson/AFP) Off More than a million people have signed a petition urging Democrats to reject Hakeem Jeffries as the next Speaker of the US House of Representatives, as growing opposition to his leadership puts his support for Israel and US foreign policy under renewed scrutiny. Jeffries, who currently leads the House Democrats, is expected to become the first Black speaker when the new Congress convenes in January, after the Democrats' sweeping midterm victories on 3 November. But Jeffries is not the speaker-elect yet. He confirmed his candidacy last week, but his colleagues must elect him later this month. Jeffries stands currently uncontested, with no other Democratic lawmaker throwing their hat in the ring for the position. While no one in the party has come forward to run against Jeffries, several newly elected lawmakers have voiced reservations about his policy positions, casting doubt on whether or not they will endorse him. Some voters and influencers have mobilised, with dozens of viral videos urging citizens to call their representatives and sign the petition against Jeffries. “We believe the Speaker should represent the Democratic voters, not just the Democratic establishment,” says the petition put forward by social media influencer Nicole Whitted . The petition calls on representatives to examine Jeffries' public record, policy positions, campaign donor record, and leadership. 'It’s not enough to criticise the war we need to defund it' - Etan Mabourakh, National Iranian American Council An Economist/YouGov poll published last month found that Jeffries had just a 26 perce",
+      "title": "Petisi menentang Hakeem Jeffries sebagai Speaker US House melewati satu juta tanda tangan",
+      "description": "Petisi menentang Hakeem Jeffries sebagai Speaker US House melewati satu juta tanda tangan Diberikan oleh Mounira Elsamra pada Tue, 11 / 10 / 2026 - 19: 08 Jeffries diharapkan untuk menjadi pembicara Black pertama ketika Kongres baru berkumpul di bulan Januari AS House of Perwakilan Pemimpin Minoritas Hasem Jeffries berbicara selama konferensi pers di gedung senat AS di Washington, DC, pada 9 November 2026 (Jim Watson / AFP) Off Lebih dari satu juta orang telah menandatangani petisi mendesak Demokrat untuk menolak Hakem Jeffries sebagai Ketua berikutnya dari Dewan Perwakilan AS, seperti tumbuh oposisi kepada kepemimpinannya untuk memberikan dukungan bagi Israel dan kebijakan asing. Jeffries, yang saat ini memimpin Partai Demokrat, diharapkan untuk menjadi pembicara Black pertama ketika Kongres baru berkumpul pada bulan Januari, setelah Demokrat 'menyapu pertengahan kemenangan pada 3 November. Tapi Jeffries belum bisa bicara. Dia mengkonfirmasi pencalonannya minggu lalu, tapi rekan-rekannya harus memilih dia bulan ini. Jeffries berdiri saat ini uncontested, dengan tidak ada penegak hukum Demokrat lainnya melemparkan topi mereka di atas ring untuk posisi itu. Sementara tak seorang pun di partai telah datang ke depan untuk menjalankan melawan Jeffries, beberapa anggota baru terpilih telah menyuarakan pemesanan tentang posisi kebijakan nya, melemparkan keraguan pada apakah mereka akan mendukungnya. Beberapa pemilih dan influencer telah memobilisasi, dengan puluhan video viral mendesak warga untuk memanggil perwakilan mereka dan menandatangani petisi terhadap Jeffries. \"Kami percaya Pembicara harus mewakili pemilih Demokrat, bukan hanya pembentukan Demokrat\", kata petisi diajukan oleh sosial media berpengaruh Nicole Whited. Petisi meminta perwakilan untuk memeriksa catatan publik Jeffries, posisi kebijakan, catatan kampanye donor, dan kepemimpinan. \"Ini tidak cukup untuk mengkritik perang yang kita butuhkan untuk menurunkan dana\". Kritik mengatakan bahwa satu alasan popul",
+      "originalTitle": "Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures",
+      "originalDescription": "Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures Submitted by Mounira Elsamra on Tue, 11/10/2026 - 19:08 Jeffries is expected to become the first Black speaker when the new Congress convenes in January US House of Representatives Minority Leader Hakeem Jeffries speaks during a press conference at the US Capitol in Washington, DC, on 9 November 2026 (Jim Watson/AFP) Off More than a million people have signed a petition urging Democrats to reject Hakeem Jeffries as the next Speaker of the US House of Representatives, as growing opposition to his leadership puts his support for Israel and US foreign policy under renewed scrutiny. Jeffries, who currently leads the House Democrats, is expected to become the first Black speaker when the new Congress convenes in January, after the Democrats' sweeping midterm victories on 3 November. But Jeffries is not the speaker-elect yet. He confirmed his candidacy last week, but his colleagues must elect him later this month. Jeffries stands currently uncontested, with no other Democratic lawmaker throwing their hat in the ring for the position. While no one in the party has come forward to run against Jeffries, several newly elected lawmakers have voiced reservations about his policy positions, casting doubt on whether or not they will endorse him. Some voters and influencers have mobilised, with dozens of viral videos urging citizens to call their representatives and sign the petition against Jeffries. “We believe the Speaker should represent the Democratic voters, not just the Democratic establishment,” says the petition put forward by social media influencer Nicole Whitted . The petition calls on representatives to examine Jeffries' public record, policy positions, campaign donor record, and leadership. 'It’s not enough to criticise the war we need to defund it' - Etan Mabourakh, National Iranian American Council An Economist/YouGov poll published last month found that Jeffries had just a 26 perce",
+      "translated": true,
+      "originalLanguage": "en",
       "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_D6YD9TV.jpg.jpg?itok=QRMTLkin",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T21:03:39+00:00",
       "originalUrl": "https://www.middleeasteye.net/news/petition-opposing-hakeem-jeffries-us-house-speaker-passes-one-million-signatures",
       "sources": [
         "Middle East Eye"
-      ],
-      "originalTitle": "Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures",
-      "originalDescription": "Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures Submitted by Mounira Elsamra on Tue, 11/10/2026 - 19:08 Jeffries is expected to become the first Black speaker when the new Congress convenes in January US House of Representatives Minority Leader Hakeem Jeffries speaks during a press conference at the US Capitol in Washington, DC, on 9 November 2026 (Jim Watson/AFP) Off More than a million people have signed a petition urging Democrats to reject Hakeem Jeffries as the next Speaker of the US House of Representatives, as growing opposition to his leadership puts his support for Israel and US foreign policy under renewed scrutiny. Jeffries, who currently leads the House Democrats, is expected to become the first Black speaker when the new Congress convenes in January, after the Democrats' sweeping midterm victories on 3 November. But Jeffries is not the speaker-elect yet. He confirmed his candidacy last week, but his colleagues must elect him later this month. Jeffries stands currently uncontested, with no other Democratic lawmaker throwing their hat in the ring for the position. While no one in the party has come forward to run against Jeffries, several newly elected lawmakers have voiced reservations about his policy positions, casting doubt on whether or not they will endorse him. Some voters and influencers have mobilised, with dozens of viral videos urging citizens to call their representatives and sign the petition against Jeffries. “We believe the Speaker should represent the Democratic voters, not just the Democratic establishment,” says the petition put forward by social media influencer Nicole Whitted . The petition calls on representatives to examine Jeffries' public record, policy positions, campaign donor record, and leadership. 'It’s not enough to criticise the war we need to defund it' - Etan Mabourakh, National Iranian American Council An Economist/YouGov poll published last month found that Jeffries had just a 26 perce",
-      "originalLanguage": "en",
-      "translated": false
+      ]
     },
     {
       "id": "aa63a602b6db429c",
-      "title": "France is ‘shifting blame’ for cyberattack on supermarket fridges, Iran says",
-      "description": "France is ‘shifting blame’ for cyberattack on supermarket fridges, Iran says Iran’s Foreign Minister Abbas Araghchi said France is “shifting blame for its failures” by accusing an IRGC-affiliated cyber unit of hacking supermarket fridges earlier in October. “Unable to manage fridges let alone addressing grievances of its people, French government is shifting blame for its failures onto others,\" Araghchi said in a post on X. “Yes, Iran is powerful. But unlike France, we do not exercise power via support for massacres in Gaza or bombings of schools and hospitals,\" he said. Unable to manage fridges let alone addressing grievances of its people, French government is shifting blame for its failures onto others. Yes, Iran is powerful. But unlike France, we do not exercise power via support for massacres in Gaza or bombings of schools and hospitals. — Seyed Abbas Araghchi (@araghchi) November 10, 2026",
+      "title": "Perancis apos; pergeseran menyalahkan 'untuk serangan siber di fridges supermarket, Iran mengatakan",
+      "description": "Prancis adalah 'beralih menyalahkan' untuk serangan siber di fridges supermarket, Iran mengatakan Menteri Luar Negeri Iran Abbas Araghchi mengatakan Perancis adalah \"pergeseran menyalahkan atas kegagalannya\" dengan menuduh sebuah unit IRGCGN berafiliasi cyber dari fridges supermarket awal Oktober. \"Tidak dapat mengelola Fridges apalagi mengatasi keluhan dari rakyatnya, Pemerintah Perancis beralih menyalahkan atas kegagalannya terhadap orang lain\", kata Araghchi dalam pos di X \"Ya, Iran sangat kuat. Tapi tidak seperti Perancis, kami tidak menggunakan kekuasaan melalui dukungan untuk pembantaian di Gaza atau pemboman sekolah dan rumah sakit,\" katanya. Tidak dapat mengelola Fridges apalagi mengatasi keluhan dari rakyatnya, pemerintah Perancis beralih menyalahkan atas kegagalannya terhadap orang lain. Ya, Iran sangat kuat. Tapi tidak seperti Perancis, kita tidak menggunakan kekuatan melalui dukungan untuk pembantaian di Gaza atau pemboman sekolah dan rumah sakit. - Seyed Abbas Araghchi (@ aragchi) November 10, 2026",
+      "originalTitle": "France is ‘shifting blame’ for cyberattack on supermarket fridges, Iran says",
+      "originalDescription": "France is ‘shifting blame’ for cyberattack on supermarket fridges, Iran says Iran’s Foreign Minister Abbas Araghchi said France is “shifting blame for its failures” by accusing an IRGC-affiliated cyber unit of hacking supermarket fridges earlier in October. “Unable to manage fridges let alone addressing grievances of its people, French government is shifting blame for its failures onto others,\" Araghchi said in a post on X. “Yes, Iran is powerful. But unlike France, we do not exercise power via support for massacres in Gaza or bombings of schools and hospitals,\" he said. Unable to manage fridges let alone addressing grievances of its people, French government is shifting blame for its failures onto others. Yes, Iran is powerful. But unlike France, we do not exercise power via support for massacres in Gaza or bombings of schools and hospitals. — Seyed Abbas Araghchi (@araghchi) November 10, 2026",
+      "translated": true,
+      "originalLanguage": "en",
       "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T19:51:22+00:00",
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/france-shifting-blame-cyberattack-supermarket-fridges-iran-says",
       "sources": [
         "Middle East Eye"
-      ],
-      "originalTitle": "France is ‘shifting blame’ for cyberattack on supermarket fridges, Iran says",
-      "originalDescription": "France is ‘shifting blame’ for cyberattack on supermarket fridges, Iran says Iran’s Foreign Minister Abbas Araghchi said France is “shifting blame for its failures” by accusing an IRGC-affiliated cyber unit of hacking supermarket fridges earlier in October. “Unable to manage fridges let alone addressing grievances of its people, French government is shifting blame for its failures onto others,\" Araghchi said in a post on X. “Yes, Iran is powerful. But unlike France, we do not exercise power via support for massacres in Gaza or bombings of schools and hospitals,\" he said. Unable to manage fridges let alone addressing grievances of its people, French government is shifting blame for its failures onto others. Yes, Iran is powerful. But unlike France, we do not exercise power via support for massacres in Gaza or bombings of schools and hospitals. — Seyed Abbas Araghchi (@araghchi) November 10, 2026",
-      "originalLanguage": "en",
-      "translated": false
+      ]
     },
     {
       "id": "bbf8c1042f97909b",
-      "title": "F1 star Lewis Hamilton visits Gaza border",
-      "description": "F1 star Lewis Hamilton visits Gaza border Formula One star Lewis Hamilton visited Egypt's Rafah border crossing on Tuesday and met aid workers delivering assistance to the war-battered Gaza Strip, according to an Egyptian government statement. North Sinai governor \"Khaled Megawer took Lewis Hamilton on a visit to the Rafah land crossing to learn about the Egyptian efforts to support the Palestinian brothers in the Gaza Strip\", the statement read. Video shared by Megawer's office showed the seven-time world champion greeting aid workers and learning about their efforts to get supplies into Gaza, where this week heavy rains swept away tens of thousands of tents. According to a truce struck by Israel and Hamas last year, at least 600 trucks of aid per day should enter Gaza, where more than two million people are facing a severe humanitarian crisis. Aid workers say only a fraction of that amount is being allowed through by Israeli authorities, who control all entry into the territory. Ferrari's Formula One world champion Lewis Hamilton speaks with North Sinai Governor Khaled Megawer during his visit to the Rafah border crossing between Egypt and the Gaza Strip to see firsthand efforts to receive humanitarian and relief aid bound for the Gaza Strip, in Rafah, Egypt, 10 November 2026 (Reuters)",
+      "title": "F1 star Lewis Hamilton mengunjungi perbatasan Gaza",
+      "description": "F1 bintang Lewis Hamilton mengunjungi perbatasan Gaza Formula Satu bintang Lewis Hamilton mengunjungi perbatasan Rafah Mesir menyeberang pada hari Selasa dan bertemu pekerja bantuan memberikan bantuan ke Jalur Gaza yang rusak perang, menurut pernyataan pemerintah Mesir. Gubernur Sinai Utara \"Khaled Megawer membawa Lewis Hamilton berkunjung ke tanah Rafah menyeberang untuk belajar tentang upaya-upaya Mesir untuk mendukung saudara-saudara Palestina di Jalur Gaza\", pernyataan yang dibaca. Video yang dibagikan oleh kantor Megawer menunjukkan tujuh kali juara dunia menyambut para pekerja bantuan dan belajar tentang upaya mereka untuk mendapatkan pasokan ke Gaza, di mana minggu ini hujan lebat menyapu bersih puluhan ribu tenda. Menurut gencatan senjata Israel dan Hamas tahun lalu, setidaknya 600 truk bantuan per hari harus masuk Gaza, di mana lebih dari dua juta orang menghadapi krisis kemanusiaan yang parah. Pekerja bantuan mengatakan hanya sebagian kecil dari jumlah tersebut yang diijinkan oleh otoritas Israel, yang mengendalikan semua masuk ke wilayah tersebut. Ferrari Formula Salah satu juara dunia Lewis Hamilton berbicara dengan Gubernur Sinai Utara Khaled Megawer selama kunjungannya ke perbatasan Rafah persimpangan antara Mesir dan Jalur Gaza untuk melihat upaya langsung untuk menerima kemanusiaan dan bantuan bantuan bantuan yang terikat untuk Jalur Gaza, di Rafah, Mesir, 10 November 2026 (Reuters)",
+      "originalTitle": "F1 star Lewis Hamilton visits Gaza border",
+      "originalDescription": "F1 star Lewis Hamilton visits Gaza border Formula One star Lewis Hamilton visited Egypt's Rafah border crossing on Tuesday and met aid workers delivering assistance to the war-battered Gaza Strip, according to an Egyptian government statement. North Sinai governor \"Khaled Megawer took Lewis Hamilton on a visit to the Rafah land crossing to learn about the Egyptian efforts to support the Palestinian brothers in the Gaza Strip\", the statement read. Video shared by Megawer's office showed the seven-time world champion greeting aid workers and learning about their efforts to get supplies into Gaza, where this week heavy rains swept away tens of thousands of tents. According to a truce struck by Israel and Hamas last year, at least 600 trucks of aid per day should enter Gaza, where more than two million people are facing a severe humanitarian crisis. Aid workers say only a fraction of that amount is being allowed through by Israeli authorities, who control all entry into the territory. Ferrari's Formula One world champion Lewis Hamilton speaks with North Sinai Governor Khaled Megawer during his visit to the Rafah border crossing between Egypt and the Gaza Strip to see firsthand efforts to receive humanitarian and relief aid bound for the Gaza Strip, in Rafah, Egypt, 10 November 2026 (Reuters)",
+      "translated": true,
+      "originalLanguage": "en",
       "image": "https://www.middleeasteye.net/sites/default/files/lewis%20hamilton%20gaza%20border%20reuters%2010%20novermber%202026%20%281%29%20%281%29.jpg",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T19:35:15+00:00",
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/f1-star-lewis-hamilton-visits-gaza-border",
       "sources": [
         "Middle East Eye",
         "Al Jazeera"
-      ],
-      "originalTitle": "F1 star Lewis Hamilton visits Gaza border",
-      "originalDescription": "F1 star Lewis Hamilton visits Gaza border Formula One star Lewis Hamilton visited Egypt's Rafah border crossing on Tuesday and met aid workers delivering assistance to the war-battered Gaza Strip, according to an Egyptian government statement. North Sinai governor \"Khaled Megawer took Lewis Hamilton on a visit to the Rafah land crossing to learn about the Egyptian efforts to support the Palestinian brothers in the Gaza Strip\", the statement read. Video shared by Megawer's office showed the seven-time world champion greeting aid workers and learning about their efforts to get supplies into Gaza, where this week heavy rains swept away tens of thousands of tents. According to a truce struck by Israel and Hamas last year, at least 600 trucks of aid per day should enter Gaza, where more than two million people are facing a severe humanitarian crisis. Aid workers say only a fraction of that amount is being allowed through by Israeli authorities, who control all entry into the territory. Ferrari's Formula One world champion Lewis Hamilton speaks with North Sinai Governor Khaled Megawer during his visit to the Rafah border crossing between Egypt and the Gaza Strip to see firsthand efforts to receive humanitarian and relief aid bound for the Gaza Strip, in Rafah, Egypt, 10 November 2026 (Reuters)",
-      "originalLanguage": "en",
-      "translated": false
+      ]
     },
     {
       "id": "f03922da3ddc1a93",
-      "title": "Michigan election: How Abdul El-Sayed's critics smeared his defence of Palestinians as 'hate'",
-      "description": "Michigan election: How Abdul El-Sayed's critics smeared his defence of Palestinians as 'hate' Submitted by Murad Idris on Fri, 11/06/2026 - 20:51 By attacking his motives, the senator-elect's opponents turned a debate over US funding for Israel's genocide in Gaza into a trial of his character Abdul El-Sayed (left) won Michigan’s US Senate seat on 3 November, two days after Haley Stevens (centre), the Democrat he beat in the primary, endorsed his Republican opponent Mike Rogers (right) (Jeff Kowalsky, Jim Watson and Blake Fagan/AFP) Off In his victory speech last week, Abdulrahman El-Sayed , the first Muslim American elected to the US Senate, said \"hate\" or \"hateful\" five times, and each time the word did something different. He recalled supporters asking why he never called his opponents hateful. Those opponents, he said, \"hate the idea\" of an America big enough for people who pray differently. He told Mike Rogers, the Republican he had just beaten, \"You chose hate, and Michigan chose hope.\" Then he turned to those who call people hateful for believing that Palestinian children should not be killed with American tax dollars: \" That's not hate . It's love.\" In one speech, Sayed declined the word \"hate\", turned it around, used it as a weapon and refused it as a name. The rhetoric of hate is the currency of American politics . It gets minted, exchanged and spent, and it buys moral standing, which converts into votes and endorsements . Everyone trades in it, including the man it was aimed at, but its real value is sorting groups into those accused of hate and those who make the accusation. Follow its circulation through Michigan. \"Hate\" hounded Sayed throughout his campaign. Rogers regularly denounced his \"hateful ideology\". One Democrat told CNN he could not vote for Sayed \"because I'm against hate\". Democratic Congresswoman Haley Stevens, whom Sayed beat in the primary, switched her endorsement to Rogers, \"choosing country over hate \". She announced it after attending",
+      "title": "Pemilihan Michigan: Bagaimana kritikus Abdul El- Sayed meremukkan pertahanan orang Palestina sebagai 'benci'",
+      "description": "Pemilihan Michigan: Bagaimana kritikus Abdul El- Sayed dioleskan pembelaannya terhadap Palestina sebagai 'benci' yang diturunkan oleh Murad Idris pada Fri, 11 / 06 / 2026 - 20: 51 Dengan menyerang motivasinya, lawan-lawan Senator- yang terpilih, berpaling dalam perdebatan terhadap AS pendanaan genosida Israel di Gaza menjadi persidangan karakter Abdul El- Sayed (kiri) memenangkan kursi Senat AS Michigan pada 3 November, dua hari setelah Haley Stevens (pusat), Demokrat dia mengalahkan di primer, mendukung lawan Republik-nya Mike Sayed (kanan) (Jeff Schulsky, Jim Watson dan Blake FAGP) dalam pidato kemenangannya minggu lalu, Abdullah, \"kebencian setiap kali Amerika\" Dipilih \"kata-kali\". Dia ingat para pendukung bertanya mengapa dia tidak pernah menyebut lawannya kebencian. Mereka lawan, katanya, \"benci ide\" dari Amerika cukup besar bagi orang-orang yang berdoa berbeda. Dia bilang Mike Rogers, Republik yang baru saja dia kalahkan, \"Kau memilih benci, dan Michigan memilih harapan\". Kemudian dia berpaling kepada mereka yang menyebut orang-orang kebencian karena percaya bahwa anak-anak Palestina tidak boleh dibunuh dengan uang pajak Amerika: \"Itu bukan kebencian. Ini cinta\". Dalam satu pidato, Sayed menolak kata \"benci\", mengubahnya, menggunakannya sebagai senjata dan menolaknya sebagai nama. Retorika kebencian adalah mata uang politik Amerika. Ia mendapat minted, diperdagangkan dan dibelanjakan, dan membeli berdiri moral, yang mengubah menjadi suara dan dukungan. Semua orang perdagangan di dalamnya, termasuk orang itu ditujukan pada, tetapi nilai yang sebenarnya adalah memilah kelompok ke mereka dituduh kebencian dan mereka yang membuat tuduhan. Ikuti sirkulasi melalui Michigan. \"Benci\" Diikat sepanjang kampanyenya. Rogers secara teratur mencela \"ideologi kebencian\" nya. Satu Demokrat mengatakan kepada CNN dia tidak bisa memilih Sayed \"karena aku melawan kebencian\". Anggota Kongres Demokratik Haley Stevens, yang dikalahkan Sayed di pemilihan utama, menukar dukungannya de",
+      "originalTitle": "Michigan election: How Abdul El-Sayed's critics smeared his defence of Palestinians as 'hate'",
+      "originalDescription": "Michigan election: How Abdul El-Sayed's critics smeared his defence of Palestinians as 'hate' Submitted by Murad Idris on Fri, 11/06/2026 - 20:51 By attacking his motives, the senator-elect's opponents turned a debate over US funding for Israel's genocide in Gaza into a trial of his character Abdul El-Sayed (left) won Michigan’s US Senate seat on 3 November, two days after Haley Stevens (centre), the Democrat he beat in the primary, endorsed his Republican opponent Mike Rogers (right) (Jeff Kowalsky, Jim Watson and Blake Fagan/AFP) Off In his victory speech last week, Abdulrahman El-Sayed , the first Muslim American elected to the US Senate, said \"hate\" or \"hateful\" five times, and each time the word did something different. He recalled supporters asking why he never called his opponents hateful. Those opponents, he said, \"hate the idea\" of an America big enough for people who pray differently. He told Mike Rogers, the Republican he had just beaten, \"You chose hate, and Michigan chose hope.\" Then he turned to those who call people hateful for believing that Palestinian children should not be killed with American tax dollars: \" That's not hate . It's love.\" In one speech, Sayed declined the word \"hate\", turned it around, used it as a weapon and refused it as a name. The rhetoric of hate is the currency of American politics . It gets minted, exchanged and spent, and it buys moral standing, which converts into votes and endorsements . Everyone trades in it, including the man it was aimed at, but its real value is sorting groups into those accused of hate and those who make the accusation. Follow its circulation through Michigan. \"Hate\" hounded Sayed throughout his campaign. Rogers regularly denounced his \"hateful ideology\". One Democrat told CNN he could not vote for Sayed \"because I'm against hate\". Democratic Congresswoman Haley Stevens, whom Sayed beat in the primary, switched her endorsement to Rogers, \"choosing country over hate \". She announced it after attending",
+      "translated": true,
+      "originalLanguage": "en",
       "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_D6446WE%281%29.jpg.jpg?itok=mxiJIKJe",
       "category": "Palestina",
       "tags": [
@@ -461,39 +490,35 @@
         "Islamofobia dan Diskriminasi"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T18:59:51+00:00",
       "originalUrl": "https://www.middleeasteye.net/opinion/michigan-election-how-abdul-el-sayeds-critics-smeared-his-defence-palestinians-hate",
       "sources": [
         "Middle East Eye"
-      ],
-      "originalTitle": "Michigan election: How Abdul El-Sayed's critics smeared his defence of Palestinians as 'hate'",
-      "originalDescription": "Michigan election: How Abdul El-Sayed's critics smeared his defence of Palestinians as 'hate' Submitted by Murad Idris on Fri, 11/06/2026 - 20:51 By attacking his motives, the senator-elect's opponents turned a debate over US funding for Israel's genocide in Gaza into a trial of his character Abdul El-Sayed (left) won Michigan’s US Senate seat on 3 November, two days after Haley Stevens (centre), the Democrat he beat in the primary, endorsed his Republican opponent Mike Rogers (right) (Jeff Kowalsky, Jim Watson and Blake Fagan/AFP) Off In his victory speech last week, Abdulrahman El-Sayed , the first Muslim American elected to the US Senate, said \"hate\" or \"hateful\" five times, and each time the word did something different. He recalled supporters asking why he never called his opponents hateful. Those opponents, he said, \"hate the idea\" of an America big enough for people who pray differently. He told Mike Rogers, the Republican he had just beaten, \"You chose hate, and Michigan chose hope.\" Then he turned to those who call people hateful for believing that Palestinian children should not be killed with American tax dollars: \" That's not hate . It's love.\" In one speech, Sayed declined the word \"hate\", turned it around, used it as a weapon and refused it as a name. The rhetoric of hate is the currency of American politics . It gets minted, exchanged and spent, and it buys moral standing, which converts into votes and endorsements . Everyone trades in it, including the man it was aimed at, but its real value is sorting groups into those accused of hate and those who make the accusation. Follow its circulation through Michigan. \"Hate\" hounded Sayed throughout his campaign. Rogers regularly denounced his \"hateful ideology\". One Democrat told CNN he could not vote for Sayed \"because I'm against hate\". Democratic Congresswoman Haley Stevens, whom Sayed beat in the primary, switched her endorsement to Rogers, \"choosing country over hate \". She announced it after attending",
-      "originalLanguage": "en",
-      "translated": false
+      ]
     },
     {
       "id": "d84592a7dca61ba6",
-      "title": "Israeli fire kills seven, including a father and son, in Gaza",
-      "description": "Israeli fire kills seven, including a father and son, in Gaza Israeli forces killed at least seven Palestinians, including a father and his 13-year-old son, in the Gaza Strip on Tuesday, local health officials said. Medics said Fadi Rajab and his son Abubakr were killed in an air strike that hit the roof of a displacement shelter in the Zeitoun neighbourhood in Gaza City. A third Palestinian was killed in an Israeli air strike near a school in Gaza City's Daraj neighbourhood, health officials added. In Khan Younis, in southern Gaza, Israeli gunfire killed a man, medics said. Later on Tuesday, an Israeli air strike hit a metal foundry in the Sabra neighbourhood of Gaza City, killing three people, medics said, taking the day's death toll to at least seven.",
+      "title": "Api Israel membunuh tujuh orang, termasuk ayah dan anak, di Gaza",
+      "description": "Api Israel membunuh tujuh orang, termasuk seorang ayah dan anak, di Gaza pasukan Israel membunuh setidaknya tujuh orang Palestina, termasuk seorang ayah dan putranya yang berusia 13 tahun, di Jalur Gaza pada hari Selasa, pejabat kesehatan setempat mengatakan. Dokter mengatakan Fadi Rajab dan anaknya Abubakr tewas dalam serangan udara yang menghantam atap sebuah tempat penampungan perpindahan di Zeitoun lingkungan di Gaza City. Seorang Palestina ketiga tewas dalam serangan udara Israel dekat sekolah di lingkungan kota Gaza Daraj, tambahan petugas kesehatan. Di Khan Younis, di Gaza Selatan, tembakan Israel membunuh seorang pria, kata petugas medis. Kemudian pada hari Selasa, sebuah serangan udara Israel mengenai pengecoran logam di lingkungan kota Sabra di Gaza, membunuh tiga orang, petugas medis berkata, mengambil korban tewas setidaknya tujuh hari.",
+      "originalTitle": "Israeli fire kills seven, including a father and son, in Gaza",
+      "originalDescription": "Israeli fire kills seven, including a father and son, in Gaza Israeli forces killed at least seven Palestinians, including a father and his 13-year-old son, in the Gaza Strip on Tuesday, local health officials said. Medics said Fadi Rajab and his son Abubakr were killed in an air strike that hit the roof of a displacement shelter in the Zeitoun neighbourhood in Gaza City. A third Palestinian was killed in an Israeli air strike near a school in Gaza City's Daraj neighbourhood, health officials added. In Khan Younis, in southern Gaza, Israeli gunfire killed a man, medics said. Later on Tuesday, an Israeli air strike hit a metal foundry in the Sabra neighbourhood of Gaza City, killing three people, medics said, taking the day's death toll to at least seven.",
+      "translated": true,
+      "originalLanguage": "en",
       "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "Middle East Eye",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T18:31:30+00:00",
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-fire-kills-seven-including-father-and-son-gaza-medics-say",
       "sources": [
         "Middle East Eye"
-      ],
-      "originalTitle": "Israeli fire kills seven, including a father and son, in Gaza",
-      "originalDescription": "Israeli fire kills seven, including a father and son, in Gaza Israeli forces killed at least seven Palestinians, including a father and his 13-year-old son, in the Gaza Strip on Tuesday, local health officials said. Medics said Fadi Rajab and his son Abubakr were killed in an air strike that hit the roof of a displacement shelter in the Zeitoun neighbourhood in Gaza City. A third Palestinian was killed in an Israeli air strike near a school in Gaza City's Daraj neighbourhood, health officials added. In Khan Younis, in southern Gaza, Israeli gunfire killed a man, medics said. Later on Tuesday, an Israeli air strike hit a metal foundry in the Sabra neighbourhood of Gaza City, killing three people, medics said, taking the day's death toll to at least seven.",
-      "originalLanguage": "en",
-      "translated": false
+      ]
     },
     {
       "id": "b6c55126abcb0c9e",
@@ -599,25 +624,25 @@
     },
     {
       "id": "6e4490013d24e5b3",
-      "title": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
-      "description": "The group, formed by Trump, issues rare criticism of Israel, while also blaming Hamas for the suffering of civilians in Gaza.",
+      "title": "Dewan Perdamaian mengatakan respon bantuan Israel setelah Gaza banjir 'tidak cukup'",
+      "description": "Kelompok ini, dibentuk oleh Trump, mengeluarkan kritik langka terhadap Israel, sementara juga menyalahkan Hamas atas penderitaan warga sipil di Gaza.",
+      "originalTitle": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
+      "originalDescription": "The group, formed by Trump, issues rare criticism of Israel, while also blaming Hamas for the suffering of civilians in Gaza.",
+      "translated": true,
+      "originalLanguage": "en",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7282/live/106c4b40-dd54-11f1-a701-fddedf244c16.jpg",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "BBC World",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T15:21:18+00:00",
       "originalUrl": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_campaign=rss&at_medium=RSS",
       "sources": [
         "BBC World"
-      ],
-      "originalTitle": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
-      "originalDescription": "The group, formed by Trump, issues rare criticism of Israel, while also blaming Hamas for the suffering of civilians in Gaza.",
-      "originalLanguage": "en",
-      "translated": false
+      ]
     },
     {
       "id": "e26cc43fefa2a58c",
@@ -805,25 +830,25 @@
     },
     {
       "id": "2de89f37a952ab32",
-      "title": "Israeli forces kill Palestinian boy in West Bank, health ministry says",
-      "description": "The Israeli military says its soldiers opened fire at individuals “who intended to hurl stones” at a road used by Israelis.",
+      "title": "Pasukan Israel membunuh anak Palestina di West Bank, pelayanan kesehatan mengatakan",
+      "description": "Militer Israel mengatakan tentaranya menembaki orang-orang \"yang dimaksudkan untuk melempar batu\" di jalan yang digunakan oleh Israel.",
+      "originalTitle": "Israeli forces kill Palestinian boy in West Bank, health ministry says",
+      "originalDescription": "The Israeli military says its soldiers opened fire at individuals “who intended to hurl stones” at a road used by Israelis.",
+      "translated": true,
+      "originalLanguage": "en",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cbd6/live/72504f00-dcf5-11f1-93e1-3b657b665bcf.jpg",
       "category": "Palestina",
       "tags": [
         "Palestina"
       ],
       "source": "BBC World",
-      "language": "en",
+      "language": "id",
       "country": "International",
       "publishedAt": "2026-11-10T11:23:18+00:00",
       "originalUrl": "https://www.bbc.co.uk/news/articles/cqpvgv318yyeo?at_campaign=rss&at_medium=RSS",
       "sources": [
         "BBC World"
-      ],
-      "originalTitle": "Israeli forces kill Palestinian boy in West Bank, health ministry says",
-      "originalDescription": "The Israeli military says its soldiers opened fire at individuals “who intended to hurl stones” at a road used by Israelis.",
-      "originalLanguage": "en",
-      "translated": false
+      ]
     },
     {
       "id": "f7bdce4caa5e6c84",
