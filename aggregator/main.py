@@ -1,4 +1,3 @@
-
 import os
 import re
 import json
@@ -277,6 +276,106 @@ class ImageHTMLParser(HTMLParser):
 
             self._inside_jsonld = False
             self._script_data = []
+
+
+def parse_rss_safely(content, response_encoding=None):
+    """
+    Membaca RSS dengan beberapa percobaan encoding.
+    Membersihkan karakter kontrol ilegal pada XML
+    jika feedparser menemukan XML yang tidak valid.
+    """
+
+    # Percobaan pertama: gunakan data asli.
+    feed = feedparser.parse(content)
+
+    if not feed.bozo and feed.entries:
+        return feed
+
+    logging.warning(
+        "RSS memiliki format XML bermasalah. "
+        "Mencoba memperbaiki encoding dan karakter XML."
+    )
+
+    # Percobaan kedua: deteksi encoding.
+    try:
+        if response_encoding:
+            text = content.decode(
+                response_encoding,
+                errors="replace"
+            )
+        else:
+            text = content.decode(
+                "utf-8",
+                errors="replace"
+            )
+
+        # Hapus karakter ilegal menurut XML 1.0.
+        text = re.sub(
+            r"[\x00-\x08\x0B\x0C\x0E-\x1F]",
+            "",
+            text
+        )
+
+        # Hilangkan deklarasi encoding lama.
+        text = re.sub(
+            r'(<\?xml[^>]*encoding\s*=\s*)["\'][^"\']+["\']',
+            r'\1"UTF-8"',
+            text,
+            count=1,
+            flags=re.IGNORECASE
+        )
+
+        repaired = text.encode("utf-8")
+
+        feed = feedparser.parse(repaired)
+
+        if feed.entries:
+            logging.info(
+                "RSS berhasil dibaca setelah perbaikan XML."
+            )
+            return feed
+
+    except Exception as error:
+        logging.warning(
+            "Percobaan perbaikan encoding gagal: %s",
+            error
+        )
+
+    # Percobaan ketiga: gunakan apparent_encoding.
+    try:
+        from requests.utils import get_encoding_from_headers
+
+        encoding = (
+            response_encoding
+            or get_encoding_from_headers({})
+            or "utf-8"
+        )
+
+        text = content.decode(
+            encoding,
+            errors="replace"
+        )
+
+        text = re.sub(
+            r"[\x00-\x08\x0B\x0C\x0E-\x1F]",
+            "",
+            text
+        )
+
+        feed = feedparser.parse(
+            text.encode("utf-8")
+        )
+
+        if feed.entries:
+            return feed
+
+    except Exception as error:
+        logging.error(
+            "Semua percobaan membaca RSS gagal: %s",
+            error
+        )
+
+    return feed
 
 
 # =========================================================
@@ -1185,11 +1284,19 @@ def fetch_source(source, categories):
 
         response.raise_for_status()
 
-        feed = feedparser.parse(
-            response.content
+        feed = parse_rss_safely(
+        response.content,
+        response.encoding
         )
 
         entries = feed.entries
+
+        if not entries:
+        raise ValueError(
+            "RSS tidak menghasilkan artikel. "
+            "Periksa apakah URL mengembalikan XML RSS "
+            "atau justru halaman HTML."
+        )
 
         result["raw"] = len(
             entries
