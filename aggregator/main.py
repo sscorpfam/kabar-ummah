@@ -1,4 +1,3 @@
-
 import os
 import re
 import json
@@ -942,56 +941,146 @@ def translate_to_indonesian(text):
 
 
 
+
 def translate_article(title, description, language):
 
-    original_title = title
-    original_description = description
+    original_title = str(title or "").strip()
+    original_description = str(description or "").strip()
 
     language = str(
         language or "id"
     ).lower().strip()
 
     # ---------------------------------------------
-    # Hanya terjemahkan sumber berbahasa Inggris
+    # 1. Normalisasi kode bahasa
     # ---------------------------------------------
 
-    if language not in (
+    english_languages = (
         "en",
         "eng",
         "english"
-    ):
+    )
+
+    is_english = language in english_languages
+
+    # ---------------------------------------------
+    # 2. Sumber bukan bahasa Inggris
+    # ---------------------------------------------
+
+    if not is_english:
 
         return {
             "title": original_title,
             "description": original_description,
+
             "originalTitle": original_title,
             "originalDescription": original_description,
-            "translated": False
+
+            "originalLanguage": language,
+            "language": language,
+
+            "translated": False,
+            "translationStatus": "not_required"
         }
 
     # ---------------------------------------------
-    # Terjemahkan judul dan deskripsi
+    # 3. Terjemahkan judul
     # ---------------------------------------------
 
     translated_title = translate_to_indonesian(
         original_title
     )
 
-    translated_description = translate_to_indonesian(
-        original_description
-    ) if original_description else ""
+    translated_title = str(
+        translated_title or ""
+    ).strip()
 
-    translated = (
-        translated_title != original_title
-        or translated_description != original_description
+    title_success = (
+        bool(translated_title)
+        and translated_title != original_title
     )
 
+    if not translated_title:
+        translated_title = original_title
+
+    # ---------------------------------------------
+    # 4. Terjemahkan deskripsi
+    # ---------------------------------------------
+
+    if original_description:
+
+        translated_description = translate_to_indonesian(
+            original_description
+        )
+
+        translated_description = str(
+            translated_description or ""
+        ).strip()
+
+        description_success = (
+            bool(translated_description)
+            and translated_description != original_description
+        )
+
+        if not translated_description:
+            translated_description = original_description
+
+    else:
+
+        translated_description = ""
+        description_success = True
+
+    # ---------------------------------------------
+    # 5. Tentukan status penerjemahan
+    # ---------------------------------------------
+
+    if title_success and description_success:
+
+        translation_status = "success"
+
+    elif title_success or description_success:
+
+        translation_status = "partial"
+
+    else:
+
+        translation_status = "failed"
+
+    translated = translation_status == "success"
+
+    # ---------------------------------------------
+    # 6. Tentukan bahasa artikel
+    # ---------------------------------------------
+
+    if translated:
+
+        result_language = "id"
+
+    else:
+
+        result_language = "en"
+
+    # ---------------------------------------------
+    # 7. Kembalikan hasil
+    # ---------------------------------------------
+
     return {
+
         "title": translated_title,
+
         "description": translated_description,
+
         "originalTitle": original_title,
+
         "originalDescription": original_description,
-        "translated": translated
+
+        "originalLanguage": "en",
+
+        "language": result_language,
+
+        "translated": translated,
+
+        "translationStatus": translation_status
     }
 
 
@@ -1889,11 +1978,7 @@ def fetch_source(source, categories):
 
             # 4. Terjemahkan sebelum kategorisasi
 
-            translation = translate_article(
-                original_title,
-                original_description,
-                source_language
-            )
+            
 
             title = translation["title"]
 
@@ -2506,6 +2591,7 @@ def merge_duplicate_metadata(
 # MERGE OLD AND NEW ARTICLES
 # =========================================================
 
+
 def merge_articles(
     new_articles,
     old_articles
@@ -2515,7 +2601,9 @@ def merge_articles(
         "Memulai pembersihan berita lama dan baru."
     )
 
-    # 1. NORMALISASI URL
+    # =============================================
+    # 1. NORMALISASI URL BERITA LAMA
+    # =============================================
 
     url_map = {}
 
@@ -2556,7 +2644,9 @@ def merge_articles(
 
         url_map[url] = article
 
+    # =============================================
     # 2. MASUKKAN BERITA BARU
+    # =============================================
 
     for article in new_articles:
 
@@ -2604,7 +2694,267 @@ def merge_articles(
         len(candidates)
     )
 
-    # 3. HAPUS BERITA KEDALUWARSA
+    # =============================================
+    # 3. TERJEMAHKAN ULANG BERITA LAMA DAN BARU
+    # =============================================
+
+    logging.info(
+        "Memeriksa penerjemahan seluruh berita."
+    )
+
+    translation_checked = 0
+    translation_success = 0
+    translation_partial = 0
+    translation_failed = 0
+    translation_skipped = 0
+
+    for article in candidates:
+
+        # -----------------------------------------
+        # Ambil informasi bahasa artikel
+        # -----------------------------------------
+
+        language = str(
+            article.get(
+                "originalLanguage",
+                article.get("language", "id")
+            ) or "id"
+        ).lower().strip()
+
+        is_english = language in (
+            "en",
+            "eng",
+            "english"
+        )
+
+        if not is_english:
+
+            translation_skipped += 1
+            continue
+
+        # -----------------------------------------
+        # Periksa apakah sudah berhasil diterjemahkan
+        # -----------------------------------------
+
+        already_translated = (
+            article.get("translated") is True
+            and article.get("language") == "id"
+            and article.get("translationStatus") == "success"
+        )
+
+        if already_translated:
+
+            translation_skipped += 1
+            continue
+
+        # -----------------------------------------
+        # Ambil teks asli
+        # -----------------------------------------
+
+        original_title = str(
+            article.get("originalTitle")
+            or article.get("title")
+            or ""
+        ).strip()
+
+        original_description = str(
+            article.get("originalDescription")
+            or article.get("description")
+            or ""
+        ).strip()
+
+        if not original_title:
+
+            translation_failed += 1
+
+            logging.warning(
+                "Judul kosong, penerjemahan dilewati: %s",
+                article.get("originalUrl", "")
+            )
+
+            continue
+
+        translation_checked += 1
+
+        # -----------------------------------------
+        # Lakukan penerjemahan ulang
+        # -----------------------------------------
+
+        logging.info(
+            "Menerjemahkan berita: %s",
+            original_title[:100]
+        )
+
+        try:
+
+            translation_result = translate_article(
+                original_title,
+                original_description,
+                "en"
+            )
+
+            article["originalTitle"] = (
+                translation_result.get(
+                    "originalTitle",
+                    original_title
+                )
+            )
+
+            article["originalDescription"] = (
+                translation_result.get(
+                    "originalDescription",
+                    original_description
+                )
+            )
+
+            article["title"] = (
+                translation_result.get(
+                    "title",
+                    original_title
+                )
+            )
+
+            article["description"] = (
+                translation_result.get(
+                    "description",
+                    original_description
+                )
+            )
+
+            article["originalLanguage"] = "en"
+
+            article["translated"] = (
+                translation_result.get(
+                    "translated",
+                    False
+                )
+            )
+
+            article["translationStatus"] = (
+                translation_result.get(
+                    "translationStatus",
+                    "failed"
+                )
+            )
+
+            if article["translationStatus"] == "success":
+
+                article["language"] = "id"
+
+                translation_success += 1
+
+                logging.info(
+                    "Terjemahan berhasil: %s",
+                    article["title"][:100]
+                )
+
+            elif article["translationStatus"] == "partial":
+
+                article["language"] = "en"
+
+                translation_partial += 1
+
+                logging.warning(
+                    "Terjemahan sebagian: %s",
+                    original_title[:100]
+                )
+
+            else:
+
+                article["language"] = "en"
+
+                translation_failed += 1
+
+                logging.warning(
+                    "Terjemahan gagal: %s",
+                    original_title[:100]
+                )
+
+        except Exception:
+
+            translation_failed += 1
+
+            logging.exception(
+                "Kesalahan saat menerjemahkan berita: %s",
+                original_title[:100]
+            )
+
+            # Pertahankan teks asli jika gagal.
+
+            article["title"] = original_title
+
+            article["description"] = original_description
+
+            article["originalTitle"] = original_title
+
+            article["originalDescription"] = original_description
+
+            article["originalLanguage"] = "en"
+
+            article["language"] = "en"
+
+            article["translated"] = False
+
+            article["translationStatus"] = "failed"
+
+    # =============================================
+    # 4. SIMPAN CACHE TERJEMAHAN
+    # =============================================
+
+    try:
+
+        save_translation_cache()
+
+    except Exception:
+
+        logging.exception(
+            "Gagal menyimpan cache setelah penerjemahan."
+        )
+
+    # =============================================
+    # 5. LOG HASIL PENERJEMAHAN
+    # =============================================
+
+    logging.info(
+        "========================================"
+    )
+
+    logging.info(
+        "HASIL PEMERIKSAAN TERJEMAHAN"
+    )
+
+    logging.info(
+        "Artikel diperiksa ulang : %d",
+        translation_checked
+    )
+
+    logging.info(
+        "Berhasil diterjemahkan  : %d",
+        translation_success
+    )
+
+    logging.info(
+        "Terjemahan sebagian     : %d",
+        translation_partial
+    )
+
+    logging.info(
+        "Gagal diterjemahkan     : %d",
+        translation_failed
+    )
+
+    logging.info(
+        "Tidak perlu diterjemahkan: %d",
+        translation_skipped
+    )
+
+    logging.info(
+        "========================================"
+    )
+
+    # =============================================
+    # 6. HAPUS BERITA KEDALUWARSA
+    # =============================================
 
     cutoff = datetime.now(
         timezone.utc
@@ -2625,7 +2975,9 @@ def merge_articles(
 
         valid_articles.append(article)
 
-    # 4. URUTKAN BERITA
+    # =============================================
+    # 7. URUTKAN BERITA
+    # =============================================
 
     valid_articles.sort(
         key=lambda item: item.get(
@@ -2634,7 +2986,9 @@ def merge_articles(
         reverse=True
     )
 
-    # 5. DEDUPLIKASI ID
+    # =============================================
+    # 8. DEDUPLIKASI ID
+    # =============================================
 
     id_map = {}
 
@@ -2678,7 +3032,9 @@ def merge_articles(
         id_map.values()
     )
 
-    # 6. DEDUPLIKASI PERISTIWA
+    # =============================================
+    # 9. DEDUPLIKASI PERISTIWA
+    # =============================================
 
     unique_articles = []
 
@@ -2734,7 +3090,9 @@ def merge_articles(
             )
         )
 
-    # 7. PEMBERSIHAN ID TERAKHIR
+    # =============================================
+    # 10. PEMBERSIHAN ID TERAKHIR
+    # =============================================
 
     final_map = {}
 
@@ -2755,7 +3113,9 @@ def merge_articles(
         final_map.values()
     )
 
-    # 8. URUTKAN DAN BATASI
+    # =============================================
+    # 11. URUTKAN DAN BATASI BERITA
+    # =============================================
 
     final_articles.sort(
         key=lambda item: item.get(
@@ -2767,6 +3127,21 @@ def merge_articles(
     final_articles = final_articles[
         :MAX_ARTICLES
     ]
+
+    # =============================================
+    # 12. LOG HASIL AKHIR
+    # =============================================
+
+    english_remaining = sum(
+        1
+        for article in final_articles
+        if str(
+            article.get(
+                "language",
+                article.get("originalLanguage", "id")
+            )
+        ).lower() in ("en", "eng", "english")
+    )
 
     logging.info(
         "========================================"
@@ -2788,10 +3163,16 @@ def merge_articles(
     )
 
     logging.info(
+        "Berita berbahasa Inggris tersisa: %d",
+        english_remaining
+    )
+
+    logging.info(
         "========================================"
     )
 
     return final_articles
+
 
 
 # =========================================================
