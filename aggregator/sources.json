@@ -42,20 +42,20 @@
     "country": "International"
   },
   {
-    "name": "Detik Hikmah",
-    "url": "https://news.detik.com/hikmah/rss",
+    "name": "Detik",
+    "url": "https://news.detik.com/berita/rss",
     "language": "id",
     "country": "Indonesia"
   },
   {
-    "name": "Muhammadiyah Org",
+    "name": "Muhammadiyah",
     "url": "https://muhammadiyah.or.id/feed/",
     "language": "id",
     "country": "Indonesia"
   },
   {
-    "name": "NU Online Hikmah",
-    "url": "https://islam.nu.or.id/post/feed",
+    "name": "NU Online",
+    "url": "https://islam.nu.or.id/rss.xml",
     "language": "id",
     "country": "Indonesia"
   }
