@@ -1,3 +1,4 @@
+
 import os
 import re
 import json
@@ -39,6 +40,10 @@ OUTPUT_FILE = os.path.join(
     BASE_DIR, "data", "news.json"
 )
 
+TRANSLATION_CACHE_FILE = os.path.join(
+    BASE_DIR, "data", "translation_cache.json"
+)
+
 MAX_ARTICLES = 500
 MAX_AGE_DAYS = 90
 
@@ -49,6 +54,9 @@ DUPLICATE_TIME_WINDOW_HOURS = 72
 
 TITLE_SIMILARITY_THRESHOLD = 0.82
 DESCRIPTION_SIMILARITY_THRESHOLD = 0.48
+
+TRANSLATION_SOURCE_LANGUAGE = "en"
+TRANSLATION_TARGET_LANGUAGE = "id"
 
 HEADERS = {
     "User-Agent": (
@@ -75,11 +83,23 @@ RSS_HEADERS = {
     )
 }
 
-
 logging.basicConfig(
     level=logging.INFO,
     format="%(levelname)s: %(message)s"
 )
+
+
+# =========================================================
+# TRANSLATION STATE
+# =========================================================
+
+TRANSLATOR_READY = False
+TRANSLATOR_ERROR = None
+
+TRANSLATION_CACHE = None
+TRANSLATION_CACHE_DIRTY = False
+
+TRANSLATION_MODEL = None
 
 
 # =========================================================
@@ -103,9 +123,7 @@ class ImageHTMLParser(HTMLParser):
         attrs = dict(attrs)
         tag = tag.lower()
 
-        # -------------------------------------------------
         # META IMAGE
-        # -------------------------------------------------
 
         if tag == "meta":
 
@@ -130,9 +148,7 @@ class ImageHTMLParser(HTMLParser):
                     attrs.get("content", "")
                 )
 
-        # -------------------------------------------------
         # IMG ELEMENT
-        # -------------------------------------------------
 
         elif tag == "img":
 
@@ -165,9 +181,7 @@ class ImageHTMLParser(HTMLParser):
             if srcset:
                 self.add_srcset(srcset)
 
-        # -------------------------------------------------
         # SOURCE ELEMENT
-        # -------------------------------------------------
 
         elif tag == "source":
 
@@ -179,9 +193,7 @@ class ImageHTMLParser(HTMLParser):
             if srcset:
                 self.add_srcset(srcset)
 
-        # -------------------------------------------------
         # LINK IMAGE
-        # -------------------------------------------------
 
         elif tag == "link":
 
@@ -193,9 +205,7 @@ class ImageHTMLParser(HTMLParser):
                     attrs.get("href", "")
                 )
 
-        # -------------------------------------------------
         # JSON-LD
-        # -------------------------------------------------
 
         elif tag == "script":
 
@@ -278,6 +288,10 @@ class ImageHTMLParser(HTMLParser):
             self._script_data = []
 
 
+# =========================================================
+# RSS PARSER
+# =========================================================
+
 def parse_rss_safely(content, response_encoding=None):
     """
     Membaca RSS dengan beberapa percobaan encoding.
@@ -285,7 +299,6 @@ def parse_rss_safely(content, response_encoding=None):
     jika feedparser menemukan XML yang tidak valid.
     """
 
-    # Percobaan pertama: gunakan data asli.
     feed = feedparser.parse(content)
 
     if not feed.bozo and feed.entries:
@@ -297,26 +310,29 @@ def parse_rss_safely(content, response_encoding=None):
     )
 
     # Percobaan kedua: deteksi encoding.
+
     try:
+
         if response_encoding:
+
             text = content.decode(
                 response_encoding,
                 errors="replace"
             )
+
         else:
+
             text = content.decode(
                 "utf-8",
                 errors="replace"
             )
 
-        # Hapus karakter ilegal menurut XML 1.0.
         text = re.sub(
             r"[\x00-\x08\x0B\x0C\x0E-\x1F]",
             "",
             text
         )
 
-        # Hilangkan deklarasi encoding lama.
         text = re.sub(
             r'(<\?xml[^>]*encoding\s*=\s*)["\'][^"\']+["\']',
             r'\1"UTF-8"',
@@ -330,26 +346,25 @@ def parse_rss_safely(content, response_encoding=None):
         feed = feedparser.parse(repaired)
 
         if feed.entries:
+
             logging.info(
                 "RSS berhasil dibaca setelah perbaikan XML."
             )
+
             return feed
 
     except Exception as error:
+
         logging.warning(
             "Percobaan perbaikan encoding gagal: %s",
             error
         )
 
-    # Percobaan ketiga: gunakan apparent_encoding.
-    try:
-        from requests.utils import get_encoding_from_headers
+    # Percobaan ketiga.
 
-        encoding = (
-            response_encoding
-            or get_encoding_from_headers({})
-            or "utf-8"
-        )
+    try:
+
+        encoding = response_encoding or "utf-8"
 
         text = content.decode(
             encoding,
@@ -370,6 +385,7 @@ def parse_rss_safely(content, response_encoding=None):
             return feed
 
     except Exception as error:
+
         logging.error(
             "Semua percobaan membaca RSS gagal: %s",
             error
@@ -433,6 +449,387 @@ def save_json(path, data):
         temp_path,
         path
     )
+
+
+# =========================================================
+# ARGOS TRANSLATE
+# ENGLISH TO INDONESIAN
+# =========================================================
+
+def load_translation_cache():
+
+    global TRANSLATION_CACHE
+
+    if TRANSLATION_CACHE is not None:
+        return TRANSLATION_CACHE
+
+    data = load_json(
+        TRANSLATION_CACHE_FILE,
+        default={}
+    )
+
+    if isinstance(data, dict):
+
+        TRANSLATION_CACHE = data
+
+    else:
+
+        TRANSLATION_CACHE = {}
+
+    logging.info(
+        "Cache terjemahan dimuat: %d entri",
+        len(TRANSLATION_CACHE)
+    )
+
+    return TRANSLATION_CACHE
+
+
+def save_translation_cache():
+
+    global TRANSLATION_CACHE_DIRTY
+
+    if TRANSLATION_CACHE is None:
+        return
+
+    if not TRANSLATION_CACHE_DIRTY:
+        return
+
+    try:
+
+        save_json(
+            TRANSLATION_CACHE_FILE,
+            TRANSLATION_CACHE
+        )
+
+        TRANSLATION_CACHE_DIRTY = False
+
+        logging.info(
+            "Cache terjemahan berhasil disimpan: %d entri",
+            len(TRANSLATION_CACHE)
+        )
+
+    except Exception as error:
+
+        logging.error(
+            "Gagal menyimpan cache terjemahan: %s",
+            error
+        )
+
+
+def get_translation_cache_key(text):
+
+    content = (
+        TRANSLATION_SOURCE_LANGUAGE
+        + "|"
+        + TRANSLATION_TARGET_LANGUAGE
+        + "|"
+        + text.strip()
+    )
+
+    return hashlib.sha256(
+        content.encode("utf-8")
+    ).hexdigest()
+
+
+def initialize_translator():
+
+    global TRANSLATOR_READY
+    global TRANSLATOR_ERROR
+    global TRANSLATION_MODEL
+
+    if TRANSLATOR_READY:
+        return True
+
+    if TRANSLATOR_ERROR:
+        return False
+
+    try:
+
+        import argostranslate.package
+        import argostranslate.translate
+
+        logging.info(
+            "Memeriksa model penerjemah Inggris-Indonesia..."
+        )
+
+        installed_languages = (
+            argostranslate.translate.get_installed_languages()
+        )
+
+        english_language = next(
+            (
+                language
+                for language in installed_languages
+                if language.code == TRANSLATION_SOURCE_LANGUAGE
+            ),
+            None
+        )
+
+        model_available = False
+
+        if english_language:
+
+            model_available = any(
+                translation.to_lang.code
+                == TRANSLATION_TARGET_LANGUAGE
+
+                for translation in english_language.translations
+            )
+
+        # ---------------------------------------------
+        # Unduh model jika belum tersedia
+        # ---------------------------------------------
+
+        if not model_available:
+
+            logging.info(
+                "Model en-id belum tersedia. "
+                "Mengunduh model Argos Translate..."
+            )
+
+            argostranslate.package.update_package_index()
+
+            available_packages = (
+                argostranslate.package.get_available_packages()
+            )
+
+            package = next(
+                (
+                    item
+                    for item in available_packages
+
+                    if (
+                        item.from_code
+                        == TRANSLATION_SOURCE_LANGUAGE
+
+                        and item.to_code
+                        == TRANSLATION_TARGET_LANGUAGE
+                    )
+                ),
+                None
+            )
+
+            if package is None:
+
+                raise RuntimeError(
+                    "Model Argos Translate en-id tidak ditemukan."
+                )
+
+            package_path = package.download()
+
+            argostranslate.package.install_from_path(
+                package_path
+            )
+
+            logging.info(
+                "Model penerjemah en-id berhasil dipasang."
+            )
+
+        # ---------------------------------------------
+        # Ambil model yang sudah terpasang
+        # ---------------------------------------------
+
+        installed_languages = (
+            argostranslate.translate.get_installed_languages()
+        )
+
+        english_language = next(
+            (
+                language
+                for language in installed_languages
+                if language.code == TRANSLATION_SOURCE_LANGUAGE
+            ),
+            None
+        )
+
+        if not english_language:
+
+            raise RuntimeError(
+                "Bahasa Inggris belum tersedia."
+            )
+
+        TRANSLATION_MODEL = next(
+            (
+                translation
+                for translation in english_language.translations
+
+                if (
+                    translation.to_lang.code
+                    == TRANSLATION_TARGET_LANGUAGE
+                )
+            ),
+            None
+        )
+
+        if TRANSLATION_MODEL is None:
+
+            raise RuntimeError(
+                "Model penerjemah Inggris-Indonesia "
+                "belum berhasil dipasang."
+            )
+
+        TRANSLATOR_READY = True
+        TRANSLATOR_ERROR = None
+
+        logging.info(
+            "Penerjemah Inggris-Indonesia siap digunakan."
+        )
+
+        return True
+
+    except Exception as error:
+
+        TRANSLATOR_ERROR = str(error)
+
+        logging.error(
+            "Gagal menginisialisasi penerjemah: %s",
+            error
+        )
+
+        return False
+
+
+def translate_to_indonesian(text):
+
+    global TRANSLATION_CACHE_DIRTY
+
+    if not text:
+        return text
+
+    original_text = str(text).strip()
+
+    if not original_text:
+        return original_text
+
+    cache = load_translation_cache()
+
+    cache_key = get_translation_cache_key(
+        original_text
+    )
+
+    # ---------------------------------------------
+    # 1. Periksa cache terlebih dahulu
+    # ---------------------------------------------
+
+    cached_translation = cache.get(
+        cache_key
+    )
+
+    if (
+        isinstance(cached_translation, str)
+        and cached_translation.strip()
+    ):
+
+        logging.debug(
+            "Terjemahan ditemukan di cache."
+        )
+
+        return cached_translation
+
+    # ---------------------------------------------
+    # 2. Inisialisasi penerjemah
+    # ---------------------------------------------
+
+    if not initialize_translator():
+
+        logging.warning(
+            "Penerjemah tidak tersedia. "
+            "Menggunakan teks asli."
+        )
+
+        return original_text
+
+    # ---------------------------------------------
+    # 3. Proses penerjemahan
+    # ---------------------------------------------
+
+    try:
+
+        translated_text = TRANSLATION_MODEL.translate(
+            original_text
+        )
+
+        translated_text = str(
+            translated_text or ""
+        ).strip()
+
+        if not translated_text:
+
+            logging.warning(
+                "Hasil terjemahan kosong."
+            )
+
+            return original_text
+
+        # Simpan hasil ke cache.
+
+        cache[cache_key] = translated_text
+
+        TRANSLATION_CACHE_DIRTY = True
+
+        return translated_text
+
+    except Exception as error:
+
+        logging.error(
+            "Gagal menerjemahkan teks: %s",
+            error
+        )
+
+        return original_text
+
+
+def translate_article(title, description, language):
+
+    original_title = title
+    original_description = description
+
+    language = str(
+        language or "id"
+    ).lower().strip()
+
+    # ---------------------------------------------
+    # Hanya terjemahkan sumber berbahasa Inggris
+    # ---------------------------------------------
+
+    if language not in (
+        "en",
+        "eng",
+        "english"
+    ):
+
+        return {
+            "title": original_title,
+            "description": original_description,
+            "originalTitle": original_title,
+            "originalDescription": original_description,
+            "translated": False
+        }
+
+    # ---------------------------------------------
+    # Terjemahkan judul dan deskripsi
+    # ---------------------------------------------
+
+    translated_title = translate_to_indonesian(
+        original_title
+    )
+
+    translated_description = translate_to_indonesian(
+        original_description
+    ) if original_description else ""
+
+    translated = (
+        translated_title != original_title
+        or translated_description != original_description
+    )
+
+    return {
+        "title": translated_title,
+        "description": translated_description,
+        "originalTitle": original_title,
+        "originalDescription": original_description,
+        "translated": translated
+    }
 
 
 # =========================================================
@@ -817,12 +1214,10 @@ def extract_html_images(
             page_html
         )
 
-        # 1. Metadata dan elemen gambar HTML.
         candidates.extend(
             parser.images
         )
 
-        # 2. JSON-LD.
         for script in parser.jsonld_scripts:
 
             try:
@@ -934,10 +1329,6 @@ def extract_image(entry, article_url=""):
 
     candidates = []
 
-    # -----------------------------------------------------
-    # 1. MEDIA RSS
-    # -----------------------------------------------------
-
     def collect_media(value):
 
         if isinstance(value, dict):
@@ -965,6 +1356,8 @@ def extract_image(entry, article_url=""):
 
                 collect_media(item)
 
+    # MEDIA RSS
+
     for field in (
         "media_content",
         "media_thumbnail",
@@ -975,9 +1368,7 @@ def extract_image(entry, article_url=""):
             entry.get(field, [])
         )
 
-    # -----------------------------------------------------
-    # 2. ENCLOSURE RSS
-    # -----------------------------------------------------
+    # ENCLOSURE RSS
 
     for item in entry.get(
         "enclosures", []
@@ -990,9 +1381,7 @@ def extract_image(entry, article_url=""):
                 or item.get("url", "")
             )
 
-    # -----------------------------------------------------
-    # 3. LINK ENCLOSURE
-    # -----------------------------------------------------
+    # LINK ENCLOSURE
 
     for item in entry.get(
         "links", []
@@ -1006,9 +1395,7 @@ def extract_image(entry, article_url=""):
                     item.get("href", "")
                 )
 
-    # -----------------------------------------------------
-    # 4. HTML CONTENT RSS
-    # -----------------------------------------------------
+    # HTML CONTENT RSS
 
     html_fields = []
 
@@ -1045,10 +1432,6 @@ def extract_image(entry, article_url=""):
         if image_url:
             candidates.append(image_url)
 
-    # -----------------------------------------------------
-    # 5. PRIORITAS GAMBAR DARI RSS
-    # -----------------------------------------------------
-
     image_url = find_valid_image(
         candidates,
         article_url
@@ -1056,10 +1439,6 @@ def extract_image(entry, article_url=""):
 
     if image_url:
         return image_url
-
-    # -----------------------------------------------------
-    # 6. FALLBACK HALAMAN ARTIKEL
-    # -----------------------------------------------------
 
     return extract_image_from_article_page(
         article_url
@@ -1136,7 +1515,6 @@ def refresh_missing_images(articles):
             failed += 1
             continue
 
-        # Coba ekstraksi dari halaman artikel.
         image_url = extract_image_from_article_page(
             article_url
         )
@@ -1209,7 +1587,6 @@ def categorize(
             if not keyword:
                 continue
 
-            # Unicode-aware word boundary.
             pattern = (
                 r"(?<!\w)"
                 + re.escape(keyword)
@@ -1261,7 +1638,6 @@ def categorize(
 # FETCH NEWS SOURCE
 # =========================================================
 
-
 def fetch_source(source, categories):
 
     result = {
@@ -1270,13 +1646,15 @@ def fetch_source(source, categories):
         "raw": 0,
         "accepted": 0,
         "filtered": 0,
+        "translated": 0,
+        "translationFailed": 0,
         "error": None
     }
 
     try:
-        # ==========================================
+
         # 1. Mengambil respons RSS
-        # ==========================================
+
         response = requests.get(
             source["url"],
             headers=RSS_HEADERS,
@@ -1285,16 +1663,15 @@ def fetch_source(source, categories):
 
         response.raise_for_status()
 
-        # ==========================================
-        # 2. Membaca dan memproses RSS
-        # ==========================================
+        # 2. Membaca RSS
+
         feed = parse_rss_safely(
             response.content,
             response.encoding
         )
 
-        # Periksa apakah RSS mengalami kerusakan XML
         if feed.bozo and not feed.entries:
+
             raise ValueError(
                 "RSS tidak dapat dibaca: "
                 + str(feed.bozo_exception)
@@ -1304,10 +1681,8 @@ def fetch_source(source, categories):
 
         result["raw"] = len(entries)
 
-        # ==========================================
-        # 3. Periksa apakah RSS memiliki artikel
-        # ==========================================
         if not entries:
+
             raise ValueError(
                 "RSS tidak menghasilkan artikel. "
                 "Periksa apakah URL mengembalikan XML RSS "
@@ -1318,21 +1693,25 @@ def fetch_source(source, categories):
 
         articles = []
 
-        # ==========================================
-        # 4. Memproses setiap artikel
-        # ==========================================
+        source_language = str(
+            source.get("language", "id")
+        ).lower().strip()
+
+        # 3. Memproses setiap artikel
+
         for entry in entries:
 
-            title = clean_text(
+            original_title = clean_text(
                 entry.get("title", "")
             )
 
-            description = clean_text(
+            original_description = clean_text(
                 entry.get("summary", "")
             )
 
-            if not description:
-                description = clean_text(
+            if not original_description:
+
+                original_description = clean_text(
                     entry.get("description", "")
                 )
 
@@ -1340,78 +1719,120 @@ def fetch_source(source, categories):
                 entry.get("link", "")
             )
 
-            # Periksa judul dan URL
-            if not title or not url:
+            if not original_title or not url:
+
                 result["filtered"] += 1
                 continue
 
-            # ======================================
-            # 5. Kategorisasi berita
-            # ======================================
+            # 4. Terjemahkan sebelum kategorisasi
+
+            translation = translate_article(
+                original_title,
+                original_description,
+                source_language
+            )
+
+            title = translation["title"]
+
+            description = translation["description"]
+
+            if translation["translated"]:
+
+                result["translated"] += 1
+
+            elif source_language in (
+                "en",
+                "eng",
+                "english"
+            ):
+
+                result["translationFailed"] += 1
+
+            # 5. Kategorisasi menggunakan teks terjemahan
+
             category, tags = categorize(
                 title,
                 description,
                 categories
             )
 
-            # Abaikan berita yang tidak relevan
             if not category:
+
                 result["filtered"] += 1
                 continue
 
-            # ======================================
-            # 6. Mengambil gambar artikel
-            # ======================================
+            # 6. Mengambil gambar
+
             image_url = extract_image(
                 entry,
                 url
             )
 
-            # ======================================
             # 7. Membuat objek artikel
-            # ======================================
+
             article = {
                 "id": generate_id(url),
+
                 "title": title,
+
                 "description": description[:2000],
-                "image": image_url,
-                "category": category,
-                "tags": tags,
-                "source": source["name"],
-                "language": source.get(
-                    "language", "id"
+
+                "originalTitle": original_title,
+
+                "originalDescription": (
+                    original_description[:2000]
                 ),
+
+                "translated": translation["translated"],
+
+                "originalLanguage": source_language,
+
+                "image": image_url,
+
+                "category": category,
+
+                "tags": tags,
+
+                "source": source["name"],
+
+                "language": "id",
+
                 "country": source.get(
                     "country", ""
                 ),
+
                 "publishedAt": get_published_date(
                     entry
                 ),
+
                 "originalUrl": url
             }
 
             articles.append(article)
 
-        # ==========================================
-        # 8. Statistik hasil pemrosesan
-        # ==========================================
+        # 8. Statistik
+
         result["accepted"] = len(articles)
 
         logging.info(
-            "%s | RSS: %d | Lolos: %d | Disaring: %d",
+            (
+                "%s | RSS: %d | Lolos: %d | "
+                "Disaring: %d | Diterjemahkan: %d | "
+                "Terjemahan gagal: %d"
+            ),
+
             result["name"],
             result["raw"],
             result["accepted"],
-            result["filtered"]
+            result["filtered"],
+            result["translated"],
+            result["translationFailed"]
         )
 
         return articles, result
 
     except Exception as error:
 
-        # ==========================================
-        # 9. Penanganan kesalahan sumber RSS
-        # ==========================================
         result["error"] = str(error)
 
         logging.error(
@@ -1421,7 +1842,6 @@ def fetch_source(source, categories):
         )
 
         return [], result
-
 
 
 # =========================================================
@@ -1711,7 +2131,7 @@ def is_same_news(
         title_b
     ).ratio()
 
-    # 1. JUDUL SANGAT MIRIP
+    # JUDUL SANGAT MIRIP
 
     if (
         len(common_title) >= 3
@@ -1722,7 +2142,7 @@ def is_same_news(
     ):
         return True
 
-    # 2. POLA PERISTIWA YANG SAMA
+    # POLA PERISTIWA YANG SAMA
 
     shared_actions = (
         common_title & EVENT_ACTIONS
@@ -1735,7 +2155,7 @@ def is_same_news(
     ):
         return True
 
-    # 3. PERBANDINGAN DESKRIPSI
+    # PERBANDINGAN DESKRIPSI
 
     description_a = news_tokens(
         article_a.get("description", "")
@@ -1774,7 +2194,7 @@ def is_same_news(
     ):
         return True
 
-    # 4. GABUNGAN JUDUL DAN DESKRIPSI
+    # GABUNGAN JUDUL DAN DESKRIPSI
 
     combined_a = (
         title_tokens_a | description_a
@@ -1890,6 +2310,32 @@ def merge_duplicate_metadata(
     if sources:
         result["sources"] = sources
 
+    # PERTAHANKAN INFORMASI BAHASA ASLI
+
+    if not result.get("originalTitle"):
+
+        result["originalTitle"] = (
+            other.get("originalTitle", "")
+        )
+
+    if not result.get("originalDescription"):
+
+        result["originalDescription"] = (
+            other.get("originalDescription", "")
+        )
+
+    if not result.get("originalLanguage"):
+
+        result["originalLanguage"] = (
+            other.get("originalLanguage", "")
+        )
+
+    if result.get("translated") is None:
+
+        result["translated"] = (
+            other.get("translated", False)
+        )
+
     return result
 
 
@@ -1906,9 +2352,7 @@ def merge_articles(
         "Memulai pembersihan berita lama dan baru."
     )
 
-    # -----------------------------------------------------
     # 1. NORMALISASI URL
-    # -----------------------------------------------------
 
     url_map = {}
 
@@ -1949,9 +2393,7 @@ def merge_articles(
 
         url_map[url] = article
 
-    # -----------------------------------------------------
     # 2. MASUKKAN BERITA BARU
-    # -----------------------------------------------------
 
     for article in new_articles:
 
@@ -1999,9 +2441,7 @@ def merge_articles(
         len(candidates)
     )
 
-    # -----------------------------------------------------
     # 3. HAPUS BERITA KEDALUWARSA
-    # -----------------------------------------------------
 
     cutoff = datetime.now(
         timezone.utc
@@ -2022,9 +2462,7 @@ def merge_articles(
 
         valid_articles.append(article)
 
-    # -----------------------------------------------------
     # 4. URUTKAN BERITA
-    # -----------------------------------------------------
 
     valid_articles.sort(
         key=lambda item: item.get(
@@ -2033,9 +2471,7 @@ def merge_articles(
         reverse=True
     )
 
-    # -----------------------------------------------------
     # 5. DEDUPLIKASI ID
-    # -----------------------------------------------------
 
     id_map = {}
 
@@ -2079,9 +2515,7 @@ def merge_articles(
         id_map.values()
     )
 
-    # -----------------------------------------------------
     # 6. DEDUPLIKASI PERISTIWA
-    # -----------------------------------------------------
 
     unique_articles = []
 
@@ -2137,9 +2571,7 @@ def merge_articles(
             )
         )
 
-    # -----------------------------------------------------
     # 7. PEMBERSIHAN ID TERAKHIR
-    # -----------------------------------------------------
 
     final_map = {}
 
@@ -2160,9 +2592,7 @@ def merge_articles(
         final_map.values()
     )
 
-    # -----------------------------------------------------
     # 8. URUTKAN DAN BATASI
-    # -----------------------------------------------------
 
     final_articles.sort(
         key=lambda item: item.get(
@@ -2230,7 +2660,13 @@ def main():
         )
 
     # -----------------------------------------------------
-    # 1. BACA BERITA LAMA
+    # 1. LOAD CACHE TERJEMAHAN
+    # -----------------------------------------------------
+
+    load_translation_cache()
+
+    # -----------------------------------------------------
+    # 2. BACA BERITA LAMA
     # -----------------------------------------------------
 
     previous_articles = load_previous_articles()
@@ -2241,7 +2677,7 @@ def main():
     )
 
     # -----------------------------------------------------
-    # 2. AMBIL BERITA RSS
+    # 3. AMBIL BERITA RSS
     # -----------------------------------------------------
 
     all_articles = []
@@ -2274,7 +2710,7 @@ def main():
     )
 
     # -----------------------------------------------------
-    # 3. GABUNGKAN DAN BERSIHKAN BERITA
+    # 4. GABUNGKAN BERITA
     # -----------------------------------------------------
 
     final_articles = merge_articles(
@@ -2283,7 +2719,7 @@ def main():
     )
 
     # -----------------------------------------------------
-    # 4. PULIHKAN GAMBAR BERITA LAMA DAN BARU
+    # 5. PULIHKAN GAMBAR
     # -----------------------------------------------------
 
     final_articles = refresh_missing_images(
@@ -2291,7 +2727,13 @@ def main():
     )
 
     # -----------------------------------------------------
-    # 5. STATUS RSS
+    # 6. SIMPAN CACHE TERJEMAHAN
+    # -----------------------------------------------------
+
+    save_translation_cache()
+
+    # -----------------------------------------------------
+    # 7. STATUS RSS
     # -----------------------------------------------------
 
     if successful == 0:
@@ -2307,7 +2749,7 @@ def main():
         status = "success"
 
     # -----------------------------------------------------
-    # 6. STATISTIK GAMBAR
+    # 8. STATISTIK GAMBAR
     # -----------------------------------------------------
 
     images_found = sum(
@@ -2321,7 +2763,21 @@ def main():
     )
 
     # -----------------------------------------------------
-    # 7. OUTPUT JSON
+    # 9. STATISTIK TERJEMAHAN
+    # -----------------------------------------------------
+
+    translated_articles = sum(
+        item.get("translated", 0)
+        for item in source_stats
+    )
+
+    failed_translations = sum(
+        item.get("translationFailed", 0)
+        for item in source_stats
+    )
+
+    # -----------------------------------------------------
+    # 10. OUTPUT JSON
     # -----------------------------------------------------
 
     result = {
@@ -2344,6 +2800,19 @@ def main():
 
         "sourceStats": source_stats,
 
+        "translation": {
+
+            "engine": "Argos Translate",
+
+            "sourceLanguage": "en",
+
+            "targetLanguage": "id",
+
+            "translatedArticles": translated_articles,
+
+            "failedArticles": failed_translations
+        },
+
         "articles": final_articles
     }
 
@@ -2353,7 +2822,7 @@ def main():
     )
 
     # -----------------------------------------------------
-    # 8. LOGGING
+    # 11. LOGGING
     # -----------------------------------------------------
 
     logging.info(
@@ -2394,6 +2863,16 @@ def main():
     logging.info(
         "Berita tanpa gambar: %d",
         images_missing
+    )
+
+    logging.info(
+        "Artikel berhasil diterjemahkan: %d",
+        translated_articles
+    )
+
+    logging.info(
+        "Artikel gagal diterjemahkan: %d",
+        failed_translations
     )
 
     logging.info(
