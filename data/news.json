@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-10T20:27:59.580908+00:00",
-  "total": 69,
-  "newArticles": 27,
+  "lastUpdated": "2026-11-11T01:15:20.917583+00:00",
+  "total": 75,
+  "newArticles": 23,
   "sourcesChecked": 9,
   "sourcesSucceeded": 8,
   "sourcesFailed": 1,
@@ -11,16 +11,16 @@
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 4,
-      "filtered": 21,
+      "accepted": 3,
+      "filtered": 22,
       "error": null
     },
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 35,
+      "raw": 38,
       "accepted": 2,
-      "filtered": 33,
+      "filtered": 36,
       "error": null
     },
     {
@@ -35,8 +35,8 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 2,
-      "filtered": 48,
+      "accepted": 1,
+      "filtered": 49,
       "error": null
     },
     {
@@ -59,8 +59,8 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 10,
-      "filtered": 10,
+      "accepted": 8,
+      "filtered": 12,
       "error": null
     },
     {
@@ -69,7 +69,7 @@
       "raw": 0,
       "accepted": 0,
       "filtered": 0,
-      "error": "404 Client Error: NOT FOUND for url: https://news.detik.com/hikmah/rss"
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
     },
     {
       "name": "Muhammadiyah Org",
@@ -81,6 +81,96 @@
     }
   ],
   "articles": [
+    {
+      "id": "790f281dad5be8fc",
+      "title": "‘All I can do is hug my children and cry’: Palestinians in Gaza face deadly winter floods",
+      "description": "‘All I can do is hug my children and cry’: Palestinians in Gaza face deadly winter floods On MEE Live, Palestinian journalist Nada Nabil spoke to MEE journalist James Schneider about how heavy rains and flooding are worsening conditions for displaced families in Gaza, where many are living in tents and damaged homes. Nabil said people who would normally welcome the rain are now afraid of it. She recounted how one mother told her that all she could do was hug her children, cry and promise them better days when the sun returned. The flooding comes as Palestinians in Gaza continue to face the consequences of Israel’s restrictions on humanitarian aid entering Gaza. Despite the ceasefire, Israel continues to obstruct the entry of essential supplies, including tents, blankets and materials neede",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-11T00:53:04+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/all-i-can-do-hug-my-children-and-cry-palestinians-gaza-face-deadly"
+    },
+    {
+      "id": "1b087f9b0b73343b",
+      "title": "Wamenhaj Sebut Penipu Haji dan Umrah Sebagai Bandit Agama",
+      "description": "JAKARTA — Wakil Menteri Haji dan Umrah (Wamenhaj) Dahnil Anzar Simanjuntak menyebut para pelaku penipuan penyelenggaraan ibadah haji dan umrah sebagai bandit agama. Mereka dinilai memanfaatkan tingginya semangat spiritualitas...",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/000402000-1793365941-830-556.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "Republika",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T00:17:52+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/toba5s483/wamenhaj-sebut-penipu-haji-dan-umrah-sebagai-bandit-agama"
+    },
+    {
+      "id": "4c24a2f57765ef3b",
+      "title": "Massive fire as Israeli settlers burn down business near Nablus",
+      "description": "Israeli settlers have set fire to Palestinian property in the village of Luban ash-Sharqiya, near Nablus.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794353598.jpg?resize=1916%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T23:33:43+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/10/massive-fire-as-israeli-settlers-burn-down-business-near-nablus?traffic_source=rss"
+    },
+    {
+      "id": "a782bc3aba7cebd1",
+      "title": "Japan pledges $1.97m to support Gaza health response",
+      "description": "Japan pledges $1.97m to support Gaza health response Japan signed an agreement with the World Health Organisation on Tuesday to provide approximately $1.97 million to support the health response in Gaza, Wafa reported, citing Japan’s representative office to Palestine. The agreement was signed in Ramallah by Japan’s representative to Palestine, Katsuhiko Araike, and WHO representative in the occupied Palestinian territory, Reinhilde Van De Weerdt. A key component of the grant is the establishment of an Emergency Medical Team (EMT) coordination cell within the Ministry’s Emergency Operations Centre in Gaza City, the report said.",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T23:05:46+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/japan-pledges-197m-support-gaza-health-response"
+    },
+    {
+      "id": "31784fd7eb02a748",
+      "title": "US House Democrat leader Jeffries will retain position despite opposition, sources say",
+      "description": "US House Democrat leader Jeffries will retain position despite opposition, sources say Submitted by Yasmine El-Sabawi on Tue, 11/10/2026 - 19:15 In the Senate, unless progressive-backed Chris Van Hollen formally steps up to unite the ranks as a challenger, Chuck Schumer will likely win The leader of the House Democrats, New York Congressman Hakeem Jeffries, right, speaks to reporters alongside the leader of the Senate Democrats, New York Senator Chuck Schumer, on the steps of the US Senate on 21 May 2026 in Washington, DC (Win McNamee/Getty Images via AFP) Off The top Democrat in the House of Representatives, Hakeem Jeffries, is all but certain to become the next Speaker of the House, despite dissatisfaction among some freshman lawmakers and their progressive colleagues in the chamber, sou",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/063_2277503865-2.jpg.jpg?itok=r97KGlZU",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T22:52:39+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/us-house-democrat-leader-jeffries-will-retain-position-despite-opposition-sources-say"
+    },
+    {
+      "id": "5562e87769f3fa2e",
+      "title": "Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures",
+      "description": "Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures Submitted by Mounira Elsamra on Tue, 11/10/2026 - 19:08 Jeffries is expected to become the first Black speaker when the new Congress convenes in January US House of Representatives Minority Leader Hakeem Jeffries speaks during a press conference at the US Capitol in Washington, DC, on 9 November 2026 (Jim Watson/AFP) Off More than a million people have signed a petition urging Democrats to reject Hakeem Jeffries as the next Speaker of the US House of Representatives, as growing opposition to his leadership puts his support for Israel and US foreign policy under renewed scrutiny. Jeffries, who currently leads the House Democrats, is expected to become the first Black speaker when the new Congress convenes in",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_D6YD9TV.jpg.jpg?itok=QRMTLkin",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "en",
+      "country": "International",
+      "publishedAt": "2026-11-10T21:03:39+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/petition-opposing-hakeem-jeffries-us-house-speaker-passes-one-million-signatures"
+    },
     {
       "id": "2d1d43e268545e03",
       "title": "F1 champion Lewis Hamilton visits Gaza border",
@@ -269,7 +359,7 @@
       "id": "af1eb0f1fbea412d",
       "title": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
       "description": "The group, formed by Trump, issues rare criticism of Israel, while also blaming Hamas for the suffering of civilians in Gaza.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd6f/live/934efd20-dcfd-11f1-933b-ff2499ee76f6.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7282/live/106c4b40-dd54-11f1-a701-fddedf244c16.jpg",
       "category": "Palestina",
       "tags": [
         "Palestina"
