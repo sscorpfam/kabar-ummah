@@ -1,11 +1,11 @@
 {
-  "status": "partial",
-  "lastUpdated": "2026-11-11T22:45:47.587342+00:00",
-  "total": 117,
-  "newArticles": 27,
+  "status": "success",
+  "lastUpdated": "2026-11-12T03:51:38.869717+00:00",
+  "total": 134,
+  "newArticles": 38,
   "sourcesChecked": 10,
-  "sourcesSucceeded": 9,
-  "sourcesFailed": 1,
+  "sourcesSucceeded": 10,
+  "sourcesFailed": 0,
   "sourceStats": [
     {
       "name": "Al Jazeera",
@@ -20,10 +20,10 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 25,
+      "raw": 29,
       "accepted": 0,
-      "filtered": 25,
-      "translated": 25,
+      "filtered": 29,
+      "translated": 29,
       "translationFailed": 0,
       "error": null
     },
@@ -31,8 +31,8 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 10,
-      "filtered": 5,
+      "accepted": 12,
+      "filtered": 3,
       "translated": 0,
       "translationFailed": 0,
       "error": null
@@ -41,8 +41,8 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 0,
-      "filtered": 50,
+      "accepted": 3,
+      "filtered": 47,
       "translated": 0,
       "translationFailed": 0,
       "error": null
@@ -71,28 +71,28 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 4,
-      "filtered": 16,
+      "accepted": 6,
+      "filtered": 14,
       "translated": 20,
       "translationFailed": 0,
       "error": null
     },
     {
       "name": "Detik",
-      "status": "error",
-      "raw": 0,
-      "accepted": 0,
-      "filtered": 0,
+      "status": "success",
+      "raw": 100,
+      "accepted": 3,
+      "filtered": 97,
       "translated": 0,
       "translationFailed": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
+      "error": null
     },
     {
       "name": "Muhammadiyah",
       "status": "success",
       "raw": 10,
-      "accepted": 1,
-      "filtered": 9,
+      "accepted": 2,
+      "filtered": 8,
       "translated": 0,
       "translationFailed": 0,
       "error": null
@@ -100,9 +100,9 @@
     {
       "name": "NU Online",
       "status": "success",
-      "raw": 50,
+      "raw": 49,
       "accepted": 7,
-      "filtered": 43,
+      "filtered": 42,
       "translated": 0,
       "translationFailed": 0,
       "error": null
@@ -112,14 +112,331 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 70,
+    "translatedArticles": 74,
     "failedArticles": 0
   },
   "articles": [
     {
+      "id": "59310ef9a89466f7",
+      "title": "Pemprov Akan Dampingi 7 Santri Diduga Dilecehkan Kiai Ponpes di Jaksel",
+      "description": "Gubernur Pramono Anung mengatakan Pemprov DKI akan mendampingi santri korban kekerasan seksual oleh kiai di Ponpes Darul Hasbi di Jakarta Selatan.",
+      "originalTitle": "Pemprov Akan Dampingi 7 Santri Diduga Dilecehkan Kiai Ponpes di Jaksel",
+      "originalDescription": "Gubernur Pramono Anung mengatakan Pemprov DKI akan mendampingi santri korban kekerasan seksual oleh kiai di Ponpes Darul Hasbi di Jakarta Selatan.",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/12/gubernur-pramono-anung-mengatakan-pemprov-dki-akan-mendampingi-santri-korban-kekerasan-seksual-oleh-kiai-di-ponpes-darul-hasbi-1794455035763_169.jpeg?w=360&q=90",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama",
+        "Pesantren dan Madrasah"
+      ],
+      "source": "Detik",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-12T03:44:06+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8749429/pemprov-akan-dampingi-7-santri-diduga-dilecehkan-kiai-ponpes-di-jaksel"
+    },
+    {
+      "id": "7ab8dfbf5eb33a7a",
+      "title": "Watch: Setidaknya enam Palestina tewas dalam serangan Israel di rumah sakit Nasser",
+      "description": "Watch: Setidaknya enam orang Palestina tewas dalam serangan Israel di Nasser Hospital Fotage menunjukkan akibat serangan udara Israel di Rumah Sakit Nasser di selatan Gaza Khan Younis dini hari pada hari Kamis. Menurut pertahanan sipil Gaza, setidaknya enam Palestina tewas dalam serangan itu, menyebabkan lebih dari 20 orang terluka. Sebuah serangan udara Israel pada sebuah bangunan di Nasser Hospital di Gaza Khan Younis dini pada hari Kamis menewaskan setidaknya lima warga Palestina, termasuk seorang dokter, dan terluka 20 lainnya, menurut pertahanan sipil Gaza. https: / / t.co / 0Ab4RFODW - Middle East Eye (@ MiddleEastEye) November 12, 2026",
+      "originalTitle": "Watch: At least six Palestinians killed in Israeli attack on Nasser hospital",
+      "originalDescription": "Watch: At least six Palestinians killed in Israeli attack on Nasser hospital Footage shows the aftermath of Israeli air strike on the Nasser Hospital in southern Gaza’s Khan Younis early on Thursday. According to Gaza’s civil defence, at least six Palestinians were killed in the attack, leaving more than 20 others wounded. An Israeli air strike on a building at Nasser Hospital in Gaza’s Khan Younis early on Thursday killed at least five Palestinians, including a doctor, and wounded 20 others, according to Gaza’s civil defence. https://t.co/0Ab44RFOdW — Middle East Eye (@MiddleEastEye) November 12, 2026",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Cop31%20Erdogan.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-12T03:38:54+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-least-six-palestinians-killed-israeli-attack-nasser-hospital",
+      "translationStatus": "success",
+      "sources": [
+        "Middle East Eye",
+        "Al Jazeera"
+      ]
+    },
+    {
+      "id": "61e73a7731bd6464",
+      "title": "Menko Polkam Apresiasi Peran Muhammadiyah dalam Dakwah dan Persatuan Bangsa",
+      "description": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Milad ke-114 Muhammadiyah merupakan momentum nyata dalam rangka memperkuat komitmen menegakkan, serta menjunjung tinggi ajaran keislaman murni yang berlandaskan Al Quran dan As Sunnah untuk terwujudnya masyarakat Islam yang berkemajuan. Hal itu diungkapkan Dudung Abdurrahman, Menteri Koordinator Bidang Politik dan Keamanan Republik Indonesia (Menkopolkam RI) dalam ucapan Selamat Milad ke-114 Muhammadiyah yang […] The post Menko Polkam Apresiasi Peran Muhammadiyah dalam Dakwah dan Persatuan Bangsa appeared first on Muhammadiyah .",
+      "originalTitle": "Menko Polkam Apresiasi Peran Muhammadiyah dalam Dakwah dan Persatuan Bangsa",
+      "originalDescription": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Milad ke-114 Muhammadiyah merupakan momentum nyata dalam rangka memperkuat komitmen menegakkan, serta menjunjung tinggi ajaran keislaman murni yang berlandaskan Al Quran dan As Sunnah untuk terwujudnya masyarakat Islam yang berkemajuan. Hal itu diungkapkan Dudung Abdurrahman, Menteri Koordinator Bidang Politik dan Keamanan Republik Indonesia (Menkopolkam RI) dalam ucapan Selamat Milad ke-114 Muhammadiyah yang […] The post Menko Polkam Apresiasi Peran Muhammadiyah dalam Dakwah dan Persatuan Bangsa appeared first on Muhammadiyah .",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://muhammadiyah.or.id/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-22-at-20.54.07.jpeg",
+      "category": "Al-Qur'an dan Hadis",
+      "tags": [
+        "Al-Qur'an dan Hadis",
+        "Dakwah dan Ulama"
+      ],
+      "source": "Muhammadiyah",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-12T03:37:03+00:00",
+      "originalUrl": "https://muhammadiyah.or.id/2026/11/menko-polkam-apresiasi-peran-muhammadiyah-dalam-dakwah-dan-persatuan-bangsa"
+    },
+    {
+      "id": "8e65c566ebd9558c",
+      "title": "SUMU Padukan Ekspansi Bisnis dan Kepedulian Sosial",
+      "description": "MUHAMMADIYAH.OR.ID, JAKARTA — Serikat Usaha Muhammadiyah (SUMU) menunjukkan komitmennya dalam mengembangkan kepedulian sosial melalui penyaluran dana wakaf dan donasi yang dihimpun dari kegiatan Business Trip China. Dari kegiatan tersebut, para peserta berhasil mengumpulkan dana sebesar 23.000 yuan atau setara Rp62 juta. Dana tersebut disalurkan kepada tiga penerima manfaat, yakni Lembaga Amil Zakat, Infak, dan Sedekah […] The post SUMU Padukan Ekspansi Bisnis dan Kepedulian Sosial appeared first on Muhammadiyah .",
+      "originalTitle": "SUMU Padukan Ekspansi Bisnis dan Kepedulian Sosial",
+      "originalDescription": "MUHAMMADIYAH.OR.ID, JAKARTA — Serikat Usaha Muhammadiyah (SUMU) menunjukkan komitmennya dalam mengembangkan kepedulian sosial melalui penyaluran dana wakaf dan donasi yang dihimpun dari kegiatan Business Trip China. Dari kegiatan tersebut, para peserta berhasil mengumpulkan dana sebesar 23.000 yuan atau setara Rp62 juta. Dana tersebut disalurkan kepada tiga penerima manfaat, yakni Lembaga Amil Zakat, Infak, dan Sedekah […] The post SUMU Padukan Ekspansi Bisnis dan Kepedulian Sosial appeared first on Muhammadiyah .",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/11/sumu-padukan-ekspansi-bisnis-dan-kepedulian-sosial.jpeg",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "Muhammadiyah",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-12T03:28:27+00:00",
+      "originalUrl": "https://muhammadiyah.or.id/2026/11/sumu-padukan-ekspansi-bisnis-dan-kepedulian-sosial"
+    },
+    {
+      "id": "a992e00d892707cf",
+      "title": "Prabowo Ungkap Shirathal Mustaqim dalam HUT Nasdem, Apa Sebenarnya Tafsir dan Maknanya?",
+      "description": "JAKARTA — Presiden Prabowo Subianto menyinggung soal frasa Alquran yakni Shirathal Mustaqim dalam pidatonya di Hari Ulang Tahun ke-15 Partai Nasdem di Jakarta, Rabu(11/11/2026). Presiden mengungkapkan, Shirathal Mustaqim merupakan bagian dari doa...",
+      "originalTitle": "Prabowo Ungkap Shirathal Mustaqim dalam HUT Nasdem, Apa Sebenarnya Tafsir dan Maknanya?",
+      "originalDescription": "JAKARTA — Presiden Prabowo Subianto menyinggung soal frasa Alquran yakni Shirathal Mustaqim dalam pidatonya di Hari Ulang Tahun ke-15 Partai Nasdem di Jakarta, Rabu(11/11/2026). Presiden mengungkapkan, Shirathal Mustaqim merupakan bagian dari doa...",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/024147800-1792579348-830-556.jpg",
+      "category": "Al-Qur'an dan Hadis",
+      "tags": [
+        "Al-Qur'an dan Hadis"
+      ],
+      "source": "Republika",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-12T03:08:55+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/todcqv483/prabowo-ungkap-shirathal-mustaqim-dalam-hut-nasdem-apa-sebenarnya-tafsir-dan-maknanya"
+    },
+    {
+      "id": "2d0befe1724d78d3",
+      "title": "Baznas RI dorong zakat jadi penggerak kesejahteraan mustahik",
+      "description": "Badan Amil Zakat Nasional (Baznas) RI mendorong pengelola zakat untuk berperan sebagai penggerak peningkatan ...",
+      "originalTitle": "Baznas RI dorong zakat jadi penggerak kesejahteraan mustahik",
+      "originalDescription": "Badan Amil Zakat Nasional (Baznas) RI mendorong pengelola zakat untuk berperan sebagai penggerak peningkatan ...",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/12/IMG_20261112_094538.jpg.jpeg",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "ANTARA Terkini",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-12T03:08:08+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5848419/baznas-ri-dorong-zakat-jadi-penggerak-kesejahteraan-mustahik"
+    },
+    {
+      "id": "2863b45807200ef5",
+      "title": "Baznas RI perkuat keterbukaan informasi publik dalam tata kelola zakat",
+      "description": "Badan Amil Zakat Nasional (Baznas) RI memperkuat transparansi dan keterbukaan informasi publik dalam pengelolaan zakat, ...",
+      "originalTitle": "Baznas RI perkuat keterbukaan informasi publik dalam tata kelola zakat",
+      "originalDescription": "Badan Amil Zakat Nasional (Baznas) RI memperkuat transparansi dan keterbukaan informasi publik dalam pengelolaan zakat, ...",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/12/IMG_20261112_094555.jpg.jpeg",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "ANTARA Terkini",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-12T02:58:43+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5848379/baznas-ri-perkuat-keterbukaan-informasi-publik-dalam-tata-kelola-zakat"
+    },
+    {
+      "id": "7ee05c30b223304c",
+      "title": "Saudi Bahas Persiapan Haji 2027 dengan 76 Negara, Ini Lima Prioritasnya",
+      "description": "JEDDAH -- Menteri Haji dan Umrah Arab Saudi, Tawfig Al-Rabiah, menggelar pertemuan berkala terkait persiapan penyelenggaraan ibadah haji 1448 Hijriyah atau 2027 Masehi dengan para kepala Kantor Urusan Haji...",
+      "originalTitle": "Saudi Bahas Persiapan Haji 2027 dengan 76 Negara, Ini Lima Prioritasnya",
+      "originalDescription": "JEDDAH -- Menteri Haji dan Umrah Arab Saudi, Tawfig Al-Rabiah, menggelar pertemuan berkala terkait persiapan penyelenggaraan ibadah haji 1448 Hijriyah atau 2027 Masehi dengan para kepala Kantor Urusan Haji...",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/015488300-1781062292-830-556.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "Republika",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-12T02:58:28+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/todc9g366/saudi-bahas-persiapan-haji-2027-dengan-76-negara-ini-lima-prioritasnya"
+    },
+    {
+      "id": "a8a116d03b8ae4c6",
+      "title": "Abbas sebut rakyat Palestina hadapi perang, kehancuran, dan pengusiran",
+      "description": "Presiden Palestina Mahmoud Abbas menyebutkan rakyat Palestina menghadapi perang, kehancuran, dan upaya ...",
+      "originalTitle": "Abbas sebut rakyat Palestina hadapi perang, kehancuran, dan pengusiran",
+      "originalDescription": "Presiden Palestina Mahmoud Abbas menyebutkan rakyat Palestina menghadapi perang, kehancuran, dan upaya ...",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/12/CjkinzN000024_20261111_CBMFN0A001.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "ANTARA Terkini",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-12T02:47:29+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5848355/abbas-sebut-rakyat-palestina-hadapi-perang-kehancuran-dan-pengusiran"
+    },
+    {
+      "id": "fc2f6a28689a3afa",
+      "title": "Mengapa Fatwa Rokok Konvensional tak 'Seharam' Vape? Ini Penjelasan MUI",
+      "description": "JAKARTA — Majelis Ulama Indonesia (MUI) memiliki pertimbangan berbeda dalam menetapkan hukum rokok konvensional dan rokok elektrik atau vape. Jika hukum merokok dalam fatwa MUI pada 2009 bersifat kondisional,...",
+      "originalTitle": "Mengapa Fatwa Rokok Konvensional tak 'Seharam' Vape? Ini Penjelasan MUI",
+      "originalDescription": "JAKARTA — Majelis Ulama Indonesia (MUI) memiliki pertimbangan berbeda dalam menetapkan hukum rokok konvensional dan rokok elektrik atau vape. Jika hukum merokok dalam fatwa MUI pada 2009 bersifat kondisional,...",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/ilustrasi-vape-atau-rokok_260508092557-318.jpg",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam",
+        "Dakwah dan Ulama"
+      ],
+      "source": "Republika",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-12T01:44:24+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tod8u0483/mengapa-fatwa-rokok-konvensional-tak-seharam-vape-ini-penjelasan-mui"
+    },
+    {
+      "id": "fdf80fc2aec6c9aa",
+      "title": "Serangan Israel di Selatan Rumah Sakit Nasser Gaza membunuh setidaknya enam orang Palestina",
+      "description": "Serangan Israel di Selatan Rumah Sakit Nasser Gaza membunuh setidaknya enam orang Palestina dan serangan udara Israel menargetkan kompleks Nasser Medical di Gaza awal hari Kamis telah membunuh setidaknya enam orang Palestina dan melukai lebih dari 20 lainnya. Pemogokan menghantam lantai dua gedung al- Yasin dalam kompleks medis, dengan direktur rumah sakit menunjukkan bahwa hal itu menyebabkan kerusakan yang luas ke perawatan intensif dan bangsal bedah. Sementara Radio Angkatan Darat Israel mengklaim bahwa pemogokan adalah \"operasi pembunuhan\", korban adalah staf dan pasien, termasuk beberapa orang yang dijadwalkan menjalani operasi hari berikutnya.",
+      "originalTitle": "Israeli strike on south Gaza's Nasser Hospital kills at least six Palestinians",
+      "originalDescription": "Israeli strike on south Gaza's Nasser Hospital kills at least six Palestinians An Israeli air strike targeting the Nasser Medical Complex in southern Gaza early on Thursday has killed at least six Palestinians and injured more than 20 others. The strike hit the second floor of al-Yasin building within the medical complex, with the hospital’s director indicating that it caused extensive damage to the intensive care and surgical wards. While Israeli Army Radio claimed that the strike was an \"assassination operation\", the casualties were staff and patients, including some people who were scheduled to undergo surgery the following day.",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Cop31%20Erdogan.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-12T01:26:10+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-south-gazas-nasser-hospital-kills-least-six-palestinians",
+      "translationStatus": "success"
+    },
+    {
+      "id": "aa21f1e3c3a924cb",
+      "title": "Teka-teki Jubah Biksu yang Dipakai Peneror Masjid di Jaktim",
+      "description": "Aksi teror di Masjid Darul Ma'arif, Jakarta Timur, melibatkan penusukan jemaah oleh pelaku berpakaian jubah biksu. Polisi selidiki motif dan status pelaku.",
+      "originalTitle": "Teka-teki Jubah Biksu yang Dipakai Peneror Masjid di Jaktim",
+      "originalDescription": "Aksi teror di Masjid Darul Ma'arif, Jakarta Timur, melibatkan penusukan jemaah oleh pelaku berpakaian jubah biksu. Polisi selidiki motif dan status pelaku.",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/09/tangkapan-layar-rekaman-cctv-pelaku-penyerangan-jemaah-di-masjid-darul-maarif-jakarta-timur-1794196012838_169.jpeg?w=360&q=90",
+      "category": "Masjid dan Peradaban",
+      "tags": [
+        "Masjid dan Peradaban"
+      ],
+      "source": "Detik",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-12T01:01:40+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8749190/teka-teki-jubah-biksu-yang-dipakai-peneror-masjid-di-jaktim"
+    },
+    {
+      "id": "e063bd794510af0c",
+      "title": "Perang Iran hidup: Iran memperingatkan pembalasan Eropa, Israel menyerang Gaza",
+      "description": "Israel memerintahkan militer untuk meningkatkan persiapan untuk kemungkinan serangan terhadap Iran sebagai Teheran mengatakan itu akan membalas jika diserang.",
+      "originalTitle": "Iran war live: Iran warns of Europe retaliation, Israel attacks Gaza",
+      "originalDescription": "Israel orders military to step up preparations for possible attack on Iran as Tehran says it will retaliate if attacked.",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-07-03T132147Z_995685063_RC2A6MAV1254_RTRMADP_3_IRAN-CRISIS-KHAMENEI-1-1793093229.jpg?resize=1792%2C1080",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-12T00:00:44+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/liveblog/2026/11/12/iran-war-live-tehran-warns-of-wider-retaliation-israel-kills-in-gaza",
+      "translationStatus": "success"
+    },
+    {
+      "id": "9162d7792ece6998",
+      "title": "Komite PBB suara untuk resolusi kedaulatan Palestina atas sumber daya alam",
+      "description": "Komite PBB memilih resolusi atas kedaulatan Palestina atas sumber daya alam Komite Kedua, Dewan Umum PBB dan Komite Keuangan, mengadopsi resolusi rancangan yang membangun \"kedaulatan permanen dari rakyat Palestina dalam Wilayah Palestina yang Diduduki, termasuk Yerusalem Timur, dan penduduk Arab dalam pendudukan Suriah Golan atas sumber daya alam mereka\" pada hari Rabu, Waba melaporkan berita. Mosi ini diajukan oleh Grup 77 dan Cina, dan total 151 negara terpilih mendukung itu, termasuk semua anggota negara Uni Eropa dan Kanada. Hanya tujuh negara yang menentangnya - Amerika Serikat, Israel, Kolombia, Paraguay, Palau, Nauru, dan Micronesia - dan 11 negara turun-temurun.",
+      "originalTitle": "UN committee votes for resolution on Palestinian sovereignty over natural resources",
+      "originalDescription": "UN committee votes for resolution on Palestinian sovereignty over natural resources The Second Committee, the United Nations General Assembly's Economic and Financial Committee, adopted a draft resolution establishing the \"Permanent sovereignty of the Palestinian people in the Occupied Palestinian Territory, including East Jerusalem, and of the Arab population in the occupied Syrian Golan over their natural resources\" on Wednesday, Wafa news reported. The motion was put forward by the Group of 77 and China, and a total of 151 countries voted in favour of it, including all member states of the European Union and Canada. Just seven countries voted against it - the US, Israel, Colombia, Paraguay, Palau, Nauru, and Micronesia - and 11 countries abstained.",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Cop31%20Erdogan.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T22:55:59+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/un-second-committee-votes-resolution-palestinian-sovereignty-over",
+      "translationStatus": "success"
+    },
+    {
+      "id": "4e981bffcb3326af",
+      "title": "Israel menyerang kompleks medis saat sembilan tewas di Gaza",
+      "description": "Nasser Medical Complex di Khan Younis menyerang sebagai banding PBB untuk bantuan mendesak untuk menangani hujan lebat di enclave tersebut.",
+      "originalTitle": "Israeli strikes hit medical complex as nine killed across Gaza",
+      "originalDescription": "Nasser Medical Complex in Khan Younis attacked as UN appeals for urgent aid to deal with heavy rains in the enclave.",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/epa_6af4e837431f-1794435127.jpg?resize=1920%2C1440",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T22:55:37+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/11/israeli-strikes-hit-tent-camp-as-five-killed-in-gaza",
+      "translationStatus": "success"
+    },
+    {
+      "id": "5a34243f1cf38d1e",
+      "title": "Bagaimana Israel telah merekayasa sistem apartheid di jalan West Bank",
+      "description": "Bagaimana Israel telah merekayasa sebuah sistem apartheid di jalan-jalan Bank Barat yang diturunkan oleh Fareed Taamallah di Wed, 11 / 11 / 2026 - 21: 13 Setiap sore, komuter Palestina duduk di belakang gerbang militer sementara pemukim Israel mengemudi. Sistem ini dibangun untuk mengangkut mereka dan membuat tempat tinggal mereka lebih keras Israel menutup pos pemeriksaan militer dekat kota Palestina di Taybeh, timur Ramallah di Tepi Barat yang diduduki, pada 23 Agustus 2026, setelah menembak dan melukai seorang Palestina dari desa terdekat Burqa (Zain Jaafar / AFP) Off Setiap sore di tepat 4pm, keputusan militer mengubah jalan keluar Ramadllah dan bireh menjadi opening-open-air gridlocking, mesin dan frustrasi. Apa pihak berwenang Israel terus pasar ke dunia sebagai sementara \"langkah-langkah keamanan\" - gerbang besi, penghalang beton, gundukan bumi dan pos pemeriksaan bersenjata mencekik Tepi Barat - telah lama bermetastasis ke dalam, disengaja aparat spasial pemisahan dan diskriminasi rasial. Arsitektur kontrol ini tidak ada untuk menetralkan ancaman asli. Hal ini beroperasi untuk membersihkan jalan arteri bersama bagi pemukim Israel pada jam yang tepat pergerakan sipil Palestina mencapai puncaknya sehari-hari. Dengan bawahan hak dasar populasi pribumi untuk melakukan perjalanan melalui tanahnya sendiri, sistem memberikan prioritas permanen kepada satu kelompok sementara menghukum yang lain untuk tindakan sederhana mencoba pulang ke rumah setelah bekerja sehari. Menurut dokumentasi yang komprehensif yang dikompile oleh kantor kemanusiaan PBB, Ocha, dan organisasi hak asasi manusia B 'tselem, lanskap Bank Barat yang diduduki diukir oleh lebih dari 900 rintangan gerakan yang tetap dan terbatas. Mereka terdiri dari pos pemeriksaan militer berawak permanen, sebagian, gerbang besi dikendalikan, gundukan bumi, penghalang jalan dan parit, yang membatasi dan mendikte kehidupan sehari-hari dari 3,4 juta Palestina. Ocha menghitung 23",
+      "originalTitle": "How Israel has engineered a system of apartheid on West Bank roads",
+      "originalDescription": "How Israel has engineered a system of apartheid on West Bank roads Submitted by Fareed Taamallah on Wed, 11/11/2026 - 21:13 Every afternoon, Palestinian commuters sit behind military gates while Israeli settlers drive on. The system is built to exhaust them and make staying on their land harder Israeli forces close a military checkpoint near the Palestinian town of Taybeh, east of Ramallah in the occupied West Bank, on 23 August 2026, after shooting and wounding a Palestinian man from the nearby village of Burqa (Zain Jaafar/AFP) Off Every afternoon at exactly 4pm, a calculated military decision transforms the exits of Ramallah and al-Bireh into an open-air gridlock of vehicles piled nose to tail, idling engines and mounting frustration. What Israeli authorities continue to market to the world as temporary \"security measures\" - the iron gates, concrete barriers, earth mounds and armed checkpoints choking the occupied West Bank - has long since metastasised into a deliberate, institutionalised apparatus of spatial segregation and racial discrimination. This architecture of control does not exist to neutralise genuine threats. It operates to clear shared arterial roads for Israeli settlers at the exact hour Palestinian civilian movement reaches its daily peak. By subordinating the basic right of an indigenous population to travel through its own land, the system grants permanent priority to one group while punishing another for the simple act of trying to commute home after a day's work. According to comprehensive field documentation compiled by the United Nations' humanitarian office, Ocha , and the human rights organisation B'Tselem , the landscape of the occupied West Bank is carved up by more than 900 fixed and intermittent movement obstacles. They comprise permanently manned military checkpoints, partial ones, remote-controlled iron gates, earth mounds, roadblocks and trenches, which restrict and dictate the daily lives of 3.4 million Palestinians. Ocha counts 23",
+      "translated": true,
+      "originalLanguage": "en",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_C6C777D%281%29.jpg.jpg?itok=Y4-R3WqX",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "language": "id",
+      "country": "International",
+      "publishedAt": "2026-11-11T22:50:27+00:00",
+      "originalUrl": "https://www.middleeasteye.net/opinion/how-israel-has-engineered-system-apartheid-west-bank-roads",
+      "translationStatus": "success"
+    },
+    {
       "id": "1d1b239fe2602763",
       "title": "Kelompok pembayar pajak AS memanggil ICC untuk menyelidiki Trump, Rubio untuk 'membantu' Gaza genosida",
-      "description": "Kelompok pembayar pajak AS memanggil ICC untuk menyelidiki Trump, Rubio untuk 'membantu' Gaza Genosida Dikirimkan oleh staf MEE pada Wid, 11 / 11 / 2026 - 18: 54 Para penggugat mengatakan bahwa mereka telah menghabiskan semua pilihan hukum lain untuk mencari keadilan Seth Donnelly, pendiri Persatuan Taxpayers Against Genosida, memimpin konferensi pers dari The Hague, di Belanda, untuk mengumumkan penyerahan resmi kepada ICC untuk menyelidiki Presiden AS Donald Trump dan Sekretaris Negara AS Marco Rubio, pada 11 November 2026 (Screentake) dari sekelompok pembayar pajak AS dan internasional pengacara hak asasi manusia telah secara resmi dipanggil ke Pengadilan Pidana Internasional (ICC) pada 11 November 2026 (Screencick) atas kejahatan serta kejahatan yang dilakukan oleh Marco dan kejahatan serta pengirman, Mereka mengumumkan itu di sebuah konferensi pers di rumah pengadilan di Den Haag, di Belanda, pada hari Rabu. Taxpayer Alliance Against (Taag), dan termasuk surat sumpah dari dokter-dokter yang bekerja di Gaza, langsung menjadi saksi mata, kesaksian whistleblower, bukti video, dan dokumentasi ekstensif dari apa yang mereka katakan adalah militer AS, keuangan, diplomatik, dan dukungan politik bagi Israel, kata grup. Di antara mereka yang terlibat adalah Dr Feroze Sidhwa, seorang ahli bedah trauma yang menjalani dua misi di Gaza, dan David McIntsh, seorang mantan kontraktor dengan skandal-terganggu dan sekarang-menghentikan Yayasan Kemanusiaan Gaza, keduanya sebelumnya telah berbagi pengalaman rinci dengan Mata Timur Tengah. Hampir setahun untuk mengumpulkan bukti yang diperlukan bahwa tanpa Amerika Serikat, Israel tidak bisa melakukan apa yang ilmuwan PBB dan Holocaust telah dijelaskan sebagai genosida dari Palestina di Gaza, Taag mengatakan dalam pers rilis menyertai pengumuman. Taag mengajukan 15 Pasal komunikasi dengan ICC, \"menyediakan Kantor Kejaksaan dengan bukti yang luas yang mencapai lega",
+      "description": "Kelompok pembayar pajak AS memanggil ICC untuk menyelidiki Trump, Rubio untuk 'membantu' Gaza Genosida Dikirimkan oleh staf MEE pada Wid, 11 / 11 / 2026 - 18: 54 Para penggugat mengatakan bahwa mereka telah menghabiskan semua pilihan hukum lain untuk mencari keadilan Seth Donnelly, pendiri Persatuan Taxpayers Against Genosida, memimpin konferensi pers dari The Hague, di Belanda, untuk mengumumkan penyerahan resmi kepada ICC untuk menyelidiki Presiden AS Donald Trump dan Sekretaris Negara AS Marco Rubio, pada 11 November 2026 (Screentake) dari sekelompok pembayar pajak AS dan internasional pengacara hak asasi manusia telah secara resmi dipanggil ke Pengadilan Pidana Internasional (ICC) pada 11 November 2026 (Screencick) atas kejahatan serta kejahatan yang dilakukan oleh Marco dan kejahatan serta pengirman, Mereka mengumumkan itu di sebuah konferensi pers di rumah pengadilan di Den Haag, di Belanda, pada hari Rabu. Taxpayer Alliance Against (Taag), dan termasuk surat sumpah dari dokter-dokter yang bekerja di Gaza, langsung menjadi saksi mata, kesaksian whistleblower, bukti video, dan dokumentasi ekstensif dari apa yang mereka katakan adalah militer AS, keuangan, diplomatik, dan dukungan politik bagi Israel, kata grup. Di antara mereka yang terlibat adalah Dr Feroze Sidhwa, seorang ahli bedah trauma yang menjalani dua misi di Gaza, dan David McIntsh, seorang mantan kontraktor dengan skandal-terganggu dan sekarang-menghentikan Yayasan Kemanusiaan Gaza, keduanya sebelumnya telah berbagi pengalaman rinci dengan Mata Timur Tengah. Hampir setahun untuk mengumpulkan bukti yang diperlukan bahwa tanpa Amerika Serikat, Israel tidak bisa melakukan apa yang ilmuwan PBB dan Holocaust telah dijelaskan sebagai genosida dari Palestina di Gaza, Taag mengatakan dalam pers rilis menyertai pengumuman. Taag mengajukan sebuah Pasal 15 komunikasi dengan ICC, \"menyediakan Kantor Kejaksaan dengan penyerahan bukti luas yang mencapai batas hukum untuk surat perintah penangkapan untuk dikeluarka",
       "originalTitle": "US taxpayer group calls on ICC to investigate Trump, Rubio for 'aiding' Gaza genocide",
       "originalDescription": "US taxpayer group calls on ICC to investigate Trump, Rubio for 'aiding' Gaza genocide Submitted by MEE staff on Wed, 11/11/2026 - 18:54 The complainants say they have exhausted all other legal options to seek justice Seth Donnelly, co-founder of the Taxpayers Alliance Against Genocide, leads a press conference from The Hague, in the Netherlands, to announce an official submission to the ICC to investigate US President Donald Trump and US Secretary of State Marco Rubio, on 11 November 2026 (Screengrab) Off A group of US taxpayers and international human rights lawyers have officially called on the International Criminal Court (ICC) to investigate President Donald Trump and his top diplomat Marco Rubio for \"aiding and abetting genocide, war crimes, and crimes against humanity committed by Israel in Gaza\". They announced it at a press conference at the court's home in The Hague, in the Netherlands, on Wednesday. The submission to the court was organised by the Taxpayer Alliance Against Genocide (Taag), and includes sworn affidavits from doctors who worked in Gaza, firsthand eyewitness accounts, whistleblower testimony, video evidence, and extensive documentation of what they say is US military, financial, diplomatic, and political support for Israel, the group said. Among those involved are Dr Feroze Sidhwa , a trauma surgeon who undertook two missions in Gaza, and David McIntosh , a former contractor with the scandal-plagued and now-defunct Gaza Humanitarian Foundation, both of whom have previously shared their detailed experiences with Middle East Eye. It took nearly a year to compile the necessary proof that without the US, Israel could not have carried out what the United Nations and Holocaust scholars have described as a genocide of Palestinians in Gaza, Taag said in a press release accompanying the announcement. Taag filed an Article 15 communication with the ICC, \"providing the Office of the Prosecutor with an extensive evidence submission that achieves the lega",
       "translated": true,
@@ -157,7 +474,10 @@
       "country": "International",
       "publishedAt": "2026-11-11T20:44:34+00:00",
       "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/11/gaza-goalkeeper-killed-in-israeli-attack",
-      "translationStatus": "success"
+      "translationStatus": "success",
+      "sources": [
+        "Al Jazeera"
+      ]
     },
     {
       "id": "e9809d8ae98ecb7e",
@@ -238,6 +558,25 @@
       "publishedAt": "2026-11-11T19:40:21+00:00",
       "originalUrl": "https://www.middleeasteye.net/opinion/gaza-flooding-catastrophe-design-and-spineless-west-complicit",
       "translationStatus": "success"
+    },
+    {
+      "id": "e31b0b98c8f92073",
+      "title": "Menteri PU Akan Renovasi Masjid Giok Aceh Sesuai Arahan Prabowo",
+      "description": "Menteri PU Dody Hanggodo dukung renovasi Masjid Giok Aceh sesuai arahan Presiden Prabowo. Pengembangan bertahap untuk tingkatkan daya tarik masjid ikonik ini.",
+      "originalTitle": "Menteri PU Akan Renovasi Masjid Giok Aceh Sesuai Arahan Prabowo",
+      "originalDescription": "Menteri PU Dody Hanggodo dukung renovasi Masjid Giok Aceh sesuai arahan Presiden Prabowo. Pengembangan bertahap untuk tingkatkan daya tarik masjid ikonik ini.",
+      "translated": false,
+      "originalLanguage": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/11/menteri-pu-akan-renovasi-masjid-giok-nagan-raya-1794411111069.jpeg?w=360&q=90",
+      "category": "Masjid dan Peradaban",
+      "tags": [
+        "Masjid dan Peradaban"
+      ],
+      "source": "Detik",
+      "language": "id",
+      "country": "Indonesia",
+      "publishedAt": "2026-11-11T15:33:22+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8749026/menteri-pu-akan-renovasi-masjid-giok-aceh-sesuai-arahan-prabowo"
     },
     {
       "id": "6b9b97fd43d00794",
