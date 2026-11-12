@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-12T04:54:23.449786+00:00",
-  "total": 214,
-  "newArticles": 116,
+  "lastUpdated": "2026-11-12T07:00:30.366290+00:00",
+  "total": 218,
+  "newArticles": 109,
   "sourcesChecked": 13,
   "sourcesSucceeded": 12,
   "sourcesFailed": 1,
@@ -11,8 +11,8 @@
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 2,
-      "filtered": 23,
+      "accepted": 1,
+      "filtered": 24,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -21,9 +21,9 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 30,
+      "raw": 31,
       "accepted": 1,
-      "filtered": 29,
+      "filtered": 30,
       "translated": 30,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -33,8 +33,8 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 12,
-      "filtered": 3,
+      "accepted": 11,
+      "filtered": 4,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -88,8 +88,8 @@
       "name": "Detik",
       "status": "success",
       "raw": 100,
-      "accepted": 3,
-      "filtered": 97,
+      "accepted": 1,
+      "filtered": 99,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -109,9 +109,9 @@
     {
       "name": "NU Online",
       "status": "success",
-      "raw": 47,
-      "accepted": 6,
-      "filtered": 41,
+      "raw": 50,
+      "accepted": 5,
+      "filtered": 45,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -132,9 +132,9 @@
       "name": "Saudi Gazette",
       "status": "success",
       "raw": 50,
-      "accepted": 50,
-      "filtered": 0,
-      "translated": 50,
+      "accepted": 49,
+      "filtered": 1,
+      "translated": 49,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -143,9 +143,9 @@
       "name": "MEED Saudi Arabia",
       "status": "success",
       "raw": 10,
-      "accepted": 6,
-      "filtered": 4,
-      "translated": 9,
+      "accepted": 5,
+      "filtered": 5,
+      "translated": 8,
       "translationPartial": 1,
       "translationFailed": 0,
       "error": null
@@ -155,16 +155,117 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 123,
+    "translatedArticles": 124,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 695
+    "cacheEntries": 732
   },
   "images": {
-    "found": 214,
+    "found": 218,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "e12c645b0f7d27c3",
+      "title": "Dua Khatib Jumat di Masjidil Haram dan Masjid Nabawi Diumumkan",
+      "description": "Otoritas Urusan Dua Masjid Suci mengumumkan nama khatib dan imam Jumat di Masjidil Haram dan Masjid Nabawi untuk 3 Jumadil Akhir 1448 H.",
+      "originalTitle": "Dua Khatib Jumat di Masjidil Haram dan Masjid Nabawi Diumumkan",
+      "originalDescription": "Otoritas Urusan Dua Masjid Suci mengumumkan nama khatib dan imam Jumat di Masjidil Haram dan Masjid Nabawi untuk 3 Jumadil Akhir 1448 H.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/المسجد-الحرام-IbXrVhcO.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T05:55:30+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/9d4d2zxzk"
+    },
+    {
+      "id": "fbc5928052bbd3c9",
+      "title": "Koalisi Arab Saudi Tembak Jatuh Drone di Wilayah Riyadh",
+      "description": "Koalisi Arab Saudi mengumumkan telah mencegat dan menghancurkan sebuah drone di wilayah Riyadh.",
+      "originalTitle": "Koalisi Arab Saudi Tembak Jatuh Drone di Wilayah Riyadh",
+      "originalDescription": "Koalisi Arab Saudi mengumumkan telah mencegat dan menghancurkan sebuah drone di wilayah Riyadh.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/0-crop-n1Z_KHpZ.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T05:55:02+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/0x6jw5umo"
+    },
+    {
+      "id": "2254fe25deef81e0",
+      "title": "Saudi- dipimpin koalisi mengatakan drone dicegat atas Riyadh",
+      "description": "Koalisi Saudi- dipimpin mengatakan drone dicegat atas Riyadh yang Saudi-dipimpin koalisi mengatakan itu dicegat dan menghancurkan sebuah drone di wilayah Riyadh kerajaan.",
+      "originalTitle": "Saudi-led coalition says drone intercepted over Riyadh",
+      "originalDescription": "Saudi-led coalition says drone intercepted over Riyadh The Saudi-led coalition said it intercepted and destroyed a drone in the kingdom's Riyadh region.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/iranian-women-janfada-volunteer-military-training-tehran-iran-10-november-2026-afp.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T05:32:05+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-drone-intercepted-over-riyadh"
+    },
+    {
+      "id": "4ce96fcc52b68512",
+      "title": "Cuaca Arab Saudi Kamis: Hujan Petir dan Angin Kencang di Sejumlah Wilayah",
+      "description": "Pusat Meteorologi Nasional memperkirakan hujan petir sedang hingga lebat disertai angin kencang dan debu di beberapa wilayah Arab Saudi hari ini.",
+      "originalTitle": "Cuaca Arab Saudi Kamis: Hujan Petir dan Angin Kencang di Sejumlah Wilayah",
+      "originalDescription": "Pusat Meteorologi Nasional memperkirakan hujan petir sedang hingga lebat disertai angin kencang dan debu di beberapa wilayah Arab Saudi hari ini.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/طقس-2-2kTCksGu.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T05:15:08+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/zv2x1yngk"
+    },
     {
       "id": "ebcaa36fca4e82c7",
       "title": "9 Tim Tiba di Doha untuk Piala Dunia U-17 2026, Arab Saudi di Grup D",
