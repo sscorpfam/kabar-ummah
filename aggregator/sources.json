@@ -58,5 +58,23 @@
     "url": "https://islam.nu.or.id/rss.xml",
     "language": "id",
     "country": "Indonesia"
+  },
+  {
+    "name": "Ajel Indonesia",
+    "url": "https://indonesian.ajel.sa/rss.xml",
+    "language": "id",
+    "country": "Saudi Arabia"
+  },
+  {
+    "name": "Saudi Gazette",
+    "url": "https://saudigazette.com.sa/rssFeed/74",
+    "language": "en",
+    "country": "Saudi Arabia"
+  },
+  {
+    "name": "MEED Saudi Arabia",
+    "url": "https://www.meed.com/countries/gcc/saudi-arabia/rss/feed",
+    "language": "en",
+    "country": "Saudi Arabia"
   }
 ]
