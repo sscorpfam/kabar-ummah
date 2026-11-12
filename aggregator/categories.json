@@ -99,6 +99,25 @@
     "bank syariah",
     "islamic banking"
   ],
+  "Arab Saudi": [
+    "saudi arabia",
+    "saudi",
+    "kingdom of saudi arabia",
+    "riyadh",
+    "jeddah",
+    "mecca",
+    "medina",
+    "makkah",
+    "madinah",
+    "crown prince",
+    "saudi government",
+    "saudi authorities",
+    "saudi kingdom",
+    "kerajaan arab saudi",
+    "pemerintah arab saudi",
+    "putra mahkota saudi",
+    "raja arab saudi"
+  ],
   "Haji dan Umrah": [
     "haji",
     "umrah",
@@ -108,7 +127,16 @@
     "jamaah umrah",
     "pilgrimage",
     "hajj",
-    "umrah pilgrims"
+    "umrah pilgrims",
+    "ministry of hajj and umrah",
+    "nusuk",
+    "haramain",
+    "masjidil haram",
+    "masjid nabawi",
+    "ka'bah",
+    "kaaba",
+    "tanah suci",
+    "holy mosques"
   ],
   "Masjid dan Peradaban": [
     "masjid",
