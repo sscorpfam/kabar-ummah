@@ -835,18 +835,6 @@ def fetch_source(source, categories):
                 result["filtered"] += 1
                 continue
 
-            # FILTER SEPAK BOLA
-            if is_football_news(
-                original_title,
-                original_description
-            ):
-            result["filtered"] += 1
-            logging.info(
-                "DIBUANG (SEPAK BOLA): %s",
-                original_title[:150]
-            )
-            continue
-
             # PENTING: terjemahkan terlebih dahulu, baru kategorisasi.
             translation = translate_article(
                 original_title,
