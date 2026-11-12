@@ -667,78 +667,6 @@ def refresh_missing_images(articles):
     return articles
 
 
-# =========================================================
-# FILTER BERITA SEPAK BOLA / OLAHRAGA
-# =========================================================
-
-FOOTBALL_KEYWORDS = {
-    # Bahasa Inggris
-    "football", "soccer", "premier league",
-    "champions league", "world cup",
-    "fifa", "uefa", "afc",
-    "match", "matches", "kickoff",
-    "goalkeeper", "striker", "midfielder",
-    "defender", "penalty shootout",
-    "transfer window", "football club",
-    "soccer club", "footballer",
-
-    # Bahasa Indonesia
-    "sepak bola", "liga", "klub",
-    "pemain", "pertandingan",
-    "gol", "penalti", "kiper",
-    "striker", "gelandang", "bek",
-    "transfer pemain", "bursa transfer",
-    "piala dunia", "liga champions",
-    "tim nasional", "kesebelasan",
-    "pelatih sepak bola",
-
-    # Istilah tambahan
-    "al nassr", "al hilal",
-    "al ittihad", "al ahly",
-    "real madrid", "barcelona",
-    "manchester united",
-    "manchester city",
-    "liverpool fc", "arsenal fc",
-    "chelsea fc", "psg",
-    "inter miami", "juventus fc"
-}
-
-
-def is_football_news(title, description):
-    """
-    Menolak berita sepak bola tanpa melihat negara sumber.
-    Judul menjadi indikator utama.
-    Deskripsi menggunakan minimal 2 keyword.
-    """
-
-    title_text = normalize_text(title or "")
-    description_text = normalize_text(description or "")
-
-    def contains_keyword(text, keyword):
-        pattern = (
-            r"(?<!\w)"
-            + re.escape(normalize_text(keyword))
-            + r"(?!\w)"
-        )
-        return bool(
-            re.search(pattern, text, flags=re.UNICODE)
-        )
-
-    # 1. Jika judul mengandung keyword sepak bola,
-    # langsung tolak.
-    for keyword in FOOTBALL_KEYWORDS:
-        if contains_keyword(title_text, keyword):
-            return True
-
-    # 2. Jika deskripsi mengandung minimal 2 keyword,
-    # anggap sebagai berita sepak bola.
-    matches = sum(
-        1 for keyword in FOOTBALL_KEYWORDS
-        if contains_keyword(description_text, keyword)
-    )
-
-    return matches >= 2
-
 
 # =========================================================
 # KATEGORISASI: REGEX KATA/FRASA UTUH
@@ -783,7 +711,6 @@ def categorize(title, description, categories):
 # PENGAMBILAN BERITA RSS
 # =========================================================
 
-
 def fetch_source(source, categories):
     result = {
         "name": source.get("name", "Unknown"),
@@ -811,11 +738,7 @@ def fetch_source(source, categories):
         )
         response.raise_for_status()
 
-        feed = parse_rss_safely(
-            response.content,
-            response.encoding
-        )
-
+        feed = parse_rss_safely(response.content, response.encoding)
         entries = feed.entries
         result["raw"] = len(entries)
 
@@ -827,49 +750,20 @@ def fetch_source(source, categories):
             )
 
         result["status"] = "success"
-        source_language = str(
-            source.get("language", "id")
-        ).lower().strip()
+        source_language = str(source.get("language", "id")).lower().strip()
 
         for entry in entries:
-            original_title = clean_text(
-                entry.get("title", "")
-            )
-
+            original_title = clean_text(entry.get("title", ""))
             original_description = clean_text(
-                entry.get("summary", "")
-                or entry.get("description", "")
+                entry.get("summary", "") or entry.get("description", "")
             )
-
-            url = normalize_url(
-                entry.get("link", "")
-            )
+            url = normalize_url(entry.get("link", ""))
 
             if not original_title or not url:
                 result["filtered"] += 1
                 continue
 
-            # =========================================
-            # FILTER BERITA SEPAK BOLA
-            # =========================================
-
-            if is_football_news(
-                original_title,
-                original_description
-            ):
-                result["filtered"] += 1
-
-                logging.info(
-                    "DIBUANG (SEPAK BOLA): %s",
-                    original_title[:150]
-                )
-
-                continue
-
-            # =========================================
-            # TERJEMAHKAN BERITA
-            # =========================================
-
+            # PENTING: terjemahkan terlebih dahulu, baru kategorisasi.
             translation = translate_article(
                 original_title,
                 original_description,
@@ -880,48 +774,21 @@ def fetch_source(source, categories):
             description = translation["description"]
 
             status = translation["translationStatus"]
-
             if status == "success":
                 result["translated"] += 1
-
             elif status == "partial":
                 result["translationPartial"] += 1
-
             elif status == "failed":
                 result["translationFailed"] += 1
 
-            # =========================================
-            # KATEGORISASI BERITA
-            # =========================================
-
-            category, tags = categorize(
-                title,
-                description,
-                categories
-            )
-
+            category, tags = categorize(title, description, categories)
             if not category:
                 result["filtered"] += 1
                 continue
 
-            # =========================================
-            # AMBIL GAMBAR DAN INFORMASI SUMBER
-            # =========================================
-
             image_url = extract_image(entry, url)
-
-            source_name = source.get(
-                "name", "Unknown"
-            )
-
-            source_country = source.get(
-                "country",
-                source.get("sourceCountry", "")
-            )
-
-            # =========================================
-            # SUSUN DATA ARTIKEL
-            # =========================================
+            source_name = source.get("name", "Unknown")
+            source_country = source.get("country", source.get("sourceCountry", ""))
 
             article = {
                 "id": generate_id(url),
@@ -947,22 +814,14 @@ def fetch_source(source, categories):
 
             articles.append(article)
 
-        # =============================================
-        # HASIL AKHIR PENGAMBILAN RSS
-        # =============================================
-
         result["accepted"] = len(articles)
 
         logging.info(
             "%s | RSS: %d | Lolos: %d | Disaring: %d | "
             "Terjemahan sukses: %d | Sebagian: %d | Gagal: %d",
-            result["name"],
-            result["raw"],
-            result["accepted"],
-            result["filtered"],
-            result["translated"],
-            result["translationPartial"],
-            result["translationFailed"]
+            result["name"], result["raw"], result["accepted"],
+            result["filtered"], result["translated"],
+            result["translationPartial"], result["translationFailed"]
         )
 
         return articles, result
@@ -970,15 +829,8 @@ def fetch_source(source, categories):
     except Exception as error:
         result["status"] = "error"
         result["error"] = str(error)
-
-        logging.exception(
-            "Sumber RSS %s gagal: %s",
-            result["name"],
-            error
-        )
-
+        logging.exception("Sumber RSS %s gagal: %s", result["name"], error)
         return [], result
-
 
 
 # =========================================================
