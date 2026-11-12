@@ -706,18 +706,323 @@ def categorize(title, description, categories):
     tags = sorted(matched, key=lambda item: scores[item], reverse=True)
     return best, tags
 
+# =========================================================
+# FILTER KHUSUS SEPAK BOLA
+# =========================================================
+
+# Kata/frasa yang secara langsung menunjukkan berita sepak bola.
+# Pencocokan menggunakan kata/frasa utuh, bukan substring.
+FOOTBALL_DIRECT_KEYWORDS = [
+    # Istilah utama
+    "sepak bola",
+    "football",
+    "soccer",
+    "fifa",
+    "uefa",
+    "fifa world cup",
+    "world cup qualifiers",
+    "kualifikasi piala dunia",
+    "piala dunia sepak bola",
+    "world cup football",
+
+    # Tim nasional
+    "timnas",
+    "timnas indonesia",
+    "timnas malaysia",
+    "timnas arab saudi",
+    "tim nasional sepak bola",
+    "national football team",
+    "national soccer team",
+
+    # Kompetisi internasional
+    "afc asian cup",
+    "piala asia sepak bola",
+    "asian football",
+    "afc champions league",
+    "afc cup",
+    "uefa champions league",
+    "champions league",
+    "europa league",
+    "conference league",
+    "copa america",
+    "copa del rey",
+    "euro 2028",
+    "uefa nations league",
+
+    # Liga sepak bola
+    "premier league",
+    "english premier league",
+    "la liga",
+    "serie a",
+    "bundesliga",
+    "ligue 1",
+    "saudi pro league",
+    "liga arab saudi",
+    "liga inggris",
+    "liga spanyol",
+    "liga italia",
+    "liga jerman",
+    "liga prancis",
+    "liga indonesia",
+    "liga 1 indonesia",
+    "bri liga 1",
+    "liga 2 indonesia",
+
+    # Istilah pertandingan
+    "pertandingan sepak bola",
+    "laga sepak bola",
+    "skor sepak bola",
+    "hasil pertandingan sepak bola",
+    "jadwal sepak bola",
+    "klasemen sepak bola",
+    "transfer pemain sepak bola",
+    "bursa transfer sepak bola",
+
+    # Istilah khusus sepak bola
+    "striker",
+    "center forward",
+    "centre forward",
+    "goalkeeper",
+    "penjaga gawang",
+    "kiper",
+    "bek tengah",
+    "bek sayap",
+    "gelandang",
+    "winger",
+    "penyerang",
+    "penalti",
+    "offside",
+    "hat trick",
+    "clean sheet",
+    "kick off",
+    "kickoff",
+    "extra time",
+    "adu penalti",
+    "tendangan bebas",
+    "tendangan sudut",
+    "kartu merah",
+    "kartu kuning"
+]
+
+
+# Nama klub dan tim yang sering muncul dalam berita sepak bola.
+# Ditambahkan agar berita tentang klub tidak lolos hanya karena
+# judulnya tidak menyebut kata "sepak bola".
+FOOTBALL_TEAM_KEYWORDS = [
+    # Klub internasional
+    "real madrid",
+    "barcelona",
+    "atletico madrid",
+    "manchester united",
+    "manchester city",
+    "liverpool",
+    "arsenal",
+    "chelsea",
+    "tottenham hotspur",
+    "tottenham",
+    "bayern munich",
+    "borussia dortmund",
+    "paris saint germain",
+    "paris saint-germain",
+    "psg",
+    "juventus",
+    "inter milan",
+    "ac milan",
+    "napoli",
+    "ajax",
+    "benfica",
+    "porto",
+    "sporting lisbon",
+
+    # Klub Arab Saudi
+    "al nassr",
+    "al hilal",
+    "al ittihad",
+    "al ahli",
+    "al shabab",
+    "al fateh",
+    "al ettifaq",
+
+    # Klub Indonesia
+    "persib bandung",
+    "persija jakarta",
+    "persebaya surabaya",
+    "psm makassar",
+    "arema fc",
+    "borneo fc",
+    "bali united",
+    "persik kediri",
+    "persis solo",
+    "psis semarang",
+    "madura united",
+    "dewa united"
+]
+
+
+# Kata-kata umum yang baru dianggap sebagai berita sepak bola
+# jika muncul bersama istilah sepak bola atau nama klub.
+FOOTBALL_CONTEXT_KEYWORDS = [
+    "pemain",
+    "pelatih",
+    "klub",
+    "tim",
+    "liga",
+    "pertandingan",
+    "laga",
+    "kompetisi",
+    "transfer",
+    "mencetak gol",
+    "cetak gol",
+    "gol kemenangan",
+    "menang",
+    "kalah",
+    "imbang",
+    "imbang tanpa gol",
+    "skor",
+    "klasemen",
+    "juara",
+    "runner up",
+    "top skor",
+    "pencetak gol",
+    "kapten",
+    "debut",
+    "kartu merah",
+    "kartu kuning",
+    "penalti",
+    "babak pertama",
+    "babak kedua",
+    "semifinal",
+    "final"
+]
+
+
+def contains_complete_keyword(text, keywords):
+    """
+    Memeriksa kata/frasa secara utuh.
+    Contoh:
+    - 'football' cocok dengan 'football match'
+    - 'timnas' cocok dengan 'timnas Indonesia'
+    - 'liga' tidak cocok dengan kata yang hanya mengandung
+      susunan huruf 'liga' di dalamnya.
+    """
+
+    normalized = normalize_text(text)
+
+    if not normalized:
+        return False
+
+    for raw_keyword in keywords:
+        keyword = normalize_text(raw_keyword)
+
+        if not keyword:
+            continue
+
+        pattern = r"(?<!\w)" + re.escape(keyword) + r"(?!\w)"
+
+        if re.search(pattern, normalized, flags=re.UNICODE):
+            return True
+
+    return False
+
+
+def is_football_news(
+    title,
+    description,
+    original_title="",
+    original_description=""
+):
+    """
+    Mengembalikan True jika berita berkaitan dengan sepak bola.
+
+    Pemeriksaan dilakukan terhadap:
+    1. Judul terjemahan.
+    2. Deskripsi terjemahan.
+    3. Judul asli RSS.
+    4. Deskripsi asli RSS.
+
+    Dengan demikian, berita sepak bola tetap bisa ditolak
+    meskipun proses penerjemahan gagal atau tidak sempurna.
+    """
+
+    combined_text = " ".join([
+        str(title or ""),
+        str(description or ""),
+        str(original_title or ""),
+        str(original_description or "")
+    ])
+
+    normalized = normalize_text(combined_text)
+
+    if not normalized:
+        return False
+
+    # Pemeriksaan pertama:
+    # Istilah yang secara langsung menunjukkan sepak bola.
+    if contains_complete_keyword(
+        normalized,
+        FOOTBALL_DIRECT_KEYWORDS
+    ):
+        return True
+
+    # Pemeriksaan kedua:
+    # Nama klub sepak bola.
+    if contains_complete_keyword(
+        normalized,
+        FOOTBALL_TEAM_KEYWORDS
+    ):
+        return True
+
+    # Pemeriksaan ketiga:
+    # Kombinasi istilah umum dan istilah khusus sepak bola.
+    has_football_context = contains_complete_keyword(
+        normalized,
+        FOOTBALL_CONTEXT_KEYWORDS
+    )
+
+    has_football_anchor = contains_complete_keyword(
+        normalized,
+        [
+            "football",
+            "soccer",
+            "sepak bola",
+            "fifa",
+            "uefa",
+            "liga inggris",
+            "liga spanyol",
+            "liga italia",
+            "liga arab saudi",
+            "saudi pro league",
+            "premier league",
+            "la liga",
+            "bundesliga",
+            "serie a",
+            "liga 1 indonesia",
+            "bri liga 1",
+            "afc champions league",
+            "champions league",
+            "timnas",
+            "tim nasional sepak bola"
+        ]
+    )
+
+    if has_football_context and has_football_anchor:
+        return True
+
+    return False
 
 # =========================================================
 # PENGAMBILAN BERITA RSS
 # =========================================================
 
 def fetch_source(source, categories):
+
     result = {
         "name": source.get("name", "Unknown"),
         "status": "error",
         "raw": 0,
         "accepted": 0,
         "filtered": 0,
+        "filteredFootball": 0,
         "translated": 0,
         "translationPartial": 0,
         "translationFailed": 0,
@@ -781,7 +1086,37 @@ def fetch_source(source, categories):
             elif status == "failed":
                 result["translationFailed"] += 1
 
-            category, tags = categorize(title, description, categories)
+            # =====================================================
+            # FILTER SEPAK BOLA
+            # =====================================================
+
+            if is_football_news(
+                title=title,
+                description=description,
+                original_title=translation.get("originalTitle", ""),
+                original_description=translation.get("originalDescription", "")
+            ):
+                result["filtered"] += 1
+                result["filteredFootball"] += 1
+
+                logging.info(
+                    "BERITA SEPAK BOLA DITOLAK: %s",
+                    title[:150]
+                )
+
+                continue
+
+
+            # =====================================================
+            # KATEGORISASI BERITA
+            # =====================================================
+
+            category, tags = categorize(
+                title,
+                description,
+                categories
+            )
+
             if not category:
                 result["filtered"] += 1
                 continue
@@ -818,10 +1153,16 @@ def fetch_source(source, categories):
 
         logging.info(
             "%s | RSS: %d | Lolos: %d | Disaring: %d | "
+            "Sepak bola ditolak: %d | "
             "Terjemahan sukses: %d | Sebagian: %d | Gagal: %d",
-            result["name"], result["raw"], result["accepted"],
-            result["filtered"], result["translated"],
-            result["translationPartial"], result["translationFailed"]
+            result["name"],
+            result["raw"],
+            result["accepted"],
+            result["filtered"],
+            result["filteredFootball"],
+            result["translated"],
+            result["translationPartial"],
+            result["translationFailed"]
         )
 
         return articles, result
