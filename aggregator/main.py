@@ -783,6 +783,7 @@ def categorize(title, description, categories):
 # PENGAMBILAN BERITA RSS
 # =========================================================
 
+
 def fetch_source(source, categories):
     result = {
         "name": source.get("name", "Unknown"),
@@ -810,7 +811,11 @@ def fetch_source(source, categories):
         )
         response.raise_for_status()
 
-        feed = parse_rss_safely(response.content, response.encoding)
+        feed = parse_rss_safely(
+            response.content,
+            response.encoding
+        )
+
         entries = feed.entries
         result["raw"] = len(entries)
 
@@ -822,20 +827,49 @@ def fetch_source(source, categories):
             )
 
         result["status"] = "success"
-        source_language = str(source.get("language", "id")).lower().strip()
+        source_language = str(
+            source.get("language", "id")
+        ).lower().strip()
 
         for entry in entries:
-            original_title = clean_text(entry.get("title", ""))
-            original_description = clean_text(
-                entry.get("summary", "") or entry.get("description", "")
+            original_title = clean_text(
+                entry.get("title", "")
             )
-            url = normalize_url(entry.get("link", ""))
+
+            original_description = clean_text(
+                entry.get("summary", "")
+                or entry.get("description", "")
+            )
+
+            url = normalize_url(
+                entry.get("link", "")
+            )
 
             if not original_title or not url:
                 result["filtered"] += 1
                 continue
 
-            # PENTING: terjemahkan terlebih dahulu, baru kategorisasi.
+            # =========================================
+            # FILTER BERITA SEPAK BOLA
+            # =========================================
+
+            if is_football_news(
+                original_title,
+                original_description
+            ):
+                result["filtered"] += 1
+
+                logging.info(
+                    "DIBUANG (SEPAK BOLA): %s",
+                    original_title[:150]
+                )
+
+                continue
+
+            # =========================================
+            # TERJEMAHKAN BERITA
+            # =========================================
+
             translation = translate_article(
                 original_title,
                 original_description,
@@ -846,21 +880,48 @@ def fetch_source(source, categories):
             description = translation["description"]
 
             status = translation["translationStatus"]
+
             if status == "success":
                 result["translated"] += 1
+
             elif status == "partial":
                 result["translationPartial"] += 1
+
             elif status == "failed":
                 result["translationFailed"] += 1
 
-            category, tags = categorize(title, description, categories)
+            # =========================================
+            # KATEGORISASI BERITA
+            # =========================================
+
+            category, tags = categorize(
+                title,
+                description,
+                categories
+            )
+
             if not category:
                 result["filtered"] += 1
                 continue
 
+            # =========================================
+            # AMBIL GAMBAR DAN INFORMASI SUMBER
+            # =========================================
+
             image_url = extract_image(entry, url)
-            source_name = source.get("name", "Unknown")
-            source_country = source.get("country", source.get("sourceCountry", ""))
+
+            source_name = source.get(
+                "name", "Unknown"
+            )
+
+            source_country = source.get(
+                "country",
+                source.get("sourceCountry", "")
+            )
+
+            # =========================================
+            # SUSUN DATA ARTIKEL
+            # =========================================
 
             article = {
                 "id": generate_id(url),
@@ -886,14 +947,22 @@ def fetch_source(source, categories):
 
             articles.append(article)
 
+        # =============================================
+        # HASIL AKHIR PENGAMBILAN RSS
+        # =============================================
+
         result["accepted"] = len(articles)
 
         logging.info(
             "%s | RSS: %d | Lolos: %d | Disaring: %d | "
             "Terjemahan sukses: %d | Sebagian: %d | Gagal: %d",
-            result["name"], result["raw"], result["accepted"],
-            result["filtered"], result["translated"],
-            result["translationPartial"], result["translationFailed"]
+            result["name"],
+            result["raw"],
+            result["accepted"],
+            result["filtered"],
+            result["translated"],
+            result["translationPartial"],
+            result["translationFailed"]
         )
 
         return articles, result
@@ -901,8 +970,15 @@ def fetch_source(source, categories):
     except Exception as error:
         result["status"] = "error"
         result["error"] = str(error)
-        logging.exception("Sumber RSS %s gagal: %s", result["name"], error)
+
+        logging.exception(
+            "Sumber RSS %s gagal: %s",
+            result["name"],
+            error
+        )
+
         return [], result
+
 
 
 # =========================================================
