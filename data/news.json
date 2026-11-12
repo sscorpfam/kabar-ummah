@@ -1,11 +1,11 @@
 {
-  "status": "partial",
-  "lastUpdated": "2026-11-12T09:11:03.422187+00:00",
-  "total": 231,
-  "newArticles": 104,
+  "status": "success",
+  "lastUpdated": "2026-11-12T13:44:20.471038+00:00",
+  "total": 270,
+  "newArticles": 113,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 11,
-  "sourcesFailed": 1,
+  "sourcesSucceeded": 12,
+  "sourcesFailed": 0,
   "sourceStats": [
     {
       "name": "Al Jazeera",
@@ -13,7 +13,7 @@
       "raw": 25,
       "accepted": 0,
       "filtered": 25,
-      "filteredFootball": 0,
+      "filteredFootball": 3,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 32,
+      "raw": 29,
       "accepted": 1,
-      "filtered": 31,
-      "filteredFootball": 3,
-      "translated": 32,
+      "filtered": 28,
+      "filteredFootball": 2,
+      "translated": 29,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -35,8 +35,8 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 10,
-      "filtered": 5,
+      "accepted": 8,
+      "filtered": 7,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -47,8 +47,8 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 3,
-      "filtered": 47,
+      "accepted": 0,
+      "filtered": 50,
       "filteredFootball": 1,
       "translated": 0,
       "translationPartial": 0,
@@ -83,8 +83,8 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 11,
-      "filtered": 9,
+      "accepted": 13,
+      "filtered": 7,
       "filteredFootball": 1,
       "translated": 20,
       "translationPartial": 0,
@@ -93,22 +93,22 @@
     },
     {
       "name": "Detik",
-      "status": "error",
-      "raw": 0,
-      "accepted": 0,
-      "filtered": 0,
+      "status": "success",
+      "raw": 100,
+      "accepted": 2,
+      "filtered": 98,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
+      "error": null
     },
     {
       "name": "Muhammadiyah",
       "status": "success",
       "raw": 10,
-      "accepted": 3,
-      "filtered": 7,
+      "accepted": 4,
+      "filtered": 6,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -118,9 +118,9 @@
     {
       "name": "NU Online",
       "status": "success",
-      "raw": 49,
-      "accepted": 5,
-      "filtered": 44,
+      "raw": 50,
+      "accepted": 4,
+      "filtered": 46,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -131,9 +131,9 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 18,
-      "filtered": 32,
-      "filteredFootball": 8,
+      "accepted": 28,
+      "filtered": 22,
+      "filteredFootball": 6,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -156,16 +156,979 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 131,
+    "translatedArticles": 143,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 776
+    "cacheEntries": 860
   },
   "images": {
-    "found": 231,
+    "found": 270,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "22b387a7b728843b",
+      "title": "Irlandia: Watchdog dituduh mengulur probe ke Microsoft hosting aplikasi militer Israel",
+      "description": "Irlandia: Watchdog menuding probe ke Microsoft hosting aplikasi militer Israel Diserahkan oleh Areeb Ullah pada Thu, 11 / 12 / 2026 - 11: 10 pemantau data yang dikritik atas keluhan bahwa pusat data Microsoft di kampus Microsoft pada bulan November (EKO / 2026) Pengatur undang-undang Irlandia mengkritisi bahwa pusat data Irlandia mengirimkan alat untuk melacak orang Irlandia atas kekhawatiran bahwa Microsoft pusat data kampus di luar kampus Dublin (EKO / Bryan Meade) Tahun lalu, kelompok hak cipta EKO dan Pusat Kebebasan Sipil (ICCL) mengajukan keluhan kepada Komisi Perlindungan Data Irlandia (DPC), membangkitkan perhatian bahwa Pusat Data Microsoft Grange Castle adalah host aplikasi Almunasseq, digunakan oleh tentara Israel untuk memantau warga Palestina. DPC masih belum memberikan respon definitif kepada kelompok hak atas status keluhan. Sinead Gibney, yang melayani di Dail Eireann, parlemen Irlandia apos; s rumah bawah, mengatakan Microsoft apos; s pusat data Irlandia adalah \"memicu kejahatan apartheid terhadap Palestina\" di West Bank dan Gaza. \"Microsoft harus bertanggung jawab dan saya akan mendorong Departemen Enterprise untuk menyelidiki sepenuhnya masalah ini dalam terang-terangan kekayaan PBB laporan rinci sistem apartheid\", katanya Mata Timur Tengah. \"Saya menyerukan Microsoft untuk menjelaskan mengapa pemerintah Israel menyediakan alat dan teknologi untuk mempertahankan sistem apartheid - sebuah sistem di mana jutaan Palestina ditolak hak asasi manusia\". Keluhan tersebut disampaikan atas nama penduduk Palestina di Gaza dan Tepi Barat, serta warga Uni Eropa, berdasarkan bukti yang disediakan oleh peniup peluit. Bukti yang dilihat oleh MEE dan dikumpulkan oleh EKO dan ICCL menunjukkan bahwa Israel menggunakan platform komputer Microsoft 's Azure Cloud komputer untuk host elemen dari aplikasi Almunasseq. Menurut pengaduan, Microsoft menyediakan \"mendasari\" dan \"infrastruktur komputer esensial\" diperlukan agar aplikasi berfungsi, termasuk penyimpanan awan, la",
+      "originalTitle": "Ireland: Watchdog accused of stalling probe into Microsoft hosting Israeli military app",
+      "originalDescription": "Ireland: Watchdog accused of stalling probe into Microsoft hosting Israeli military app Submitted by Areeb Ullah on Thu, 11/12/2026 - 11:10 Data monitor criticised over complaints that Ireland's Microsoft data centres host a tool to track Palestinians A protest at a Microsoft data centre campus in West Dublin in November (EKO/Bryan Meade) Off Irish lawmakers are calling for an investigation into Ireland 's data regulator over concerns that Microsoft's data centre campus outside Dublin hosts an app used by Israel to control the movements of Palestinians in the West Bank and Gaza. Last year, rights groups EKO and the Irish Centre for Civil Liberties (ICCL) filed a complaint with Ireland’s Data Protection Commission (DPC), raising concerns that Microsoft’s Grange Castle data centre was hosting elements of the Almunasseq app , used by the Israeli army to monitor Palestinians. The DPC has still not given a definitive response to the rights groups over the status of the complaint. Sinead Gibney, who serves in the Dail Eireann, the Irish parliament's lower house, said Microsoft's Irish data centres are \"fuelling the crime of apartheid against Palestinians\" in the West Bank and Gaza. “Microsoft must be held accountable and I’ll be pushing for the Department of Enterprise to fully investigate this matter in light of the wealth of UN reports detailing the apartheid system,\" she told Middle East Eye. \"I'm calling on Microsoft to explain why it’s providing the Israeli government with the tools and technologies to sustain its system of apartheid – a system under which millions of Palestinians are being denied basic human rights.\" The complaint was submitted on behalf of a Palestinian resident of Gaza and the West Bank, as well as a European Union citizen, based on evidence provided by a whistleblower. Evidence seen by MEE and gathered by EKO and the ICCL showed that Israel used Microsoft’s Azure cloud computing platform to host elements of the Almunasseq app. According to the co",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/ireland-data-centre-action-microsoft-eko-november-2026.jpg.jpg?itok=77SU40I6",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T13:27:15+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/ireland-data-watchdog-accused-stalling-probe-microsofts-hosting-israeli-military-app"
+    },
+    {
+      "id": "c224416c653e0bee",
+      "title": "Pakar: Sistem logistik Saudi atasi krisis tanpa kekurangan barang",
+      "description": "Pakar transportasi dan infrastruktur Mustafa Al-Hakim menegaskan Arab Saudi berhasil mengatasi tantangan rantai pasok tanpa membuat warga merasakan kekurangan barang.",
+      "originalTitle": "Pakar: Sistem logistik Saudi atasi krisis tanpa kekurangan barang",
+      "originalDescription": "Pakar transportasi dan infrastruktur Mustafa Al-Hakim menegaskan Arab Saudi berhasil mengatasi tantangan rantai pasok tanpa membuat warga merasakan kekurangan barang.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Screenshot2026-11-12151009-crop-F73cAVaQ.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T13:23:06+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/0anl7v5q7"
+    },
+    {
+      "id": "df0357b3ab175926",
+      "title": "Hukuman Mati terhadap Warga yang Bunuh Orang Lain di Madinah",
+      "description": "Kementerian Dalam Negeri Arab Saudi mengeksekusi Abdulrahman Al-Rajabi di Madinah pada 12 November 2026 setelah terbukti membunuh Mohammed Al-Alouni.",
+      "originalTitle": "Hukuman Mati terhadap Warga yang Bunuh Orang Lain di Madinah",
+      "originalDescription": "Kementerian Dalam Negeri Arab Saudi mengeksekusi Abdulrahman Al-Rajabi di Madinah pada 12 November 2026 setelah terbukti membunuh Mohammed Al-Alouni.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-10/وزارة-الداخلية-TA9spHMa.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T13:18:24+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/kppe4bqdj"
+    },
+    {
+      "id": "b5eb56a216c45326",
+      "title": "Israel menyerang al- Shifa Rumah Sakit membunuh satu setelah enam tewas dalam serangan Nasser",
+      "description": "Israel menyerang Al- Shifa Hospital membunuh satu setelah enam tewas dalam serangan Nasser sebuah serangan Israel menargetkan Rumah Sakit Gaza-Shifa kota telah membunuh setidaknya satu Palestina dekat gerbang fasilitas, laporan Wafa. Serangan itu datang tak lama setelah sebuah rudal Israel menghancurkan rumah sakit South Gaza, membunuh enam orang, termasuk ahli bedah dan pasien. Wafa juga melaporkan, mengutip sumber-sumber lokal, bahwa pesawat Israel menyerang sekelompok orang Palestina di selatan Khan Younis, sementara yang lain dipecat menuju perahu nelayan di lepas pantai Gaza City juga kamp pengungsi Shati. Menurut laporan, sumber medis mengatakan bahwa total sembilan orang Palestina telah dibunuh oleh api Israel sejak fajar.",
+      "originalTitle": "Israeli strike on al-Shifa Hospital kills one after six killed in Nasser attack",
+      "originalDescription": "Israeli strike on al-Shifa Hospital kills one after six killed in Nasser attack An Israeli strike targeting Gaza City's al-Shifa Hospital has killed at least one Palestinian near the facility's gate, Wafa reports. The attack comes shortly after an Israeli missile tore through southern Gaza's Nasser Hospital, killing six people, including surgeons and patients. Wafa also reports, citing local sources, that an Israeli drone struck a group of Palestinians in south Khan Younis, while another was fired towards fishing boats off the coast of Gaza City's al-Shati refugee camp. According to the report, medical sources say that a total of nine Palestinians have been killed by Israeli fire since dawn.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Untitled_1.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T13:10:47+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-attack-al-shifa-hospital-kills-one-after-six-killed-nasser"
+    },
+    {
+      "id": "b54c5470fd192662",
+      "title": "Konferensi Haji menarik lebih dari 200.000 pengunjung, segel 2.553 perjanjian",
+      "description": "JEDDAH - Konferensi Haji dan Pameran keenam menyimpulkan di Jeddah Superdome pada hari Rabu setelah empat hari kegiatan, mengumpulkan lebih dari 520 entitas dari pemerintah, swasta, dan sektor nirlaba, dengan partisipasi dari lebih dari 150 negara. Acara ini diadakan di bawah perlindungan dari Penjaga Dua Masjid Suci Raja Salman, diselenggarakan oleh Kementerian Haji dan Umrah bekerjasama dengan Program Pengalaman Pilgrim, salah satu dari Saudi Vision 2030 program di Superdome Jeddah. Konferensi dan pameran, di bawah tema \"Dari Mekah ke Dunia\", menarik lebih dari 200.000 pengunjung dan melihat penandatanganan 2.553 perjanjian. * * media [2793647] * * Konferensi ini ditandai tonggak kunci dalam persiapan awal untuk musim haji 2027. Ini mengumpulkan kantor-kantor urusan haji, penyedia layanan, pemerintah, pribadi dan nirlaba, pembuat keputusan, wirausahawan, dan inovator untuk menyelesaikan persiapan dan kontrak, mendiskusikan kebutuhan operasional dan organisasi, dan solusi sekarang dan inisiatif meliputi berbagai tahap perjalanan ziarah. Program ilmiah konferensi ini menampilkan 45 diskusi panel dengan lebih dari 460 pembicara, bersama 71 bengkel khusus yang dihadiri oleh 3.500 trainees. Sesi dan lokakarya meliputi tiga area utama: infrastruktur dan layanan operasional; pemberdayaan dan sinergi; dan pelatihan dan pengembangan. Topik terkait termasuk transportasi, logistik, akomodasi, keramahan, katering, kesehatan, media dan komunikasi, teknologi, inovasi, pengusaha, pelatihan, dan cara untuk memperkaya pengalaman ziarah. * * Media [2793646] * Haji Talk adalah salah satu platform dialog konferensi, hosting 47 sesi tentang isu operasional dan pengembangan terkait dengan sistem layanan haji. Diskusi ditujukan kebutuhan penyedia layanan dan kantor haji, serta cara untuk mengembangkan layanan dan meningkatkan pengalaman ziarah. Mereka juga memberikan kesempatan untuk meningkatkan tantangan dan mendiskusikan solusi dan proposal yang berkaitan dengan persiapan untuk musim",
+      "originalTitle": "Hajj Conference draws over 200,000 visitors, seals 2,553 agreements",
+      "originalDescription": "JEDDAH — The sixth Hajj Conference and Exhibition concluded at Jeddah Superdome on Wednesday after four days of activities, bringing together more than 520 entities from the government, private, and nonprofit sectors, with participation from more than 150 countries. The event, held under the patronage of Custodian of the Two Holy Mosques King Salman, was organized by the Ministry of Hajj and Umrah in cooperation with the Pilgrim Experience Program, one of the Saudi Vision 2030 programs at the Jeddah Superdome. The conference and exhibition, under the theme “From Makkah to the World,” attracted more than 200,000 visitors and saw the signing of 2,553 agreements. **media[2793647]** The conference marked a key milestone in early preparations for the 2027 Hajj season. It brought together Hajj affairs offices, service providers, government, private and nonprofit entities, decision-makers, entrepreneurs, and innovators to complete preparations and contracts, discuss operational and organizational needs, and present solutions and initiatives covering the various stages of the pilgrim journey. The conference’s scientific program featured 45 panel discussions with more than 460 speakers, alongside 71 specialized workshops attended by 3,500 trainees. The sessions and workshops covered three main areas: infrastructure and operational services; empowerment and synergy; and training and development. Related topics included transportation, logistics, accommodation, hospitality, catering, healthcare, media and communications, technology, innovation, entrepreneurship, training, and ways to enrich the pilgrim experience. **media[2793646]** The Hajj Talk was one of the conference’s dialogue platforms, hosting 47 sessions on operational and development issues related to the Hajj services system. Discussions addressed the needs of service providers and Hajj affairs offices, as well as ways to develop services and improve the pilgrim experience. They also provided an opportunity to raise",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/12/2793645.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi",
+        "Haji dan Umrah",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T13:02:51+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666201/saudi-arabia/hajj-conference-draws-over-200000-visitors-seals-2553-agreements"
+    },
+    {
+      "id": "9a4a5688d78c3e24",
+      "title": "Pimpinan Ormas Islam dan MUI Gelar Pertemuan",
+      "description": "Pimpinan Ormas Islam dan MUI bertemu untuk membahas penguatan persatuan umat, penegakan hukum, dan kedaulatan ekonomi nasional.",
+      "originalTitle": "Pimpinan Ormas Islam dan MUI Gelar Pertemuan",
+      "originalDescription": "Pimpinan Ormas Islam dan MUI bertemu untuk membahas penguatan persatuan umat, penegakan hukum, dan kedaulatan ekonomi nasional.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/12/pimpinan-ormas-islam-dan-mui-gelar-pertemuan-1794488099601_169.jpeg?w=360&q=90",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam"
+      ],
+      "source": "Detik",
+      "sources": [
+        "Detik"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-12T12:57:03+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8750521/pimpinan-ormas-islam-dan-mui-gelar-pertemuan"
+    },
+    {
+      "id": "7d7a6a1946bbc5db",
+      "title": "Program Sami Perkuat Kerja Sama Industri Saudi-Turki Lewat Hari Rukun Pemasok",
+      "description": "Perusahaan Industri Militer Saudi menutup Hari Rukun Pemasok di Istanbul, melibatkan lebih dari 100 perusahaan Saudi dan Turki untuk memperkuat kerja sama industri.",
+      "originalTitle": "Program Sami Perkuat Kerja Sama Industri Saudi-Turki Lewat Hari Rukun Pemasok",
+      "originalDescription": "Perusahaan Industri Militer Saudi menutup Hari Rukun Pemasok di Istanbul, melibatkan lebih dari 100 perusahaan Saudi dan Turki untuk memperkuat kerja sama industri.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-Bf1oY4XF.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T12:55:38+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/ekonomi/4favhssi5"
+    },
+    {
+      "id": "65b1624714f46a1c",
+      "title": "Arab Saudi Hadiri Forum Internasional Antikorupsi Kedua di Tajikistan",
+      "description": "Arab Saudi berpartisipasi dalam Forum Internasional Antikorupsi Kedua di Tajikistan dan memaparkan upaya serta kerja sama globalnya dalam pemberantasan korupsi.",
+      "originalTitle": "Arab Saudi Hadiri Forum Internasional Antikorupsi Kedua di Tajikistan",
+      "originalDescription": "Arab Saudi berpartisipasi dalam Forum Internasional Antikorupsi Kedua di Tajikistan dan memaparkan upaya serta kerja sama globalnya dalam pemberantasan korupsi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-OQA8Tso5.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T12:54:44+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/sj7956egu"
+    },
+    {
+      "id": "3419cfb9121380de",
+      "title": "Lebih dari 50 anggota parlemen Inggris menuntut sanksi segar pada Israel atas bantuan Gaza halangan",
+      "description": "Lebih dari 50 anggota parlemen Inggris menuntut sanksi segar pada Israel atas bantuan Gaza yang diberikan oleh Imran Mulla pada Thu, 11 / 12 / 2026 - 12: 01 Saat badai memukul Gaza, 150.000 tenda dalam bantuan lorries tetap terjebak di luar truk bantuan kemanusiaan Palestina di perbatasan Rafah menyeberang dengan Jalur Gaza pada 4 Februari 2026 (AFP) Off Lebih dari 50 anggota parlemen Inggris mendukung gerakan parlemen memanggil pemerintah mereka untuk mengambil \"tindakan mendesak\" untuk mendapatkan bantuan ke Gaza dan menuntut sanksi segar di Israel. Mosi, yang ditaburi pada Selasa malam oleh Buruh MP Richard Burgon, mencatat \"laporan PBB bahwa puluhan ribu keluarga yang telah dipindahkan mengalami kerusakan pada penampungan mereka\" di Gaza. Dikatakan bahwa hal ini telah \"menjadi jauh lebih buruk oleh kehancuran rumah-rumah yang meluas oleh Israel, sistem drainase dan infrastruktur penting lainnya yang telah meninggalkan kebanyakan warga Palestina di Gaza.\" Mosi lebih lanjut mengutuk \"Pembatasan yang sedang berlangsung di Israel tentang masuknya bantuan kemanusiaan, termasuk bahan-bahan yang diperlukan untuk menyediakan tempat penampungan, menanggapi banjir, dan rekonstruksi bantuan\", serta \"pembatasan untuk membawa persediaan kemanusiaan dan staf internasional ke Gaza\". Sekitar 65 persen penduduk Gaza, sekitar 1,4 juta orang, tinggal di tenda atau penampungan darurat, menurut Kantor PBB untuk koordinasi Urusan Kemanusiaan (Ocha). Dalam minggu terakhir, hujan deras dan badai mematikan telah banjir atau menghancurkan puluhan ribu tenda ini. Israel terus melarang kelompok bantuan untuk membawa persediaan dan staf internasional ke wilayah itu. Dewan Pengungsi Norwegia melaporkan bulan lalu bahwa otoritas Israel mengizinkan hanya 15 truk membawa dual- menggunakan item ke Gaza dari Yordania seminggu sekali. Ramez Alakbarov, koordinator kemanusiaan PBB untuk wilayah Palestina yang diduduki, mengatakan minggu ini bahwa 150.000 tenda dalam bantuan lorries terjebak di luar ",
+      "originalTitle": "More than 50 British MPs demand fresh sanctions on Israel over Gaza aid obstruction",
+      "originalDescription": "More than 50 British MPs demand fresh sanctions on Israel over Gaza aid obstruction Submitted by Imran Mulla on Thu, 11/12/2026 - 12:01 As storms batter Gaza, 150,000 tents in aid lorries remain stuck outside the Palestinian enclave Humanitarian aid trucks at the Rafah border crossing with the Gaza Strip on 4 February 2026 (AFP) Off More than 50 British MPs are supporting a parliamentary motion calling on their government to take \"urgent action\" on getting aid into Gaza and demanding fresh sanctions on Israel . The motion, which was tabled on Tuesday night by Labour MP Richard Burgon, notes \"UN reports that tens of thousands of already displaced families have suffered damage to their shelters\" in Gaza . It says this has \"been made far worse by Israel's widespread destruction of homes, drainage systems and other essential infrastructure that have left most Palestinians in Gaza displaced\". The motion further condemns \"Israel's ongoing restrictions on the entry of humanitarian aid, including materials needed to provide shelter, respond to flooding, and aid reconstruction\", as well as its \"restrictions on bringing humanitarian supplies and international staff into Gaza\". Some 65 percent of Gaza’s population, about 1.4 million people, live in tents or makeshift shelters, according to the UN Office for the Coordination of Humanitarian Affairs (Ocha). In the last week, torrential rainfall and deadly storms have flooded or destroyed tens of thousands of these tents. Israel continues to bar aid groups from bringing supplies and international staff into the territory. The Norwegian Refugee Council reported last month that Israeli authorities were allowing just 15 trucks carrying dual-use items into Gaza from Jordan once a week. Ramiz Alakbarov, the UN’s humanitarian coordinator for the occupied Palestinian territory, said this week that 150,000 tents in aid lorries were stuck outside Gaza, while stocks of essential shelter and winter items inside the enclave were exhausted. T",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Gaza%20aid%20AFP.jpg.jpg?itok=5fvNvSI4",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T12:50:27+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/more-50-british-mps-demand-fresh-sanctions-israel-over-gaza-aid-obstruction"
+    },
+    {
+      "id": "4d4ae7aa0f475d4a",
+      "title": "Pengangkatan mantan petugas Mossad menyoroti hubungan militer Tel Aviv",
+      "description": "Mantan perwira Mossad menyoroti hubungan militer Tel Aviv yang diturunkan oleh Nayav Rapaport pada Thu, 11 / 12 / 2026 - 11: 44 Perusahaan senjata Israel dan AS melihat patung kuda cyber yang dibuat dari komputer yang didaur ulang di luar kampus Universitas Tel Aviv, Israel 5 Juni 2023 (Reuters / Amir) dari mantan perwira Mossad sebagai presiden Universitas Tel Aviv untuk hubungan industri dan kapal wiraswasta telah dilihat sebagai tanda lain dari hubungan dekat dengan Israel, yang dilaporkan pada Selasa. Menurut laporan, Universitas (TAU) mengumumkan bulan lalu bahwa Hagai Itkin, mantan petugas badan intelijen asing Israel, telah ditunjuk untuk peran berdasarkan pengalaman sebelumnya, termasuk \"posisi senior dalam pembentukan pertahanan.\" Universitas menambahkan bahwa Itkin telah memegang posisi di kampus selama beberapa tahun sebelum pertemuannya, membangun \"koneksi dan link dengan industri teknologi tinggi\". Itkin pensiun dari Mossad pada tahun 2020 setelah hampir 20 tahun layanan. Pada tahun 2022, ia mengatakan kepada Israel Channel 12 News bahwa ia telah bekerja di badan departemen teknologi dalam tahun-tahun menjelang pensiun. \"Negara Israel memiliki semua kemampuan yang diperlukan untuk melaksanakan target pembunuhan\", kata Itkin ketika ditanya tentang dugaan pembunuhan Israel ilmuwan Iran. Dia menambahkan bahwa Israel melaksanakan pembunuhan \"sementara memberikan pertimbangan maksimum untuk jaminan kerusakan dan orang yang tidak bersalah\". Hubungan militer sementara, TAU akan mengadakan konferensi \"DefenseTech Week\" bulan depan selama dua tahun berturut-turut, semakin kuat hubungan dengan pertahanan, menurut Panggilan Lokal. Universitas menggambarkan acara Desember sebagai \"pertemuan perdana bagi para ahli dalam teknologi pertahanan,\" showcasing \"solusi tepi Israel yang menangani tantangan keamanan global\". Website konferensi mengatakan Israel secara idealnya menjadi tuan rumah pada acara tersebut karena \"di garis depan pengembangan teknologi pertahanan\". In",
+      "originalTitle": "Former Mossad officer’s appointment highlights Tel Aviv University’s military ties",
+      "originalDescription": "Former Mossad officer’s appointment highlights Tel Aviv University’s military ties Submitted by Nadav Rapaport on Thu, 11/12/2026 - 11:44 University appoints ex-intelligence official to senior role as it prepares to host a defence technology conference sponsored by major Israeli and US arms companies A view of the cyber horse sculpture made of recycled computers outside Tel Aviv University campus, Israel 5 June 2023 (Reuters/Amir Cohen) Off A former senior Mossad officer’s appointment as Tel Aviv University’s vice-president for industry relations and entrepreneurship has been seen as another sign of the university’s close ties to Israel ’s defence establishment, Local Call reported on Tuesday. According to the report, the university (TAU) announced last month that Hagai Itkin, a former officer in Israel’s foreign intelligence agency, had been appointed to the role based on his previous experience, including “senior positions in the defence establishment”. The university added that Itkin had held positions on campus for several years before his appointment, building “connections and links with the high-tech industry”. Itkin retired from the Mossad in 2020 after nearly 20 years of service. In 2022, he told Israel’s Channel 12 News that he had worked in the agency’s technology department in the years leading up to his retirement. “The State of Israel has all the capabilities required to carry out targeted assassinations,” Itkin said when asked about alleged Israeli assassinations of Iranian scientists. He added that Israel carries out assassinations “while giving maximum consideration to collateral damage and to innocent people”. Universities' military ties Meanwhile, TAU will host the “DefenseTech Week” conference next month for the second consecutive year, further strengthening its links with the defence establishment, according to Local Call. The university described the December event as “a premier gathering for experts in defence technology”, showcasing “Israel’s ",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/2023-06-05T095914Z_836425116_RC2XC1AW6HIE_RTRMADP_3_TECH-AI-ISRAEL%20%281%29.jpg.jpg?itok=cpwwTxNA",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T12:44:13+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/former-mossad-officers-appointment-highlights-tel-aviv-universitys-defence-industry-ties"
+    },
+    {
+      "id": "275071a156f7f23b",
+      "title": "Kami kehilangan pasien saya telah merawat ': Perawat Nasser berbicara tentang serangan' menakutkan '",
+      "description": "Kami kehilangan pasien saya telah merawat ': Perawat Nasser berbicara tentang serangan' menakutkan 'Seorang perawat yang bekerja shift malam di departemen bedah Nasser Hospital ketika ditargetkan oleh serangan udara Israel telah mengatakan bahwa sejumlah pasien mereka merawat tewas dalam serangan itu. Dalam kesaksian yang dibagikan oleh LSM Medical Aid untuk Palestina (MAP), Muhammad Salman menggambarkan serangan terhadap rumah sakit, yang merupakan yang terbesar di Gaza Selatan, sebagai \"mengerikan\". \"Saya melihat pasien terjebak di bawah reruntuhan dan rekan-rekan terluka. Kami kehilangan beberapa pasien saya telah merawat, termasuk setidaknya dua,\" katanya. \"Ketakutan terbesar kami adalah untuk pasien. Kami segera mulai mencoba mengevakuasi mereka dan mendapatkan mereka untuk keselamatan, bekerja bersama tim Pertahanan Sipil dan memindahkan mereka kita bisa menyelamatkan ke departemen lain.\" Salman mengatakan seorang rekan, dokter bedah Dr Rizq Abu Shaeria, tewas saat dia memeriksa pasien. \"Beberapa menit kemudian, semuanya berubah, dan kami kehilangan dia. Sangat menyakitkan kehilangan rekan yang hanya melakukan pekerjaannya dan mendedikasikan dirinya untuk merawat pasien\", katanya. Dalam sebuah pernyataan, Kementerian Kesehatan Palestina melaporkan bahwa dua rudal menghantam lantai atas gedung Yassin rumah sakit, yang menampung departemen bedah, sekitar pukul 00: 39 waktu setempat, membunuh enam orang ahli bedah, pasien, dan anak-anak. Ini menambahkan bahwa salah satu rudal gagal meledakkan dan tetap di dalam gedung, berpose ancaman tambahan untuk pasien dan staf medis masih ada. Nasser Hospital adalah salah satu dari beberapa masih bisa memberikan perawatan. Menurut OCHA PBB, hanya 20 dari rumah sakit Strip 37 tetap sebagian fungsional dan tidak ada yang berfungsi penuh. Serangan terakhir adalah ketujuh kalinya pasukan Israel telah menargetkan Nasser Hospital, menurut MAP. Pada bulan Agustus 2025 fasilitasnya diserang oleh serangan dua kali lipat, menewaskan 2",
+      "originalTitle": "'We lost patients I had been caring for': Nasser nurse speaks of 'terrifying' attack",
+      "originalDescription": "'We lost patients I had been caring for': Nasser nurse speaks of 'terrifying' attack A nurse who was working a night shift at Nasser Hospital's surgical department when it was targeted by an Israeli air strike has said that a number of patients they were caring for were killed in the attack. In testimony shared by the NGO Medical Aid for Palestine (MAP), Mohammed Salman described the attack on the hospital, which is the largest in southern Gaza, as \"terrifying\". \"I saw patients trapped under the rubble and colleagues injured. We lost some of the patients I had been caring for, including at least two,\" he said. \"Our greatest fear was for the patients. We immediately started trying to evacuate them and get them to safety, working alongside Civil Defence teams and moving those we could rescue to another department.\" Salman said a colleague, surgeon Dr Rizq Abu Shaeria, was killed as he was checking on a patient. \"A few minutes later, everything changed, and we lost him. It is incredibly painful to lose a colleague who was simply doing his job and dedicating himself to caring for patients,\" he said. In a statement, the Palestinian Ministry of Health reported that two missiles struck the upper floors of the hospital's Yassin building, which houses the surgical department, at around 00:39 local time, killing six – including surgeons, patients and a child. It added that one of the missiles failed to detonate and remains inside the building, posing an additional threat to patients and medical staff still there. Nasser Hospital is one of the few still able to provide care. According to the UN's OCHA, just 20 of the Strip's 37 hospitals remain partially functional and none are fully functional. The latest assault is the seventh time Israeli forces have targeted Nasser Hospital, according to MAP. In August 2025 the facility was hit by a double-tap strike, killing 20 people, including two Middle East Eye journalists . Salman said that this is the second time the surgical depart",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Untitled_1.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T12:43:31+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/we-lost-patients-i-had-been-caring-nasser-nurse-speaks-terrifying-attack"
+    },
+    {
+      "id": "1ba24b8d011fdb1d",
+      "title": "Upaya Penyelundupan 109 Ribu Pil Obat Terlarang Digagalkan di Asir",
+      "description": "Patroli perbatasan Arab Saudi di Asir menggagalkan penyelundupan 109 ribu pil obat terlarang dan 19 kilogram ganja.",
+      "originalTitle": "Upaya Penyelundupan 109 Ribu Pil Obat Terlarang Digagalkan di Asir",
+      "originalDescription": "Patroli perbatasan Arab Saudi di Asir menggagalkan penyelundupan 109 ribu pil obat terlarang dan 19 kilogram ganja.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/تهريب-DEeZkm-8.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T12:41:35+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/hxzx2ulds"
+    },
+    {
+      "id": "2ebb645de8310c98",
+      "title": "Wakil Menteri Haji dan Umrah Beri Penghargaan kepada 6 Perusahaan Pemenang Tawasul di Konferensi Haji",
+      "description": "Wakil Menteri Haji dan Umrah memberikan penghargaan kepada enam perusahaan pemenang Penghargaan Tawasul pada Konferensi dan Pameran Haji di Jeddah untuk meningkatkan edukasi jemaah.",
+      "originalTitle": "Wakil Menteri Haji dan Umrah Beri Penghargaan kepada 6 Perusahaan Pemenang Tawasul di Konferensi Haji",
+      "originalDescription": "Wakil Menteri Haji dan Umrah memberikan penghargaan kepada enam perusahaan pemenang Penghargaan Tawasul pada Konferensi dan Pameran Haji di Jeddah untuk meningkatkan edukasi jemaah.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-icYjUBr9.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah",
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T12:24:59+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/c7je6iyal"
+    },
+    {
+      "id": "23a3e7c486a31ee5",
+      "title": "Otoritas Media Arab Saudi Paparkan Upaya Dukung Peliputan Haji",
+      "description": "Otoritas Umum Regulasi Media memaparkan upayanya mendukung sektor media dan mempermudah peliputan musim haji dalam konferensi dan pameran haji di Jeddah.",
+      "originalTitle": "Otoritas Media Arab Saudi Paparkan Upaya Dukung Peliputan Haji",
+      "originalDescription": "Otoritas Umum Regulasi Media memaparkan upayanya mendukung sektor media dan mempermudah peliputan musim haji dalam konferensi dan pameran haji di Jeddah.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-V5aXaLvp.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi",
+        "Haji dan Umrah"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T12:14:37+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/ieaiyr7iq"
+    },
+    {
+      "id": "ebac96bda34eb9e1",
+      "title": "Yazeed Al Rajhi Bidik Gelar Ketujuh di Reli Jeddah Toyota 2026",
+      "description": "Yazeed Al Rajhi siap memperkuat rekornya di Reli Jeddah Toyota 2026 dengan membidik gelar ketujuh, didampingi navigator Jerman Dennis Zenz, sebagai persiapan menuju Reli Dakar 2027.",
+      "originalTitle": "Yazeed Al Rajhi Bidik Gelar Ketujuh di Reli Jeddah Toyota 2026",
+      "originalDescription": "Yazeed Al Rajhi siap memperkuat rekornya di Reli Jeddah Toyota 2026 dengan membidik gelar ketujuh, didampingi navigator Jerman Dennis Zenz, sebagai persiapan menuju Reli Dakar 2027.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/whatsapp/2026-11/whatsapp-49ea2d15-7dd8-4e09-ada3-a279f9ba40e4-7c7xzD82.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T12:02:46+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/olahraga/ro30t5vl1"
+    },
+    {
+      "id": "3695db240634e076",
+      "title": "Arab Saudi menunda 10 Inisiatif Investasi Masa Depan hingga Oktober 2027",
+      "description": "RIYADH - Edisi ke-10 Inisiatif Investasi Masa Depan (FII10) telah dijadwalkan ulang hingga 25 Oktober 2027, di Riyadh, dari tanggal aslinya dari 26- 29 Oktober 2026, FII Institute diumumkan pada hari Kamis. Diadakan di bawah perlindungan dari Penjaga Dua Masjid Suci Raja Salman bin Abdullah, acara ini akan berlangsung di bawah tema \"The Power of Legacy\", menandai dekade dialog investasi global, kemitraan dan dampak sambil melihat ke depan sampai dekade berikutnya. * * Media [2793600] * FII Institut CEO Dr Maha bint Mishari menggambarkan edisi ke-10 sebagai tonggak makna global, menandai satu dekade untuk mengumpulkan para pemimpin dunia, investor dan pembuat-keputusan. Dia mengatakan keputusan untuk menunda acara sampai Oktober 2027 mencerminkan komitmen lembaga untuk memastikan tingkat tertinggi partisipasi internasional, kehadiran dan dampak. Lembaga ini akan melanjutkan keterlibatan global di depan FII10 melalui Konferensi PRIORITY FII di Miami, dijadwalkan untuk Maret 31- April 2, 2027, dan FII PRIORITY Asia 2027 Summit, yang tanggal dan lokasinya akan diumumkan nanti.",
+      "originalTitle": "Saudi Arabia postpones 10th Future Investment Initiative to October 2027",
+      "originalDescription": "RIYADH — The 10th edition of the Future Investment Initiative (FII10) has been rescheduled to October 25–28, 2027, in Riyadh, from its original dates of October 26–29, 2026, the FII Institute announced on Thursday. Held under the patronage of Custodian of the Two Holy Mosques King Salman bin Abdulaziz, the event will take place under the theme “The Power of Legacy,” marking a decade of global investment dialogue, partnerships and impact while looking ahead to the next decade. **media[2793600]** FII Institute CEO Princess Dr. Maha bint Mishari described the 10th edition as a milestone of global significance, marking a decade of bringing together world leaders, investors and decision-makers. She said the decision to postpone the event until October 2027 reflects the institute’s commitment to ensuring the highest levels of international participation, attendance and impact. The institute will continue its global engagement ahead of FII10 through the FII PRIORITY Summit in Miami, scheduled for March 31–April 2, 2027, and the FII PRIORITY Asia 2027 Summit, whose date and location will be announced later.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/12/2793601.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T11:49:15+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666198/saudi-arabia/saudi-arabia-postpones-10th-future-investment-initiative-to-october-2027"
+    },
+    {
+      "id": "eca6634dbe5c6b81",
+      "title": "Masjid UK menentang setelah amal perlindungan anjing untuk khotbah mengutuk 'Zionis' di atas Gaza",
+      "description": "Penghinaan terhadap masjid Inggris setelah teguran terhadap para pengawas amal untuk mengutuk 'Zionists' di Gaza yang dijatuhkan oleh Imran Mulla pada Thu, 11 / 12 / 2026 - 10: 31 'Solidaritas dengan orang tertindas tidak boleh menjadi alasan untuk sanksi amal', Pusat Islam Lewisham 'kata dalam menanggapi Pusat Islam Lewisham di Thumham, yang digambarkan di selatan-London (Ekstrab) Pusat Islam Lewisham di selatan-timur London mengatakan itu mencari nasihat hukum \"pada tindakan yang paling tepat\" setelah Komisi Amal mengeluarkan peringatan untuk hosting apa yang disebut \"inflamasi, membagi\" khotbah. Imam Shakeel Begg memberikan khotbah pada Oktober 2023, selama pemboman Israel di Gaza, menggambarkan \"penderitaan di tangan penindas dan Zionis\". Dia juga memanggil selebriti Justin Bieber dan Kylie Jenner \"sakit\" untuk dukungan vokal Israel. Pusat Islam mengatakan dalam pernyataan resmi minggu ini: \"Ini adalah tentang lebih dari satu masjid atau satu amal.\" Ini adalah tentang apakah lembaga-lembaga Muslim dapat melepaskan agama dan amal tanggung jawab mereka tanpa dihukum untuk mengekspresikan solidaritas dengan Palestina, melakukan bentuk-bentuk yang didirikan ibadah Islam, atau menyampaikan isu-isu perhatian kepada kongres mereka, termasuk penolakan Zionisme, atau pengungkapan negara Israel untuk kejahatan perang dan genosida. \"Pusat ditambahkan:\" Solidaritas dengan tertindas tidak boleh menjadi alasan untuk sanksi amal. \"Haruskah tindakan hukum dikejar, kami akan mendesak orang lain untuk maju dan bergabung dengan tantangan bersatu untuk komisi sombong dalam pertahanan kebebasan beragama.\" Dalam khotbah lain, pada bulan Agustus 2024, Imam Ashraf Dagous mengklaim para perusuh yang jauh di kanan yang menyerang Muslim dan kaum minoritas etnis dalam gangguan kekerasan musim panas itu bahwa \"manipulator mereka adalah Zionis, dan mereka adalah pendukung negara Israel\". Anti- Muslim pengaruh kampanye menargetkan Inggris ditelusuri kembali ke Israel Baca Lebih \"Anggota pemer",
+      "originalTitle": "UK mosque defiant after charity watchdog reprimand for sermon condemning 'Zionists' over Gaza",
+      "originalDescription": "UK mosque defiant after charity watchdog reprimand for sermon condemning 'Zionists' over Gaza Submitted by Imran Mulla on Thu, 11/12/2026 - 10:31 'Solidarity with the oppressed must not become grounds for charitable sanction', the Lewisham Islamic Centre said in response The Lewisham Islamic Centre pictured in south-east London (Screengrab) Off A mosque has been given an official warning by Britain 's charity regulator after its imam discussed Palestinian \"suffering at the hands of the oppressors and the Zionists\" in a sermon. The Lewisham Islamic Centre in south-east London said it was seeking legal advice \"on the most appropriate course of action\" after the Charity Commission issued it a warning for hosting what it called \"inflammatory, divisive\" sermons. Imam Shakeel Begg gave a sermon in October 2023, during Israel's bombardment of Gaza, describing Palestinian \"suffering at the hands of the oppressors and the Zionists\". He also called the celebrities Justin Bieber and Kylie Jenner \"sick\" for their vocal support of Israel. The Islamic centre said in an official statement this week: \"This is about more than one mosque or one charity. \"It is about whether Muslim institutions can discharge their religious and charitable responsibilities without being penalised for expressing solidarity with Palestine, conducting established forms of Islamic worship, or addressing issues of concern to their congregations, including repudiation of Zionism, or denunciation of the Israeli state for war crimes and genocide.\" The centre added: \"Solidarity with the oppressed must not become grounds for charitable sanction. \"Should legal action be pursued, we would urge others to come forward and join a united challenge to an overbearing commission in defence of religious freedom.\" In another sermon, in August 2024, Imam Ashraf Dabous claimed of the far-right rioters who attacked Muslims and ethnic minorities in violent disorder that summer that \"their manipulators are Zionists, and they ar",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Screenshot%202026-11-12%20at%2011.03.56.png.jpg?itok=LloMDt-i",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Dunia Muslim",
+        "Islamofobia dan Diskriminasi",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T11:48:55+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/uk-mosque-given-official-warning-after-imam-described-palestinian-suffering-hands-oppressors"
+    },
+    {
+      "id": "ccbe3bff4127c0c7",
+      "title": "Tabligh Akbar Semarak Tanwir Muhammadiyah, Sekum: Persatuan Jadi Kunci Kemajuan Bangsa",
+      "description": "PALU -- Sekretaris Umum Pimpinan Pusat (PP) Muhammadiyah, Abdul Mu'ti menghadiri acara Tabligh Akbar Semarak Tanwir dan Milad ke-114 Muhammadiyah bertema “Bersama Satukan Bangsa” di Masjid Raya Baitul Khairaat,...",
+      "originalTitle": "Tabligh Akbar Semarak Tanwir Muhammadiyah, Sekum: Persatuan Jadi Kunci Kemajuan Bangsa",
+      "originalDescription": "PALU -- Sekretaris Umum Pimpinan Pusat (PP) Muhammadiyah, Abdul Mu'ti menghadiri acara Tabligh Akbar Semarak Tanwir dan Milad ke-114 Muhammadiyah bertema “Bersama Satukan Bangsa” di Masjid Raya Baitul Khairaat,...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/sekretaris-umum-pimpinan-pusat-pp-muhammadiyah-abdul-muti_261112184005-105.jpg",
+      "category": "Masjid dan Peradaban",
+      "tags": [
+        "Masjid dan Peradaban"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-12T11:41:36+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/toe0hc430/tabligh-akbar-semarak-tanwir-muhammadiyah-sekum-persatuan-jadi-kunci-kemajuan-bangsa"
+    },
+    {
+      "id": "36feb2c959059019",
+      "title": "Cop31: Turki menandatangani $5.1bn penawaran pinjaman untuk meningkatkan transisi hijau",
+      "description": "Cop31: Turki menandatangani kontrak pinjaman $5.1bn untuk meningkatkan transisi hijau Diberikan oleh Ragip Soylu pada Thu, 11 / 12 / 2026 - 10: 23 Berurusan dengan empat bank pengembangan multilateral akan mendukung aksi iklim, ketahanan infrastruktur dan usaha-usaha kecil Konferensi iklim PBB, Cop31, berlangsung di Antalya, Turki (Ozan Kose / AFP) Off Turki menandatangani 10 perjanjian pinjaman senilai $5.1bn dengan bank pengembangan multilateral pada hari Kamis untuk mempercepat transisi hijaunya. Berbicara di upacara penandatanganan pada sela-sela konferensi iklim PBB Cop31 di Antalya, Departemen Keuangan dan Menteri Keuangan Mehmet Simsek mengatakan tidak ada negara yang bisa membiayai transisi hijau saja. \"Tidak ada anggaran negara dapat memenuhi kebutuhan investasi transformasi ini sendiri\", katanya. \"Itulah mengapa dukungan dari bank pengembangan multilateral sangat penting bagi kami\". Perjanjian itu ditandatangani antara pelayanan dan Development Bank Asia (ADB), Bank Investasi Infrastruktur Asia (AIB), Bank Dunia dan Bank Pengembangan Islam (IDB). Simsek mengatakan Ankara telah melakukan pekerjaan rumah dengan benar-benar mempersiapkan proyek dan mengamankan pembiayaan yang diperlukan untuk mengimplementasikan mereka. Proyek-proyek, katanya, akan menciptakan lapangan kerja dan memperkuat perekonomian Turki. Dia menambahkan bahwa Turki telah dijamin sekitar $50bn dalam pembiayaan eksternal dari mitra pengembangan sejak 2023. Turki menandatangani perjanjian pinjaman pertamanya dengan ADB pada bulan November 2025, kata Simsek. Erdogan mengutuk Gaza 'eksolasi' di KTT iklim Cop31 di Turki Baca Lebih \"Dengan penawaran terbaru, pembiayaan bank untuk Turki akan mencapai $3.1bn dalam setahun, membantu mempercepat investasi iklim dan meningkatkan akses keuangan untuk perusahaan kecil dan menengah. Presiden ADB Masato Kanda mengatakan perjanjian baru akan mendukung pembangunan rumah sakit berbahaya, pelayanan kesehatan yang kuat dan membantu melatih generasi dokter be",
+      "originalTitle": "Cop31: Turkey signs $5.1bn loan deals to boost green transition",
+      "originalDescription": "Cop31: Turkey signs $5.1bn loan deals to boost green transition Submitted by Ragip Soylu on Thu, 11/12/2026 - 10:23 Deals with four multilateral development banks will support climate action, infrastructure resilience and small businesses The UN climate conference, Cop31, is taking place in Antalya, Turkey (Ozan Kose/AFP) Off Turkey signed 10 loan agreements worth $5.1bn with multilateral development banks on Thursday to accelerate its green transition. Speaking at the signing ceremony on the sidelines of the UN climate conference Cop31 in Antalya, Treasury and Finance Minister Mehmet Simsek said no country could finance the green transition alone. \"No country's budget can meet the investment needs of this transformation on its own,\" he said. \"That is why support from multilateral development banks is critically important to us.\" The agreements were signed between the ministry and the Asian Development Bank (ADB), the Asian Infrastructure Investment Bank (AIIB), the World Bank and the Islamic Development Bank (IsDB). Simsek said Ankara had done its homework by thoroughly preparing projects and securing the financing needed to implement them. The projects, he said, would create jobs and strengthen the Turkish economy. He added that Turkey had secured approximately $50bn in external financing from its development partners since 2023. Turkey signed its first loan agreement with the ADB in November 2025, Simsek said. Erdogan condemns Gaza 'ecocide' at Cop31 climate summit in Turkey Read More » With the latest deals, the bank's financing for Turkey would reach $3.1bn within a year, helping accelerate climate investment and improve access to finance for small and medium-sized enterprises. ADB President Masato Kanda said the new agreements would support the construction of disaster-resilient hospitals, strengthen healthcare services and help train the next generation of doctors. They would also expand long-term financing for small businesses, focusing on less-developed and",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Turkey-Cop-31-Climate-Antalya-financing-11-12-2026-Ozan-Kose-AFP.jpg.jpg?itok=S5zEy58u",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T11:33:43+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/cop31-turkey-signs-green-transition-deals"
+    },
+    {
+      "id": "f6cda3c2976e73da",
+      "title": "Harga Emas di Arab Saudi Hari Ini Kamis 2-6-1448 Turun Setelah Penurunan Global",
+      "description": "Harga emas di Arab Saudi turun pada Kamis 2-6-1448 untuk semua jenis, seiring penurunan harga emas dunia lebih dari 1 persen.",
+      "originalTitle": "Harga Emas di Arab Saudi Hari Ini Kamis 2-6-1448 Turun Setelah Penurunan Global",
+      "originalDescription": "Harga emas di Arab Saudi turun pada Kamis 2-6-1448 untuk semua jenis, seiring penurunan harga emas dunia lebih dari 1 persen.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-08/الذهب-YehgHHuJ.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T11:28:48+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/krk4puh2d"
+    },
+    {
+      "id": "722de39765b1149e",
+      "title": "23.619 Toyota Highlander di Arab Saudi Ditarik karena Masalah Kunci Kursi",
+      "description": "Kementerian Perdagangan Arab Saudi menarik 23.619 unit Toyota Highlander tahun 2021-2025 akibat cacat pada mekanisme kunci kursi baris kedua yang berpotensi membahayakan penumpang.",
+      "originalTitle": "23.619 Toyota Highlander di Arab Saudi Ditarik karena Masalah Kunci Kursi",
+      "originalDescription": "Kementerian Perdagangan Arab Saudi menarik 23.619 unit Toyota Highlander tahun 2021-2025 akibat cacat pada mekanisme kunci kursi baris kedua yang berpotensi membahayakan penumpang.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/283746-crop-P9M3y8zt.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T11:28:37+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/m8e2cpfz0"
+    },
+    {
+      "id": "17ead7e2bd673323",
+      "title": "Polisi Lalu Lintas Tangani Kecelakaan di Najran",
+      "description": "Polisi lalu lintas Arab Saudi di Najran menangani kecelakaan akibat kendaraan yang tiba-tiba keluar jalur.",
+      "originalTitle": "Polisi Lalu Lintas Tangani Kecelakaan di Najran",
+      "originalDescription": "Polisi lalu lintas Arab Saudi di Najran menangani kecelakaan akibat kendaraan yang tiba-tiba keluar jalur.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/المرور-السعودي-9jx0OQ5W.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T11:28:35+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/1c16gh6yu"
+    },
+    {
+      "id": "511fcceedf9176fa",
+      "title": "Empat Warga Yaman Ditangkap di Asir karena Selundupkan 60 Kilogram Khat",
+      "description": "Patroli Perbatasan Arab Saudi di Asir menangkap empat warga Yaman yang menyelundupkan 60 kilogram khat, dan menyerahkan mereka ke pihak berwenang.",
+      "originalTitle": "Empat Warga Yaman Ditangkap di Asir karena Selundupkan 60 Kilogram Khat",
+      "originalDescription": "Patroli Perbatasan Arab Saudi di Asir menangkap empat warga Yaman yang menyelundupkan 60 kilogram khat, dan menyerahkan mereka ke pihak berwenang.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/حرس-4-jAdssmYQ.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T11:15:07+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/g694w2djf"
+    },
+    {
+      "id": "d16a4b265aa71645",
+      "title": "Jadwal Baru Forum Investasi Masa Depan ke-10 di Riyadh Ditetapkan",
+      "description": "Forum Investasi Masa Depan ke-10 akan digelar pada 25–28 Oktober 2027 di Riyadh, di bawah naungan Raja Salman.",
+      "originalTitle": "Jadwal Baru Forum Investasi Masa Depan ke-10 di Riyadh Ditetapkan",
+      "originalDescription": "Forum Investasi Masa Depan ke-10 akan digelar pada 25–28 Oktober 2027 di Riyadh, di bawah naungan Raja Salman.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-LsBb_rdF.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T11:03:51+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/ekonomi/tk83gozto"
+    },
+    {
+      "id": "0071f7e39d50b258",
+      "title": "Bahrain Kecam Keras Serangan Teroris Houthi Terhadap Arab Saudi",
+      "description": "Bahrain mengecam keras serangan teroris berulang oleh kelompok Houthi terhadap Arab Saudi, termasuk peluncuran rudal balistik dan drone ke sejumlah wilayah.",
+      "originalTitle": "Bahrain Kecam Keras Serangan Teroris Houthi Terhadap Arab Saudi",
+      "originalDescription": "Bahrain mengecam keras serangan teroris berulang oleh kelompok Houthi terhadap Arab Saudi, termasuk peluncuran rudal balistik dan drone ke sejumlah wilayah.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/البحرين-WULFb-Eg.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T11:00:14+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/e8d19bho1"
+    },
+    {
+      "id": "7976d29161259357",
+      "title": "Rumah Zakat Berikan Layanan Kesehatan dan Multivitamin kepada 82 Warga di Malang",
+      "description": "MALANG -- Rumah Zakat menghadirkan layanan pemeriksaan kesehatan dan pemberian multivitamin bagi masyarakat Dusun Princi, Desa Gadingkulon, Kecamatan Dau, Kabupaten Malang. Kegiatan yang berlangsung di Balai Dusun Princi ini...",
+      "originalTitle": "Rumah Zakat Berikan Layanan Kesehatan dan Multivitamin kepada 82 Warga di Malang",
+      "originalDescription": "MALANG -- Rumah Zakat menghadirkan layanan pemeriksaan kesehatan dan pemberian multivitamin bagi masyarakat Dusun Princi, Desa Gadingkulon, Kecamatan Dau, Kabupaten Malang. Kegiatan yang berlangsung di Balai Dusun Princi ini...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/_261112174452-302.png",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-12T10:45:43+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/todxw7423/rumah-zakat-berikan-layanan-kesehatan-dan-multivitamin-kepada-82-warga-di-malang"
+    },
+    {
+      "id": "cfbb5b85abc2bbce",
+      "title": "Wakil Menteri Haji dan Umrah Anugerahi Pemenang Penghargaan Inovasi di Jeddah",
+      "description": "Wakil Menteri Haji dan Umrah memberikan penghargaan kepada para pemenang ajang inovasi dalam penutupan Konferensi dan Pameran Haji di Jeddah yang diikuti peserta lokal dan internasional.",
+      "originalTitle": "Wakil Menteri Haji dan Umrah Anugerahi Pemenang Penghargaan Inovasi di Jeddah",
+      "originalDescription": "Wakil Menteri Haji dan Umrah memberikan penghargaan kepada para pemenang ajang inovasi dalam penutupan Konferensi dan Pameran Haji di Jeddah yang diikuti peserta lokal dan internasional.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-hpXzYUad.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah",
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T10:29:24+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/lxrdsry5o"
+    },
+    {
+      "id": "b8e5dd322d547059",
+      "title": "Edisi ke-10 Future Investment Initiative Ditunda ke Oktober 2027 di Riyadh",
+      "description": "Future Investment Initiative mengumumkan penundaan edisi ke-10 di Riyadh ke 25–28 Oktober 2027 demi memastikan partisipasi internasional maksimal.",
+      "originalTitle": "Edisi ke-10 Future Investment Initiative Ditunda ke Oktober 2027 di Riyadh",
+      "originalDescription": "Future Investment Initiative mengumumkan penundaan edisi ke-10 di Riyadh ke 25–28 Oktober 2027 demi memastikan partisipasi internasional maksimal.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/whatsapp/2026-11/whatsapp-826ac45a-dec0-4d3c-9cd2-699a9d580728-91O8-GrR.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T10:15:45+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/ekonomi/lmokk75uk"
+    },
+    {
+      "id": "cb17fbf541539ccd",
+      "title": "160 kontestan untuk bergabung dengan Arab Saudi Al-Qur 'an dan kompetisi Sunnah di Mauritania",
+      "description": "RIYADH - Edisi kedua Custodian dari Kompetisi Dua Masjid Suci untuk Memanisasi Al-Qur 'an dan Nabi Sunnah untuk Negara Afrika Barat akan berlangsung di Nouakchott, Mauritania, dari 15 November sampai 19, 2026, membawa bersama 160 kontestan dari 16 negara. Diadakan dengan persetujuan dari Penjaga dari Dua Masjid Suci Raja Salman, kompetisi diatur oleh Saudi Arab Kementerian Urusan Islam, Dawah dan Bimbingan dalam kerjasama dengan Kementerian Urusan Islam Mauritania dan Pendidikan Asli. Menteri Urusan Islam, Dawah dan Bimbingan Sheikh Dr Abdullatif bin Abdullah Al Al- Sheikh menekankan bahwa melayani Al-Qur' an dan Sunnah telah menjadi prioritas misi Islam Saudi Arab sejak mendirikan. Dia mencatat bahwa Kerajaan terus mendukung kompetisi Qur 'anic, program pendidikan dan inisiatif jangkauan Islam baik domestik maupun internasional, memperkuat hubungan umat Islam dengan Al-Qur' an dan Sunnah sementara mempromosikan moderasi dan keseimbangan. Menteri menekankan bahwa inisiatif ini memperpanjang melampaui menghafal, bertujuan untuk memperkuat kesadaran agama, memelihara Muslim pada dasar-dasar yang sehat dan benar agama keyakinan, dan mendorong generasi muda untuk merangkul dan menerapkan ajaran Al Qur 'an dan Sunnah. Al Al- Sheikh mengucapkan terima kasih kepada Raja Salman dan Putra Mahkota Mohammed bin Salman atas dukungan mereka dari inisiatif didedikasikan untuk melestarikan, mengajar dan menyebarkan Al Qur' an dan Sunnah di seluruh dunia. Dia juga mengucapkan terima kasih kepada Kementerian Urusan Islam Mauritania dan Pendidikan Asli atas kerjasama dan usaha yang berkontribusi untuk keberhasilan edisi pertama kompetisi, serta koordinasi lanjutan dalam hosting kedua. Menteri memuji hubungan lama antara Arab Saudi dan Mauritania dan mereka terus kerjasama dalam pendidikan Islam dan jangkauan agama, menyoroti komitmen mereka bersama untuk melestarikan dan mempromosikan Al-Qur 'an dan Sunnah antara generasi muda.",
+      "originalTitle": "160 contestants to join Saudi Qur’an and Sunnah competition in Mauritania",
+      "originalDescription": "RIYADH — The second edition of the Custodian of the Two Holy Mosques Competition for Memorization of the Holy Qur’an and the Prophet’s Sunnah for West African Countries will take place in Nouakchott, Mauritania, from November 15 to 19, 2026, bringing together 160 contestants from 16 countries. Held with the approval of Custodian of the Two Holy Mosques King Salman, the competition is organized by Saudi Arabia’s Ministry of Islamic Affairs, Dawah and Guidance in cooperation with Mauritania’s Ministry of Islamic Affairs and Original Education. Minister of Islamic Affairs, Dawah and Guidance Sheikh Dr. Abdullatif bin Abdulaziz Al Al-Sheikh emphasized that serving the Qur’an and Sunnah has been a priority of Saudi Arabia’s Islamic mission since its founding. He noted that the Kingdom continues to support Qur’anic competitions, educational programs and Islamic outreach initiatives both domestically and internationally, strengthening Muslims’ connection to the Qur’an and Sunnah while promoting moderation and balance. The minister stressed that these initiatives extend beyond memorization, aiming to strengthen religious awareness, nurture Muslims on sound scholarly foundations and correct religious beliefs, and encourage younger generations to embrace and apply the teachings of the Qur’an and Sunnah. Al Al-Sheikh expressed his gratitude to King Salman and Crown Prince Mohammed bin Salman for their continued support of initiatives dedicated to preserving, teaching and spreading the Qur’an and Sunnah worldwide. He also thanked Mauritania’s Ministry of Islamic Affairs and Original Education for its cooperation and efforts that contributed to the success of the competition’s first edition, as well as its continued coordination in hosting the second. The minister praised the longstanding ties between Saudi Arabia and Mauritania and their continued cooperation in Islamic education and religious outreach, highlighting their shared commitment to preserving and promoting the Qur’an",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/12/2793554.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi",
+        "Pendidikan Islam",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T10:13:06+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666197/saudi-arabia/contestants-from-16-west-african-countries-to-compete-in-saudi-organized-quran-and-sunnah-competition"
+    },
+    {
+      "id": "2137c04d3a542522",
+      "title": "Kurs Mata Uang Asing terhadap Riyal Saudi Hari Ini, Kamis 11-5-1448",
+      "description": "Nilai tukar mata uang asing terhadap riyal Saudi stabil pada Kamis ini di bank sentral, dengan dolar AS tetap di 3,75 riyal.",
+      "originalTitle": "Kurs Mata Uang Asing terhadap Riyal Saudi Hari Ini, Kamis 11-5-1448",
+      "originalDescription": "Nilai tukar mata uang asing terhadap riyal Saudi stabil pada Kamis ini di bank sentral, dengan dolar AS tetap di 3,75 riyal.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/MA95cmtDBxBid1XK.jpeg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T10:09:59+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/twknz5cay"
+    },
+    {
+      "id": "2e55213f6112ecf2",
+      "title": "Perusahaan Ilm Akhiri Partisipasi di Konferensi Haji 2026 dengan Penandatanganan Sejumlah Kesepakatan",
+      "description": "Perusahaan Ilm menutup partisipasinya sebagai mitra strategis di Konferensi dan Pameran Haji 2026 dengan menandatangani sejumlah perjanjian untuk meningkatkan layanan digital bagi jemaah.",
+      "originalTitle": "Perusahaan Ilm Akhiri Partisipasi di Konferensi Haji 2026 dengan Penandatanganan Sejumlah Kesepakatan",
+      "originalDescription": "Perusahaan Ilm menutup partisipasinya sebagai mitra strategis di Konferensi dan Pameran Haji 2026 dengan menandatangani sejumlah perjanjian untuk meningkatkan layanan digital bagi jemaah.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/0-crop-uQBCUlsz.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T10:09:02+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/3k1lnjtl6"
+    },
+    {
+      "id": "00882fb9f140baa3",
+      "title": "Arab Saudi Serahkan Kepemimpinan Konferensi ALECSO ke Oman, Paparkan Capaian di Sidang ke-28",
+      "description": "Arab Saudi menyerahkan kepemimpinan Konferensi Umum ALECSO ke Oman dalam sidang ke-28 di Muscat, sekaligus memaparkan capaian dan inisiatif selama masa jabatannya.",
+      "originalTitle": "Arab Saudi Serahkan Kepemimpinan Konferensi ALECSO ke Oman, Paparkan Capaian di Sidang ke-28",
+      "originalDescription": "Arab Saudi menyerahkan kepemimpinan Konferensi Umum ALECSO ke Oman dalam sidang ke-28 di Muscat, sekaligus memaparkan capaian dan inisiatif selama masa jabatannya.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-2Is2V2KY.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T09:59:23+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/79k4f2g0y"
+    },
+    {
+      "id": "f1bbad0190a9ca5c",
+      "title": "Arab Saudi Gelar Kompetisi Al-Qur’an dan Hadis se-Afrika Barat di Mauritania",
+      "description": "Kementerian Urusan Islam Arab Saudi akan menggelar edisi kedua Kompetisi Hafalan Al-Qur’an dan Hadis untuk negara-negara Afrika Barat di Nouakchott, diikuti 160 peserta dari 16 negara.",
+      "originalTitle": "Arab Saudi Gelar Kompetisi Al-Qur’an dan Hadis se-Afrika Barat di Mauritania",
+      "originalDescription": "Kementerian Urusan Islam Arab Saudi akan menggelar edisi kedua Kompetisi Hafalan Al-Qur’an dan Hadis untuk negara-negara Afrika Barat di Nouakchott, diikuti 160 peserta dari 16 negara.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-08/خادم-الحرمين-الشريفين-a4Z-MUnd.jpg",
+      "category": "Al-Qur'an dan Hadis",
+      "tags": [
+        "Al-Qur'an dan Hadis",
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T09:51:23+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/gstx2se8w"
+    },
+    {
+      "id": "8c6017be7d8cc25c",
+      "title": "Semarak Milad ke-114, Muhammadiyah Perkenalkan Wajah Islam Indonesia dalam Inter Faith Week di Inggris",
+      "description": "MUHAMMADIYAH OR.ID, MANCHESTER – Pimpinan Cabang Istimewa Muhammadiyah (PCIM) Britania Raya (UK) dan Irlandia turut memeriahkan Inter Faith Week 2026 melalui penyelenggaraan pameran mini bertajuk “One Humanity, Many Faiths: Indonesia, Muhammadiyah & Our Shared Future”. Kegiatan ini berlangsung pada 10–13 November 2026 di MediaCityUK Church and Community Hub (Oasis Hub MediaCityUK), Salford, kawasan Greater Manchester, […] The post Semarak Milad ke-114, Muhammadiyah Perkenalkan Wajah Islam Indonesia dalam Inter Faith Week di Inggris appeared first on Muhammadiyah .",
+      "originalTitle": "Semarak Milad ke-114, Muhammadiyah Perkenalkan Wajah Islam Indonesia dalam Inter Faith Week di Inggris",
+      "originalDescription": "MUHAMMADIYAH OR.ID, MANCHESTER – Pimpinan Cabang Istimewa Muhammadiyah (PCIM) Britania Raya (UK) dan Irlandia turut memeriahkan Inter Faith Week 2026 melalui penyelenggaraan pameran mini bertajuk “One Humanity, Many Faiths: Indonesia, Muhammadiyah & Our Shared Future”. Kegiatan ini berlangsung pada 10–13 November 2026 di MediaCityUK Church and Community Hub (Oasis Hub MediaCityUK), Salford, kawasan Greater Manchester, […] The post Semarak Milad ke-114, Muhammadiyah Perkenalkan Wajah Islam Indonesia dalam Inter Faith Week di Inggris appeared first on Muhammadiyah .",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/11/semarak-milad-ke-114-muhammadiyah-perkenalkan-wajah-islam-indonesia-dalam-inter-faith-week-di-inggris.jpeg",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam"
+      ],
+      "source": "Muhammadiyah",
+      "sources": [
+        "Muhammadiyah"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-12T09:50:29+00:00",
+      "originalUrl": "https://muhammadiyah.or.id/2026/11/semarak-milad-ke-114-muhammadiyah-perkenalkan-wajah-islam-indonesia-dalam-inter-faith-week-di-inggris"
+    },
+    {
+      "id": "c90665fdd673d8c1",
+      "title": "Balai Kota Riyadh Al-Khubara Tingkatkan Kesiapan dan Tangani Dampak Hujan",
+      "description": "Balai Kota Riyadh Al-Khubara di Qassim melakukan serangkaian aksi lapangan untuk mengatasi dampak hujan, termasuk penyedotan genangan air dan pemeliharaan saluran.",
+      "originalTitle": "Balai Kota Riyadh Al-Khubara Tingkatkan Kesiapan dan Tangani Dampak Hujan",
+      "originalDescription": "Balai Kota Riyadh Al-Khubara di Qassim melakukan serangkaian aksi lapangan untuk mengatasi dampak hujan, termasuk penyedotan genangan air dan pemeliharaan saluran.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/301-FjZn9DEq.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T09:28:47+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/qmo71l8cw"
+    },
+    {
+      "id": "f324c2b9a9929820",
+      "title": "Warga Ditangkap karena Masuk Kawasan Lindung Imam Abdulaziz bin Mohammed dengan Kendaraan",
+      "description": "Seorang warga ditangkap aparat keamanan lingkungan Arab Saudi karena memasuki kawasan lindung Imam Abdulaziz bin Mohammed dengan kendaraan.",
+      "originalTitle": "Warga Ditangkap karena Masuk Kawasan Lindung Imam Abdulaziz bin Mohammed dengan Kendaraan",
+      "originalDescription": "Seorang warga ditangkap aparat keamanan lingkungan Arab Saudi karena memasuki kawasan lindung Imam Abdulaziz bin Mohammed dengan kendaraan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-10/الأمن-البيئي-z2CByCd8.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T09:26:20+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/cpjo1wz4u"
+    },
+    {
+      "id": "656e8466e9613227",
+      "title": "'Sebuah genosida lambat dipercepat': Bagaimana Gaza musim dingin 'krisis' diproduksi oleh Israel",
+      "description": "'Sebuah genosida lambat yang dipercepat': Bagaimana angin dingin Gaza diproduksi oleh Israel oleh Katherine Hearst pada Wed, 11 / 2026 - 13: 41 LSM dan kelompok bantuan bersama mengatakan puluhan ribu tenda tergeletak di luar gudang karena larangan Israel melihat pengiriman bantuan di bulan Oktober. Seorang anak Palestina yang dibuang berjalan di tenda yang sebagian banjir selama hujan berat di Gaza City, 7 November 2026 (Reuters / Dawmas Alkas) Anak enam bulan meninggal karena paparan setelah tenda keluarganya banjir. \"Tidak peduli seberapa keras kami mencoba untuk menjaga anak tetap hangat dan membungkusnya dalam selimut, itu semua sia-sia\", kata nenek anak itu dalam video yang diposting oleh Palestina - dipimpin kelompok bantuan bersama, Proyek Sameer. Kelompok ini menyediakan tenda kubah. Tapi Hala Sabbah, yang bekerja dengan organisasi, mengatakan bahwa cerita itu jatuh di telinga tuli. \"Saya benar-benar frustrasi karena itu tidak dibicarakan\", kata Sabbah MEE. Kematian bayi-bayi Gaza dalam kondisi beku, tenda-tenda yang dihancurkan sekarang menjadi fenomena tahunan di tempat penampungan kelaparan. Selama musim dingin keempat berturut-turut, hujan telah menyapu Gaza, mengekspos secara tidak memadai persediaan bahan untuk berlindung memasuki strip. \"Ada puluhan ribu tenda, mantel musim dingin, selimut, palet dan palet, truk penuh dengan hal-hal yang hanya menunggu di gudang '- Sean Jones, Unwara Ini telah memaksa 65 persen dari populasi - sekitar 1.4 m orang - untuk berlindung di penampungan darurat atau tenda yang telah dibanjiri dalam hujan, atau bangunan rusak yang risiko runtuh. Sementara cuaca menjadi kacau akibat memperkuat El Nino, bantuan total dibuat secara manusiawi, dimanfaatkan sebagai titik tekanan bagi Israel atas populasi Gaza. Otoritas Israel telah lama membatasi entri tempat penampungan dan bahan konstruksi ke Gaza, dengan peralatan penting seperti tiang tenda dan rumah-rumah mobile dianggap sebagai\" kegunaan ganda \". Pada hari Minggu, kantor ko",
+      "originalTitle": "‘A slow genocide accelerated’: How Gaza’s winter ‘crisis’ is manufactured by Israel",
+      "originalDescription": "‘A slow genocide accelerated’: How Gaza’s winter ‘crisis’ is manufactured by Israel Submitted by Katherine Hearst on Wed, 11/11/2026 - 13:41 NGOs and mutual aid groups says tens of thousands of tents lie in warehouses outside Gaza as Israeli restrictions see aid deliveries plummet in October A displaced Palestinian child walks in a partially flooded tent camp during heavy rains in Gaza City, 7 November 2026 (Reuters/Dawoud Abu Alkas) Off Days ago, baby Ehab Mohammad Hamad was found by his mother, lifeless with blue lips, fingers and toes. The six-month year old died of exposure after his family’s tent was flooded. “No matter how hard we tried to keep the child warm and wrap him in blankets, it was all in vain,” the child’s grandmother said in a video posted by the Palestinian-led mutual aid group, the Sameer Project. The group provided the family with a dome tent. But Hala Sabbah, who works with the organisation, said that the story fell on deaf ears. “I was really frustrated that it wasn’t talked about,” Sabbah told MEE. The deaths of Gaza’s babies in freezing, storm-battered tents is now becoming an annual phenomenon in the aid-starved enclave. For the fourth winter in a row, rains have swept through Gaza, exposing woefully inadequate supplies of materials for shelter entering the strip. “There are tens of thousands of tents, winter coats, blankets, pallets and pallets, truckloads full of these things that are simply waiting in warehouses' - Sean Jones, Unwra This has forced 65 percent of the population - around 1.4m people - to shelter in makeshift shelters or tents which have been swamped in the downpour, or damaged buildings which risk collapse. While the weather is turbocharged by a strengthening El Nino event, the paucity of aid is entirely man-made, leveraged as a pressure point by Israel over Gaza’s population. The Israeli authorities have long restricted the entry of shelter and construction materials into Gaza, with vital equipment like tent poles and mob",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Untitled_91.jpg.jpg?itok=cpsQ2VjE",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T09:22:50+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/slow-genocide-accelerated-how-gazas-winter-crisis-manufactured-israel"
+    },
+    {
+      "id": "7ea6faf9ca5e45d5",
+      "title": "Di Barat, suara-suara Yahudi merangkul anti- Zionisme. Orang Palestina harus memanfaatkan momen ini",
+      "description": "Di Barat, suara-suara Yahudi merangkul anti- Zionisme. Orang Palestina harus memanfaatkan momen ini Dikirim oleh Awad Abdelfattah pada Mon, 11 / 09 / 2026 - 15: 53 Dengan sponsor global terbesar Israel yang menurun, pergeseran dramatis opini publik terjadi di seluruh dunia Barat Demonstrator mengibarkan bendera Palestina selama hari pemogokan dan protes nasional di Milan, Italia utara, pada 30 Oktober 2026 (Piero Cruciatti / AFP) Off publikasi dari Antizionisme Benjamin Moser: Sejarah Yahudi datang pada saat yang signifikan. Di samping pertumbuhan gerakan antigenosida di Barat, dan Partai Hijau Inggris baru-baru ini mengadopsi gerakan mendukung satu negara demokratis di Palestina bersejarah, buku ini membantu untuk membawa pertanyaan yang pernah terpinggirkan dalam perdebatan barat utama menjadi fokus yang lebih tajam: Zionisme sebuah ekspresi tak terpisahkan identitas Yahudi, atau ideologi politik yang sendiri harus ditantang? Moser, seorang penulis Yahudi Amerika dan Pulitzer Prize- pemenang biografi, pendekatan pertanyaan ini dengan memulihkan sebagian besar ditekan tradisi Yahudi oposisi untuk Zionisme. Melalui potret 12 tokoh Yahudi, termasuk Hannah Arendt, Edwin Montagu, Felicia Langer dan Avi Shlaim, ia menunjukkan bahwa oposisi terhadap Zionisme tidak baru atau asing untuk intelektual Yahudi dan sejarah politik. Kepentingan intervensinya melampaui pemulihan sejarah suara individu. Ini menantang salah satu klaim politik Zionisme yang paling kuat: identitas Yahudi, keamanan kolektif dan eksistensi nasional selalu membutuhkan negara yang terorganisir di sekitar hak istimewa Yahudi di Palestina. Pekerjaan Moser membantu membangun bahwa identitas Yahudi dan oposisi terhadap Zionisme tidak bertentangan, dan tradisi politik dan etis Yahudi juga menghasilkan alternatif untuk nasionalisme eksklusif. Hal ini sangat relevan setelah genosida dan kehancuran Gaza, yang telah mengungkapkan konsekuensi dari sistem politik yang didirikan pada sesi pembuangan Palestina, pembe",
+      "originalTitle": "In the West, Jewish voices are embracing anti-Zionism. Palestinians must seize this moment",
+      "originalDescription": "In the West, Jewish voices are embracing anti-Zionism. Palestinians must seize this moment Submitted by Awad Abdelfattah on Mon, 11/09/2026 - 15:53 With Israel's top global sponsor in decline, dramatic shifts in public opinion are taking place across the western world Demonstrators wave a Palestinian flag during a nationwide day of strikes and protests in Milan, northern Italy, on 30 October 2026 (Piero Cruciatti/AFP) Off The publication of Benjamin Moser’s Anti-Zionism: A Jewish History comes at a significant political moment. Alongside the growing anti- genocide movement in the West, and the British Green Party’s recent adoption of a motion supporting a single democratic state in historic Palestine , the book helps to bring a question once marginalised in mainstream western debate into sharper focus: is Zionism an inseparable expression of Jewish identity, or a political ideology that must itself be challenged? Moser, an American Jewish writer and Pulitzer Prize-winning biographer, approaches this question by recovering a largely suppressed tradition of Jewish opposition to Zionism. Through portraits of 12 Jewish figures, including Hannah Arendt, Edwin Montagu, Felicia Langer and Avi Shlaim, he demonstrates that opposition to Zionism is neither new nor alien to Jewish intellectual and political history. The importance of his intervention goes beyond the historical recovery of individual voices. It challenges one of Zionism’s most powerful political claims: that Jewish identity, collective security and national existence necessarily require a state organised around Jewish privilege in Palestine. Moser’s work helps to establish that Jewish identity and opposition to Zionism are not contradictory, and that Jewish political and ethical traditions have also produced alternatives to exclusive nationalism. This is particularly relevant after the genocide and destruction of Gaza , which have exposed the consequences of a political system founded on Palestinian dispossessi",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/italy-palestine-flag-demonstration-milan-october-2026-piero-cruciatti-afp.jpg.jpg?itok=5CIM5WvT",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T09:08:56+00:00",
+      "originalUrl": "https://www.middleeasteye.net/opinion/jewish-antizionism-voices-palestinians-must-seize-moment-liberation"
+    },
     {
       "id": "7e072d3263b0c711",
       "title": "MUI: jaga persatuan, percayakan dinamika tentang Wapres kepada DPR-MPR",
@@ -191,6 +1154,31 @@
       "region": "",
       "publishedAt": "2026-11-12T08:50:16+00:00",
       "originalUrl": "https://www.antaranews.com/berita/5849255/mui-jaga-persatuan-percayakan-dinamika-tentang-wapres-kepada-dpr-mpr"
+    },
+    {
+      "id": "74ac3f77e24321dc",
+      "title": "Bareskrim Bongkar TPPO Bikin 1 PMI Tewas di Saudi, 5 Orang Jadi Tersangka",
+      "description": "Dalam kasus ini, seorang korban berinisial M meminta dipulangkan karena sakit, namun tak diizinkan hingga akhirnya meninggal dunia di Arab Saudi.",
+      "originalTitle": "Bareskrim Bongkar TPPO Bikin 1 PMI Tewas di Saudi, 5 Orang Jadi Tersangka",
+      "originalDescription": "Dalam kasus ini, seorang korban berinisial M meminta dipulangkan karena sakit, namun tak diizinkan hingga akhirnya meninggal dunia di Arab Saudi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/12/bareskrim-bongkar-kasus-perdagangan-orang-modus-penyaluran-pmi-ilegal-rumondangdetikcom-1794472868141_169.jpeg?w=360&q=90",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Detik",
+      "sources": [
+        "Detik"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-12T08:48:01+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8750081/bareskrim-bongkar-tppo-bikin-1-pmi-tewas-di-saudi-5-orang-jadi-tersangka"
     },
     {
       "id": "882ac7f80124f226",
