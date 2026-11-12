@@ -839,11 +839,11 @@ def fetch_source(source, categories):
             if is_football_news(
                 original_title,
                 original_description
-            );
+            ):
             result["filtered"] += 1
             logging.info(
                 "DIBUANG (SEPAK BOLA): %s",
-                original_titile[:150]
+                original_title[:150]
             )
             continue
 
