@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-12T07:00:30.366290+00:00",
-  "total": 218,
-  "newArticles": 109,
+  "lastUpdated": "2026-11-12T07:15:47.290095+00:00",
+  "total": 220,
+  "newArticles": 112,
   "sourcesChecked": 13,
   "sourcesSucceeded": 12,
   "sourcesFailed": 1,
@@ -24,7 +24,7 @@
       "raw": 31,
       "accepted": 1,
       "filtered": 30,
-      "translated": 30,
+      "translated": 31,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -42,14 +42,14 @@
     },
     {
       "name": "ANTARA Terkini",
-      "status": "error",
-      "raw": 0,
+      "status": "success",
+      "raw": 50,
       "accepted": 0,
-      "filtered": 0,
+      "filtered": 50,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": null
     },
     {
       "name": "ANTARA Dunia",
@@ -86,14 +86,14 @@
     },
     {
       "name": "Detik",
-      "status": "success",
-      "raw": 100,
-      "accepted": 1,
-      "filtered": 99,
+      "status": "error",
+      "raw": 0,
+      "accepted": 0,
+      "filtered": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
     },
     {
       "name": "Muhammadiyah",
@@ -121,8 +121,8 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 21,
-      "filtered": 29,
+      "accepted": 23,
+      "filtered": 27,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -132,9 +132,9 @@
       "name": "Saudi Gazette",
       "status": "success",
       "raw": 50,
-      "accepted": 49,
-      "filtered": 1,
-      "translated": 49,
+      "accepted": 50,
+      "filtered": 0,
+      "translated": 50,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -143,10 +143,10 @@
       "name": "MEED Saudi Arabia",
       "status": "success",
       "raw": 10,
-      "accepted": 5,
-      "filtered": 5,
-      "translated": 8,
-      "translationPartial": 1,
+      "accepted": 6,
+      "filtered": 4,
+      "translated": 10,
+      "translationPartial": 0,
       "translationFailed": 0,
       "error": null
     }
@@ -155,16 +155,41 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 124,
+    "translatedArticles": 126,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 732
+    "cacheEntries": 741
   },
   "images": {
-    "found": 218,
+    "found": 220,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "8ffb5a89c55a28f0",
+      "title": "Keluarga Palestina membela pengusiran sebagai pendatang mendirikan pos pos dekat desa Tepi Barat",
+      "description": "Keluarga Palestina bersiap untuk pengusiran sebagai pemukim mendirikan pos pos dekat desa Tepi Barat Diserahkan oleh Tamara Davison on Wed, 11 / 11 / 2026 - 13: 13 Bagi orang-orang di Jiftlik, di Jordan Valley, kedatangan pemukim Israel membawa ancaman baru kekerasan, kejang tanah dan penduduk paksa dari setiap kelompok di Sungai Yordan Barat. Tapi energi tiba-tiba bergeser ketika truk pickup menendang debu dan hurtles menuruni lereng bukit: itu pemukim Israel. Dia cepat memanggil tamunya ke arah pintu, menonton cemas sampai mobil melewati ke kejauhan. \"Serangan semakin meningkat\", kata orang Palestina, anak-anaknya dengan hati-hati mengintip keluar dari pintu rumah keluarganya. \"Ada perasaan tidak aman, hidup dalam limbo konstan ini\". Sekitar 80 keluarga Palestina bergantung pada bukit berbatu terpencil di lereng timur Tepi Barat, menghadap Sungai Yordan. Al- Suneh adalah salah satu dari empat penduduk cluster di desa pertanian Jiftlik, utara kota Yerikho. Populasi desa ini terdiri dari petani dan pengembara yang mengandalkan ternak untuk hidup mereka. \"Dia mengatakan kepada saya... Aku harus pergi ke Eropa, Kanada, atau tempat-tempat seperti itu '- Mohammed, al- Shuneh penduduk Banyak yang lahir di al- Suneh untuk keluarga mengungsi oleh pasukan Israel dekade lalu dari bagian lain Palestina. Namun mata pencaharian mereka telah diubah oleh siksaan yang lambat dan terus menerus: memperpanjang perintah penghancuran Israel dan, baru-baru ini, kedatangan pendatang bermusuhan. Ketika Israel menuju ke TPS pada 27 Oktober untuk pemilihan parlemen, al- Shuneh terganggu oleh melihat tenda baru dan bendera Israel yang dipasang di puncak bukit hanya dua menit dari rumah Mohammed, menambahkan suasana intimidasi yang sudah tumbuh. Kelompok bersenjata memasang kabel air dan listrik dan merilis video menampilkan rekaman drone, wawancara pemukim, dan klip seorang ibu dengan bayi muda di media sosial, mendorong orang lain untuk bergabung dengan mereka. Ini adalah salah satu pos-pos",
+      "originalTitle": "Palestinian families brace for expulsion as settlers erect outpost near West Bank village",
+      "originalDescription": "Palestinian families brace for expulsion as settlers erect outpost near West Bank village Submitted by Tamara Davison on Wed, 11/11/2026 - 13:13 For people in Jiftlik, in the Jordan Valley, the arrival of Israeli settlers brings renewed threats of violence, land seizures and forced displacement Residents of al-Shuneh cluster in West Bank's Jordan Valley keep watch after settlers set up an outpost in the nearby hilltop (Tamara Davison/MEE) Off Mohammed* sips coffee outside his small concrete home in the al-Shuneh cluster, framed by the sprawling Jordan Valley in the occupied West Bank. But the energy abruptly shifts when a pickup truck kicks up dust and hurtles down the hillside: it’s Israeli settlers. He quickly ushers his guests toward the door, watching anxiously until the car passes into the distance. “The attacks are escalating,” the Palestinian man says, his young children cautiously peering out of the doorway of his family home. “There's this feeling of insecurity, living in this constant limbo.” Around 80 Palestinian families rely on the remote rocky hillside on the eastern slopes of the West Bank, overlooking the Jordan River. Al-Shuneh is one of the four population clusters in the agricultural village of Jiftlik, north of the city of Jericho. The village's population consists of farmers and nomads who rely on livestock raising for their livelihoods. 'He told me... I should go to Europe, Canada, or places like that' - Mohammed, al-Shuneh resident Many were born in al-Shuneh to families displaced by Israeli forces decades ago from other parts of Palestine. But their livelihoods have been upended by a slow and ongoing torment: lingering Israeli demolition orders and, more recently, the subsequent arrival of hostile settlers. As Israel headed to the polls on 27 October for parliamentary elections, al-Shuneh was disrupted by the sight of new tents and Israeli flags mounted on the hilltop just two minutes away from Mohammed’s home, adding to an already growing at",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Residents%20are%20now%20keeping%20watch%20over%20night.jpg.jpg?itok=PF_TQyXP",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T07:08:36+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/palestinian-families-brace-expulsion-settlers-erect-outpost-near-west-bank-village"
+    },
     {
       "id": "e12c645b0f7d27c3",
       "title": "Dua Khatib Jumat di Masjidil Haram dan Masjid Nabawi Diumumkan",
@@ -215,6 +240,31 @@
       "region": "",
       "publishedAt": "2026-11-12T05:55:02+00:00",
       "originalUrl": "https://indonesian.ajel.sa/arab-saudi/0x6jw5umo"
+    },
+    {
+      "id": "00bee19f4b1fdf18",
+      "title": "Riyadh membuka kualifikasi untuk delapan putaran energi terbarukan",
+      "description": "Ronde 8 termasuk proyek 900MW Tamir solar fotovoltaic, proyek angin 1GW Sharq Al- Amwaj solar PV dan 1.3GW Al- Muzairah di Mekkah",
+      "originalTitle": "Riyadh opens qualification for eighth renewable energy round",
+      "originalDescription": "Round 8 includes the 900MW Tamir solar photovoltaic project, the 1GW Sharq Al-Amwaj solar PV project and the 1.3GW Al-Muzairah wind project in Mecca",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.meed.com/~\\Uploads\\NewsArticle\\21343944\\main.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "MEED Saudi Arabia",
+      "sources": [
+        "MEED Saudi Arabia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T05:33:00+00:00",
+      "originalUrl": "https://www.meed.com/riyadh-opens-qualification-for-eight-renewable-energy-round"
     },
     {
       "id": "2254fe25deef81e0",
@@ -1329,9 +1379,9 @@
     {
       "id": "ec232600110b759a",
       "title": "Raja Bahrain, putra mahkota meninjau keamanan Teluk kerjasama dengan menteri dalam negeri GCC",
-      "description": "MANAMA - Raja Hamad bin Isa Al Khalifa dari Bahrain diterima di Al- Sakhir Palace di sini pada hari Rabu Saudi Menteri Dalam Negeri Pangeran Abdulaziz bin Naif dan menteri interior lain Dewan Kolaborasi Teluk (GCC) anggota negara, menjelang pertemuan mereka diadakan di Manama. Selama pertemuan, Pangeran Abdullah bin Saud, menyampaikan salam dari Penjaga Dua Masjid Suci Raja Salman dan Putra Mahkota dan Perdana Menteri Muhammad bin Salman kepada raja Bahrain, bersama dengan keinginan mereka untuk melanjutkan kemajuan dan kemakmuran untuk Bahrain dan rakyatnya. Raja Bahrain dan para menteri meninjau kemajuan kerjasama keamanan gabungan Teluk dan upaya untuk memperkuat koordinasi dan integrasi di antara anggota GCC dalam bidang keamanan. Raja berharap para menteri interior berhasil dalam pertemuan mereka, menyatakan harapan bahwa hal itu akan membantu meningkatkan keamanan dan stabilitas di seluruh negara anggota GCC. Juga pada hari Rabu, Putra Mahkota, Wakil Komandan Tertinggi Angkatan Bersenjata dan Perdana Menteri Pangeran Bahrain Salman bin Hamad Al Khalifa menerima menteri dalam negeri GCC. Selama pertemuan, Pangeran Abdullah bin Saud menyampaikan salam dari Putra Mahkota dan Perdana Menteri Muhammad bin Salman kepada Pangeran Salman bin Hamad, bersama dengan harapannya untuk melanjutkan kemajuan dan kemakmuran untuk Bahrain dan rakyatnya. Pangeran Salman bin Hamad memuji upaya para menteri interior selama pertemuan mereka dan hasil yang dicapai dalam memperkuat keamanan dan stabilitas dari negara anggota GCC. Pangeran Salman dan menteri dalam negeri meninjau kerjasama keamanan di antara negara-negara GCC dan upaya yang berkelanjutan untuk meningkatkan koordinasi dan integrasi dalam bidang keamanan-terkait.",
+      "description": "MANAMA - Raja Hamad bin Isa Al Khalifa dari Bahrain diterima di Al- Sakhir Palace di sini pada hari Rabu Saudi Menteri Dalam Negeri Pangeran Abdulaziz bin Naif dan menteri interior lain Dewan Kolaborasi Teluk (GCC) anggota negara, menjelang pertemuan mereka diadakan di Manama. Selama pertemuan, Pangeran Abdullah bin Saud, menyampaikan salam dari Penjaga Dua Masjid Suci Raja Salman dan Putra Mahkota dan Perdana Menteri Muhammad bin Salman kepada raja Bahrain, bersama dengan keinginan mereka untuk melanjutkan kemajuan dan kemakmuran untuk Bahrain dan rakyatnya. * * Media [2793443] * Raja Bahrain dan para menteri meninjau kemajuan kerjasama keamanan gabungan Teluk dan upaya untuk memperkuat koordinasi dan integrasi di antara anggota GCC dalam bidang keamanan. Raja berharap para menteri interior berhasil dalam pertemuan mereka, menyatakan harapan bahwa hal itu akan membantu meningkatkan keamanan dan stabilitas di seluruh negara anggota GCC. Juga pada hari Rabu, Putra Mahkota, Wakil Komandan Tertinggi Angkatan Bersenjata dan Perdana Menteri Pangeran Bahrain Salman bin Hamad Al Khalifa menerima menteri dalam negeri GCC. Selama pertemuan, Pangeran Abdullah bin Saud menyampaikan salam dari Putra Mahkota dan Perdana Menteri Muhammad bin Salman kepada Pangeran Salman bin Hamad, bersama dengan harapannya untuk melanjutkan kemajuan dan kemakmuran untuk Bahrain dan rakyatnya. Pangeran Salman bin Hamad memuji upaya para menteri interior selama pertemuan mereka dan hasil yang dicapai dalam memperkuat keamanan dan stabilitas dari negara anggota GCC. Pangeran Salman dan menteri dalam negeri meninjau kerjasama keamanan di antara negara-negara GCC dan upaya yang berkelanjutan untuk meningkatkan koordinasi dan integrasi dalam bidang keamanan-terkait.",
       "originalTitle": "Bahrain’s king, crown prince review Gulf security cooperation with GCC interior ministers",
-      "originalDescription": "MANAMA — King Hamad bin Isa Al Khalifa of Bahrain received at Al-Sakhir Palace here on Wednesday Saudi Minister of Interior Prince Abdulaziz bin Saud bin Naif and other interior ministers of the Gulf Cooperation Council (GCC) member states, ahead of their meeting held in Manama. During the meeting, Prince Abdulaziz bin Saud conveyed the greetings of Custodian of the Two Holy Mosques King Salman and Crown Prince and Prime Minister Mohammed bin Salman to the king of Bahrain, along with their wishes for continued progress and prosperity for Bahrain and its people. The king of Bahrain and the ministers reviewed the progress of joint Gulf security cooperation and efforts to strengthen coordination and integration among GCC member states in security fields. The king wished the interior ministers success in their meeting, expressing hope that it would help enhance security and stability across GCC member states. Also on Wednesday, Crown Prince, Deputy Supreme Commander of the Armed Forces and Prime Minister of Bahrain Prince Salman bin Hamad Al Khalifa received interior ministers of the GCC states. During the meeting, Prince Abdulaziz bin Saud conveyed the greetings of Crown Prince and Prime Minister Mohammed bin Salman to Prince Salman bin Hamad, along with his wishes for continued progress and prosperity for Bahrain and its people. Prince Salman bin Hamad commended the efforts of the interior ministers during their meeting and the outcomes achieved in strengthening the security and stability of GCC member states. Prince Salman and the interior ministers reviewed the security cooperation among GCC countries and the ongoing efforts to enhance coordination and integration in security-related fields.",
+      "originalDescription": "MANAMA — King Hamad bin Isa Al Khalifa of Bahrain received at Al-Sakhir Palace here on Wednesday Saudi Minister of Interior Prince Abdulaziz bin Saud bin Naif and other interior ministers of the Gulf Cooperation Council (GCC) member states, ahead of their meeting held in Manama. During the meeting, Prince Abdulaziz bin Saud conveyed the greetings of Custodian of the Two Holy Mosques King Salman and Crown Prince and Prime Minister Mohammed bin Salman to the king of Bahrain, along with their wishes for continued progress and prosperity for Bahrain and its people. **media[2793443]** The king of Bahrain and the ministers reviewed the progress of joint Gulf security cooperation and efforts to strengthen coordination and integration among GCC member states in security fields. The king wished the interior ministers success in their meeting, expressing hope that it would help enhance security and stability across GCC member states. Also on Wednesday, Crown Prince, Deputy Supreme Commander of the Armed Forces and Prime Minister of Bahrain Prince Salman bin Hamad Al Khalifa received interior ministers of the GCC states. During the meeting, Prince Abdulaziz bin Saud conveyed the greetings of Crown Prince and Prime Minister Mohammed bin Salman to Prince Salman bin Hamad, along with his wishes for continued progress and prosperity for Bahrain and its people. Prince Salman bin Hamad commended the efforts of the interior ministers during their meeting and the outcomes achieved in strengthening the security and stability of GCC member states. Prince Salman and the interior ministers reviewed the security cooperation among GCC countries and the ongoing efforts to enhance coordination and integration in security-related fields.",
       "translated": true,
       "translationStatus": "success",
       "originalLanguage": "en",
