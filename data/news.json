@@ -1,18 +1,19 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-12T07:15:47.290095+00:00",
-  "total": 220,
-  "newArticles": 112,
-  "sourcesChecked": 13,
-  "sourcesSucceeded": 12,
+  "lastUpdated": "2026-11-12T09:11:03.422187+00:00",
+  "total": 231,
+  "newArticles": 104,
+  "sourcesChecked": 12,
+  "sourcesSucceeded": 11,
   "sourcesFailed": 1,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 1,
-      "filtered": 24,
+      "accepted": 0,
+      "filtered": 25,
+      "filteredFootball": 0,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -21,10 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 31,
+      "raw": 32,
       "accepted": 1,
-      "filtered": 30,
-      "translated": 31,
+      "filtered": 31,
+      "filteredFootball": 3,
+      "translated": 32,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -33,8 +35,9 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 11,
-      "filtered": 4,
+      "accepted": 10,
+      "filtered": 5,
+      "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -44,8 +47,9 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 0,
-      "filtered": 50,
+      "accepted": 3,
+      "filtered": 47,
+      "filteredFootball": 1,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -57,6 +61,7 @@
       "raw": 20,
       "accepted": 2,
       "filtered": 18,
+      "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -68,6 +73,7 @@
       "raw": 20,
       "accepted": 1,
       "filtered": 19,
+      "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -77,8 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 10,
-      "filtered": 10,
+      "accepted": 11,
+      "filtered": 9,
+      "filteredFootball": 1,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -90,6 +97,7 @@
       "raw": 0,
       "accepted": 0,
       "filtered": 0,
+      "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -99,8 +107,9 @@
       "name": "Muhammadiyah",
       "status": "success",
       "raw": 10,
-      "accepted": 2,
-      "filtered": 8,
+      "accepted": 3,
+      "filtered": 7,
+      "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -109,9 +118,10 @@
     {
       "name": "NU Online",
       "status": "success",
-      "raw": 50,
+      "raw": 49,
       "accepted": 5,
-      "filtered": 45,
+      "filtered": 44,
+      "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -121,8 +131,9 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 23,
-      "filtered": 27,
+      "accepted": 18,
+      "filtered": 32,
+      "filteredFootball": 8,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -134,18 +145,8 @@
       "raw": 50,
       "accepted": 50,
       "filtered": 0,
+      "filteredFootball": 0,
       "translated": 50,
-      "translationPartial": 0,
-      "translationFailed": 0,
-      "error": null
-    },
-    {
-      "name": "MEED Saudi Arabia",
-      "status": "success",
-      "raw": 10,
-      "accepted": 6,
-      "filtered": 4,
-      "translated": 10,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -155,16 +156,295 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 126,
+    "translatedArticles": 131,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 741
+    "cacheEntries": 776
   },
   "images": {
-    "found": 220,
+    "found": 231,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "7e072d3263b0c711",
+      "title": "MUI: jaga persatuan, percayakan dinamika tentang Wapres kepada DPR-MPR",
+      "description": "Majelis Ulama Indonesia (MUI) menyerukan seluruh organisasi kemasyarakatan (ormas) Islam untuk menjaga persatuan dan ...",
+      "originalTitle": "MUI: jaga persatuan, percayakan dinamika tentang Wapres kepada DPR-MPR",
+      "originalDescription": "Majelis Ulama Indonesia (MUI) menyerukan seluruh organisasi kemasyarakatan (ormas) Islam untuk menjaga persatuan dan ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/12/19496.jpg",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam",
+        "Dakwah dan Ulama"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-12T08:50:16+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5849255/mui-jaga-persatuan-percayakan-dinamika-tentang-wapres-kepada-dpr-mpr"
+    },
+    {
+      "id": "882ac7f80124f226",
+      "title": "DPR dorong penguatan ekonomi kerakyatan lewat koperasi pesantren",
+      "description": "Wakil Ketua Komisi VII DPR RI Chusnunia mendorong koperasi pondok pesantren (koppontren) agar terhubung langsung ke ...",
+      "originalTitle": "DPR dorong penguatan ekonomi kerakyatan lewat koperasi pesantren",
+      "originalDescription": "Wakil Ketua Komisi VII DPR RI Chusnunia mendorong koperasi pondok pesantren (koppontren) agar terhubung langsung ke ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/03/10/1003326939.jpg",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-12T08:31:43+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5849175/dpr-dorong-penguatan-ekonomi-kerakyatan-lewat-koperasi-pesantren"
+    },
+    {
+      "id": "0eacc5e907bab3c5",
+      "title": "Anwar Hafid: Tanwir Muhammadiyah Jadi Kehormatan bagi Masyarakat Sulawesi Tengah",
+      "description": "MUHAMMADIYAH.OR.ID, PALU – Gubernur Sulawesi Tengah, Anwar Hafid, menyampaikan kebanggaannya atas kepercayaan menjadikan Kota Palu sebagai tuan rumah Tanwir Muhammadiyah 2026 sekaligus rangkaian Milad ke-114 Muhammadiyah. Ia menilai kehadiran agenda nasional Muhammadiyah tersebut menjadi kehormatan bagi masyarakat Palu sekaligus momentum memperkuat syiar dan dakwah persyarikatan. Hal tersebut disampaikan Anwar Hafid pada Kamis (12/11) dalam Sambutan […] The post Anwar Hafid: Tanwir Muhammadiyah Jadi Kehormatan bagi Masyarakat Sulawesi Tengah appeared first on Muhammadiyah .",
+      "originalTitle": "Anwar Hafid: Tanwir Muhammadiyah Jadi Kehormatan bagi Masyarakat Sulawesi Tengah",
+      "originalDescription": "MUHAMMADIYAH.OR.ID, PALU – Gubernur Sulawesi Tengah, Anwar Hafid, menyampaikan kebanggaannya atas kepercayaan menjadikan Kota Palu sebagai tuan rumah Tanwir Muhammadiyah 2026 sekaligus rangkaian Milad ke-114 Muhammadiyah. Ia menilai kehadiran agenda nasional Muhammadiyah tersebut menjadi kehormatan bagi masyarakat Palu sekaligus momentum memperkuat syiar dan dakwah persyarikatan. Hal tersebut disampaikan Anwar Hafid pada Kamis (12/11) dalam Sambutan […] The post Anwar Hafid: Tanwir Muhammadiyah Jadi Kehormatan bagi Masyarakat Sulawesi Tengah appeared first on Muhammadiyah .",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/11/anwar-hafid-tanwir-muhammadiyah-jadi-kehormatan-bagi-masyarakat-sulawesi-tengah.jpeg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "Muhammadiyah",
+      "sources": [
+        "Muhammadiyah"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-12T08:28:04+00:00",
+      "originalUrl": "https://muhammadiyah.or.id/2026/11/anwar-hafid-tanwir-muhammadiyah-jadi-kehormatan-bagi-masyarakat-sulawesi-tengah"
+    },
+    {
+      "id": "cb7f1be13810af8b",
+      "title": "Serangan Israel di RS Nasser Gaza tewaskan enam orang",
+      "description": "ANTARA - Serangan udara Israel menghantam Kompleks Medis Nasser di Khan Younis, Gaza Selatan, Kamis (12/11) dini hari. ...",
+      "originalTitle": "Serangan Israel di RS Nasser Gaza tewaskan enam orang",
+      "originalDescription": "ANTARA - Serangan udara Israel menghantam Kompleks Medis Nasser di Khan Younis, Gaza Selatan, Kamis (12/11) dini hari. ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/SERANGAN-ISRAEL-DI-RS-NASSER-GAZA-TEWASKAN-ENAM-ORANG.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-12T08:18:17+00:00",
+      "originalUrl": "https://www.antaranews.com/video/5849067/serangan-israel-di-rs-nasser-gaza-tewaskan-enam-orang"
+    },
+    {
+      "id": "e00f5f9b35f7ed1f",
+      "title": "Hukum Non-Muslim Menjadi Petugas Haji, Apakah Boleh?",
+      "description": "Bolehkah non-Muslim menjadi petugas haji? Simak pandangan ulama tentang hukum meminta bantuan non-Muslim dalam pelayanan ibadah haji.",
+      "originalTitle": "Hukum Non-Muslim Menjadi Petugas Haji, Apakah Boleh?",
+      "originalDescription": "Bolehkah non-Muslim menjadi petugas haji? Simak pandangan ulama tentang hukum meminta bantuan non-Muslim dalam pelayanan ibadah haji.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/haji_1794464736.webp",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama",
+        "Haji dan Umrah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-12T08:12:37+00:00",
+      "originalUrl": "https://islam.nu.or.id/syariah/hukum-non-muslim-menjadi-petugas-haji-apakah-boleh-TfxeV"
+    },
+    {
+      "id": "a7149405acabd7b2",
+      "title": "Serangan Israel di rumah sakit Gaza membunuh dokter bedah, anak dan pasien",
+      "description": "Serangan Israel terhadap Rumah Sakit Gaza membunuh dokter bedah, anak-anak dan pasien Dikirim oleh staf MEE pada Thu, 11 / 12 / 2026 - 07: 53 Menyerang Nasser Hospital di Khan Yoyois mengenai perawatan intensif dan ruang bedah, memaksa suspensi operasi staf rumah sakit dan lainnya memeriksa kerusakan di dalam Rumah Sakit Nasser setelah serangan udara Israel di Khan Younis, di Jalur Gaza Selatan, pada 12 November 2026 (Eyad Baba / AFP) sebuah serangan udara Israel menghantam Nasser Medical Complex di awal hari Kamis, membunuh setidaknya enam orang Palestina, termasuk seorang dokter bedah, anak dan pasien, dan melukai 20 orang lain. Serangan itu menghantam gedung bedah rumah sakit sekitar jam 1 pagi waktu setempat. Kompleks sebagian berfungsi di Khan Younis tetap rumah sakit referensi utama terakhir beroperasi di Gaza selatan, meskipun berada di bawah tekanan ekstrim. Dr. Rizq Abu Shaira, 53, termasuk diantara mereka yang tewas, menurut Departemen Kesehatan Palestina. Dokter bedah merawat pasien ketika serangan terjadi, media lokal melaporkan. Setidaknya satu anak dan pasien cacat juga tewas. Pasien dan staf medis lainnya, termasuk wanita dan anak-anak, terluka. Kementerian Kesehatan Palestina mengutuk serangan itu, menggambarkan itu sebagai pelanggaran hukum internasional. \"Target terus-menerus rumah sakit dan fasilitas medis mereka memperburuk penderitaan orang sakit dan terluka, dan mengancam apa yang tersisa dari kemampuan sektor kesehatan untuk menyediakan layanan nya\", katanya. Dua rudal menghantam atap gedung, menembus lantai tiga sebelum meledak pada kedua, The New York Times melaporkan. Seorang pejabat rumah sakit mengatakan pemogokan menyebabkan kerusakan yang luas ke perawatan intensif dan bangsal bedah, termasuk kedua departemen laki-laki dan perempuan. Rumah sakit apos; s bangsal bedah sejak dipaksa untuk menangguhkan operasi. Hamas memegang begitu-disebut Dewan Perdamaian bertanggung jawab atas serangan itu, mengatakan itu mencerminkan Israel terus impun",
+      "originalTitle": "Israeli strike on Gaza hospital kills surgeon, child and patients",
+      "originalDescription": "Israeli strike on Gaza hospital kills surgeon, child and patients Submitted by MEE staff on Thu, 11/12/2026 - 07:53 Attack on Nasser Hospital in Khan Younis hits intensive care and surgical wards, forcing suspension of operations Hospital staff and others inspect the damage inside Nasser Hospital following an Israeli airstrike in Khan Younis, in the southern Gaza Strip, on 12 November 2026 (Eyad Baba/AFP) Off An Israeli air strike hit Nasser Medical Complex in the Gaza Strip early on Thursday, killing at least six Palestinians , including a surgeon, a child and patients, and wounding 20 others. The strike hit the hospital's surgical buildings at around 1 am local time. The partially functioning complex in Khan Younis remains the last major referral hospital operating in southern Gaza, despite being under extreme strain. Dr Rizq Abu Shaira, 53, was among those killed, according to the Palestinian Ministry of Health. The surgeon was treating patients when the strike hit, local media reported. At least one child and a disabled patient were also killed. Other patients and medical staff, including women and children, were wounded. The Palestinian Ministry of Health condemned the attack, describing it as a flagrant violation of international law. “The continued targeting of hospitals and their medical facilities exacerbates the suffering of the sick and wounded, and threatens what remains of the ability of the health sector to provide its services,” it said. Two missiles struck the building's roof, penetrating the third floor before exploding on the second, The New York Times reported. A hospital official said the strike caused extensive damage to the intensive care and surgical wards, including both the male and female departments. The hospital's surgical ward has since been forced to suspend operations. Hamas held the so-called Board of Peace responsible for the attack, saying it reflected Israel's continued impunity amid international silence and the failure to stop it",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_D78W844%20%281%29.jpg.jpg?itok=61d79VVj",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T08:04:48+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/israeli-strike-gaza-hospital-kills-surgeon-child-and-patients"
+    },
+    {
+      "id": "b18d3b2d0053acd9",
+      "title": "Muhammadiyah Apresiasi Fatwa Haram Vape, Singgung Ancaman bagi Generasi Bangsa",
+      "description": "JAKARTA -- Muhammadiyah mengapresiasi fatwa Majelis Ulama Indonesia (MUI) yang mengharamkan penggunaan rokok elektrik atau vape. Muhammadiyah menilai keputusan tersebut sejalan dengan upaya pengendalian tembakau yang telah lama diperjuangkan...",
+      "originalTitle": "Muhammadiyah Apresiasi Fatwa Haram Vape, Singgung Ancaman bagi Generasi Bangsa",
+      "originalDescription": "JAKARTA -- Muhammadiyah mengapresiasi fatwa Majelis Ulama Indonesia (MUI) yang mengharamkan penggunaan rokok elektrik atau vape. Muhammadiyah menilai keputusan tersebut sejalan dengan upaya pengendalian tembakau yang telah lama diperjuangkan...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/vape-ilustrasi-terdapat-dugaan-bahwa-pasokan-ganja-tersebut-akan_260704130206-739.jpg",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam",
+        "Dakwah dan Ulama"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-12T07:54:53+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/todpzh430/muhammadiyah-apresiasi-fatwa-haram-vape-singgung-ancaman-bagi-generasi-bangsa"
+    },
+    {
+      "id": "653fd540f65c2850",
+      "title": "Update pagi",
+      "description": "Pagi pembaruan Selamat pagi pembaca Mata Timur Tengah, Berikut adalah perkembangan terbaru: pasukan bersenjata Iran telah memperbarui daftar target mereka dalam kasus perang baru, termasuk tidak ada pembatasan geografis pada serangan balasan. Kioumars Heydari, yang menjabat sebagai wakil kepala staf angkatan bersenjata Iran, mengatakan bahwa daftar terbaru mencerminkan Presiden Agung sebelumnya Ayatollah Ali Khamenei 's instruksi untuk \"respon langsung, efektif tanpa batasan geografis\" untuk ancaman apapun, peringatan bahwa respon Iran terhadap konflik masa depan akan \"benar-benar melumpuhkan\" untuk musuh. Petugas keamanan atas Iran Mohsen Rezaei memperingatkan bahwa Teheran bisa menyerang pangkalan militer yang terlibat dalam setiap serangan AS yang diperbarui melawan Iran. \"Jika AS meluncurkan perang lain melawan Iran, setiap pangkalan militer yang terlibat dalam agresi - dari Asia Barat ke Eropa - akan menjadi target yang sah untuk serangan mematikan Iran,\" Rezaei, sekretaris Dewan Keamanan Nasional Iran, mengatakan dalam sebuah pos X. Wakil Presiden AS JD Vance sedang mempertimbangkan berbicara langsung dengan kepala keamanan Iran Mohsen Rezaei, menurut outlet media AS. Doha bisa dilihat sebagai tempat yang mungkin jika pertemuan berlangsung, Wall Street Journal dilaporkan berdasarkan informasi dari beberapa pejabat AS dan Timur Tengah serta sumber akrab dengan masalah ini. Pihak berwenang di UAE' s Ras Al Khaimah emirate telah mengumumkan pembukaan kembali beberapa pantai berikut penutupan mendorong oleh tumpahan minyak dari kapal tanker rusak dalam serangan yang diduga di Teluk bulan lalu. Sebuah serangan udara Israel menargetkan Nasser Medical Complex di Gaza selatan pada hari Kamis pagi telah membunuh setidaknya enam orang Palestina dan terluka lebih dari 50 lainnya. Pemogokan menghantam lantai dua gedung al- Yasin dalam kompleks medis, dengan direktur rumah sakit menunjukkan bahwa hal itu menyebabkan kerusakan yang luas ke perawatan intensif dan bangsal bed",
+      "originalTitle": "Morning update",
+      "originalDescription": "Morning update Good morning Middle East Eye readers, Here are the latest developments: Iran’s armed forces have updated their list of possible targets in the case of a renewed war, including having no geographical restrictions on retaliatory strikes. Kioumars Heydari, who serves as the deputy chief of staff of Iran’s armed forces, said that the updated list reflected previous Supreme Leader Ayatollah Ali Khamenei’s instructions for an \"immediate, effective response without geographical limitations\" to any threat, warning that Iran's response to any future conflict would be \"truly crippling\" for the enemy. Iran’s top security official Mohsen Rezaei warned that Tehran could strike military bases involved in any renewed US attacks against Iran. \"If the US launches another war against Iran, every military base involved in the aggression - from West Asia to Europe - will be a legitimate target for Iran’s lethal strikes,\" Rezaei, the secretary of Iran’s Supreme National Security Council, said in a post on X. US Vice President JD Vance is contemplating having direct talks with Iran’s security chief Mohsen Rezaei, according to US media outlets. Doha could be seen as a possible venue if the meeting goes ahead, the Wall Street Journal reported based on information from several US and Middle Eastern officials as well as sources familiar with the matter. Authorities in the UAE's Ras Al Khaimah emirate have announced reopening several beaches following closures prompted by an oil spill from a tanker damaged in a suspected attack in the Gulf last month. An Israeli air strike targeting the Nasser Medical Complex in southern Gaza early on Thursday has killed at least six Palestinians and injured more than 50 others. The strike hit the second floor of al-Yasin building within the medical complex, with the hospital’s director indicating that it caused extensive damage to the intensive care and surgical wards. Saudi Arabia's civil defence said in a statement that debris from two balli",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/iranian-women-janfada-volunteer-military-training-tehran-iran-10-november-2026-afp.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T07:41:48+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-667"
+    },
+    {
+      "id": "3aaabd11fc7f3e97",
+      "title": "Asir mencatat curah hujan tertinggi di 48 mm sebagai hujan hits empat daerah Saudi",
+      "description": "JEDDAH - Asir mencatat curah hujan tertinggi di 48 mm sebagai Pusat Nasional untuk Meteorologi (NCM) laporan curah hujan di empat daerah Saudi selama 24 jam. NCM mengukur curah hujan di seluruh Kingdom dari 9 pagi pada hari Rabu, 11 November, sampai 9 pagi pada hari Kamis, 12 November, dengan akumulasi tertinggi dicatat di Khamis Mushait Wadi Bin Hashbal di daerah Asir di 48 mm. Di Asir, Rijal Almaa mencatat curah hujan kedua tertinggi pada 33,8 mm, diikuti oleh Abha-Al Sha 'af pada 19,6 mm, Tanorah pada 18.4 mm, Al Namas pada 12.8 mm, dan Al Madha- Tareeb di 12,2 mm. Di daerah Riyadh, Al Thumamah Airport mencatat 25 mm, diikuti oleh Akademi Penerbangan Saudi di 14,8 mm, Raja Abdulavable Reserve- Mulham di 13 mm, Raja Khalid Reserve pada 11.8 mm, dan Imam Abdulatium Reserve pada 10,4 mm. Di daerah Al- Baha, Al- Baha- Al Baher tercatat 17.6 mm, diikuti oleh Al Makhwah di 15,6 mm dan Baljarashi di 11 mm. Di Provinsi Timur, Al Khair desa, Al Duqhayr, tercatat 8,8 mm, diikuti oleh Bandara Internasional Raja Fahd pada 8.5 mm, Al Ahsa Airport di 6.6 mm, dan baik Buqayq dan Ahsa- Al Uqair pada 5.8 mm.",
+      "originalTitle": "Asir records highest rainfall at 48 mm as rain hits four Saudi regions",
+      "originalDescription": "JEDDAH — Asir records highest rainfall at 48 mm as the National Center for Meteorology (NCM) reports precipitation across four Saudi regions over 24 hours. The NCM measured rainfall across the Kingdom from 9 a.m. on Wednesday, November 11, to 9 a.m. on Thursday, November 12, with the highest accumulation recorded in Khamis Mushait’s Wadi Bin Hashbal in the Asir Region at 48 mm. In Asir, Rijal Almaa recorded the second-highest rainfall at 33.8 mm, followed by Abha–Al Sha'af at 19.6 mm, Tanomah at 18.4 mm, Al Namas at 12.8 mm, and Al Madha–Tareeb at 12.2 mm. In the Riyadh Region, Al Thumamah Airport recorded 25 mm, followed by the Saudi Aviation Academy at 14.8 mm, King Abdulaziz Reserve–Mulham at 13 mm, King Khalid Reserve at 11.8 mm, and Imam Abdulaziz Reserve at 10.4 mm. In the Al-Baha Region, Al-Baha–Al Baher recorded 17.6 mm, followed by Al Makhwah at 15.6 mm and Baljurashi at 11 mm. In the Eastern Province, Al Khair village, Al Dughayr, recorded 8.8 mm, followed by King Fahd International Airport at 8.5 mm, Al Ahsa Airport at 6.6 mm, and both Buqayq and Al Ahsa–Al Uqair at 5.8 mm.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/12/2793498.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T07:29:16+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666196/saudi-arabia/asir-records-highest-rainfall-at-48-mm-as-rain-hits-four-saudi-regions"
+    },
+    {
+      "id": "b1ca5feec6c038d8",
+      "title": "Badai lebat, banjir kilat diperkirakan di empat daerah Saudi",
+      "description": "JEDDAH - Moderate ke badai petir berat mampu menyebabkan banjir kilat diramalkan di bagian-bagian Jazan, Asir, Al- Baha dan Mekah pada hari Kamis, menurut National Center for Meteorology (NCM). Hujan diperkirakan disertai hujan es, angin aktif dan debu bertiup. Dalam ramalan cuaca sehari-hari, NCM mengatakan cahaya turun hujan sedang juga diharapkan di bagian-bagian Madinah, Hail, Qassim, Riyadh dan Provinsi Timur. Formasi kabut juga mungkin terjadi di daerah-daerah ini, sebagaimana Tabuk, Al- Jouf dan Wilayah Batas Utara. Di Mekah, sedang untuk badai besar diperkirakan, disertai oleh angin aktif, hujan es dan debu meniup. Kota ini diharapkan untuk mencatat tinggi 31 ° C dan rendah 22 ° C, dengan kelembaban relatif mencapai 85 persen. Jazan juga diharapkan untuk mengalami moderat badai berat, disertai oleh angin aktif, hujan es dan debu bertiup, dengan suhu berkisar dari 27 ° C sampai 31 ° C dan kelembaban mencapai 90 persen. Al- Baha diramalkan untuk mengalami moderat badai berat, disertai oleh angin aktif dan debu meniup, dengan suhu berkisar dari 14 ° C sampai 18 ° C dan kelembaban mencapai 95 persen. Dalam Ibha, moderat untuk badai lebat dan angin aktif diduga, dengan suhu berkisar dari 12 ° C sampai 20 ° C dan kelembaban mencapai 95 persen. Madinah diharapkan untuk mengalami kabut, hujan-bantalan awan dan angin aktif, dengan suhu berkisar dari 15 ° C sampai 25 ° C dan kelembaban mencapai 90 persen. Sementara itu, Riyadh dan Dammam diperkirakan mengalami kabut dan hujan ringan, dengan angin aktif juga diharapkan di Dammam. Jeddah diharapkan untuk mengalami sebagian berawan dengan kondisi berawan, dengan suhu berkisar dari 23 ° C menjadi 32 ° C dan kelembaban relatif mencapai 85 persen.",
+      "originalTitle": "Heavy thunderstorms, flash floods forecast across four Saudi regions",
+      "originalDescription": "JEDDAH — Moderate to heavy thunderstorms capable of causing flash floods are forecast across parts of Jazan, Asir, Al-Baha and Makkah on Thursday, according to the National Center for Meteorology (NCM). The rainfall is expected to be accompanied by hail, active winds and blowing dust. In its daily weather forecast, the NCM said light to moderate rainfall is also expected across parts of Madinah, Hail, Qassim, Riyadh and the Eastern Province. Fog formation is also possible across parts of these regions, as well as Tabuk, Al-Jouf and the Northern Borders Region. In Makkah, moderate to heavy thunderstorms are forecast, accompanied by active winds, hail and blowing dust. The city is expected to record a high of 31°C and a low of 22°C, with relative humidity reaching 85 percent. Jazan is also expected to experience moderate to heavy thunderstorms, accompanied by active winds, hail and blowing dust, with temperatures ranging from 27°C to 31°C and humidity reaching 90 percent. Al-Baha is forecast to experience moderate to heavy thunderstorms, accompanied by active winds and blowing dust, with temperatures ranging from 14°C to 18°C and humidity reaching 95 percent. In Ibha, moderate to heavy thunderstorms and active winds are expected, with temperatures ranging from 12°C to 20°C and humidity reaching 95 percent. Madinah is expected to experience fog, rain-bearing thunderclouds and active winds, with temperatures ranging from 15°C to 25°C and humidity reaching 90 percent. Meanwhile, Riyadh and Dammam are forecast to experience fog and light rainfall, with active winds also expected in Dammam. Jeddah is expected to experience partly cloudy to cloudy conditions, with temperatures ranging from 23°C to 32°C and relative humidity reaching 85 percent.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/12/2793495.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T07:25:12+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666195/saudi-arabia/heavy-thunderstorms-flash-floods-forecast-across-four-saudi-regions"
+    },
+    {
+      "id": "0fb9e35257ef6a0d",
+      "title": "Pertahanan udara Saudi mencegat 9 rudal dan drone sebagai puing jatuh di wilayah Mekah",
+      "description": "RIYADH - pertahanan udara Saudi dicegat dan menghancurkan sembilan rudal dan drone diluncurkan oleh teroris Houthi milisi ke beberapa daerah dari Kingdom antara Rabu dan Kamis, dengan puing-puing dari dua rudal balistik jatuh di sebuah desa di daerah Ascenn. Menurut laporan yang dikeluarkan oleh Mayor Jenderal Turki Al- Malki, juru bicara untuk Coalition untuk mengembalikan Legatimasi di Yaman, ancaman yang dicegat termasuk dua rudal balistik, tiga rudal pesiar dan empat drone menargetkan Riyadh, Mekah, daerah selatan dan timur Arab Saudi. Koalisi pertama mengumumkan penangkapan dan penghancuran tiga rudal pesiar diluncurkan oleh milisi Houthi menuju Riyadh Reseisons pada hari Rabu malam. Kemudian malam itu, koalisi mengumumkan bahwa pertahanan udara dicegat dan menghancurkan dua drone diluncurkan menuju Mekah dan daerah selatan. Koalisi kemudian mengumumkan interception dan penghancuran dua rudal balistik diluncurkan ke arah barat wilayah Rabu malam. Pada jam-jam awal Kamis, koalisi dikonfirmasi bahwa puing-puing dari dua dicegat dan menghancurkan rudal balistik telah jatuh di desa Sabuhah di daerah Mekah. Sekitar periode yang sama, pertahanan udara dicegat dan menghancurkan drone lain di Provinsi Timur. Pengumuman terbaru datang Kamis pagi, ketika koalisi mengkonfirmasi interception dan penghancuran sebuah drone di Riyadh Resection.",
+      "originalTitle": "Saudi air defenses intercept 9 missiles and drones as debris falls in Makkah Region",
+      "originalDescription": "RIYADH — Saudi air defenses intercepted and destroyed nine missiles and drones launched by the terrorist Houthi militia toward several regions of the Kingdom between Wednesday and Thursday, with debris from two ballistic missiles falling on a village in the Makkah Region. According to statements issued by Major General Turki Al-Malki, spokesperson for the Coalition to Restore Legitimacy in Yemen, the intercepted threats included two ballistic missiles, three cruise missiles and four drones targeting the Riyadh, Makkah, southern and eastern regions of Saudi Arabia. The coalition first announced the interception and destruction of three cruise missiles launched by the Houthi militia toward the Riyadh Region on Wednesday evening. Later that evening, the coalition announced that air defenses intercepted and destroyed two drones launched toward the Makkah and southern regions. The coalition subsequently announced the interception and destruction of two ballistic missiles launched toward the western region late Wednesday night. In the early hours of Thursday, the coalition confirmed that debris from two intercepted and destroyed ballistic missiles had fallen on the village of Sabuhah in the Makkah Region. Around the same period, air defenses intercepted and destroyed another drone in the Eastern Province. The latest announcement came Thursday morning, when the coalition confirmed the interception and destruction of a drone in the Riyadh Region.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/12/2793493.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T07:16:49+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666194/saudi-arabia/saudi-air-defenses-intercept-9-missiles-and-drones-as-debris-falls-in-makkah-region"
+    },
     {
       "id": "8ffb5a89c55a28f0",
       "title": "Keluarga Palestina membela pengusiran sebagai pendatang mendirikan pos pos dekat desa Tepi Barat",
