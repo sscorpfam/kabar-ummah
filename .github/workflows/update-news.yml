@@ -1,18 +1,23 @@
-
 name: Update Kabar Ummah
 
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '37 * * * *'
+      timezone: Asia/Jakarta
 
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: update-kabar-ummah
+  cancel-in-progress: false
+
 jobs:
   update-news:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout Repository
@@ -33,7 +38,13 @@ jobs:
         run: |
           git config user.name "Kabar Ummah Bot"
           git config user.email "bot@users.noreply.github.com"
+
           git add data/news.json
           git add data/translation_cache.json
-          git diff --cached --quiet || git commit -m "Update Kabar Ummah news"
-          git push
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Kabar Ummah news"
+            git push
+          else
+            echo "Tidak ada perubahan berita."
+          fi
