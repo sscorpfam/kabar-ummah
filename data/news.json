@@ -1,19 +1,19 @@
 {
-  "status": "success",
-  "lastUpdated": "2026-11-12T13:44:20.471038+00:00",
-  "total": 270,
-  "newArticles": 113,
+  "status": "partial",
+  "lastUpdated": "2026-11-12T21:32:22.062913+00:00",
+  "total": 317,
+  "newArticles": 126,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 12,
-  "sourcesFailed": 0,
+  "sourcesSucceeded": 11,
+  "sourcesFailed": 1,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 0,
-      "filtered": 25,
-      "filteredFootball": 3,
+      "accepted": 7,
+      "filtered": 18,
+      "filteredFootball": 2,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -47,9 +47,9 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 0,
-      "filtered": 50,
-      "filteredFootball": 1,
+      "accepted": 1,
+      "filtered": 49,
+      "filteredFootball": 6,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 13,
-      "filtered": 7,
-      "filteredFootball": 1,
+      "accepted": 14,
+      "filtered": 6,
+      "filteredFootball": 0,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -93,22 +93,22 @@
     },
     {
       "name": "Detik",
-      "status": "success",
-      "raw": 100,
-      "accepted": 2,
-      "filtered": 98,
+      "status": "error",
+      "raw": 0,
+      "accepted": 0,
+      "filtered": 0,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
     },
     {
       "name": "Muhammadiyah",
       "status": "success",
       "raw": 10,
-      "accepted": 4,
-      "filtered": 6,
+      "accepted": 5,
+      "filtered": 5,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -119,8 +119,8 @@
       "name": "NU Online",
       "status": "success",
       "raw": 50,
-      "accepted": 4,
-      "filtered": 46,
+      "accepted": 5,
+      "filtered": 45,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -131,9 +131,9 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 28,
-      "filtered": 22,
-      "filteredFootball": 6,
+      "accepted": 33,
+      "filtered": 17,
+      "filteredFootball": 3,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -143,8 +143,8 @@
       "name": "Saudi Gazette",
       "status": "success",
       "raw": 50,
-      "accepted": 50,
-      "filtered": 0,
+      "accepted": 49,
+      "filtered": 1,
       "filteredFootball": 0,
       "translated": 50,
       "translationPartial": 0,
@@ -156,16 +156,1196 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 143,
+    "translatedArticles": 170,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 860
+    "cacheEntries": 986
   },
   "images": {
-    "found": 270,
+    "found": 317,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "ef4cd98091094e25",
+      "title": "Bethlehem Gereja Pendeta Kelahiran menolak visa untuk berbicara di acara AS",
+      "description": "Gereja Kelahiran Agama menolak visa untuk berbicara di acara AS Diwariskan oleh Yasmine El- Sabawi pada Thu, 11 / 12 / 2026 - 19: 32 Visa juga ditolak oleh Pastor Gereja Lutheran Munther Isaac untuk acara yang terpisah, meskipun sebelumnya mengunjungi Bapa Amerika Issa Thaljieh, Imam paroki di Gereja Kelahiran di Betlehem, dalam sebuah video yang diposting ke akun Instagram-nya, pada 28 Desember 2023 (Pengatur layar / @ fatsaaljieh) Katolik, Ortodoks, dan pemimpin Protestan dibentuk untuk berkumpul di gedung United Methodist dekat Capitol AS pada hari Senin untuk menuntut Kongres bertanggung jawab atas pemukim dan militer Israel, dan juga mengekang transfer senjata AS ke Israel. \"Tekanan di Kongres sedang membangun. Pada September 46 senator Demokrat dan Republik Rand Paul memilih Senator Chris Van Hollen menuntut laporan Departemen Luar Negeri atas pelanggaran Israel di Tepi Barat, termasuk pembunuhan sembilan orang Amerika di sana sejak 2022,\" kelompok Ortodoks Kristen untuk Palestina (OCP), salah satu organisers, mengatakan dalam siaran pers. Pertemuan ini juga datang dua minggu setelah Demokrat memenangkan kemenangan longsor dalam pemilihan tengah semester AS, mengambil kedua ruangan Kongres dan membunuh legislatif negara, bersumpah untuk mengkondisikan bantuan kepada Israel dan berhenti menerima dana kampanye dari kelompok pelobi, Komite Masyarakat Israel Amerika Serikat. Sayang Thaljieh, adik Pastor Issa, sekarang ditetapkan untuk berbicara atas namanya, OCP mengumumkan. \"Saudaraku tidak bisa masuk ke Amerika untuk memberitahumu apa yang terjadi di Bethlehem. Tapi Anda tidak dapat menyangkal visa kebenaran. Anda tidak dapat membungkam orang dengan menjaga satu imam luar ruangan,\" Thaljieh mengatakan dalam rilis pers. \"Saya akan berdiri di Washington, DC, tidak hanya sebagai adiknya, tetapi sebagai putri Betlehem, membawa suara keluarga ditentukan untuk tetap di tanah di mana akar mereka berjalan lebih dalam dari dinding, pos pemeriksaan, dan politik. Kami tida",
+      "originalTitle": "Bethlehem Church of the Nativity priest denied visa to speak at US event",
+      "originalDescription": "Bethlehem Church of the Nativity priest denied visa to speak at US event Submitted by Yasmine El-Sabawi on Thu, 11/12/2026 - 19:32 A visa was also denied to Christmas Lutheran Church pastor Munther Isaac for a separate event, despite previous visits to the US Father Issa Thaljieh, parish priest at the Church of the Nativity in Bethlehem, in the occupied West Bank, speaks in a video posted to his Instagram account, on 28 December 2023 (Screengrab/@fatherissathaljieh) Off Father Issa Thaljieh , the Palestinian parish priest at the Church of the Nativity in Bethlehem, in the occupied West Bank, has been denied a US visa to speak alongside American clergy next week on the gravity of Israeli settler attacks on Palestinian villages. Catholic, Orthodox, and Protestant leaders are set to gather at the United Methodist Building near the US Capitol on Monday to demand that Congress hold accountable both settlers and the Israeli military, and also curb US weapons transfers to Israel . \"Pressure in Congress is building. In September, 46 Democratic senators and Republican Rand Paul voted for Senator Chris Van Hollen’s measure demanding a State Department report on Israeli abuses in the West Bank, including the killings of nine Americans there since 2022,\" the group Orthodox Christians for Palestine (OCP), one of the organisers, said in a press release. The gathering also comes two weeks after Democrats won a landslide victory in the US midterm elections, taking both chambers of Congress and a slew of state legislatures, vowing to condition aid to Israel and stop taking campaign funds from the pro-Israel lobbying group, the American Israeli Public Affairs Committee. Honey Thaljieh, Father Issa's sister, is now set to speak on his behalf, OCP announced. “My brother could not enter America to tell you what is happening in Bethlehem. But you cannot deny a visa to a truth. You cannot silence a people by keeping one priest outside the room,\" Thaljieh said in the press release. \"I will",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Screenshot%202026-11-12%20at%202.39.39%E2%80%AFPM.png.jpg?itok=iBwxDrFV",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Dakwah dan Ulama"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T21:21:32+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/bethlehem-church-nativity-priest-denied-us-visa-speak-washington-dc-event"
+    },
+    {
+      "id": "e422ddcbf2ee8a99",
+      "title": "Koalisi mencegat drone di Riyadh dan daerah timur",
+      "description": "RIYADH - Mayor Jenderal Turki Al- Maliki, juru bicara Koalisi untuk memulihkan Legitimasi di Yaman, menyatakan bahwa sebuah drone, yang ditembakkan oleh teroris Houthi milisi, dicegat dan dihancurkan di daerah Riyadh. Dia mengatakan bahwa drone lain dicegat dan hancur di Provinsi Timur.",
+      "originalTitle": "Coalition intercepts drones in Riyadh and eastern regions",
+      "originalDescription": "RIYADH — Maj. Gen. Turki Al-Maliki, spokesperson of the Coalition to Restore Legitimacy in Yemen, stated that a drone, fired by the terrorist Houthi militia, was intercepted and destroyed in the Riyadh region. He said that another drone was intercepted and destroyed in the Eastern Province.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/12/2793860.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T20:46:52+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666216/saudi-arabia/coalition-intercepts-drones-in-riyadh-and-eastern-regions"
+    },
+    {
+      "id": "a256599539bcf45c",
+      "title": "Penduduk Israel melukai lima orang Palestina",
+      "description": "Penduduk Israel melukai lima penduduk Palestina yang menyerang Atara, sebuah desa Palestina di Tepi Barat yang diduduki dan melukai lima orang pada hari Kamis, sebuah kelompok hak. Serangan datang setelah militer Israel mencatat dua pos yang dibangun oleh pemukim tanpa izin di Tepi Barat. Lebih dari 500.000 orang Israel tinggal di pemukiman di seluruh Tepi Barat, semuanya dianggap ilegal di bawah hukum internasional, dan beberapa di antaranya, dikenal sebagai pos-pos, dibangun tanpa keterlibatan pemerintah Israel. \"Setelah pasukan militer Israel meninggalkan daerah itu, puluhan pemukim, bersenjata dengan klub, gas air mata dan batu, menyerbu desa Atara,\" kelompok hak-hak Israel Yesh Din mengatakan dalam pernyataan. \"Lima penduduk terluka dan dirawat di rumah sakit, satu dalam kondisi serius dengan pendarahan otak\", Yesh Din ditambahkan. Red Crescent Palestina mengatakan salah satu orang yang terluka berusia 67 tahun.",
+      "originalTitle": "Israeli settlers injure five Palestinians",
+      "originalDescription": "Israeli settlers injure five Palestinians Israeli settlers stormed Atara, a Palestinian village in the occupied West Bank and injured five people on Thursday, a rights group said. The attacks came after the Israeli military took down two outposts built by settlers without permission in the West Bank. More than 500,000 Israelis live in settlements across the West Bank, all of which are deemed illegal under international law, and some of which, known as outposts, are built without the Israeli government's involvement. \"After Israeli military forces left the area, dozens of settlers, armed with clubs, tear gas and stones, stormed the village of Atara,\" the Israeli rights group Yesh Din said in a statement. \"Five residents were injured and hospitalised, one in serious condition with a brain haemorrhage,\" Yesh Din added. The Palestinian Red Crescent said one of the injured people was 67 years old.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Mourners%20carry%20the%20body%20of%20a%20Palestinian%20killed%20in%20an%20Israeli%20airstrike%20at%20Nasser%20Hospital%20in%20Khan%20Younis%2C%20in%20the%20southern%20Gaza%20Strip%2C%20during%20a%20funeral%20on%20November%2012%2C%202026.%20afp.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T20:33:40+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-injure-five-palestinians"
+    },
+    {
+      "id": "9cbdc45e45bd102f",
+      "title": "Saudi- AS ikatan bisnis mendapatkan momentum dengan perjanjian kerjasama landmark",
+      "description": "WASHINGTON - Dewan Bisnis AS-Saudi dan Federasi Saudi Chambers telah menandatangani memorandum pemahaman (MoU) untuk memperkuat hubungan antara komunitas bisnis Arab Saudi dan Amerika Serikat. Perjanjian itu ditandatangani oleh Dewan Ketua dan CEO Charles Hallab dan Sekretaris Federasi Jenderal Sultan Al- Musallam. Upacara penandatanganan ini dihadiri oleh Asisten Sekretaris Jenderal untuk Perdagangan Internasional di Federasi Saudi Chambers Majid Al- Mutairi dan Presiden sektor Timur Tengah di Mayer Brown Company Tom Thraya di Washington, D.C. MoU membangun kerangka kerja untuk meningkatkan komunikasi antara perusahaan di dua negara, mengembangkan peluang investasi, dan mengatasi tantangan yang dihadapi bisnis di kedua pasar. Federasi dari Saudi Chambers sedang memainkan peran kunci dalam kemitraan sebagai badan perwakilan sektor swasta Saudi, memastikan bahwa perspektif sektor dan kebutuhan harus dipertimbangkan. Memorandum menetapkan mekanisme praktis untuk kerjasama antara dewan dan federasi, termasuk memfasilitasi kunjungan delegasi perdagangan dan komunikasi antara para pemimpin bisnis, mendukung investasi dan kemitraan strategis, bertukar informasi pasar dan keahlian, dan bekerja melalui saluran yang relevan untuk memfasilitasi perusahaan masuk ke kedua pasar dan mengatasi hambatan yang mereka hadapi. Sebuah kelompok pekerja gabungan akan mengawasi implementasi memorandum dan mengembangkan rencana aksi gabungan. Wakil senior dari kedua belah pihak akan bertemu setiap tiga bulan untuk menilai kemajuan, sektor prioritas dan kegiatan, mengatur jadwal, dan menetapkan tanggung jawab. Berbicara pada kesempatan itu, Hallab mengatakan bahwa Federasi dari Saudi Chambers adalah mitra kunci untuk dewan yang berhubungan dengan dan mendukung sektor swasta Saudi. \"Kesepakatan ini memungkinkan Dewan dan Federasi untuk membawa perusahaan bersama-sama, bekerja terhadap tujuan yang sama, dan memperkuat hubungan perdagangan antara kedua negara kita. Kami menghargai kepemimpinan",
+      "originalTitle": "Saudi-US business ties gain momentum with landmark cooperation agreement",
+      "originalDescription": "WASHINGTON — The US-Saudi Business Council and the Federation of Saudi Chambers have signed a memorandum of understanding (MoU) to strengthen ties between the business communities of Saudi Arabia and the United States of America. The agreement was signed by the Council’s Chairman and CEO Charles Hallab and the Federation’s Secretary General Sultan Al-Musallam. The signing ceremony was attended by Assistant Secretary General for International Trade at the Federation of Saudi Chambers Majid Al-Mutairi and President of the Middle East sector at Mayer Brown Company Tom Thraya in Washington, D.C. The MoU establishes a framework for enhancing communication between companies in the two countries, developing investment opportunities, and addressing challenges facing businesses in both markets. The Federation of Saudi Chambers is playing a key role in the partnership as the representative body of the Saudi private sector, ensuring that the sector’s perspectives and needs are duly considered. The memorandum sets out practical mechanisms for cooperation between the council and the federation, including facilitating trade delegation visits and communication between business leaders, supporting investments and strategic partnerships, exchanging market information and expertise, and working through relevant channels to facilitate companies’ entry into both markets and address the obstacles they encounter. A joint working group will supervise the implementation of the memorandum and develop a joint action plan. Senior representatives from both sides will meet every three months to assess progress, identify priority sectors and activities, set timelines, and assign responsibilities. Speaking on the occasion, Hallab said that the Federation of Saudi Chambers is a key partner for the council in connecting with and supporting the Saudi private sector. “This agreement allows the Council and the Federation to bring companies together, work towards common goals, and strengthen trade rela",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/12/2793854.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T20:25:52+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666215/saudi-arabia/saudi-us-business-ties-gain-momentum-with-landmark-cooperation-agreement"
+    },
+    {
+      "id": "4bbfbc30af281903",
+      "title": "Bayi Palestina meninggal dari dingin di Gaza di tengah-tengah pembatasan Israel pada bantuan",
+      "description": "Ayah sang bayi bilang dia meninggal karena hipotermia semalam di tenda keluarga mereka di Gaza selatan.",
+      "originalTitle": "Palestinian baby dies from cold in Gaza amid Israeli restrictions on aid",
+      "originalDescription": "The baby's father said he died of hypothermia overnight in their family's tent in southern Gaza.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af600eb1b12c-1794506987.jpg?resize=1920%2C1440",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T19:56:26+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/12/palestinian-baby-dies-from-cold-in-gaza-amid-israeli-restrictions-on-aid"
+    },
+    {
+      "id": "3ce6556c0a783f9c",
+      "title": "Putra Mahkota mengucapkan selamat kepada Perdana Menteri Grenada atas pemilihannya.",
+      "description": "RIYADH - Putra Mahkota dan Perdana Menteri Mohammed bin Salman telah mengirimkan pesan selamat kepada Perdana Menteri Grenada Dickon Mitchel pada kesempatan pemilihan ulang-nya sebagai perdana menteri. Putra Mahkota menyatakan selamat yang tulus dan terbaik untuk keberhasilan Mitchel, dan untuk kemajuan lebih lanjut dan kemakmuran kepada orang-orang ramah Grenada.",
+      "originalTitle": "Crown Prince congratulates Grenada prime minister on his re-election",
+      "originalDescription": "RIYADH — Crown Prince and Prime Minister Mohammed bin Salman has sent a cable of congratulations to Prime Minister of Grenada Dickon Mitchel on the occasion of his re-election as prime minister.The Crown Prince expressed his sincere congratulations and best wishes for success to Mitchel, and for further progress and prosperity to the friendly people of Grenada.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/12/2793843.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T19:30:43+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666214/saudi-arabia/crown-prince-congratulates-grenada-prime-minister-on-his-re-election"
+    },
+    {
+      "id": "f09290a9ee88db2b",
+      "title": "Kecacatan kantong udara mencapai 44.305 kendaraan Elantra Hyundai; pemilik mendesak untuk mendapatkan perbaikan gratis",
+      "description": "RIYADH - Departemen Perdagangan telah memperbarui panggilan untuk pemilik kendaraan Hyundai Elantra, diproduksi antara 2009 dan 2011, untuk menanggapi kampanye mengingat lebih cacat pada inflator kantong udara pengemudi yang dapat menyebabkan cedera serius atau fatal. Departemen mendesak pemilik 44.305 yang tersisa di Arab Saudi untuk berhenti mengemudi mereka segera dan menghubungi dealer berwenang untuk mengatur perbaikan gratis untuk memastikan keselamatan mereka. Kementrian menjelaskan bahwa ingatan yang sebelumnya diumumkan meliputi 57.195 kendaraan, yang sekitar 12,890 telah diperbaiki, mewakili 22 persen dari total kendaraan tersebut. Namun, 44.305 kendaraan tetap tidak diperbaiki, mendasari pentingnya segera menghubungi dealer berwenang di seluruh Kingdom untuk mengatasi cacat. Menteri menekankan kebutuhan untuk respon langsung terhadap penarikan. Perusahaan Wallan di 8001240401, Perusahaan Almadouie di 8003040777, atau Mohamed Yousuf Naghi & Brothers di 8001240191, untuk mengatur perbaikan yang diperlukan gratis.",
+      "originalTitle": "Airbag defect hits 44,305 Hyundai Elantra vehicles; owners urged to get free repairs",
+      "originalDescription": "RIYADH — The Ministry of Commerce has renewed its call for owners of Hyundai Elantra vehicles, manufactured between 2009 and 2011, to respond to recall campaigns over a defect in the driver's airbag inflator that could cause serious or fatal injuries.The ministry urged owners of the 44,305 affected vehicles remaining in Saudi Arabia to stop driving them immediately and contact authorized dealers to arrange free repairs to ensure their safety. The ministry explained that the previously announced recall covered 57,195 vehicles, of which approximately 12,890 have been repaired, representing 22 percent of the total. However, 44,305 vehicles remain unrepaired, underscoring the importance of promptly contacting authorized dealers across the Kingdom to address the defect.The ministry stressed the need for an immediate response to the recall. It urged owners to contact the authorized dealers: Wallan Company at 8001240401, Almajdouie Company at 8003040777, or Mohamed Yousuf Naghi & Brothers Group at 8001240191, to arrange the necessary repairs free of charge.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/12/2793841.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T19:23:14+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666213/saudi-arabia/airbag-defect-hits-44305-hyundai-elantra-vehicles-owners-urged-to-get-free-repairs"
+    },
+    {
+      "id": "689d89d087e47c1c",
+      "title": "Dewan Bisnis Saudi-AS dan Kadin Teken Kerja Sama Perkuat Investasi",
+      "description": "Dewan Bisnis Saudi-Amerika Serikat dan Kamar Dagang Saudi menandatangani nota kesepahaman di Washington untuk mempererat hubungan bisnis dan mendorong investasi.",
+      "originalTitle": "Dewan Bisnis Saudi-AS dan Kadin Teken Kerja Sama Perkuat Investasi",
+      "originalDescription": "Dewan Bisnis Saudi-Amerika Serikat dan Kamar Dagang Saudi menandatangani nota kesepahaman di Washington untuk mempererat hubungan bisnis dan mendorong investasi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/image-lkNv6Fx2.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T19:20:40+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/ekonomi/b64vg2a4y"
+    },
+    {
+      "id": "5badd4b1f7d7a33a",
+      "title": "Koalisi Arab Saudi Tembak Jatuh Drone Houthi di Wilayah Riyadh",
+      "description": "Juru bicara Koalisi Arab Saudi mengumumkan keberhasilan menggagalkan dan menghancurkan drone Houthi yang diluncurkan ke wilayah Riyadh.",
+      "originalTitle": "Koalisi Arab Saudi Tembak Jatuh Drone Houthi di Wilayah Riyadh",
+      "originalDescription": "Juru bicara Koalisi Arab Saudi mengumumkan keberhasilan menggagalkan dan menghancurkan drone Houthi yang diluncurkan ke wilayah Riyadh.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-10/اللواء-الركن-تركي-المالكي3-nLwNdAOS.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T19:18:34+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/wmcd4q3qt"
+    },
+    {
+      "id": "873381bc669207fc",
+      "title": "Langit Cagar Imam Turki bin Abdullah Akan Alami Fenomena Astronomi Langka November 2026",
+      "description": "Langit Cagar Imam Turki bin Abdullah di Arab Saudi akan menyuguhkan beragam fenomena astronomi langka pada November 2026, mulai dari konjungsi planet hingga hujan meteor.",
+      "originalTitle": "Langit Cagar Imam Turki bin Abdullah Akan Alami Fenomena Astronomi Langka November 2026",
+      "originalDescription": "Langit Cagar Imam Turki bin Abdullah di Arab Saudi akan menyuguhkan beragam fenomena astronomi langka pada November 2026, mulai dari konjungsi planet hingga hujan meteor.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-ZXC_EWT3.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T19:02:06+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/8xn7l3v5a"
+    },
+    {
+      "id": "a81cef40d17f184c",
+      "title": "2.169 Kendaraan Ditindak karena Parkir di Area Difabel",
+      "description": "Direktorat Jenderal Lalu Lintas menindak 2.169 kendaraan yang parkir di area khusus penyandang disabilitas di berbagai wilayah Arab Saudi.",
+      "originalTitle": "2.169 Kendaraan Ditindak karena Parkir di Area Difabel",
+      "originalDescription": "Direktorat Jenderal Lalu Lintas menindak 2.169 kendaraan yang parkir di area khusus penyandang disabilitas di berbagai wilayah Arab Saudi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-08/الحملة-الميدانية-لضبط-المركبات-المتوقفة-في-الأماكن-المخصصة-ل-oRpIszVB.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T19:00:44+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/v2zlg8h59"
+    },
+    {
+      "id": "0e2bbbe306ffe09a",
+      "title": "Penghinaan masjid Inggris yang datang 'peringatan' mengikuti komentar Palestina",
+      "description": "Pusat Islam Lewisham menuduh penjaga amal memaksakan harapan yang tidak proporsional pada amal Muslim.",
+      "originalTitle": "UK mosque rebukes comission’s ‘warning’ following Palestine comments",
+      "originalDescription": "The Lewisham Islamic Centre accused the charity watchdog of imposing disproportionate expectations on Muslim charities.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af5e344-1794499396.jpg?resize=1920%2C1440",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T18:58:49+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/12/uk-mosque-rebukes-comissions-warning-following-palestine-comments"
+    },
+    {
+      "id": "101acf5daede2087",
+      "title": "X menangguhkan rekening kampanye warga Amerika Palestina untuk Senat AS",
+      "description": "X menangguhkan rekening kampanye warga Palestina yang sedang berjalan untuk Senat AS, dikeluarkan oleh staf MEE pada Thu, 11 / 12 / 2026 - 18 Gaza- lahir dan Philepphia berbasis Ahmed Moor, meluncurkan tantangannya terhadap prof-Israel John Fetterman minggu ini Ahmed Moor, yang mencalonkan diri untuk kursi Pennsylvania di Senat AS pada tahun 2028, digambarkan dalam foto yang belum tertanggal dari situs kampanyenya (MoorForSente.com) Dari Amerika Palestina yang meluncurkan tawaran untuk kursi senat untuk mewakili Pennsylvania dalam pemilihan tahun 2028 telah membuat akun kampanyenya ditangguhkan oleh media sosial X. Akun tersebut, @ moorforpa, milik Gaza-born, Philepphia- mengangkat Ahmed Moor, yang mengatakan minggu ini ia ingin menggulingkan pro- garis keras Israel Senator John Fetterman ketika dia untuk kembali pemilihan dalam dua tahun. Fetterman belum mengumumkan apakah dia berencana untuk lari lagi. \"Teman! Ini resmi! Kami adalah ancaman,\" Moor menulis di akun X pribadinya pada hari Rabu. \"Mereka telah menghentikan rekening kampanye. Bantu kami mempertahankan momentum dengan me-retweet dan pertimbangkan mendonasikan\". Akun kampanye memiliki lebih dari 33.000 pengikut dalam 72 jam peluncuran. Mata Timur Tengah telah menghubungi kampanye Moor. X tidak lagi mempertahankan akun email aktif untuk pertanyaan pers. 'Agenda martabat' Banyak dengan cara yang sama progressives berlari kampanye mereka di seluruh negeri dan berhasil membawa distrik mereka dalam pemilu paruh baya pada 3 November, menyebabkan terobosan bersejarah, slogan kampanye Moor adalah \"Stop Funding Wars\". Mulai Funding Pennsylvania \".\" Saya berlari untuk mengakhiri perang di Iran dan untuk mempromosikan agenda martabat: layanan kesehatan gratis, layanan anak gratis, dan perumahan terjangkau \", menulis di X pada hari Senin, ketika ia mengumumkan dijalankan. Senator AS Fetterman berjuang untuk mempertahankan dukungan bagi Israel sebagai progresif memenangkan Baca Lebih besar\" \"\" Aku menyerukan untuk aku",
+      "originalTitle": "X suspends campaign account of Palestinian American running for US Senate",
+      "originalDescription": "X suspends campaign account of Palestinian American running for US Senate Submitted by MEE staff on Thu, 11/12/2026 - 18:00 Gaza-born and Philadelphia-based Ahmed Moor launched his challenge against hardline pro-Israel Senator John Fetterman this week Ahmed Moor, who is running for a Pennsylvania seat in the US Senate in 2028, is pictured in a undated photo from his campaign website (MoorForSenate.com) Off A Palestinian American who launched his bid for a Senate seat to represent Pennsylvania in the 2028 election has had his campaign account suspended by the social media platform X. The account, @moorforpa, belongs to Gaza-born , Philadelphia-raised Ahmed Moor, who said this week he wants to topple hardline pro- Israel Senator John Fetterman when he's up for re-election in two years . Fetterman has not announced whether he plans to run again. \"FRIENDS! It's official! We're a threat,\" Moor wrote on his personal X account on Wednesday. \"They've suspended the campaign account. Help us maintain the momentum by retweeting and please consider donating.\" The campaign account had over 33,000 followers within some 72 hours of its launch. Middle East Eye has reached out to Moor's campaign. X no longer maintains an active email account for press inquiries. 'The dignity agenda' Much in the same way progressives ran their campaigns around the country and successfully carried their districts in the midterm elections on 3 November, leading to historic breakthroughs, Moor's campaign tagline is \"Stop Funding Wars. Start Funding Pennsylvania.\" \"I’m running to end the war in Iran and to promote the dignity agenda: free healthcare, free childcare, and affordable housing,\" he wrote on X on Monday, when he announced his run. US Senator Fetterman struggles to defend support for Israel as progressives win big Read More » \"I’m calling for accountability for genocide, for ICE and for corruption. And finally, for the protection of our civil liberties in America.\" ICE is Immigration and Custom",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/6ae958f81748b2a9e846a78e_GJ3A8001-p-1080.jpg.jpg?itok=kbQh42mx",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T18:58:17+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/x-suspends-campaign-account-palestinian-american-running-us-senate"
+    },
+    {
+      "id": "57aa86b153745685",
+      "title": "Pro- Palestina dermawan menghadapi sidang ekstradisi AS di Spanyol",
+      "description": "James 'Fergie' Chambers menyangkal kesalahan, sementara istrinya mendesak PM Sanchez untuk memberinya suaka politik.",
+      "originalTitle": "Pro-Palestine philanthropist faces US extradition hearing in Spain",
+      "originalDescription": "James 'Fergie' Chambers denies wrongdoing, while his wife urges PM Sanchez to grant him political asylum.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/Fergie-Chambers1-1788295416.png?resize=1200%2C630",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T18:41:40+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/12/james-fergie-chambers-extradition-hearing"
+    },
+    {
+      "id": "f4f669a9b695e16b",
+      "title": "Abdul Latif Al-Afalq: Arab Saudi Salah Satu Negara dengan Pertumbuhan Wisatawan Tercepat, Identitas Tetap Terjaga",
+      "description": "Peneliti sejarah manusia dan budaya, Abdul Latif Al-Afalq, menegaskan pembukaan sektor pariwisata dan budaya di Arab Saudi tidak mengancam identitas masyarakat.",
+      "originalTitle": "Abdul Latif Al-Afalq: Arab Saudi Salah Satu Negara dengan Pertumbuhan Wisatawan Tercepat, Identitas Tetap Terjaga",
+      "originalDescription": "Peneliti sejarah manusia dan budaya, Abdul Latif Al-Afalq, menegaskan pembukaan sektor pariwisata dan budaya di Arab Saudi tidak mengancam identitas masyarakat.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/featured-crop-VCl8mbII.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T18:40:36+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/vr69vomph"
+    },
+    {
+      "id": "aaacfd76ab7a5ad6",
+      "title": "Pemimpin Demokrat Amerika Serikat Hakeem Jeffries ingin 'perubahan dramatis' di Timur Tengah",
+      "description": "Pemimpin Demokrat Amerika Serikat Hakeem Jeffries ingin 'perubahan dramatis' di Rumah Perwakilan Demokrat Timur Tengah AS pemimpin DPR Hakeem Jeffries menyerukan Kamis untuk \"perubahan dramatis\" di Timur Tengah dan kembali dukungannya untuk dua-negara solusi untuk Israel dan Palestina. Partai Demokrat menyapu kemenangan dalam pemilihan paruh waktu minggu lalu bisa menyebabkan pembengkokan dukungan AS untuk sekutu dekatnya Israel, menempatkan sorotan pada pandangan para pemimpin partai karena mereka bersiap untuk mengambil alih kedua rumah Kongres pada 3 Januari. Jeffries, seorang Demokrat New York, diharapkan menjadi pembicara House berikutnya. \"Status quo tidak dapat diterima, dan kita perlu perubahan dramatis. Dan itu terlihat seperti, sejauh yang saya ketahui, memastikan Anda memiliki Israel yang aman dan aman, hidup berdampingan sebagai Yahudi dan negara demokratis dengan negara Palestina independen yang menyediakan martabat dan tekad sendiri untuk Palestina\", katanya pada konferensi pers mingguan.",
+      "originalTitle": "US House Democratic Leader Hakeem Jeffries wants 'dramatic change' in Middle East",
+      "originalDescription": "US House Democratic Leader Hakeem Jeffries wants 'dramatic change' in Middle East US House of Representatives Democratic leader Hakeem Jeffries called on Thursday for \"dramatic change\" in the Middle East and reiterated his support for a two-state solution for Israelis and the Palestinians. The Democrats' sweeping victories in last week's midterm elections could lead to the curbing of US support for its close ally Israel, putting the spotlight on party leaders' views as they prepare to take control of both houses of Congress on 3 January. Jeffries, a New York Democrat, is expected to be the next House speaker. \"The status quo is unacceptable, and we need dramatic change. And that looks like, as far as I'm concerned, making sure you have a safe and secure Israel, living side by side as a Jewish and democratic state with an independent Palestinian state that provides dignity and self-determination for the Palestinians,\" he said at a weekly press conference.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Mourners%20carry%20the%20body%20of%20a%20Palestinian%20killed%20in%20an%20Israeli%20airstrike%20at%20Nasser%20Hospital%20in%20Khan%20Younis%2C%20in%20the%20southern%20Gaza%20Strip%2C%20during%20a%20funeral%20on%20November%2012%2C%202026.%20afp.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T18:40:25+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/us-house-democratic-leader-jeffries-wants-dramatic-change-middle-east"
+    },
+    {
+      "id": "6f73d4d23dd36d8f",
+      "title": "Arab Saudi Targetkan Refinance Properti Lebih dari 40 Miliar Dolar pada 2030",
+      "description": "Menteri Perumahan Maijd Al-Hogail menyatakan Arab Saudi menargetkan refinancing properti senilai lebih dari 40 miliar dolar AS pada 2030 demi penguatan pasar.",
+      "originalTitle": "Arab Saudi Targetkan Refinance Properti Lebih dari 40 Miliar Dolar pada 2030",
+      "originalDescription": "Menteri Perumahan Maijd Al-Hogail menyatakan Arab Saudi menargetkan refinancing properti senilai lebih dari 40 miliar dolar AS pada 2030 demi penguatan pasar.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/وزارة-البلديات-والإسكان-4ckSr_zm.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T18:20:16+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/ekonomi/utuhinq2j"
+    },
+    {
+      "id": "1d3beef4692febe8",
+      "title": "Nasser kepala rumah sakit khawatir serangan Israel akan terus, laporan mengatakan",
+      "description": "kepala rumah sakit Nasser khawatir serangan Israel akan terus, laporan mengatakan Dr Ahmed al- Farra, direktur Nasser Medical Complex di Gaza selatan, mengatakan pasien dan staf berada dalam bahaya dan bahwa ia percaya Israel serangan pada fasilitas akan terus, Al Jazeera melaporkan. \"Ini adalah ketujuh kalinya bahwa hal ini telah terjadi terhadap Nasser Medical Complex, dan saya pikir ini tidak akan berhenti, mereka [Israel] akan terus menargetkan mereka,\" al- Farra mengatakan dalam konferensi berita di Khan Younis. \"Nasser Medical Complex melayani hampir satu juta orang; mereka menerima ribuan pasien. Ribuan operasi dilakukan\", tambahnya.",
+      "originalTitle": "Nasser hospital chief worries Israeli attacks will continue, report says",
+      "originalDescription": "Nasser hospital chief worries Israeli attacks will continue, report says Dr Ahmed al-Farra, the director of Nasser Medical Complex in southern Gaza, said patients and staff were in danger and that he believed Israeli attacks on the facility would continue, Al Jazeera reported. “This is the seventh time that this has happened against Nasser Medical Complex, and I think this will not stop; they [Israeli forces] will continue their targeting,” al-Farra said in a news conference in Khan Younis. “Nasser Medical Complex is serving nearly one million people; they are receiving thousands of patients. Thousands of operations are done,” he added.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Mourners%20carry%20the%20body%20of%20a%20Palestinian%20killed%20in%20an%20Israeli%20airstrike%20at%20Nasser%20Hospital%20in%20Khan%20Younis%2C%20in%20the%20southern%20Gaza%20Strip%2C%20during%20a%20funeral%20on%20November%2012%2C%202026.%20afp.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T18:06:50+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/nasser_hospital_chief_worries_israeli_attacks_will_continue"
+    },
+    {
+      "id": "f4382a50627c27bd",
+      "title": "Al Jazeera melaporkan dari rumah sakit Gaza yang diserang oleh Israel",
+      "description": "Laporan Abu Azzoum dari Al Jazeera tentang serangan Israel di Rumah Sakit Nasser",
+      "originalTitle": "Al Jazeera reports from Gaza hospital attacked by Israel",
+      "originalDescription": "Al Jazeera’s Tareq Abu Azzoum reports on the aftermath of an Israeli strike on Nasser Hospital",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794506574.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T18:03:02+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/12/al-jazeera-reports-from-gaza-hospital-attacked-by-israel"
+    },
+    {
+      "id": "20f36d34a5b29bf5",
+      "title": "Houthis Yaman mengatakan mereka menyerang stasiun pompa di Arab Saudi Timur-Barat pipa minyak",
+      "description": "Rumah-rumah Yaman mengatakan mereka menyerang stasiun pompa di Arab Saudi Timur-Barat pipa minyak pipa-Yemen Yemen Iran- mengatakan Houthis pada hari Kamis mereka menyerang stasiun pompa di Saudi Arab Timur pipa minyak Saudi dan fasilitas minyak di Yanbu. Arab Saudi tidak segera mengkonfirmasi pernyataan Houthi.",
+      "originalTitle": "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil Pipeline",
+      "originalDescription": "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil Pipeline Yemen's Iran-aligned Houthis said on Thursday they attacked a pumping station on Saudi Arabia's East-West oil pipeline and an oil facility in Yanbu. Saudi Arabia did not immediately confirm the Houthi statement.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Mourners%20carry%20the%20body%20of%20a%20Palestinian%20killed%20in%20an%20Israeli%20airstrike%20at%20Nasser%20Hospital%20in%20Khan%20Younis%2C%20in%20the%20southern%20Gaza%20Strip%2C%20during%20a%20funeral%20on%20November%2012%2C%202026.%20afp.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T17:33:04+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-say-they-attacked-pumping-station-saudi-arabias-east-west"
+    },
+    {
+      "id": "1e74b516b4e4469f",
+      "title": "Menteri luar negeri Belanda menurun untuk menyangkal pembicaraan sedang berlangsung pada kekuatan ICC meringkuk",
+      "description": "Menteri luar negeri Belanda menolak untuk melarang pembicaraan-pembicaraan tersebut dengan cara membatasi kekuasaan ICC yang digulingkan oleh Sondos Asem, 11 / 12 / 2026 - 14: 07 PM meminta menteri jika Belanda mendiskusikan pembatasan yang dapat melindungi Israel dan pejabat Amerika Serikat dari penuntutan Menteri Luar Negeri Belanda Tom Berendsen pada pertemuan para menteri asing di Helsingborg, Swedia pada 22 Mei 2026 (Jonathan Nackstrrand / AFP) Dipertanyakan di parlemen pada hari Rabu, Berendsen mengatakan diskusi diplomatik sedang berlangsung tapi ia tidak akan menentukan apakah proposal untuk melindungi pemimpin nasional dan membatasi yurisdiksi pengadilan berada di bawah pertimbangan. Pertukaran tersebut diikuti oleh organisasi hak cipta Belanda The Rights Forum, menyebutkan sumber diplomatik anonim di New York, bahwa Belanda sedang menegosiasikan pembatasan dalam menanggapi sanksi AS. Hanneke van der Werf MP, dari partai Demokrat 66, bertanya apakah diskusi termasuk kekebalan terhadap kepala negara dan pemerintah, termasuk negara-negara luar perjanjian pendiri pengadilan dari yurisdiksi, dan melemahkan kemampuannya untuk campur tangan ketika otoritas nasional gagal untuk menuntut. Jawaban Berendsen tidak mengkonfirmasi proposal yang dilaporkan, tetapi mereka juga tidak menjawab apakah pemerintah akan menolaknya. Dia mengatakan kepada parlemen dia akan mengirim MPS surat minggu depan mengatur posisi Belanda 'untuk Majelis Partai Amerika mendatang, termasuk pendekatan diplomatik untuk menangani AS sanksi terhadap pengadilan. \"Diskusi sedang berlangsung tentang jalur diplomatik sedang dikejar\", kata Berendsen. \"Saya tidak bisa mengantisipasi subjek mana yang atau tidak di atas meja\". Dia menambahkan bahwa Belanda tidak bisa memutuskan masalah ini saja, karena lebih dari 120 anggota negara akan berpotensi mencapai kesepakatan dengan AS.' Semua jenis diskusi berlangsung, tapi itu tidak berarti bahwa ini adalah posisi Belanda mengambil '- Menteri Luar Negeri Tom ",
+      "originalTitle": "Dutch foreign minister declines to deny talks are under way on curbing ICC powers",
+      "originalDescription": "Dutch foreign minister declines to deny talks are under way on curbing ICC powers Submitted by Sondos Asem on Thu, 11/12/2026 - 14:07 MPs asked minister if Netherlands is discussing restrictions that could shield Israeli and US officials from prosecution The Netherlands' Foreign Minister Tom Berendsen at the Nato foreign ministers' meeting in Helsingborg, Sweden on 22 May 2026 (Jonathan Nackstrand/AFP) Off Dutch Foreign Minister Tom Berendsen has declined to rule out the suggestion that discussions are taking place over sweeping restrictions on the International Criminal Court (ICC), following a report that the Netherlands is negotiating with Washington over changes that could severely undermine the court's powers. Questioned in parliament on Wednesday, Berendsen said diplomatic discussions were taking place but he would not specify whether proposals to shield national leaders and restrict the court's jurisdiction were under consideration. The exchange followed a report by Dutch rights organisation The Rights Forum , citing anonymous diplomatic sources in New York, that the Netherlands was negotiating restrictions in response to US sanctions. Hanneke van der Werf MP, from the Democrats 66 party, asked whether discussions included immunity for heads of state and government, excluding nationals of countries outside the court's founding treaty from its jurisdiction, and weakening its ability to intervene when national authorities fail to prosecute. Berendsen's answers did not confirm the reported proposals, but nor did they answer whether the government would reject them. He told parliament he would send MPs a letter next week setting out the Netherlands’ position for the upcoming Assembly of States Parties, including its diplomatic approach to addressing US sanctions against the court. \"Discussions are currently taking place about the diplomatic track being pursued,\" Berendsen said. \"I cannot anticipate which subjects are or are not on the table.\" He added that the Ne",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/tom-dutch-fm-afp-2026.jpg.jpg?itok=-3o2_tFW",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T17:26:49+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/dutch-foreign-minister-declines-rule-out-talks-curbing-icc-powers"
+    },
+    {
+      "id": "6674a0ff2cef32bf",
+      "title": "Arab Saudi Tegaskan Pentingnya Diversifikasi Energi Sesuai Visi 2030",
+      "description": "Arab Saudi menegaskan komitmennya untuk diversifikasi energi pada pertemuan tingkat tinggi kelompok energi fusi dunia di Wina.",
+      "originalTitle": "Arab Saudi Tegaskan Pentingnya Diversifikasi Energi Sesuai Visi 2030",
+      "originalDescription": "Arab Saudi menegaskan komitmennya untuk diversifikasi energi pada pertemuan tingkat tinggi kelompok energi fusi dunia di Wina.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-gGBlTNvs.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T17:21:55+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/ekonomi/zhtu3p58j"
+    },
+    {
+      "id": "a438de96000f732d",
+      "title": "'Tangannya sedingin es': Keluarga Gaza berjuang untuk tetap hangat",
+      "description": "Tenda yang dipenuhi banjir dan harga tinggi meninggalkan keluarga Gaza berjuang untuk menjaga anak-anak tetap hangat sebagai pendekatan musim dingin.",
+      "originalTitle": "‘Her hands are as cold as ice’: Gaza families struggle to keep warm",
+      "originalDescription": "Flooded tents and high prices leave Gaza families struggling to keep children warm as winter approaches.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/873A3697-copy-1794496426.jpg?resize=1920%2C1440",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T17:18:13+00:00",
+      "originalUrl": "https://www.aljazeera.com/features/2026/11/12/her-hands-are-as-cold-as-ice-gaza-families-struggle-to-keep-warm"
+    },
+    {
+      "id": "2fe67f710f851eda",
+      "title": "Arab Saudi dan Turki Perkuat Kerja Sama Industri Militer Lewat Transfer Teknologi",
+      "description": "Bander bin Ibrahim Al-Khorayef menegaskan pentingnya kolaborasi industri militer Arab Saudi-Turki dan peran program Rukn dalam pengembangan pemasok lokal.",
+      "originalTitle": "Arab Saudi dan Turki Perkuat Kerja Sama Industri Militer Lewat Transfer Teknologi",
+      "originalDescription": "Bander bin Ibrahim Al-Khorayef menegaskan pentingnya kolaborasi industri militer Arab Saudi-Turki dan peran program Rukn dalam pengembangan pemasok lokal.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-zjALNiIN.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T17:17:07+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/y2nlzrzi7"
+    },
+    {
+      "id": "2068ff0284e06ae0",
+      "title": "Israel mengatakan itu akan melarang Perancis pemimpin sayap kiri Melenchon dari entri",
+      "description": "Israel mengatakan itu akan melarang pemimpin sayap kiri Perancis Melenchon dari entri Israel mengatakan bahwa itu akan melarang Perancis sayap kiri pesaing presiden Jean- Luc Melenchon dari kunjungan setelah ia bersumpah bahwa kapal-kapal Perancis akan menemani aktivis berharap untuk memaksa bantuan ke Gaza jika ia terpilih. Dalam sebuah pernyataan pada hari Kamis, menteri luar negeri Israel mengatakan bahwa \"tidak akan memungkinkan individu yang bertindak melawan Israel\" untuk memasuki negara itu.",
+      "originalTitle": "Israel says it will ban French left-wing leader Melenchon from entry",
+      "originalDescription": "Israel says it will ban French left-wing leader Melenchon from entry Israel said that it would ban French left-wing presidential contender Jean-Luc Melenchon from visiting after he vowed that French vessels would accompany activists hoping to force aid into Gaza if he were elected. In a statement on Thursday, the Israeli foreign ministry said that it \"will not allow individuals who act against Israel\" to enter the country.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Mourners%20carry%20the%20body%20of%20a%20Palestinian%20killed%20in%20an%20Israeli%20airstrike%20at%20Nasser%20Hospital%20in%20Khan%20Younis%2C%20in%20the%20southern%20Gaza%20Strip%2C%20during%20a%20funeral%20on%20November%2012%2C%202026.%20afp.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T17:07:44+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-says-will-ban-french-hard-left-leader-melenchon-entry"
+    },
+    {
+      "id": "bd52360f229e79a3",
+      "title": "Yerusalem Daily: Rumah Sakit Nasser Gaza ditabrak oleh serangan udara Israel",
+      "description": "Untuk ketujuh kalinya, Israel telah menargetkan Rumah Sakit Nasser Gaza dalam serangan udara.",
+      "originalTitle": "Jerusalem Daily: Gaza’s Nasser Hospital hit by Israeli air strike",
+      "originalDescription": "For the seventh time, Israel has targeted Gaza’s Nasser Hospital in an air strike.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/clean-Thumbnail-1794502473.png?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T16:55:10+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike"
+    },
+    {
+      "id": "60328712cf6f025a",
+      "title": "Arab Saudi Danai Tahap Keempat Jembatan Busaiteen di Bahrain",
+      "description": "Pemerintah Bahrain menandatangani kontrak tahap keempat proyek Jembatan Busaiteen yang didanai hibah Arab Saudi senilai lebih dari 937 juta riyal.",
+      "originalTitle": "Arab Saudi Danai Tahap Keempat Jembatan Busaiteen di Bahrain",
+      "originalDescription": "Pemerintah Bahrain menandatangani kontrak tahap keempat proyek Jembatan Busaiteen yang didanai hibah Arab Saudi senilai lebih dari 937 juta riyal.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-NrnhEuSI.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T16:36:20+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/rqvneijjy"
+    },
+    {
+      "id": "679b15cf37f87e97",
+      "title": "Waketum MUI ajak umat beragama jaga kesejukan bangsa",
+      "description": "Wakil Ketua Umum Majelis Ulama Indonesia (MUI) Marsudi Syuhud mengajak seluruh umat beragama di Indonesia untuk terus ...",
+      "originalTitle": "Waketum MUI ajak umat beragama jaga kesejukan bangsa",
+      "originalDescription": "Wakil Ketua Umum Majelis Ulama Indonesia (MUI) Marsudi Syuhud mengajak seluruh umat beragama di Indonesia untuk terus ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/12/19579.jpg",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam",
+        "Dakwah dan Ulama"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-12T16:26:18+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5850507/waketum-mui-ajak-umat-beragama-jaga-kesejukan-bangsa"
+    },
+    {
+      "id": "57083e77690191ad",
+      "title": "Arab Saudi, Kenya menandatangani perjanjian untuk mengatur perekrutan pekerja dalam negeri",
+      "description": "RIYADH - Wakil Menteri Sumber Daya Manusia dan Pengembangan Sosial untuk Tenaga Kerja Abdullah Abuthanain menerima Sekretaris Kabinet Kenya untuk Buruh dan Perlindungan Sosial Alfred Nganga Mutua di markas pelayanan di Riyadh pada hari Kamis. Beberapa pejabat menteri Saudi senior dan delegasi Kenyan menemani juga menghadiri pertemuan. Pertemuan ini membahas cara untuk memperkuat kerjasama antara Arab Saudi dan Kenya di bidang kepentingan bersama di sektor kerja paksa, terutama dengan mengembangkan mekanisme kerja sama untuk perekrutan pekerja dalam negeri, meningkatkan efektivitas pelatihan keberangkatan dan program kualifikasi, dan meningkatkan kesadaran hak-hak kontrak dan kewajiban. Upaya ini bertujuan untuk meningkatkan kesiapan para pekerja domestik, meningkatkan kualitas layanan perekrutan, mempromosikan stabilitas dalam hubungan kontrak, dan melindungi hak-hak semua pihak. Kedua pihak juga mendiskusikan mekanisme penguatan koordinasi teknis, pertukaran keahlian dan praktek terbaik dalam pelatihan dan kualifikasi, dan meningkatkan prosedur yang berkaitan dengan perekrutan pekerja domestik. Langkah-langkah ini bertujuan untuk meningkatkan efisiensi proses perekrutan, meningkatkan hasil mereka, dan melayani kepentingan bersama dari kedua negara. Setelah pertemuan tersebut, Abdullah Abuthnain dan Alfred Nganga Mutua menandatangani annex teknis untuk menyetujui perekrutan pekerja domestik antara Arab Saudi dan Kenya, ditandatangani pada 5 Juli 2026. Annex adalah bagian dari upaya untuk memperkuat kerjasama dan mengembangkan mekanisme teknis dan regulasi yang mengatur perekrutan pekerja domestik. Annex teknis bertujuan untuk prosedur tipis dan mengurangi biaya merekrut pekerja domestik dari Kenya ke Arab Saudi. Hal ini juga berusaha untuk meningkatkan efisiensi mekanisme perekrutan, memastikan kepatuhan dengan peraturan yang disetujui, melindungi hak-hak majikan dan pekerja dalam negeri, dan mengatur hubungan kontrak antara dua partai. Penandatanganan annex membang",
+      "originalTitle": "Saudi Arabia, Kenya sign deal to regulate recruitment of domestic workers",
+      "originalDescription": "RIYADH — Deputy Minister of Human Resources and Social Development for Labor Abdullah Abuthnain received Kenya’s Cabinet Secretary for Labour and Social Protection Alfred Nganga Mutua at the ministry’s headquarters in Riyadh on Thursday. Several senior Saudi ministry officials and the accompanying Kenyan delegation also attended the meeting. The meeting discussed ways to strengthen cooperation between Saudi Arabia and Kenya in areas of mutual interest in the labor sector, particularly by developing cooperation mechanisms for the recruitment of domestic workers, improving the effectiveness of pre-departure training and qualification programs, and raising awareness of contractual rights and obligations. These efforts aimed to enhance the readiness of domestic workers, improve the quality of recruitment services, promote stability in contractual relations, and protect the rights of all parties. The two sides also discussed mechanisms for strengthening technical coordination, exchanging expertise and best practices in training and qualification, and improving procedures related to the recruitment of domestic workers. These measures aimed to enhance the efficiency of recruitment processes, improve their outcomes, and serve the mutual interests of both countries. Following the meeting, Abdullah Abuthnain and Alfred Nganga Mutua signed a technical annex to the agreement on the recruitment of domestic workers between Saudi Arabia and Kenya, signed on July 5, 2026. The annex is part of efforts to strengthen cooperation and develop the technical and regulatory mechanisms governing the recruitment of domestic workers. The technical annex aims to streamline procedures and reduce the costs of recruiting domestic workers from Kenya to Saudi Arabia. It also seeks to improve the efficiency of recruitment mechanisms, ensure compliance with approved regulations, protect the rights of employers and domestic workers, and regulate the contractual relationship between the two parties. Th",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/12/2793757.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T16:13:46+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666211/saudi-arabia/saudi-arabia-kenya-sign-deal-to-regulate-recruitment-of-domestic-workers"
+    },
+    {
+      "id": "49088d8c515f13bf",
+      "title": "BDS mengklaim menang sebagai raksasa energi keluar dari proyek gas Israel di Gaza",
+      "description": "Boycott, Divest dan gerakan Sanctions mengklaim kemenangan setelah sebuah perusahaan meninggalkan proyek gas Israel di Gaza.",
+      "originalTitle": "BDS claims win as energy giants quit Israeli gas project off Gaza",
+      "originalDescription": "The Boycott, Divest and Sanctions movement is claiming victory after a company left an Israeli-led gas project off Gaza.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794499621.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T16:07:16+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/12/bds-claims-win-as-energy-giants-quit-israeli-gas-project-off-gaza"
+    },
+    {
+      "id": "f54ddce054d339dd",
+      "title": "Soud Al-Sarami: Kebijakan PSSI Saudi dan Kemajuan Liga Roshn Perkuat Peluang Raih Penghargaan Terbaik Asia",
+      "description": "Pengamat olahraga Soud Al-Sarami menilai PSSI Arab Saudi punya peluang kuat meraih penghargaan federasi terbaik Asia berkat kebijakan dan kemajuan liga domestik.",
+      "originalTitle": "Soud Al-Sarami: Kebijakan PSSI Saudi dan Kemajuan Liga Roshn Perkuat Peluang Raih Penghargaan Terbaik Asia",
+      "originalDescription": "Pengamat olahraga Soud Al-Sarami menilai PSSI Arab Saudi punya peluang kuat meraih penghargaan federasi terbaik Asia berkat kebijakan dan kemajuan liga domestik.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Screenshot2026-11-12173610-crop-1nhC1yZP.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T16:02:38+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/olahraga/kw337yk55"
+    },
+    {
+      "id": "418e5dd0aeb5027a",
+      "title": "Jadi Tuan Rumah Tanwir, Muhammadiyah Sulteng Bidik Lompatan Gerakan Dakwah",
+      "description": "MUHAMMADIYAH.OR.ID, PALU – Sebanyak 38 Pimpinan Wilayah Muhammadiyah (PWM) dari seluruh Indonesia dipastikan siap mengikuti Tanwir Muhammadiyah 2026 yang akan diselenggarakan di Universitas Muhammadiyah (Unismuh) Palu, Sulawesi Tengah (Sulteng) pada 13-15 November 2026. Kepastian tersebut disampaikan Rektor Unismuh Palu, Rajindra, pada Kamis (12/11) malam dalam acara Malam Taaruf dan Silaturahmi Peserta Tanwir Muhammadiyah 2026 di […] The post Jadi Tuan Rumah Tanwir, Muhammadiyah Sulteng Bidik Lompatan Gerakan Dakwah appeared first on Muhammadiyah .",
+      "originalTitle": "Jadi Tuan Rumah Tanwir, Muhammadiyah Sulteng Bidik Lompatan Gerakan Dakwah",
+      "originalDescription": "MUHAMMADIYAH.OR.ID, PALU – Sebanyak 38 Pimpinan Wilayah Muhammadiyah (PWM) dari seluruh Indonesia dipastikan siap mengikuti Tanwir Muhammadiyah 2026 yang akan diselenggarakan di Universitas Muhammadiyah (Unismuh) Palu, Sulawesi Tengah (Sulteng) pada 13-15 November 2026. Kepastian tersebut disampaikan Rektor Unismuh Palu, Rajindra, pada Kamis (12/11) malam dalam acara Malam Taaruf dan Silaturahmi Peserta Tanwir Muhammadiyah 2026 di […] The post Jadi Tuan Rumah Tanwir, Muhammadiyah Sulteng Bidik Lompatan Gerakan Dakwah appeared first on Muhammadiyah .",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/11/jadi-tuan-rumah-tanwir-muhammadiyah-sulteng-bidik-lompatan-gerakan-dakwah.jpeg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "Muhammadiyah",
+      "sources": [
+        "Muhammadiyah"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-12T16:02:35+00:00",
+      "originalUrl": "https://muhammadiyah.or.id/2026/11/jadi-tuan-rumah-tanwir-muhammadiyah-sulteng-bidik-lompatan-gerakan-dakwah"
+    },
+    {
+      "id": "fff7dcb3d8a30cf3",
+      "title": "Luncurkan Buku Terbaru, Haedar Nashir Ulas Kunci Kemajuan Organisasi dan Kepemimpinan Muhammadiyah",
+      "description": "MUHAMMADIYAH.OR.ID, PALU – Perkembangan Muhammadiyah dalam kurun beberapa tahun terakhir, menunjukkan transformasi gerakan dakwah yang semakin adaptif terhadap disrupsi digital. Dalam konteks saat ini misalnya, selama 10 tahun belakangan Muhammadiyah telah melakukan tajdid organisasi, antara lain lewat digitalisasi berbagai platform seperti SatuMu, aplikasi MASA, serta pembaruan pendaftaran dan pengelolaan Kartu Tanda Anggota Muhammadiyah (KTAM) melalui […] The post Luncurkan Buku Terbaru, Haedar Nashir Ulas Kunci Kemajuan Organisasi dan Kepemimpinan Muhammadiyah appeared first on Muhammadiyah .",
+      "originalTitle": "Luncurkan Buku Terbaru, Haedar Nashir Ulas Kunci Kemajuan Organisasi dan Kepemimpinan Muhammadiyah",
+      "originalDescription": "MUHAMMADIYAH.OR.ID, PALU – Perkembangan Muhammadiyah dalam kurun beberapa tahun terakhir, menunjukkan transformasi gerakan dakwah yang semakin adaptif terhadap disrupsi digital. Dalam konteks saat ini misalnya, selama 10 tahun belakangan Muhammadiyah telah melakukan tajdid organisasi, antara lain lewat digitalisasi berbagai platform seperti SatuMu, aplikasi MASA, serta pembaruan pendaftaran dan pengelolaan Kartu Tanda Anggota Muhammadiyah (KTAM) melalui […] The post Luncurkan Buku Terbaru, Haedar Nashir Ulas Kunci Kemajuan Organisasi dan Kepemimpinan Muhammadiyah appeared first on Muhammadiyah .",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/11/luncurkan-buku-terbaru-haedar-nashir-ulas-kunci-kemajuan-organisasi-dan-kepemimpinan-muhammadiyah.jpeg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "Muhammadiyah",
+      "sources": [
+        "Muhammadiyah"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-12T15:48:51+00:00",
+      "originalUrl": "https://muhammadiyah.or.id/2026/11/luncurkan-buku-terbaru-haedar-nashir-ulas-kunci-kemajuan-organisasi-dan-kepemimpinan-muhammadiyah"
+    },
+    {
+      "id": "f5af41b164eccfbe",
+      "title": "Pendidikan Jazan sambut gelombang ketiga guru Tiongkok untuk penguatan pengajaran bahasa Mandarin",
+      "description": "Dinas Pendidikan Jazan menerima gelombang ketiga guru dari Tiongkok untuk mengajar bahasa Mandarin di sekolah-sekolah daerah tersebut, sebagai bagian dari kerja sama pendidikan dan budaya antara Arab Saudi dan Tiongkok.",
+      "originalTitle": "Pendidikan Jazan sambut gelombang ketiga guru Tiongkok untuk penguatan pengajaran bahasa Mandarin",
+      "originalDescription": "Dinas Pendidikan Jazan menerima gelombang ketiga guru dari Tiongkok untuk mengajar bahasa Mandarin di sekolah-sekolah daerah tersebut, sebagai bagian dari kerja sama pendidikan dan budaya antara Arab Saudi dan Tiongkok.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/42a10ddc-2fd7-41c5-83b6-a9c98b55e748-crop-uVYfuXzV.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T15:48:20+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/9w3pdqio8"
+    },
+    {
+      "id": "9f169660165265ec",
+      "title": "10 orang Palestina terbunuh sejak fajar",
+      "description": "10 orang Palestina tewas sejak fajar Al Jazeera melaporkan bahwa 10 orang telah terbunuh dalam serangan Israel di seluruh Gaza sejak fajar, termasuk dua serangan terhadap rumah sakit yang menewaskan setidaknya tujuh orang. Sebuah serangan mematikan semalam di Nasser Medical Kompleks di Khan Younis membunuh enam orang, termasuk ahli bedah dan pasien, sementara setidaknya satu kematian dilaporkan setelah serangan terpisah dekat pintu masuk ke Rumah Sakit Gaza City al- Shifa. Al Jazeera mengatakan bahwa beberapa korban juga dilaporkan setelah pesawat tak berawak Israel menabrak kendaraan selatan Deir al- Balah di pusat Gaza. Sementara itu, agen berita Wafa melaporkan tiga kematian setelah enam awal serangan Rumah Sakit Nasser. Menurut laporan, Hossam Ali Saleha tewas dalam serangan menargetkan kendaraan di luar pintu masuk ke Rumah Sakit Alfa di Gaza City. Di Deir al- Balah, sebuah pesawat tak berawak Israel menabrak sebuah kendaraan di selatan kota, membunuh 26 tahun Nashat Fouad Awwad. Di Gaza Utara, orang Palestina lainnya terbunuh dan beberapa lainnya terluka akibat kebakaran Israel yang menargetkan sekelompok orang di dekat Jabalia di pemakaman Nazla.",
+      "originalTitle": "10 Palestinians killed since dawn",
+      "originalDescription": "10 Palestinians killed since dawn Al Jazeera reports that 10 people have been killed in Israeli attacks across Gaza since dawn, including two strikes on hospitals which killed at least seven people. A deadly overnight strike on the Nasser Medical Complex in Khan Younis killed six people, including surgeons and patients, while at least one death was reported after a separate attack near the entrance to Gaza City's al-Shifa Hospital. Al Jazeera said that multiple casualties were also reported after an Israeli drone struck a vehicle south of Deir al-Balah in central Gaza. Meanwhile, Wafa news agency reports three deaths following the initial six in the Nasser Hospital attack. According to the report, Hossam Ali Saleha was killed in a strike targeting a vehicle outside the entrance to al-Shifa Hospital in Gaza City. In Deir al-Balah, an Israeli drone struck a vehicle in the city's south, killing 26-year-old Nashat Fouad Awwad. In northern Gaza, another Palestinian was killed and several others wounded by Israeli fire targeting a group of people near Jabalia al-Nazla Cemetery.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Mourners%20carry%20the%20body%20of%20a%20Palestinian%20killed%20in%20an%20Israeli%20airstrike%20at%20Nasser%20Hospital%20in%20Khan%20Younis%2C%20in%20the%20southern%20Gaza%20Strip%2C%20during%20a%20funeral%20on%20November%2012%2C%202026.%20afp.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T15:48:07+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/11-palestinians-killed-dawn"
+    },
+    {
+      "id": "082f0f245eb45261",
+      "title": "Akankah Demokrat baru di Kongres membuat ulang partai genosida dan perang?",
+      "description": "Akankah Demokrat baru di Kongres membuat ulang partai genosida dan perang? Diberikan oleh Joe Gill on Thu, 11 / 12 / 2026 - 10: 16 Setelah 40 tahun dogma neoliberal dari Demokrat DC, sebuah panen baru dari sosialis Mamdany yang menginspirasi pro- Israel, pro- perusahaan konsensus - memilih Abdul El- Sayed di AS Capitol pada 9 November 2026 di Washington, DC (Finn Gomez / Getty Gambar) Off Old anjing tidak bisa belajar trik baru. Dalam kasus Antony Blinken, mantan sekretaris negara AS, sebuah karir yang mendukung kepentingan Israel berpuncak kesetiaan mutlak terhadap rezim apartheid selama genosida di Gaza, yang dimulai dan berlanjut selama masa jabatannya di Departemen Luar Negeri. Sekarang, tiga tahun berlalu dan hampir dua tahun keluar dari kantor, ini \"sahabat sejati Israel\", dengan sikap diplomatik lembut berbicara, terus melihat hanya sah pertahanan dalam pembantaian massal laki-laki, perempuan dan anak-anak bahwa Israel terus menimbulkan pada Palestina. Dalam 11 kunjungan ke Israel selama serangan itu, ia tidak pernah melakukan kurang dari meyakinkan rezim Netanyahu bahwa pembunuhan massal bisa terus dengan dukungan penuh AS. Dengan berlalunya waktu, apa Blinken mengizinkan sedikit refleksi atas dukungannya terhadap mesin pembunuh Israel di setiap momen penting selama genosida? Tidak sama sekali. Pada Federasi Yahudi Amerika Utara acara pada 8 November, Blinken adalah berlatih nya pertahanan terhadap kejahatan perang biaya di sidang pengadilan internasional di masa depan. Mûsâ berkata, \"Sesungguhnya perlindungan Allah selalu menyertai ke mana aku pergi. Dia akan memenangkan kalian atas musuh-musuh kalian\". Tapi itu sangat berbeda - sangat berbeda - dari niat untuk menyakiti mereka, dari niat untuk menghilangkan mereka. Targetnya Hamas, dan terlalu banyak orang tertangkap di tengah-tengah itu... \"Di tengah euphoria tentang 'Gelombang Biru' yang menggulingkan partai Republik, mari kita ingat: ini adalah US Demokrat, partai lain dari perang dan genosida Di masa d",
+      "originalTitle": "Will the new Democrats in Congress remake the party of genocide and war?",
+      "originalDescription": "Will the new Democrats in Congress remake the party of genocide and war? Submitted by Joe Gill on Thu, 11/12/2026 - 10:16 After 40 years of neoliberal dogma from the DC Democrats, a new crop of Mamdani-inspired socialists are challenging the duopoly's pro-Israel, pro-corporate consensus Senator-elect Abdul El-Sayed at the US Capitol on 9 November 2026 in Washington, DC (Finn Gomez/Getty Images) Off Old dogs can’t learn new tricks. In the case of Antony Blinken , the former US secretary of state, a career supporting Israeli interests culminated in his absolute fidelity to the apartheid regime during its genocide in Gaza , which began and continued during his tenure at the State Department. Now, three years on and nearly two years out of office, this \"true friend of Israel\" , with his softly spoken diplomatic demeanour, continues to see only legitimate self-defence in the mass slaughter of civilian men, women and children that Israel continues to inflict on Palestinians. In 11 visits to Israel during its onslaught, he never did less than assure the Netanyahu regime that the mass killing could continue with full US backing. With the passage of time, did Blinken permit a little self-reflection on his unstinting support for Israel’s killing machine at every key moment during the genocide? Not at all. At a Jewish Federations of North America event on 8 November, Blinken was practising his defence against war crimes charges at a future international court hearing. He said: \"There was a certain amount of disregard, a certain amount of disdain for the wellbeing of Palestinians. But that is vastly different – vastly different – from an intent to do them harm, from an intent to eliminate them. The target was Hamas, and horrifically too many people were caught in the middle of that...\" Amid the euphoria about the 'Blue wave' that overthrew Republican majorities, let’s remember: this is the US Democrats, the other party of war and genocide In future, prosecutors and judges can w",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/el-sayed-congress-nov2026-afp.jpg.jpg?itok=wEWCBI3i",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T15:41:40+00:00",
+      "originalUrl": "https://www.middleeasteye.net/opinion/will-new-democrats-congress-remake-party-genocide-and-war"
+    },
+    {
+      "id": "a98bad700bca5856",
+      "title": "Liga Arab Kecam Serangan Houthi Berkelanjutan ke Arab Saudi",
+      "description": "Liga Arab mengecam keras serangan berulang Houthi ke Arab Saudi dan memperingatkan potensi eskalasi, seraya mendesak komunitas internasional untuk bertindak.",
+      "originalTitle": "Liga Arab Kecam Serangan Houthi Berkelanjutan ke Arab Saudi",
+      "originalDescription": "Liga Arab mengecam keras serangan berulang Houthi ke Arab Saudi dan memperingatkan potensi eskalasi, seraya mendesak komunitas internasional untuk bertindak.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-09/جامعة-الدول-العربية--DQM1x2a.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T15:31:48+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/uhbgy4snh"
+    },
+    {
+      "id": "91e4afb28016c857",
+      "title": "Kementerian Perdagangan tarik 44.300 Hyundai Elantra dan i30 karena masalah airbag",
+      "description": "Kementerian Perdagangan Arab Saudi menarik lebih dari 44 ribu Hyundai Elantra dan i30 tahun 2009-2011 akibat cacat airbag yang berpotensi menyebabkan cedera serius atau kematian.",
+      "originalTitle": "Kementerian Perdagangan tarik 44.300 Hyundai Elantra dan i30 karena masalah airbag",
+      "originalDescription": "Kementerian Perdagangan Arab Saudi menarik lebih dari 44 ribu Hyundai Elantra dan i30 tahun 2009-2011 akibat cacat airbag yang berpotensi menyebabkan cedera serius atau kematian.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-10/وزارة-التجارة-FgzfgjzG.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T15:26:20+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/zki2kyiuy"
+    },
+    {
+      "id": "11377350ee394af6",
+      "title": "Apakah Komponen Komputer Dikenakan Bea Masuk? Ini Penjelasan Otoritas Pajak dan Bea Cukai",
+      "description": "Otoritas Pajak dan Bea Cukai Arab Saudi menegaskan komponen komputer bebas bea masuk, namun tetap dikenakan PPN 15% pada semua impor.",
+      "originalTitle": "Apakah Komponen Komputer Dikenakan Bea Masuk? Ini Penjelasan Otoritas Pajak dan Bea Cukai",
+      "originalDescription": "Otoritas Pajak dan Bea Cukai Arab Saudi menegaskan komponen komputer bebas bea masuk, namun tetap dikenakan PPN 15% pada semua impor.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/3712-crop-AJ3pKajp.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T15:26:19+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/5zb7vzg0y"
+    },
+    {
+      "id": "ca09feb42243c210",
+      "title": "Tentara Israel dituduh mengotori wajah narapidana Palestina.",
+      "description": "Tentara Israel dituduh mengotori wajah narapidana Palestina yang diturunkan oleh Nayav Rapaport pada Thu, 11 / 12 / 2026 - 14: 35 Polisi militer menuduh tentara yang memukuli tahanan Palestina, mengencingi dia dan mengoleskan tinja di wajahnya sebelum orang itu dibebaskan tanpa biaya seorang tentara Israel Nablus di selatan Nablus di Bank Barat yang diduduki (Nasser Ishtaheh / SOPA Gambar melalui Reuters) Seorang prajurit Israel telah dituduh menyalahgunakan tahanan Palestina di pos militer di Bank Barat, termasuk memukulinya, mengencingi dia dan memukul wajahnya. Menurut berita Channel 12 Israel, pelecehan tersebut terjadi bulan lalu di pos militer Jalameh, setelah tentara Israel menangkap seorang pria Palestina di persimpangan terdekat. Para prajurit dilaporkan menemukan pisau kecil di mobilnya. Palestina kemudian dibebaskan tanpa biaya. Para prajurit awalnya ditransfer dia ke pos diborgol dan mata tertutup, di mana detektif polisi militer menduga salah satu dari mereka mulai menyalahgunakan dia. Sebuah penyelidikan oleh Divisi Investigasi Kriminal Polisi Militer diluncurkan mengikuti keluhan dari tentara lain. Penyidik menduga prajurit mengalahkan Palestina dan memadamkan rokok di tubuhnya, meninggalkan dia terluka. Dugaan penyiksaan tidak berakhir di sana. Menurut penyelidikan, prajurit itu mengencingi tahanan sebelum memukul wajahnya sendiri dan mendesak dia untuk memakannya. Tiga tentara awalnya ditanyai, tapi dua kemudian dibebaskan, meninggalkan satu tersangka dalam tahanan, Channel 12 dilaporkan. Tentara yang bertugas di Brigade Tentara Israel telah ditahan selama beberapa minggu sebagai polisi militer mempersiapkan dakwaan, yang diharapkan akan diajukan pada hari-hari mendatang. Dia mengakui memukuli orang Palestina tapi menolak tuduhan lainnya. Pengacaranya, Yossi Boker, menggambarkan dia sebagai \"petarung tempur yang sangat termotivasi dan pria muda berkualitas\", menambahkan: \"Tidak ada bukti dalam kasus ini. Kami percaya pengadilan, dan akhirnya kebenar",
+      "originalTitle": "Israeli soldier accused of smearing faeces on Palestinian detainee’s face",
+      "originalDescription": "Israeli soldier accused of smearing faeces on Palestinian detainee’s face Submitted by Nadav Rapaport on Thu, 11/12/2026 - 14:35 Military police accuse soldier of beating Palestinian detainee, urinating on him and smearing faeces on his face before the man was released without charge An Israeli soldier south of Nablus in the occupied West Bank (Nasser Ishtayeh / SOPA Images via Reuters) Off An Israeli soldier has been accused of abusing a Palestinian detainee at a military outpost in the occupied West Bank, including beating him, urinating on him and smearing faeces on his face. According to Israel’s Channel 12 News , the abuse took place last month at the Jalameh military outpost, after Israeli soldiers arrested a Palestinian man at a nearby crossing. The soldiers reportedly found a small knife in his car. The Palestinian was later released without charge. The soldiers initially transferred him to the outpost handcuffed and blindfolded, where military police investigators suspect one of them began abusing him. An investigation by the Military Police Criminal Investigation Division was launched following complaints from other soldiers. Investigators suspect the soldier beat the Palestinian and extinguished a cigarette on his body, leaving him injured. The alleged abuse did not end there. According to the investigation, the soldier urinated on the detainee before smearing his own faeces on the man's face and urging him to eat it. Three soldiers were initially questioned, but two were later released, leaving one suspect in custody, Channel 12 reported. The soldier, who serves in Israel’s Paratroopers Brigade, has been detained for several weeks as military police prepare an indictment, which is expected to be filed in the coming days. He admitted beating the Palestinian man but denied the other allegations. His lawyer, Yossi Boker, described him as “a highly motivated combat fighter and a quality young man”, adding: “There is no evidence in the case. We trust the cour",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/2026-11-11T094957Z_1243961402_MT1SOPANISHTAYEH1183_RTRMADP_3_SOPA%20%281%29.jpg.jpg?itok=aCilLHTv",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T15:15:04+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/israeli-soldier-accused-smearing-faeces-palestinian-detainees-face"
+    },
+    {
+      "id": "e13b765dd9c8844f",
+      "title": "Sekolah Saudi memulai liburan musim gugur 10 hari di Nov 20",
+      "description": "RIYADH - Siswa di sekolah-sekolah umum di seluruh Arab Saudi sangat bersemangat mengantisipasi liburan 10 hari mendatang di 1448 AH kalender akademik, terdiri dari liburan musim gugur dan tambahan satu hari libur. Menurut kalender akademik, liburan akan dimulai pada hari Jumat, 20 November 2026, dan berlanjut sampai Minggu, November 29. Istirahat musim gugur akan berjalan dari Nov 20-28, diikuti oleh hari libur tambahan pada Nov 29. Siswa dijadwalkan untuk kembali ke kelas pada hari Senin, Nov 30, 2026, setelah 10 hari istirahat, dan melanjutkan kegiatan akademik mereka selama sisa semester.",
+      "originalTitle": "Saudi schools to begin 10-day autumn holiday on Nov. 20",
+      "originalDescription": "RIYADH — Students in public schools across Saudi Arabia are eagerly anticipating an upcoming 10-day holiday in the 1448 AH academic calendar, comprising the autumn break and an additional one-day holiday. According to the academic calendar, the holiday will begin on Friday, November 20, 2026, and continue through Sunday, Nov. 29. The autumn break will run from Nov. 20 to 28, followed by an additional day off on Nov. 29. Students are scheduled to return to classrooms on Monday, Nov. 30, 2026, following the 10-day break, and resume their academic activities for the remainder of the semester.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/12/2793689.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T14:41:44+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666207/saudi-arabia/saudi-schools-to-begin-10-day-autumn-holiday-on-nov-20"
+    },
+    {
+      "id": "444cbc5f96795b39",
+      "title": "Enam pihak Belanda mengutuk perjanjian perusahaan senjata lokal dengan pembuat senjata Israel",
+      "description": "Enam partai Belanda mengutuk perjanjian perusahaan senjata lokal dengan pembuat senjata Israel Diberikan oleh Elis Gjevori pada Thu, 11 / 12 / 2026 - 12: 08 Perselisihan tersebut terjadi setelah Polisi Belanda menyerukan untuk mengakhiri ketergantungan pada industri senjata Israel seorang pengunjung yang memegang senjata dari Israel Weapons Industries di pameran pertahanan internasional Eurosatory, di Villepinte, Paris, pada 13 Juni 2022 (Emmanuel Dunand / AFP) dari 6 partai politik di kota Belanda Tilburg telah mengutuk sebuah perusahaan senjata lokal berurusan dengan Israel Gunmaker Industries (IWI). Partai-partai telah meminta otoritas kota apakah mereka dapat mencegah senjata yang dihasilkan di bawah perjanjian dari mencapai militer Israel dan apakah mereka dapat memblokir produksi lokal. Tilburg berbasis AIA membeli desain dan pengetahuan teknis - bagaimana dari IWI dan rencana untuk membuat senapan dan senapan mesin ringan di sebuah taman industri di kota. Kesepakatan itu mencakup senapan 5 infanteri Arad dan senapan mesin UX Negev. Produksi awalnya akan berlangsung di Tilburg sebelum pindah ke situs yang lebih besar di Overijssel, menurut penyiar Belanda Omroep Brabant. AIA mengatakan bahwa ia bermaksud untuk memasok negara-negara Eropa dan mitra Nato lainnya. Masih belum jelas apakah perusahaan juga bisa menjual senjata kepada Israel. D66, PRO, Denk, Partai Hewan, Partai Sosialis dan VoorTilburg013 mengajukan pertanyaan kepada administrasi kota. Dalam sebuah pernyataan, D66 penasihat Sofia Schopers berkata: \"Kami menolak untuk berdiri diam sementara Tilburg berpotensi berkontribusi terhadap genosida rakyat Palestina\". \"Kami menolak untuk berdiri diam-diam sementara Tilburg berpotensi berkontribusi untuk genosida orang-orang Palestina '- Sofia Schampers, D66 dewan D66 mengatakan keprihatinan sebagian dari partisipasi Israel dalam Dialog Mediterania Nato, yang membuatnya menjadi mitra aliansi. Partai ingin kota melakukan segala sesuatu dalam kekuatannya untuk ",
+      "originalTitle": "Six Dutch parties condemn local arms company’s deal with Israeli gunmaker",
+      "originalDescription": "Six Dutch parties condemn local arms company’s deal with Israeli gunmaker Submitted by Elis Gjevori on Thu, 11/12/2026 - 12:08 The dispute comes after Dutch MPs called for an end to dependence on Israel’s arms industry A visitor holds a weapon from Israel Weapon Industries at the Eurosatory international defence trade fair, in Villepinte, Paris, on 13 June 2022 (Emmanuel Dunand/AFP) Off Six political parties in the Dutch city of Tilburg have condemned a local arms company’s deal with Israeli gunmaker Israel Weapon Industries (IWI). The parties have asked the municipal authorities whether they can prevent weapons produced under the agreement from reaching Israel’s military and whether they can block local production. Tilburg-based AIA bought designs and technical know-how from IWI and plans to make rifles and light machine guns at an industrial park in the city. The agreement covers the Arad 5 infantry rifle and the Negev UX light machine gun. Production will initially take place in Tilburg before moving to a larger site in Overijssel, according to Dutch broadcaster Omroep Brabant . AIA says that it intends to supply European countries and other Nato partners. It remains unclear whether the company could also sell the weapons to Israel. D66, PRO, Denk, the Party for the Animals, the Socialist Party and VoorTilburg013 submitted questions to the municipal administration. In a statement , D66 councillor Sofia Schampers said: “We refuse to stand tacitly by while Tilburg potentially contributes to the genocide of the Palestinian people.” 'We refuse to stand tacitly by while Tilburg potentially contributes to the genocide of the Palestinian people' - Sofia Schampers, D66 councillor D66 said its concerns stemmed partly from Israel’s participation in Nato’s Mediterranean Dialogue, which makes it a partner of the alliance. The party wants the municipality to do everything within its powers to prevent local production if the weapons could be exported to Israel. The party said ",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_32CE7C4.jpg.jpg?itok=m_4psjs8",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T14:38:31+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/six-dutch-parties-condemn-local-arms-companys-deal-israeli-gunmaker"
+    },
+    {
+      "id": "aa9196edadea9a29",
+      "title": "Doa Bersama Digelar di Masjid Istiqlal di Tengah Rentetan Problem Rakyat",
+      "description": "Menag Nasar berharap doa bersama membawa Indonesia keluar dari berbagai kesulitan. Seorang jamaah juga meminta pengawasan pesantren diperkuat.",
+      "originalTitle": "Doa Bersama Digelar di Masjid Istiqlal di Tengah Rentetan Problem Rakyat",
+      "originalDescription": "Menag Nasar berharap doa bersama membawa Indonesia keluar dari berbagai kesulitan. Seorang jamaah juga meminta pengawasan pesantren diperkuat.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/doa-kemaslahatan-bangsa_1794495813.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah",
+        "Masjid dan Peradaban"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-12T14:30:25+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/doa-bersama-digelar-di-masjid-istiqlal-di-tengah-rentetan-problem-rakyat-b78Fu"
+    },
+    {
+      "id": "a6e37a193c1acc71",
+      "title": "Arab Saudi dan Kenya Teken Lampiran Teknis Atur Penempatan Pekerja Rumah Tangga",
+      "description": "Kementerian Sumber Daya Manusia Arab Saudi dan Kementerian Ketenagakerjaan Kenya menandatangani lampiran teknis untuk mengatur penempatan pekerja rumah tangga, menekan biaya, dan melindungi hak-hak kedua pihak.",
+      "originalTitle": "Arab Saudi dan Kenya Teken Lampiran Teknis Atur Penempatan Pekerja Rumah Tangga",
+      "originalDescription": "Kementerian Sumber Daya Manusia Arab Saudi dan Kementerian Ketenagakerjaan Kenya menandatangani lampiran teknis untuk mengatur penempatan pekerja rumah tangga, menekan biaya, dan melindungi hak-hak kedua pihak.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-IcEz0vQl.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T14:22:14+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/p8ykomydc"
+    },
+    {
+      "id": "f588adfafefaf8dc",
+      "title": "Al- Saif: 780 perusahaan global mendirikan markas besar daerah di Arab Saudi sebagai investor asing lonjakan 110%",
+      "description": "RIYADH - Menteri Investasi Fahad Al- Saif mengumumkan peningkatan 110 persen tahun dalam jumlah lisensi yang dikeluarkan kepada investor asing di Kingdom. Dia juga mengungkapkan bahwa jumlah markas regional yang didirikan oleh perusahaan-perusahaan global di Arab Saudi telah mencapai 780, mendasari momentum percepatan untuk menarik investasi internasional dan lebih konsolidasi posisi Kerajaan sebagai tujuan utama perusahaan global dan pusat bisnis regional. Dia membuat komentar saat berbicara melalui konferensi video di Konferensi Global Markets BNP di London. Konferensi ini adalah pengumpulan acara tahunan yang luar biasa ratusan investor institusi, eksekutif perusahaan, ekonom, dan pembuat kebijakan untuk mendiskusikan pasar global, ekonomi, geopoli, dan strategi investasi. Al- Saif mengatakan investasi langsung asing (FDI) mengalir ke Kingdom melonjak 33 persen pada tahun 2025, didorong oleh pertumbuhan kepercayaan investor dalam ekonomi Saudi dan penerapan terus reformasi ekonomi dan legislatif dirancang untuk meningkatkan persaingan lingkungan investasi. Menteri mencatat bahwa PDB Kerajaan telah dua kali lipat selama dekade terakhir, sementara ekonomi Saudi mencatat pertumbuhan 5,2 persen pada paruh pertama 2026. Performa ini bertepatan dengan kemajuan berkelanjutan dalam mencapai tujuan diversifikasi ekonomi, memperkuat keberlanjutan keuangan, dan menjaga keseimbangan keuangan. Al- Saif mengatakan bahwa fase berikutnya dari Strategi Investasi Nasional akan menandai pergeseran kualitatif dalam prioritas, dengan penekanan yang lebih besar pada meningkatkan produktivitas, meningkatkan kualitas investasi, dan mengembangkan cluster industri terpadu terhubung ke rantai nilai global dan jaringan pasokan internasional. Upaya ini bertujuan untuk memperkuat persaingan sektor ekonomi dan memperluas kontribusi mereka terhadap pertumbuhan ekonomi. Menteri itu menjelaskan bahwa Kerajaan ini mentransitisasi dari fase fokus pada mempromosikan peluang investasi ke tahap yang l",
+      "originalTitle": "Al-Saif: 780 global firms establish regional headquarters in Saudi Arabia as foreign investor licenses surge 110%",
+      "originalDescription": "RIYADH — Minister of Investment Fahad Al-Saif announced a 110 percent year-on-year increase in the number of licenses issued to foreign investors in the Kingdom. He also revealed that the number of regional headquarters established by global companies in Saudi Arabia has reached 780, underscoring the accelerating momentum in attracting international investments and further consolidating the Kingdom’s position as a premier destination for global companies and a regional business hub. He made the remarks while speaking via video conference at the BNP Paribas Global Markets Conference in London. The conference is a flagship annual event gathering hundreds of institutional investors, corporate executives, economists, and policymakers to discuss global markets, economics, geopolitics, and investment strategies. Al-Saif said foreign direct investment (FDI) inflows into the Kingdom surged by 33 percent in 2025, driven by growing investor confidence in the Saudi economy and the continued implementation of economic and legislative reforms designed to enhance the competitiveness of the investment environment. The minister noted that the Kingdom’s GDP has doubled over the past decade, while the Saudi economy recorded growth of 5.2 percent in the first half of 2026. This performance coincides with continued progress in achieving economic diversification objectives, strengthening financial sustainability, and maintaining fiscal balance. Al-Saif said that the next phase of the National Investment Strategy will mark a qualitative shift in priorities, with greater emphasis on boosting productivity, enhancing investment quality, and developing integrated industrial clusters connected to global value chains and international supply networks. These efforts are aimed at strengthening the competitiveness of economic sectors and expanding their contribution to economic growth. The minister explained that the Kingdom is transitioning from a phase focused on promoting investment opportunit",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/12/2793673.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T14:13:50+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666206/saudi-arabia/al-saif-780-global-firms-establish-regional-headquarters-in-saudi-arabia-as-foreign-investor-licenses-surge-110"
+    },
+    {
+      "id": "2f5ff3e9830e86c2",
+      "title": "Rumah Zakat dan Posyandu Pantau Tumbuh Kembang Balita di Malang",
+      "description": "MALANG -- Posyandu di Kelurahan Oro-Oro Dowo, Kota Malang, melayani pemeriksaan kesehatan bagi balita, ibu hamil, hingga lanjut usia (lansia). Kegiatan yang digelar Rumah Zakat Malang bersama Tim Penggerak...",
+      "originalTitle": "Rumah Zakat dan Posyandu Pantau Tumbuh Kembang Balita di Malang",
+      "originalDescription": "MALANG -- Posyandu di Kelurahan Oro-Oro Dowo, Kota Malang, melayani pemeriksaan kesehatan bagi balita, ibu hamil, hingga lanjut usia (lansia). Kegiatan yang digelar Rumah Zakat Malang bersama Tim Penggerak...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/_261112210733-129.png",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-12T14:08:23+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/toe79z416/rumah-zakat-dan-posyandu-pantau-tumbuh-kembang-balita-di-malang"
+    },
+    {
+      "id": "66a4d00ce7872c12",
+      "title": "Konbes NU Usulkan Perjam Aset dan Wakaf, Perkuat Tata Kelola Kekayaan NU",
+      "description": "Konbes NU mengusulkan Perjam Aset dan Wakaf untuk memperkuat tata kelola kekayaan. PBNU akan mengonsolidasikan pendataan dan pemanfaatan aset.",
+      "originalTitle": "Konbes NU Usulkan Perjam Aset dan Wakaf, Perkuat Tata Kelola Kekayaan NU",
+      "originalDescription": "Konbes NU mengusulkan Perjam Aset dan Wakaf untuk memperkuat tata kelola kekayaan. PBNU akan mengonsolidasikan pendataan dan pemanfaatan aset.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/gus-rozin-aceng_1794494095.webp",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-12T14:00:45+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/konbes-nu-usulkan-perjam-aset-dan-wakaf-perkuat-tata-kelola-kekayaan-nu-9HeNj"
+    },
     {
       "id": "22b387a7b728843b",
       "title": "Irlandia: Watchdog dituduh mengulur probe ke Microsoft hosting aplikasi militer Israel",
@@ -215,6 +1395,31 @@
       "region": "",
       "publishedAt": "2026-11-12T13:23:06+00:00",
       "originalUrl": "https://indonesian.ajel.sa/arab-saudi/0anl7v5q7"
+    },
+    {
+      "id": "a1ec315072d12482",
+      "title": "Warga Saudi ditangkap karena mengangkut 5 pelanggar di Jazan",
+      "description": "JAZAN - patroli keamanan dari Resimen Keamanan di Al- Aridah pemerintahan di daerah Jazan selatan menangkap seorang warga karena mengangkut lima individu yang melanggar Hukum Keamanan Perbatasan dalam kendaraan yang dia kendarai. Prosedur hukum dimulai terhadap semua orang yang ditangkap, dengan pelanggar yang disebut otoritas yang kompeten dan transporter ke Jaksa Umum. Badan Keamanan Dalam Negeri menyatakan kembali bahwa memfasilitasi pelanggar keamanan perbatasan ke Arab Saudi, mengangkut atau melindungi mereka, atau menyediakan mereka dengan segala bentuk bantuan membawa hukuman hingga 15 tahun penjara dan denda sampai dengan SR1 juta. Hukuman juga termasuk penyitaan kendaraan yang digunakan untuk transportasi dan penamaan publik. Agensi menekankan bahwa kejahatan dianggap sebagai pelanggaran besar. Hal ini mendorong publik untuk melaporkan pelanggaran residensi, tenaga kerja, dan peraturan keamanan perbatasan dengan memanggil 911 di daerah Mekah, Madinah, Riyadh, dan Provinsi Timur, atau 999 dan 996 di semua daerah lain. Semua laporan akan diperlakukan dengan kerahasiaan ketat, dan mereka yang melaporkan pelanggaran tidak akan menanggung kewajiban, lembaga ditambahkan.",
+      "originalTitle": "Saudi citizen arrested for transporting 5 violators in Jazan",
+      "originalDescription": "JAZAN — Security patrols from the Security Regiments in Al-Aridah governorate in the southern Jazan region arrested a citizen for transporting five individuals who violated the Border Security Law in a vehicle he was driving. Legal procedures were initiated against all the arrested persons, with the violators referred to the competent authority and the transporter to the Public Prosecution. The Ministry of Interior's Agency for Security Regiments Affairs reiterated that facilitating the entry of border security violators into Saudi Arabia, transporting or sheltering them, or providing them with any form of assistance carries penalties of up to 15 years in prison and a fine of up to SR1 million. Penalties also include confiscation of the vehicle used for transportation and public naming. The agency emphasized that the crime is considered as a major offense. It urged the public to report violations of residency, labor, and border security regulations by calling 911 in the regions of Makkah, Madinah, Riyadh, and Eastern Province, or 999 and 996 in all other regions. All reports will be treated with strict confidentiality, and those who report violations will bear no liability, the agency added.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/12/2793654.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-12T13:20:24+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666204/saudi-arabia/saudi-citizen-arrested-for-transporting-5-violators-in-jazan"
     },
     {
       "id": "df0357b3ab175926",
@@ -1483,31 +2688,6 @@
       "region": "",
       "publishedAt": "2026-11-12T05:55:30+00:00",
       "originalUrl": "https://indonesian.ajel.sa/arab-saudi/9d4d2zxzk"
-    },
-    {
-      "id": "fbc5928052bbd3c9",
-      "title": "Koalisi Arab Saudi Tembak Jatuh Drone di Wilayah Riyadh",
-      "description": "Koalisi Arab Saudi mengumumkan telah mencegat dan menghancurkan sebuah drone di wilayah Riyadh.",
-      "originalTitle": "Koalisi Arab Saudi Tembak Jatuh Drone di Wilayah Riyadh",
-      "originalDescription": "Koalisi Arab Saudi mengumumkan telah mencegat dan menghancurkan sebuah drone di wilayah Riyadh.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/0-crop-n1Z_KHpZ.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-12T05:55:02+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/0x6jw5umo"
     },
     {
       "id": "00bee19f4b1fdf18",
