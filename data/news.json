@@ -1,18 +1,18 @@
 {
-  "status": "success",
-  "lastUpdated": "2026-11-13T02:36:06.772394+00:00",
+  "status": "partial",
+  "lastUpdated": "2026-11-13T02:40:48.238994+00:00",
   "total": 325,
-  "newArticles": 125,
+  "newArticles": 123,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 12,
-  "sourcesFailed": 0,
+  "sourcesSucceeded": 11,
+  "sourcesFailed": 1,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 5,
-      "filtered": 20,
+      "accepted": 4,
+      "filtered": 21,
       "filteredFootball": 2,
       "translated": 25,
       "translationPartial": 0,
@@ -93,15 +93,15 @@
     },
     {
       "name": "Detik",
-      "status": "success",
-      "raw": 100,
-      "accepted": 1,
-      "filtered": 99,
+      "status": "error",
+      "raw": 0,
+      "accepted": 0,
+      "filtered": 0,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
     },
     {
       "name": "Muhammadiyah",
@@ -159,7 +159,7 @@
     "translatedArticles": 175,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 1029
+    "cacheEntries": 1033
   },
   "images": {
     "found": 325,
