@@ -1,18 +1,18 @@
 {
-  "status": "success",
-  "lastUpdated": "2026-11-13T10:59:23.725487+00:00",
-  "total": 348,
-  "newArticles": 110,
+  "status": "partial",
+  "lastUpdated": "2026-11-13T18:38:01.423792+00:00",
+  "total": 381,
+  "newArticles": 117,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 12,
-  "sourcesFailed": 0,
+  "sourcesSucceeded": 11,
+  "sourcesFailed": 1,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 2,
-      "filtered": 23,
+      "accepted": 3,
+      "filtered": 22,
       "filteredFootball": 2,
       "translated": 25,
       "translationPartial": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 20,
+      "raw": 25,
       "accepted": 0,
-      "filtered": 20,
+      "filtered": 25,
       "filteredFootball": 1,
-      "translated": 20,
+      "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -35,8 +35,8 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 6,
-      "filtered": 9,
+      "accepted": 5,
+      "filtered": 10,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -49,7 +49,7 @@
       "raw": 50,
       "accepted": 1,
       "filtered": 49,
-      "filteredFootball": 1,
+      "filteredFootball": 2,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 8,
-      "filtered": 12,
-      "filteredFootball": 5,
+      "accepted": 13,
+      "filtered": 7,
+      "filteredFootball": 2,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -93,15 +93,15 @@
     },
     {
       "name": "Detik",
-      "status": "success",
-      "raw": 100,
-      "accepted": 1,
-      "filtered": 99,
+      "status": "error",
+      "raw": 0,
+      "accepted": 0,
+      "filtered": 0,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
     },
     {
       "name": "Muhammadiyah",
@@ -119,8 +119,8 @@
       "name": "NU Online",
       "status": "success",
       "raw": 50,
-      "accepted": 5,
-      "filtered": 45,
+      "accepted": 10,
+      "filtered": 40,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -131,9 +131,9 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 33,
-      "filtered": 17,
-      "filteredFootball": 2,
+      "accepted": 31,
+      "filtered": 19,
+      "filteredFootball": 1,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -156,16 +156,820 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 185,
+    "translatedArticles": 202,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 1131
+    "cacheEntries": 1254
   },
   "images": {
-    "found": 348,
+    "found": 381,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "d94b4112b6a6e20e",
+      "title": "Eisenkot slams Netanyahu 'rasis' kampanye melawan Israel Palestina",
+      "description": "Perdana menteri harapan panggilan upaya untuk marjinalise dan noda warga Palestina Israel 'tindakan anti- negara'.",
+      "originalTitle": "Eisenkot slams Netanyahu’s ‘racist’ campaign against Palestinian Israelis",
+      "originalDescription": "Prime ministerial hopeful calls attempts to marginalise and smear Palestinian citizens of Israel 'an anti-state act'.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af2f17c00fe-1794306428.jpg?resize=1920%2C1440",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T18:04:22+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/13/eisenkot-slams-netanyahus-racist-campaign-against-palestinian-israelis"
+    },
+    {
+      "id": "7fdf311338d0631a",
+      "title": "Parlemen Arab menyambut resolusi PBB menuntut segera menghentikan serangan Houthi",
+      "description": "KAIRO - Parlemen Arab telah menyambut PBB Keamanan Dewan Resolusi 2837, yang menuntut bahwa milisi Houthi segera menghentikan eskalasi militer dan serangan, termasuk mereka menargetkan Arab Saudi, sipil, bandara komersial dan transportasi maritim internasional. Dalam sebuah pernyataan yang dikeluarkan pada hari Jumat, parlemen mengatakan bahwa adopsi dengan suara bulat mencerminkan pertumbuhan pengakuan internasional atas keseriusan aktivitas Houthi dan implikasi mereka untuk keamanan regional, stabilitas dan kebebasan navigasi internasional. parlemen menggambarkan resolusi sebagai langkah penting untuk menyatukan oposisi internasional dengan aksi teroris milisi dan terus melanggar. Ini menekankan kebutuhan untuk menerjemahkan kutukan internasional ke dalam tindakan yang menentukan, praktis untuk menghentikan serangan dan menahan mereka bertanggung jawab. Parlemen juga menyambut perpanjangan rezim sanksi yang dikenakan pada entitas terkait dengan milisi Houthi, untuk mencegah aktivitas mengancam keamanan dan stabilitas Yaman dan wilayah yang lebih luas. Hal ini menegaskan kembali dukungannya untuk upaya untuk memungkinkan pemerintah Yaman yang sah untuk melaksanakan tanggung jawab konstitusional, menjaga kesatuan negara, kedaulatan dan integritas teritorial, dan memenuhi aspirasi rakyat Yaman untuk keamanan, stabilitas, perdamaian dan pengembangan. Parlemen Arab menekankan bahwa solusi politik yang komprehensif tetap satu-satunya jalan untuk mengakhiri krisis Yaman.",
+      "originalTitle": "Arab Parliament welcomes UN resolution demanding immediate halt to Houthi attacks",
+      "originalDescription": "CAIRO — The Arab Parliament has welcomed UN Security Council Resolution 2837, which demands that the Houthi militia immediately halt its military escalation and attacks, including those targeting Saudi Arabia, civilians, commercial airports and international maritime transport. In a statement issued on Friday, the parliament said the resolution’s unanimous adoption reflects growing international recognition of the seriousness of Houthi activities and their implications for regional security, stability and freedom of international navigation. The parliament described the resolution as an important step toward unifying international opposition to the militia’s terrorist acts and continued violations. It stressed the need to translate international condemnations into decisive, practical measures to halt the attacks and hold those responsible accountable. The parliament also welcomed the extension of the sanctions regime imposed on entities linked to the Houthi militia, to prevent activities threatening the security and stability of Yemen and the wider region. It reaffirmed its support for efforts to enable Yemen’s legitimate government to exercise its constitutional responsibilities, preserve the country’s unity, sovereignty and territorial integrity, and fulfill the Yemeni people’s aspirations for security, stability, peace and development. The Arab Parliament stressed that a comprehensive political solution remains the only path to ending the Yemeni crisis.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/13/2794064.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T18:01:07+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666232/saudi-arabia/arab-parliament-welcomes-un-resolution-demanding-immediate-halt-to-houthi-attacks"
+    },
+    {
+      "id": "c212e8f65525a27b",
+      "title": "Trump mengatakan Arab Saudi adalah 'disintegrasikan'",
+      "description": "Trump mengatakan bahwa semua negara bagian Teluk Saudi telah meminta dia untuk tidak menyerang Iran lagi karena mereka terlalu rentan terhadap sebuah pesawat perang Pangeran Saudi Mohammed bin Salman selama pertemuan di Kairo, pada 15 September 2026 (Presiden Mesir / AFP) Off Saudi Arabia adalah \"membubarkan\", Presiden AS Donald Trust mengatakan dalam sebuah wawancara terhadap kerajaan tersebut, seperti halnya serangan rudal pada Jumat dan serangan rudal ini. Trump menghakimi Arab Saudi, salah satu sekutu terdekat AS, dalam sebuah wawancara dengan Stephen A Smith, membual dia bisa menghancurkan Iran dalam tiga hari dengan menyerang infrastruktur sipil namun Arab Saudi dan negara-negara Teluk lainnya telah memintanya untuk tidak karena kelemahan mereka sendiri. \"Jika saya ingin membawa mereka keluar, saya memukul energi mereka dalam satu hari. Energi mereka hilang. Dalam satu hari, jembatan mereka hilang, dan dalam satu hari, kemampuan manufaktur mereka hilang. Hanya butuh tiga hari, satu hari setiap hari\", kata Trump. \"Arab Saudi telah meminta saya untuk menyenangkan biarkan hal itu menjadi cara sekarang untuk sementara waktu karena mereka hancur\", kata Trump. \"Qatar, jika Anda melihatnya, Kuwait, UEE, Bahrain, mereka semua lebih suka menunggu\", tambahnya. Ini bukan pertama kalinya Trump telah muncul untuk menikmati membual tentang pengaruh dia atas negara Teluk dan, khususnya, Putra Mahkota Muhammad bin Salman. Arab Saudi mengandalkan AS sebagai penjamin keamanannya sejak Perang Dunia II. \"Dia (MBS) tidak berpikir ini akan terjadi... dia tidak berpikir dia akan mencium pantatku... dia pikir itu hanya lain presiden Amerika yang adalah pecundang... tapi sekarang dia harus baik padaku,\" kata Trump pada bulan Maret, ketika perang di Iran berada dalam ayunan penuh. 'Intelejen yang luar biasa' Sementara Arab Saudi menghindari dampak terburuk dari perang AS-Israel di Iran yang melihat negara-negara Teluk yang lebih kecil dengan rudal dan drone sebagai pembalasan, sejak di",
+      "originalTitle": "Trump says Saudi Arabia is 'disintegrating'",
+      "originalDescription": "Trump says Saudi Arabia is 'disintegrating' Submitted by MEE staff on Fri, 11/13/2026 - 16:08 US president says all the Gulf states have asked him not to attack Iran again because they are too vulnerable to a flare-up in the war Saudi Crown Prince Mohammed bin Salman during a meeting in Cairo, on 15 September 2026 (Egyptian presidency/AFP) Off Saudi Arabia is “disintegrating”, US President Donald Trump said in an interview released on Friday, which is likely to offend the kingdom, as it suffers missile and drone strikes from Yemen’s Houthis. Trump passed judgment on Saudi Arabia, one of the US’s closest allies, in an interview with Stephen A Smith, boasting he could destroy Iran in three days by attacking civilian infrastructure but that Saudi Arabia and other Gulf states have asked him not to because of their own weaknesses. “If I want to take them out, I hit their [energy] in one day. Their energy is gone. In one day, their bridges are gone, and in one day, their manufacturing capability is gone. It would only take me three days, one day each,” Trump said. \"Saudi Arabia has asked me to please just let it be the way it is now for a while because they're disintegrating,\" Trump said. \"Qatar, if you look at that, Kuwait, UAE, Bahrain, all of them would much prefer the waiting period,” he added. This is not the first time Trump has appeared to enjoy bragging about the leverage he has over Gulf states and, particularly, Crown Prince Mohammed bin Salman. Saudi Arabia has relied on the US as its security guarantor since WWII. “He (MBS) didn’t think this was going to happen… he didn’t think he’d be kissing my ass… he thought it’d be just another American president that was a loser… but now he has to be nice to me,” Trump said in March, when the war on Iran was in full swing. 'Tremendous investors' While Saudi Arabia avoided the worst impact of the US-Israeli war on Iran that saw smaller Gulf states pummelled with missiles and drones in retaliation, it has since come under ",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/MBS-2026.jpg.jpg?itok=ERMNYdnc",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T17:55:58+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/trump-says-saudi-arabia-disintegrating"
+    },
+    {
+      "id": "9999635fff535197",
+      "title": "Memimpin progresif suara pada Midest untuk menantang Chuck Schumer untuk kepemimpinan Senat",
+      "description": "Suara progresif dari Midest untuk menantang Chuck Schumer untuk pemimpin Senat Diserahkan oleh Yasmine El- Sabawi di Fri, 11 / 13 / 2026 - 15: 09 Chris Van Hollen, setidaknya, menempatkan tekanan pada Schumer untuk mengambil perubahan US Senator Chris Van Hollen (D-MD) berbicara selama forum pada Presiden Donald Van Hollen 's Decrypto decto decto, dengan senator Richard Blumenthal 27 Juli, yang akan mengumumkan pada RD Van Hollen memposting tentang niatnya mencari pos pada malam Rabu, waktu setempat, di Washington, DC. \"Dalam pemilihan ini, orang Amerika meminta kami untuk melepaskan ekonomi yang dicurangi terhadap orang-orang pekerja dan didorong oleh korupsi politik. Untuk menyampaikan, kita perlu kepemimpinan baru. Ini bukan tentang satu orang - ini tentang menjawab panggilan itu,\" ia menulis pada X \"Itu sebabnya aku mencalonkan diri sebagai Pemimpin Senat Mayoritas\". Setelah hasil pemilu tengah semester yang menakjubkan pada 3 November yang membalik kedua rumah di Kongres dari merah ke biru, berkat progresif pesan dan kandidat di antara Demokrat, sebagian besar kelas mahasiswa sedang mencari perubahan kepemimpinan. Kunci di antara mereka adalah Michigan Senator - memilih Abdul El- Sayed, yang pertama kali melayang nama Van Hollen sebagai alternatif untuk Schumer, meskipun Van Hollen tidak memberikan indikasi ia tertarik. Van Hollen, 67 tahun terpilih di tahun yang sama Schumer menjadi pemimpin. Schumer, 75, sebagian besar telah dikreditkan dengan kecakapan penggalangan dananya, yang memungkinkan Demokrat untuk membalik keadaan yang belum melihat siapa pun kecuali Republik yang bertanggung jawab dalam beberapa dekade. Tapi dia juga seorang centrist dan pembela setia Israel, pada saat pemilih Demokrat telah pindah ke kiri, dan dukungan bagi Israel semakin terlihat sebagai kewajiban. Dia tidak secara terbuka kembali Sayed pencalonan, di samping beberapa progressives lain yang disebut Israel serangan di Gaza genosida, seperti di Maine dan Minnesota. Mereka semua mem",
+      "originalTitle": "Leading progressive voice on Mideast to challenge Chuck Schumer for Senate leadership",
+      "originalDescription": "Leading progressive voice on Mideast to challenge Chuck Schumer for Senate leadership Submitted by Yasmine El-Sabawi on Fri, 11/13/2026 - 15:09 Chris Van Hollen's bid, at the very least, puts pressure on Schumer to take up changes US Senator Chris Van Hollen (D-MD) speaks during a forum on President Donald Trump's crypto dealings, co-hosted by Senator Richard Blumenthal (D-CT) in the Dirksen Senate Office in Washington, DC, on 27 July 2026 (Finn Gomez/Getty Images via AFP) Off Maryland Senator Chris Van Hollen, a leading progressive voice in the US Senate on the Middle East, has announced he will mount a leadership challenge to New York Senator Chuck Schumer, who has led the chamber's Democrats since 2017. Van Hollen posted about his intent to seek the post late on Wednesday night, local time, in Washington, DC. \"In this election, Americans called on us to unrig an economy rigged against working people & fueled by political corruption. To deliver, we need new leadership. This isn't about any one person – it’s about answering that call,\" he wrote on X. \"That's why I’m running for Senate Majority Leader.\" After a stunning midterm election outcome on 3 November that flipped both houses in Congress from red to blue, thanks to progressive messaging and candidates among Democrats, most of the freshman class is seeking a change in leadership. Key among them is Michigan Senator-elect Abdul El-Sayed, who first floated Van Hollen's name as an alternative to Schumer, even though Van Hollen had not given any indication he was interested. Van Hollen, 67, was elected the same year Schumer became leader. Schumer, 75, has been largely credited with his fundraising prowess, which enabled Democrats to flip states that haven't seen anyone but a Republican in charge in decades. But he is also a centrist and a staunch defender of Israel , at a time when Democratic voters have moved to the left, and support for Israel is increasingly seen as a liability. He did not openly back Sayed's ca",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/063_2287895090-2.jpg.jpg?itok=DZ9BS-Co",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T17:27:49+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/chris-van-hollen-leading-progressive-voice-mideast-challenge-chuck-schumer-senate-leadership"
+    },
+    {
+      "id": "64e6a3bdc94c8741",
+      "title": "Belanda menyangkal pembicaraan aktif dengan AS lebih dari kekuatan ICC untuk mengangkat sanksi",
+      "description": "Belanda menyangkal pembicaraan aktif dengan AS melalui kekuatan ICC untuk mengangkat sanksi Dikirimkan oleh Sondos Asem pada Fri, 11 / 13 / 2026 - 16: 06 Pemerintah Belanda mengatakan tidak ada proposal beton alamat Washington, tetapi menegaskan itu adalah mengeksplorasi lingkup dialog Menteri Luar Negeri Tom Berendsen bereaksi sebelum perdebatan tentang strategi keamanan nasional Amerika Serikat, di Hague pada 20 Mei 2026 (AFP / ANP / AFP) Off The Netherlands tidak saat ini dalam negosiasi aktif dengan US atas amandemen Roma Statute atau respon apapun terhadap sanksi terhadap Pengadilan Internasional (ICC) Juru bicara di Timur. Pernyataan resmi dari pemerintah Belanda pada hari Jumat datang setelah komentar samar-samar dari Menteri Luar Negeri Tom Berendsen tentang apakah AS menuntut untuk melindungi kepala negara dan membatasi yurisdiksi pengadilan atas warga negara non-anggota negara berada di bawah pertimbangan. Jawaban Berendsen tidak mengkonfirmasi proposal yang dilaporkan kepada parlemen, juga tidak mengatakan apakah pemerintah akan menolaknya. Pertanyaan dari Hanneke van der Werf MP, dari partai Demokrat 66, menyangkut laporan oleh Forum Hak Cipta tentang diskusi Belanda dengan AS mengenai kemungkinan amandemen terhadap perjanjian pendiri ICC. Amandemen yang diusulkan termasuk kekebalan untuk kepala negara dan pemerintah, termasuk negara-negara di luar perjanjian pengadilan dari yurisdiksi, dan melemahkan kemampuannya untuk campur tangan ketika pemerintah nasional gagal untuk menuntut. Juru bicara menteri asing, yang lebih suka tidak diberi nama, mengatakan laporan itu tidak akurat. \"Artikel yang diterbitkan oleh The Rights Forum tidak mencerminkan posisi Belanda. Artikel juga mengklaim bahwa berbagai isu saat ini sedang dalam negosiasi aktif. Itu tidak terjadi\", kata mereka dalam pernyataan email ke MEE. \"Pada saat ini, tidak ada negosiasi langsung dengan AS, juga tidak ada proposal konkrit sebelum Majelis Pihak Amerika yang mengatasi kekhawatiran AS belum ",
+      "originalTitle": "Netherlands denies active talks with US over curbing ICC powers to lift sanctions",
+      "originalDescription": "Netherlands denies active talks with US over curbing ICC powers to lift sanctions Submitted by Sondos Asem on Fri, 11/13/2026 - 16:06 Dutch government says no concrete proposals address Washington’s demands, but confirms it is exploring scope for dialogue Dutch Minister of Foreign Affairs Tom Berendsen reacts prior to a debate on the national security strategy of the United States, in The Hague on 20 May 2026 (Jeroen Jumelet / ANP / AFP) Off The Netherlands is not currently in active negotiations with the US over amendments to the Rome Statute or any response to the sanctions imposed on the International Criminal Court (ICC), a spokesperson told Middle East Eye. The official statement from the Dutch government on Friday comes after vague comments from Foreign Minister Tom Berendsen on whether US demands to shield heads of state and restrict the court's jurisdiction over nationals of non-member states were under consideration. Berendsen's answers did not confirm the reported proposals to parliament, nor did he say whether the government would reject them. The question by Hanneke van der Werf MP, from the Democrats 66 party, concerned a report by the Rights Forum on alleged Dutch discussions with the US regarding possible amendments to the ICC's founding treaty. The proposed amendments included immunity for heads of state and government, excluding nationals of countries outside the court's founding treaty from its jurisdiction, and weakening its ability to intervene when national authorities fail to prosecute. A foreign ministry spokesperson, who preferred not to be named, said the report was not accurate. \"The article published by The Rights Forum does not reflect the Netherlands’ position. The article also claims that various issues are currently under active negotiation. That is not the case,\" they said in an emailed statement to MEE. 'At this moment, there are no direct negotiations with the US, nor are there any concrete proposals before the Assembly of States Pa",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/netherlands-fm-afp-oct-2026.jpg.jpg?itok=jRHnz9en",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T17:07:48+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/dutch-foreign-ministry-says-no-active-negotiations-us-over-icc-sanctions"
+    },
+    {
+      "id": "3e4c8f55b2184e88",
+      "title": "Inggris: regulator Amal membuka kasus ke pusat komunitas untuk mempromosikan pemukiman ilegal Israel",
+      "description": "Inggris: regulator Amal membuka kasus ke pusat komunitas untuk mempromosikan pemukiman ilegal Israel Dipersembahkan oleh Imran Mulla pada Fri, 11 / 13 / 2026 - 12: 18 Wajib regulator Charity menegaskan penyelidikan setelah selebaran di JW3 acara promosi klinik medis dalam pemukiman di wilayah Palestina yang diduduki The MedEx, yang diadakan di JW3 di Camden pada tanggal 25 Oktober, terutama diorganisir oleh pemerintah Israel (Screentake / X) dari regulator amal Inggris telah membuka kasus yang lengkap ke JW3 di Pusat Masyarakat Yahudi (JW3) setelah mengadakan sebuah acara yang mempromosikan klinik medis di pemukiman ilegal Israel, Mata Tengah dapat mengungkapkan. Acara MedEx, yang diadakan di JW3 di Camden pada tanggal 25 Oktober, terutama diatur oleh pemerintah Israel. Ini diiklankan sebagai \"tidak bisa melewatkan acara bagi dokter dan mahasiswa kedokteran dari seluruh Inggris yang sedang mempertimbangkan Aliyah\", atau migrasi Yahudi ke Israel. Pemimpin acara ini mempromosikan klinik medis dalam pemukiman di wilayah Palestina yang ditempati, yang pemerintah Inggris menganggap ilegal sejalan dengan hukum internasional, Sky News melaporkan. Didistribusikan oleh penyedia AsKes Israel, Teerem, selebaran yang diiklankan sebagai lowongan klinik di pemukiman Tepi Barat di Perda Ma 'ale, Beitar Ilbit dan Modiin Ilbit, serta Katzrin di Golan Heights, yang Inggris mengakui wilayah Suriah yang diduduki. The International Centre of Justice for Palestina (ICJP), sebuah kelompok hukum berbasis Inggris, mengajukan keluhan resmi terhadap JW3 ke Komisi Amal awal minggu ini. Keluhan, dilihat oleh MEE, catatan: \"Pengadilan Internasional Keadilan (ICJ), pada bulan Juli 2024 Opiunsi Penasehat... menegaskan kembali illegalitas pemukiman Israel\". Katanya: \"Dengan menyediakan tempatnya untuk sebuah acara di mana peluang kerja di pemukiman ilegal Israel tersedia, JW3 mungkin telah memfasilitasi kegiatan untuk pemeliharaan dan melanjutkan operasi pemukiman tersebut\". Keluhan tersebut menamb",
+      "originalTitle": "UK: Charity regulator opens case into community centre for promoting illegal Israeli settlements",
+      "originalDescription": "UK: Charity regulator opens case into community centre for promoting illegal Israeli settlements Submitted by Imran Mulla on Fri, 11/13/2026 - 12:18 Charity regulator confirms probe after leaflets at JW3 event promoted medical clinics in settlements in occupied Palestinian territory The MedEx event, which was held at JW3 in Camden on 25 October, was primarily organised by the Israeli government (Screengrab/X) Off Britain 's charity regulator has opened a compliance case into the Jewish Community Centre London (JW3) after it hosted an event which promoted medical clinics in illegal Israeli settlements, Middle East Eye can reveal. The MedEx event , which was held at JW3 in Camden on 25 October, was primarily organised by the Israeli government. It advertised itself as a \"can't miss event for doctors and medical students from across the United Kingdom who are considering Aliyah\", or Jewish migration to Israel. Leaflets at the event promoted medical clinics in settlements in occupied Palestinian territory, which the British government considers illegal in line with international law, Sky News reported . Distributed by the Israeli healthcare provider Terem, the leaflets advertised vacancies in clinics in the West Bank settlements of Ma'ale Adumim, Beitar Illit and Modiin Illit, as well as Katzrin in the Golan Heights, which Britain recognises as occupied Syrian territory. The International Centre of Justice for Palestinians (ICJP), a UK -based legal group, submitted a formal complaint against JW3 to the Charity Commission earlier this week. The complaint, seen by MEE, notes: \"The International Court of Justice (ICJ), in its July 2024 Advisory Opinion... reaffirmed the illegality of Israeli settlements.\" It said: \"By providing its premises for an event at which employment opportunities in illegal Israeli settlements are provided, JW3 may have facilitated activities contributing to the maintenance and continued operation of those settlements.\" The complaint added that the ",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Screenshot%202026-11-13%20at%20140335.jpg.jpg?itok=rwBZQk4e",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T17:06:46+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/uk-charity-regulator-opens-case-centre-whose-event-promoted-illegal-israeli-settlements"
+    },
+    {
+      "id": "150bf995ae928da9",
+      "title": "Perancis meminta lebih banyak tekanan pada Houthis untuk mengakhiri serangan di Arab Saudi",
+      "description": "Perancis meminta lebih banyak tekanan pada Houthis untuk mengakhiri serangan terhadap Arab Saudi Perancis menyerukan tekanan yang lebih besar pada Yemen Houthis untuk mengakhiri serangan mereka di wilayah tersebut, terutama terhadap Arab Saudi. \"Posisi kami adalah bahwa perlu untuk meningkatkan tekanan pada Houthis sehingga mereka mengakhiri serangan dan provokasi yang tidak dapat diterima, terutama terhadap wilayah Saudi, tapi tidak hanya di sana,\" juru bicara untuk Kementerian Luar Negeri Perancis Pascal Confavreux menceritakan konferensi pers pada hari Jumat. Dia menanggapi pertanyaan apakah Paris mendukung ide Uni Eropa menunjuk Houthis sebagai organisasi teroris. Arab Saudi menekan Uni Eropa untuk membuat sebutan, tetapi belum mengatasi kekhawatiran Eropa bahwa hal itu bisa merusak proses perdamaian masa depan, Reuters melaporkan, mengutip enam pejabat Eropa. Juga pada hari Kamis, Dewan Keamanan PBB memilih dengan suara bulat untuk memperpanjang sanksi yang berhubungan dengan Yaman, termasuk ikatan aset dan perjalanan, untuk tahun lain, sementara menuntut mengakhiri serangan kelompok di Arab Saudi. Dewan Kerjasama Teluk (GCC) menyambut resolusi pada hari Jumat. \"Resolusi ini merupakan langkah penting dalam mengkonsolidasikan sikap internasional yang menolak serangan Houthi yang berbahaya\", GCC Sekretaris Jenderal Jasem Mohamed Albudaiwi mengatakan dalam sebuah pernyataan.",
+      "originalTitle": "France calls for more pressure on Houthis to end attacks on Saudi Arabia",
+      "originalDescription": "France calls for more pressure on Houthis to end attacks on Saudi Arabia France called for greater pressure on Yemen 's Houthis to end their attacks in the region, particularly against Saudi Arabia . \"Our position is that it is necessary to increase pressure on the Houthis so that they put an end to their unacceptable attacks and provocations, particularly against Saudi territory, but not only there,\" spokesperson for the French foreign ministry Pascal Confavreux told a news conference on Friday. He was responding to a question on whether Paris backed the idea of the European Union designating the Houthis as a terrorist organisation. Saudi Arabia is pressing the EU to make the designation, but has yet to overcome European concerns that it could undermine a future peace process, Reuters reported, citing six European officials. Also on Thursday, the UN Security Council voted unanimously to extend Yemen-related sanctions, including asset freezes and travel bans, for another year, while demanding an end to the group's attacks on Saudi Arabia. The Gulf Cooperation Council (GCC) welcomed the resolution on Friday. \"This resolution represents a significant step in consolidating the international stance that rejects the treacherous Houthi attacks,\" GCC Secretary-General Jasem Mohamed Albudaiwi said in a statement.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D7BB6XL%20%281%29.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T16:54:12+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/france-calls-more-pressure-houthis-end-attacks-saudi-arabia"
+    },
+    {
+      "id": "3157ca5da7e2ae0e",
+      "title": "Yerusalem Daily: bayi mati kedinginan di Gaza",
+      "description": "Seorang bayi meninggal karena kedinginan di Gaza karena 53 negara mendesak Israel untuk mengijinkan bantuan masuk.",
+      "originalTitle": "Jerusalem Daily: Baby dies from cold in Gaza",
+      "originalDescription": "A baby dies from the cold in Gaza as 53 countries urge Israel to allow aid in.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/clean-2-1794587554.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T16:34:24+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/13/jerusalem-daily-baby-dies-from-cold-in-gaza"
+    },
+    {
+      "id": "295742b8cdd332a7",
+      "title": "Bayi meninggal karena hipotermia, saat serangan Israel terjadi di seluruh Gaza",
+      "description": "Bayi meninggal karena hipotermia, saat serangan Israel di seluruh Gaza lonjakan diturunkan oleh staf MEE pada Fri, 11 / 13 / 2026 - 14: 15 Ketika suhu menurun di tengah-tengah pembatasan Israel yang sedang berlangsung, orang-orang yang rentan menderita; ketika 11 orang tewas dalam serangkaian serangan di seluruh Gaza, termasuk satu orang di rumah sakit Mourners membawa mayat Dr. Rezik Abushira, yang tewas dalam serangan Israel di Nasser Hospital di Khan Younis, pada 12 November (Reuters / Ramadan Abed) Off Seorang bayi telah meninggal karena hipotermia di Gaza selatan, di tengah penurunan suhu dan meneruskan pembatasan bantuan Israel terhadap bantuan medis. Nine- month- tua Kinan Ahmed Raqqq ditemukan mati oleh ayahnya karena mereka berlindung di tenda di al- Mawasi daerah Khan Younis semalam. Ayah Raqiq Ahmed, berdiri menangis di luar rumah sakit Nasser, saat ia memegang tubuh anaknya yang terselubung. \"Aku bangun hanya untuk melihat kulitnya telah berubah biru jadi aku bergegas dia ke Nasser Hospital, tapi dia sudah meninggal dari hipotermia dan beku sampai mati\", katanya AFP. \"Saya dalam shock lengkap. Aku mendapati diriku memegang anak saya dibungkus kain kafan pemakaman.\" Hujan lebat telah menyapu Gaza, menggabungkan ribuan tenda di mana sebagian besar populasi enclave dipaksa untuk berlindung di antara pembatasan Israel yang sedang berlangsung pada bantuan memasuki wilayah tersebut. Saat suhu menurun pada hari Kamis, serangan Israel di seluruh Gaza melonjak, dengan petugas kesehatan menempatkan total korban orang yang tewas sejak pagi pukul 11. Sehari sebelum kematian Raqq bayi, dua drone Israel merobek melalui yang sama departemen bedah rumah sakit, membunuh enam orang, termasuk dokter bedah dan anak-anak dan terluka sekitar 30 lainnya. Seorang jurnalis AFP yang berada di TKP melaporkan bahwa salah satu tangga luar gedung telah sebagian runtuh dan bahwa dalam ruangan seluruh lantai rusak, dengan beton rusak dari dinding runtuh dicampur dengan peralatan medis ",
+      "originalTitle": "Baby dies of hypothermia, as Israeli attacks across Gaza surge",
+      "originalDescription": "Baby dies of hypothermia, as Israeli attacks across Gaza surge Submitted by MEE staff on Fri, 11/13/2026 - 14:15 As temperatures plummet amid ongoing Israeli restrictions on aid, the vulnerable suffer; while 11 people were killed in a series of attacks across Gaza, including one on a hospital Mourners carry the body of Dr Rezik Abushira, who was killed in an Israeli strike at Nasser Hospital in Khan Younis, on 12 November (Reuters/Ramadan Abed) Off A baby has died of hypothermia in southern Gaza, amid plummeting temperatures and continuing Israeli restrictions on aid, AFP reported, citing medical sources. Nine-month-old Kinan Ahmed Raqiq was found dead by his father as they sheltered in a tent in the al-Mawasi area of Khan Younis overnight. Raqiq’s father Ahmed, stood weeping outside Nasser Hospital, as he held his son’s shrouded body. “I woke up only to see his skin had turned blue so I rushed him to Nasser Hospital, but he had already died from hypothermia and frozen to death,” he told AFP. “I am in complete shock. I found myself holding my son wrapped in a burial shroud.” Heavy rains have swept through Gaza, inundating thousands of tents where the majority of the enclave’s population are forced to shelter amid ongoing Israeli restrictions on aid entering the territory. As temperatures plummeted on Thursday, Israeli attacks across Gaza surged, with health officials putting the total toll of people killed since dawn at 11. The day before baby Raqiq’s death, two Israeli drones tore through that same hospital’s surgical department, killing six people, including a surgeon and a child and wounding around 30 others. An AFP journalist who was at the scene reported that one of the building's exterior staircases had partially collapsed and that indoors an entire floor was damaged, with broken concrete from collapsed walls mixed with broken medical equipment. Medical Aid for Palestine reported on Friday that surgical services at the hospital have been suspended and that “co",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Untitled%281%29_7.jpg.jpg?itok=UV0h9Fd4",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T15:59:44+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/gaza-baby-dies-hypothermia-israeli-attacks-across-enclave-surge"
+    },
+    {
+      "id": "113ff882b0bafa43",
+      "title": "Turki dan Qatar tanda perjanjian pertahanan bersama",
+      "description": "Turki dan Qatar tanda perjanjian pertahanan bersama Diberikan oleh staf MEE pada Fri, 11 / 13 / 2026 - 15: 49 Pengumuman oleh presiden Turki adalah yang terbaru dalam serangkaian perjanjian pertahanan antara Timur Tengah dan Islam menyatakan Presiden Turki Reyep Tayyip Erdogan yang digambarkan dengan Emir, Sheikh Tamim bin Hamad al- Thani selama upacara penyambutan di kompleks presiden Ankara, 8 Agustus 2024 (Mugat Cetin Muhurdar / Turki kantor pers) Off Turki dan Qatar telah menandatangani perjanjian pertahanan bersama di Istanbul, dalam perjanjian terakhir antara negara-negara Islam dan militer. Perjanjian pertahanan adalah satu dari lima setuju antara Turki dan Qatar, sebagaimana Presiden Reep Tayyip Erdogan memimpin Emir dari Qatar, Sheikh Tamim bin Hamad Al Thani. Pernyataan dari kantor presiden Turki mengatakan bahwa perjanjian pertahanan bersama Jumat dengan Qatar akan menambah dimensi lain untuk persaudaraan kita \". Erdogan mengatakan kerjasama Turki dan Qatar dalam industri pertahanan akan terus tumbuh, menurut pernyataan. Turki dan Qatar telah memiliki beberapa perjanjian pertahanan sejak 2017, termasuk tuan rumah pasukan Turki di Doha, tetapi kesepakatan baru mengharuskan kedua negara untuk datang ke pertahanan yang lain. Pada bulan Agustus tahun ini, Turki menandatangani perjanjian pertahanan dengan Arab Saudi dan Pakistan, dikenal sebagai Perjanjian Mekah. Minggu lalu, parlemen Turki lulus hukum menyetujui perjanjian pertahanan Mekah awal pada hari Jumat, menyelesaikan tahap penting dalam proses hukum. Gerakan ini akan memungkinkan penyebaran pasukan Turki ke Arab Saudi, yang saat ini berperang dengan Perumahan Yaman. Pada bulan Oktober, Menteri Luar Negeri Turki Hakan Fidan mengatakan bahwa setiap penyebaran ke Arab Saudi akan defensif di alam dan bahwa pasukan Turki tidak akan beroperasi di Yaman. Di dalam Qatar News Post Tanggal Override 0 Update Date Mon, 05 / 04 / 2020 - 21: 19 Update Override 0",
+      "originalTitle": "Turkey and Qatar sign mutual defence agreement",
+      "originalDescription": "Turkey and Qatar sign mutual defence agreement Submitted by MEE staff on Fri, 11/13/2026 - 15:49 Announcement by Turkish presidency is the latest in a series of defence agreements amongst Middle Eastern and Islamic states Turkish President Recep Tayyip Erdogan pictured with Qatar's Emir Sheikh Tamim bin Hamad al-Thani during a welcoming ceremony at the presidential complex in Ankara, 8 August 2024 (Murat Cetin Muhurdar/Turkish presidential press office/AFP) Off Turkey and Qatar have signed a mutual defence agreement in Istanbul on Friday, in what is the latest military pact between Ankara and other Muslim states. The defence agreement was one of five agreed between Turkey and Qatar, as President Recep Tayyip Erdogan hosted the Emir of Qatar, Sheikh Tamim bin Hamad Al Thani. A statement by the Turkish president's office said that Friday's mutual defence agreement with Qatar \"would add another dimension to our brotherhood\". Erdogan said Turkey and Qatar’s cooperation in the defence industry would continue to grow, according to the statement. Turkey and Qatar have had several defence agrements since 2017, including the hosting of Turkish troops in Doha, but the new deal obliged both countries to come to the other's defence. In August this year, Turkey signed a defence pact with Saudi Arabia and Pakistan , known as the Mecca Agreement. Last week, the Turkish parliament passed a law approving the Mecca defence pact early on Friday, completing a crucial stage in the legal process. The move will allow the deployment of Turkish troops to Saudi Arabia, which is currently at war with Yemen's Houthis. In October, Turkish Foreign Minister Hakan Fidan said that any deployment to Saudi Arabia would be defensive in nature and that Turkish forces would not operate in Yemen. Inside Qatar News Post Date Override 0 Update Date Mon, 05/04/2020 - 21:19 Update Date Override 0",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/RTE-Qatar-2024.jpg.jpg?itok=x6T417g0",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T15:56:32+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/turkey-and-qatar-sign-mutual-defence-agreement"
+    },
+    {
+      "id": "8710e370d8abfd26",
+      "title": "Aturan Baru Layanan Pendingin Kawasan: Tak Ada Pemutusan di Musim Panas, Pengembalian Dana Penuh",
+      "description": "Otoritas Regulasi Listrik Arab Saudi menerbitkan pedoman layanan pendingin kawasan yang mengatur hak konsumen dan kewajiban penyedia layanan.",
+      "originalTitle": "Aturan Baru Layanan Pendingin Kawasan: Tak Ada Pemutusan di Musim Panas, Pengembalian Dana Penuh",
+      "originalDescription": "Otoritas Regulasi Listrik Arab Saudi menerbitkan pedoman layanan pendingin kawasan yang mengatur hak konsumen dan kewajiban penyedia layanan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/1000667758-crop-OXIRceJL.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T15:47:12+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/ekonomi/as647dgs7"
+    },
+    {
+      "id": "0f598c12ef352e32",
+      "title": "Seni melawan penghapusan: Pematung Palestina dan pelukis Lebanon yang berperang, pengasingan dan ingatan",
+      "description": "Seni melawan pengrusakan: Seorang pemahat Palestina dan seorang pelukis Lebanon dalam perang, pengasingan dan ingatan oleh Victoria Brittain pada Fri, 11 / 13 / 2026 - 12: 11 Abdul Rahman Katanani dan Ayman Baalbaki, hampir sama seperti saudara-saudara, telah menghabiskan berpuluh-puluh tahun untuk melakukan kekerasan pada masa muda mereka yang ditampilkan di museum-museum dan koleksi di seluruh dunia Abdul Rahman Katanani di studionya di luar Beirut (Victoria Brittain / MEE) Ruang ajaib ini, satu di sebuah bangunan tanpa nama di Beirut tengah sibuk, dan yang lainnya jauh dari kota di sebuah desa tinggi di bukit, berbicara untuk Lebanon dan Palestina. Mereka juga mendefinisikan kedua seniman dan keluarga mereka. Material Katanani adalah kawat berduri, lembaran logam yang rusak, cabang zaitun, tong minyak dan pakaian dibuang dari tempat lahirnya, kamp pengungsi Sabra dan Shatila. \"Saya selalu ingin menggunakan bahan kamp. Material ini adalah bayangan kita. Tidak... mereka adalah kita\", katanya Mata Timur Tengah. Material yang keras menghasilkan bentuk lirik yang mengejutkan, seperti gelombang 90 meter di kawat berduri, seorang anak bermain, bunga teratai dan kolase pakaian yang cerah, termasuk detail celana dalam yang tidak terduga intim. Sekali, ia membangun replika kamp Palestina masa kecilnya, ditampilkan di dalam galeri seni. Ayman Baalbaki di studionya (Victoria Brittain / MEE) Lukisan-lukisan Baalbaki yang sangat besar berbeda. Mereka menampilkan beberapa lapisan tebal cat, sering akrilik, dalam kedua intens dan warna halus. Banyak bagian dari seri memikat. Satu seri seperti itu, Destruction dan Loss, menggambarkan kehancuran bangunan iconic Beirut, seperti lukisan 2015-16 iconic nya dari Barakat Building di sudut Jalan Damaskus di Green Line dari perang sipil 15 tahun yang panjang. Seratus tahun yang lalu, rumah megah dengan lengkungan batu pasir dan aula di Ottoman adalah pusat keagungan Beirut. Perang sipil mengurangi itu menjadi shell besar; keindahan bekas",
+      "originalTitle": "Art against erasure: A Palestinian sculptor and a Lebanese painter on war, exile and memory",
+      "originalDescription": "Art against erasure: A Palestinian sculptor and a Lebanese painter on war, exile and memory Submitted by Victoria Brittain on Fri, 11/13/2026 - 12:11 Abdul Rahman Katanani and Ayman Baalbaki, close as brothers, have spent decades turning the violence of their youth into work shown in museums and collections worldwide Abdul Rahman Katanani in his studio outside Beirut (Victoria Brittain/MEE) Off The large studios of Abdul Rahman Katanani and Ayman Baalbaki are filled with canvases and installations about memory and destruction, drawn from the Israeli wars that shaped both artists’ youth. These magical spaces, one in an anonymous building in busy central Beirut, and the other far from the city in a village high in the hills, speak for Lebanon and Palestine . They also define the two artists and their families. Katanani’s materials are barbed wire, corrugated metal sheets, olive branches, petroleum barrels and discarded clothes from his birthplace, the Sabra and Shatila refugee camp. “I’ve always wanted to use the materials of the camp. These materials are our shadows. No... they’re us,” he told Middle East Eye. The harsh materials yield startling lyrical shapes, such as a nine-metre wave in barbed wire, a child playing, a lotus flower and a bright early collage of clothes, including the unexpectedly intimate detail of underwear. Once, he built a replica of the Palestinian camp of his childhood, shown inside an art gallery. Ayman Baalbaki in his studio (Victoria Brittain/MEE) Baalbaki’s very large mixed-media paintings are distinctive. They feature multiple thick layers of paint, often acrylic, in both intense and subtle colours. Many form part of a mesmerising series. One such series, Destruction and Loss , depicts the ruin of Beirut’s iconic buildings, like his 2015-16 iconic painting of the Barakat Building on the corner of Damascus Road on the Green Line of the 15-year-long civil war. A hundred years ago, the magnificent house with its sandstone arches and halls in",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/beirut-artist-oct-2026-victoria-brittain-mee.jpg.jpg?itok=5fmAzKb_",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T15:42:23+00:00",
+      "originalUrl": "https://www.middleeasteye.net/discover/art-against-erasure-palestinian-sculptor-lebanese-painter-war-exile-memory"
+    },
+    {
+      "id": "985fa298c8f4b2fa",
+      "title": "Pemkot Riyadh Siapkan 2.000 Personel dan 6.000 Alat Hadapi Musim Hujan",
+      "description": "Pemerintah Kota Riyadh mulai menjalankan rencana kesiapan musim hujan dengan melibatkan hampir 2.000 personel dan 6.000 alat berat, serta memperkuat koordinasi darurat.",
+      "originalTitle": "Pemkot Riyadh Siapkan 2.000 Personel dan 6.000 Alat Hadapi Musim Hujan",
+      "originalDescription": "Pemerintah Kota Riyadh mulai menjalankan rencana kesiapan musim hujan dengan melibatkan hampir 2.000 personel dan 6.000 alat berat, serta memperkuat koordinasi darurat.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/1000667728-crop-VKefPAih.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T15:40:11+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/23vdc6ge9"
+    },
+    {
+      "id": "8b9a50378c703853",
+      "title": "Dua orang Palestina dibunuh oleh api Israel di pusat Gaza, sumber rumah sakit mengatakan",
+      "description": "Dua orang Palestina dibunuh oleh api Israel di pusat Gaza, sumber rumah sakit mengatakan dua orang Palestina dibunuh oleh api Israel di timur Deir-Balah di pusat Gaza, menurut sumber-sumber di Rumah Sakit Al- Aqsa Martir, Al Jazeera dilaporkan. Pembunuhan itu terjadi sejak 7 Oktober 2023 telah meningkat menjadi setidaknya 74.653, menurut sumber medis Palestina yang dikutip oleh agen berita Wafa pada hari Rabu. Krisis kemanusiaan telah memburuk karena pembatasan Israel pada bantuan. Tim negara kemanusiaan PBB mengatakan pada hari Jumat bahwa Israel terus menghalangi masuk persediaan penting, termasuk tenda, selimut, pompa dan peralatan musim dingin lainnya. Hujan lebat selama seminggu terakhir telah membanjiri ribuan tenda pengungsi Palestina, sementara PBB mengatakan lebih dari 106.000 orang telah langsung terpengaruh.",
+      "originalTitle": "Two Palestinians killed by Israeli fire in central Gaza, hospital sources say",
+      "originalDescription": "Two Palestinians killed by Israeli fire in central Gaza, hospital sources say Two Palestinians were killed by Israeli fire east of Deir el-Balah in central Gaza, according to sources at Al-Aqsa Martyrs Hospital, Al Jazeera reported. The killings come as Gaza’s death toll since 7 October 2023 has risen to at least 74,653, according to Palestinian medical sources cited by Wafa news agency on Wednesday. The humanitarian crisis has worsened because of Israeli restrictions on aid. The UN’s humanitarian country team said on Friday that Israel continues to obstruct the entry of essential supplies, including tents, blankets, pumps and other winter equipment. Heavy rains over the past week have flooded thousands of tents sheltering displaced Palestinians, while the UN said more than 106,000 people had been directly affected.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D7BB6XL%20%281%29.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T15:35:20+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/two-palestinians-killed-israeli-fire-central-gaza-hospital-sources-say"
+    },
+    {
+      "id": "f9731f985bd1dd90",
+      "title": "Wamenhaj: Pelibatan umat lintas agama urus haji perkuat toleransi",
+      "description": "ANTARA - Kementerian Haji dan Umrah (Kemenhaj) berkomitmen memperkuat semangat toleransi dan kerukunan antarumat ...",
+      "originalTitle": "Wamenhaj: Pelibatan umat lintas agama urus haji perkuat toleransi",
+      "originalDescription": "ANTARA - Kementerian Haji dan Umrah (Kemenhaj) berkomitmen memperkuat semangat toleransi dan kerukunan antarumat ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/Screenshot-2026-11-13-221633.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T15:27:11+00:00",
+      "originalUrl": "https://www.antaranews.com/video/5852903/wamenhaj-pelibatan-umat-lintas-agama-urus-haji-perkuat-toleransi"
+    },
+    {
+      "id": "ccb1170fa360a1e3",
+      "title": "Guru Chabad senior setuju membunuh politisi Yahudi yang bekerja dengan orang Arab",
+      "description": "Rabi senior Chabad-Lubavitch bergerak sendiri dari Gedalia Axelrod, Rabbi Gedalia Axelrod, 11 / 13 / 2026 - 14: 22 Chabad Rabi dikritik oleh gerakannya sendiri setelah dia mengatakan bahwa hal itu bisa saja dilakukan oleh para politisi Yahudi yang bekerja sama dengan warga Arab. Gedalia Axelrod, seorang ulama senior dalam gerakan Chabad- Lubavitch Hasidic, mengeluarkan pemerintahan halakhic awal minggu ini di mana ia mengatakan bahwa politisi Yahudi yang membentuk pemerintahan yang didukung oleh warga Palestina Israel adalah \"din rodef\", yang secara kasar diterjemahkan sebagai \"hukum pengejar\". Dalam hukum agama Yahudi, rodef adalah seseorang yang menimbulkan ancaman bagi kehidupan orang lain dan mungkin dihentikan dengan cara apapun yang diperlukan. Doktrin sebelumnya dipanggil oleh pembunuh Yitzhak Rabin, Yigal Amir, untuk membenarkan pembunuhan perdana menteri pada tahun 1995. Axelrod menulis kolaborasi itu dengan pihak-pihak Arab menyebabkan bahaya besar bagi rakyat Israel di Tanah Suci dan di seluruh dunia. Kolaborasi bisa mengambil bentuk mengundang partai-partai Arab untuk bergabung koalisi pemerintahan, atau bahkan mengandalkan dukungan mereka dari luar. Komentar Axelrod cepat dikutuk oleh kepemimpinan gerakan agamanya, dengan juru bicara Chabad Rabbi Shimi Segal mengklarifikasi bahwa pernyataannya tidak mewakili resmi posisi Chabad. \"Posisi hallachic resmi Chabad secara eksklusif ditentukan oleh Pengadilan Rabinis Chabad, sesuai dengan instruksi Rebbe,\" katanya. \"Rabi Axelrod bukanlah anggota pengadilan dan tidak memegang posisi kepemimpinan di Chabad. Pernyataan dan suratnya mencerminkan pandangan pribadinya sendiri\". Meskipun disvowal tersebut, setidaknya satu situs Chabad telah menggambarkan Axelrod sebagai \"antara rabi Chabad paling penting di Tanah Suci\". Selain Cassif, satu-satunya anggota Yahudi dari partai Daftar Sayap Kiri, mendorong polisi untuk membuka penyelidikan kriminal ke Axelrod, memperingatkan bahwa sebagai \"otoriter dan dikenal tokoh raky",
+      "originalTitle": "Senior Chabad rabbi condones killing Jewish politicians who work with Arabs",
+      "originalDescription": "Senior Chabad rabbi condones killing Jewish politicians who work with Arabs Submitted by MEE staff on Fri, 11/13/2026 - 14:22 Chabad-Lubavitch Hasidic movement distances itself from Gedalia Axelrod's 'personal opinion' Rabbi Gedalia Axelrod (YouTube screengrab) Off A senior Chabad rabbi has been criticised by his own movement after he said it was permissible to kill Jewish Israeli politicians who worked with Arabs. Gedalia Axelrod, a senior cleric in the Chabad-Lubavitch Hasidic movement, issued a halakhic ruling earlier this week in which he said that Jewish politicians who form a government backed by Palestinian citizens of Israel were \"din rodef\", which roughly translates as \"law of the pursuer\". Under Jewish religious law, a rodef is someone who poses a threat to another person's life and may be stopped by any means necessary. The doctrine was previously invoked by Yitzhak Rabin’s assassin, Yigal Amir, to justify the prime minister’s killing in 1995. Axelrod wrote that collaboration with Arab parties \"poses a terrible danger to the people of Israel in the Holy Land and around the world\". Collaboration could either take the form of inviting Arab parties to join a governing coalition, or even relying on their support from outside it. Swift condemnation Axelrod's comments were swiftly condemned by the leadership of his religious movement, with Chabad spokesperson Rabbi Shimi Segal clarifying that his statements did not represent the official Chabad position. “Chabad’s official halachic positions are determined exclusively by the Chabad Rabbinical Court, in accordance with the Rebbe’s instructions,” he said. The changing face of Israel’s ultra-Orthodox politics Read More » “Rabbi Axelrod is not a member of the court and does not hold a leadership position in Chabad. His statements and letters reflect his personal views alone.” Despite the disavowal, at least one Chabad website has described Axelrod as \"among the most important Chabad rabbis in the Holy Land\". Ofer C",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/gedalia%20axelrod%20youtube.jpg.jpg?itok=Y9lLjm1m",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah",
+        "Palestina",
+        "Dakwah dan Ulama"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T15:27:10+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/senior-chabad-rabbi-condones-killing-jewish-politicians-who-work-arabs"
+    },
+    {
+      "id": "8a26c06fff0d2505",
+      "title": "Greta Thunberg di COP: pengiriman energi Turki 'langsung memicu genosida Palestina'",
+      "description": "Greta Thunberg di COP: Pengantar energi Turki secara langsung memicu aksi genosida Palestina 'Dilepaskan oleh Katherine Hearst pada Fri, 11 / 13 / 2026 - 13: 08 Aktivis menunjuk ke sebuah' tidak nyaman kontradiksi 'sebagai laporan menemukan 77 pengiriman minyak yang meninggalkan pelabuhan Turkish selama Reksa Bangkas Greta Tunberg memberikan sebuah konferensi pers di Konferensi Perubahan Iklim PBB (COP31) di Antalya, di Turki, di Unkla-Unk (20g of Refaumen (2027) Thunberg, yang mengadakan konferensi pers pada hari Kamis bersama para aktivis dari Nepal, Australia, Palestina, dan Kanada, menyerukan Ankara untuk \"menghentikan transfer minyak dan energi dari wilayahnya ke Israel\", yang katanya adalah \"secara langsung memicu genosida Palestina\". Komentar-komentarnya datang tak lama setelah Presiden Turki Reryep Tayyip Erdogan menyatakan dalam pidato pembuka nya untuk konferensi bahwa Gaza telah menderita \"tidak hanya genosida tetapi juga ekstasi\", dan menyerukan untuk masuk langsung bantuan ke dalam enclave perang-robek. Menteri Lingkungan dan Presiden COP31, Murat Kurum, mengatakan kepada media Turki awal minggu ini bahwa para pemimpin Turki tidak mengundang Israel untuk berpartisipasi di pertemuan tersebut karena pembunuhan massal warga Palestina di Gaza. Kelompok kampanye Embargo Energi untuk Palestina (EFFP) mengatakan bahwa sementara mereka menyambut pernyataan dan tindakan ini, sebuah \"kontradiksi yang tidak nyaman masih mengikuti Tu Aferkiye melalui COP\". \"Bagaimana pemerintah bisa muncul sendiri sebagai pemimpin iklim sementara wilayahnya tetap merupakan unsur penting dari rantai pasokan menyediakan minyak bagi Israel selama serangan genosida terhadap Palestina?\" Juru bicara untuk kelompok kata. Turki - yang bersama-sama menjadi tuan rumah konferensi iklim tahun ini dengan Australia - sedang berada di bawah pengawasan untuk terus pengiriman Azerbaijan mentah, yang dipompa melalui Baku-Tbilisi- Ceyhan (BTC) pipa dari Azerbaijan dan dikirim keluar dari pelabuhan Tu",
+      "originalTitle": "Greta Thunberg at COP: Turkish energy shipments 'directly fuelling the genocide of Palestine'",
+      "originalDescription": "Greta Thunberg at COP: Turkish energy shipments 'directly fuelling the genocide of Palestine' Submitted by Katherine Hearst on Fri, 11/13/2026 - 13:08 Activists point to an 'uncomfortable contradiction' as report finds 77 oil shipments left Turkish ports for Israel during Ankara's embargo Activist Greta Thunberg attends a press conference at the UN Climate Change Conference (COP31) in Antalya, Turkey, on 12 November 2026 (Umit Bektas/Reuters) Off Activist Greta Thunberg has called for an end to Turkish fuel shipments to Israel at the Cop 31 climate conference in Turkey’s Antalya, as a new report has revealed that 77 crude oil shipments left Turkish ports for Israel in violation of Ankara’s energy embargo. Thunberg, who addressed a packed press conference on Thursday alongside activists from Nepal, Australia, Palestine and Canada, called on Ankara to “stop the transfer of oil and energy from its territory to Israel”, which she said is “directly fuelling the genocide of Palestine”. Her comments came shortly after Turkish President Recep Tayyip Erdogan declared in his opening address to the conference that Gaza has suffered \"not only a genocide but also an ecocide\", and called for the immediate entry of aid into the war-torn enclave. Minister of environment and COP31 president, Murat Kurum, told Turkish media earlier this week that Turkey did not invite Israel’s leaders to participate at the summit due to the mass killings of Palestinians in Gaza. The campaign group Energy Embargo for Palestine (EFFP) told Middle East Eye that while they welcomed these statements and actions, an \"uncomfortable contradiction still follows Türkiye throughout COP\". \"How can a government present itself as a climate leader while its territory remains an essential element of supply chains providing oil to Israel during its genocidal assault on Palestinians?\" a spokesperson for the group said. Turkey - which is jointly hosting this year's climate conference with Australia - is coming under i",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/2026-11-12T082930Z_1589608839_RC28MOARFH76_RTRMADP_3_CLIMATE-COP31.JPG.jpg?itok=j-0ojKON",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T15:22:03+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/greta-thunberg-cop-turkish-energy-shipments-directly-fuelling-genocide-palestine"
+    },
+    {
+      "id": "f05ecf901fc6cf0b",
+      "title": "Kelompok hak-hak Palestina mengatakan Israel melarang sutradaranya bepergian ke luar negeri",
+      "description": "Kelompok hak-hak Palestina mengatakan Israel melarang sutradaranya dari perjalanan ke luar negeri Israel melarang Shawan Jabarin, direktur umum kelompok hak asasi manusia Palestina Al- Haq, dari perjalanan ke Yordania setelah menghentikan dia di Jembatan Allenby persimpangan pada hari Jumat, organisasi mengatakan. Dalam sebuah pernyataan, Al- Haq mengatakan pasukan Israel mempertanyakan Jabarin tentang tujuan perjalanannya sebelum memberitahunya bahwa dia dilarang bepergian. Organisasi mengatakan pembatasan secara politis termotivasi dan terkait dengan hak asasi manusia advokasi. Al- Haq mengatakan Jabarin sebelumnya menghadapi pembatasan perjalanan dan ancaman atas karyanya. Ini mengutip panggilan peringatan 2022 dari Shin Bet Israel dan mengatakan larangan perjalanan yang diberlakukan pada tahun 2006 tetap berlaku selama enam tahun sebelum diangkat sementara di 2012. Organisasi mengatakan ia juga telah dicegah dari perjalanan ke Belanda pada tahun 2009 untuk menerima penghargaan HAM. Peringatan Aksi langsung: Direktur Umum Al- Haq, Shawan Jabarin Banned dari Travelling di luar # Palestina oleh # Israel, Calls on Third Americons to Intervene # EndIsrael Impuance # EndIsrael Apartheid https:",
+      "originalTitle": "Palestinian rights group says Israel barred its director from travelling abroad",
+      "originalDescription": "Palestinian rights group says Israel barred its director from travelling abroad Israel barred Shawan Jabarin, the general director of Palestinian human rights group Al-Haq, from travelling to Jordan after stopping him at the Allenby Bridge crossing on Friday, the organisation said. In a statement, Al-Haq said Israeli forces questioned Jabarin about the purpose of his journey before informing him that he was banned from travelling. The organisation said the restriction were politically motivated and linked to his human rights advocacy. Al-Haq said Jabarin had previously faced travel restrictions and threats over his work. It cited a 2022 warning call from Israel’s Shin Bet and said a travel ban imposed in 2006 remained in force for six years before being temporarily lifted in 2012. The organisation said he had also been prevented from travelling to the Netherlands in 2009 to receive a human rights award. 🚨 Immediate Action Alert: Al-Haq’s General Director, Shawan Jabarin Banned from Travelling outside #Palestine by #Israel, Calls on Third States to Intervene #EndIsraeliImpunity #EndIsraeliApartheid https://t.co/CLXz5DG6rV /1 — Al-Haq الحق (@alhaq_org) November 13, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D7BB6XL%20%281%29.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T14:57:15+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/palestinian-rights-group-says-israel-barred-its-director-travelling"
+    },
+    {
+      "id": "0411829b8adb846c",
+      "title": "Kabinet Arab Saudi Ubah Aturan Pusat Dukungan Pengambilan Keputusan",
+      "description": "Kabinet Arab Saudi mengubah aturan Pusat Dukungan Pengambilan Keputusan, memperjelas peran dan memungkinkan rapat dewan dilakukan jarak jauh.",
+      "originalTitle": "Kabinet Arab Saudi Ubah Aturan Pusat Dukungan Pengambilan Keputusan",
+      "originalDescription": "Kabinet Arab Saudi mengubah aturan Pusat Dukungan Pengambilan Keputusan, memperjelas peran dan memungkinkan rapat dewan dilakukan jarak jauh.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-09/ولي-العهد-يرأس-جلسة-مجلس-الوزراء-K8-C2hIb.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T14:49:07+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/dk3ipflhv"
+    },
+    {
+      "id": "f8c0af079a5b19a7",
+      "title": "Panel Surya di Atap Rumah, Kelebihan Listrik Bisa Dijual ke Jaringan",
+      "description": "Otoritas Regulasi Listrik Arab Saudi menerbitkan aturan baru yang memungkinkan konsumen menghasilkan listrik sendiri dari energi terbarukan dan menjual kelebihan listrik ke jaringan.",
+      "originalTitle": "Panel Surya di Atap Rumah, Kelebihan Listrik Bisa Dijual ke Jaringan",
+      "originalDescription": "Otoritas Regulasi Listrik Arab Saudi menerbitkan aturan baru yang memungkinkan konsumen menghasilkan listrik sendiri dari energi terbarukan dan menjual kelebihan listrik ke jaringan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/1-crop-7ja0edTr.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T14:44:59+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/ekonomi/5vwwqgwrg"
+    },
+    {
+      "id": "d1e1153b55de32fa",
+      "title": "Arab Saudi Setujui Sistem Transaksi Komersial Baru",
+      "description": "Pemerintah Arab Saudi menyetujui sistem transaksi komersial baru yang bertujuan menjaga stabilitas pasar dan memperbarui sejumlah ketentuan hukum terkait perdagangan.",
+      "originalTitle": "Arab Saudi Setujui Sistem Transaksi Komersial Baru",
+      "originalDescription": "Pemerintah Arab Saudi menyetujui sistem transaksi komersial baru yang bertujuan menjaga stabilitas pasar dan memperbarui sejumlah ketentuan hukum terkait perdagangan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-rQ3rm9Tm.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T14:29:54+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/om2jicj21"
+    },
+    {
+      "id": "ebc0cf2a9d8cff4e",
+      "title": "Koperasi dan Adaptasi Pesantren",
+      "description": "Koperasi dan pesantren tumbuh dari rakyat yang sama. Mampukah keberhasilan segelintir pesantren menular ke 42 ribu lainnya?",
+      "originalTitle": "Koperasi dan Adaptasi Pesantren",
+      "originalDescription": "Koperasi dan pesantren tumbuh dari rakyat yang sama. Mampukah keberhasilan segelintir pesantren menular ke 42 ribu lainnya?",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/koperasi-pesantren-siap-pisan-1_1794575113.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T14:26:46+00:00",
+      "originalUrl": "https://www.nu.or.id/opini/koperasi-dan-adaptasi-pesantren-wj8sq"
+    },
+    {
+      "id": "118b31f9f02aa5bd",
+      "title": "Jordan, Mesir, Kuwait, Bahrain dan Liga Arab mengutuk serangan Houthi di Arab Saudi",
+      "description": "RIYADH - Yordania, Mesir, Kuwait, Bahrain dan Liga Arab telah menghukum teroris milisi Houthi yang terus rudal dan serangan drone di Arab Saudi, menegaskan kembali solidaritas mereka dengan Kerajaan dan dukungan untuk tindakan yang diambil untuk melindungi keamanan dan kedaulatan. Dalam pernyataan yang dikeluarkan pada hari Kamis, Departemen Luar Negeri Jordan mengutuk serangan yang terus-menerus, yang baru-baru ini melibatkan peluncuran dua rudal balistik menuju wilayah Hindia, bersama dengan rudal dan drone diarahkan di Riyadh dan daerah lainnya di Kingdom. Departemen ini menggambarkan serangan sebagai pelanggaran hukum Saudi, hukum internasional dan Piagam PBB, menegaskan kembali penolakan Jordan atas serangan terhadap warga sipil, sipil, dan infrastruktur ekonomi. Jordan juga menegaskan solidaritas penuh dengan Arab Saudi dan mendukung keamanan, stabilitas, kedaulatan, aset nasional, warga negara dan warga. Sementara itu, Liga Arab sangat mengutuk peluncuran rudal balistik, meluncurkan rudal dan drone menuju Mekah, Riyadh dan Arab Saudi bagian timur dan selatan, menggambarkan serangan sebagai eskalasi berbahaya mengancam keamanan Kerajaan dan kehidupan sipil. Organisasi ini menekankan bahwa menargetkan wilayah Saudi, terutama daerah perumahan Islam situs suci, melanggar kedaulatan dan integritas teritorial Kingdom, hukum internasional dan Piagam PBB, sementara melanggar kesucian situs agama dan memprovokasi Muslim di seluruh dunia. Liga Arab memuji efektivitas pertahanan udara Saudi dalam mencegat dan menggagalkan serangan dan menegaskan kembali dukungannya untuk langkah-langkah sah Kerajaan untuk melindungi wilayahnya, warga dan warga. Ini juga memperingatkan bahwa serangan lanjutan akan meningkatkan ketegangan daerah dan melemahkan upaya de-eskalasi, mendorong komunitas internasional, terutama Dewan Keamanan PBB, untuk memastikan implementasi resolusi yang relevan, termasuk 2216 (2015) dan 2817 (2026). Kementerian Luar Negeri Mesir juga mengutuk serangan terus",
+      "originalTitle": "Jordan, Egypt, Kuwait, Bahrain and Arab League condemn Houthi attacks on Saudi Arabia",
+      "originalDescription": "RIYADH — Jordan, Egypt, Kuwait, Bahrain and the Arab League have strongly condemned the terrorist Houthi militia’s continued missile and drone attacks on Saudi Arabia, reaffirming their solidarity with the Kingdom and support for measures taken to protect its security and sovereignty. In a statement issued on Thursday, Jordan’s Ministry of Foreign Affairs condemned the continued attacks, most recently involving the launch of two ballistic missiles toward the Makkah region, along with missiles and drones directed at Riyadh and other areas of the Kingdom. The ministry described the attacks as flagrant violations of Saudi sovereignty, international law and the UN Charter, reaffirming Jordan’s rejection of attacks targeting civilians and civilian and economic infrastructure. Jordan also reiterated its full solidarity with Saudi Arabia and support for measures taken to protect its security, stability, sovereignty, national assets, citizens and residents. Meanwhile, the Arab League strongly condemned the launch of ballistic missiles, cruise missiles and drones toward Makkah,Riyadh and Saudi Arabia’s eastern and southern regions, describing the attacks as a dangerous escalation threatening the Kingdom’s security and civilian lives. The organization stressed that targeting Saudi territory, particularly areas housing Islamic holy sites, violates the Kingdom’s sovereignty and territorial integrity, international law and the UN Charter, while infringing upon the sanctity of religious sites and provoking Muslims worldwide. The Arab League praised the effectiveness of Saudi air defenses in intercepting and thwarting the attacks and reaffirmed its support for the Kingdom’s legitimate measures to protect its territory, citizens and residents. It also warned that continued attacks would heighten regional tensions and undermine de-escalation efforts, urging the international community, particularly the UN Security Council, to ensure the implementation of relevant resolutions, includ",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/13/2793998.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T13:56:53+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666231/saudi-arabia/jordan-egypt-kuwait-bahrain-and-arab-league-condemn-houthi-attacks-on-saudi-arabia"
+    },
+    {
+      "id": "8e4214b42ec54cf7",
+      "title": "Penangkapan Warga Somalia dan Yaman atas Penyelundupan Khat dan Pil Terlarang di Jazan dan Najran",
+      "description": "Patroli Perbatasan Arab Saudi menangkap lima warga Yaman di Jazan atas penyelundupan khat, serta dua pelaku asal Somalia dan Yaman di Najran terkait pil terlarang.",
+      "originalTitle": "Penangkapan Warga Somalia dan Yaman atas Penyelundupan Khat dan Pil Terlarang di Jazan dan Najran",
+      "originalDescription": "Patroli Perbatasan Arab Saudi menangkap lima warga Yaman di Jazan atas penyelundupan khat, serta dua pelaku asal Somalia dan Yaman di Najran terkait pil terlarang.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-G6Kof4iY.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T13:38:11+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/j4xnbuxnf"
+    },
+    {
+      "id": "4d58b8dd7b2c49e6",
+      "title": "Muhammadiyah Resmikan Mentari Mart Terbesar di Palu, Siap Saingi Raksasa Ritel",
+      "description": "PALU -- Persyarikatan Muhammadiyah mulai memperluas kiprahnya di sektor bisnis ritel. Melalui jaringan usaha Mentari Mart, organisasi Islam terbesar di Indonesia ini menargetkan pengembangan gerai hingga ratusan unit. Langkah...",
+      "originalTitle": "Muhammadiyah Resmikan Mentari Mart Terbesar di Palu, Siap Saingi Raksasa Ritel",
+      "originalDescription": "PALU -- Persyarikatan Muhammadiyah mulai memperluas kiprahnya di sektor bisnis ritel. Melalui jaringan usaha Mentari Mart, organisasi Islam terbesar di Indonesia ini menargetkan pengembangan gerai hingga ratusan unit. Langkah...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/persyarikatan-muhammadiyah-mulai-memperluas-kiprahnya-di-sektor-bisnis-ritel_261113201939-547.jpg",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T13:36:00+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tofzlh430/muhammadiyah-resmikan-mentari-mart-terbesar-di-palu-siap-saingi-raksasa-ritel"
+    },
+    {
+      "id": "edcdf259d24260dc",
+      "title": "Inggris dituduh 'membungkam' pro- Palestina suara melalui entri bans",
+      "description": "Seorang aktivis Amerika Palestina telah menolak masuk ke Inggris untuk menghadiri pengumpulan dana tahunan amalnya di Gaza.",
+      "originalTitle": "UK accused of ‘silencing’ pro-Palestine voices through entry bans",
+      "originalDescription": "A Palestinian American activist has been refused entry to the UK to attend his charity’s annual Gaza fundraiser.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794575753.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T13:19:26+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/13/uk-accused-of-silencing-pro-palestine-voices-through-entry-bans"
+    },
+    {
+      "id": "b929eb5fed528866",
+      "title": "PBB Desak Semua Perlintasan Gaza Dibuka untuk Percepatan Bantuan Musim Dingin",
+      "description": "PBB mendesak pembukaan seluruh perlintasan Gaza untuk mempercepat bantuan musim dingin. Banjir dan serangan Israel menambah penderitaan penduduk.",
+      "originalTitle": "PBB Desak Semua Perlintasan Gaza Dibuka untuk Percepatan Bantuan Musim Dingin",
+      "originalDescription": "PBB mendesak pembukaan seluruh perlintasan Gaza untuk mempercepat bantuan musim dingin. Banjir dan serangan Israel menambah penderitaan penduduk.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/tenda-warga-gaza_1794574351.webp",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T13:00:01+00:00",
+      "originalUrl": "https://www.nu.or.id/internasional/pbb-desak-semua-perlintasan-gaza-dibuka-untuk-percepatan-bantuan-musim-dingin-nTRZ7"
+    },
+    {
+      "id": "1c8eb6939b5adabd",
+      "title": "PCINU Malaysia dan Pemerintah Malaysia Jajaki Kolaborasi Penguatan Islam Moderat",
+      "description": "PCINU Malaysia dan Pemerintah Malaysia menjajaki kerja sama pendidikan pesantren dan penguatan dakwah Islam moderat untuk mencegah ekstremisme.",
+      "originalTitle": "PCINU Malaysia dan Pemerintah Malaysia Jajaki Kolaborasi Penguatan Islam Moderat",
+      "originalDescription": "PCINU Malaysia dan Pemerintah Malaysia menjajaki kerja sama pendidikan pesantren dan penguatan dakwah Islam moderat untuk mencegah ekstremisme.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/pcinu-malaysia-pemerintah-malaysia_1794581126.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah",
+        "Dakwah dan Ulama"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T12:30:20+00:00",
+      "originalUrl": "https://www.nu.or.id/internasional/pcinu-malaysia-dan-pemerintah-malaysia-jajaki-kolaborasi-penguatan-islam-moderat-Ic0QL"
+    },
+    {
+      "id": "2ec57ba27f964165",
+      "title": "Kemenhaj Jelaskan 2 Kategori Petugas Haji yang Bisa Diisi Kalangan Non-Muslim",
+      "description": "JAKARTA – Kementerian Haji dan Umrah (Kemenhaj) RI menjelaskan bahwa tidak semua kategori Petugas Penyelenggara Ibadah Haji (PPIH) disyaratkan beragama Islam. Petugas non-Muslim diperbolehkan bertugas pada dua kategori PPIH, yakni...",
+      "originalTitle": "Kemenhaj Jelaskan 2 Kategori Petugas Haji yang Bisa Diisi Kalangan Non-Muslim",
+      "originalDescription": "JAKARTA – Kementerian Haji dan Umrah (Kemenhaj) RI menjelaskan bahwa tidak semua kategori Petugas Penyelenggara Ibadah Haji (PPIH) disyaratkan beragama Islam. Petugas non-Muslim diperbolehkan bertugas pada dua kategori PPIH, yakni...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/kepala-biro-humas-kementerian-haji-dan-umrah-ri-hasan_251129024737-132.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T11:56:44+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tofvuk320/kemenhaj-jelaskan-2-kategori-petugas-haji-yang-bisa-diisi-kalangan-nonmuslim"
+    },
+    {
+      "id": "f1e650d9e9d63139",
+      "title": "Angkat Riset Ekspor Tembakau, Tiga Mahasiswi Ekonomi Syariah UNU Blitar Raih Juara 1 Student Conference Jatim 2026",
+      "description": "Tiga mahasiswi UNU Blitar meraih Juara 1 Student Conference Kejurprov Jatim 2026 melalui penelitian tentang faktor ekspor tembakau Indonesia.",
+      "originalTitle": "Angkat Riset Ekspor Tembakau, Tiga Mahasiswi Ekonomi Syariah UNU Blitar Raih Juara 1 Student Conference Jatim 2026",
+      "originalDescription": "Tiga mahasiswi UNU Blitar meraih Juara 1 Student Conference Kejurprov Jatim 2026 melalui penelitian tentang faktor ekspor tembakau Indonesia.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/mahasiswa-es-saat-menerima-hadiah_1794583042.webp",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T11:30:18+00:00",
+      "originalUrl": "https://www.nu.or.id/daerah/angkat-riset-ekspor-tembakau-tiga-mahasiswi-ekonomi-syariah-unu-blitar-raih-juara-1-student-conference-jatim-2026-EZ8r3"
+    },
+    {
+      "id": "6eb1d4e4b23b63a2",
+      "title": "Imam Masjid Nabawi Tekankan Pentingnya Persiapan Hari Kiamat dengan Iman dan Amal Saleh",
+      "description": "Imam dan khatib Masjid Nabawi, Syekh Abdulmuhsin Al-Qasim, mengingatkan pentingnya persiapan menghadapi Hari Kiamat dengan iman dan amal saleh serta menunaikan hak dan tanggung jawab.",
+      "originalTitle": "Imam Masjid Nabawi Tekankan Pentingnya Persiapan Hari Kiamat dengan Iman dan Amal Saleh",
+      "originalDescription": "Imam dan khatib Masjid Nabawi, Syekh Abdulmuhsin Al-Qasim, mengingatkan pentingnya persiapan menghadapi Hari Kiamat dengan iman dan amal saleh serta menunaikan hak dan tanggung jawab.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-L_ffYFab.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T11:15:05+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/9ijyhl523"
+    },
+    {
+      "id": "c3654b5ee7ad8d46",
+      "title": "Pernahkah Merenungkan Nikmat Kedua Tangan yang Anda Miliki? Bersyukurlah...",
+      "description": "JAKARTA— Kedua tangan memiliki kedudukan yang sangat penting dalam Islam. Di dalam Alquran, terdapat sejumlah ayat yang menisbatkan seluruh perbuatan anggota tubuh manusia kepada kedua tangannya. Allah SWT berfirman: وَلَا...",
+      "originalTitle": "Pernahkah Merenungkan Nikmat Kedua Tangan yang Anda Miliki? Bersyukurlah...",
+      "originalDescription": "JAKARTA— Kedua tangan memiliki kedudukan yang sangat penting dalam Islam. Di dalam Alquran, terdapat sejumlah ayat yang menisbatkan seluruh perbuatan anggota tubuh manusia kepada kedua tangannya. Allah SWT berfirman: وَلَا...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/menjaga-kesehatan-dengan-selalu-mencuci-tangan-ilustrasi-_181015170654-372.jpg",
+      "category": "Al-Qur'an dan Hadis",
+      "tags": [
+        "Al-Qur'an dan Hadis"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T11:00:00+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tofor7320/pernahkah-merenungkan-nikmat-kedua-tangan-yang-anda-miliki-bersyukurlah"
+    },
     {
       "id": "a8d666376eeda681",
       "title": "Imam Masjidil Haram Ajak Umat Islam Teguhkan Tauhid dan Waspadai Syirik",
@@ -265,6 +1069,31 @@
       "region": "",
       "publishedAt": "2026-11-13T10:53:11+00:00",
       "originalUrl": "https://indonesian.ajel.sa/arab-saudi/f9kzqkduc"
+    },
+    {
+      "id": "aad7086eab69bd75",
+      "title": "Hadapi Krisis Keluarga, LKKNU Sulsel Libatkan Pesantren sebagai Pusat Edukasi dan Pemberdayaan",
+      "description": "LKKNU Sulsel gerakkan pesantren sebagai basis penguatan ketahanan keluarga melalui edukasi, pengasuhan anak, dan perlindungan perempuan serta anak.",
+      "originalTitle": "Hadapi Krisis Keluarga, LKKNU Sulsel Libatkan Pesantren sebagai Pusat Edukasi dan Pemberdayaan",
+      "originalDescription": "LKKNU Sulsel gerakkan pesantren sebagai basis penguatan ketahanan keluarga melalui edukasi, pengasuhan anak, dan perlindungan perempuan serta anak.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/lkknu-pesantren-keluarga-maslahat_1794584397.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T10:30:27+00:00",
+      "originalUrl": "https://www.nu.or.id/daerah/hadapi-krisis-keluarga-lkknu-sulsel-libatkan-pesantren-sebagai-pusat-edukasi-dan-pemberdayaan-0f4zy"
     },
     {
       "id": "782f716cda45825d",
@@ -695,10 +1524,10 @@
     },
     {
       "id": "6225a39220669401",
-      "title": "Arab Saudi mengekspresikan solidaritas dengan UAE berikut mematikan Fujairah insiden pelabuhan",
-      "description": "RIYADH - Arab Saudi telah menyatakan solidaritas dengan Uni Emirat Arab mengikuti insiden di Port of Fujairah yang mengakibatkan kematian dan cedera. Dalam sebuah pernyataan yang dikeluarkan oleh Kementerian Luar Negeri pada hari Jumat, Arab Saudi menyatakan belasungkawa dan simpati yang tulus kepada kepemimpinan UAE, pemerintah dan rakyat, serta keluarga para korban. Kerajaan juga berharap mereka yang terluka dalam insiden pemulihan cepat.",
-      "originalTitle": "Saudi Arabia expresses solidarity with UAE following deadly Fujairah port incident",
-      "originalDescription": "RIYADH — Saudi Arabia has expressed its solidarity with the United Arab Emirates following an incident at the Port of Fujairah that resulted in deaths and injuries. In a statement issued by the Ministry of Foreign Affairs on Friday, Saudi Arabia expressed its sincere condolences and sympathy to the UAE’s leadership, government and people, as well as the families of the victims. The Kingdom also wished those injured in the incident a speedy recovery.",
+      "title": "Arab Saudi menyatakan solidaritas dengan UAE setelah kecelakaan Fujairah membunuh 14, melukai 30",
+      "description": "RIYADH - Arab Saudi menyatakan solidaritas dengan Uni Emirat Arab setelah kecelakaan lalu lintas yang besar di Fujairah yang menewaskan 14 orang dan melukai 30 lainnya, kata Kementerian Luar Negeri. Dalam sebuah pernyataan, kementrian menyampaikan belasungkawa dan simpati yang tulus kepada pemimpin UAE, pemerintah dan rakyat, serta keluarga korban, dan berharap yang terluka cepat sembuh. Kecelakaan itu terjadi sebelum tengah malam di Sheikh Khalifa bin Zayed Road di pintu masuk ke Fujairah, ketika sebuah truk bertabrakan dengan beberapa kendaraan, memicu kebakaran yang menyebar ke beberapa mobil, menurut Polisi Fujairah. Kantor Pusat Polisi FFujairah mengatakan pengemudi truk kehilangan kendali kendaraan, menyebabkan bertabrakan dengan mobil lain sebelum menabrak dan menabrak beberapa kendaraan yang telah berhenti atau melambat karena kemacetan lalu lintas. Tabrakan memicu kebakaran di truk yang kemudian menyebar ke kendaraan lain, mengakibatkan kerugian signifikan kehidupan. Polisi mengatakan tim tanggap darurat, termasuk polisi, ambulans, penyelamatan dan personil pertahanan sipil, segera dikirim ke tempat kejadian setelah ruang operasi menerima laporan kecelakaan. Kru darurat memadamkan api, menyediakan pertolongan pertama dan mengangkut yang terluka ke rumah sakit, sementara polisi mengamankan TKP dan mengatur lalu lintas untuk memastikan keselamatan pengguna jalan lainnya. Pihak berwenang mengkonfirmasi bahwa 15 dari 30 orang yang terluka telah dikeluarkan dari rumah sakit setelah menerima perawatan medis, sedangkan 15 lainnya terus menerima perawatan medis. Polisi Fujairah mengatakan korban jiwa termasuk warga Emiri, sementara tim forensik sedang melakukan tes DNA untuk mengidentifikasi beberapa korban lainnya. Yang terluka termasuk warga negara UEE, Oman, India, Brasil, Pakistan, Yordania dan Mesir. Polisi menyatakan kesedihan mendalam atas tragedi dan belasungkawa panjang untuk keluarga mereka yang tewas, sementara berharap yang terluka pemulihan cepat. Piha",
+      "originalTitle": "Saudi Arabia expresses solidarity with UAE after Fujairah crash kills 14, injures 30",
+      "originalDescription": "RIYADH — Saudi Arabia expressed its solidarity with the United Arab Emirates following a major traffic accident in Fujairah that killed 14 people and injured 30 others, the Ministry of Foreign Affairs said. In a statement, the ministry extended the Kingdom’s sincere condolences and sympathy to the UAE’s leadership, government and people, as well as the families of the victims, and wished the injured a speedy recovery. The accident occurred shortly before midnight on Sheikh Khalifa bin Zayed Road at the entrance to Fujairah, when a truck collided with several vehicles, triggering a fire that spread to multiple cars, according to Fujairah Police. The Fujairah Police General Headquarters said the truck driver lost control of the vehicle, causing it to collide with another car before overturning and crashing into several vehicles that had stopped or slowed because of traffic congestion. The collision sparked a fire in the truck that subsequently spread to other vehicles, resulting in significant loss of life. Police said emergency response teams, including police, ambulance, rescue and civil defense personnel, were immediately dispatched to the scene after the operations room received a report of the accident. Emergency crews extinguished the fire, provided first aid and transported the injured to hospitals, while police secured the scene and managed traffic to ensure the safety of other road users. Authorities confirmed that 15 of the 30 injured people had been discharged from hospitals after receiving medical treatment, while the remaining 15 continued to receive medical care. Fujairah Police said the fatalities included Emirati nationals, while forensic teams were conducting DNA tests to identify several other victims. The injured included nationals of the UAE, Oman, India, Brazil, Pakistan, Jordan and Egypt. Police expressed deep sorrow over the tragedy and extended condolences to the families of those killed, while wishing the injured a swift recovery. The authorit",
       "translated": true,
       "translationStatus": "success",
       "originalLanguage": "en",
