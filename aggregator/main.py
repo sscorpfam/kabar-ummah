@@ -834,6 +834,19 @@ FOOTBALL_TEAM_KEYWORDS = [
     "porto",
     "sporting lisbon",
 
+    # non-muslim
+    "gereja", "pendeta", "pastor", "pastur",
+    "uskup", "paus katolik", "vatikan",
+    "katedral", "kapel", "kristen", "kristiani",
+    "katolik", "protestan", "injil", "alkitab",
+    "bible", "yesus", "isa almasih",
+    "baptis", "kebaktian", "misa",
+    "jemaat gereja", "sinode gereja",
+    "perayaan natal", "paskah",
+    "wihara", "vihara", "biksu", "bhikkhu",
+    "buddha", "budha", "hindu", "pura",
+    "konghucu", "klenteng"
+
     # Klub Arab Saudi
     "al nassr",
     "al hilal",
