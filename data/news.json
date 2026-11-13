@@ -1,18 +1,18 @@
 {
-  "status": "partial",
-  "lastUpdated": "2026-11-13T02:40:48.238994+00:00",
-  "total": 325,
-  "newArticles": 123,
+  "status": "success",
+  "lastUpdated": "2026-11-13T10:59:23.725487+00:00",
+  "total": 348,
+  "newArticles": 110,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 11,
-  "sourcesFailed": 1,
+  "sourcesSucceeded": 12,
+  "sourcesFailed": 0,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 4,
-      "filtered": 21,
+      "accepted": 2,
+      "filtered": 23,
       "filteredFootball": 2,
       "translated": 25,
       "translationPartial": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 33,
-      "accepted": 1,
-      "filtered": 32,
-      "filteredFootball": 2,
-      "translated": 33,
+      "raw": 20,
+      "accepted": 0,
+      "filtered": 20,
+      "filteredFootball": 1,
+      "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -35,8 +35,8 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 8,
-      "filtered": 7,
+      "accepted": 6,
+      "filtered": 9,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 13,
-      "filtered": 7,
-      "filteredFootball": 2,
+      "accepted": 8,
+      "filtered": 12,
+      "filteredFootball": 5,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -93,22 +93,22 @@
     },
     {
       "name": "Detik",
-      "status": "error",
-      "raw": 0,
-      "accepted": 0,
-      "filtered": 0,
+      "status": "success",
+      "raw": 100,
+      "accepted": 1,
+      "filtered": 99,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
+      "error": null
     },
     {
       "name": "Muhammadiyah",
       "status": "success",
       "raw": 10,
-      "accepted": 4,
-      "filtered": 6,
+      "accepted": 2,
+      "filtered": 8,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -119,8 +119,8 @@
       "name": "NU Online",
       "status": "success",
       "raw": 50,
-      "accepted": 6,
-      "filtered": 44,
+      "accepted": 5,
+      "filtered": 45,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -131,9 +131,9 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 34,
-      "filtered": 16,
-      "filteredFootball": 3,
+      "accepted": 33,
+      "filtered": 17,
+      "filteredFootball": 2,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -156,16 +156,593 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 175,
+    "translatedArticles": 185,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 1033
+    "cacheEntries": 1131
   },
   "images": {
-    "found": 325,
+    "found": 348,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "a8d666376eeda681",
+      "title": "Imam Masjidil Haram Ajak Umat Islam Teguhkan Tauhid dan Waspadai Syirik",
+      "description": "Imam Masjidil Haram, Syekh Dr. Bandar bin Abdulaziz Baleelah, mengajak umat Islam untuk bertakwa, meneguhkan tauhid, dan mewaspadai bahaya syirik.",
+      "originalTitle": "Imam Masjidil Haram Ajak Umat Islam Teguhkan Tauhid dan Waspadai Syirik",
+      "originalDescription": "Imam Masjidil Haram, Syekh Dr. Bandar bin Abdulaziz Baleelah, mengajak umat Islam untuk bertakwa, meneguhkan tauhid, dan mewaspadai bahaya syirik.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-QQN_vHZa.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T10:55:44+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/afkj55vyq"
+    },
+    {
+      "id": "70e4f498714e2fd9",
+      "title": "Sekjen Dewan Kerjasama Teluk Desak Aksi Internasional Hentikan Pelanggaran di Gaza",
+      "description": "Sekjen Dewan Kerjasama Teluk, Jassim Al-Budaiwi, mengecam pelanggaran Israel di Gaza dan menyerukan aksi internasional untuk melindungi warga sipil dan fasilitas kesehatan.",
+      "originalTitle": "Sekjen Dewan Kerjasama Teluk Desak Aksi Internasional Hentikan Pelanggaran di Gaza",
+      "originalDescription": "Sekjen Dewan Kerjasama Teluk, Jassim Al-Budaiwi, mengecam pelanggaran Israel di Gaza dan menyerukan aksi internasional untuk melindungi warga sipil dan fasilitas kesehatan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-08/أمين-مجلس-التعاون-CBroMIAM.png",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T10:54:56+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/71vtq8hlh"
+    },
+    {
+      "id": "8463bc7c2cb4c218",
+      "title": "Dua Perusahaan Diajukan ke Kejaksaan karena Iklan Jasa Tanpa Izin",
+      "description": "Otoritas Akuntan dan Auditor Arab Saudi melimpahkan dua perusahaan ke kejaksaan setelah ditemukan iklan jasa profesional tanpa izin resmi.",
+      "originalTitle": "Dua Perusahaan Diajukan ke Kejaksaan karena Iklan Jasa Tanpa Izin",
+      "originalDescription": "Otoritas Akuntan dan Auditor Arab Saudi melimpahkan dua perusahaan ke kejaksaan setelah ditemukan iklan jasa profesional tanpa izin resmi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/1001050004-crop-aaFh-JLI.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T10:54:35+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/9sujyqri7"
+    },
+    {
+      "id": "cf31bef74ceed450",
+      "title": "Bea Cukai Al-Hadithah gagalkan penyelundupan 413 ribu pil amfetamin",
+      "description": "Petugas Bea Cukai Al-Hadithah berhasil menggagalkan upaya penyelundupan 413.450 butir pil amfetamin yang disembunyikan dalam kiriman ke Arab Saudi.",
+      "originalTitle": "Bea Cukai Al-Hadithah gagalkan penyelundupan 413 ribu pil amfetamin",
+      "originalDescription": "Petugas Bea Cukai Al-Hadithah berhasil menggagalkan upaya penyelundupan 413.450 butir pil amfetamin yang disembunyikan dalam kiriman ke Arab Saudi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/مخدرات-z_YwDf1T.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T10:53:11+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/f9kzqkduc"
+    },
+    {
+      "id": "782f716cda45825d",
+      "title": "Kapolres Priok jadi khatib shalat dalam program Jumat keliling",
+      "description": "Kapolres Pelabuhan Tanjung Priok AKBP Alrasyidin Fajri menjadi khatib shalat Jumat di Masjid Jami Safinatun ...",
+      "originalTitle": "Kapolres Priok jadi khatib shalat dalam program Jumat keliling",
+      "originalDescription": "Kapolres Pelabuhan Tanjung Priok AKBP Alrasyidin Fajri menjadi khatib shalat Jumat di Masjid Jami Safinatun ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/13/e8830af6-5d43-4426-8018-7537d5d702c5.jpeg",
+      "category": "Masjid dan Peradaban",
+      "tags": [
+        "Masjid dan Peradaban"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T10:13:58+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5851855/kapolres-priok-jadi-khatib-shalat-dalam-program-jumat-keliling"
+    },
+    {
+      "id": "eceec87ba630876a",
+      "title": "Dengan setiap curah hujan, Gaza berisiko kehilangan akses ke daya dan kesehatan",
+      "description": "Hujan lebat tempat penampungan, kerusakan tata surya sistem daya dan ancaman layanan kesehatan penting.",
+      "originalTitle": "With every rainfall, Gaza risks losing access to power and healthcare",
+      "originalDescription": "Heavy rains flood shelters, damage solar power systems and threat essential healthcare services.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2-1794559552.jpg?resize=1500%2C1080",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T09:43:30+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/13/with-every-rainfall-gaza-risks-losing-access-to-power-and-healthcare"
+    },
+    {
+      "id": "0969c42525b97d7f",
+      "title": "Mekkah dan Jeddah Catat Suhu Tertinggi 33°C, Hail Terendah",
+      "description": "Pusat Meteorologi Nasional memperkirakan Mekkah dan Jeddah akan mencatat suhu tertinggi 33°C, sementara Hail menjadi kota terdingin dengan 10°C.",
+      "originalTitle": "Mekkah dan Jeddah Catat Suhu Tertinggi 33°C, Hail Terendah",
+      "originalDescription": "Pusat Meteorologi Nasional memperkirakan Mekkah dan Jeddah akan mencatat suhu tertinggi 33°C, sementara Hail menjadi kota terdingin dengan 10°C.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/درجات-الحرارة-1-8vgqgwi4.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T09:37:07+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/jsqnsngye"
+    },
+    {
+      "id": "4673a6f9b4580c23",
+      "title": "Eksklusif: Toyota meninjau penggunaan forklift oleh militer Israel setelah penyelidikan MEE",
+      "description": "Exclusive: Toyota meninjau penggunaan forklift oleh militer Israel setelah penyelidikan MeE Diserahkan oleh Sebastian Shehadi di Wed, 11 / 2026 - 15: 16 Manufaktur meninjau apakah 'sipil-use' clause dilanggar setelah MEE mengungkap kontrak kementrian pertahanan Israel dan menggunakan forklift di situs amunisi dan basis tentara Sebuah gambar Toyota forklift di pusat rudal dan amunisi di Israel Utara, seperti yang diposting di rekening media sosial militer Israel pada tanggal 7 Juli. (Facebook) Pada Toyota mengatakan hal ini sedang menyelidiki penggunaan forklift-nya oleh militer Israel setelah Mata Timur Tengah menemukan foto-foto dan video-foto kendaraan di lokasi penyimpanan senjata dan amunisi, yang melayani persediaan untuk unit garis depan, dan digunakan oleh Korps Logistik Angkatan Darat. Ini datang setelah MeE menemukan rincian sebelumnya yang belum dilaporkan 158m- shekel ($49.8m) kontrak antara Toyota dan Departemen Pertahanan Israel untuk persediaan forklift yang ditandatangani pada tahun pertama perang Gaza. Toyota mengatakan bahwa kendaraan tidak dimaksudkan untuk penggunaan militer. Ketika ditanya tentang kontrak, perusahaan mengatakan kepada MEE itu memiliki komitmen di tempat dengan baik menteri pertahanan dan pejabat reseller di Israel untuk memastikan bahwa teknologi dan produk adalah \"untuk penggunaan sipil saja\". Tapi ketika MeE kemudian menyebarkan rekaman resmi media sosial Israel, yang menunjukkan Toyota forklift digunakan di lokasi termasuk gudang rudal dan amunisi di Israel utara, basis pelatihan Logistik Corps, dan di dalam pabrik amunisi, katanya itu menyelidiki gambar-gambar untuk menentukan apakah perjanjian tersebut telah dilanggar. Toyota adalah perusahaan Jepang tapi bisnis utama forklift, Toyota Material Handling, bermarkas di Amerika Serikat. \"Meskipun tidak mungkin untuk setiap pembuat kendaraan untuk melacak kendaraan yang mungkin telah dibeli dan dijual kembali oleh perantara, kami meninjau foto-foto dan video-video ini dan menyeli",
+      "originalTitle": "Exclusive: Toyota reviewing use of forklifts by Israeli military after MEE investigation",
+      "originalDescription": "Exclusive: Toyota reviewing use of forklifts by Israeli military after MEE investigation Submitted by Sebastian Shehadi on Wed, 11/11/2026 - 15:16 Manufacturer reviewing whether 'civil-use' clause breached after MEE uncovers Israeli defence ministry contract and use of forklifts at munitions sites and army bases An image of a Toyota forklift at a missiles and ammunition centre in northern Israel, as posted on Israeli military social media accounts on 7 July. (Facebook) On Toyota has said it is investigating the use of its forklifts by the Israeli military after Middle East Eye found photos and videos of the vehicles at weapons and munitions storage sites, serving supply lines for frontline units, and being used by the army’s Logistics Corps. It comes after MEE uncovered details of a previously unreported 158m-shekel ($49.8m) contract between Toyota and Israel’s Ministry of Defense for the supply of forklifts that was signed in 2024 – the first full year of the Gaza war . Toyota says that its vehicles are not intended for military use. When asked about the contract, the company told MEE it had commitments in place with both the defence ministry and its official reseller in Israel to ensure that its technology and products were “for civil use only”. But when MEE then shared footage posted on official Israeli military social media channels, which showed Toyota forklifts being used at locations including a missiles and ammunition depot in northern Israel, a Logistics Corps training base, and inside a munitions factory, it said it was investigating the images to determine whether those agreements had been breached. Toyota is a Japanese corporation but its main forklift business, Toyota Material Handling, is headquartered in the United States . \"While it is impossible for any vehicle maker to track vehicles that may have been bought and resold by intermediaries, we are reviewing these photos and videos and are investigating whether our use agreements have been violated,\" ",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/toyota-forklift-israel-millitary-facebook.jpg.jpg?itok=3SmuEgJc",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T09:25:32+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/exclusive-toyota-investigating-use-forklifts-israeli-military-mee-investigation"
+    },
+    {
+      "id": "52446754d64ced48",
+      "title": "Pasukan Israel membunuh Palestina di Gaza, merampok rumah di Tepi Barat",
+      "description": "Pasukan Israel membunuh Palestina di Gaza, menyerbu rumah-rumah di wilayah West Bank A Palestina telah dibunuh oleh tembakan orang Israel di lingkungan Tuffah, sebelah timur kota Gaza, rumah sakit di Shifa telah memberitahu Al Jazeera. Pasukan Israel juga menyerbu beberapa daerah di Nablus dan mencari rumah di kota-kota terdekat Beit Furik dan Beit Dajan, timur kota, Wafa melaporkan. Citing sumber keamanan, agen berita Palestina mengatakan tentara menyerbu daerah gunung utara, Perumahan Popular, Perumahan Austria dan kamp Old Askar di Nablus, memasuki rumah dan merusak isinya.",
+      "originalTitle": "Israeli forces kill Palestinian in Gaza, raid homes in occupied West Bank",
+      "originalDescription": "Israeli forces kill Palestinian in Gaza, raid homes in occupied West Bank A Palestinian has been killed by Israeli gunfire in the Tuffah neighbourhood, east of Gaza City, al-Shifa Hospital has told Al Jazeera. Israeli forces also stormed several neighbourhoods in Nablus and searched homes in the nearby towns of Beit Furik and Beit Dajan, east of the city, Wafa reported. Citing security sources, the Palestinian news agency said soldiers raided the northern mountain area, Popular Housing, Austrian Housing and the Old Askar camp in Nablus, entering homes and tampering with their contents.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D7BB6XL%20%281%29.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T09:22:50+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-kill-palestinian-gaza-raid-homes-occupied-west-bank"
+    },
+    {
+      "id": "8ae9fd78770402d7",
+      "title": "Prabowo Sebut Shirathal Mustaqim Saat Pidato HUT Nasdem, Apa Maknanya?",
+      "description": "JAKARTA -- Presiden RI Prabowo Subianto mengungkapkan kesannya terhadap frasa bahasa Arab yang merupakan penggalan ayat Alquran dalam Surat Al-Fatihah, yakni shirathal mustaqim. Prabowo menyampaikan hal ini saat berpidato...",
+      "originalTitle": "Prabowo Sebut Shirathal Mustaqim Saat Pidato HUT Nasdem, Apa Maknanya?",
+      "originalDescription": "JAKARTA -- Presiden RI Prabowo Subianto mengungkapkan kesannya terhadap frasa bahasa Arab yang merupakan penggalan ayat Alquran dalam Surat Al-Fatihah, yakni shirathal mustaqim. Prabowo menyampaikan hal ini saat berpidato...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/055410300-1786686097-830-556.jpg",
+      "category": "Al-Qur'an dan Hadis",
+      "tags": [
+        "Al-Qur'an dan Hadis"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T09:04:23+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tofnvb366/prabowo-sebut-shirathal-mustaqim-saat-pidato-hut-nasdem-apa-maknanya"
+    },
+    {
+      "id": "d7c91d7d0d7b632a",
+      "title": "UNU Pasuruan Ubah Lahan Wakaf Jadi Laboratorium Alam untuk Pengembangan Inovasi Pertanian",
+      "description": "Lahan ini direncanakan jadi laboratorium alam yang produktif, edukatif, dan aplikatif, sekaligus menjadi ruang pembelajaran langsung bagi mahasiswa.",
+      "originalTitle": "UNU Pasuruan Ubah Lahan Wakaf Jadi Laboratorium Alam untuk Pengembangan Inovasi Pertanian",
+      "originalDescription": "Lahan ini direncanakan jadi laboratorium alam yang produktif, edukatif, dan aplikatif, sekaligus menjadi ruang pembelajaran langsung bagi mahasiswa.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/img-1915_1794545389.webp",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T09:00:03+00:00",
+      "originalUrl": "https://www.nu.or.id/jatim/unu-pasuruan-ubah-lahan-wakaf-jadi-laboratorium-alam-untuk-pengembangan-inovasi-pertanian-sDchq"
+    },
+    {
+      "id": "5841bfe45c068b44",
+      "title": "Soal Kriteria Pengganti Gibran, Gus Fahrur: Wapres Bukan Hadiah Politik, Utamakan Kepentingan Rakyat",
+      "description": "JAKARTA -- Rois Syuriah Pengurus Besar Nahdlatul Ulama (PBNU), KH Ahmad Fahrur Rozi atau yang akrab disapa Gus Fahrur mengajak seluruh elemen masyarakat, khususnya elite bangsa, untuk menahan diri...",
+      "originalTitle": "Soal Kriteria Pengganti Gibran, Gus Fahrur: Wapres Bukan Hadiah Politik, Utamakan Kepentingan Rakyat",
+      "originalDescription": "JAKARTA -- Rois Syuriah Pengurus Besar Nahdlatul Ulama (PBNU), KH Ahmad Fahrur Rozi atau yang akrab disapa Gus Fahrur mengajak seluruh elemen masyarakat, khususnya elite bangsa, untuk menahan diri...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/_231005123439-538.png",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T08:30:05+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tofma5430/soal-kriteria-pengganti-gibran-gus-fahrur-wapres-bukan-hadiah-politik-utamakan-kepentingan-rakyat"
+    },
+    {
+      "id": "ad40711a3627c785",
+      "title": "Harga Emas di Arab Saudi Turun, Emas 21 Karat Capai 411 Riyal",
+      "description": "Harga emas di Arab Saudi turun hari ini, dengan emas 21 karat—jenis paling populer—mencapai 411,63 riyal Saudi per gram.",
+      "originalTitle": "Harga Emas di Arab Saudi Turun, Emas 21 Karat Capai 411 Riyal",
+      "originalDescription": "Harga emas di Arab Saudi turun hari ini, dengan emas 21 karat—jenis paling populer—mencapai 411,63 riyal Saudi per gram.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/000000-crop-QZfKEfn8.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T08:26:06+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/ekonomi/obfrrgxjh"
+    },
+    {
+      "id": "1f8dbb8a2c7029c9",
+      "title": "Palang Merah Arab Saudi di Tabuk Tingkatkan Kesiagaan Hadapi Cuaca Buruk",
+      "description": "Palang Merah Arab Saudi di Tabuk meningkatkan kesiagaan layanan medis darurat seiring prakiraan hujan, dan mengimbau warga mematuhi instruksi keselamatan.",
+      "originalTitle": "Palang Merah Arab Saudi di Tabuk Tingkatkan Kesiagaan Hadapi Cuaca Buruk",
+      "originalDescription": "Palang Merah Arab Saudi di Tabuk meningkatkan kesiagaan layanan medis darurat seiring prakiraan hujan, dan mengimbau warga mematuhi instruksi keselamatan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/هيئة-الهلال-الأحمر-السعودي-i6pWXMLk.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T08:22:10+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/s9qfnng1b"
+    },
+    {
+      "id": "5317292456f7ce3a",
+      "title": "Perusahaan Israel terkait dengan pembantaian Gaza menuju ke India untuk puncak teknologi",
+      "description": "Perusahaan-perusahaan Israel terkait dengan genosida Gaza untuk menuju ke India untuk puncak teknologi yang disetujui oleh Azad Essa di Wed, 11 / 2026 - 08: 41 Pasokan drone, sensor militer, dan teknologi pengawasan berada di antara 45 perusahaan Israel yang diharapkan terjadi di Hyderabad dan Bengaluru Seorang tentara Israel mengambil posisi di pos pemeriksaan di Israel - 08: 41 Pasokan Barat, 23 Oktober 2026 (Ahmad Gharabagal) Beberapa perusahaan Israel yang telah digunakan dalam kapal-kapal militer tersebut dalam bulan ini menuju ke India tengah menuju ke tengah. Dua puluh perusahaan Israel diharapkan untuk menghadiri sebuah acara startup di Hyderabad, Telangana, pada 16 November, diselenggarakan oleh T-Hub, yang menggambarkan dirinya sebagai \"pusat startup terbesar di dunia\", mendukung pendiri melalui program, kemitraan dan akses ke pasar global. 25 perusahaan Israel lebih lanjut diharapkan pada Konferensi Teknologi Bengaluru, ditagih sebagai platform perdana Asia untuk teknologi, perdagangan dan inovasi, yang berjalan dari 17 sampai 19 November. Perusahaan-perusahaan termasuk XTEND, yang drone-nya telah dikerahkan oleh pasukan Israel di Gaza, termasuk yang diduga digunakan untuk melacak dan merekam pembunuhan pemimpin Hamas Yahya Sinwar pada 16 Oktober 2024. Juga hadir di Dagan-Optik, pemasok peralatan untuk unit militer Israel, dan Netzer Precision, yang sensornya dimasukkan ke dalam tank Israel dan kapal induk lapis baja. Puncak dimaksudkan untuk memberikan kesempatan untuk kolaborasi teknologi dan kemitraan komersial antara perusahaan teknologi Israel dan perusahaan lokal. Analisis MEE perusahaan yang dijadwalkan untuk hadir telah menemukan bahwa beberapa secara langsung terlibat dalam operasi militer Israel di Gaza atau materi terhubung dengan militer yang lebih luas negara kompleks industri, termasuk infrastruktur pendudukan di West Bank. 'Polisi dan badan investigasi India membeli alat pengawasan dan forensik dari luar negeri lebih cepat daripada Parlemen",
+      "originalTitle": "Israeli companies linked to Gaza genocide to head to India for tech summits",
+      "originalDescription": "Israeli companies linked to Gaza genocide to head to India for tech summits Submitted by Azad Essa on Wed, 11/11/2026 - 08:41 Suppliers of drones, military sensors and surveillance technology are among 45 Israeli companies expected at events in Hyderabad and Bengaluru An Israeli soldier takes position at a checkpoint in the Israeli-occupied West Bank on 23 October 2026 (Ahmad Gharabali/AFP) Off Several Israeli firms whose military equipment has been used in the genocidal war on Gaza are heading to India later this month to explore partnerships with local firms, Middle East Eye can reveal. Twenty Israeli companies are expected to attend a start-up event in Hyderabad, Telangana, on 16 November, organised by T-Hub, which describes itself as \"the world's largest startup hub\", supporting founders through programmes, partnerships and access to global markets. A further 25 Israeli companies are expected at the Bengaluru Tech Summit, billed as Asia's premier platform for technology, commerce and innovation, which runs from 17 to 19 November. The companies include XTEND , whose drones have been deployed by Israeli forces in Gaza, including one allegedly used to track and film the killing of Hamas leader Yahya Sinwar on 16 October 2024. Also attending are Dagan-Optics, a supplier of equipment to Israeli military units, and Netzer Precision, whose sensors are incorporated into Israeli tanks and armoured personnel carriers. The summits are intended to provide opportunities for technological collaboration and commercial partnerships between Israeli tech companies and local firms. An MEE analysis of the companies scheduled to attend has found that several are either directly involved in Israel's military operations in Gaza or materially connected to the country's wider military-industrial complex, including its occupation infrastructure in the occupied West Bank. 'India's police and investigative agencies are buying surveillance and forensic tools from abroad faster than Parliame",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/india-israel_0.jpg.jpg?itok=xDw28DJX",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T08:00:29+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/israel-companies-linked-gaza-to-head-india-tech-summit"
+    },
+    {
+      "id": "857d4b877d1d4540",
+      "title": "Kapolda Jatim Silaturahmi ke Pengurus LDII, Perkuat Kolaborasi Kamtibmas",
+      "description": "Kapolda Jawa Timur Irjen Pol Dekananto Eko Purwono melaksanakan kunjungan silaturahmi ke Kantor DPW Lembaga Dakwah Islam Indonesia (LDII) Jawa Timur.",
+      "originalTitle": "Kapolda Jatim Silaturahmi ke Pengurus LDII, Perkuat Kolaborasi Kamtibmas",
+      "originalDescription": "Kapolda Jawa Timur Irjen Pol Dekananto Eko Purwono melaksanakan kunjungan silaturahmi ke Kantor DPW Lembaga Dakwah Islam Indonesia (LDII) Jawa Timur.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/11/kapolda-jatim-irjen-dekananto-1794400879080_169.jpeg?w=360&q=90",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam",
+        "Dakwah dan Ulama"
+      ],
+      "source": "Detik",
+      "sources": [
+        "Detik"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T07:52:24+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8751600/kapolda-jatim-silaturahmi-ke-pengurus-ldii-perkuat-kolaborasi-kamtibmas"
+    },
+    {
+      "id": "65fc576e42bd495e",
+      "title": "Watch: 53 negara dan organisasi mendesak Israel untuk memungkinkan bantuan ke Gaza",
+      "description": "Perhatikan: 53 negara dan organisasi mendesak Israel untuk memungkinkan bantuan masuk ke Gaza Lima puluh tiga negara dan organisasi mendesak Israel pada hari Kamis untuk memungkinkan bantuan mendesak dan tanpa hambatan akses kemanusiaan ke Gaza. Berbicara atas nama tanda-tanda dari Gaza Call to Action tentang Humanitarian Access and Health, Sarah MacIntsh, Duta Besar Inggris untuk PBB, juga menyerukan pemerintahan Israel yang datang untuk memfasilitasi akses kemanusiaan yang diperlukan ke dalam daerah yang dikepung. Lima puluh tiga negara dan organisasi mendesak Israel pada hari Kamis untuk memungkinkan bantuan mendesak dan unimpeded akses kemanusiaan ke Gaza https: / / t.co / QHvAb5b4zo",
+      "originalTitle": "Watch: 53 nations and organisations urge Israel to allow aid into Gaza",
+      "originalDescription": "Watch: 53 nations and organisations urge Israel to allow aid into Gaza Fifty-three nations and organisations urged Israel on Thursday to allow urgent aid and unimpeded humanitarian access into Gaza. Speaking on behalf of the co-signatories of the Gaza Call to Action on Humanitarian Access and Health, Sarah MacIntosh, British ambassador to the UN, also called on Israel’s incoming government to facilitate the much-needed humanitarian access into the besieged enclave. Fifty-three nations and organisations urged Israel on Thursday to allow urgent aid and unimpeded humanitarian access into Gaza https://t.co/QHvAb5b4zo — Middle East Eye (@MiddleEastEye) November 13, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D7BB6XL%20%281%29.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T07:35:06+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-53-nations-and-organisations-urge-israel-allow-aid-gaza"
+    },
+    {
+      "id": "ba97f2e47ef4363b",
+      "title": "Trump mengatakan 'tidak yakin' jika ia setuju dengan sekutu Teluk menunda serangan Iran",
+      "description": "Trump mengatakan 'tidak yakin' jika ia setuju dengan sekutu Teluk menunda serangan terhadap Iran Presiden Donald Trump mengatakan bahwa sekutu dari negara-negara Teluk telah meminta agar dia menunda serangan skala besar terhadap Iran. \"Arab Saudi telah meminta saya untuk menyenangkan biarkan itu menjadi cara sekarang untuk sementara\", kata Trump selama wawancara dengan Stephen A Smith, menambahkan bahwa UAE, Qatar dan Kuwait lebih suka pendekatan yang sama. \"Saya tidak yakin saya setuju dengan itu\", katanya",
+      "originalTitle": "Trump says 'not sure' if he agrees with Gulf allies on holding off on Iran attacks",
+      "originalDescription": "Trump says 'not sure' if he agrees with Gulf allies on holding off on Iran attacks US President Donald Trump said that allies from Gulf countries have requested that he hold off on large-scale attacks against Iran. \"Saudi Arabia has asked me to please just let it be the way it is now for a while,\" Trump said during an interview with Stephen A Smith, adding that the UAE, Qatar and Kuwait prefer the same approach. \"I’m not sure I agree with it,\" he said",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D7BB6XL%20%281%29.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T07:32:53+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-not-sure-if-he-agrees-gulf-allies-holding-iran-attacks"
+    },
+    {
+      "id": "374175683115097c",
+      "title": "Lomba Al-Qur'an dan Hadis Raja Salman Wujudkan Pesan Global Arab Saudi",
+      "description": "Juru bicara Kementerian Urusan Islam menegaskan lomba Al-Qur'an dan Hadis Raja Salman mencerminkan pesan global Arab Saudi dan kepedulian terhadap para penghafal wahyu.",
+      "originalTitle": "Lomba Al-Qur'an dan Hadis Raja Salman Wujudkan Pesan Global Arab Saudi",
+      "originalDescription": "Juru bicara Kementerian Urusan Islam menegaskan lomba Al-Qur'an dan Hadis Raja Salman mencerminkan pesan global Arab Saudi dan kepedulian terhadap para penghafal wahyu.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/حفظ-hXyCl3hc.jpg",
+      "category": "Al-Qur'an dan Hadis",
+      "tags": [
+        "Al-Qur'an dan Hadis",
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T06:03:34+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/fajucamz4"
+    },
+    {
+      "id": "af2e5f2db31ad599",
+      "title": "Saudi, pejabat Cina mendiskusikan serangan Houthi, keamanan daerah dan navigasi maritim",
+      "description": "RIYADH - Menteri Luar Negeri Saudi Pangeran Faisal bin Farhan bertemu dengan Duta Khusus Cina untuk Timur Tengah Zhai Jun untuk mendiskusikan hubungan bilateral dan serangan Houthi yang sedang berlangsung menargetkan infrastruktur sipil dan sipil di Kerajaan. Selama pertemuan, dua pejabat tersebut meninjau hubungan Saudi- Cina dan implikasi dari serangan Houthi untuk keamanan daerah dan stabilitas. Mereka juga mendiskusikan perkembangan regional dan upaya diplomatik untuk menahan krisis dan ketegangan yang menurun. Kedua belah pihak menekankan pentingnya penguatan keamanan energi, menjaga stabilitas pasar dan menjaga koridor maritim dan kebebasan navigasi, terutama di Selat Hormuz dan Baja-Selat Mandeb, untuk memastikan aliran halus perdagangan global dan rantai pasokan. Pertemuan ini dihadiri oleh Wakil Menteri Luar Negeri untuk urusan politik Dr. Saud Al- Sati.",
+      "originalTitle": "Saudi, Chinese officials discuss Houthi attacks, regional security and maritime navigation",
+      "originalDescription": "RIYADH — Saudi Foreign Minister Prince Faisal bin Farhan met with Chinese Special Envoy for Middle East Affairs Zhai Jun to discuss bilateral relations and ongoing Houthi attacks targeting civilians and civilian infrastructure in the Kingdom. During the meeting, the two officials reviewed Saudi-Chinese relations and the implications of the Houthi attacks for regional security and stability. They also discussed regional developments and diplomatic efforts to contain crises and de-escalate tensions. Both sides stressed the importance of strengthening energy security, maintaining market stability and safeguarding maritime corridors and freedom of navigation, particularly in the Strait of Hormuz and Bab el-Mandeb Strait, to ensure the smooth flow of global trade and supply chains. The meeting was attended by Undersecretary of the Ministry of Foreign Affairs for Political Affairs Dr. Saud Al-Sati.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/13/2793899.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T05:55:55+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666224/saudi-arabia/saudi-chinese-officials-discuss-houthi-attacks-regional-security-and-maritime-navigation"
+    },
+    {
+      "id": "1e4b8fe742b84105",
+      "title": "Arab Saudi menyampaikan belasungkawa kepada Türkiye atas kematian helikopter militer kecelakaan",
+      "description": "RIYADH - Arab Saudi telah memperpanjang belasungkawa tulus untuk Türkiye berikut jatuhnya helikopter militer selama operasi rutin. Dalam pernyataan yang dikeluarkan oleh Kementerian Luar Negeri pada hari Jumat, Arab Saudi menyampaikan belasungkawa dan simpati yang tulus kepada keluarga dari almarhum dan pemerintah dan rakyat Türkiye. Kerajaan juga menyatakan solidaritas Arab Saudi dengan keluarga korban dan pemerintah Turki dan orang-orang dalam masa sulit ini. Ini juga wishied keselamatan dan keamanan untuk semua.",
+      "originalTitle": "Saudi Arabia extends condolences to Türkiye over deadly military helicopter crash",
+      "originalDescription": "RIYADH — Saudi Arabia has extended its sincere condolences to Türkiye following the crash of a military helicopter during routine operations. In a statement issued by the Ministry of Foreign Affairs on Friday, the Saudi Arabia conveyed its sincerest condolences and sympathies to the families of the deceased and the government and people of Türkiye. The Kingdom also expressed Saudi Arabia’s solidarity with the victims’ families and the Turkish government and people during this difficult time. It also wishied safety and security for all.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/13/2793897.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T05:48:20+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666222/saudi-arabia/saudi-arabia-extends-condolences-to-turkiye-over-deadly-military-helicopter-crash"
+    },
+    {
+      "id": "6225a39220669401",
+      "title": "Arab Saudi mengekspresikan solidaritas dengan UAE berikut mematikan Fujairah insiden pelabuhan",
+      "description": "RIYADH - Arab Saudi telah menyatakan solidaritas dengan Uni Emirat Arab mengikuti insiden di Port of Fujairah yang mengakibatkan kematian dan cedera. Dalam sebuah pernyataan yang dikeluarkan oleh Kementerian Luar Negeri pada hari Jumat, Arab Saudi menyatakan belasungkawa dan simpati yang tulus kepada kepemimpinan UAE, pemerintah dan rakyat, serta keluarga para korban. Kerajaan juga berharap mereka yang terluka dalam insiden pemulihan cepat.",
+      "originalTitle": "Saudi Arabia expresses solidarity with UAE following deadly Fujairah port incident",
+      "originalDescription": "RIYADH — Saudi Arabia has expressed its solidarity with the United Arab Emirates following an incident at the Port of Fujairah that resulted in deaths and injuries. In a statement issued by the Ministry of Foreign Affairs on Friday, Saudi Arabia expressed its sincere condolences and sympathy to the UAE’s leadership, government and people, as well as the families of the victims. The Kingdom also wished those injured in the incident a speedy recovery.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/13/2793896.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T05:38:02+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666221/saudi-arabia/saudi-arabia-expresses-solidarity-with-uae-following-deadly-fujairah-port-incident"
+    },
+    {
+      "id": "29bd8c6ba07fdeb0",
+      "title": "pembiayaan UNRWA mengurangi kesulitan bagi pengungsi Palestina di Lebanon",
+      "description": "Pendanaan pemotongan dan perang Israel telah meninggalkan Palestina di Lebanon dalam keadaan semakin mengerikan.",
+      "originalTitle": "UNRWA funding cuts deepen hardship for Palestinian refugees in Lebanon",
+      "originalDescription": "Funding cuts and Israel's war have left Palestinians in Lebanon in increasingly dire circumstances.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2023/11/342F7GC-highres-1699396426.jpg?resize=1920%2C1440",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T04:51:56+00:00",
+      "originalUrl": "https://www.aljazeera.com/features/2026/11/13/unrwa-funding-cuts-deepen-hardship-for-palestinian-refugees-in-lebanon"
+    },
     {
       "id": "93df93c1f0c65cd8",
       "title": "Bagaimana Gaza musim dingin 'krisis' diproduksi oleh Israel",
