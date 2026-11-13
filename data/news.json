@@ -1,18 +1,18 @@
 {
-  "status": "partial",
-  "lastUpdated": "2026-11-12T21:32:22.062913+00:00",
-  "total": 317,
-  "newArticles": 126,
+  "status": "success",
+  "lastUpdated": "2026-11-13T02:36:06.772394+00:00",
+  "total": 325,
+  "newArticles": 125,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 11,
-  "sourcesFailed": 1,
+  "sourcesSucceeded": 12,
+  "sourcesFailed": 0,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 7,
-      "filtered": 18,
+      "accepted": 5,
+      "filtered": 20,
       "filteredFootball": 2,
       "translated": 25,
       "translationPartial": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 29,
+      "raw": 33,
       "accepted": 1,
-      "filtered": 28,
+      "filtered": 32,
       "filteredFootball": 2,
-      "translated": 29,
+      "translated": 33,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -49,7 +49,7 @@
       "raw": 50,
       "accepted": 1,
       "filtered": 49,
-      "filteredFootball": 6,
+      "filteredFootball": 1,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 14,
-      "filtered": 6,
-      "filteredFootball": 0,
+      "accepted": 13,
+      "filtered": 7,
+      "filteredFootball": 2,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -93,22 +93,22 @@
     },
     {
       "name": "Detik",
-      "status": "error",
-      "raw": 0,
-      "accepted": 0,
-      "filtered": 0,
+      "status": "success",
+      "raw": 100,
+      "accepted": 1,
+      "filtered": 99,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
+      "error": null
     },
     {
       "name": "Muhammadiyah",
       "status": "success",
       "raw": 10,
-      "accepted": 5,
-      "filtered": 5,
+      "accepted": 4,
+      "filtered": 6,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -119,8 +119,8 @@
       "name": "NU Online",
       "status": "success",
       "raw": 50,
-      "accepted": 5,
-      "filtered": 45,
+      "accepted": 6,
+      "filtered": 44,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -131,8 +131,8 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 33,
-      "filtered": 17,
+      "accepted": 34,
+      "filtered": 16,
       "filteredFootball": 3,
       "translated": 0,
       "translationPartial": 0,
@@ -156,16 +156,241 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 170,
+    "translatedArticles": 175,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 986
+    "cacheEntries": 1029
   },
   "images": {
-    "found": 317,
+    "found": 325,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "93df93c1f0c65cd8",
+      "title": "Bagaimana Gaza musim dingin 'krisis' diproduksi oleh Israel",
+      "description": "Krisis musim dingin Gaza 'diproduksi oleh Israel untuk musim dingin keempat berturut-turut, hujan telah menyapu melalui Gaza, memperlihatkan pasokan bahan yang tidak memadai untuk tempat tinggal memasuki strip. Ini telah memaksa 65 persen dari populasi - sekitar 1,4 m orang - untuk berlindung di tempat penampungan darurat atau tenda yang telah dibanjiri dalam hujan, atau bangunan rusak yang risiko runtuh. Sementara cuaca yang turboaged oleh memperkuat El Nino acara, kemiskinan bantuan sepenuhnya dibuat, dimanfaatkan sebagai titik tekanan oleh Israel atas penduduk Gaza. Otoritas Israel telah lama membatasi entri tempat penampungan dan bahan konstruksi ke Gaza, dengan peralatan penting seperti tiang tenda dan rumah-rumah mobile dianggap sebagai \"kegunaan ganda\". Baca lagi: Krisis musim dingin Gaza diproduksi oleh Israel",
+      "originalTitle": "How Gaza’s winter ‘crisis’ is manufactured by Israel",
+      "originalDescription": "How Gaza’s winter ‘crisis’ is manufactured by Israel For the fourth winter in a row, rains have swept through Gaza, exposing woefully inadequate supplies of materials for shelter entering the strip. This has forced 65 percent of the population - around 1.4m people - to shelter in makeshift shelters or tents which have been swamped in the downpour, or damaged buildings which risk collapse. While the weather is turbocharged by a strengthening El Nino event, the paucity of aid is entirely man-made, leveraged as a pressure point by Israel over Gaza’s population. The Israeli authorities have long restricted the entry of shelter and construction materials into Gaza, with vital equipment like tent poles and mobile homes deemed to be “dual use”. Read more: How Gaza’s winter ‘crisis’ is manufactured by Israel",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/images-story/Untitled_91.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T02:26:53+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/how-gazas-winter-crisis-manufactured-israel"
+    },
+    {
+      "id": "8b079098fa89d4f0",
+      "title": "Rektor UIN Jakarta ajak sikapi dinamika politik secara bijaksana",
+      "description": "Rektor Universitas Islam Negeri (UIN) Jakarta Asep Saepudin Jahar mengajak seluruh elemen masyarakat untuk menyikapi ...",
+      "originalTitle": "Rektor UIN Jakarta ajak sikapi dinamika politik secara bijaksana",
+      "originalDescription": "Rektor Universitas Islam Negeri (UIN) Jakarta Asep Saepudin Jahar mengajak seluruh elemen masyarakat untuk menyikapi ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/13/19618.jpg",
+      "category": "Pendidikan Islam",
+      "tags": [
+        "Pendidikan Islam"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T02:22:58+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5850847/rektor-uin-jakarta-ajak-sikapi-dinamika-politik-secara-bijaksana"
+    },
+    {
+      "id": "c2684463df9dd227",
+      "title": "Pesantren Bahrul Ulum Gelar Tahlil 40 Hari Wafatnya Nyai Machfudhoh Aly Ubaid",
+      "description": "Pondok Pesantren Bahrul Ulum gelar tahlil 40 hari wafatnya Nyai Machfudhoh Aly Ubaid. Jamaah kenang pengabdian, perjuangan, ketekunannya beribadah.",
+      "originalTitle": "Pesantren Bahrul Ulum Gelar Tahlil 40 Hari Wafatnya Nyai Machfudhoh Aly Ubaid",
+      "originalDescription": "Pondok Pesantren Bahrul Ulum gelar tahlil 40 hari wafatnya Nyai Machfudhoh Aly Ubaid. Jamaah kenang pengabdian, perjuangan, ketekunannya beribadah.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/haul-nyai-machfuddoh-news13112026_1794534020.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T01:00:19+00:00",
+      "originalUrl": "https://www.nu.or.id/daerah/pesantren-bahrul-ulum-gelar-tahlil-40-hari-wafatnya-nyai-machfudhoh-aly-ubaid-IyeJ4"
+    },
+    {
+      "id": "a06beafc24633ea3",
+      "title": "Bagaimana media Barat dibingkai serangan Israel di Nasser Hospital",
+      "description": "Bagaimana media Barat menjebak serangan Israel terhadap Rumah Sakit Nasser On MEE Live, presenter James Schneider memeriksa bagaimana liputan media Barat mengaburkan serangan Israel di Rumah Sakit Nasser Gaza pada hari Kamis. Setidaknya tujuh Palestina, termasuk dokter dan pasien, tewas dalam serangan udara Israel pada rumah sakit di Khan Younis. Lebih dari puluhan lainnya terluka, dengan pemogokan merusak sayap bedah rumah sakit. Schneider menyoroti bingkai yang digunakan oleh The New York Times, yang menyatakan Israel bahwa Hamas telah mendirikan pusat komando di dalam kompleks rumah sakit dalam subheading. Penyerangan ini berlangsung di tengah pelanggaran Israel terhadap gencatan senjata Oktober 2025 dan serangan yang lebih besar pada infrastruktur kesehatan Gaza. Lebih dari 1.800 fasilitas medis telah hancur sebagian atau benar-benar sejak genosida dimulai, menurut gabungan PBB, Bank Dunia dan penilaian Uni Eropa. Pada MEE Live, presenter James Schneider memeriksa bagaimana liputan media Barat menutupi serangan Israel di Rumah Sakit Nasser Gaza pada hari Kamis. Setidaknya enam Palestina, termasuk dokter dan pasien, tewas dalam serangan udara Israel pada rumah sakit di Khan Younis. https: / / t.co / WRICCGZx4if - Middle East Eye (@ MiddleEastEye) November 12, 2026",
+      "originalTitle": "How Western media framed the Israeli attack on Nasser Hospital",
+      "originalDescription": "How Western media framed the Israeli attack on Nasser Hospital On MEE Live, presenter James Schneider examines how Western media coverage obscured Israel's attack on Gaza’s Nasser Hospital on Thursday. At least seven Palestinians, including a doctor and patients, were killed in an Israeli air strike on the hospital in Khan Younis. Over dozens of others were wounded, with the strike damaging the hospital's surgical wing. Schneider highlights the framing used by The New York Times, which had Israeli claims that Hamas had established a command centre inside the hospital complex in the subheading. The attack comes amid continued Israeli violations of the October 2025 ceasefire and a wider assault on Gaza's healthcare infrastructure. More than 1,800 medical facilities have been partially or completely destroyed since the genocide began, according to a joint UN, World Bank and EU assessment. On MEE Live, presenter James Schneider examines how Western media coverage obscured Israel's attack on Gaza’s Nasser Hospital on Thursday. At least six Palestinians, including a doctor and patients, were killed in an Israeli air strike on the hospital in Khan Younis. https://t.co/WRcCGZx4if — Middle East Eye (@MiddleEastEye) November 12, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Mourners%20carry%20the%20body%20of%20a%20Palestinian%20killed%20in%20an%20Israeli%20airstrike%20at%20Nasser%20Hospital%20in%20Khan%20Younis%2C%20in%20the%20southern%20Gaza%20Strip%2C%20during%20a%20funeral%20on%20November%2012%2C%202026.%20afp.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T00:30:54+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/how-western-media-framed-israeli-attack-nasser-hospital"
+    },
+    {
+      "id": "1cf3cbb14f7bd842",
+      "title": "Arab Saudi Nyatakan Solidaritas kepada UEA atas Kecelakaan di Fujairah",
+      "description": "Kementerian Luar Negeri Arab Saudi menyatakan solidaritas kepada Uni Emirat Arab setelah kecelakaan lalu lintas di Fujairah yang menyebabkan korban jiwa dan luka-luka.",
+      "originalTitle": "Arab Saudi Nyatakan Solidaritas kepada UEA atas Kecelakaan di Fujairah",
+      "originalDescription": "Kementerian Luar Negeri Arab Saudi menyatakan solidaritas kepada Uni Emirat Arab setelah kecelakaan lalu lintas di Fujairah yang menyebabkan korban jiwa dan luka-luka.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/template-logo-1-1794528723497-yhU83iYn.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T00:12:20+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/holkulmwo"
+    },
+    {
+      "id": "afb50555ae226843",
+      "title": "Yemen Houthis Pembaruan serangan di Arab Saudi sebagai UNSC meluas sanksi",
+      "description": "Saudi- dipimpin koalisi mencegat flurry diduga Drone Houthi menargetkan minyak dan infrastruktur militer.",
+      "originalTitle": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
+      "originalDescription": "Saudi-led coalition intercepts flurry of suspected Houthi drones targeting oil and military infrastructure.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af63caea5bc3-1794522286.jpg?resize=1920%2C1440",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T23:52:38+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions"
+    },
+    {
+      "id": "e757cbd4075325b2",
+      "title": "Perancis menyebut larangan masuk Israel pada pemimpin sayap kiri 'demagogic'",
+      "description": "Perancis menyebut Israel larangan masuk pada pemimpin sayap kiri 'demagogic' Menteri Luar Negeri Perancis Jean- Noel Barrot mengutuk keputusan Israel untuk bar-sayap kiri pejabat, termasuk Jean- Luc Melenchon, pemimpin partai Insomasi La France, dari memasuki negara dalam pos pada hari Kamis. \"Keputusan yang menyedihkan ini, datang dari pemerintah yang telah berulang kali melanggar hukum internasional, bermain di tangan mereka yang, seperti La France Insomatize, mencari nafkah dari mengeksploitasi konflik Israel-Palestina,\" Barrot menulis. \"Perancis akan terus tanpa lelah untuk bekerja menuju solusi dua negara dan koeksistensi damai antara Israel dan Palestina\". Le gouvernement d 'affaires courantes de Benyamin Netanyhou vient d' interterrible l 'accès à son territoire à des responsables de la France insoumise. Démagogique, émanant d' un louvernement qui sebuah multiple les pelanggaran du droit internasional, fait le jeu de ceux qui, comme La France insoumisme, vivent de l 'instrumentalisation du confrit isrélo- palestinen. La France continuera inlassablement à agir pour la ladeux États et la codispence pacifique des peuples israélien et palestinen. - Jean- Noél Barrot (@ jnbarrot) November 12, 2026",
+      "originalTitle": "France calls Israel’s entry ban on left-wing leader ‘demagogic’",
+      "originalDescription": "France calls Israel’s entry ban on left-wing leader ‘demagogic’ French Foreign Minister Jean-Noel Barrot condemned Israel’s decision to bar left-wing officials, including Jean-Luc Melenchon, leader of the La France Insoumise party, from entering the country in a post on X on Thursday. \"This demagogic decision, coming from a government that has repeatedly violated international law, plays into the hands of those who, like La France Insoumise, make a living out of exploiting the Israeli-Palestinian conflict,\" Barrot wrote. \"France will continue tirelessly to work toward a two-state solution and peaceful coexistence between the Israeli and Palestinian peoples.\" Le gouvernement d'affaires courantes de Benyamin Netanyahou vient d'interdire l'accès à son territoire à des responsables de la France insoumise. Cette décision démagogique, émanant d'un gouvernement qui a multiplié les violations du droit international, fait le jeu de ceux qui, comme La France insoumise, vivent de l'instrumentalisation du conflit israélo-palestinien. La France continuera inlassablement à agir pour la solution à deux États et la coexistence pacifique des peuples israélien et palestinien. — Jean-Noël Barrot (@jnbarrot) November 12, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Mourners%20carry%20the%20body%20of%20a%20Palestinian%20killed%20in%20an%20Israeli%20airstrike%20at%20Nasser%20Hospital%20in%20Khan%20Younis%2C%20in%20the%20southern%20Gaza%20Strip%2C%20during%20a%20funeral%20on%20November%2012%2C%202026.%20afp.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T22:50:22+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/france-calls-israels-entry-ban-left-wing-leader-demagogic"
+    },
+    {
+      "id": "4016be68a776e744",
+      "title": "Korban tewas dari Israel menyerang Nasser Medical Complex naik ke tujuh",
+      "description": "Korban tewas dari serangan Israel di Nasser Medical Complex meningkat menjadi tujuh orang Palestina yang meninggal akibat cedera yang berkelanjutan pada serangan udara Israel pada hari Kamis di Nasser Medical Complex di Khan Younis, Gaza Selatan, membawa angka kematian menjadi tujuh, Al Jazeera melaporkan, mengutip rumah sakit. Mourners membawa tubuh seorang Palestina tewas dalam serangan udara Israel di Nasser Hospital di Khan Younis, di Jalur Gaza Selatan, selama pemakaman pada 12 November 2026 (AFP)",
+      "originalTitle": "Death toll from Israeli strike on Nasser Medical Complex rises to seven",
+      "originalDescription": "Death toll from Israeli strike on Nasser Medical Complex rises to seven A Palestinian has died from injuries sustained in Thursday’s Israeli air strike on Nasser Medical Complex in Khan Younis, southern Gaza, bringing the death toll to seven, Al Jazeera reported, citing the hospital. Mourners carry the body of a Palestinian killed in an Israeli air strike at Nasser Hospital in Khan Younis, in the southern Gaza Strip, during a funeral on 12 November 2026 (AFP)",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/Mourners%20carry%20the%20body%20of%20a%20Palestinian%20killed%20in%20an%20Israeli%20airstrike%20at%20Nasser%20Hospital%20in%20Khan%20Younis%2C%20in%20the%20southern%20Gaza%20Strip%2C%20during%20a%20funeral%20on%20November%2012%2C%202026..jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T22:31:58+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/death-toll-israeli-strike-nasser-medical-complex-rises-seven"
+    },
+    {
+      "id": "49ef70367a63deba",
+      "title": "Pro- Palestina kelompok berusaha melarang pada real estate Israel adil di Paris",
+      "description": "Grup Pro- Palestina berusaha melarang pameran real estate Israel di Paris Pro- Palestina aktivis telah meminta pengadilan Perancis untuk melarang pameran real estate Israel di Paris pemasaran pemukiman Israel di West Bank dan East Jerusalem, AFP melaporkan pada Kamis. Asosiasi NIDAL Franco- Palestina mengajukan mosi darurat dengan pengadilan melawan real estate ke-9 Icube dan salon investasi, menyatakan bahwa adil melanggar hak asasi manusia. Acara ini dijadwalkan hari Minggu di Eropa Pusat untuk Yudaisme di ibukota Perancis. Kota-kota besar lainnya telah melihat kegemparan serupa atas pameran real estate Israel. NIDAL meminta pengadilan untuk baik memesan kepala kepolisian Paris untuk melarang acara langsung atau untuk memastikan bahwa acara tidak menjual properti di West Bank dan Yerusalem Timur, yang pekerjaannya oleh Israel sejak 1967 dianggap ilegal di bawah hukum internasional. Sebelum mengambil tindakan hukum, kelompok mengatakan mereka telah mengirim surat kepada polisi Paris pada 5 November, yang tidak terjawab. Dalam pengajuan ini, terlihat oleh AFP, kelompok hak-hak mengatakan bahwa pemasaran pemukiman Israel di wilayah yang diduduki berkontribusi terhadap pemindahan paksa rakyat Palestina melalui transfer populasi - praktek yang dilarang oleh hukum internasional dan diklasifikasikan sebagai kejahatan perang di bawah kode pidana Perancis. Secara khusus, para aktivis menyoroti bahwa BH Nadlan, sebuah perusahaan yang menetap di Yerusalem Timur dan Tepi Barat, akan hadir di pameran. Mereka juga menunjukkan tawaran resmi sang pemandu dari bonus \"keuangan\" yang signifikan untuk pendatang baru yang menetap di \"Yudea dan Samaria\", istilah Israel untuk West Bank yang ditempati.",
+      "originalTitle": "Pro-Palestinian group seeks ban on Israeli real estate fair in Paris",
+      "originalDescription": "Pro-Palestinian group seeks ban on Israeli real estate fair in Paris Pro-Palestinian activists have asked a French court to ban an Israeli real estate fair in Paris marketing Israeli settlements in the occupied West Bank and East Jerusalem, AFP reported on Thursday. The Franco-Palestinian NIDAL association filed an emergency motion with a court against the 9th Icube real estate and investment salon, arguing that the fair violates human rights. The event is scheduled for Sunday at the European Centre for Judaism in the French capital. Other major cities have seen similar uproars over Israeli real estate fairs. NIDAL asked the court to either order the head of the Paris police force to ban the event outright or to ensure that the event does not sell property in the West Bank and East Jerusalem, whose occupation by Israel since 1967 is considered illegal under international law. Before taking legal action, the group said they had sent a letter to the Paris police on 5 November, which went unanswered. In the filing, seen by AFP, the rights group says that marketing Israeli settlements in the occupied territories contributes to the forced displacement of the Palestinian people through population transfer - a practice prohibited by international law and classified as a war crime under the French penal code. In particular, the activists highlighted that BH Nadlan, a company that markets settlements in both East Jerusalem and the West Bank on its website, will be present at the fair. They also pointed to the fair's official guide's offer of a \"significant\" financial \"bonus\" for newcomers settling in \"Judea and Samaria\", the Israeli term for the occupied West Bank.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Mourners%20carry%20the%20body%20of%20a%20Palestinian%20killed%20in%20an%20Israeli%20airstrike%20at%20Nasser%20Hospital%20in%20Khan%20Younis%2C%20in%20the%20southern%20Gaza%20Strip%2C%20during%20a%20funeral%20on%20November%2012%2C%202026.%20afp.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-12T22:03:27+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/pro-palestinian-group-seeks-ban-israeli-real-estate-fair-paris"
+    },
     {
       "id": "e422ddcbf2ee8a99",
       "title": "Koalisi mencegat drone di Riyadh dan daerah timur",
@@ -645,9 +870,9 @@
     {
       "id": "1e74b516b4e4469f",
       "title": "Menteri luar negeri Belanda menurun untuk menyangkal pembicaraan sedang berlangsung pada kekuatan ICC meringkuk",
-      "description": "Menteri luar negeri Belanda menolak untuk melarang pembicaraan-pembicaraan tersebut dengan cara membatasi kekuasaan ICC yang digulingkan oleh Sondos Asem, 11 / 12 / 2026 - 14: 07 PM meminta menteri jika Belanda mendiskusikan pembatasan yang dapat melindungi Israel dan pejabat Amerika Serikat dari penuntutan Menteri Luar Negeri Belanda Tom Berendsen pada pertemuan para menteri asing di Helsingborg, Swedia pada 22 Mei 2026 (Jonathan Nackstrrand / AFP) Dipertanyakan di parlemen pada hari Rabu, Berendsen mengatakan diskusi diplomatik sedang berlangsung tapi ia tidak akan menentukan apakah proposal untuk melindungi pemimpin nasional dan membatasi yurisdiksi pengadilan berada di bawah pertimbangan. Pertukaran tersebut diikuti oleh organisasi hak cipta Belanda The Rights Forum, menyebutkan sumber diplomatik anonim di New York, bahwa Belanda sedang menegosiasikan pembatasan dalam menanggapi sanksi AS. Hanneke van der Werf MP, dari partai Demokrat 66, bertanya apakah diskusi termasuk kekebalan terhadap kepala negara dan pemerintah, termasuk negara-negara luar perjanjian pendiri pengadilan dari yurisdiksi, dan melemahkan kemampuannya untuk campur tangan ketika otoritas nasional gagal untuk menuntut. Jawaban Berendsen tidak mengkonfirmasi proposal yang dilaporkan, tetapi mereka juga tidak menjawab apakah pemerintah akan menolaknya. Dia mengatakan kepada parlemen dia akan mengirim MPS surat minggu depan mengatur posisi Belanda 'untuk Majelis Partai Amerika mendatang, termasuk pendekatan diplomatik untuk menangani AS sanksi terhadap pengadilan. \"Diskusi sedang berlangsung tentang jalur diplomatik sedang dikejar\", kata Berendsen. \"Saya tidak bisa mengantisipasi subjek mana yang atau tidak di atas meja\". Dia menambahkan bahwa Belanda tidak bisa memutuskan masalah ini saja, karena lebih dari 120 anggota negara akan berpotensi mencapai kesepakatan dengan AS.' Semua jenis diskusi berlangsung, tapi itu tidak berarti bahwa ini adalah posisi Belanda mengambil '- Menteri Luar Negeri Tom ",
+      "description": "Menteri Luar Negeri Belanda menolak untuk menyangkal pembicaraan-pembicaraan yang sedang berlangsung di luar negeri dengan membatasi kekuasaan ICC yang dapat melindungi Israel dan pejabat-pejabat AS dari Penuntut Belanda, Tom Berendsen pada pertemuan Nato dengan menteri asing di Helsingborg, Swedia pada 22 Mei 2026 (Jonathan Nackstrry dan AFP) yang telah memberikan saran kepada Menteri Luar Negeri tersebut bahwa para menteri tersebut telah mengadakan masa-masa tersebut dalam masa percobaan tersebut. Dipertanyakan di parlemen pada hari Rabu, Berendsen mengatakan diskusi diplomatik sedang berlangsung tapi ia tidak akan menentukan apakah proposal untuk melindungi kepala negara dan membatasi yurisdiksi pengadilan atas warga negara non-anggota negara berada di bawah pertimbangan. Pertukaran tersebut diikuti oleh organisasi hak cipta Belanda The Rights Forum, menyebutkan sumber-sumber diplomatik anonim di New York, bahwa Belanda adalah \"negosiasi\" dengan AS mengubah perjanjian dasar pengadilan dalam menanggapi sanksi AS terhadap pengadilan dan pejabat atasnya. Mata Timur Tengah sebelumnya melaporkan tuntutan AS yang sama. Pada Desember 2025, MEE secara eksklusif mengungkapkan bahwa Washington telah menekan untuk mengakhiri Palestina dan Afghanistan penyelidikan dan perjanjian perubahan pencegahan tuntutan terhadap nasional negara non-anggota, sebagai imbalan untuk mengangkat sanksi. Meskipun Amerika bukanlah negara bagian ICC, sanksi dan ancaman baru-baru ini untuk \"membongkar\" pengadilan yang diajukan terutama oleh oposisi Washington terhadap penuntutan pemimpin Israel dan kemampuan pengadilan untuk juga menuntut pejabat AS atas kejahatan yang dilakukan di wilayah negara anggota. Hanneke van der Werf MP, dari partai Demokrat 66, ditanya apakah, seperti yang dilaporkan oleh Forum Hak-Hak minggu ini, diskusi dengan AS termasuk kekebalan untuk kepala negara dan pemerintah, mengecualikan warga negara luar perjanjian pendirian pengadilan dari yurisdiksi, dan melemahkan kemamp",
       "originalTitle": "Dutch foreign minister declines to deny talks are under way on curbing ICC powers",
-      "originalDescription": "Dutch foreign minister declines to deny talks are under way on curbing ICC powers Submitted by Sondos Asem on Thu, 11/12/2026 - 14:07 MPs asked minister if Netherlands is discussing restrictions that could shield Israeli and US officials from prosecution The Netherlands' Foreign Minister Tom Berendsen at the Nato foreign ministers' meeting in Helsingborg, Sweden on 22 May 2026 (Jonathan Nackstrand/AFP) Off Dutch Foreign Minister Tom Berendsen has declined to rule out the suggestion that discussions are taking place over sweeping restrictions on the International Criminal Court (ICC), following a report that the Netherlands is negotiating with Washington over changes that could severely undermine the court's powers. Questioned in parliament on Wednesday, Berendsen said diplomatic discussions were taking place but he would not specify whether proposals to shield national leaders and restrict the court's jurisdiction were under consideration. The exchange followed a report by Dutch rights organisation The Rights Forum , citing anonymous diplomatic sources in New York, that the Netherlands was negotiating restrictions in response to US sanctions. Hanneke van der Werf MP, from the Democrats 66 party, asked whether discussions included immunity for heads of state and government, excluding nationals of countries outside the court's founding treaty from its jurisdiction, and weakening its ability to intervene when national authorities fail to prosecute. Berendsen's answers did not confirm the reported proposals, but nor did they answer whether the government would reject them. He told parliament he would send MPs a letter next week setting out the Netherlands’ position for the upcoming Assembly of States Parties, including its diplomatic approach to addressing US sanctions against the court. \"Discussions are currently taking place about the diplomatic track being pursued,\" Berendsen said. \"I cannot anticipate which subjects are or are not on the table.\" He added that the Ne",
+      "originalDescription": "Dutch foreign minister declines to deny talks are under way on curbing ICC powers Submitted by Sondos Asem on Thu, 11/12/2026 - 14:07 MPs asked minister if Netherlands, the host of the ICC, is discussing restrictions that could shield Israeli and US officials from prosecution The Netherlands' Foreign Minister Tom Berendsen at the Nato foreign ministers' meeting in Helsingborg, Sweden on 22 May 2026 (Jonathan Nackstrand/AFP) Off Dutch Foreign Minister Tom Berendsen has declined to rule out the suggestion that discussions are taking place over sweeping restrictions on the International Criminal Court (ICC), following a report that the Netherlands is negotiating with Washington over changes that could severely undermine the court's powers. Questioned in parliament on Wednesday, Berendsen said diplomatic discussions were taking place but he would not specify whether proposals to shield heads of state and restrict the court's jurisdiction over nationals of non-member states were under consideration. The exchange followed a report by Dutch rights organisation The Rights Forum , citing anonymous diplomatic sources in New York, that the Netherlands was \"negotiating\" with the US changes to the court's founding treaty in response to US sanctions on the court and its top officials. Middle East Eye has previously reported similar US demands. In December 2025, MEE exclusively revealed that Washington had pressed for an end to the Palestine and Afghanistan investigations and treaty changes preventing prosecutions of nationals of non-member countries, in return for lifting sanctions. Athough the US is not a member state of the ICC, its sanctions and recent threats to \"dismantle\" the court are prompted mainly by Washington's opposition to the prosecution of Israeli leaders and the court's ability to also prosecute US officials for crimes committed on the territory of member states. Hanneke van der Werf MP, from the Democrats 66 party, asked on Wednesday whether, as reported by the ",
       "translated": true,
       "translationStatus": "success",
       "originalLanguage": "en",
@@ -1195,10 +1420,10 @@
       "originalUrl": "https://www.middleeasteye.net/news/six-dutch-parties-condemn-local-arms-companys-deal-israeli-gunmaker"
     },
     {
-      "id": "aa9196edadea9a29",
-      "title": "Doa Bersama Digelar di Masjid Istiqlal di Tengah Rentetan Problem Rakyat",
+      "id": "456d7fba55f1d34c",
+      "title": "Doa Bersama Digelar di Masjid Istiqlal untuk Menghadapi Rentetan Problem Bangsa",
       "description": "Menag Nasar berharap doa bersama membawa Indonesia keluar dari berbagai kesulitan. Seorang jamaah juga meminta pengawasan pesantren diperkuat.",
-      "originalTitle": "Doa Bersama Digelar di Masjid Istiqlal di Tengah Rentetan Problem Rakyat",
+      "originalTitle": "Doa Bersama Digelar di Masjid Istiqlal untuk Menghadapi Rentetan Problem Bangsa",
       "originalDescription": "Menag Nasar berharap doa bersama membawa Indonesia keluar dari berbagai kesulitan. Seorang jamaah juga meminta pengawasan pesantren diperkuat.",
       "translated": false,
       "translationStatus": "not_required",
@@ -1218,7 +1443,7 @@
       "sourceCountry": "Indonesia",
       "region": "",
       "publishedAt": "2026-11-12T14:30:25+00:00",
-      "originalUrl": "https://www.nu.or.id/nasional/doa-bersama-digelar-di-masjid-istiqlal-di-tengah-rentetan-problem-rakyat-b78Fu"
+      "originalUrl": "https://www.nu.or.id/nasional/doa-bersama-digelar-di-masjid-istiqlal-untuk-menghadapi-rentetan-problem-bangsa-b78Fu"
     },
     {
       "id": "a6e37a193c1acc71",
