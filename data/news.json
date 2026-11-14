@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-14T03:03:09.778247+00:00",
-  "total": 399,
-  "newArticles": 116,
+  "lastUpdated": "2026-11-14T07:38:50.277374+00:00",
+  "total": 405,
+  "newArticles": 112,
   "sourcesChecked": 12,
   "sourcesSucceeded": 11,
   "sourcesFailed": 1,
@@ -11,9 +11,9 @@
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 2,
-      "filtered": 23,
-      "filteredFootball": 1,
+      "accepted": 1,
+      "filtered": 24,
+      "filteredFootball": 2,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 26,
+      "raw": 25,
       "accepted": 0,
-      "filtered": 26,
+      "filtered": 25,
       "filteredFootball": 0,
-      "translated": 26,
+      "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -45,15 +45,15 @@
     },
     {
       "name": "ANTARA Terkini",
-      "status": "success",
-      "raw": 50,
-      "accepted": 2,
-      "filtered": 48,
-      "filteredFootball": 1,
+      "status": "error",
+      "raw": 0,
+      "accepted": 0,
+      "filtered": 0,
+      "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "name": "ANTARA Dunia",
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 7,
-      "filtered": 13,
-      "filteredFootball": 2,
+      "accepted": 4,
+      "filtered": 16,
+      "filteredFootball": 0,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -93,15 +93,15 @@
     },
     {
       "name": "Detik",
-      "status": "error",
-      "raw": 0,
-      "accepted": 0,
-      "filtered": 0,
+      "status": "success",
+      "raw": 100,
+      "accepted": 4,
+      "filtered": 96,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
+      "error": null
     },
     {
       "name": "Muhammadiyah",
@@ -131,9 +131,9 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 31,
-      "filtered": 19,
-      "filteredFootball": 1,
+      "accepted": 29,
+      "filtered": 21,
+      "filteredFootball": 2,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -156,16 +156,217 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 208,
+    "translatedArticles": 210,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 1358
+    "cacheEntries": 1424
   },
   "images": {
-    "found": 399,
+    "found": 405,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "fd652fac21909bb3",
+      "title": "DPRD DKI Ajukan 100 Sekolah Swasta Gratis Tambahan, Ini Rinciannya",
+      "description": "DPRD DKI Jakarta usulkan 100 sekolah swasta gratis pada 2027, termasuk SLB dan madrasah. Program ini bertujuan perluas akses pendidikan bagi masyarakat.",
+      "originalTitle": "DPRD DKI Ajukan 100 Sekolah Swasta Gratis Tambahan, Ini Rinciannya",
+      "originalDescription": "DPRD DKI Jakarta usulkan 100 sekolah swasta gratis pada 2027, termasuk SLB dan madrasah. Program ini bertujuan perluas akses pendidikan bagi masyarakat.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2021/01/04/lagi-gedung-dprd-dki-kembali-di-lockdown-5_169.jpeg?w=360&q=90",
+      "category": "Pendidikan Islam",
+      "tags": [
+        "Pendidikan Islam"
+      ],
+      "source": "Detik",
+      "sources": [
+        "Detik"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-14T07:29:42+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8752825/dprd-dki-ajukan-100-sekolah-swasta-gratis-tambahan-ini-rinciannya"
+    },
+    {
+      "id": "4e921a9cb5ae6512",
+      "title": "Oknum TNI di Pangandaran Ditahan Usai Intimidasi dan Pukul Santri",
+      "description": "Enam santri Pondok Pesantren Nurul Bayan di Pangandaran jadi korban intimidasi oknum TNI. Pelaku kini ditahan dan TNI meminta maaf atas tindakan tersebut.",
+      "originalTitle": "Oknum TNI di Pangandaran Ditahan Usai Intimidasi dan Pukul Santri",
+      "originalDescription": "Enam santri Pondok Pesantren Nurul Bayan di Pangandaran jadi korban intimidasi oknum TNI. Pelaku kini ditahan dan TNI meminta maaf atas tindakan tersebut.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/13/oknum-tni-masuk-pesantren-di-wilayah-cimerak-kabupaten-pangandaran-1794561436649_169.jpeg?w=360&q=90",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "Detik",
+      "sources": [
+        "Detik"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-14T07:02:45+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8752805/oknum-tni-di-pangandaran-ditahan-usai-intimidasi-dan-pukul-santri"
+    },
+    {
+      "id": "4889bad3fb2b0027",
+      "title": "Hujan Petir Disertai Angin Kencang dan Hujan Es di Sejumlah Wilayah Arab Saudi",
+      "description": "Pusat Meteorologi Nasional memperkirakan hujan petir sedang hingga lebat disertai angin kencang dan hujan es di beberapa wilayah Arab Saudi hari ini.",
+      "originalTitle": "Hujan Petir Disertai Angin Kencang dan Hujan Es di Sejumlah Wilayah Arab Saudi",
+      "originalDescription": "Pusat Meteorologi Nasional memperkirakan hujan petir sedang hingga lebat disertai angin kencang dan hujan es di beberapa wilayah Arab Saudi hari ini.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/طقس-2-GHwdodJJ.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T05:44:46+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/d85y6cvzw"
+    },
+    {
+      "id": "00dc674acb347ab0",
+      "title": "PWNU Jakarta Jadwalkan Konferwil XXI Awal Desember 2026 di Pesantren Al-Tsaqafah Ciganjur",
+      "description": "Keputusan tersebut merupakan hasil rapat gabungan syuriyah dan tanfidziyah pada Jumat (13/11/2026), setelah menerima masukan dari PBNU.",
+      "originalTitle": "PWNU Jakarta Jadwalkan Konferwil XXI Awal Desember 2026 di Pesantren Al-Tsaqafah Ciganjur",
+      "originalDescription": "Keputusan tersebut merupakan hasil rapat gabungan syuriyah dan tanfidziyah pada Jumat (13/11/2026), setelah menerima masukan dari PBNU.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/6185ea4f-7cd9-4a33-83d9-7c6b18ded921_1794612520.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-14T05:00:23+00:00",
+      "originalUrl": "https://www.nu.or.id/jakarta/pwnu-jakarta-jadwalkan-konferwil-xxi-awal-desember-2026-di-pesantren-al-tsaqafah-ciganjur-Gkbd3"
+    },
+    {
+      "id": "db0820b28714cf08",
+      "title": "Kabar Baik Sekolah Swasta Gratis di Jakarta Bertambah",
+      "description": "Pemprov DKI Jakarta akan menambah 100 sekolah swasta gratis pada 2027, memperluas akses pendidikan bagi masyarakat, termasuk madrasah dan pondok pesantren.",
+      "originalTitle": "Kabar Baik Sekolah Swasta Gratis di Jakarta Bertambah",
+      "originalDescription": "Pemprov DKI Jakarta akan menambah 100 sekolah swasta gratis pada 2027, memperluas akses pendidikan bagi masyarakat, termasuk madrasah dan pondok pesantren.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/07/30/ilustrasi-sekolah-1753868942091_169.jpeg?w=360&q=90",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah",
+        "Pendidikan Islam"
+      ],
+      "source": "Detik",
+      "sources": [
+        "Detik"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-14T04:22:24+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8752625/kabar-baik-sekolah-swasta-gratis-di-jakarta-bertambah"
+    },
+    {
+      "id": "0b9691983beea555",
+      "title": "West Bank Palestina terluka dalam penembakan oleh pasukan Israel",
+      "description": "Bank Barat Palestina terluka dalam penembakan oleh pasukan Israel Seorang pemuda Palestina terluka setelah militer Israel memaksa masuk ke kota Jaba ', selatan Jenin di West Bank, dan menembakkan amunisi hidup dan tabung gas air mata pada penduduk, Wafa melaporkan. Masyarakat Red Crescent Palestina mengatakan bahwa krunya merawat seorang pemuda yang menderita luka tembak di paha.",
+      "originalTitle": "West Bank Palestinian injured in firing by Israeli forces",
+      "originalDescription": "West Bank Palestinian injured in firing by Israeli forces A Palestinian youngster was injured after Israeli military forced its way into the town of Jaba', south of Jenin in the occupied West Bank, and fired live ammunition and tear gas canisters at residents, Wafa reported. The Palestinian Red Crescent Society said that its crews treated a young man who had sustained a live bullet wound to the thigh.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Iranians%20wave%20flags%20during%20a%20gathering%20in%20front%20of%20an%20anti-US%20billboard%20depicting%20US%20President%20Donald%20Trump%20in%20Tehran%27s%20Enghelab%20Square%20on%20November%203%2C%202026..jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-14T04:22:19+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/west-bank-palestinian-injured-firing-israeli-forces"
+    },
+    {
+      "id": "b482f74ff59fe570",
+      "title": "PBB mengatakan kebijakan Israel memburuk dampak mematikan badai musim dingin Gaza",
+      "description": "PBB mengatakan Israel bisa mencegah kematian dan kehancuran yang disebabkan oleh badai di Gaza telah memungkinkan bantuan yang cukup.",
+      "originalTitle": "UN says Israeli policies worsened deadly impact of Gaza winter storm",
+      "originalDescription": "The UN says Israel could have prevented death and destruction caused by the storm in Gaza had it allowed sufficient aid.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794629522.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-14T04:12:15+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_un-israeli-policies-worsened-gaza-storms-impact-131126"
+    },
+    {
+      "id": "816c8e1549946a49",
+      "title": "Dahnil Minta Calon Jamaah Haji Jaga Kesehatan dan Kebugaran Fisik",
+      "description": "PALU -- Wakil Menteri Haji dan Umrah (Wamenhaj) Dahnil Anzar Simanjuntak meminta calon jamaah haji, khususnya asal Sulawesi Tengah (Sulteng), menjaga kondisi fisik dan kesehatan agar mampu menjalankan seluruh...",
+      "originalTitle": "Dahnil Minta Calon Jamaah Haji Jaga Kesehatan dan Kebugaran Fisik",
+      "originalDescription": "PALU -- Wakil Menteri Haji dan Umrah (Wamenhaj) Dahnil Anzar Simanjuntak meminta calon jamaah haji, khususnya asal Sulawesi Tengah (Sulteng), menjaga kondisi fisik dan kesehatan agar mampu menjalankan seluruh...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/wakil-menteri-haji-dan-umrah-dahnil-anzar_261026185316-441.png",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-14T03:43:00+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/togybr366/dahnil-minta-calon-jamaah-haji-jaga-kesehatan-dan-kebugaran-fisik"
+    },
     {
       "id": "2f35250875f9ec06",
       "title": "Wamenhaj: Persatuan jadi modal utama Indonesia hadapi dinamika global",
@@ -4797,31 +4998,6 @@
       "region": "",
       "publishedAt": "2026-11-12T05:32:05+00:00",
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-drone-intercepted-over-riyadh"
-    },
-    {
-      "id": "4ce96fcc52b68512",
-      "title": "Cuaca Arab Saudi Kamis: Hujan Petir dan Angin Kencang di Sejumlah Wilayah",
-      "description": "Pusat Meteorologi Nasional memperkirakan hujan petir sedang hingga lebat disertai angin kencang dan debu di beberapa wilayah Arab Saudi hari ini.",
-      "originalTitle": "Cuaca Arab Saudi Kamis: Hujan Petir dan Angin Kencang di Sejumlah Wilayah",
-      "originalDescription": "Pusat Meteorologi Nasional memperkirakan hujan petir sedang hingga lebat disertai angin kencang dan debu di beberapa wilayah Arab Saudi hari ini.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/طقس-2-2kTCksGu.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-12T05:15:08+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/zv2x1yngk"
     },
     {
       "id": "ebcaa36fca4e82c7",
@@ -9630,24 +9806,6 @@
       "country": "Indonesia",
       "publishedAt": "2026-11-07T12:24:29+00:00",
       "originalUrl": "https://khazanah.republika.co.id/berita/to4t4t320/enam-ayat-sakinah-dalam-alquran-yang-dapat-dijadikan-penuntun-hati-menuju-ketenangan",
-      "translationStatus": "not_needed"
-    },
-    {
-      "id": "681b530b3d235210",
-      "title": "Kebersamaan dan Kegembiraan Jadi Kunci Mengabdi di Muhammadiyah",
-      "description": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Kantor Pimpinan Pusat (PP) Muhammadiyah Yogyakarta menggelar pengajian dalam rangka Milad ke-114 Muhammadiyah dengan menghadirkan Ustaz Irfan Rizki Haas pada Sabtu (6/11). Dalam kesempatan itu, para pegawai kantor diajak bersatu hati dan bekerja dengan gembira. Ajakan tersebut disampaikan Ketua PP Muhammadiyah, Agus Taufiqurrohman, dalam sambutannya. Turut hadir Sekretaris PP Muhammadiyah, Muhammad Sayuti, […] The post Kebersamaan dan Kegembiraan Jadi Kunci Mengabdi di Muhammadiyah appeared first on Muhammadiyah .",
-      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/11/kebersamaan-dan-kegembiraan-jadi-kunci-mengabdi-di-muhammadiyah.jpeg",
-      "category": "Dakwah dan Ulama",
-      "tags": [
-        "Dakwah dan Ulama"
-      ],
-      "source": "Muhammadiyah Org",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-07T07:03:59+00:00",
-      "originalUrl": "https://muhammadiyah.or.id/2026/11/kebersamaan-dan-kegembiraan-jadi-kunci-mengabdi-di-muhammadiyah",
       "translationStatus": "not_needed"
     }
   ]
