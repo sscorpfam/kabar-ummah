@@ -1,18 +1,18 @@
 {
-  "status": "success",
-  "lastUpdated": "2026-11-14T00:30:18.205940+00:00",
-  "total": 392,
-  "newArticles": 118,
+  "status": "partial",
+  "lastUpdated": "2026-11-14T03:03:09.778247+00:00",
+  "total": 399,
+  "newArticles": 116,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 12,
-  "sourcesFailed": 0,
+  "sourcesSucceeded": 11,
+  "sourcesFailed": 1,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 3,
-      "filtered": 22,
+      "accepted": 2,
+      "filtered": 23,
       "filteredFootball": 1,
       "translated": 25,
       "translationPartial": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 25,
+      "raw": 26,
       "accepted": 0,
-      "filtered": 25,
+      "filtered": 26,
       "filteredFootball": 0,
-      "translated": 25,
+      "translated": 26,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -35,8 +35,8 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 6,
-      "filtered": 9,
+      "accepted": 7,
+      "filtered": 8,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 10,
-      "filtered": 10,
-      "filteredFootball": 3,
+      "accepted": 7,
+      "filtered": 13,
+      "filteredFootball": 2,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -93,15 +93,15 @@
     },
     {
       "name": "Detik",
-      "status": "success",
-      "raw": 100,
-      "accepted": 2,
-      "filtered": 98,
+      "status": "error",
+      "raw": 0,
+      "accepted": 0,
+      "filtered": 0,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
     },
     {
       "name": "Muhammadiyah",
@@ -119,8 +119,8 @@
       "name": "NU Online",
       "status": "success",
       "raw": 50,
-      "accepted": 10,
-      "filtered": 40,
+      "accepted": 13,
+      "filtered": 37,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -156,16 +156,168 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 207,
+    "translatedArticles": 208,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 1329
+    "cacheEntries": 1358
   },
   "images": {
-    "found": 392,
+    "found": 399,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "2f35250875f9ec06",
+      "title": "Wamenhaj: Persatuan jadi modal utama Indonesia hadapi dinamika global",
+      "description": "Wakil Menteri Haji dan Umrah Dahnil Anzar Simanjuntak menegaskan pentingnya menjaga persatuan dan kesatuan bangsa ...",
+      "originalTitle": "Wamenhaj: Persatuan jadi modal utama Indonesia hadapi dinamika global",
+      "originalDescription": "Wakil Menteri Haji dan Umrah Dahnil Anzar Simanjuntak menegaskan pentingnya menjaga persatuan dan kesatuan bangsa ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/14/IMG-20261114-WA0001.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-14T02:46:34+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5853439/wamenhaj-persatuan-jadi-modal-utama-indonesia-hadapi-dinamika-global"
+    },
+    {
+      "id": "48c36d1971095316",
+      "title": "Arab Saudi Pastikan Proses Imigrasi Dokumen Haji Hanya 19 Detik",
+      "description": "JEDDAH -- Pelaksana Tugas (Plt.) Direktur Jenderal Paspor Arab Saudi Mayor Jenderal Saleh bin Saad Al-Murabba memastikan kesiapan layanan keimigrasian di seluruh pintu masuk negara, baik via udara, laut,...",
+      "originalTitle": "Arab Saudi Pastikan Proses Imigrasi Dokumen Haji Hanya 19 Detik",
+      "originalDescription": "JEDDAH -- Pelaksana Tugas (Plt.) Direktur Jenderal Paspor Arab Saudi Mayor Jenderal Saleh bin Saad Al-Murabba memastikan kesiapan layanan keimigrasian di seluruh pintu masuk negara, baik via udara, laut,...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/097808200-1777562538-830-556.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi",
+        "Haji dan Umrah"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-14T02:40:00+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/togwpw366/arab-saudi-pastikan-proses-imigrasi-dokumen-haji-hanya-19-detik"
+    },
+    {
+      "id": "fc75a6edc4585b0f",
+      "title": "Ustaz Abdul Somad terharu saksikan \"Hamka: Awal Mula Vol. 3\"",
+      "description": "Ustaz Abdul Somad, yang biasa disapa UAS, mengaku terharu setelah menyaksikan film \"Hamka: Awal Mula Vol. ...",
+      "originalTitle": "Ustaz Abdul Somad terharu saksikan \"Hamka: Awal Mula Vol. 3\"",
+      "originalDescription": "Ustaz Abdul Somad, yang biasa disapa UAS, mengaku terharu setelah menyaksikan film \"Hamka: Awal Mula Vol. ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/10/20/IMG_2573.jpeg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-14T02:24:23+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5853419/ustaz-abdul-somad-terharu-saksikan-hamka-awal-mula-vol-3"
+    },
+    {
+      "id": "47ecdb711973d844",
+      "title": "PBB, rekan-rekan mendesak Israel untuk mengangkat pembatasan pada bantuan ke Gaza",
+      "description": "PBB, rekan-rekan mendorong Israel untuk mengangkat pembatasan pada bantuan ke Gaza PBB dan mitra-mitra kemanusiaan mereka telah menyerukan Israel untuk mengangkat pembatasan pada pengiriman bantuan ke Gaza, memperingatkan bahwa hujan mematikan telah membunuh anak-anak dan orang dewasa, menghancurkan tempat penampungan dan banjir ribuan tenda keluarga. Lebih dari 150.000 tenda yang tersisa di luar Gaza, siap berangkat, sebagai pembatasan persediaan dan akses terus menghambat persiapan musim dingin, menurut Kantor PBB untuk koordinasi Urusan Kemanusiaan (OCHA). Dalam sebuah pernyataan, Tim Negara Kemanusiaan, terdiri dari agen PBB dan organisasi kemanusiaan yang beroperasi di wilayah Palestina yang dikuasai, mengatakan kehancuran yang disebabkan oleh badai hujan itu dapat dicegah. Mitra kemanusiaan telah menyajikan rencana persiapan musim dingin bulan yang lalu, tetapi pembatasan pada persediaan dan akses, bersama kekurangan pendanaan, telah menghambat implementasi tersebut. Tim mendesak Israel untuk mencabut pembatasan, memungkinkan perbaikan bagi jaringan air dan air limbah, dan memungkinkan semua mitra kemanusiaan untuk beroperasi. Permohonan banding mengikuti pernyataan awal minggu ini oleh Koordinator Bantuan Darurat Tom Fletcher, yang memperingatkan bahwa penundaan, pembatasan dan pemotongan dana yang membahayakan nyawa. Tim Negara Bagian Kemanusiaan juga mendorong anggota negara untuk menggunakan pengaruh mereka untuk menghapus hambatan untuk pengiriman bantuan dan menyediakan dana yang sangat diperlukan. OCHA mengatakan lebih dari 150.000 tenda tetap di luar Gaza, siap untuk pengiriman, sebagai pembatasan pada persediaan dan akses terus menghambat persiapan musim dingin. (AFP)",
+      "originalTitle": "UN, partners urge Israel to lift restrictions on aid into Gaza",
+      "originalDescription": "UN, partners urge Israel to lift restrictions on aid into Gaza The UN and its humanitarian partners have called on Israel to lift restrictions on aid deliveries to Gaza, warning that deadly rainstorms have killed children and adults, destroyed shelters and flooded thousands of family tents. More than 150,000 tents remain outside Gaza, ready for dispatch, as restrictions on supplies and access continue to hamper winter preparations, according to the UN Office for the Coordination of Humanitarian Affairs (OCHA). In a statement, the Humanitarian Country Team, comprising UN agencies and humanitarian organisations operating in the Occupied Palestinian Territory, said the devastation caused by the rainstorms was preventable. Humanitarian partners had presented a winter preparedness plan months ago, but restrictions on supplies and access, alongside funding shortfalls, had hampered its implementation. The Team urged Israel to lift restrictions, enable repairs to water and wastewater networks, and allow all humanitarian partners to operate. The appeal follows a statement earlier this week by Emergency Relief Coordinator Tom Fletcher, who warned that delays, restrictions and funding cuts were putting lives at risk. The Humanitarian Country Team also urged member states to use their influence to remove obstacles to aid deliveries and provide urgently needed funding. OCHA said more than 150,000 tents remain outside Gaza, ready for dispatch, as restrictions on supplies and access continue to hamper winter preparations. (AFP)",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/000_D6QP4T8.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-14T01:02:19+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/un-partners-urge-israel-lift-restrictions-aid-gaza"
+    },
+    {
+      "id": "ffd13430a8d76356",
+      "title": "Dalam Kondisi Mabuk, Tentara Diduga Aniaya Santri Nurul Bayan Cimerak, PCNU Pangandaran Desak Sanksi Tegas",
+      "description": "Anggota TNI diduga menganiaya santri Pondok Pesantren Nurul Bayan Cimerak, Pangandaran. PCNU mendesak terduga pelaku disanksi tegas.",
+      "originalTitle": "Dalam Kondisi Mabuk, Tentara Diduga Aniaya Santri Nurul Bayan Cimerak, PCNU Pangandaran Desak Sanksi Tegas",
+      "originalDescription": "Anggota TNI diduga menganiaya santri Pondok Pesantren Nurul Bayan Cimerak, Pangandaran. PCNU mendesak terduga pelaku disanksi tegas.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/oknum-tni-aniaya_1794622035.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-14T01:00:17+00:00",
+      "originalUrl": "https://www.nu.or.id/jabar/dalam-kondisi-mabuk-tentara-diduga-aniaya-santri-nurul-bayan-cimerak-pcnu-pangandaran-desak-sanksi-tegas-Pgq2m"
+    },
+    {
+      "id": "b00644533f769168",
+      "title": "Kemenag Buka Empat Program Bantuan Pesantren, Pendaftaran hingga 15 November",
+      "description": "Kemenag membuka empat bantuan pesantren 2026 senilai Rp50 juta hingga Rp100 juta. Pendaftaran dibuka hingga 15 November melalui aplikasi Kemenag.",
+      "originalTitle": "Kemenag Buka Empat Program Bantuan Pesantren, Pendaftaran hingga 15 November",
+      "originalDescription": "Kemenag membuka empat bantuan pesantren 2026 senilai Rp50 juta hingga Rp100 juta. Pendaftaran dibuka hingga 15 November melalui aplikasi Kemenag.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/kemenag-nu-online_1794620236.webp",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam",
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-14T00:30:16+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/kemenag-buka-empat-program-bantuan-pesantren-pendaftaran-hingga-15-november-5cqWD"
+    },
     {
       "id": "ffc1a75e30e0eaea",
       "title": "Orang-Orang Beriman kepada Allah SWT di Sekitar Fir'aun yang Diabadikan Alquran dan Hadis",
@@ -190,6 +342,31 @@
       "region": "",
       "publishedAt": "2026-11-13T23:52:24+00:00",
       "originalUrl": "https://khazanah.republika.co.id/berita/togszc320/orangorang-beriman-kepada-allah-swt-di-sekitar-firaun-yang-diabadikan-alquran-dan-hadis"
+    },
+    {
+      "id": "acacb39435ee9651",
+      "title": "ALECSO Tetapkan Sejumlah Keputusan untuk Dukung Pendidikan dan Kebudayaan Palestina",
+      "description": "ALECSO menetapkan program dukungan pendidikan dan kebudayaan Palestina. Keputusan mencakup rehabilitasi lembaga, pemantauan, dan kerja sama Arab.",
+      "originalTitle": "ALECSO Tetapkan Sejumlah Keputusan untuk Dukung Pendidikan dan Kebudayaan Palestina",
+      "originalDescription": "ALECSO menetapkan program dukungan pendidikan dan kebudayaan Palestina. Keputusan mencakup rehabilitasi lembaga, pemantauan, dan kerja sama Arab.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/alesco-palestina_1794618445.webp",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T23:30:46+00:00",
+      "originalUrl": "https://www.nu.or.id/internasional/alecso-tetapkan-sejumlah-keputusan-untuk-dukung-pendidikan-dan-kebudayaan-palestina-WumCx"
     },
     {
       "id": "c8add2ddb2ceebe0",
