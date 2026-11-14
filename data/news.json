@@ -1,32 +1,32 @@
 {
-  "status": "partial",
-  "lastUpdated": "2026-11-14T15:06:06.880233+00:00",
-  "total": 428,
-  "newArticles": 102,
+  "status": "success",
+  "lastUpdated": "2026-11-14T19:58:03.900347+00:00",
+  "total": 444,
+  "newArticles": 115,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 11,
-  "sourcesFailed": 1,
+  "sourcesSucceeded": 12,
+  "sourcesFailed": 0,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 0,
-      "filtered": 25,
+      "accepted": 2,
+      "filtered": 23,
       "filteredFootball": 2,
-      "translated": 25,
-      "translationPartial": 0,
+      "translated": 24,
+      "translationPartial": 1,
       "translationFailed": 0,
       "error": null
     },
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 27,
+      "raw": 23,
       "accepted": 0,
-      "filtered": 27,
+      "filtered": 23,
       "filteredFootball": 0,
-      "translated": 27,
+      "translated": 23,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -47,9 +47,9 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 2,
-      "filtered": 48,
-      "filteredFootball": 3,
+      "accepted": 1,
+      "filtered": 49,
+      "filteredFootball": 4,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,8 +83,8 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 5,
-      "filtered": 15,
+      "accepted": 9,
+      "filtered": 11,
       "filteredFootball": 1,
       "translated": 20,
       "translationPartial": 0,
@@ -93,15 +93,15 @@
     },
     {
       "name": "Detik",
-      "status": "error",
-      "raw": 0,
-      "accepted": 0,
-      "filtered": 0,
+      "status": "success",
+      "raw": 100,
+      "accepted": 4,
+      "filtered": 96,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
+      "error": null
     },
     {
       "name": "Muhammadiyah",
@@ -131,9 +131,9 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 20,
-      "filtered": 30,
-      "filteredFootball": 5,
+      "accepted": 24,
+      "filtered": 26,
+      "filteredFootball": 4,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -156,16 +156,445 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 219,
+    "translatedArticles": 226,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 1516
+    "cacheEntries": 1566
   },
   "images": {
-    "found": 428,
+    "found": 444,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "401ce276b9d5536f",
+      "title": "John Fetterman mengancam akan keluar dari Partai Demokratis jika pemimpin Senat berikutnya kritis terhadap Israel",
+      "description": "John Fetterman mengancam untuk keluar dari Partai Demokratik jika pemimpin Senat berikutnya mengkritik Israel Dilepaskan oleh Elis Gjevori di Sat, 11 / 14 / 2026 - 19: 14 Senator Pennsylvania mengincar Van Hollen, yang telah menuduh Israel menggunakan makanan sebagai senjata perang di Gaza US Senator John Fetterman berbicara kepada wartawan di gedung senat AS di Washington, DC, pada 9 Januari 2025. (Allison Robbert / AFP) Senator Demokratis John Fetterman menyarankan pada hari Sabtu bahwa ia bisa meninggalkan partainya jika Senat Demokrat memilih pemimpin yang dianggap tidak cukup pro- Israel. Fetterman dipilih keluar Senator Chris Van Hollen, kritikus Israel yang pada hari Kamis menantang Chuck Schumer, yang septuagenarian hardline pro- Israel Demokrat, untuk kepemimpinan Senat. Van Hollen mengatakan partai membutuhkan kepemimpinan baru setelah pemilih memilih untuk perubahan dalam pemilihan paruh waktu bulan ini. \"Ya, tentu saja\", kata Fetterman dalam wawancara Fox News pada hari Sabtu ketika bertanya apakah ia memiliki garis merah yang akan membuatnya \"menjauh\" dari pesta. \"Ini akan mengganggu jika kuucus saya memilih seseorang seperti Van Hollen yang benar-benar telah membuat namanya menjadi sangat anti, bermusuhan dengan Israel\", kata Fetterman, yang telah mendukung pembantaian Israel dan pembersihan etnis di Gaza. Demokrat memenangkan 55 kursi senat di ujian tengah semester, memberikan mereka mayoritas yang nyaman. Ada spekulasi bahwa Fetterman bisa membelot ke Republik jika Demokrat hanya memenangkan 51 kursi, seperti yang diharapkan. Dengan 55 kursi, partai dapat mempertahankan mayoritas tanpa dia. Senator Pennsylvania mengatakan ia belum memutuskan apa yang akan dilakukannya jika Van Hollen menjadi pemimpin mayoritas. Setelah mengunjungi perbatasan Gaza pada bulan September 2025, Van Hollen berkata: \"Di Gaza, pemerintah Netanyahu menerapkan tujuannya melalui penghancuran total infrastruktur sipil dan penggunaan makanan sebagai senjata perang\". \"Kebijakan-ke",
+      "originalTitle": "John Fetterman threatens to quit Democratic Party if next Senate leader is critical of Israel",
+      "originalDescription": "John Fetterman threatens to quit Democratic Party if next Senate leader is critical of Israel Submitted by Elis Gjevori on Sat, 11/14/2026 - 19:14 The Pennsylvania senator took aim at Van Hollen, who has accused Israel of using food as a weapon of war in Gaza US Senator John Fetterman speaks to reporters at the US Capitol in Washington, DC, on January 9, 2025. (Allison Robbert/AFP) Off Democratic Senator John Fetterman suggested on Saturday that he could leave his party if Senate Democrats chose a leader he considered insufficiently pro- Israel . Fetterman singled out Senator Chris Van Hollen, a critic of Israel who on Thursday challenged Chuck Schumer, the septuagenarian hardline pro-Israel Democrat, for the Senate leadership. Van Hollen said the party needed new leadership after voters opted for change in this month’s midterm elections. “Yeah, absolutely,” Fetterman said in a Fox News interview on Saturday when asked whether he had a red line that would make him “walk away” from the party. “It would be troubling if my caucus elects someone like Van Hollen that has really made his name being very anti, hostile to Israel,” said Fetterman, who has backed the Israeli genocide and ethnic cleansing in Gaza. Democrats won 55 Senate seats in the midterms, giving them a comfortable majority. There had been speculation that Fetterman could defect to the Republicans if Democrats won just 51 seats, as many expected. With 55 seats, the party can retain its majority without him. The Pennsylvania senator said he had yet to decide what he would do if Van Hollen became majority leader. After visiting the Gaza border in September 2025, Van Hollen said: “In Gaza, the Netanyahu government is implementing its goal through the near-total destruction of civilian infrastructure and its use of food as a weapon of war.” “These policies are part of a calculated effort to drive Palestinians out of Gaza by making it impossible for them to live there. Any talk of “voluntary departures” is a cr",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_36TD8N9.jpg.jpg?itok=eaHSVlyy",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-14T19:33:03+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/john-fetterman-puts-israel-first-threatens-quit-democrats-over-leader-who-criticises-israel"
+    },
+    {
+      "id": "bf0885c67d2a6a03",
+      "title": "6 Tips Penting dari Kepolisian Lalu Lintas untuk Berkendara Aman Saat Hujan",
+      "description": "Kepolisian Lalu Lintas Arab Saudi mengimbau pengemudi untuk berhati-hati dan mematuhi aturan keselamatan saat hujan guna mencegah kecelakaan.",
+      "originalTitle": "6 Tips Penting dari Kepolisian Lalu Lintas untuk Berkendara Aman Saat Hujan",
+      "originalDescription": "Kepolisian Lalu Lintas Arab Saudi mengimbau pengemudi untuk berhati-hati dan mematuhi aturan keselamatan saat hujan guna mencegah kecelakaan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/3738-crop-eW8RjsOj.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T19:25:28+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/4b8yi14gr"
+    },
+    {
+      "id": "bc0c2b40ba0f3205",
+      "title": "Hujan Ringan hingga Sedang Guyur Sejumlah Wilayah Mekkah",
+      "description": "Hari ini, sejumlah wilayah di Mekkah diguyur hujan ringan hingga sedang, menurut laporan Kantor Berita Saudi.",
+      "originalTitle": "Hujan Ringan hingga Sedang Guyur Sejumlah Wilayah Mekkah",
+      "originalDescription": "Hari ini, sejumlah wilayah di Mekkah diguyur hujan ringan hingga sedang, menurut laporan Kantor Berita Saudi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-nhNdXSrj.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T19:14:26+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/yiwdiwzyr"
+    },
+    {
+      "id": "45c4e1644bc04947",
+      "title": "160 Peserta dari 16 Negara Tiba untuk Lomba Alquran dan Hadis Raja Salman di Afrika Barat",
+      "description": "Sebanyak 160 peserta dari 16 negara Afrika Barat telah tiba di Nouakchott untuk mengikuti lomba hafalan Alquran dan hadis Raja Salman yang digelar untuk kedua kalinya.",
+      "originalTitle": "160 Peserta dari 16 Negara Tiba untuk Lomba Alquran dan Hadis Raja Salman di Afrika Barat",
+      "originalDescription": "Sebanyak 160 peserta dari 16 negara Afrika Barat telah tiba di Nouakchott untuk mengikuti lomba hafalan Alquran dan hadis Raja Salman yang digelar untuk kedua kalinya.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-s1dAEGZK.jpg",
+      "category": "Al-Qur'an dan Hadis",
+      "tags": [
+        "Al-Qur'an dan Hadis"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T18:52:23+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/s4jkc2ovi"
+    },
+    {
+      "id": "f25305170bb5cfb1",
+      "title": "11.952 pelanggar residensi, tenaga kerja dan hukum keamanan perbatasan ditangkap dalam seminggu",
+      "description": "RIYADH - Pasukan keamanan Saudi menangkap total penduduk ilegal 11.952 dalam seminggu. Penangkapan dilakukan dalam pemeriksaan bersama, dilakukan dalam kerjasama dengan lembaga pemerintah yang relevan, selama periode antara 5 November dan 11, Kementerian Dalam Negeri diumumkan pada hari Sabtu. Mereka yang ditangkap termasuk 6.163 pelanggar Hukum Residensi, 3,225 pelanggar Hukum Keamanan Perbatasan, dan 2.564 pelanggar Hukum Tenaga Kerja. Jumlah total orang yang ditangkap saat mencoba untuk menyeberangi perbatasan ke Kingdom berjumlah 1,653. Sekitar 29 orang ditangkap saat mencoba meninggalkan Kerajaan secara ilegal. Total penduduk ilegal 11.418 dideportasi sementara 22.451 pelanggar disebut misi diplomatik mereka untuk mendapatkan dokumen perjalanan dan 9.800 pelanggar disebut untuk menyelesaikan pemesanan perjalanan mereka. Lima belas orang, yang terlibat dalam memberikan transportasi, tempat tinggal, dan pekerjaan untuk pelanggar, juga ditangkap. Totalnya 40.762 ekspatriat, termasuk 38.383 pria dan 2.379 wanita, saat ini menjalani prosedur untuk melakukan tindakan hukum untuk pelanggaran mereka. Kementerian Dalam Negeri telah memperingatkan bahwa setiap orang, yang memfasilitasi entri ilegal individu ke Kerajaan, mengangkut mereka di wilayahnya, menyediakan tempat tinggal atau bantuan lain atau jasa, akan dihukum hingga 15 tahun penjara dan denda hingga SR1 juta, dan kendaraan yang digunakan untuk transportasi atau rumah yang digunakan untuk memberikan perlindungan akan disita. Departemen mendesak publik untuk melaporkan setiap kasus pelanggaran dengan memanggil nomor 911 di daerah Mekah, Riyadh, dan Provinsi Timur dan nomor 999 dan 996 di sisa wilayah Kerajaan.",
+      "originalTitle": "11,952 violators of residency, labor and border security laws arrested in a week",
+      "originalDescription": "RIYADH — Saudi security forces arrested a total of 11,952 illegal residents in a week. The arrests were made in joint inspections, carried out in cooperation with the relevant government agencies, during the period between November 5 and 11, the Ministry of Interior announced on Saturday. Those who were arrested include 6,163 violators of the Residency Law, 3,225 violators of the Border Security Law, and 2,564 violators of the Labor Law. The total number of people who were arrested while trying to cross the border into the Kingdom accounted for 1,653. About 29 people were arrested while attempting to leave the Kingdom illegally.A total of 11,418 illegal residents were deported while 22,451 violators were referred to their diplomatic missions to obtain travel documents and 9,800 violators were referred to complete their travel reservations. Fifteen persons, who were involved in giving transportation, shelter, and employment for violators, were also arrested. A total of 40,762 expatriates, including 38,383 men and 2,379 women, are currently undergoing procedures to enforce legal measures for their violations. The Ministry of Interior has warned that any person, who facilitates the illegal entry of individuals into the Kingdom, transports them on its territory, provides them with shelter or any other assistance or service, will be penalized with up to 15 years in prison and a fine of up to SR1 million, and that the vehicles used for transportation or houses used for giving shelter will be confiscated. The ministry urged the public to report any cases of violation by calling the number 911 in the regions of Makkah, Riyadh, and the Eastern Province and the numbers 999 and 996 in the rest of the Kingdom’s regions.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/14/2794508.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T18:30:46+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666252/saudi-arabia/11952-violators-of-residency-labor-and-border-security-laws-arrested-in-a-week"
+    },
+    {
+      "id": "a23032bf62e8fd5f",
+      "title": "Hamas meminta perbaikan mendesak ke saluran pembuangan dan sistem pembuangan Gaza",
+      "description": "Hamas panggilan untuk perbaikan mendesak ke pembuangan limbah Gaza dan sistem drainase Hamas biro politik Kepala Khalil al- Hayya telah menyerukan \"tindakan mendesak\" untuk memperbaiki saluran pembuangan Gaza dan memperbaiki drainase air hujan setelah hujan lebat menghancurkan puluhan ribu tenda. Al- Hayya disebut untuk \"tanpa hambatan\" akses untuk kelompok bantuan dan mendorong Israel untuk membiarkan lebih banyak makanan dan bahan bakar ke Gaza. Pembatasan bantuan Israel telah menghambat upaya untuk memperbaiki infrastruktur yang rusak parah di Strip. \"Apa yang dialami Gaza bukan lagi krisis kemanusiaan darurat atau konsekuensi alami dari perang, namun kenyataan yang kompleks di mana kebijakan kelaparan, kehancuran sistematis, dan pembatasan pengiriman bantuan yang disengaja terkait\", kata al- Hayya.",
+      "originalTitle": "Hamas calls for urgent repairs to Gaza’s sewage and drainage systems",
+      "originalDescription": "Hamas calls for urgent repairs to Gaza’s sewage and drainage systems Hamas political bureau chief Khalil al-Hayya has called for “urgent action” to fix Gaza’s sewers and improve rainwater drainage after heavy rains destroyed tens of thousands of tents. Al-Hayya called for “unhindered” access for aid groups and urged Israel to let more food and fuel into Gaza. Israeli restrictions on aid have hampered efforts to repair the Strip’s badly damaged infrastructure. “What Gaza is experiencing is no longer an emergency humanitarian crisis or a natural consequence of war, but a complex reality in which policies of starvation, systematic destruction, and the deliberate restriction of aid deliveries are intertwined,” al-Hayya said.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Iranians%20wave%20flags%20during%20a%20gathering%20in%20front%20of%20an%20anti-US%20billboard%20depicting%20US%20President%20Donald%20Trump%20in%20Tehran%27s%20Enghelab%20Square%20on%20November%203%2C%202026..jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-14T18:20:45+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/hamas-calls-urgent-repairs-gazas-sewage-and-drainage-systems"
+    },
+    {
+      "id": "f3a829c1799e71bb",
+      "title": "Laporan Perumahan 72 Saudi- dipimpin koalisi udara serangan di Yaman",
+      "description": "Laporan Perumahan 72 Saudi-dipimpin serangan udara koalisi di seluruh Yaman Houthi juru bicara militer Yahya Saree mengatakan koalisi Saudi- dipimpin menyerang empat gubernur Yaman dari udara 72 kali dalam 24 jam. Dia bernama Saada, Taiz, Lahij dan Al-Jawf dalam pos di X. Saree menempatkan perhitungan gabungan serangan udara dan rudal pada 5.020 sejak pertempuran dilanjutkan selama musim panas.",
+      "originalTitle": "Houthis report 72 Saudi-led coalition air strikes across Yemen",
+      "originalDescription": "Houthis report 72 Saudi-led coalition air strikes across Yemen Houthi military spokesman Yahya Saree says the Saudi-led coalition struck four Yemeni governorates from the air 72 times in 24 hours. He named Saada, Taiz, Lahij and al-Jawf in a post on X. Saree put the combined tally of air and missile attacks at 5,020 since fighting resumed over the summer.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Iranians%20wave%20flags%20during%20a%20gathering%20in%20front%20of%20an%20anti-US%20billboard%20depicting%20US%20President%20Donald%20Trump%20in%20Tehran%27s%20Enghelab%20Square%20on%20November%203%2C%202026..jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-14T17:44:46+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-report-72-saudi-led-coalition-air-strikes-across-yemen"
+    },
+    {
+      "id": "f0b220a48d503394",
+      "title": "Arab Saudi mengeksekusi mantan demonstran anak Jawad Qurealis",
+      "description": "Arab Saudi mengeksekusi mantan demonstran anak Jawad Qureiris Diberikan oleh staf MEE pada Sat, 11 / 14 / 2026 - 16: 32 Kelompok hak asasi mengutuk eksekusi rahasia mantan demonstran anak sebagai alat penindasan politik di bawah Putra Mahkota Muhammad bin Salman Gambar ini menunjukkan poster yang menggambarkan Raja Salman bin Abdulaziz (R), dan Putra Mahkota Mohammed bin Salman (L) di Riyadh pada 12 Mei 2025 (AFP) Arab Saudi mengeksekusi seorang pria yang ditahan saat masih kecil, bersama dengan warga Saudi lainnya dari Provinsi Timur Kerajaan. Dalam pernyataan pada hari Sabtu, Badan Pers Saudi mengkonfirmasi bahwa Riyadh telah mengeksekusi Jawad Qureiris. Berasal dari keluarga terkemuka Shia-Mayoritas di Kingdom apos; s Provinsi Timur, Qurealis adalah seorang mantan terdakwa anak yang hanya 14 sampai 15 tahun selama protes Musim Semi 2011-12 Arab. Keluarga Qureris memiliki riwayat terdokumentasi tentang pertemuan dengan keamanan negara: salah satu saudaranya dibunuh oleh pasukan keamanan, sementara yang lain ditangkap pada usia 13 dan menghadapi tuduhan modal terkait dengan tuduhan pelanggaran yang dilakukan ketika ia berusia sembilan tahun. Kementerian Dalam Negeri Arab Saudi juga mengumumkan bahwa Fadel bin Hassan bin Abdullah Al- Safwani dieksekusi pada hari Sabtu. Menteri mengklaim bahwa orang-orang itu dihukum atas kejahatan teroris, dan menuduh mereka bergabung dengan organisasi teroris asing, menembaki petugas keamanan dan kendaraan dengan senjata dan bahan peledak, memiliki amunisi hidup, dan menyediakan dukungan logistik dan keuangan untuk operasi di dalam Kingdom. Menurut pernyataan SPA, kasus-kasus melalui khusus pengadilan pidana, di mana tanggung jawab hukum laki-laki didirikan sebelum putusan yang ditegakkan oleh Mahkamah Agung dan disahkan melalui dekrit kerajaan. Qureris ditangkap pada Desember 2020 dan didakwa dengan pelanggaran yang berkaitan dengan mengambil bagian dalam protes dan mengorganisir media sosial. Aktivis sebelumnya akan menjadi 14 pa",
+      "originalTitle": "Saudi Arabia executes former child protester Jawad Qureiris",
+      "originalDescription": "Saudi Arabia executes former child protester Jawad Qureiris Submitted by MEE staff on Sat, 11/14/2026 - 16:32 Rights groups condemn secret execution of former child protester as a tool of political oppression under Crown Prince Mohammed bin Salman This picture shows a poster depicting King Salman bin Abdulaziz (R), and Crown Prince Mohammed bin Salman (L) in Riyadh on May 12, 2025 (AFP) Off Saudi Arabia executed a man who was detained as a child, alongside another Saudi national from the Kingdom’s Shia-majority Eastern Province. In a statement on Saturday, the Saudi Press Agency confirmed that Riyadh had executed Jawad Qureiris. Hailing from a prominent Shia-majority family in the Kingdom’s Eastern Province, Qureiris was a former child defendant who was just 14 to 15 years old during the 2011-12 Arab Spring protests. Qureiris’ family has a documented history of encounters with state security: one of his brothers was killed by security forces, while another was arrested at age 13 and faced capital charges related to alleged offences committed when he was nine years old. Saudi Arabia’s Ministry of Interior also announced that Fadel bin Hassan bin Abdullah Al-Safwani was executed on Saturday. The ministry claimed the men were convicted of “terrorist crimes,” alleging they joined a foreign terrorist organisation, opened fire on security personnel and vehicles with weapons and explosives, possessed live ammunition, and provided logistical and financial support for operations within the Kingdom. According to the SPA statement, the cases passed through specialised criminal courts, where the men’s legal responsibility was established before the verdicts were upheld by the Supreme Court and ratified via a royal decree. Qureiris was arrested in December 2020 and charged with offences related to taking part in protests and organising on social media. The late activist would have been 14 at the time of some of the protests in which he is alleged to have participated. His family",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_46DN6TP.jpg.jpg?itok=_2p2bx7U",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-14T17:16:18+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/saudi-arabia-executes-former-child-protester-jawad-qureiris"
+    },
+    {
+      "id": "ff57ebef9dddd661",
+      "title": "Hujan Lebat dan Banjir Landa Sebagian Besar Wilayah Arab Saudi hingga Kamis",
+      "description": "Pertahanan Sipil Arab Saudi mengimbau warga waspada terhadap hujan lebat dan banjir yang diperkirakan melanda sebagian besar wilayah hingga Kamis.",
+      "originalTitle": "Hujan Lebat dan Banjir Landa Sebagian Besar Wilayah Arab Saudi hingga Kamis",
+      "originalDescription": "Pertahanan Sipil Arab Saudi mengimbau warga waspada terhadap hujan lebat dan banjir yang diperkirakan melanda sebagian besar wilayah hingga Kamis.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-uDr_pAtu.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T16:52:01+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/k3b2pc282"
+    },
+    {
+      "id": "7993e1b9c5832c84",
+      "title": "Hasil Akhir Penerimaan Taruna Perwira ke-56 di Akademi Keamanan King Fahd Diumumkan",
+      "description": "Kementerian Dalam Negeri Arab Saudi mengumumkan hasil akhir penerimaan taruna perwira ke-56 di Akademi Keamanan King Fahd untuk tahun ajaran 1448 H.",
+      "originalTitle": "Hasil Akhir Penerimaan Taruna Perwira ke-56 di Akademi Keamanan King Fahd Diumumkan",
+      "originalDescription": "Kementerian Dalam Negeri Arab Saudi mengumumkan hasil akhir penerimaan taruna perwira ke-56 di Akademi Keamanan King Fahd untuk tahun ajaran 1448 H.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-iWaDrf9P.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T16:42:22+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/dab8wfu7x"
+    },
+    {
+      "id": "94e3e226751aea35",
+      "title": "Lowongan Musim Umrah 1448 untuk Lulusan SMA ke Atas",
+      "description": "Kementerian Dalam Negeri Arab Saudi membuka pendaftaran sejumlah posisi medis dan administrasi kontrak sementara untuk musim umrah 1448 di Mekkah.",
+      "originalTitle": "Lowongan Musim Umrah 1448 untuk Lulusan SMA ke Atas",
+      "originalDescription": "Kementerian Dalam Negeri Arab Saudi membuka pendaftaran sejumlah posisi medis dan administrasi kontrak sementara untuk musim umrah 1448 di Mekkah.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/3760-crop-Fcl2LwLo.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi",
+        "Haji dan Umrah"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T16:36:24+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/p8r7flr5l"
+    },
+    {
+      "id": "e9f0c1a17295a129",
+      "title": "Universitas Pertahanan Nasional dinamai setelah Raja Salman",
+      "description": "RIYADH - Penjaga Dua Masjid Suci Raja Salman telah menyetujui pergantian nama dari Universitas Pertahanan Nasional ke Universitas Raja Salman untuk Pertahanan Nasional. Menteri Pertahanan Pangeran Khalid bin Salman menyatakan terima kasih kepada Raja Salman dan untuk Putra Mahkota dan Perdana Menteri Mohammed bin Salman dalam hal ini. Dia menekankan bahwa penamaan lembaga setelah Raja Salman mencerminkan perhatian dan perhatian sektor pendidikan menerima dari kepemimpinan dan mendasari komitmennya terhadap perkembangan manusia dan mempersiapkan pemimpin - pilar fundamental untuk menjaga keamanan negara dan memperkuat pencapaiannya. Pangeran Khalid mengatakan bahwa penamaan ini berfungsi sebagai insentif bagi universitas untuk terus mengembangkan sistem pendidikan dan penelitian dan mendukung keputusan-keputusan dalam bidang pertahanan nasional dan keamanan. Ini sejalan dengan tujuan untuk pengembangan Kementerian Pertahanan - peta jalan yang dipetakan oleh Putra Mahkota.",
+      "originalTitle": "National Defense University named after King Salman",
+      "originalDescription": "RIYADH — Custodian of the Two Holy Mosques King Salman has approved the renaming of the National Defense University to King Salman University for National Defense. Minister of Defense Prince Khalid bin Salman expressed his gratitude and appreciation to King Salman and to Crown Prince and Prime Minister Mohammed bin Salman in this regard. He emphasized that naming the institution after King Salman reflects the care and attention the education sector receives from the leadership and underscores its ongoing commitment to human development and preparing leaders—a fundamental pillar for safeguarding the nation's security and strengthening its achievements. Prince Khalid said that this naming serves as an incentive for the university to continue developing its educational and research systems and supporting decision-making in the fields of national defense and security.This is in line with the objectives for the development of the Ministry of Defense—a roadmap for which was charted by the Crown Prince.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/14/2794445.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T16:25:38+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666250/saudi-arabia/national-defense-university-named-after-king-salman"
+    },
+    {
+      "id": "1306573ff4ed09fd",
+      "title": "Apakah Masa Berlaku Uji Berkala Kendaraan Habis Menghalangi Perjalanan ke Negara Teluk? Ini Penjelasan Otoritas Zakat dan Bea Cukai",
+      "description": "Otoritas Zakat dan Bea Cukai Arab Saudi menegaskan masa berlaku uji berkala kendaraan yang habis tidak menghalangi perjalanan ke negara-negara Teluk seperti Bahrain.",
+      "originalTitle": "Apakah Masa Berlaku Uji Berkala Kendaraan Habis Menghalangi Perjalanan ke Negara Teluk? Ini Penjelasan Otoritas Zakat dan Bea Cukai",
+      "originalDescription": "Otoritas Zakat dan Bea Cukai Arab Saudi menegaskan masa berlaku uji berkala kendaraan yang habis tidak menghalangi perjalanan ke negara-negara Teluk seperti Bahrain.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/3720-crop-9wZFCcoK.jpg",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah",
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T15:57:34+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/l6iny9u8a"
+    },
+    {
+      "id": "c03e9c023b06a728",
+      "title": "Uni Eropa meminta akses kemanusiaan langsung ke Gaza",
+      "description": "Uni Eropa mengatakan bahwa \"Israel harus mengaktifkan karya PBB dan instansi-instansi\" setelah kelompok tersebut memblokir akses ke Gaza.",
+      "originalTitle": "EU calls for immediate humanitarian access to Gaza",
+      "originalDescription": "The EU said that “Israel must enable the work of the UN and its agencies\" after the group was blocked access into Gaza.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af8704f4a9a8-1794666575.jpg?resize=1920%2C1440",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-14T15:57:22+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/14/eu-calls-for-immediate-humanitarian-access-to-gaza"
+    },
+    {
+      "id": "c3bd740d76a2757a",
+      "title": "Roaa dan Safwa Teken Nota Kesepahaman untuk Perkuat Kerja Sama Budaya dan Pelatihan",
+      "description": "Asosiasi Roaa dan Yayasan Safwa menandatangani nota kesepahaman di Konferensi dan Pameran Haji 2026 untuk memperkuat kolaborasi budaya, pelatihan, dan pengembangan inisiatif sosial di Madinah.",
+      "originalTitle": "Roaa dan Safwa Teken Nota Kesepahaman untuk Perkuat Kerja Sama Budaya dan Pelatihan",
+      "originalDescription": "Asosiasi Roaa dan Yayasan Safwa menandatangani nota kesepahaman di Konferensi dan Pameran Haji 2026 untuk memperkuat kolaborasi budaya, pelatihan, dan pengembangan inisiatif sosial di Madinah.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/whatsapp/2026-11/whatsapp-d330c476-843a-4c7e-94ff-ff98d373a384-HUrUyFu7.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi",
+        "Haji dan Umrah"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T15:55:42+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/8zfu13asa"
+    },
+    {
+      "id": "0b4782b4b06e93a1",
+      "title": "Yerusalem Daily: pasukan Israel menempati Palestina-Amerika rumah",
+      "description": "Pasukan Israel menduduki sebuah Palestina-Amerika rumah di West Bank selama 17 hari.",
+      "originalTitle": "Jerusalem Daily: Israeli forces occupy Palestinian-American’s home",
+      "originalDescription": "Israeli forces occupied a Palestinian-American’s home in the occupied West Bank for 17 days.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794670515.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-14T15:36:37+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/14/jerusalem-daily-israeli-forces-occupy-palestinian-americans-home"
+    },
+    {
+      "id": "4c08babca16e1883",
+      "title": "Pemukim Israel serang petani kebun zaitun Palestina di Tepi Barat",
+      "description": "Pemukim Israel menyerang warga Palestina yang sedang memanen buah zaitun di sebelah timur Nablus, wilayah utara Tepi ...",
+      "originalTitle": "Pemukim Israel serang petani kebun zaitun Palestina di Tepi Barat",
+      "originalDescription": "Pemukim Israel menyerang warga Palestina yang sedang memanen buah zaitun di sebelah timur Nablus, wilayah utara Tepi ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/14/ilustrasi-panen-buah-zaitun-di-Tepi-Barat-Palestina.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-14T15:11:21+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5854755/pemukim-israel-serang-petani-kebun-zaitun-palestina-di-tepi-barat"
+    },
     {
       "id": "556af0d5d2d326c3",
       "title": "Menteri Agama Yaman serukan sikap Islam bersatu lawan Houthi, puji upaya Saudi lindungi situs suci",
@@ -673,6 +1102,32 @@
       "originalUrl": "https://indonesian.ajel.sa/dunia/5erwfjqtc"
     },
     {
+      "id": "e403bb792946d1f3",
+      "title": "MUI Kecam Dugaan Oknum Prajurit TNI Aniaya Santri di Pangandaran",
+      "description": "MUI mengecam dugaan kekerasan oknum TNI terhadap santri di Pangandaran. Mereka mendesak perlindungan korban dan penegakan hukum yang tegas.",
+      "originalTitle": "MUI Kecam Dugaan Oknum Prajurit TNI Aniaya Santri di Pangandaran",
+      "originalDescription": "MUI mengecam dugaan kekerasan oknum TNI terhadap santri di Pangandaran. Mereka mendesak perlindungan korban dan penegakan hukum yang tegas.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2024/01/02/ketua-pbnu-kh-ahmad-fahrur-rozi_169.jpeg?w=360&q=90",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam",
+        "Pesantren dan Madrasah"
+      ],
+      "source": "Detik",
+      "sources": [
+        "Detik"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-14T08:27:04+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8752940/mui-kecam-dugaan-oknum-prajurit-tni-aniaya-santri-di-pangandaran"
+    },
+    {
       "id": "d2f31cfd60af9853",
       "title": "Daftar Haji tak Harus Langsung Punya Rp25 Juta, Bisa Menabung Bertahap",
       "description": "JAKARTA — Masyarakat yang ingin mendaftar ibadah haji tidak harus langsung memiliki dana Rp25 juta. Calon jamaah dapat mempersiapkan setoran awal melalui tabungan haji secara bertahap hingga mencapai jumlah...",
@@ -799,10 +1254,10 @@
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-669"
     },
     {
-      "id": "fd652fac21909bb3",
-      "title": "DPRD DKI Ajukan 100 Sekolah Swasta Gratis Tambahan, Ini Rinciannya",
+      "id": "bd5b3579182a82dd",
+      "title": "DPRD DKI Dukung Tambahan 100 Sekolah Swasta Gratis, Termasuk SLB-Madrasah",
       "description": "DPRD DKI Jakarta usulkan 100 sekolah swasta gratis pada 2027, termasuk SLB dan madrasah. Program ini bertujuan perluas akses pendidikan bagi masyarakat.",
-      "originalTitle": "DPRD DKI Ajukan 100 Sekolah Swasta Gratis Tambahan, Ini Rinciannya",
+      "originalTitle": "DPRD DKI Dukung Tambahan 100 Sekolah Swasta Gratis, Termasuk SLB-Madrasah",
       "originalDescription": "DPRD DKI Jakarta usulkan 100 sekolah swasta gratis pada 2027, termasuk SLB dan madrasah. Program ini bertujuan perluas akses pendidikan bagi masyarakat.",
       "translated": false,
       "translationStatus": "not_required",
@@ -821,7 +1276,7 @@
       "sourceCountry": "Indonesia",
       "region": "",
       "publishedAt": "2026-11-14T07:29:42+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8752825/dprd-dki-ajukan-100-sekolah-swasta-gratis-tambahan-ini-rinciannya"
+      "originalUrl": "https://news.detik.com/berita/d-8752825/dprd-dki-dukung-tambahan-100-sekolah-swasta-gratis-termasuk-slb-madrasah"
     },
     {
       "id": "4e921a9cb5ae6512",
@@ -10354,47 +10809,6 @@
       "country": "Indonesia",
       "publishedAt": "2026-11-07T23:57:59+00:00",
       "originalUrl": "https://khazanah.republika.co.id/berita/to5p8n430/bandara-dhoho-kediri-resmi-jadi-embarkasi-haji-reguler-2027",
-      "translationStatus": "not_needed"
-    },
-    {
-      "id": "c2e1db100c5a2367",
-      "title": "Festival pernikahan Gaza melihat 250 pasangan menikah pada saat yang sama",
-      "description": "Pernikahan massal untuk pengantin Palestina dan pengantin pria telah berlangsung di jalan-jalan rubble- bertebaran di Gaza.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/354f/live/49a10e60-daba-11f1-b441-2b33b063138f.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "BBC World",
-      "sourceCountry": "International",
-      "region": "",
-      "language": "id",
-      "country": "International",
-      "publishedAt": "2026-11-07T17:58:41+00:00",
-      "originalUrl": "https://www.bbc.co.uk/news/videos/ckr5ygm78j76o?at_campaign=rss&at_medium=RSS",
-      "originalTitle": "Gaza wedding festival sees 250 couples married at the same time",
-      "originalDescription": "A mass wedding for Palestinian brides and grooms has taken place in the rubble-strewn streets of Gaza.",
-      "translationStatus": "success",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
-      "originalLanguage": "en",
-      "translated": true
-    },
-    {
-      "id": "b001ec5de43f56cc",
-      "title": "Kemenhaj Dukung Arab Saudi Berantas Makelar Ilegal Perhajian",
-      "description": "JAKARTA – Kementerian Haji dan Umrah (Kemenhaj) Republik Indonesia menyambut baik langkah tegas Pemerintah Arab Saudi dalam mencegah praktik perantara atau makelar ilegal dalam pengadaan layanan haji. Langkah ini sejalan...",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/000402000-1793365941-830-556.jpg",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "Republika",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-07T15:07:29+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to50oh320/kemenhaj-dukung-arab-saudi-berantas-makelar-ilegal-perhajian",
       "translationStatus": "not_needed"
     }
   ]
