@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-14T07:38:50.277374+00:00",
-  "total": 405,
-  "newArticles": 112,
+  "lastUpdated": "2026-11-14T15:06:06.880233+00:00",
+  "total": 428,
+  "newArticles": 102,
   "sourcesChecked": 12,
   "sourcesSucceeded": 11,
   "sourcesFailed": 1,
@@ -11,8 +11,8 @@
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 1,
-      "filtered": 24,
+      "accepted": 0,
+      "filtered": 25,
       "filteredFootball": 2,
       "translated": 25,
       "translationPartial": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 25,
+      "raw": 27,
       "accepted": 0,
-      "filtered": 25,
+      "filtered": 27,
       "filteredFootball": 0,
-      "translated": 25,
+      "translated": 27,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -45,15 +45,15 @@
     },
     {
       "name": "ANTARA Terkini",
-      "status": "error",
-      "raw": 0,
-      "accepted": 0,
-      "filtered": 0,
-      "filteredFootball": 0,
+      "status": "success",
+      "raw": 50,
+      "accepted": 2,
+      "filtered": 48,
+      "filteredFootball": 3,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": null
     },
     {
       "name": "ANTARA Dunia",
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 4,
-      "filtered": 16,
-      "filteredFootball": 0,
+      "accepted": 5,
+      "filtered": 15,
+      "filteredFootball": 1,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -93,22 +93,22 @@
     },
     {
       "name": "Detik",
-      "status": "success",
-      "raw": 100,
-      "accepted": 4,
-      "filtered": 96,
+      "status": "error",
+      "raw": 0,
+      "accepted": 0,
+      "filtered": 0,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
     },
     {
       "name": "Muhammadiyah",
       "status": "success",
       "raw": 10,
-      "accepted": 2,
-      "filtered": 8,
+      "accepted": 0,
+      "filtered": 10,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -119,8 +119,8 @@
       "name": "NU Online",
       "status": "success",
       "raw": 50,
-      "accepted": 13,
-      "filtered": 37,
+      "accepted": 16,
+      "filtered": 34,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -131,9 +131,9 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 29,
-      "filtered": 21,
-      "filteredFootball": 2,
+      "accepted": 20,
+      "filtered": 30,
+      "filteredFootball": 5,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -156,16 +156,648 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 210,
+    "translatedArticles": 219,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 1424
+    "cacheEntries": 1516
   },
   "images": {
-    "found": 405,
+    "found": 428,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "556af0d5d2d326c3",
+      "title": "Menteri Agama Yaman serukan sikap Islam bersatu lawan Houthi, puji upaya Saudi lindungi situs suci",
+      "description": "Menteri Agama Yaman, Sheikh Turki Al-Wad’ei, menyerukan sikap Islam bersatu melawan serangan Houthi terhadap situs suci di Mekkah dan Madinah, serta memuji upaya Arab Saudi dalam melindungi tempat-tempat tersebut.",
+      "originalTitle": "Menteri Agama Yaman serukan sikap Islam bersatu lawan Houthi, puji upaya Saudi lindungi situs suci",
+      "originalDescription": "Menteri Agama Yaman, Sheikh Turki Al-Wad’ei, menyerukan sikap Islam bersatu melawan serangan Houthi terhadap situs suci di Mekkah dan Madinah, serta memuji upaya Arab Saudi dalam melindungi tempat-tempat tersebut.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-E1M2WRbs.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T14:52:24+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/v6i5isxny"
+    },
+    {
+      "id": "0d52a34a25091574",
+      "title": "Tiga orang Israel muncul sebagai pengganti yang mungkin untuk kepala Nvidia Jensen Huang, media lokal mengatakan",
+      "description": "Tiga orang Israel muncul sebagaimana mungkin pengganti dari Kepala Nvidia Jensen Huang, media lokal mengatakan Dibawa oleh staf MEE di Sat, 11 / 14 / 2026 - 11: 36 Michael Kagan, Eyal Waldman dan Johny Srouji termasuk nama-nama yang didiskusikan setelah aktivis-aktivis Greenpeace langsung Huang memegang bendera memprotes dampak lingkungan Nvidia sebagai kepala eksekutif Jensen Huang menyampaikan pidato penting di konferensi GTC Berlin pada Oktober 21 Oktober 2026. Keberangkatan Huang, diumumkan pada 12 November, berlaku segera. Dewan Nvidia menunjuk kepala petugas keuangan Colette Kress sebagai eksekutif sementara sementara mencari pengganti permanen. Perusahaan mengatakan itu akan mempertimbangkan kedua kandidat internal dan eksternal. Media Israel bernama Michael Kagan, Kepala Teknologi Nvidia, Eyal Waldman, pendiri dan mantan kepala eksekutif Israel perusahaan jaringan Mellanux, dan Johny Srouji, Kepala perangkat keras Apple, sebagai pesaing. Kagan mendirikan Mellanox pada tahun 1999 dan bergabung dengan Nvidia setelah mendapatkan perusahaan pada tahun 2020 selama sekitar $6.9bn. apa? Sejak itu dia menjabat sebagai Kepala Teknologi Nvidia, fokus pada teknologi yang memungkinkan ribuan prosesor berkomunikasi dalam pusat data yang besar. Waldman juga mendirikan Mellanex dan menjabat sebagai kepala eksekutif sebelum akuisisi. Tidak seperti Kagan, dia bukan lagi bagian dari manajemen Nvidia. Ynet juga melaporkan bahwa dia dalam diskusi suksesi. Srouji, kepala petugas perangkat keras Apple, adalah salah satu tokoh kunci di belakang pengembangan chip dalam perusahaan. Dia bergabung dengan Apple pada tahun 2008 dan memimpin pengembangan prosesor yang digunakan dalam produknya, termasuk mereka yang mendasari transisi dari processor Intel ke Apple Silicon. Kontroversi seputar pengunduran diri Huang Huang mengikuti serangkaian laporan tentang hubungan pribadinya, termasuk perselingkuhan dengan Alice Huang, pengusaha Cina yang agen intelijen AS dilaporkan dicurigai sebagai ",
+      "originalTitle": "Three Israelis emerge as possible successors to Nvidia chief Jensen Huang, local media says",
+      "originalDescription": "Three Israelis emerge as possible successors to Nvidia chief Jensen Huang, local media says Submitted by MEE staff on Sat, 11/14/2026 - 11:36 Michael Kagan, Eyal Waldman and Johny Srouji are among the names being discussed after Huang’s immediate departure Greenpeace activists hold a banner protesting against Nvidia’s environmental impact as chief executive Jensen Huang delivers a keynote speech at the GTC Berlin AI conference on 21 October 2026 (John MacDougall/AFP) Off Three Israeli technology executives have emerged among the possible successors to Jensen Huang, who resigned as chief executive of Nvidia after leading the artificial intelligence chipmaker for more than three decades. Huang’s departure, announced on 12 November, took effect immediately. Nvidia’s board appointed chief financial officer Colette Kress as interim chief executive while it searches for a permanent successor. The company said it would consider both internal and external candidates. Israeli media have named Michael Kagan, Nvidia’s chief technology officer; Eyal Waldman, co-founder and former chief executive of Israeli networking company Mellanox; and Johny Srouji, Apple’s chief hardware officer, as possible contenders . Kagan co-founded Mellanox in 1999 and joined Nvidia after it acquired the company in 2020 for about $6.9bn. He has since served as Nvidia’s chief technology officer, focusing on technologies that allow thousands of processors to communicate within large data centres. Waldman also co-founded Mellanox and served as its chief executive before the acquisition. Unlike Kagan, he is no longer part of Nvidia’s management. Ynet has also reported that he is in the succession discussions. Srouji, Apple’s chief hardware officer, is one of the key figures behind the company’s in-house chip development. He joined Apple in 2008 and led the development of processors used in its products, including those underpinning its transition from Intel processors to Apple Silicon. Controversy surroun",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Greenpeace%20activists%20hold%20a%20banner%20protesting%20Nvidia%E2%80%99s%20environmental%20impact%20as%20CEO%20Jensen%20Huang%20delivers%20a%20keynote%20speech%20at%20the%20GTC%20Berlin%20AI%20conference%2C%2021%20October%202026%20%28John%20MacDougall%20AFP%29.jpg.jpg?itok=jAWwjEJn",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-14T14:47:58+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/three-israelis-emerge-possible-successors-nvidia-chief-jensen-huang-local-media-says"
+    },
+    {
+      "id": "74cf1478874042eb",
+      "title": "PORSA Diniyah Dorong Santri Kembangkan Bakat Olahraga dan Seni",
+      "description": "PORSA Diniyah ke-7 menjadi ajang santri mengembangkan bakat olahraga dan seni. FKDT berharap kompetisi ini memperkuat kualitas madrasah diniyah.",
+      "originalTitle": "PORSA Diniyah Dorong Santri Kembangkan Bakat Olahraga dan Seni",
+      "originalDescription": "PORSA Diniyah ke-7 menjadi ajang santri mengembangkan bakat olahraga dan seni. FKDT berharap kompetisi ini memperkuat kualitas madrasah diniyah.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/siswa-madrasah_1794664530.webp",
+      "category": "Pendidikan Islam",
+      "tags": [
+        "Pendidikan Islam",
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-14T14:00:06+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/porsa-diniyah-dorong-santri-kembangkan-bakat-olahraga-dan-seni-vS03P"
+    },
+    {
+      "id": "3d6b86157fc46a35",
+      "title": "Pemuda Masjid Dunia siap perkuat kerja sama dengan Muslim World League",
+      "description": "Pemuda Masjid Dunia siap memperkuat kerja sama dengan Muslim World League atau Rabithah Al-Alam Al-Islami dalam bidang ...",
+      "originalTitle": "Pemuda Masjid Dunia siap perkuat kerja sama dengan Muslim World League",
+      "originalDescription": "Pemuda Masjid Dunia siap memperkuat kerja sama dengan Muslim World League atau Rabithah Al-Alam Al-Islami dalam bidang ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/14/1000664878.jpg",
+      "category": "Internasional Islam",
+      "tags": [
+        "Internasional Islam",
+        "Masjid dan Peradaban"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-14T13:29:55+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5854627/pemuda-masjid-dunia-siap-perkuat-kerja-sama-dengan-muslim-world-league"
+    },
+    {
+      "id": "2335d51c8dd7f84a",
+      "title": "Diplomat dari 18 negara mayoritas Muslim mengutuk serangan Israel terhadap rumah sakit Nasser",
+      "description": "Diplomat dari 18 negara mayoritas Muslim mengutuk serangan Israel terhadap rumah sakit Nasser Top diplomat dari 18 negara mayoritas secara tegas mengutuk serangan Israel terhadap Nasser Medical Complex di Khan Younis. Negara-negara yang mengutuk pemogokan termasuk Arab Saudi, UEE, Qatar, Mesir, Turki, dan Pakistan. Serangan itu membuat setidaknya enam orang tewas, termasuk seorang anak dan seorang dokter bedah, mendorong tuduhan dari menteri bahwa Israel melanggar hukum kemanusiaan internasional. Dalam deklarasi bersama, menteri asing mengutuk serangan yang sedang berlangsung terhadap Palestina, peringatan bahwa kekerasan mengancam untuk meruntuhkan gencatan senjata di Gaza. Negara-negara itu menuduh Israel memblokade layanan kemanusiaan kritis - terutama pengiriman medis dan pasokan musim dingin - yang mereka memperingatkan meninggalkan bayi dan anak-anak yang terkena gagal air, sanitasi, dan sistem kesehatan sebagai set musim dingin masuk Menekan untuk kepatuhan segera, koalisi yang disebut pada Israel untuk ketat menegakkan gencatan senjata, memfasilitasi pengiriman bantuan tanpa hambatan, dan sepenuhnya menghormati kewajiban di bawah kerangka gencatan senjata.",
+      "originalTitle": "Diplomats from 18 Muslim-majority countries condemn Israeli strike on Nasser hospital",
+      "originalDescription": "Diplomats from 18 Muslim-majority countries condemn Israeli strike on Nasser hospital Top diplomats from 18 Muslim-majority countries strongly condemned an Israeli strike on the Nasser Medical Complex in Khan Younis. Countries that condemned the strike include Saudi Arabia, the UAE, Qatar, Egypt, Turkey, and Pakistan. The attack left at least six people dead, including a child and a surgeon, prompting accusations from ministers that Israel is violating international humanitarian law. In the joint declaration, the foreign ministers condemned ongoing assaults against Palestinians, warning that violence threatens to collapse the ceasefire in Gaza. The countries accused Israel of blockading critical humanitarian assistance- specifically medical shipments and winter supplies-which they warned leaves infants and children exposed to failing water, sanitation, and healthcare systems as winter sets in. Pressing for immediate compliance, the coalition called on Israel to strictly enforce the truce, facilitate unhindered aid deliveries, and fully honour its obligations under the ceasefire framework.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Iranians%20wave%20flags%20during%20a%20gathering%20in%20front%20of%20an%20anti-US%20billboard%20depicting%20US%20President%20Donald%20Trump%20in%20Tehran%27s%20Enghelab%20Square%20on%20November%203%2C%202026..jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-14T13:16:37+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/diplomats-18-muslim-majority-countries-condemn-israeli-strike-nasser"
+    },
+    {
+      "id": "1e9988edc5f15240",
+      "title": "Arab, FMs Islam slam Israel pemogokan di Gaza Nasser Medical Complex, permintaan pengiriman tanpa hambatan",
+      "description": "RIYADH - Menteri luar negeri Arab Saudi dan beberapa negara Arab dan Islam lainnya dikutuk dengan syarat terkuat serangan udara Israel pada kompleks medis Nasser di Khan Younis, yang menyebabkan korban di antara pasien dan personil medis. Dalam pernyataan bersama, mereka menegaskan bahwa serangan tersebut merupakan pelanggaran hukum kemanusiaan internasional, yang memberikan perlindungan khusus bagi fasilitas medis dan tenaga kesehatan. Para menteri asing juga memasukkan mereka dari negara-negara Mesir, Türkiye, Pakistan, Indonesia, Sudan, Libya, Palestina, Djibouti, Somalia, Oman, Mauritania, Yordania, Qatar, Kuwait, Arab Emirates, Lebanon, dan Aljazair. Mereka juga terus mencela serangan Israel terhadap warga Palestina, termasuk serangan di tenda dan situs-situs lain yang melindungi pengungsi. Serangan ini melemahkan gencatan senjata dan upaya untuk memulihkan keamanan dan stabilitas di Gaza dan tidak konsisten dengan Rencana Komprehensif Presiden Trump. Para menteri menyatakan kekhawatiran serius yang terus Israel pembatasan bantuan kemanusiaan, bahan penampungan, termasuk tenda, karavan dan rumah-rumah mobile, serta pasokan medis yang memperdalam Gaza 's kemanusiaan bencana sebagai pendekatan musim dingin. Tempat penampungan yang tidak memuaskan dan air yang memburuk, sanitasi dan layanan kesehatan membuat warga sipil hidup dalam bahaya besar, terutama anak-anak dan bayi, yang sekali lagi bisa mati karena paparan suhu beku. Para menteri menyerukan Israel untuk mendengarkan banding dari komunitas internasional dan Dewan Perdamaian, untuk meningkatkan bantuan dan memenuhi segera dan secara penuh kewajiban di bawah Perjanjian Sharm-Sheikh, Rencana Comprehensif Presiden Trump dan Dewan Keamanan PBB Resolusi 2803 (2025). Israel harus menegakkan gencatan senjata, melindungi warga sipil dan fasilitas medis, dan memastikan aman, berkelanjutan dan unimpeded pengiriman bantuan kemanusiaan dalam jumlah yang cukup, termasuk tempat tinggal dan persediaan pemulihan awal dan p",
+      "originalTitle": "Arab, Islamic FMs slam Israeli strike on Gaza’s Nasser Medical Complex, demand unhindered aid delivery",
+      "originalDescription": "RIYADH — The foreign ministers of Saudi Arabia and several other Arab and Islamic countries condemned in the strongest terms the Israeli airstrike on the Nasser Medical Complex in Khan Younis, which caused casualties among patients and medical personnel. In a joint statement, they reiterated that the attack is in flagrant violation of international humanitarian law, which affords special protection to medical facilities and healthcare workers.The foreign ministers also include those from the countries of Egypt, Türkiye, Pakistan, Indonesia, Sudan, Libya, Palestine, Djibouti, Somalia, Oman, Mauritania, Jordan, Qatar, Kuwait, the United Arab Emirates, Lebanon, and Algeria. They also denounced continued Israeli attacks on Palestinian civilians, including strikes on tents and other sites sheltering displaced persons. These attacks undermine the ceasefire and efforts to restore security and stability in Gaza and are inconsistent with President Trump’s Comprehensive Plan. The ministers expressed grave concern that continued Israeli restrictions on humanitarian aid, shelter materials, including tents, caravans and mobile homes, as well as medical supplies are deepening Gaza's humanitarian catastrophe as winter approaches. Inadequate shelter and deteriorating water, sanitation and healthcare services put civilian lives at grave risk, particularly those of children and infants, who could once again die from exposure to freezing temperatures. The ministers called on Israel to heed appeals from the international community and the Board of Peace, for increased aid and to fulfil immediately and in full its obligations under the Sharm El-Sheikh Agreement, President Trump's Comprehensive Plan and United Nations Security Council Resolution 2803 (2025). Israel must uphold the ceasefire, protect civilians and medical facilities, and ensure the safe, sustained and unimpeded delivery of humanitarian aid in sufficient quantities, including shelter and early recovery supplies and equipme",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/14/2794302.webp",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T13:09:36+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666240/saudi-arabia/arab-islamic-fms-slam-israeli-strike-on-gazas-nasser-medical-complex-demand-unhindered-aid-delivery"
+    },
+    {
+      "id": "6d3c08e0258fbfc7",
+      "title": "Kementerian Urusan Islam Teken Kontrak Pemeliharaan 779 Masjid Senilai Lebih dari 48 Juta Riyal",
+      "description": "Kementerian Urusan Islam menandatangani kontrak pemeliharaan dan pengoperasian 779 masjid dan masjid agung di berbagai wilayah dengan nilai lebih dari 48 juta riyal Saudi.",
+      "originalTitle": "Kementerian Urusan Islam Teken Kontrak Pemeliharaan 779 Masjid Senilai Lebih dari 48 Juta Riyal",
+      "originalDescription": "Kementerian Urusan Islam menandatangani kontrak pemeliharaan dan pengoperasian 779 masjid dan masjid agung di berbagai wilayah dengan nilai lebih dari 48 juta riyal Saudi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-09/وزارة-الشؤون-الإسلامية-والدعوة-والإرشاد-ubWC8s5D.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T12:58:22+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/vpkxszbax"
+    },
+    {
+      "id": "5e77fb6d67b3cad3",
+      "title": "Mesir kecam serangan mematikan Israel terhadap rumah sakit di Gaza",
+      "description": "Dalam sebuah pernyataan, Kementerian Luar Negeri Mesir menyatakan bahwa serangan Israel terhadap rumah sakit di Gaza ...",
+      "originalTitle": "Mesir kecam serangan mematikan Israel terhadap rumah sakit di Gaza",
+      "originalDescription": "Dalam sebuah pernyataan, Kementerian Luar Negeri Mesir menyatakan bahwa serangan Israel terhadap rumah sakit di Gaza ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/14/CjkinzN000030_20261113_CBMFN0A001.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-14T12:56:07+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5854555/mesir-kecam-serangan-mematikan-israel-terhadap-rumah-sakit-di-gaza"
+    },
+    {
+      "id": "f331a946b6391c76",
+      "title": "Arab Saudi Perkuat Kapasitas SDM dan Teknologi Sambut Era Kecerdasan Buatan Umum",
+      "description": "Arab Saudi terus membangun ekosistem nasional kecerdasan buatannya, mempersiapkan diri menghadapi era kecerdasan buatan umum dengan penguatan SDM, teknologi, dan infrastruktur komputasi.",
+      "originalTitle": "Arab Saudi Perkuat Kapasitas SDM dan Teknologi Sambut Era Kecerdasan Buatan Umum",
+      "originalDescription": "Arab Saudi terus membangun ekosistem nasional kecerdasan buatannya, mempersiapkan diri menghadapi era kecerdasan buatan umum dengan penguatan SDM, teknologi, dan infrastruktur komputasi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-jj5XVUHk.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T12:42:37+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/8wsw48i6b"
+    },
+    {
+      "id": "022b29caf1a28991",
+      "title": "Grand Mufti Rusia mengutuk serangan teroris Houthi terhadap Arab Saudi",
+      "description": "RIYADH - Grand Mufti dari Rusia dan Ketua Dewan Agama Muslim Federasi Rusia Sheikh Ravil Gaynutdin sangat mengutuk serangan teroris dilakukan oleh milisi Houthi melawan Arab Saudi. Dia menegaskan solidaritas penuh pemerintah dengan Kerajaan dan dukungannya untuk kepemimpinan dan rakyat Saudi. Sheikh Ravil mengulangi penolakan nya terhadap ancaman apapun terhadap keamanan dan keamanan warga sipil dan menekankan pentingnya upaya konser untuk mempromosikan keamanan dan stabilitas dan melindungi kehidupan.",
+      "originalTitle": "Russian Grand Mufti condemns Houthi terrorist attacks on Saudi Arabia",
+      "originalDescription": "RIYADH — Grand Mufti of Russia and Chairman of the Religious Board of Muslims of the Russian Federation Sheikh Ravil Gaynutdin strongly condemned the terrorist attacks carried out by the Houthi militia against Saudi Arabia. He affirmed the administration's full solidarity with the Kingdom and its support for the Saudi leadership and people.Sheikh Ravil reiterated his rejection of any threats to the security and safety of civilians and emphasized the importance of concerted efforts to promote security and stability and protect lives.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/14/2794279.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T12:34:56+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666239/saudi-arabia/russian-grand-mufti-condemns-houthi-terrorist-attacks-on-saudi-arabia"
+    },
+    {
+      "id": "994e62079bcdad42",
+      "title": "Saudi, menteri perumahan Amerika mendiskusikan kerjasama dalam perencanaan kota, keuangan properti",
+      "description": "VIRGINIA - Menteri Muncipalitas dan Housing Majeed Al- Hovation Didiskusikan dengan US Sekretaris Perumahan dan Urban Development Scott Turner memperluas kerjasama bilateral antara Arab Saudi dan Amerika Serikat dalam perumahan, perencanaan perkotaan, dan keuangan real estate. Pertemuan ini diadakan di sela-sela dari Ginnie Mae 2026 Konferensi Pemanam Investor Global Summit untuk mendirikan Affordable Housing di Virginia, Amerika Serikat. Para menteri meninjau cara-cara untuk mempengaruhi regulasi dan keahlian operasional untuk meningkatkan pasokan properti dan insentif swasta-sektor investasi, bersama mengembangkan instrumen real estate dan meningkatkan integrasi antara otoritas perumahan dan lembaga-lembaga keuangan untuk meningkatkan efisiensi pasar dan opsi kepemilikan secara luas untuk keluarga. Pertemuan ini juga ditujukan untuk membangun kerangka kerja sama institusional untuk kerjasama teknis, keahlian pertukaran, dan kunjungan timbal balik untuk memfasilitasi transfer pengetahuan dan mendorong kemitraan baru antara Saudi dan lembaga Amerika dalam memajukan perumahan dan solusi keuangan. Addressing puncak, Al- Hozard mengatakan bahwa Arab Saudi secara aktif mengembangkan sektor keuangan perumahan dan menghubungkan pinjaman real estate ke pasar modal jangka panjang untuk kesinambungan pasar yang subur dan opsi perumahan yang terjangkau. \"Perusahaan Refinansial Real Estate Saudi (SRC) bertujuan untuk membiayai kembali lebih dari $40 miliar pada tahun 2030. Inisiatif ini membuka jalan yang signifikan bagi para investor internasional untuk berpartisipasi dalam instrumen laba-laba Saudi dan sekuritas real estate, sambil mengembangkan kolaborasi dalam keamanan, jaminan, manajemen data, dan teknologi berisiko kredit modern\", katanya. Menteri menekankan bahwa Kingdom menawarkan pasar kuat yang ditahan oleh permintaan perumahan jangka panjang. Dia mencatat bahwa pembiayaan, jaminan, dan alat-alat pelayanan sedang dikembangkan dalam kerangka kerja regulasi transparan ",
+      "originalTitle": "Saudi, US housing ministers discuss cooperation in urban planning, property finance",
+      "originalDescription": "VIRGINIA — Minister of Municipalities and Housing Majed Al-Hogail discussed with US Secretary of Housing and Urban Development Scott Turner expanding bilateral cooperation between Saudi Arabia and the United States in housing, urban planning, and real estate finance. The meeting was held on the sidelines of the Ginnie Mae 2026 Global Investor Summit on Financing Affordable Housing in Virginia, the United States. The ministers reviewed ways to leverage regulatory and operational expertise to boost housing supply and incentivize private-sector investment, alongside developing real estate finance instruments and enhancing integration between housing authorities and financial institutions to improve market efficiency and broaden homeownership options for families.The meeting also addressed establishing an institutional framework for technical cooperation, expertise exchange, and reciprocal visits to facilitate knowledge transfer and foster new partnerships between Saudi and American institutions in advancing housing and financial solutions.Addressing the summit, Al-Hogail said that Saudi Arabia is actively developing its housing finance sector and linking real estate lending to long-term capital markets to bolster market sustainability and broaden affordable housing options. “The Saudi Real Estate Refinance Company (SRC) aims to refinance more than $40 billion by 2030. The initiative opens significant avenues for international investors to participate in Saudi fixed-income instruments and real estate securities, while fostering collaboration in securitisation, guarantees, data management, and modern credit risk technologies,” he said. The minister emphasized that the Kingdom offers a robust market underpinned by sustained, long-term housing demand. He noted that financing, guarantee, and servicing tools are being developed within a transparent regulatory framework supervised by the Saudi Central Bank (SAMA) and the Capital Market Authority (CMA). He urged global investo",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/14/2794275.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T12:31:52+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666238/saudi-arabia/saudi-us-housing-ministers-discuss-cooperation-in-urban-planning-property-finance"
+    },
+    {
+      "id": "322fd83c0a813d10",
+      "title": "ZATCA Ungkap 1.128 Kasus Penyelundupan dalam Sepekan",
+      "description": "Otoritas Zakat, Pajak, dan Bea Cukai Arab Saudi (ZATCA) mengungkap 1.128 kasus penyelundupan di pelabuhan bea cukai dalam sepekan terakhir.",
+      "originalTitle": "ZATCA Ungkap 1.128 Kasus Penyelundupan dalam Sepekan",
+      "originalDescription": "Otoritas Zakat, Pajak, dan Bea Cukai Arab Saudi (ZATCA) mengungkap 1.128 kasus penyelundupan di pelabuhan bea cukai dalam sepekan terakhir.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/تهريب-0I8JwWch.jpg",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah",
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T12:28:25+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/8qfkjc0t0"
+    },
+    {
+      "id": "c5e54407451ad64b",
+      "title": "Arab Saudi dan 17 Negara Kecam Serangan Israel ke Rumah Sakit Nasser di Khan Younis",
+      "description": "Menteri luar negeri Arab Saudi, Indonesia, dan 16 negara Arab-Islam mengecam keras serangan Israel ke Rumah Sakit Nasser di Khan Younis yang menewaskan pasien dan tenaga medis.",
+      "originalTitle": "Arab Saudi dan 17 Negara Kecam Serangan Israel ke Rumah Sakit Nasser di Khan Younis",
+      "originalDescription": "Menteri luar negeri Arab Saudi, Indonesia, dan 16 negara Arab-Islam mengecam keras serangan Israel ke Rumah Sakit Nasser di Khan Younis yang menewaskan pasien dan tenaga medis.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-09/الخارجية-qU0z601D.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T12:23:21+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/gvigstuld"
+    },
+    {
+      "id": "97f5f89c923efa59",
+      "title": "Kisah Kedekatan Syaikhona Kholil dengan Non-Muslim Jadi Inspirasi Lahirnya Majelis Demangan",
+      "description": "Pondok Pesantren Syaikhona Kholil Bangkalan resmi meluncurkan Majelis Demangan dengan menghadirkan sejumlah tokoh.",
+      "originalTitle": "Kisah Kedekatan Syaikhona Kholil dengan Non-Muslim Jadi Inspirasi Lahirnya Majelis Demangan",
+      "originalDescription": "Pondok Pesantren Syaikhona Kholil Bangkalan resmi meluncurkan Majelis Demangan dengan menghadirkan sejumlah tokoh.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/1003552792_1794638440.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-14T12:00:02+00:00",
+      "originalUrl": "https://www.nu.or.id/jatim/kisah-kedekatan-syaikhona-kholil-dengan-non-muslim-jadi-inspirasi-lahirnya-majelis-demangan-eprhH"
+    },
+    {
+      "id": "b0edf4276327aa4c",
+      "title": "Otoritas Listrik Saudi Terbitkan Panduan Layanan Pendinginan Kawasan",
+      "description": "Otoritas Saudi untuk Regulasi Listrik menerbitkan panduan layanan pendinginan kawasan guna mengatur hubungan antara pengguna dan penyedia layanan.",
+      "originalTitle": "Otoritas Listrik Saudi Terbitkan Panduan Layanan Pendinginan Kawasan",
+      "originalDescription": "Otoritas Saudi untuk Regulasi Listrik menerbitkan panduan layanan pendinginan kawasan guna mengatur hubungan antara pengguna dan penyedia layanan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/1000668243-Jc_6cPdp.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T11:07:56+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/w9vwg0n7b"
+    },
+    {
+      "id": "c99d18345bfa40ec",
+      "title": "Dalam Sepekan, 11.952 Pelanggar Imigrasi dan Ketenagakerjaan Ditangkap",
+      "description": "Kementerian Dalam Negeri Arab Saudi mengumumkan penangkapan 11.952 pelanggar aturan izin tinggal, ketenagakerjaan, dan keamanan perbatasan dalam operasi selama sepekan.",
+      "originalTitle": "Dalam Sepekan, 11.952 Pelanggar Imigrasi dan Ketenagakerjaan Ditangkap",
+      "originalDescription": "Kementerian Dalam Negeri Arab Saudi mengumumkan penangkapan 11.952 pelanggar aturan izin tinggal, ketenagakerjaan, dan keamanan perbatasan dalam operasi selama sepekan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/images4-crop---Q7YP6j.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T10:06:58+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/7fvbqt2u2"
+    },
+    {
+      "id": "0ab579229e4462a0",
+      "title": "Dua Warga Saudi Dieksekusi di Wilayah Timur karena Terorisme",
+      "description": "Kementerian Dalam Negeri Arab Saudi mengeksekusi dua warga di Wilayah Timur setelah terbukti melakukan kejahatan terorisme, termasuk bergabung dengan organisasi teroris.",
+      "originalTitle": "Dua Warga Saudi Dieksekusi di Wilayah Timur karena Terorisme",
+      "originalDescription": "Kementerian Dalam Negeri Arab Saudi mengeksekusi dua warga di Wilayah Timur setelah terbukti melakukan kejahatan terorisme, termasuk bergabung dengan organisasi teroris.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/وزارة-الداخلية-CMyuKNJA.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T10:04:47+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/rl7grdtal"
+    },
+    {
+      "id": "cfeac34bffa16d1e",
+      "title": "Arab Saudi Tidak Alami Jam Cuaca Berdebu pada 13 November",
+      "description": "Pusat Regional Badai Debu menyatakan Arab Saudi dan negara regional lain tidak mencatat jam cuaca berdebu pada Jumat, 13 November 2026.",
+      "originalTitle": "Arab Saudi Tidak Alami Jam Cuaca Berdebu pada 13 November",
+      "originalDescription": "Pusat Regional Badai Debu menyatakan Arab Saudi dan negara regional lain tidak mencatat jam cuaca berdebu pada Jumat, 13 November 2026.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/طقس-5-0_4laCi0.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T09:04:46+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/7x08xhqsd"
+    },
+    {
+      "id": "97cf78fe0e5bed80",
+      "title": "Ditjen Pesantren Dorong Perguruan Tinggi Islam Buka Program Studi Kepesantrenan",
+      "description": "Ditjen Pesantren mendorong PTKI membuka prodi kepesantrenan. Usulan ini bertujuan mengembangkan studi pesantren sebagai kajian akademik.",
+      "originalTitle": "Ditjen Pesantren Dorong Perguruan Tinggi Islam Buka Program Studi Kepesantrenan",
+      "originalDescription": "Ditjen Pesantren mendorong PTKI membuka prodi kepesantrenan. Usulan ini bertujuan mengembangkan studi pesantren sebagai kajian akademik.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/ditjen-pesantren_1794655109.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-14T09:00:38+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/ditjen-pesantren-dorong-perguruan-tinggi-islam-buka-program-studi-kepesantrenan-z8Y78"
+    },
+    {
+      "id": "f04c19a68a94a73c",
+      "title": "Harga Emas di Arab Saudi Hari Ini Sabtu 4-6-1448, Termasuk Emas 21 Karat dan Logam Mulia",
+      "description": "Harga emas di Arab Saudi turun pada Sabtu 4-6-1448 untuk semua jenis, termasuk emas 21 karat, seiring penurunan harga emas dunia di akhir pekan.",
+      "originalTitle": "Harga Emas di Arab Saudi Hari Ini Sabtu 4-6-1448, Termasuk Emas 21 Karat dan Logam Mulia",
+      "originalDescription": "Harga emas di Arab Saudi turun pada Sabtu 4-6-1448 untuk semua jenis, termasuk emas 21 karat, seiring penurunan harga emas dunia di akhir pekan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-08/الذهب-YehgHHuJ.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T08:53:41+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/5erwfjqtc"
+    },
+    {
+      "id": "d2f31cfd60af9853",
+      "title": "Daftar Haji tak Harus Langsung Punya Rp25 Juta, Bisa Menabung Bertahap",
+      "description": "JAKARTA — Masyarakat yang ingin mendaftar ibadah haji tidak harus langsung memiliki dana Rp25 juta. Calon jamaah dapat mempersiapkan setoran awal melalui tabungan haji secara bertahap hingga mencapai jumlah...",
+      "originalTitle": "Daftar Haji tak Harus Langsung Punya Rp25 Juta, Bisa Menabung Bertahap",
+      "originalDescription": "JAKARTA — Masyarakat yang ingin mendaftar ibadah haji tidak harus langsung memiliki dana Rp25 juta. Calon jamaah dapat mempersiapkan setoran awal melalui tabungan haji secara bertahap hingga mencapai jumlah...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/nasabah-tabungan-haji-bank-syariah-indonesia-mengikuti-kegiatan-manasik_260716113507-238.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-14T08:15:00+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/togon1483/daftar-haji-tak-harus-langsung-punya-rp25-juta-bisa-menabung-bertahap"
+    },
+    {
+      "id": "cf361f318665ab10",
+      "title": "Menteri Haji dan Umrah melengkapi penandatanganan perjanjian untuk 2027 musim haji",
+      "description": "JEDDAH - Departemen Haji dan Umrah telah menyelesaikan penandatanganan perjanjian haji untuk 2027 musim dengan kantor-kantor haji, dalam persiapan untuk musim haji mendatang. Perjanjian itu ditandatangani oleh Menteri Haji dan Umrah Tawfiq Al- Rabiah, Wakil Menteri Haji dan Umrah Dr Abdulfattah Mashat, dan kepala kantor-kantor urusan haji dari negara-negara yang berpartisipasi di sisi keenam Haji Konferensi dan Exhibition, yang menyimpulkan di Jeddah hari Rabu. Mekanisme koordinasi outline perjanjian antara pelayanan dan kantor-kantor haji, persyaratan yang disetujui dan prosedur untuk musim ini, dan tanggung jawab dan kewajiban dari pihak-pihak mengenai layanan yang disediakan untuk peziarah dan pengaturan untuk kedatangan mereka dan keberangkatan mereka. Penandatanganan perjanjian mengikuti dokumen persiapan minimal yang disediakan dikirim ke kantor haji di akhir musim haji 2026 untuk memulai persiapan untuk musim mendatang, yang memungkinkan kantor untuk menyelesaikan kontrak dan regulasi, operasional, dan layanan persyaratan awal. Persiapan juga termasuk menandatangani perjanjian untuk peziarah mengirimkan preferensi untuk mengatur pergerakan peziarah, dan menyelesaikan dokumentasi kontrak yang ditandatangani dengan maskapai penerbangan melalui platform e- Path dalam tenggat waktu yang ditentukan.",
+      "originalTitle": "Ministry of Hajj and Umrah completes signing of agreements for 2027 Hajj season",
+      "originalDescription": "JEDDAH — The Ministry of Hajj and Umrah has completed the signing of Hajj arrangement agreements for the 2027 season with Hajj affairs offices, in preparation for the upcoming Hajj season.The agreements were signed by Minister of Hajj and Umrah Tawfiq Al-Rabiah, Deputy Minister of Hajj and Umrah Dr. Abdulfattah Mashat, and heads of Hajj affairs offices from participating countries on the sidelines of the sixth Hajj Conference and Exhibition, which concluded in Jeddah onWednesday.The agreements outline coordination mechanisms between the ministry and Hajj affairs offices, approved requirements and procedures for the season, and the responsibilities and obligations of the parties regarding services provided to pilgrims and arrangements for their arrival and departure.The signing of the agreements follows the ministry-provided preparatory document sent to Hajj affairs offices at the end of the 2026 Hajj season to begin preparations for the upcoming season, which allows the offices to complete contracts and regulatory, operational, and service requirements early.Preparations also included signing agreements on pilgrim dispatching preferences to organize the movement of pilgrims, and completing the documentation of contracts signed with airlines through the e-Path platform within the specified deadlines.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/14/2794129.webp",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah",
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T08:06:08+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666235/saudi-arabia/ministry-of-hajj-and-umrah-completes-signing-of-agreements-for-2027-hajj-season"
+    },
+    {
+      "id": "21205deeb86b4f02",
+      "title": "ZATCA foils mencoba menyelundupkan 413.450 amfetamine pil di Al- Haditha Port",
+      "description": "RIYADH - Bea Cukai Al- Haditha telah menggagalkan upaya menyelundupkan 413.450 amphetamine pil ke dalam Kerajaan, menemukan narkotika tersembunyi dalam pengiriman komersial tiba melalui pelabuhan tanah utara. Juru bicara dari badan amal, pajak dan Bea Cukai (ZATCA) Hamoud Al- Harbi menyatakan bahwa selama prosedur pemeriksaan standar dari sebuah truk masuk di pelabuhan Al- Haditha, petugas menemukan pil tersembunyi di dalam konsinyasi kacang fava kaleng. Al- Harbi menegaskan bahwa ZATCA terus memaksakan pengawasan bea cukai ketat di seluruh negeri, laut, dan pelabuhan udara untuk melindungi masyarakat dan upaya penyelundupan melawan, bekerja dalam koordinasi dekat dengan Kementerian Dalam Negeri dan Direktorat Umum dari Narcotics Control. Dia juga memanggil publik untuk mendukung upaya-upaya penyelundupan anti- dan melindungi masyarakat dan ekonomi nasional dengan melaporkan kejahatan penyelundupan atau pelanggaran Undang-Undang Bea Cukai Unified melalui hotline keamanan khusus 1910, nomor internasional 009661910, atau melalui email 1910 @ zatca.gov.sa. \"Semua laporan diperlakukan dengan ketat kerahasiaan dan whistleblower menerima upah keuangan untuk informasi yang diverifikasi,\" tambahnya.",
+      "originalTitle": "ZATCA foils attempt to smuggle 413,450 amphetamine pills at Al-Haditha Port",
+      "originalDescription": "RIYADH — Al-Haditha Customs has foiled an attempt to smuggle 413,450 amphetamine pills into the Kingdom, discovering the narcotics concealed within a commercial shipment arriving through the northern land port. Spokesperson of the Zakat, Tax and Customs Authority (ZATCA) Hamoud Al-Harbi stated that during standard inspection procedures of an incoming truck at Al-Haditha port, officers uncovered the pills hidden inside a consignment of canned fava beans. Al-Harbi affirmed that ZATCA continues to enforce strict customs oversight across all land, sea, and air ports to safeguard society and counter smuggling attempts, working in close coordination with the Ministry of Interior and the General Directorate of Narcotics Control. He also called on the public to support anti-smuggling efforts and protect society and the national economy by reporting smuggling crimes or violations of the Unified Customs Law via the dedicated security hotline 1910, the international number 009661910, or by email 1910@zatca.gov.sa. “All reports are treated with strict confidentiality and whistleblowers receive financial rewards for verified information,” he added.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/14/2794128.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T08:01:01+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666234/saudi-arabia/zatca-foils-attempt-to-smuggle-413450-amphetamine-pills-at-al-haditha-port"
+    },
+    {
+      "id": "b7e6e6ef6a23ce04",
+      "title": "Houthis mengatakan Saudi- dipimpin pasukan koalisi menargetkan Saada, Razih di Yaman",
+      "description": "Houthis mengatakan Saudi- dipimpin pasukan koalisi Saada, Razih di Yaman Saudi- dipimpin serangan udara koalisi menargetkan bagian selatan kota Saada di Yemen utara, sementara artileri menyerang penduduk desa di distrik Razeh, Al Jazeera melaporkan, mengutip Perumahan-menjalankan Al Masirah TV. Juru bicara militer Yaman, Kolonel Mamed Al- Nuzailli, mengatakan pada hari Jumat bahwa pasukan pemerintah melakukan 943 serangan dan menargetkan operasi terhadap posisi Houthi sebagai bagian dari Operasi Dawn of Yemen.",
+      "originalTitle": "Houthis say Saudi-led coalition forces target Saada, Razih in Yemen",
+      "originalDescription": "Houthis say Saudi-led coalition forces target Saada, Razih in Yemen Saudi-led coalition air strikes targeted southern parts of Saada city in northern Yemen, while artillery shelling hit populated villages in the border district of Razih, Al Jazeera reported, citing Houthi-run Al Masirah TV. Yemen’s government military spokesperson, Colonel Majed Al-Nuzaili, said on Friday that government forces carried out 943 strikes and targeting operations against Houthi positions as part of Operation Dawn of Yemen.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Iranians%20wave%20flags%20during%20a%20gathering%20in%20front%20of%20an%20anti-US%20billboard%20depicting%20US%20President%20Donald%20Trump%20in%20Tehran%27s%20Enghelab%20Square%20on%20November%203%2C%202026..jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-14T07:56:57+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-led-coalition-forces-target-saada-razih-yemen"
+    },
+    {
+      "id": "f02bcdf4a24814da",
+      "title": "Update pagi",
+      "description": "Morning update Good Morning East Eye pembaca, Jika anda baru saja bergabung dengan kami, inilah perkembangan penting dari seluruh wilayah ini: Sekretaris Negara AS Marco Rubio mengatakan bahwa tindakan militer AS lebih lanjut terhadap Iran tidak diperlukan karena nyeri ekonomi Washington menimbulkan \"melemahkan\" Teheran begitu besar. * Angkatan Laut dan Pengawal Revolusi Iran mengatakan pada hari Sabtu bahwa kebakaran telah pecah total tiga tangki minyak yang melanda tambang di Selat Hormuz. * Presiden AS Donald Trump akan mendiskusikan perang Iran dengan Vladimir Putin dan Xi Jinping dalam pertemuan tiga hal pertama antara para pemimpin Amerika Serikat, Rusia dan Cina di sebuah pertemuan di Shenzhen minggu depan tapi dia tidak diharapkan untuk mendiskusikan perang Ukraina. * Sebanyak 25 pelaut telah tewas pada 134 dikonfirmasi insiden maritim di Selat Hormuz dan Timur Tengah yang lebih luas sejak AS dan Israel memulai perang terhadap Iran pada Februari, menurut PBB. * Seorang pemuda Palestina terluka setelah militer Israel memaksa masuk ke kota Jaba ', selatan Jenin di Tepi Barat yang diduduki, dan menembakkan amunisi hidup dan tabung gas air mata pada penduduk, Wafa melaporkan. * Komando Pusat AS (Centcom) mengatakan pasukannya menembak jatuh dua drone satu arah yang diluncurkan oleh Korps Garda Revolusi Iran (IRGC) menuju Bahrain. * Setidaknya tujuh tank diserang di dalam dan sekitar Selat Hormuz dalam seminggu sampai 11 November, UKMTO mengatakan, dengan satu serangan meninggalkan beberapa kru terluka di Teluk Arab. * Sekretaris Negara AS Marco Rubio telah menargetkan Mahkamah Pidana Internasional (ICC) dalam sebuah pidato kepada kelompok hukum konservatif pada hari Jumat, berdebat untuk kebijakan luar negeri berotot dan melawan hukum internasional menahan tindakan AS. * PBB dan mitra kemanusiaannya telah memanggil Israel untuk mencabut pembatasan pengiriman bantuan ke Gaza, memperingatkan bahwa hujan mematikan telah membunuh anak-anak dan orang dewasa, menghanc",
+      "originalTitle": "Morning update",
+      "originalDescription": "Morning update Good Morning Middle East Eye readers, If you are just joining us, here are key developments from across the region and beyond: *US Secretary of State Marco Rubio has said that further US military action against Iran is unnecessary because the economic pain the Washington is inflicting on a \"weakened\" Tehran \"is so great\". *Iran's navy and Revolutionary Guards said on Saturday that fires had broken out on a total of three oil tankers that struck mines in the Strait of Hormuz. *US President Donald Trump will discuss the Iran war with Vladimir Putin and Xi Jinping in the first ever three-way meeting between the leaders of the United States, Russia and China at a summit in Shenzhen next week but he is not expected to discuss Ukraine war. *As many as 25 seafarers have been killed in 134 confirmed maritime incidents across the Strait of Hormuz and the wider Middle East since the US and Israeli started war on Iran in February, according to the UN. *A Palestinian youngster was injured after Israeli military forced its way into the town of Jaba', south of Jenin in the occupied West Bank, and fired live ammunition and tear gas canisters at residents, Wafa reported. *The US Central Command (Centcom) said its forces shot down two one-way attack drones launched by the Iranian Revolutionary Guard Corps (IRGC) towards Bahrain. *At least seven tankers were attacked in and around the Strait of Hormuz in the week to 11 November, UKMTO said, with one strike leaving multiple crew injured in the Arabian Gulf. *US Secretary of State Marco Rubio has targeted the International Criminal Court (ICC) in a speech to a conservative legal group on Friday, arguing for a muscular foreign policy and against international law restraining US actions. *The UN and its humanitarian partners have called on Israel to lift restrictions on aid deliveries to Gaza, warning that deadly rainstorms have killed children and adults, destroyed shelters and flooded thousands of family tents. *Roman Go",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Iranians%20wave%20flags%20during%20a%20gathering%20in%20front%20of%20an%20anti-US%20billboard%20depicting%20US%20President%20Donald%20Trump%20in%20Tehran%27s%20Enghelab%20Square%20on%20November%203%2C%202026..jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-14T07:44:51+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-669"
+    },
     {
       "id": "fd652fac21909bb3",
       "title": "DPRD DKI Ajukan 100 Sekolah Swasta Gratis Tambahan, Ini Rinciannya",
@@ -4113,31 +4745,6 @@
       "region": "",
       "publishedAt": "2026-11-12T11:33:43+00:00",
       "originalUrl": "https://www.middleeasteye.net/news/cop31-turkey-signs-green-transition-deals"
-    },
-    {
-      "id": "f6cda3c2976e73da",
-      "title": "Harga Emas di Arab Saudi Hari Ini Kamis 2-6-1448 Turun Setelah Penurunan Global",
-      "description": "Harga emas di Arab Saudi turun pada Kamis 2-6-1448 untuk semua jenis, seiring penurunan harga emas dunia lebih dari 1 persen.",
-      "originalTitle": "Harga Emas di Arab Saudi Hari Ini Kamis 2-6-1448 Turun Setelah Penurunan Global",
-      "originalDescription": "Harga emas di Arab Saudi turun pada Kamis 2-6-1448 untuk semua jenis, seiring penurunan harga emas dunia lebih dari 1 persen.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-08/الذهب-YehgHHuJ.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-12T11:28:48+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/dunia/krk4puh2d"
     },
     {
       "id": "722de39765b1149e",
@@ -9788,24 +10395,6 @@
       "country": "Indonesia",
       "publishedAt": "2026-11-07T15:07:29+00:00",
       "originalUrl": "https://khazanah.republika.co.id/berita/to50oh320/kemenhaj-dukung-arab-saudi-berantas-makelar-ilegal-perhajian",
-      "translationStatus": "not_needed"
-    },
-    {
-      "id": "ee386142c6147e67",
-      "title": "Enam Ayat Sakinah dalam Alquran yang Dapat Dijadikan Penuntun Hati Menuju Ketenangan",
-      "description": "JAKARTA— Setiap hamba membutuhkan keyakinan, ketenteraman, kenyamanan, dan ketenangan. Tidak ada kenyamanan dan ketenangan yang hakiki kecuali dengan mengingat Allah. Karena itu, Allah SWT berfirman: إِنَّمَا الْمُؤْمِنُونَ الَّذِينَ إِذَا ذُكِرَ...",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/042998800-1773973944-830-556.jpg",
-      "category": "Al-Qur'an dan Hadis",
-      "tags": [
-        "Al-Qur'an dan Hadis"
-      ],
-      "source": "Republika",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-07T12:24:29+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to4t4t320/enam-ayat-sakinah-dalam-alquran-yang-dapat-dijadikan-penuntun-hati-menuju-ketenangan",
       "translationStatus": "not_needed"
     }
   ]
