@@ -1,21 +1,21 @@
 {
-  "status": "success",
-  "lastUpdated": "2026-11-14T19:58:03.900347+00:00",
-  "total": 444,
-  "newArticles": 115,
+  "status": "partial",
+  "lastUpdated": "2026-11-14T23:56:56.495523+00:00",
+  "total": 448,
+  "newArticles": 110,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 12,
-  "sourcesFailed": 0,
+  "sourcesSucceeded": 11,
+  "sourcesFailed": 1,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 2,
-      "filtered": 23,
-      "filteredFootball": 2,
-      "translated": 24,
-      "translationPartial": 1,
+      "accepted": 4,
+      "filtered": 21,
+      "filteredFootball": 1,
+      "translated": 25,
+      "translationPartial": 0,
       "translationFailed": 0,
       "error": null
     },
@@ -49,7 +49,7 @@
       "raw": 50,
       "accepted": 1,
       "filtered": 49,
-      "filteredFootball": 4,
+      "filteredFootball": 6,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -93,15 +93,15 @@
     },
     {
       "name": "Detik",
-      "status": "success",
-      "raw": 100,
-      "accepted": 4,
-      "filtered": 96,
+      "status": "error",
+      "raw": 0,
+      "accepted": 0,
+      "filtered": 0,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
     },
     {
       "name": "Muhammadiyah",
@@ -131,9 +131,9 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 24,
-      "filtered": 26,
-      "filteredFootball": 4,
+      "accepted": 21,
+      "filtered": 29,
+      "filteredFootball": 7,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -156,16 +156,116 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 226,
+    "translatedArticles": 229,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 1566
+    "cacheEntries": 1601
   },
   "images": {
-    "found": 444,
+    "found": 448,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "8e8be93995d39776",
+      "title": "Kisah Palestina diatur untuk kehadiran besar di 2027 Oscar",
+      "description": "Al Jazeera berbicara kepada direktur dan pemain Who Is Still Alive, masuk Swiss Oscar untuk Best International Film.",
+      "originalTitle": "Palestinian stories set for major presence at 2027 Oscars",
+      "originalDescription": "Al Jazeera spoke to the director and cast of Who Is Still Alive, Switzerland’s Oscar entry for Best International Film.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794695312.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-14T22:28:47+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/14/palestinian-stories-set-for-major-presence-at-2027-oscars"
+    },
+    {
+      "id": "b8244d3b8eb9ad97",
+      "title": "Liga Arab mengutuk serangan Israel mematikan di Rumah Sakit Nasser Gaza",
+      "description": "Liga Arab mengutuk serangan Israel mematikan di Rumah Sakit Nasser Gaza di Rumah Sakit Nasser di Khan Younis menewaskan setidaknya enam orang Palestina, di antara mereka seorang dokter bedah, dan terluka puluhan orang pada hari Rabu. Liga Arab mencela serangan sebagai \"eskalasi serius\". Ini memperingatkan bahwa pembatasan bantuan Israel dan pelanggaran berulang dari \"gencatan senjata\" bisa \"terjun Strip ke dalam siklus kekerasan berkelanjutan.\"",
+      "originalTitle": "Arab League condemns deadly Israeli strike on Gaza’s Nasser Hospital",
+      "originalDescription": "Arab League condemns deadly Israeli strike on Gaza’s Nasser Hospital Israel’s strike on Nasser Hospital in Khan Younis killed at least six Palestinians, among them a surgeon, and wounded dozens on Wednesday. The Arab League denounced the strike as a “serious escalation”. It warned that Israel’s aid restrictions and repeated breaches of the “ceasefire” could “plunge the Strip into a cycle of sustained violence”.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D6G26HP.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-14T21:23:29+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/arab-league-condemns-deadly-israeli-strike-gazas-nasser-hospital"
+    },
+    {
+      "id": "f9c26a08d2756bbe",
+      "title": "Perlukah Dokumen Pendukung untuk Mengubah Data Akta Kelahiran? Ini Penjelasan Absher",
+      "description": "Akun resmi Direktorat Jenderal Catatan Sipil Kementerian Dalam Negeri Arab Saudi menjawab pertanyaan umum terkait perubahan data akta kelahiran di platform Absher.",
+      "originalTitle": "Perlukah Dokumen Pendukung untuk Mengubah Data Akta Kelahiran? Ini Penjelasan Absher",
+      "originalDescription": "Akun resmi Direktorat Jenderal Catatan Sipil Kementerian Dalam Negeri Arab Saudi menjawab pertanyaan umum terkait perubahan data akta kelahiran di platform Absher.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/111407-crop-FeU4sGgw.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T20:58:10+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/11f60l4i3"
+    },
+    {
+      "id": "f2af24e97e844e49",
+      "title": "Negara bagian Assam India menghancurkan rumah 132 keluarga Muslim",
+      "description": "Pihak berwenang di India Assam telah menghancurkan rumah 132 keluarga Muslim.",
+      "originalTitle": "India’s Assam state demolishes homes of 132 Muslim families",
+      "originalDescription": "Authorities in India’s Assam have demolished the homes of 132 Muslim families.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794687262.jpg?resize=1920%2C1080&quality=80",
+      "category": "Keluarga dan Muslim",
+      "tags": [
+        "Keluarga dan Muslim"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-14T20:14:10+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/14/14-11-sv-assam-muslim-families-evicted-demolition-drive"
+    },
     {
       "id": "401ce276b9d5536f",
       "title": "John Fetterman mengancam akan keluar dari Partai Demokratis jika pemimpin Senat berikutnya kritis terhadap Israel",
@@ -194,9 +294,9 @@
     {
       "id": "bf0885c67d2a6a03",
       "title": "6 Tips Penting dari Kepolisian Lalu Lintas untuk Berkendara Aman Saat Hujan",
-      "description": "Kepolisian Lalu Lintas Arab Saudi mengimbau pengemudi untuk berhati-hati dan mematuhi aturan keselamatan saat hujan guna mencegah kecelakaan.",
+      "description": "Kepolisian Lalu Lintas Arab Saudi mengimbau pengemudi agar waspada dan mematuhi aturan keselamatan saat hujan demi mencegah kecelakaan di jalan.",
       "originalTitle": "6 Tips Penting dari Kepolisian Lalu Lintas untuk Berkendara Aman Saat Hujan",
-      "originalDescription": "Kepolisian Lalu Lintas Arab Saudi mengimbau pengemudi untuk berhati-hati dan mematuhi aturan keselamatan saat hujan guna mencegah kecelakaan.",
+      "originalDescription": "Kepolisian Lalu Lintas Arab Saudi mengimbau pengemudi agar waspada dan mematuhi aturan keselamatan saat hujan demi mencegah kecelakaan di jalan.",
       "translated": false,
       "translationStatus": "not_required",
       "originalLanguage": "id",
