@@ -1,11 +1,11 @@
 {
-  "status": "partial",
-  "lastUpdated": "2026-11-13T18:38:01.423792+00:00",
-  "total": 381,
-  "newArticles": 117,
+  "status": "success",
+  "lastUpdated": "2026-11-14T00:30:18.205940+00:00",
+  "total": 392,
+  "newArticles": 118,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 11,
-  "sourcesFailed": 1,
+  "sourcesSucceeded": 12,
+  "sourcesFailed": 0,
   "sourceStats": [
     {
       "name": "Al Jazeera",
@@ -13,7 +13,7 @@
       "raw": 25,
       "accepted": 3,
       "filtered": 22,
-      "filteredFootball": 2,
+      "filteredFootball": 1,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -25,7 +25,7 @@
       "raw": 25,
       "accepted": 0,
       "filtered": 25,
-      "filteredFootball": 1,
+      "filteredFootball": 0,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -35,8 +35,8 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 5,
-      "filtered": 10,
+      "accepted": 6,
+      "filtered": 9,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -47,9 +47,9 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 1,
-      "filtered": 49,
-      "filteredFootball": 2,
+      "accepted": 2,
+      "filtered": 48,
+      "filteredFootball": 1,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 13,
-      "filtered": 7,
-      "filteredFootball": 2,
+      "accepted": 10,
+      "filtered": 10,
+      "filteredFootball": 3,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -93,15 +93,15 @@
     },
     {
       "name": "Detik",
-      "status": "error",
-      "raw": 0,
-      "accepted": 0,
-      "filtered": 0,
+      "status": "success",
+      "raw": 100,
+      "accepted": 2,
+      "filtered": 98,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
+      "error": null
     },
     {
       "name": "Muhammadiyah",
@@ -156,16 +156,268 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 202,
+    "translatedArticles": 207,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 1254
+    "cacheEntries": 1329
   },
   "images": {
-    "found": 381,
+    "found": 392,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "ffc1a75e30e0eaea",
+      "title": "Orang-Orang Beriman kepada Allah SWT di Sekitar Fir'aun yang Diabadikan Alquran dan Hadis",
+      "description": "JAKARTA— Dalam sejarah kehidupan manusia, terdapat laki-laki dan perempuan yang kisahnya diabadikan karena keteguhan mereka dalam mengikuti kebenaran, mempertahankannya, serta bersabar menghadapi berbagai penderitaan demi membela kebenaran tersebut. Mereka tetap...",
+      "originalTitle": "Orang-Orang Beriman kepada Allah SWT di Sekitar Fir'aun yang Diabadikan Alquran dan Hadis",
+      "originalDescription": "JAKARTA— Dalam sejarah kehidupan manusia, terdapat laki-laki dan perempuan yang kisahnya diabadikan karena keteguhan mereka dalam mengikuti kebenaran, mempertahankannya, serta bersabar menghadapi berbagai penderitaan demi membela kebenaran tersebut. Mereka tetap...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/071757800-1608298114-830-556.jpg",
+      "category": "Al-Qur'an dan Hadis",
+      "tags": [
+        "Al-Qur'an dan Hadis"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T23:52:24+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/togszc320/orangorang-beriman-kepada-allah-swt-di-sekitar-firaun-yang-diabadikan-alquran-dan-hadis"
+    },
+    {
+      "id": "c8add2ddb2ceebe0",
+      "title": "Enam orang Palestina tewas dalam serangan Israel di seluruh Gaza",
+      "description": "Enam orang Palestina tewas dalam serangan Israel di seluruh Gaza serangan Israel menewaskan enam orang Palestina dan terluka sekitar 20 orang lain di Jalur Gaza pada hari Jumat, menurut sumber medis dan saksi. Dalam Deir al- Balah, serangan tap ganda menyerang warga sipil yang membantu korban dari serangan awal, saksi mengatakan. Artileri Israel meratakan area sekitar kompleks perumahan Menara Qastal, timur kota, agen berita Palestina Wafa melaporkan. Mereka yang terluka dibawa ke Rumah Sakit Militer Aqsa di Deir Al- Balah. artileri Israel juga menghancurkan daerah timur Gaza City, Wafa menambahkan. Sejak gencatan senjata terjadi pada 11 Oktober 2025, serangan Israel telah membunuh 1.622 warga Palestina dan melukai 5.878 orang lainnya, menurut pelayanan kesehatan Gaza. Serangan dua kali lipat Israel terhadap warga sipil membantu korban dari serangan sebelumnya di Deir dan Balah. Sumber medis dan saksi mata mengatakan enam orang Palestina tewas dan sekitar 20 orang terluka dalam serangan Israel di seluruh Gaza pada hari Jumat. https: / / t.co / UpwLzygTnO - Middle East Eye (@ MiddleEastEye) November 13, 2026",
+      "originalTitle": "Six Palestinians killed in Israeli strikes across Gaza",
+      "originalDescription": "Six Palestinians killed in Israeli strikes across Gaza Israeli attacks killed six Palestinians and injured around 20 others across the Gaza Strip on Friday, according to medical sources and witnesses. In Deir al-Balah, a double-tap strike hit civilians who were helping victims of an earlier attack, witnesses said. Israeli artillery shelled the area around the al-Qastal Towers residential complex, east of the city, Palestinian news agency Wafa reported. Those wounded were taken to al-Aqsa Martyrs Hospital in Deir al-Balah. Israeli artillery also shelled eastern areas of Gaza City, Wafa added. Since the ceasefire took effect on 11 October 2025, Israeli attacks have killed 1,622 Palestinians and injured 5,878 others, according to Gaza's health ministry. An Israeli double-tap strike targeted civilians helping victims of an earlier attack in Deir al-Balah. Medical sources and witnesses said six Palestinians were killed and around 20 injured in Israeli attacks across Gaza on Friday. https://t.co/UPwLzygTnO — Middle East Eye (@MiddleEastEye) November 13, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D7BB6XL%20%281%29.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T23:28:10+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/six-palestinians-killed-israeli-attacks-across-gaza"
+    },
+    {
+      "id": "b9aa9a4cbacaed54",
+      "title": "Aktivis permintaan berakhir untuk mentransfer bahan-bahan militer ke Israel melalui bandara JFK New York",
+      "description": "Aktivis permintaan berakhir untuk mentransfer bahan-bahan militer ke Israel melalui bandara JFK New York Dikirimkan oleh Mousira Elsamra di Fri, 11 / 13 / 2026 - 19: 19 Bandara dan Port Authority New York telah diperiksa setelah laporan-laporan mengenai bagian-bagian dari 'bunker-penghilang' yang sedang dilakukan oleh JFK Orang-orang berjalan melalui Terminal 7 di Bandara JFK di New York, pada 29 Agustus 2025 (Michael M Santiago / Getty Gambar melalui AFP) Off Aktivists, yang bergabung dengan Senator Negara Bagian New York, Jabari Brisport, yang berkumpul di luar World Trade Center pada hari Kamis, memprotes transportasi barang-barang militer melalui Bandara Internasional (JFK). Protes, yang diselenggarakan di bawah kampanye \"Break the Chain\" yang dipimpin oleh Sosialis Demokratis Amerika (DSA), datang di tengah pelaporan dari Intercept bahwa Penerbangan Chain Airlines memiliki material yang diangkut termasuk nitrocellosa, casing bom dan peralatan pemandu dari JFK ke Israel. Data open-source yang didokumentasikan dalam laporan mengungkapkan senjata yang diterbangkan dari JFK terkait dengan serangan massal korban di Gaza, Lebanon, dan Iran. Tantangan Airlines adalah perusahaan penerbangan kargo dan logistik Israel yang didirikan tahun 1976. Intercept melaporkan bahwa ribuan pon berharga untuk bom \"bunker-buster\" melewati JFK selama puncak perang AS-Israel terhadap Iran. Perang dimulai pada 28 Februari. Istirahat Chain mengatakan bahwa kargo militer menuju Israel melewati bandara JFK secara teratur, kadang-kadang beberapa kali seminggu, dan infrastruktur sipil tidak boleh digunakan untuk kepentingan militer Israel. Demonstrasi, termasuk anggota Yahudi Voice for Peace, Gerakan Pemuda Palestina, Sosialis Demokratik Amerika, dan Brooklyn for Peace menyerukan akhir pengiriman dan akuntabilitas yang lebih besar dari Port Authority, yang memiliki yurisdiksi atas Bandara JFK. Aktivis Gerakan Pemuda Palestina Ibtihal Abaussad membawa kemungkinan bahwa pengiriman senjata berko",
+      "originalTitle": "Activists demand end to transfer of military materials to Israel through New York's JFK Airport",
+      "originalDescription": "Activists demand end to transfer of military materials to Israel through New York's JFK Airport Submitted by Mounira Elsamra on Fri, 11/13/2026 - 19:19 The airport and New York's Port Authority have come under scrutiny after reports emerged that parts for 'bunker-busting' bombs were going through JFK People walk through Terminal 7 at JFK Airport in New York City, on 29 August 2025 (Michael M Santiago/Getty Images via AFP) Off Activists, joined by New York State Senator Jabari Brisport, gathered outside the World Trade Center on Thursday, protesting against the transportation of military-related materials through JFK International Airport (JFK). The protest, organised under the “Break the Chain” campaign led by the Democratic Socialists of America (DSA), comes amid reporting from The Intercept that Challenge Airlines cargo flights have transported materials including nitrocellulose, bomb casings and guidance kits from JFK to Israel. Open-source data documented in the report reveals weapons flown out of JFK are tied to mass casualty attacks in Gaza, Lebanon, and Iran. Challenge Airlines is an Israel-based cargo airline and logistics company founded in 1976. The Intercept reported that thousands of pounds worth of parts for \"bunker-buster\" bombs went through JFK during the height of the US-Israeli war on Iran. The war began on 28 February. Break the Chain says that military cargo bound for Israel passes through JFK Airport regularly, sometimes multiple times a week, and that civilian infrastructure should not be used for the benefit of the Israeli military. Protesters, including members of Jewish Voice for Peace, Palestinian Youth Movement, Democratic Socialists of America, and Brooklyn for Peace called for an end to the shipments and greater accountability from the Port Authority, which has jurisdiction over JFK Airport. Palestinian Youth Movement activist Ibtihal Aboussad brought up the possibility that the weapons shipments contributed to the recent bombing of Nasse",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/063_2232702010.jpg.jpg?itok=w1LpYZMd",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T21:06:18+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/activists-demand-end-transfer-military-materials-israel-through-new-yorks-jfk-airport"
+    },
+    {
+      "id": "93ddf0e6a49d40e0",
+      "title": "Houthis mengatakan mereka menyerang bandara Riyadh dan pipa minyak Saudi",
+      "description": "Houthis mengatakan mereka menyerang bandara Riyadh dan pipa minyak Saudi Yaman Houthis mengatakan mereka menyerang Bandara Nasional Raja Riyadh dan stasiun pompa di Saudi Arab Barat, yang membawa minyak mentah ke pelabuhan Laut Merah Yanbu. Juru bicara militer Houthi Yahya Saree mengatakan kelompok itu menargetkan bandara dengan pesawat tanpa awak, dan stasiun pompa timur Riyadh dengan dua drone. Kelompok ini juga menembakkan dua rudal balistik pada apa yang Saree jelaskan sebagai konsentrasi pasukan Saudi di daerah al- Tuwal Jazan, di Arab Saudi selatan, katanya. Pernyataan grup tersebut datang beberapa jam setelah pertahanan sipil Saudi mengeluarkan semua yang jelas bagi provinsi ini, yang merupakan rumah bagi kilang Arab Saudi dengan kapasitas 400.000 barel minyak mentah per hari. Di Yaman, Saree mengatakan Houthis menyerang Depot senjata Saudi di kamp Ras Abbas di Aden dengan rudal balistik dan drone. Dia menambahkan bahwa mereka juga menembakkan rudal pada pasukan di bawah komando perwira Saudi di Lahj dan provinsi Jawf, mengklaim mereka menyebabkan banyak korban. Arab Saudi tidak segera mengkonfirmasi klaim Houthi. Di mana Anda akan pergi? Di sini ada 3 jam.",
+      "originalTitle": "Houthis say they attacked Riyadh airport and Saudi oil pipeline",
+      "originalDescription": "Houthis say they attacked Riyadh airport and Saudi oil pipeline Yemen's Houthis said they attacked Riyadh's King Khalid International Airport and a pumping station on Saudi Arabia's East-West pipeline, which carries crude oil to the Red Sea port of Yanbu. Houthi military spokesperson Yahya Saree said the group targeted the airport with a drone, and a pumping station east of Riyadh with two drones. The group also fired two ballistic missiles at what Saree described as Saudi troop concentrations in the al-Tuwal area of Jazan, in southern Saudi Arabia, he said. The group's statements came hours after Saudi civil defence issued an all-clear for the province, which is home to a Saudi Aramco refinery with a capacity of 400,000 barrels of crude oil per day. Inside Yemen, Saree said the Houthis struck Saudi weapons depots at the Ras Abbas camp in Aden with ballistic missiles and drones. He added that they also fired missiles at forces under the command of Saudi officers in Lahj and al-Jawf provinces, claiming they caused many casualties. Saudi Arabia did not immediately confirm the Houthi claims. نفذت قواتنا المسلحة عمليتين عسكريتين نوعيتين الأولى استهدفت مطار خالد الدولي في عاصمة العدو السعودي الرياض بطائرة مسيرة وحققت هدفَها بنجاح بفضل الله. والأخرى استهدفت محطة الضخ رقم 3 بخط شرق غرب شرق الرياض بطائرتين مسيرتين وحققت العملية هدفها بنجاح بفضل الله. — العميد/ يحيى سريع (@Yah_Saree) November 13, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D7BB6XL%20%281%29.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T20:58:21+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-they-attacked-riyadh-airport-and-saudi-oil-pipeline"
+    },
+    {
+      "id": "da9d475fcf1ac75f",
+      "title": "Lebih dari 80 Ribu Orang Ikuti 266 Kegiatan Dakwah di Masjid Quba Madinah pada Oktober",
+      "description": "Sebanyak 266 kegiatan dakwah digelar di Masjid Quba, Madinah, sepanjang Oktober, menjangkau lebih dari 80 ribu jamaah dan pengunjung.",
+      "originalTitle": "Lebih dari 80 Ribu Orang Ikuti 266 Kegiatan Dakwah di Masjid Quba Madinah pada Oktober",
+      "originalDescription": "Sebanyak 266 kegiatan dakwah digelar di Masjid Quba, Madinah, sepanjang Oktober, menjangkau lebih dari 80 ribu jamaah dan pengunjung.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-Jz98Ol4P.jpg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama",
+        "Arab Saudi",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T20:43:14+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/dyxfeofeo"
+    },
+    {
+      "id": "d611120b7898cf26",
+      "title": "Pasukan Israel menahan pengantin pria Palestina dalam serangan pernikahan karena serangan pemukim terus terjadi di seluruh Tepi Barat",
+      "description": "Pasukan Israel menahan pengantin laki-laki Palestina dalam serangan pernikahan karena serangan pemukim terus melintasi Barat Bank Israel pasukan dan pemukim dilakukan serangkaian serangan di seluruh West Bank pada hari Jumat, agen berita Palestina Wafa melaporkan. Di Jaba ', selatan Jenin, pasukan Israel menyerbu kota, menembakkan amunisi hidup dan gas air mata, dan menembak seorang pria Palestina muda di paha, yang Palestina Red Crescent Society mengatakan. Dekat Ramallah, pasukan Israel menyerbu sebuah aula pernikahan di desa Al- Mughayyir, menembak gas air mata di sekitar 150 tamu dan menahan empat orang, termasuk pengantin pria, kata Wafa, mengutip penduduk Palestina. Di desa yang sama, pasukan menyerbu rumah dari orang Palestina, Hamed Abu Naim, menyita kunci dan memaksa keluarga keluar. Di Beit Ummar, utara Hebron, beberapa orang Palestina dirawat karena menghirup gas air mata setelah pasukan Israel menembakkan gas air mata pada warga dan rumah mereka. Menurut warga, pasukan telah memasuki kota untuk melindungi pemukim Israel yang telah mengejar anak-anak dekat pintu masuk dan mencoba menyerang mereka. Tentara juga menghentikan kendaraan di pintu masuk dan mengalahkan pengemudinya. Selatan Yatta, di pemerintahan Hebron, pemukim mengepung rumah Yousef Shannaran selama 40 hari berturut-turut, aktivis media Osama Makhamra mengatakan Wafa. Dia mengatakan pemukim telah memasang kembali tenda di samping rumah bahwa pasukan Israel sebelumnya telah dihapus, sehingga keluarga hanya bisa datang dan pergi dengan koordinasi dengan pasukan terdekat. Settlers juga melempar batu ke rumah, menghancurkan jendela dan pintu dan meracuni air keluarga dengan baik, ia menambahkan. Dekat Khirbet Srouj, barat Jenin, pemukim menyerang keluarga Palestina memanen zaitun dan mencuri buah zaitun dan peralatan. Di Yerusalem Timur yang dikuasai, dua saudara Palestina dipaksa menghancurkan rumah mereka sendiri di Sur Baher setelah pemerintahan Israel mengatakan bahwa mereka telah dibangun ta",
+      "originalTitle": "Israeli forces detain Palestinian groom in wedding raid as settler attacks continue across West Bank",
+      "originalDescription": "Israeli forces detain Palestinian groom in wedding raid as settler attacks continue across West Bank Israeli forces and settlers carried out a series of attacks across the occupied West Bank on Friday, the Palestinian news agency Wafa reported. In Jaba’, south of Jenin, Israeli forces stormed the town, firing live ammunition and tear gas, and shot a young Palestinian man in the thigh, the Palestinian Red Crescent Society said. Near Ramallah, Israeli forces raided a wedding hall in the village of al-Mughayyir, firing tear gas at around 150 guests and detaining four people, including the groom, Wafa said, citing Palestinian residents. In the same village, troops stormed the home of Palestinian man, Hamed Abu Naim, seized keys and forced the family out. In Beit Ummar, north of Hebron, several Palestinians were treated for tear gas inhalation after Israeli forces fired tear gas at residents and their homes. According to residents, troops had entered the town to protect Israeli settlers who had chased children near its entrance and tried to assault them. Soldiers also stopped a vehicle at the entrance and beat its driver. South of Yatta, in the Hebron governorate, settlers besieged the home of Yousef Shannaran for the 40th consecutive day, media activist Osama Makhamra told Wafa. He said settlers had put back up a tent next to the house that Israeli forces had previously removed, so the family can only come and go by coordinating with nearby troops. Settlers also threw stones at the home, smashed its windows and doors and poisoned the family’s water well, he added. Near Khirbet Srouj, west of Jenin, settlers attacked Palestinian families harvesting olives and stole harvested olives and equipment. In occupied East Jerusalem, two Palestinian brothers were forced to demolish their own homes in Sur Baher after the Israeli municipality said they had been built without permits. Israeli forces also detained a Palestinian child and a woman in the southern Hebron area, Quds News ",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D7BB6XL%20%281%29.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T20:43:03+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-detain-palestinian-groom-wedding-raid-settler-attacks"
+    },
+    {
+      "id": "b381dd45ecfb1153",
+      "title": "Otoritas Riyadh Bangun Jembatan dan Terowongan di Persimpangan Jalan Thumamah",
+      "description": "Otoritas Kerajaan Kota Riyadh membangun jembatan sepanjang 920 meter dan terowongan 1.600 meter di persimpangan Jalan Thumamah untuk meningkatkan efisiensi lalu lintas.",
+      "originalTitle": "Otoritas Riyadh Bangun Jembatan dan Terowongan di Persimpangan Jalan Thumamah",
+      "originalDescription": "Otoritas Kerajaan Kota Riyadh membangun jembatan sepanjang 920 meter dan terowongan 1.600 meter di persimpangan Jalan Thumamah untuk meningkatkan efisiensi lalu lintas.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-KGddtFWp.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-13T19:59:10+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/fwmkdpuc2"
+    },
+    {
+      "id": "84a1b6030979c385",
+      "title": "Australia tekuk Qatar 3-0, Saudi kalahkan Korsel 3-2",
+      "description": "Australia menekuk tuan rumah Qatar 3-0 dan Arab Saudi mengalahkan Korea Selatan 3-2 pada laga uji coba internasional ...",
+      "originalTitle": "Australia tekuk Qatar 3-0, Saudi kalahkan Korsel 3-2",
+      "originalDescription": "Australia menekuk tuan rumah Qatar 3-0 dan Arab Saudi mengalahkan Korea Selatan 3-2 pada laga uji coba internasional ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2025/08/08/KUali.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T19:57:42+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5853127/australia-tekuk-qatar-3-0-saudi-kalahkan-korsel-3-2"
+    },
+    {
+      "id": "090750487dfe7a08",
+      "title": "Kemenhaj libatkan aparat hingga PPNS berantas penipuan haji dan umrah",
+      "description": "ANTARA - Wakil Menteri Haji dan Umrah (Wamenhaj) Dahnil Anzar Simanjuntak di Palu, Jumat (13/11), menegaskan saat ini ...",
+      "originalTitle": "Kemenhaj libatkan aparat hingga PPNS berantas penipuan haji dan umrah",
+      "originalDescription": "ANTARA - Wakil Menteri Haji dan Umrah (Wamenhaj) Dahnil Anzar Simanjuntak di Palu, Jumat (13/11), menegaskan saat ini ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/KEMENHAJ-LIBATKAN-APARAT-HINGGA-PPNS-BERANTAS-PENIPUAN-HAJI-DAN-UMRAH.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T19:27:22+00:00",
+      "originalUrl": "https://www.antaranews.com/video/5853111/kemenhaj-libatkan-aparat-hingga-ppns-berantas-penipuan-haji-dan-umrah"
+    },
+    {
+      "id": "db8a111a749d08a3",
+      "title": "Persediaan Israel bar diperlukan untuk mengobati enam tahun - tua Gaza membakar korban",
+      "description": "Enam tahun luka bakar korban Masa adalah salah satu pasien di Gaza yang pemulihan berada di bawah ancaman karena pembatasan Israel",
+      "originalTitle": "Israel bars supplies needed to treat six-year-old Gaza burn victim",
+      "originalDescription": "Six-year-old burns victim Masa is one of the patients in Gaza whose recovery is under threat due to Israeli restrictions",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794594446.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-13T18:28:03+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/13/israel-bars-supplies-needed-to-treat-six-year-old-gaza-burn-victim"
+    },
     {
       "id": "d94b4112b6a6e20e",
       "title": "Eisenkot slams Netanyahu 'rasis' kampanye melawan Israel Palestina",
@@ -340,6 +592,31 @@
       "region": "",
       "publishedAt": "2026-11-13T16:54:12+00:00",
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/france-calls-more-pressure-houthis-end-attacks-saudi-arabia"
+    },
+    {
+      "id": "14b5df2c30ceba65",
+      "title": "Rizal Fadillah Tersangka Kasus Ijazah Palsu Jokowi Meninggal",
+      "description": "Salah satu tersangka kasus ijazah palsu Jokowi, Ustaz Rizal Fadillah, meninggal dunia. Roy Suryo mengungkapkan duka dan komitmen untuk melanjutkan perjuangannya",
+      "originalTitle": "Rizal Fadillah Tersangka Kasus Ijazah Palsu Jokowi Meninggal",
+      "originalDescription": "Salah satu tersangka kasus ijazah palsu Jokowi, Ustaz Rizal Fadillah, meninggal dunia. Roy Suryo mengungkapkan duka dan komitmen untuk melanjutkan perjuangannya",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2022/08/29/ilustrasi-karangan-bunga-di-makam-orang-meninggal-1_169.jpeg?w=360&q=90",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "Detik",
+      "sources": [
+        "Detik"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-13T16:36:51+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8752313/rizal-fadillah-tersangka-kasus-ijazah-palsu-jokowi-meninggal"
     },
     {
       "id": "3157ca5da7e2ae0e",
