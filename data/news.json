@@ -1,8 +1,8 @@
 {
   "status": "success",
-  "lastUpdated": "2026-11-15T14:48:07.335086+00:00",
+  "lastUpdated": "2026-11-15T20:27:51.164075+00:00",
   "total": 500,
-  "newArticles": 122,
+  "newArticles": 124,
   "sourcesChecked": 12,
   "sourcesSucceeded": 12,
   "sourcesFailed": 0,
@@ -11,9 +11,9 @@
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 2,
-      "filtered": 23,
-      "filteredFootball": 1,
+      "accepted": 3,
+      "filtered": 22,
+      "filteredFootball": 5,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 24,
+      "raw": 20,
       "accepted": 1,
-      "filtered": 23,
-      "filteredFootball": 2,
-      "translated": 24,
+      "filtered": 19,
+      "filteredFootball": 1,
+      "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -35,8 +35,8 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 6,
-      "filtered": 9,
+      "accepted": 7,
+      "filtered": 8,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -47,9 +47,9 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 1,
-      "filtered": 49,
-      "filteredFootball": 2,
+      "accepted": 0,
+      "filtered": 50,
+      "filteredFootball": 5,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -119,8 +119,8 @@
       "name": "NU Online",
       "status": "success",
       "raw": 48,
-      "accepted": 16,
-      "filtered": 32,
+      "accepted": 17,
+      "filtered": 31,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -156,16 +156,394 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 253,
+    "translatedArticles": 252,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 1769
+    "cacheEntries": 1841
   },
   "images": {
     "found": 500,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "2eb6d90e38d6e44b",
+      "title": "Jaksa Agung Kunjungi Kejaksaan Riyadh, Tegaskan Kepatuhan pada Hukum dan Keadilan",
+      "description": "Jaksa Agung Dr Khalid Al-Yousef mengunjungi Kejaksaan Riyadh dan menekankan pentingnya kepatuhan pada hukum serta perlindungan hak-hak dalam pertemuan dengan para penyidik.",
+      "originalTitle": "Jaksa Agung Kunjungi Kejaksaan Riyadh, Tegaskan Kepatuhan pada Hukum dan Keadilan",
+      "originalDescription": "Jaksa Agung Dr Khalid Al-Yousef mengunjungi Kejaksaan Riyadh dan menekankan pentingnya kepatuhan pada hukum serta perlindungan hak-hak dalam pertemuan dengan para penyidik.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-LZjjNSh1.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-15T20:08:13+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/qkhucdx4t"
+    },
+    {
+      "id": "b3183ae8c1407e03",
+      "title": "Panduan Aman Gunakan Pemanas Air dari Otoritas Standar Saudi",
+      "description": "Otoritas Standar Saudi mengimbau masyarakat mematuhi panduan keselamatan saat membeli dan menggunakan pemanas air, termasuk memilih produk bersertifikat dan melakukan perawatan rutin.",
+      "originalTitle": "Panduan Aman Gunakan Pemanas Air dari Otoritas Standar Saudi",
+      "originalDescription": "Otoritas Standar Saudi mengimbau masyarakat mematuhi panduan keselamatan saat membeli dan menggunakan pemanas air, termasuk memilih produk bersertifikat dan melakukan perawatan rutin.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/logos/salogos/المواصفات-السعودية-870.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-15T19:18:14+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/a3ffb80at"
+    },
+    {
+      "id": "c2d6223674e668e4",
+      "title": "Koalisi Arab Saudi Tembak Jatuh Drone di Wilayah Madinah",
+      "description": "Koalisi yang dipimpin Arab Saudi mengumumkan telah mencegat dan menghancurkan sebuah drone di wilayah Madinah, menurut juru bicara resmi pasukan koalisi.",
+      "originalTitle": "Koalisi Arab Saudi Tembak Jatuh Drone di Wilayah Madinah",
+      "originalDescription": "Koalisi yang dipimpin Arab Saudi mengumumkan telah mencegat dan menghancurkan sebuah drone di wilayah Madinah, menurut juru bicara resmi pasukan koalisi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-Qli6AEP3.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-15T19:06:33+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/2ude74800"
+    },
+    {
+      "id": "76e13325ad4e493c",
+      "title": "Raja Salman memerintahkan promosi dan janji 167 hakim di Departemen Kehakiman",
+      "description": "RIYADH - Penjaga Dua Masjid Suci Raja Salman telah mengeluarkan perintah kerajaan mempromosikan dan menunjuk 167 hakim di Departemen Kehakiman di berbagai peringkat. Menteri Kehakiman dan Presiden Bertindak Agung Dewan Judisial Walid Al- Samaani mengatakan bahwa perintah mencerminkan raja terus dukungan untuk sektor peradilan, bersama dengan follow- up dan dukungan Putra Mahkota dan Perdana Menteri Mohammed bin Salman dan komitmen mereka untuk meningkatkan efisiensi dan meningkatkan hasilnya. Dia mencatat bahwa promosi dan janji akan berkontribusi terhadap pengembangan sektor tersebut, meningkatkan kinerja peradilan, dan meningkatkan kualitas putusan, sejalan dengan kemajuan sistem peradilan yang sedang berlangsung. Al- Samaani menyatakan rasa terima kasihnya kepada kepemimpinan Kerajaan untuk dukungan sektor peradilan, berdoa untuk keberhasilan para juri dalam melaksanakan tugas mereka dan menegakkan keadilan.",
+      "originalTitle": "King Salman orders promotion and appointment of 167 judges at Justice Ministry",
+      "originalDescription": "RIYADH — Custodian of the Two Holy Mosques King Salman has issued a royal order promoting and appointing 167 judges at the Ministry of Justice across various ranks.Minister of Justice and Acting President of the Supreme Judicial Council Walid Al-Samaani said that the order reflects the King’s continued support for the judicial sector, along with the follow-up and backing of Crown Prince and Prime Minister Mohammed bin Salman and their commitment to raising its efficiency and improving its outcomes.He noted that the promotions and appointments will contribute to the development of the sector, enhance judicial performance, and improve the quality of rulings, in line with the ongoing advancement of the justice system. Al-Samaani expressed his gratitude to the Kingdom’s leadership for its support of the judicial sector, praying for the judges’ success in carrying out their duties and upholding justice.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/15/2794993.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-15T19:03:41+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666270/saudi-arabia/king-salman-orders-promotion-and-appointment-of-167-judges-at-justice-ministry"
+    },
+    {
+      "id": "a7e640ebdcdf114f",
+      "title": "Houthis mengatakan mereka menembakkan rudal di bandara Riyadh dan distrik keuangan",
+      "description": "Houthis mengatakan mereka menembakkan rudal di bandara Riyadh dan distrik keuangan Houthis mengatakan mereka menembakkan dua rudal balistik di ibukota Saudi, menyebutkan distrik keuangan dan King Khalid International Airport. Juru bicara militer Houthi Yahya Saree mengatakan kelompok tersebut meluncurkan enam rudal balistik lebih pada pasukan Saudi di pemerintahan Lahj selatan, menargetkan perkemahan Qa 'wa dan posisi di dekatnya. Arab Saudi belum merespon. Al Jazeera melaporkan bahwa dua ledakan berbunyi di kota Yaman Aden.",
+      "originalTitle": "Houthis say they fired missiles at Riyadh airport and financial district",
+      "originalDescription": "Houthis say they fired missiles at Riyadh airport and financial district The Houthis say they fired two ballistic missiles at targets in the Saudi capital, naming the financial district and King Khalid International Airport. Houthi military spokesman Yahya Saree said the group launched six more ballistic missiles at Saudi troops in Yemen’s southern Lahj governorate, targeting Qa’wa camp and nearby positions. Saudi Arabia has yet to respond. Al Jazeera reports that two explosions rang out in the Yemeni city of Aden.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D76F6NQ.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T18:44:54+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-they-fired-missiles-riyadh-airport-and-financial-district"
+    },
+    {
+      "id": "d2c725337812299f",
+      "title": "Polisi Lalu Lintas Saudi Amankan 7.696 Sepeda Motor Melanggar dalam 7 Hari",
+      "description": "Polisi lalu lintas Arab Saudi menggelar razia sepeda motor melanggar di berbagai wilayah dan mengamankan 7.696 unit selama 8-14 November 2026.",
+      "originalTitle": "Polisi Lalu Lintas Saudi Amankan 7.696 Sepeda Motor Melanggar dalam 7 Hari",
+      "originalDescription": "Polisi lalu lintas Arab Saudi menggelar razia sepeda motor melanggar di berbagai wilayah dan mengamankan 7.696 unit selama 8-14 November 2026.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/دراجة-آلية--uMj-2n0.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-15T18:25:09+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/uf37vczcp"
+    },
+    {
+      "id": "fbb798b55af1bd1d",
+      "title": "Perumahan menyangkal menargetkan Mekah atau Madinah di serangan drone Saudi",
+      "description": "Perumahan menyangkal menargetkan Mekah atau Madinah di Saudi menyerang juru bicara Houthi Yahya Saree telah diberhentikan tuduhan Arab Saudi bahwa kelompok ditujukan drone di Mekah atau Madinah hari ini sebagai \"kebohongan terang-terangan dan fabrikasi\". Menulis di Telegram, Saree mengatakan kelompok mengarahkan operasinya secara eksklusif di instalasi minyak dan pangkalan militer di Arab Saudi.",
+      "originalTitle": "Houthis deny targeting Mecca or Medina in Saudi drone attacks",
+      "originalDescription": "Houthis deny targeting Mecca or Medina in Saudi drone attacks Houthi spokesman Yahya Saree has dismissed Saudi Arabia’s accusation that the group aimed drones at Mecca or Medina today as “a blatant lie and fabrication”. Writing on Telegram, Saree said the group directs its operations exclusively at oil installations and military bases in Saudi Arabia.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D76F6NQ.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T18:24:02+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-deny-targeting-mecca-or-medina-saudi-drone-attacks"
+    },
+    {
+      "id": "299fbb689ab0b337",
+      "title": "Ahmad Jureibi, Atlet Saudi Pertama Lolos Mister Olympia Kelas Terbuka",
+      "description": "Ahmad Jureibi mencatat sejarah sebagai atlet Arab Saudi pertama yang lolos ke Mister Olympia kelas terbuka usai meraih emas di Romania Muscle Fest Pro 2026.",
+      "originalTitle": "Ahmad Jureibi, Atlet Saudi Pertama Lolos Mister Olympia Kelas Terbuka",
+      "originalDescription": "Ahmad Jureibi mencatat sejarah sebagai atlet Arab Saudi pertama yang lolos ke Mister Olympia kelas terbuka usai meraih emas di Romania Muscle Fest Pro 2026.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/WhatsAppImage2026-11-15at81532PM-crop-Lb3Tmq-v.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-15T18:22:07+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/olahraga/xlwwvfodd"
+    },
+    {
+      "id": "dcb5c23a5d158d0a",
+      "title": "Serangan pesawat tak berawak Israel membunuh satu di Gaza al- Mawasi",
+      "description": "Serangan pesawat tak berawak Israel membunuh satu di Gaza, Mawasi Gaza, Pertahanan Sipil mengatakan sebuah pesawat tak berawak Israel menyerang Al- Mawasi di selatan Jalur, membunuh satu orang dan melukai banyak orang lainnya.",
+      "originalTitle": "Israeli drone strike kills one in Gaza’s al-Mawasi",
+      "originalDescription": "Israeli drone strike kills one in Gaza’s al-Mawasi Gaza’s Civil Defence says an Israeli drone struck al-Mawasi in the south of the Strip, killing one person and wounding many others.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D76F6NQ.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T17:31:42+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-drone-strike-kills-one-gazas-al-mawasi"
+    },
+    {
+      "id": "525b38628bae8fd2",
+      "title": "Raja Salman Perintahkan Promosi dan Pengangkatan 167 Hakim di Kementerian Kehakiman",
+      "description": "Raja Salman mengeluarkan perintah untuk mempromosikan dan mengangkat 167 hakim di Kementerian Kehakiman Arab Saudi guna mendukung pengembangan sistem peradilan.",
+      "originalTitle": "Raja Salman Perintahkan Promosi dan Pengangkatan 167 Hakim di Kementerian Kehakiman",
+      "originalDescription": "Raja Salman mengeluarkan perintah untuk mempromosikan dan mengangkat 167 hakim di Kementerian Kehakiman Arab Saudi guna mendukung pengembangan sistem peradilan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-08/خادم-الحرمين-3B8Rm7qI.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-15T16:41:35+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/gctgm7c5x"
+    },
+    {
+      "id": "312b827318e0c016",
+      "title": "70 mayat ditemukan dari reruntuhan Gaza, ribuan masih hilang",
+      "description": "70 mayat ditemukan dari reruntuhan Gaza, ribuan masih hilang",
+      "originalTitle": "70 bodies recovered from Gaza rubble, thousands still missing",
+      "originalDescription": "70 bodies recovered from Gaza rubble, thousands still missing",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794756704.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T15:32:43+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/15/70-bodies-recovered-from-gaza-rubble-thousands-still-missing"
+    },
+    {
+      "id": "114f1f3e4cda090b",
+      "title": "Ketua MUI Bidang Fatwa Akhirnya Bicara Mengapa Hukum Haram Vape dan Rokok Berbeda",
+      "description": "JAKARTA — Majelis Ulama Indonesia (MUI) belum lama ini menetapkan Fatwa MUI Nomor 131 Tahun 2026 tentang Hukum Penggunaan Rokok Elektrik (REL) atau vape. Keputusan yang mengharamkan seluruh rantai...",
+      "originalTitle": "Ketua MUI Bidang Fatwa Akhirnya Bicara Mengapa Hukum Haram Vape dan Rokok Berbeda",
+      "originalDescription": "JAKARTA — Majelis Ulama Indonesia (MUI) belum lama ini menetapkan Fatwa MUI Nomor 131 Tahun 2026 tentang Hukum Penggunaan Rokok Elektrik (REL) atau vape. Keputusan yang mengharamkan seluruh rantai...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/_260513163003-870.png",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam",
+        "Dakwah dan Ulama"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-15T15:19:00+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tojujo483/ketua-mui-bidang-fatwa-akhirnya-bicara-mengapa-hukum-haram-vape-dan-rokok-berbeda"
+    },
+    {
+      "id": "2dcaabc63ce0b3ca",
+      "title": "Yerusalem Daily: pemakaman massal di Gaza sebagai Netanyahu menempel kekuasaan",
+      "description": "Sebuah pemakaman massal diadakan di Gaza selama 70 Palestina yang tubuhnya terjebak di bawah reruntuhan.",
+      "originalTitle": "Jerusalem Daily: Mass funeral in Gaza as Netanyahu clings to power",
+      "originalDescription": "A mass funeral was held in Gaza for 70 Palestinians whose bodies were trapped under the rubble.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794754850.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T15:01:54+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/15/jerusalem-daily-mass-funeral-in-gaza-as-netanyahu-clings-to-power"
+    },
+    {
+      "id": "40d0be177470a61a",
+      "title": "Data Israel menunjukkan hal ini memungkinkan setengah dari truk bantuan yang dijanjikan ke Gaza",
+      "description": "Data Israel menunjukkan bahwa truk-truk bantuan yang dijanjikan ke Gaza telah dikeluarkan oleh staf MEE pada Sun, 11 / 15 / 2026 - 14: 15 data militer Israel menunjukkan pengiriman ke Gaza telah jatuh jauh lebih pendek dari 4.200 truk yang dijanjikan dalam seminggu di bawah kesepakatan gencatan senjata dalam beberapa bulan seorang anak makan dari pot sebagai pengungsi warga Palestina yang mengumpulkan makanan panas yang didistribusikan ke Gaza oleh sebuah dapur amal di kamp pengungsi Nuseirat sejak 12 Juni 2026 bulan (Eyba-Fig) yang gagal melakukan hal-hal tersebut. Data yang diperoleh oleh surat kabar Haaretz menunjukkan penurunan pertumbuhan dalam pengiriman makanan ke Gaza, bersama kekurangan pasokan medis yang parah, tenda dan bahan untuk memperbaiki infrastruktur yang rusak. Hujan deras telah membanjiri kamp perpindahan, meninggalkan ratusan ribu orang Palestina dalam kondisi semakin mengerikan. Di bawah gencatan senjata, Israel berjanji untuk memungkinkan 4.200 kendaraan membawa kemanusiaan dan barang komersial ke Gaza setiap minggu, setara dengan sekitar 18,200 per bulan. Pengiriman termasuk makanan, bahan bakar, obat-obatan dan peralatan, bahan penampungan dan peralatan untuk memperbaiki infrastruktur penting. Data yang diberikan oleh koordinator Aktivitas Pemerintah di Wilayah (Cogat) kepada Pusat Dukungan AS yang dipimpin Internasional Gaza (IGSC) menunjukkan bahwa Israel mengizinkan sekitar 4.700 truk ke Gaza pada bulan Maret, naik menjadi 5.300 pada bulan April dan lebih dari 9.600 Mei. Angka meningkat menjadi lebih dari 12.000 pada bulan Juni sebelum jatuh ke sekitar 10.000 di baik Juli dan Agustus. Pengiriman memuncak di lebih dari 13.000 pada bulan September, kemudian turun tajam hanya untuk lebih dari 6.500 pada bulan Oktober. Cogat membantah penemuan tersebut, mengatakan bahwa data yang disajikan adalah \"tidak akurat\" dan bahwa Israel bertemu komitmen kemanusiaan \"dan di luar mereka.\" Angka tanda langka dalam statistik yang disediakan oleh Israel un",
+      "originalTitle": "Israel's data shows it allowed half of the promised aid trucks into Gaza",
+      "originalDescription": "Israel's data shows it allowed half of the promised aid trucks into Gaza Submitted by MEE staff on Sun, 11/15/2026 - 14:15 Israeli military data shows deliveries to Gaza have fallen well short of the 4,200 trucks a week promised under the ceasefire deal in most months A boy eats from a pot as displaced Palestinians gather for hot meals distributed by a charity kitchen in Nuseirat refugee camp in the central Gaza Strip on 12 June 2026 (Eyad Baba/AFP) Off Israel has failed to meet its commitments under the Gaza ceasefire deal, allowing in only around half the agreed volume of humanitarian and commercial goods each month since March, Israeli military data shows. Data obtained by Haaretz newspaper showed a growing shortfall in food deliveries to Gaza, alongside severe shortages of medical supplies, tents and materials to repair damaged infrastructure. Torrential rains have flooded displacement camps, leaving hundreds of thousands of Palestinians in increasingly dire conditions. Under the ceasefire deal, Israel pledged to allow 4,200 vehicles carrying humanitarian and commercial goods into Gaza each week, equivalent to roughly 18,200 a month. Deliveries were to include food, fuel, medical supplies and equipment, shelter materials and equipment to repair essential infrastructure. Data supplied by the Coordinator of Government Activities in the Territories (Cogat) to the US-led International Gaza Support Center (IGSC) show that Israel allowed about 4,700 trucks into Gaza in March, rising to 5,300 in April and more than 9,600 in May. The number increased to more than 12,000 in June before falling to about 10,000 in both July and August. Deliveries peaked at more than 13,000 in September, then dropped sharply to just over 6,500 in October. Cogat disputed the findings, saying that the data presented was \"inaccurate” and that Israel was meeting its humanitarian commitments “and beyond them”. The figures mark a rare instance in which statistics supplied by Israel to the IGSC sh",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/A%20boy%20eats%20from%20a%20pot%20as%20displaced%20Palestinians%20gather%20for%20hot%20meals%20distributed%20by%20a%20charity%20kitchen%20in%20Nuseirat%20refugee%20camp%2C%20central%20Gaza%20Strip%2C%2012%20June%202026%20%28Eyad%20Baba%20AFP%29.jpg.jpg?itok=rtSEmYYE",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T15:01:42+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/israels-data-shows-allowed-half-promised-aid-trucks-gaza"
+    },
+    {
+      "id": "64995cafe002de61",
+      "title": "Keselamatan gelang layanan meningkatkan perawatan untuk anak-anak dan lansia di Mesjid Mekah",
+      "description": "MakKAH - Otoritas Umum untuk Layanan Urusan Masjid Agung dan Masjid Nabi adalah menyediakan gelang keselamatan untuk pengunjung Masjid Agung untuk memfasilitasi identifikasi dan lokasi anak-anak, orang tua dan orang-orang dengan cacat jika mereka terpisah dari teman-teman mereka. Inisiatif bertujuan untuk meningkatkan keselamatan pengunjung dan memastikan kesejahteraan mereka sementara mereka berada di dalam Masjid Grand dan porseleds nya. Layanan disediakan gratis biaya melalui pusat perawatan tamu. Pewaris diberikan gelang berisi rincian identifikasi, yang memungkinkan staf di tanah untuk mengidentifikasi mereka dan menghubungi keluarga mereka ketika diperlukan. Inisiatif ini mencerminkan komitmen otoritas untuk memprioritaskan keamanan dan kemanusiaan, memastikan lingkungan yang aman dan diakses bagi semua orang yang mengunjungi Masjid, dengan demikian memfasilitasi perjalanan mereka dan memungkinkan mereka untuk melakukan ibadah mereka dengan ketenangan pikiran.",
+      "originalTitle": "Safety bracelet service enhances care for children and elderly at Makkah Grand Mosque",
+      "originalDescription": "MAKKAH — The General Authority for the Care of the Affairs of the Grand Mosque and the Prophet’s Mosque is providing safety bracelets to visitors of the Grand Mosque to facilitate the identification and location of children, elderly people and persons with disabilities if they become separated from their companions. The initiative aims to enhance visitor safety and ensure their well-being while they are inside the Grand Mosque and its courtyards. The service is provided free of charge through the guest care centers. Beneficiaries are given bracelets containing identification details, which enable staff on the ground to identify them and contact their families when necessary. This initiative reflects the authority’s commitment to prioritizing safety and humanitarian care, ensuring a secure and accessible environment for all who visit the Grand Mosque, thereby facilitating their journey and allowing them to perform their worship with peace of mind.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/15/2794892.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-15T14:49:51+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666267/saudi-arabia/safety-bracelet-service-enhances-care-for-children-and-elderly-at-makkah-grand-mosque"
+    },
     {
       "id": "e746ee0034150930",
       "title": "Imam Nawawi Jelaskan Nasib Tiga Golongan Manusia di Atas Shirath",
@@ -215,6 +593,32 @@
       "region": "",
       "publishedAt": "2026-11-15T14:01:29+00:00",
       "originalUrl": "https://saudigazette.com.sa/article/666266/saudi-arabia/commerce-ministry-recalls-2214-bose-speakers-over-battery-overheating-and-fire-risk"
+    },
+    {
+      "id": "3d2894acedf0dc37",
+      "title": "Bangkit Bergerak: Menelusuri Pergulatan NU di Jawa Barat, Banten, dan Jakarta",
+      "description": "Buku Abdullah Alawi merekonstruksi kebangkitan NU di Jawa Barat, Banten, dan Jakarta 1926–1941 lewat jaringan ulama, pesantren, dan gerakan sosial.",
+      "originalTitle": "Bangkit Bergerak: Menelusuri Pergulatan NU di Jawa Barat, Banten, dan Jakarta",
+      "originalDescription": "Buku Abdullah Alawi merekonstruksi kebangkitan NU di Jawa Barat, Banten, dan Jakarta 1926–1941 lewat jaringan ulama, pesantren, dan gerakan sosial.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/bangkit-bergerak_1794760910.webp",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama",
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-15T14:00:41+00:00",
+      "originalUrl": "https://www.nu.or.id/pustaka/bangkit-bergerak-menelusuri-pergulatan-nu-di-jawa-barat-banten-dan-jakarta-FZ36Z"
     },
     {
       "id": "d345b0d66ab34110",
@@ -290,6 +694,31 @@
       "region": "",
       "publishedAt": "2026-11-15T13:41:00+00:00",
       "originalUrl": "https://saudigazette.com.sa/article/666265/saudi-arabia/inflation-in-saudi-arabia-reaches-17-in-october"
+    },
+    {
+      "id": "4cb7588b3784329e",
+      "title": "Koalisi Arab Saudi Tembak Jatuh Dua Drone Houthi di Mekkah",
+      "description": "Koalisi Arab Saudi mengumumkan berhasil mencegat dan menghancurkan dua drone yang diluncurkan kelompok Houthi di wilayah Mekkah.",
+      "originalTitle": "Koalisi Arab Saudi Tembak Jatuh Dua Drone Houthi di Mekkah",
+      "originalDescription": "Koalisi Arab Saudi mengumumkan berhasil mencegat dan menghancurkan dua drone yang diluncurkan kelompok Houthi di wilayah Mekkah.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-09/التحالف-المالكي-jAdFc_io.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-15T13:39:04+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/sm1v8e3fd"
     },
     {
       "id": "bd439d554c6af860",
@@ -1548,31 +1977,6 @@
       "originalUrl": "https://news.detik.com/berita/d-8753505/legislator-minta-oknum-tni-aniaya-santri-dihukum-tegas-tindakan-biadab"
     },
     {
-      "id": "5ba39d5426588acf",
-      "title": "Koalisi Arab Saudi Tembak Jatuh Drone di Wilayah Timur",
-      "description": "Juru bicara Koalisi Arab Saudi menyatakan satu drone berhasil dicegat dan dihancurkan di wilayah timur negara itu.",
-      "originalTitle": "Koalisi Arab Saudi Tembak Jatuh Drone di Wilayah Timur",
-      "originalDescription": "Juru bicara Koalisi Arab Saudi menyatakan satu drone berhasil dicegat dan dihancurkan di wilayah timur negara itu.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-07/اللواء-الركن-تركي-المالكي-OVx1Phz3.png",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-15T00:15:35+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/2fz0u5tx4"
-    },
-    {
       "id": "27c9236752d51ef2",
       "title": "Serangan Israel membunuh orang Palestina, dua luka lainnya di Gaza",
       "description": "Serangan Israel membunuh orang Palestina, melukai dua orang lainnya di Gaza. Seorang Palestina telah tewas dan dua lainnya terluka setelah pasukan Israel menyerang area tersebut.",
@@ -1921,6 +2325,31 @@
       "region": "",
       "publishedAt": "2026-11-14T17:16:18+00:00",
       "originalUrl": "https://www.middleeasteye.net/news/saudi-arabia-executes-former-child-protester-jawad-qureiris"
+    },
+    {
+      "id": "9585a3aee3128bee",
+      "title": "Koalisi mencegat 2 UAV, dipecat oleh milisi Houthi, di Riyadh dan daerah selatan",
+      "description": "RIYADH - Dua UAV, dipecat oleh teroris milisi Houthi, dicegat dan hancur di Riyadh dan daerah selatan. Ini diungkapkan oleh Mayor Jenderal Turki Al- Maliki, juru bicara Koalisi untuk memulihkan Legitimasi di Yaman.",
+      "originalTitle": "Coalition intercepts 2 UAVs, fired by Houthi militia, in Riyadh and southern regions",
+      "originalDescription": "RIYADH — Two UAVs, fired by the terrorist Houthi militia, were intercepted and destroyed in Riyadh and southern regions. This was disclosed by Maj. Gen. Turki Al-Maliki, spokesperson of the Coalition to Restore Legitimacy in Yemen.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/14/2794480.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T17:05:56+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666251/saudi-arabia/coalition-intercepts-2-uavs-fired-by-houthi-militia-in-riyadh-and-southern-regions"
     },
     {
       "id": "ff57ebef9dddd661",
@@ -5269,31 +5698,6 @@
       "region": "",
       "publishedAt": "2026-11-12T19:20:40+00:00",
       "originalUrl": "https://indonesian.ajel.sa/ekonomi/b64vg2a4y"
-    },
-    {
-      "id": "5badd4b1f7d7a33a",
-      "title": "Koalisi Arab Saudi Tembak Jatuh Drone Houthi di Wilayah Riyadh",
-      "description": "Juru bicara Koalisi Arab Saudi mengumumkan keberhasilan menggagalkan dan menghancurkan drone Houthi yang diluncurkan ke wilayah Riyadh.",
-      "originalTitle": "Koalisi Arab Saudi Tembak Jatuh Drone Houthi di Wilayah Riyadh",
-      "originalDescription": "Juru bicara Koalisi Arab Saudi mengumumkan keberhasilan menggagalkan dan menghancurkan drone Houthi yang diluncurkan ke wilayah Riyadh.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-10/اللواء-الركن-تركي-المالكي3-nLwNdAOS.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-12T19:18:34+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/wmcd4q3qt"
     },
     {
       "id": "873381bc669207fc",
@@ -11900,359 +12304,6 @@
       "region": "",
       "publishedAt": "2026-11-09T11:18:59+00:00",
       "originalUrl": "https://saudigazette.com.sa/article/666113/saudi-arabia/saudi-arabia-launches-online-medical-exam-booking-for-newly-arrived-domestic-workers"
-    },
-    {
-      "id": "015dc7893a24affa",
-      "title": "NCM mengeluarkan peringatan merah untuk kabut padat di Asir, peringatan oranye untuk hujan dan kabut di 3 daerah",
-      "description": "JEDDAH - Pusat Nasional Meteorologi (NCM) mengeluarkan peringatan merah untuk kabut padat di Asir bersama peringatan oranye untuk curah hujan moderat di Vassim dan kabut di Jazan dan Riyadh pada hari Senin. Peringatan merah di Asir meliputi Abha, Ahad Rufaydah, Al Namas, Balqarn, Tanorah dan Khamis Mushait, peringatan kabut tebal dan visibilitas turun ke satu kilometer atau kurang. Peringatan itu berlaku dari 1 pagi sampai 8 pagi Di Qassim, sebuah peringatan oranye dikeluarkan untuk curah hujan moderat 10: 00 sampai 10: 00, meliputi Abanat, Al Khabra, Al Rass, Al Fawwarah, Al Nabhaniyah, Riyadh Al Khabra, Dariyah dan Uqlat Al Suqur. NCM memperingatkan bahwa curah hujan dapat disertai oleh angin kuat, dekat - nol visibilitas, hujan es, banjir kilat dan badai petir. Sementara itu, peringatan oranye untuk kabut dikeluarkan di Jazan, meliputi Al Harth, Al Dair, Al Reeth, Al Aridah, Al Eidabi, Fayfa dan Harub, dari 1: 00 sampai 8: 00, dengan visibilitas diharapkan drop ke antara satu dan tiga kilometer. Di wilayah Riyadh, sebuah peringatan oranye untuk melanjutkan kabut Al Zulu, Al Ghat, Al Majmaah dan Shaqra dari 1: 10 pagi, dengan visibilitas juga diharapkan jatuh ke antara satu dan tiga kilometer. Dalam ramalan cuaca sehari-hari, NCM diperkirakan moderat untuk badai petir berat disertai hujan es dan angin aktif di bagian-bagian Jazan, Asir dan Al Baha, berpotensi menyebabkan banjir kilat. Cahaya untuk curah hujan sedang juga diperkirakan untuk bagian-bagian daerah Mekah dan Riyadh, sementara angin aktif bisa menaikkan debu dan pasir, mengurangi visibilitas di beberapa daerah. Pusat juga memperingatkan kemungkinan formasi kabut di bagian daerah yang terkena dampak.",
-      "originalTitle": "NCM issues red alert for dense fog in Asir, orange alerts for rain and fog in 3 regions",
-      "originalDescription": "JEDDAH —The National Center for Meteorology (NCM) issued a red alert for dense fog in Asir alongside orange alerts for moderate rainfall in Qassim and fog in Jazan and Riyadh on Monday. The red alert in Asir covers Abha, Ahad Rufaydah, Al Namas, Balqarn, Tanomah and Khamis Mushait, warning of dense fog and visibility dropping to one kilometer or less. The alert was in effect from 1 a.m. to 8 a.m. In Qassim, an orange alert was issued for moderate rainfall from 10 a.m. to 10 p.m., covering Abanat, Al Khabra, Al Rass, Al Fawwarah, Al Nabhaniyah, Riyadh Al Khabra, Dariyah and Uqlat Al Suqur. The NCM warned that the rainfall could be accompanied by strong winds, near-zero visibility, hail, flash floods and thunderstorms. Meanwhile, an orange alert for fog was issued in Jazan, covering Al Harth, Al Dair, Al Reeth, Al Aridah, Al Eidabi, Fayfa and Harub, from 1 a.m. to 8 a.m., with visibility expected to drop to between one and three kilometers. In Riyadh region, an orange alert for continued fog covered Al Zulfi, Al Ghat, Al Majmaah and Shaqra from 1 a.m. to 10 a.m., with visibility also expected to fall to between one and three kilometers. In its daily weather forecast, the NCM predicted moderate to heavy thunderstorms accompanied by hail and active winds across parts of Jazan, Asir and Al Baha, potentially causing flash floods. Light to moderate rainfall was also forecast for parts of Makkah and Riyadh regions, while active winds could raise dust and sand, reducing visibility in several areas. The center also warned of possible fog formation in parts of the affected regions.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2791995.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-09T11:05:26+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666112/saudi-arabia/ncm-issues-red-alert-for-dense-fog-in-asir-orange-alerts-for-rain-and-fog-in-3-regions"
-    },
-    {
-      "id": "ac5cb27b5f7c0a7f",
-      "title": "BPKH Optimalkan Pengelolaan Dana Kemaslahatan Rp 4 Triliun",
-      "description": "BANDUNG — Badan Pengelola Keuangan Haji (BPKH) menegaskan komitmennya dalam mengelola dan menyalurkan dana haji secara transparan, akuntabel, dan tepat sasaran. Selain pengelolaan dana utama jamaah yang secara konsisten...",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/anggota-badan-pelaksana-bpkh-indra-gunawan-menegaskan-komitmennya-dalam_261109175709-696.jpg",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "Republika",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T10:58:16+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to8eh4430/bpkh-optimalkan-pengelolaan-dana-kemaslahatan-rp-4-triliun",
-      "sources": [
-        "Republika"
-      ]
-    },
-    {
-      "id": "e6fd0a5010ad82b4",
-      "title": "Otoritas Gaza membanting global 'inaction' setelah Mudslide membunuh lima orang",
-      "description": "Empat anak dan seorang wanita tewas setelah hujan lebat menyebabkan bank pasir runtuh di tenda mereka.",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af1a39dc6406-1794220957.jpg?resize=1920%2C1440",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Al Jazeera",
-      "sourceCountry": "International",
-      "region": "",
-      "language": "id",
-      "country": "International",
-      "publishedAt": "2026-11-09T10:50:49+00:00",
-      "originalUrl": "https://www.aljazeera.com/news/2026/11/9/gaza-authorities-slam-global-inaction-after-mudslide-kills-five-people",
-      "originalTitle": "Gaza authorities slam global ‘inaction’ after mudslide kills five people",
-      "originalDescription": "Four children and a woman were killed after heavy rain caused a sandbank to collapse on their tent.",
-      "translationStatus": "success",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
-      "originalLanguage": "en",
-      "translated": true
-    },
-    {
-      "id": "b9b656cc470a6ebb",
-      "title": "Arab Saudi mengamankan lebih dari 1,3 juta tempat tidur untuk haji, lisensi semua bangunan akomodasi haji",
-      "description": "JEDDAH - Arab Saudi telah mengamankan lebih dari 1,3 juta tempat tidur untuk musim haji 1448 AH, Menteri Turisme Ahmed Al- Khateeb mengumumkan. Berbicara di Konferensi Haji dan Pameran, Al- Khateeb mengungkapkan bahwa semua bangunan yang ditunjuk untuk mengakomodasi peziarah untuk musim haji mendatang telah berlisensi assa hari sebelumnya, menyoroti persiapan awal Kingdom. Menteri mengatakan bahwa sekitar 4.000 bangunan akomodasi di Mekah dan Madinah telah dibuat tersedia, menyediakan kapasitas gabungan dari 400.000 kamar. Dia juga mengungkapkan bahwa sementara fasilitas akomodasi untuk haji telah disediakan sekitar 560.000 tempat tidur. Al- Khateeb menyoroti skala kapasitas akomodasi di dua kota suci, membandingkan mereka gabungan 400.000 kamar dengan kapasitas akomodasi tersedia di negara-negara di seluruh dunia. Dia mengatakan bahwa hanya 10 persen negara secara global menawarkan sejumlah kamar yang sebanding. Menteri menjelaskan bahwa Kementerian Turisme dipercayakan untuk mengawasi akomodasi haji haji haji tahun lalu, berfokus pada dua prioritas utama: memastikan kapasitas akomodasi yang cukup dan menjaga standar pelayanan tinggi. Dalam koordinasi dengan Kementerian Haji dan Umrah dan di bawah pengawasan Komite Haji Agung, dipimpin oleh Menteri Dalam Negeri, sekitar 400 bangunan dihapus dari layanan karena gagal untuk memenuhi persyaratan penting tertentu. Al- Khateeb menjelaskan bahwa penilaian bangunan fokus pada dua daerah utama: keselamatan struktural dan kualitas layanan yang disediakan dalam fasilitas akomodasi. Bekerja bersama Pertahanan Sipil, pihak berwenang menilai bangunan untuk integritas struktural, pintu keluar darurat, keamanan secara keseluruhan dan kesiapan, dan kesesuaian untuk akomodasi ziarah berlisensi. Menteri juga menyoroti bahwa kepuasan haji mencapai 93 persen, menekankan bahwa kualitas akomodasi memainkan peran penting dalam mempertahankan keseluruhan pengalaman ziarah. Dia mencatat bahwa bahkan ketika bandara dan layanan transportasi ",
-      "originalTitle": "Saudi Arabia secures over 1.3 million beds for Hajj, licenses all pilgrim accommodation buildings",
-      "originalDescription": "JEDDAH — Saudi Arabia has secured more than 1.3 million beds for the 1448 AH Hajj season, Minister of Tourism Ahmed Al-Khateeb announced. Speaking at the Hajj Conference and Exhibition, Al-Khateeb revealed that all buildings designated to accommodate pilgrims for the upcoming Hajj season had been licensed asof the previous day, highlighting the Kingdom's early preparations. The minister said that approximately 4,000 accommodation buildings across Makkah and Madinah have been made available, providing a combined capacity of 400,000 rooms. He also revealed that temporary accommodation facilities for Hajj pilgrims have provided approximately 560,000 beds. Al-Khateeb highlighted the scale of accommodation capacity in the two holy cities, comparing their combined 400,000 rooms to the accommodation capacity available in countries worldwide. He said that only 10 percent of countries globally offer a comparable number of rooms. The minister explained that the Ministry of Tourism was entrusted with overseeing Hajj pilgrim accommodation last year, focusing on two key priorities: ensuring sufficient accommodation capacity and maintaining high service standards. In coordination with the Ministry of Hajj and Umrah and under the supervision of the Supreme Hajj Committee, chaired by the Minister of Interior, approximately 400 buildings were removed from service for failing to meet certain essential requirements. Al-Khateeb explained that building assessments focus on two main areas: structural safety and the quality of services provided within accommodation facilities. Working alongside Civil Defense, authorities assess buildings for structural integrity, emergency exits, overall safety and readiness, and suitability for licensed pilgrim accommodation. The minister also highlighted that Hajj pilgrim satisfaction had reached 93 percent, emphasizing that accommodation quality plays a crucial role in maintaining the overall pilgrim experience. He noted that even when airport and tran",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2791966.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi",
-        "Haji dan Umrah"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-09T10:22:09+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666109/saudi-arabia/saudi-arabia-secures-over-13-million-beds-for-hajj-licenses-all-pilgrim-accommodation-buildings"
-    },
-    {
-      "id": "6d79fdf04b31d1d4",
-      "title": "Arab Saudi mencapai tingkat kepuasan haji 93%",
-      "description": "JEDDAH - Arab Saudi mencapai tingkat kepuasan 93 persen dengan layanan yang disediakan untuk peziarah haji, Menteri haji dan Umrah Tawfiq Al- Rabia mengumumkan. Berbicara di Konferensi Haji dan Pameran, Al- Rabiah dikaitkan prestasi untuk upaya terkoordinasi Melibatkan lebih dari 60 lembaga pemerintah dan review sekitar 600 rencana depan musim haji. Menteri juga menyoroti kemajuan di bawah Program Peziarah, diluncurkan pada tahun 2019 di bawah Penjaga Dua Masjid Suci Raja Salman, mengumumkan bahwa program telah melampaui target 90 persen untuk pengalaman peziarah Umrah. Dia menguraikan tiga tujuan utama program ini: memfasilitasi akses ke Dua Masjid Suci, memberikan layanan berkualitas tinggi, dan memperkaya pengalaman agama dan budaya para peziarah. Al- Rabiah menjelaskan bahwa program ini melacak beberapa indikator kinerja kunci, termasuk jumlah peziarah Umrah, aksesibilitas bagi peziarah internasional, dan seluruh pengalaman Umrah. Dia juga menyoroti upaya untuk meningkatkan haji pengalaman dan mengembangkan sejarah, Islam, dan situs budaya. Menteri lebih lanjut menguraikan perencanaan ekstensif balik prestasi ini, termasuk menetapkan tujuan, koordinasi pertemuan, dan membangun sistem terintegrasi untuk mengelola haji dan proyek Umrah. Al- Rabiah menekankan bahwa hasil upaya ini sekarang terlihat di tanah.",
-      "originalTitle": "Saudi Arabia achieves 93% Hajj pilgrim satisfaction rate",
-      "originalDescription": "JEDDAH —Saudi Arabia achieved a 93 percent satisfaction rate with services provided to Hajj pilgrims, Minister of Hajj and Umrah Tawfiq Al-Rabiah announced. Speaking at the Hajj Conference and Exhibition, Al-Rabiah attributed the achievement to coordinated efforts involving more than 60 government agencies and the review of approximately 600 plans ahead of the Hajj season. The minister also highlighted progress under the Pilgrim Experience Program, launched in 2019 under the Custodian of the Two Holy Mosques King Salman, announcing that the program had surpassed its 90 percent target for the Umrah pilgrim experience. He outlined the program's three main objectives: facilitating access to the Two Holy Mosques, delivering high-quality services, and enriching pilgrims' religious and cultural experiences. Al-Rabiah explained that the program tracks several key performance indicators, including the number of Umrah pilgrims, accessibility for international pilgrims, and the overall Umrah experience. He also highlighted efforts to enhance the Hajj pilgrim experience and develop historical, Islamic, and cultural sites. The minister further outlined the extensive planning behind these achievements, including setting objectives, coordinating meetings, and establishing an integrated system to manage Hajj and Umrah projects. Al-Rabiah emphasized that the results of these efforts are now visible on the ground.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2791911.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi",
-        "Haji dan Umrah",
-        "Masjid dan Peradaban"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-09T08:57:57+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666104/saudi-arabia/saudi-arabia-exceeds-90-umrah-pilgrim-satisfaction-target"
-    },
-    {
-      "id": "e2ab7706883c8019",
-      "title": "Enam negara lagi, GCC dan Liga Dunia Muslim mengutuk serangan Houthi terhadap Arab Saudi",
-      "description": "RIYADH - Enam lebih negara bersama dengan Dewan Kerjasama Teluk (GCC) dan Liga Dunia Muslim (MWL), telah mengutuk teroris milisi Houthi yang terus menyerang Arab Saudi, bergabung dengan Suriah, Kuwait dan Bahrain dalam mendukung solidaritas dengan Kerajaan dan mendukung keamanan dan kedaulatan. Dalam pernyataan yang dikeluarkan pada hari Senin, Kementerian Luar Negeri UAE mengutuk upaya kelompok Houthi untuk menargetkan beberapa daerah Arab Saudi, menggambarkan mereka sebagai pelanggaran yang mencolok atas kedaulatan Kerajaan dan ancaman bagi keamanan dan stabilitas. Menteri menegaskan kembali solidaritas penuh UAE dengan Arab Saudi dan mendukung semua tindakan yang bertujuan untuk mempertahankan keamanan dan stabilitas. Kementerian Luar Negeri Mesir juga mengutuk serangan terus-menerus di wilayah Saudi, termasuk peluncuran dua rudal balistik terhadap Riyadh, menggambarkan mereka sebagai pelanggaran hukum internasional dan kedaulatan Saudi, eskalasi dan ancaman langsung terhadap warga sipil. Departemen menyatakan solidaritas penuh Mesir dengan Arab Saudi dan dukungan untuk tindakan yang diambil untuk mempertahankan keamanan, kedaulatan, warga negara dan kepentingan. Kementerian Luar Negeri Qatar mengutuk serangan Houthi di beberapa wilayah kerajaan, yang terbaru menargetkan Riyadh dengan dua rudal balistik, menggambarkan mereka sebagai tindakan agresif yang tidak menghargai kehidupan warga sipil dan melanggar kedaulatan Saudi dan hukum internasional. Qatar meminta untuk segera menghentikan serangan terhadap warga sipil dan objek sipil dan menegaskan kembali solidaritas penuh dengan Arab Saudi, menekankan bahwa keamanan Kerajaan tidak terpisahkan dari Qatar dan GCC yang lebih luas. Sementara itu, Kementerian Luar Negeri Yaman dan Expatriates mengutuk serangan tersebut, yang dikaitkan dengan milisi Iran- didukung Houthi, termasuk peluncuran rudal balistik dan pelayaran menuju Riyadh, Provinsi Timur dan Arab Saudi selatan. Yaman menegaskan kembali dukungannya untuk upa",
-      "originalTitle": "Six more nations, GCC and Muslim World League condemn Houthi attacks on Saudi Arabia",
-      "originalDescription": "RIYADH — Six more countries along with the Gulf Cooperation Council (GCC) and Muslim World League (MWL), have strongly condemned the terrorist Houthi militia’s continued attacks on Saudi Arabia, joining Syria, Kuwait and Bahrain in reaffirming solidarity with the Kingdom and support for its security and sovereignty. In a statement issued on Monday, the UAE Ministry of Foreign Affairs condemned the Houthi group’s attempts to target several areas of Saudi Arabia, describing them as a flagrant violation of the Kingdom’s sovereignty and a threat to its security and stability. The ministry reaffirmed the UAE’s full solidarity with Saudi Arabia and support for all measures aimed at preserving its security and stability. Egypt’s Ministry of Foreign Affairs also condemned the continued attacks on Saudi territory, including the launch of two ballistic missiles toward Riyadh, describing them as a violation of international law and Saudi sovereignty, an escalation and a direct threat to civilians. The ministry expressed Egypt’s full solidarity with Saudi Arabia and support for measures taken to defend its security, sovereignty, citizens and interests. Qatar’s Ministry of Foreign Affairs condemned the Houthi attacks on several areas of the Kingdom, most recently the targeting of Riyadh with two ballistic missiles, describing them as aggressive conduct that disregards civilian lives and violates Saudi sovereignty and international law. Qatar called for an immediate halt to attacks on civilians and civilian objects and reaffirmed its full solidarity with Saudi Arabia, stressing that the Kingdom’s security is inseparable from that of Qatar and the wider GCC. Meanwhile, Yemen’s Ministry of Foreign Affairs and Expatriates condemned the attacks, which it attributed to the Iran-backed Houthi militia, including the launch of ballistic and cruise missiles toward Riyadh, the Eastern Province and southern Saudi Arabia. Yemen reaffirmed its support for Saudi Arabia’s efforts to protect its",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2791905.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-09T08:27:40+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666103/saudi-arabia/six-more-nations-gcc-and-muslim-world-league-condemn-houthi-attacks-on-saudi-arabia"
-    },
-    {
-      "id": "27e8d3318cbd9edf",
-      "title": "Gaza: Lima orang Palestina tewas sebagai tanggul pasir runtuh pada tenda perpindahan",
-      "description": "Gaza: 5 orang Palestina tewas saat tanggul pasir runtuh pada tenda pemindahan yang diturunkan oleh staf MEE pada Mon, 11 / 09 / 2026 - 07: 57 Tiga anak dan dua perempuan meninggal di Deir al- Balah sebagai hujan yang deras dan cuaca yang parah, dan kamp perpindaman perpindaman di sepanjang jalan Dua wanita dan tiga anak meninggal setelah tanggul pasir runtuh pada mereka di Deir al- Balah, Jalur Gaza, pada 8 November 2026 (X) Tangki pasir runtuh di atas tenda-tenda yang melindungi orang Palestina di Jalur Gaza pada hari Minggu, membunuh tiga anak-anak dan dua perempuan sebagai daerah cuaca parah. Setidaknya lima orang lainnya diselamatkan dengan luka-luka oleh Pencarian Pertahanan Sipil dan tim penyelamat di kamp darurat di Deir Al- Balah, di mana operasi untuk menemukan orang hilang dilanjutkan. Mahmoud Basal, spo",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/gaa-sand-cliff.jpg.jpg?itok=Lonq8Gon",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sourceCountry": "International",
-      "region": "",
-      "language": "id",
-      "country": "International",
-      "publishedAt": "2026-11-09T08:08:55+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/gaza-five-palestinians-killed-sand-embankment-collapses-displacement-tents",
-      "originalTitle": "Gaza: Five Palestinians killed as sand embankment collapses on displacement tents",
-      "originalDescription": "Gaza: Five Palestinians killed as sand embankment collapses on displacement tents Submitted by MEE staff on Mon, 11/09/2026 - 07:57 Three children and two women die in Deir al-Balah as torrential rain and severe weather batter makeshift displacement camps across the Strip Two women and three children died after a sand embankment collapsed on them in Deir al-Balah, the Gaza Strip, on 8 November 2026 (X) Off A sand embankment collapsed on tents sheltering displaced Palestinians in the Gaza Strip late on Sunday, killing three children and two women as severe weather battered the territory. At least five other people were rescued with injuries by Civil Defence search-and-rescue teams at the makeshift camp in Deir al-Balah, where operations to locate missing people continued. Mahmoud Basal, spo",
-      "translationStatus": "success",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
-      "sources": [
-        "Middle East Eye",
-        "BBC World"
-      ],
-      "originalLanguage": "en",
-      "translated": true
-    },
-    {
-      "id": "8d3c959850842408",
-      "title": "Mengenal Persamaan dan Perbedaan Zakat dengan Pajak",
-      "description": "JAKARTA -- Zakat dan pajak sama-sama mewajibkan seseorang mengeluarkan sebagian hartanya untuk kepentingan masyarakat. Namun, keduanya memiliki perbedaan mendasar dalam hal landasan, tujuan, hingga mekanisme penyalurannya. Dalam kitab Fiqhuz...",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/ilustrasi-pajak_250913175421-642.jpg",
-      "category": "Ekonomi Syariah",
-      "tags": [
-        "Ekonomi Syariah"
-      ],
-      "source": "Republika",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T07:31:28+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to84wg430/mengenal-persamaan-dan-perbedaan-zakat-dengan-pajak"
-    },
-    {
-      "id": "7cd1c024996b944c",
-      "title": "Umat Islam harus Bangun Keberanian dan Integritas dalam Menegakkan Kebenaran",
-      "description": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Anggota Majelis Tabligh Pimpinan Wilayah Muhammadiyah Daerah Istimewa Yogyakarta (DIY), Hendra Darmawan, mengajak umat Islam membangun keberanian dalam menegakkan kebenaran dan mencegah kemungkaran. Menurutnya, keberanian merupakan bagian penting dari keimanan yang harus diwujudkan dalam kehidupan pribadi maupun sosial. Hal itu disampaikan Hendra dalam khutbah Jumat di Masjid Islamic Center Universitas Ahmad Dahlan […] The post Umat Islam harus Bangun Keberanian dan Integritas dalam Menegakkan Kebenaran appeared first on Muhammadiyah .",
-      "image": "https://muhammadiyah.or.id/wp-content/uploads/2024/09/Nabi-Muhammad-Saw-Figur-Pemberani-Sekaligus-Dermawan-Sejati.webp",
-      "category": "Masjid dan Peradaban",
-      "tags": [
-        "Masjid dan Peradaban"
-      ],
-      "source": "Muhammadiyah Org",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T05:50:47+00:00",
-      "originalUrl": "https://muhammadiyah.or.id/2026/11/umat-islam-harus-bangun-keberanian-dan-integritas-dalam-menegakkan-kebenaran",
-      "translationStatus": "not_needed"
-    },
-    {
-      "id": "9c01057ebc9957a5",
-      "title": "5 orang tewas akibat tebing pasir runtuh timpa tenda pengungsi di Gaza",
-      "description": "Setidaknya lima warga Palestina, termasuk tiga anak-anak, tewas pada Minggu malam (8/11) saat tebing pasir runtuh ...",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/09/CjkinzN000008_20261109_CBMFN0A001.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "ANTARA Terkini",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T05:46:37+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5840979/5-orang-tewas-akibat-tebing-pasir-runtuh-timpa-tenda-pengungsi-di-gaza",
-      "translationStatus": "not_needed"
-    },
-    {
-      "id": "6ef7c3f1264bee74",
-      "title": "Khofifah Minta Seleksi Petugas Haji Daerah 2027 Transparan dan Objektif",
-      "description": "SURABAYA -- Gubernur Jawa Timur Khofifah Indar Parawansa meminta seleksi Petugas Haji Daerah (PHD) 1448 Hijriyah/2027 Masehi berjalan objektif, transparan, akuntabel, dan nondiskriminatif sesuai Keputusan Menteri Haji dan Umrah...",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/_251110215458-825.png",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "Republika",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T05:23:22+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to7yyy366/khofifah-minta-seleksi-petugas-haji-daerah-2027-transparan-dan-objektif"
-    },
-    {
-      "id": "e210834da65c9e9f",
-      "title": "'Hari-hari tidak melindungi kita': Rains pengungsi Palestina di Gaza",
-      "description": "Ratusan ribu orang Palestina rentan banjir sementara Israel terus memblokir entri rumah mobile.",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/873A0709-copy-1794143945.jpeg?resize=1920%2C1440",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Al Jazeera",
-      "sourceCountry": "International",
-      "region": "",
-      "language": "id",
-      "country": "International",
-      "publishedAt": "2026-11-09T05:18:39+00:00",
-      "originalUrl": "https://www.aljazeera.com/features/2026/11/9/tents-dont-protect-us-rains-flood-displaced-palestinians-in-gaza",
-      "originalTitle": "‘Tents don’t protect us’: Rains flood displaced Palestinians in Gaza",
-      "originalDescription": "Hundreds of thousands of Palestinians are vulnerable to flooding as Israel continues to block entry of mobile homes.",
-      "translationStatus": "success",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
-      "originalLanguage": "en",
-      "translated": true
-    },
-    {
-      "id": "54ea139523ea2ad4",
-      "title": "Watch: Banjir membawa Pertahanan Sipil Gaza untuk menyatakan keadaan darurat maksimum",
-      "description": "Perhatikan: Flooding membawa Pertahanan Sipil Gaza untuk menyatakan keadaan maksimum hujan lebat darurat dan angin yang kuat telah membanjiri puluhan ribu tenda perpindahan di Gaza, sehingga keluarga-keluarga yang terkena air banjir meningkat, kondisi beku dan kebutuhan kemanusiaan yang buruk. Pertahanan sipil Gaza menyatakan keadaan darurat maksimum sebagai tim penyelamat kewalahan berjuang untuk menanggapi ribuan panggilan darurat di tengah sumber daya terbatas dan tidak memadai berlindung. Tim penyelamat menerima lebih dari 2000 panggilan darurat sejak badai dimulai, sedangkan hanya memiliki kapasitas untuk menanggapi sepersepuluh dari panggilan yang diterima. Hujan lebat dan angin kencang telah membanjiri puluhan ribu tenda perpindahan di seluruh Gaza, membuat keluarga-keluarga terekspos di atas perairan, kondisi pembekuan dan kemanusiaan yang buruk",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sourceCountry": "International",
-      "region": "",
-      "language": "id",
-      "country": "International",
-      "publishedAt": "2026-11-09T02:08:15+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-flooding-brings-gazas-civil-defence-declare-maximum-state",
-      "originalTitle": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency",
-      "originalDescription": "Watch: Flooding brings Gaza's Civil Defence to declare maximum state of emergency Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitarian needs. Gaza's civil defence declared a maximum state of emergency as overwhelmed rescue teams struggled to respond to thousands of distress calls amid limited resources and inadequate shelter. Rescue teams received over 2000 distress calls since the storm began, while only having capacity to respond to a tenth of the calls received. Heavy rainfall and strong winds have flooded tens of thousands of displacement tents across Gaza, leaving families exposed to rising floodwaters, freezing conditions and worsening humanitari",
-      "translationStatus": "success",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
-      "originalLanguage": "en",
-      "translated": true
-    },
-    {
-      "id": "ef94b41c82a7a7bd",
-      "title": "Serap Aspirasi Jamaah di Makkah, Menhaj Siapkan Perbaikan Layanan Haji 2027",
-      "description": "MAKKAH -- Menteri Haji dan Umrah (Menhaj) RI, Mochamad Irfan Yusuf, menyerap aspirasi dan masukan langsung dari jamaah sebagai bahan peningkatan kualitas layanan haji dan umrah. Hal tersebut dilakukan...",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/menteri-haji-dan-umrah-menhaj-mochamad-irfan-yusuf-buka_260508141001-926.jpeg",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "Republika",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T02:04:26+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to7pre366/serap-aspirasi-jamaah-di-makkah-menhaj-siapkan-perbaikan-layanan-haji-2027",
-      "translationStatus": "not_needed"
-    },
-    {
-      "id": "a7d97de30d4821aa",
-      "title": "Deputi suci Emir meresmikan Konferensi Haji dan Exhibition",
-      "description": "JEDDAH - Deputi Emir Pangeran Saud bin Mishaal diresmikan pada hari Minggu edisi keenam dari Konferensi Haji dan Pameran di Jeddah Superdome. Empat hari acara diadakan di bawah perlindungan dari Custodian dari Dua Kudus Mosques Raja Salman. Konferensi ini, dengan tema \"Dari Mekah ke Dunia\", diselenggarakan oleh Kementerian Haji dan Umrah bekerjasama dengan Program Peziarah Pengalaman. Upacara pelantikan dihadiri oleh beberapa pejabat senior Saudi, kepala misi haji, dan perwakilan kantor urusan haji dari berbagai negara di dunia Islam. Deputi Emir dari Mekah tur pameran pendamping, di mana ia melihat teknologi terbaru, memperkaya inisiatif, dan pintar dirancang untuk meningkatkan layanan bagi peziarah. Dia juga mengunjungi paviliun-pavilion dari entitas yang turut serta mewakili sektor pemerintah, swasta, dan sektor nirlaba. Dalam alamatnya atas nama Raja Salman, Pangeran Saud menyambut para peserta ke rumah kedua mereka, Kerajaan Arab Saudi, dan menyampaikan salam Raja. \"Dengan bantuan Tuhan dan bimbingan, Arab Saudi terus upaya yang diberkati untuk melayani Dua Masjid Suci dan peziarah, menempatkan misi ini mulia di depan prioritas. The Kingdom menegaskan kembali komitmennya untuk pengembangan yang terus menerus dari sistem haji, meningkatkan kualitas pelayanan, memanfaatkan teknologi terbaru, dan memperkuat integrasi antara lembaga-lembaga pemerintah untuk memfasilitasi perjalanan peziarah dari keberangkatan sampai kembali dengan selamat. Kesuksesan musim haji sebagai bukti kesiapan dan efisiensi yang tinggi dari sistem haji\", wakil emir berkata, menambahkan, Haji dan Konferensi Umrah dan Exhibition adalah salah satu kunci dari kesuksesan ini, berkontribusi untuk meningkatkan kerjasama dan koordinasi bersama, kesimpulan perjanjian, dan meningkatkan persiapan untuk musim haji. Berbicara pada kesempatan, Menteri Haji dan Umrah Dr Tawfiq Al- Rabia menyoroti transformasi yang paling signifikan dalam sistem haji dan Umrah. Ini termasuk kompetisi mengembangkan, meningka",
-      "originalTitle": "Makkah Deputy Emir inaugurates Hajj Conference and Exhibition",
-      "originalDescription": "JEDDAH — Deputy Emir of Makkah Prince Saud bin Mishaal inaugurated on Sunday the sixth edition of the Hajj Conference and Exhibition at Jeddah Superdome. The four-day event is being held under the patronage of Custodian of the Two Holy Mosques King Salman. The conference, with the theme \"From Makkah to the World,\" is organized by the Ministry of Hajj and Umrah in cooperation with the Pilgrim Experience Program. The inaugural ceremony was attended by several senior Saudi officials, heads of Hajj missions, and representatives of Hajj affairs offices from various countries of the Islamic world. The Deputy Emir of Makkah toured the accompanying exhibition, where he viewed the latest technologies, enriching initiatives, and smart solutions designed to enhance services for pilgrims. He also visited the pavilions of participating entities representing the governmental, private, and non-profit sectors. In his address on behalf of King Salman, Prince Saud welcomed the attendees to their second home, the Kingdom of Saudi Arabia, and conveyed the King's greetings.“With God's help and guidance, Saudi Arabia continues its blessed efforts to serve the Two Holy Mosques and pilgrims, placing this noble mission at the forefront of its priorities. The Kingdom reaffirms its commitment to the continuous development of the Hajj system, enhancing service quality, harnessing the latest technologies, and strengthening integration among government agencies to facilitate the pilgrim's journey from departure until a safe return. The continued success of Hajj seasons stands as a testament to the readiness and high efficiency of the Hajj system,” the deputy emir said, adding, the Hajj and Umrah Conference and Exhibition is one of the key enablers of this success, contributing to enhanced cooperation and joint coordination, the conclusion of agreements, and improved preparedness for the Hajj season. Speaking on the occasion, Minister of Hajj and Umrah Dr. Tawfiq Al-Rabiah highlighted the most si",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2791801.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi",
-        "Haji dan Umrah",
-        "Masjid dan Peradaban"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-08T21:48:59+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666097/saudi-arabia/makkah-deputy-emir-inaugurates-hajj-conference-and-exhibition"
-    },
-    {
-      "id": "170ed85bbe4827dc",
-      "title": "US- Dewan Bisnis Saudi grafik jalan baru untuk meningkatkan perdagangan, investasi dan ikatan ekonomi",
-      "description": "Pertemuan Dewan Direksi AS-Saudi Business Council menegaskan kembali komitmennya untuk mendukung strategi dan kemitraan ekonomi antara dua negara. Dewan menyatakan keyakinan pada kekuatan Dewan dan terus mengembangkan potensi. Pertemuan ini juga meninjau prioritas untuk memperluas perdagangan antara dua negara, merangsang investasi, dan memperkuat kerjasama bisnis di sektor kepentingan bersama. Menteri Energi Saudi, Industri dan Sumber Daya Mineral Pangeran Abdulaziz bin Salman dan Menteri Investasi Fahad Al- Saif, bersama dengan beberapa pemimpin bisnis senior dari Arab Saudi dan Amerika Serikat menghadiri pertemuan, yang dipimpin oleh Saudi - Dewan Bisnis AS Co- Chair Persons Lubna Olayan dan Jane Fraser. Selama pertemuan, Pangeran Abdullah bin Salman menegaskan kembali komitmen Arab Saudi terhadap keamanan energi dan pengembangan industri. Dia menyoroti kesempatan muncul dalam kecerdasan buatan dan infrastruktur kritis dan mendasari kekuatan kemitraan antara Saudi dan sektor bisnis AS. Untuk bagiannya, Menteri Al- Saif menguraikan fitur kunci dari edisi kedua dari Strategi Investasi Nasional. Dia menunjukkan bahwa itu bertujuan untuk mengalihkan fokus dari mempromosikan investasi untuk mengubah kesempatan investasi menjadi investasi yang sebenarnya, sehingga mempercepat pertumbuhan ekonomi. Para menteri membahas prioritas utama dan kesempatan untuk memperdalam kerjasama antara dua negara dengan pemimpin dewan. Mereka meremehkan pentingnya hubungan dagang antara dua negara dan peran dewan dalam mengembangkan mereka. Olayan mengatakan komunitas bisnis tetap fokus pada peluang-peluang masa depan meskipun tantangan yang dihadapi daerah tersebut, menyoroti sejarah panjang kemitraan perdagangan yang sukses antara Arab Saudi dan AS dan potensi untuk memperdalam itu. Dia mencatat bahwa memperkuat komunikasi antara pemimpin eksekutif akan membuka jalan baru untuk investasi, inovasi, dan pertumbuhan ekonomi di kedua negara. Fraser mengatakan pertemuan itu mencerminkan komi",
-      "originalTitle": "US-Saudi Business Council charts new path to boost trade, investment and economic ties",
-      "originalDescription": "WASHINGTON — The meeting of the Board of Directors of the U.S.- Saudi Business Council reaffirmed its commitment to supporting the strategic and economic partnership between the two countries. The board expressed confidence in the council’s strength and continued growth potential. The meeting also reviewed priorities for expanding trade between the two countries, stimulating investment, and strengthening business cooperation in sectors of mutual interest. Saudi Minister of Energy, Industry and Mineral Resources Prince Abdulaziz bin Salman and Minister of Investment Fahad Al-Saif, along with several senior business leaders from Saudi Arabia and the United States attended the meeting, which was co-chaired by the Saudi-U.S. Business Council’s Co-Chair Persons Lubna Olayan and Jane Fraser. During the meeting, Prince Abdulaziz bin Salman reaffirmed Saudi Arabia’s commitment to energy security and industrial development. He highlighted emerging opportunities in artificial intelligence and critical infrastructure and underscored the strength of the partnership between the Saudi and U.S. business sectors.For his part, Minister Al-Saif outlined the key features of the upcoming second edition of the National Investment Strategy. He indicated that it aims to shift the focus from promoting investment to turning investment opportunities into actual investments, thereby accelerating economic growth.The ministers discussed key priorities and opportunities for deepening cooperation between the two countries with council leaders. They underscored the importance of trade relations between the two countries and the council’s role in developing them.Olayan said the business community remained focused on future opportunities despite the challenges facing the region, highlighting the long history of successful trade partnership between Saudi Arabia and the U.S. and the potential to deepen it. She noted that strengthening communication between executive leaders would open up new avenues f",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2791796.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-08T21:12:49+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666096/saudi-arabia/us-saudi-business-council-charts-new-path-to-boost-trade-investment-and-economic-ties"
     }
   ]
 }
