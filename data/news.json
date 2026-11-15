@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-14T23:56:56.495523+00:00",
-  "total": 448,
-  "newArticles": 110,
+  "lastUpdated": "2026-11-15T06:28:15.019816+00:00",
+  "total": 465,
+  "newArticles": 105,
   "sourcesChecked": 12,
   "sourcesSucceeded": 11,
   "sourcesFailed": 1,
@@ -11,9 +11,9 @@
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 4,
-      "filtered": 21,
-      "filteredFootball": 1,
+      "accepted": 6,
+      "filtered": 19,
+      "filteredFootball": 0,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -25,7 +25,7 @@
       "raw": 23,
       "accepted": 0,
       "filtered": 23,
-      "filteredFootball": 0,
+      "filteredFootball": 1,
       "translated": 23,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -35,8 +35,8 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 7,
-      "filtered": 8,
+      "accepted": 5,
+      "filtered": 10,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -49,7 +49,7 @@
       "raw": 50,
       "accepted": 1,
       "filtered": 49,
-      "filteredFootball": 6,
+      "filteredFootball": 1,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,8 +83,8 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 9,
-      "filtered": 11,
+      "accepted": 13,
+      "filtered": 7,
       "filteredFootball": 1,
       "translated": 20,
       "translationPartial": 0,
@@ -93,15 +93,15 @@
     },
     {
       "name": "Detik",
-      "status": "error",
-      "raw": 0,
-      "accepted": 0,
-      "filtered": 0,
-      "filteredFootball": 0,
+      "status": "success",
+      "raw": 100,
+      "accepted": 4,
+      "filtered": 96,
+      "filteredFootball": 1,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
+      "error": null
     },
     {
       "name": "Muhammadiyah",
@@ -117,22 +117,22 @@
     },
     {
       "name": "NU Online",
-      "status": "success",
-      "raw": 50,
-      "accepted": 16,
-      "filtered": 34,
+      "status": "error",
+      "raw": 0,
+      "accepted": 0,
+      "filtered": 0,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "403 Client Error: Forbidden for url: https://islam.nu.or.id/rss.xml"
     },
     {
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 21,
-      "filtered": 29,
+      "accepted": 24,
+      "filtered": 26,
       "filteredFootball": 7,
       "translated": 0,
       "translationPartial": 0,
@@ -156,16 +156,542 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 229,
+    "translatedArticles": 241,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 1601
+    "cacheEntries": 1669
   },
   "images": {
-    "found": 448,
+    "found": 465,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "92c0af1357baf3af",
+      "title": "Hanya 13 Persen Penderita Gangguan Jiwa Konsultasi ke Dokter di Tahun Pertama",
+      "description": "Ketua Perhimpunan Psikiatri Saudi menyebut hanya 13 persen penderita gangguan jiwa yang berkonsultasi ke dokter pada tahun pertama.",
+      "originalTitle": "Hanya 13 Persen Penderita Gangguan Jiwa Konsultasi ke Dokter di Tahun Pertama",
+      "originalDescription": "Ketua Perhimpunan Psikiatri Saudi menyebut hanya 13 persen penderita gangguan jiwa yang berkonsultasi ke dokter pada tahun pertama.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/طب-نفسي--DVrGYwe.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-15T06:12:06+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/9pnz5ribb"
+    },
+    {
+      "id": "43b20ed4f096a212",
+      "title": "Menag minta UIN Palu implementasikan tiga isu prioritas Kemenag",
+      "description": "Menteri Agama (Menag) Nasaruddin Umar mengatakan Universitas Islam Negeri (UIN) Datokarama Palu, Sulawesi Tengah ...",
+      "originalTitle": "Menag minta UIN Palu implementasikan tiga isu prioritas Kemenag",
+      "originalDescription": "Menteri Agama (Menag) Nasaruddin Umar mengatakan Universitas Islam Negeri (UIN) Datokarama Palu, Sulawesi Tengah ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/15/1000682098.jpg",
+      "category": "Pendidikan Islam",
+      "tags": [
+        "Pendidikan Islam",
+        "Nasional Islam"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-15T06:00:20+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5855371/menag-minta-uin-palu-implementasikan-tiga-isuprioritas-kemenag"
+    },
+    {
+      "id": "6bc5d5a39ae3b9e5",
+      "title": "Pusat Dukungan Usaha di Madinah Gelar Sesi Konsultasi Pengembangan Proyek",
+      "description": "Pusat Dukungan Usaha di Madinah mengadakan sesi konsultasi dan bimbingan bagi pelaku usaha pada 15-19 November untuk meningkatkan efisiensi dan praktik bisnis.",
+      "originalTitle": "Pusat Dukungan Usaha di Madinah Gelar Sesi Konsultasi Pengembangan Proyek",
+      "originalDescription": "Pusat Dukungan Usaha di Madinah mengadakan sesi konsultasi dan bimbingan bagi pelaku usaha pada 15-19 November untuk meningkatkan efisiensi dan praktik bisnis.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-08/منشآت-g1rzyXy7.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-15T04:39:44+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/ekonomi/mea3q8aoz"
+    },
+    {
+      "id": "b1221be63936241d",
+      "title": "West Bank: pasukan Israel menahan jurnalis Palestina, melakukan penggerebekan",
+      "description": "Bank Barat: pasukan Israel menahan jurnalis Palestina, melakukan penyerbuan terhadap pasukan Israel telah menahan jurnalis Palestina Mohammed Ateeq setelah menyerang rumahnya di kota Burqin, sebelah barat dari Jenin di West Bank, Quds News Network berkata. Badan berita Palestina, Wafa, melaporkan bahwa pasukan Israel memberlakukan jam malam di Beit Ummar, utara Hebron, pemilik toko paksa untuk menutup bisnis mereka, menembakkan granat setrum dan gas air mata di Palestina, dan mengerahkan kendaraan militer dan pasukan infanteri di seluruh jalan kota. Mereka juga menutup semua pintu masuk dan keluar ke kota dengan gerbang besi. * Pasukan Israel juga menyerbu kamp pengungsi Fawwar, selatan Hebron, dan menembakkan granat setrum dan gas air mata pada warga kamp. * Pasukan-pasukan mengatur pos pemeriksaan militer di al- Saheb persimpangan di Hebron kota, di mana mereka mencari kendaraan Palestina, dirusak dengan isi mereka, memeriksa kartu identitas orang Palestina, dan dikenakan penganiayaan, Wafa melaporkan. Api menelan kios Palestina di desa Rummana, sebelah barat Jenin, di Tepi Barat yang dikuasai, setelah pasukan pendudukan Israel menembakkan granat. https: / / t.co / Zakc42muZe - Quds News Network (@ QudsNen) November 14, 2026",
+      "originalTitle": "West Bank: Israeli forces detain Palestinian journalist, conduct raids",
+      "originalDescription": "West Bank: Israeli forces detain Palestinian journalist, conduct raids Israeli forces have detained Palestinian journalist Mohammed Ateeq after raiding his home in the town of Burqin, west of Jenin in the occupied West Bank, Quds News Network said. The Palestinian news agency, Wafa, reported that Israeli forces imposed curfew on Beit Ummar, north of Hebron, forced shop owners to close their businesses, fired stun grenades and tear gas at Palestinians, and deployed military vehicles and infantry troops throughout the town's streets. They also sealed off all entrances and exits to the town with iron gates. *Israeli forces also raided al-Fawwar refugee camp, south of Hebron, and fired stun grenades and tear gas at camp's residents. *The forces set up a military checkpoint at al-Saheb junction in Hebron city, where they searched Palestinian vehicles, tampered with their contents, checked Palestinians' identity cards, and subjected them to mistreatment, Wafa reported. Fire engulfed a Palestinian kiosk in the village of Rummana, west of Jenin, in the occupied West Bank, after Israeli occupation forces fired grenades. https://t.co/Zakc42muZe — Quds News Network (@QudsNen) November 14, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D7BB6XL%20%281%29.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T04:09:54+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/west-bank-israeli-forces-detain-palestinian-journalist-conduct-raids"
+    },
+    {
+      "id": "78398a3db8b11ee4",
+      "title": "Artis Italia membayangkan kembali lukisan Madonna untuk mengekspos rasa sakit Gaza",
+      "description": "Seniman Italia Eduardo Cattaldo telah menampilkan karya seni berjudul 'Kudus Ibu Gaza' di dalam Naples 'Pappacoda Chapel.",
+      "originalTitle": "Italian artist reimagines Madonna paintings to expose Gaza’s pain",
+      "originalDescription": "Italian artist Eduardo Castaldo has unveiled an artwork titled ‘Holy Mothers of Gaza’ inside Naples’ Pappacoda Chapel.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794713406.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T03:30:29+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/15/aje-onl-nf_italian-artist-rips-madonna-painting-to-reveal-gaza-141126"
+    },
+    {
+      "id": "35d8aebb438ed3b3",
+      "title": "Saudi- dipimpin koalisi mencegat drone ketiga sebagai Houthis klaim pesawat jatuh",
+      "description": "Saudi- dipimpin koalisi mencegat drone ketiga sebagai Houthis klaim pesawat jatuh Saudi- dipimpin pasukan koalisi telah menembak turun namun lain drone Houthi di Arab Saudi Daerah Timur, menurut Kolonel Turki al- Malki, juru bicara untuk koalisi. Ini adalah drone ketiga yang koalisi mengatakan telah ditembak jatuh di atas wilayah dalam tiga jam terakhir, bersama dengan dua rudal balistik yang menuju Riyadh. Sementara itu, juru bicara militer Houthi Yahya Saree mengatakan pada X bahwa mereka telah menembak pesawat pengintai bersenjata Arab Saudi di wilayah udara al- Jawf. Saree mengatakan ini adalah pesawat kelima Houthis telah ditembak jatuh sejak eskalasi dimulai.",
+      "originalTitle": "Saudi-led coalition intercepts third drone as Houthis claim downing aircraft",
+      "originalDescription": "Saudi-led coalition intercepts third drone as Houthis claim downing aircraft Saudi-led coalition forces have shot down yet another Houthi drone in Saudi Arabia's Eastern Region, according to Colonel Turki al-Malki, spokesman for the coalition. It’s the third drone the coalition says it has shot down over the region in the last three hours, along with two ballistic missiles that were headed for Riyadh. Meanwhile, Houthi military spokesman Yahya Saree said on X that they have shot down a Saudi Arabian armed reconnaissance aircraft in the airspace of al-Jawf. Saree said this is the fifth aircraft the Houthis have shot down since the escalation began.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D7BB6XL%20%281%29.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T03:20:34+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-intercepts-third-drone-houthis-claim-downing"
+    },
+    {
+      "id": "f033637eb86aadc7",
+      "title": "Pertahanan Sipil Imbau Waspada Hujan Petir di Arab Saudi",
+      "description": "Pertahanan Sipil Arab Saudi mengimbau masyarakat tetap waspada, menghindari daerah rawan banjir, dan mengikuti arahan resmi selama hujan petir.",
+      "originalTitle": "Pertahanan Sipil Imbau Waspada Hujan Petir di Arab Saudi",
+      "originalDescription": "Pertahanan Sipil Arab Saudi mengimbau masyarakat tetap waspada, menghindari daerah rawan banjir, dan mengikuti arahan resmi selama hujan petir.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-08/الدفاع-المدني-chbX2_YE.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-15T03:10:01+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/nf3lo3wvx"
+    },
+    {
+      "id": "5f5d586730fbc03b",
+      "title": "Trump mungkin tidak akan menyerang Iran selama tidak memprovokasi AS, laporan mengatakan",
+      "description": "Trump mungkin tidak menyerang Iran selama tidak memprovokasi AS, laporan mengatakan Presiden Donald Trump telah memberi tahu penasihat senior dalam beberapa hari ini bahwa ia mungkin menunda serangan Iran jika Amerika tidak menghadapi provokasi baru dari Teheran atau Iran- didukung Houthis di Yaman, menurut tiga orang akrab dengan masalah ini. Trump telah beralih antara ancaman meningkatkan perang dengan serangan baru dan mengurangi permusuhan, dan saat ini dan mantan pejabat mengatakan ia tidak muncul telah membuat pikirannya tentang bagaimana menyelesaikan konflik yang tidak populer, yang ia luncurkan pada Februari dengan Israel. Tapi dalam pertemuan dengan penasihat keamanan nasionalnya dan setelah serangkaian briefing intelijen, Trump mengatakan dia mempertimbangkan menunda pemogokan, kata orang-orang, yang, seperti orang lain diwawancarai untuk cerita ini, berbicara dengan kondisi anonimitas. Dia juga menunjukkan simpati untuk sekutu di wilayah tersebut yang telah memintanya untuk tidak kembali ke perang penuh. \"Saya bisa mengakhirinya segera, tapi atas permintaan bangsa-bangsa yang ingin saya lindungi, kami melakukannya sedikit lebih lama, sedikit lebih sopan\", kata Trump penyiar olahraga Stephen A. Smith pada hari Kamis. Komentar-komentar pribadi Trump membangun pada komentar-komentar publik... memainkan kemungkinan terjadinya perang besar. CALLS DENGAN SAUDI ARAB DAN TURKEY Dalam panggilan telepon selama dua minggu terakhir, Trump meminta pendapat dari Pangeran Saudi Crown Mohammed bin Salman dan Presiden Turki Tayyip Erdogan, yang mendorong dia untuk tidak melanjutkan serangan terhadap Iran, menurut pejabat AS senior dan orang lain akrab dengan masalah ini. Mereka bilang Trump juga tidak membuat komitmen. Trump bilang pada Bin Salman tanggal 31 Oktober bahwa dia berencana menyerang setelah pemilu, tapi putra mahkota memohon agar dia menunda, menyatakan bahwa sanksi ekonomi melawan Iran bekerja, menurut dua orang lagi yang akrab dengan diskusi ini. Kementeri",
+      "originalTitle": "Trump may not attack Iran as long as it doesn't provoke US, report says",
+      "originalDescription": "Trump may not attack Iran as long as it doesn't provoke US, report says President Donald Trump has told senior advisers in recent days that he may hold off on attacking Iran if the US faces no new provocations from Tehran or the Iran-backed Houthis in Yemen, according to three people familiar with the matter. Trump has alternated between threats of escalating the war with new strikes and winding down hostilities, and current and former officials say he does not appear to have made up his mind about how to resolve the unpopular conflict, which he launched in February with Israel. But in meetings with his national security advisers and after a series of intelligence briefings, Trump said he was considering holding off on strikes, said the people, who, like others interviewed for this story, spoke on condition of anonymity. He has also indicated sympathy for allies in the region who have asked him not to return to a full-fledged war. \"I could end it immediately, but at the request of the nations that I am looking to protect, we are doing it a little bit longer way, a bit more civilly,\" Trump told sports broadcaster Stephen A. Smith on Thursday. Trump's private comments build on public remarks playing down the likelihood of major warfare resuming. CALLS WITH SAUDI ARABIA AND TURKEY In phone calls over the past two weeks, Trump asked for opinions from Saudi Crown Prince Mohammed bin Salman and Turkish President Tayyip Erdogan, who both urged him not to resume attacks on Iran, according to a senior US official and another person familiar with the matter. They said Trump made no commitment either way. Trump told bin Salman on 31 October that he was planning to attack after the elections, but the crown prince pleaded for him to hold off, arguing that economic sanctions against Iran were working, according to two more people familiar with the discussion. Saudi Arabia's Foreign Ministry did not respond to a request for comment. Trump has spoken with Erdogan three times since ",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/iran-tehran-trump-us-depiction-israel-netanyahu-4-november-2026-reuters.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T03:04:00+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/report-trump-may-not-attack-iran-long-it-doesnt-provoke-us"
+    },
+    {
+      "id": "365f0535ee0f91f6",
+      "title": "Saudi- dipimpin koalisi mencegat tersangka rudal Houthi dan drone",
+      "description": "Pertempuran meningkat di Yaman Marib dan al- Jawf, sebagai agen PBB mengatakan lebih dari 340.000 pengungsi Yaman sejak Agustus.",
+      "originalTitle": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
+      "originalDescription": "Fighting escalates in Yemen's Marib and al-Jawf, as UN agency says more than 340,000 Yemenis displaced since August.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af7a35f-1794614111.jpg?resize=1920%2C1440",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T02:59:06+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh"
+    },
+    {
+      "id": "3455280456b7b257",
+      "title": "TNI AD Minta Maaf Oknum Prajurit Diduga Aniaya Santri: Diproses Hukum",
+      "description": "TNI AD minta maaf atas dugaan penganiayaan santri oleh oknum prajurit. Proses hukum sedang berjalan.",
+      "originalTitle": "TNI AD Minta Maaf Oknum Prajurit Diduga Aniaya Santri: Diproses Hukum",
+      "originalDescription": "TNI AD minta maaf atas dugaan penganiayaan santri oleh oknum prajurit. Proses hukum sedang berjalan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/07/16/kepala-dinas-penerangan-tni-ad-kadispenad-brigjen-tni-donny-pramono-saat-jumpa-pers-di-malacca-toast-jakarta-pusat-jumat-29520-1784207511399_169.jpeg?w=360&q=90",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "Detik",
+      "sources": [
+        "Detik"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-15T02:10:12+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8753546/tni-ad-minta-maaf-oknum-prajurit-diduga-aniaya-santri-diproses-hukum"
+    },
+    {
+      "id": "cb528d2c53398358",
+      "title": "Menteri Dalam Negeri Bahrain waspada, mendesak warga untuk tetap tenang.",
+      "description": "Departemen Dalam Negeri Bahrain memperingatkan warga agar tetap tenang dan mengikuti berita melalui saluran resmi untuk memastikan keamanan publik. Peringatan datang beberapa saat setelah Arab Saudi mengklaim pertahanan udara dicegat dua rudal balistik Houthi diluncurkan menuju daerah Riyadh. Menurut keterangan ini, hujan turun di musim hujan.",
+      "originalTitle": "Bahrain's ministry of interior issues 'hazard' alert, urges citizens to stay calm",
+      "originalDescription": "Bahrain's ministry of interior issues 'hazard' alert, urges citizens to stay calm Bahrain's Ministry of Interior has issued a \"hazard alert\", urging citizens and residents to remain calm, head to the nearest safe location, and follow \"news through official channels to ensure public safety\". The alert came moments after Saudi Arabia claimed its air defences intercepted two Houthi ballistic missiles launched towards the Riyadh region. تنبيه بوجود خطر .. تدعو وزارة الداخلية المواطنين والمقيمين إلى التزام الهدوء والتوجه إلى أقرب مكان آمن، ومتابعة الأخبار عبر القنوات الرسمية، حفاظا على السلامة العامة . #البحرين #وزارة_الداخلية — وزارة الداخلية - Ministry of Interior (@moi_bahrain) November 15, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D7BB6XL%20%281%29.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T02:07:28+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/bahrains-ministry-interior-issues-hazard-alert-urges-citizens-stay-calm"
+    },
+    {
+      "id": "f610c3c49eb0ffea",
+      "title": "Dua rudal balistik Houthi ditembak jatuh di Riyadh, juru bicara koalisi mengatakan",
+      "description": "Dua rudal balistik Houthi ditembak jatuh di atas Riyadh, koalisi juru bicara mengatakan pertahanan udara Saudi telah dicegat dan menghancurkan dua rudal balistik diluncurkan oleh Houthis menuju Riyadh, Saudi- dipimpin juru bicara koalisi Mayor Jenderal Turki al- Maliki mengatakan dalam pos di X. Sebelumnya, Direktorat Umum Sipil Saudi dikeluarkan dan kemudian mengangkat peringatan darurat di ibukota, Riyadh. Ini mendorong warga untuk terus mengikuti instruksi keselamatan dan menghindari berkumpul atau syuting film.",
+      "originalTitle": "Two Houthi ballistic missiles shot down over Riyadh, coalition spokesman says",
+      "originalDescription": "Two Houthi ballistic missiles shot down over Riyadh, coalition spokesman says Saudi air defences have intercepted and destroyed two ballistic missiles launched by the Houthis toward Riyadh, Saudi-led coalition spokesperson Major General Turki al-Maliki said in a post on X. Earlier, the General Directorate of Saudi Civil Defence issued and subsequently lifted an emergency alert in the capital, Riyadh. It urged residents to continue following safety instructions and avoid gathering or filming.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D7BB6XL%20%281%29.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T01:49:17+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/two-houthi-ballistic-missiles-shot-down-over-riyadh-coalition-spokesman"
+    },
+    {
+      "id": "c61d4ba227b6163f",
+      "title": "Koalisi Arab Saudi Tembak Jatuh Dua Rudal Balistik Houthi yang Mengarah ke Riyadh",
+      "description": "Juru bicara Koalisi Arab Saudi menyatakan dua rudal balistik yang ditembakkan Houthi ke arah Riyadh berhasil dicegat dan dihancurkan.",
+      "originalTitle": "Koalisi Arab Saudi Tembak Jatuh Dua Rudal Balistik Houthi yang Mengarah ke Riyadh",
+      "originalDescription": "Juru bicara Koalisi Arab Saudi menyatakan dua rudal balistik yang ditembakkan Houthi ke arah Riyadh berhasil dicegat dan dihancurkan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/اللواء-الركن-تركي-المالكي-OVx1Phz3.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-15T01:27:05+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/jis76zraz"
+    },
+    {
+      "id": "ae0ccf129014dc82",
+      "title": "Komisi I DPR Minta Santri Korban Penganiayaan Oknum TNI Diberi Pendampingan",
+      "description": "Wakil Ketua Komisi I DPR, Dave Laksono, menyesalkan dugaan penganiayaan santri oleh oknum TNI di Pangandaran.",
+      "originalTitle": "Komisi I DPR Minta Santri Korban Penganiayaan Oknum TNI Diberi Pendampingan",
+      "originalDescription": "Wakil Ketua Komisi I DPR, Dave Laksono, menyesalkan dugaan penganiayaan santri oleh oknum TNI di Pangandaran.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/05/05/dave-laksono-1746436050337_169.jpeg?w=360&q=90",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "Detik",
+      "sources": [
+        "Detik"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-15T01:18:05+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8753521/komisi-i-dpr-minta-santri-korban-penganiayaan-oknum-tni-diberi-pendampingan"
+    },
+    {
+      "id": "620b63821f8923e2",
+      "title": "Serangan udara Israel membunuh komandan Hamas senior di Gaza",
+      "description": "Hamas mengkonfirmasi kematian komandan brigade Rafah Samir Abu Younis dalam serangan terhadap Khan Younis pada hari Sabtu.",
+      "originalTitle": "Israeli air strike kills senior Hamas commander in Gaza",
+      "originalDescription": "Hamas confirms the death of Rafah brigade commander Samir Abu Younis in an attack on Khan Younis on Saturday.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af55147-1794462023.jpg?resize=1200%2C675",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T01:00:42+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza"
+    },
+    {
+      "id": "338b4a330ab23cc5",
+      "title": "Drone Houthi ditembak jatuh atas Arab Saudi Wilayah Timur",
+      "description": "Pesawat tak berawak dari Arab Saudi ditembak jatuh atas Saudi- dipimpin oleh pasukan koalisi dan menghancurkan sebuah pesawat tak berawak di Arab Saudi di daerah Timur, Kolonel Turki al- Malki, juru bicara untuk koalisi yang mendukung pasukan pemerintah Yaman, mengatakan dalam sebuah pos di XX Sebelumnya, koalisi mengatakan telah dicegat dan menghancurkan dua drone yang diluncurkan oleh Houthis Yaman menuju ibukota, Riyadh, dan daerah selatan. Ya. https: / / t.co / Y5yZpk2VBW -:",
+      "originalTitle": "Houthi drone shot down over Saudi Arabia's Eastern Region",
+      "originalDescription": "Houthi drone shot down over Saudi Arabia's Eastern Region Saudi-led coalition forces have intercepted and destroyed a drone in Saudi Arabia’s Eastern Region, Colonel Turki al-Malki, spokesman for the coalition supporting Yemen’s government forces, said in a post on X. Earlier, the coalition said it had intercepted and destroyed two drones launched by Yemen’s Houthis towards the capital, Riyadh, and southern regions. التحالف: اعتراض وتدمير طائرة مسيرة بالمنطقة الشرقية. https://t.co/Y5yZpk2VBW — المتحدث الرسمي باسم قوات التحالف (@CJFCSpox) November 14, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D7BB6XL%20%281%29.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T00:36:10+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-drone-shot-down-over-saudi-arabias-eastern-region"
+    },
+    {
+      "id": "7e1dd556ae4b7947",
+      "title": "BMKG Saudi: Hujan Sedang hingga Lebat di Sejumlah Wilayah Asir",
+      "description": "Badan Meteorologi Arab Saudi memprakirakan hujan sedang hingga lebat akan melanda sejumlah wilayah di Asir mulai Minggu hingga Kamis, 15-19 November 2026.",
+      "originalTitle": "BMKG Saudi: Hujan Sedang hingga Lebat di Sejumlah Wilayah Asir",
+      "originalDescription": "Badan Meteorologi Arab Saudi memprakirakan hujan sedang hingga lebat akan melanda sejumlah wilayah di Asir mulai Minggu hingga Kamis, 15-19 November 2026.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/أمطار-باحة-TgTqd-gL.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-15T00:34:50+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/2fa2jkww2"
+    },
+    {
+      "id": "33f92a697ac63c32",
+      "title": "Komandan Hamas Samir Abu Younis tewas dalam serangan Israel terhadap Khan Younis",
+      "description": "Komandan Hamas Samir Abu Younis tewas dalam serangan Israel terhadap Khan Younis Hamas 'sayap bersenjata mengatakan pada hari Minggu bahwa seorang komandan senior yang membantu merencanakan dan mengawasi 7 Oktober 2023 serangan terhadap Israel telah tewas dalam serangan udara Israel. Brigade Al- Qassam mengidentifikasi komandan sebagai Samir Abu Younis, 53, komandan brigade Rafah nya, dan mengatakan ia dibunuh pada hari Sabtu. Militer Israel mengatakan pada hari Minggu itu telah memukul seorang komandan senior di Hamas apos; sayap bersenjata tetapi tidak mengidentifikasi dirinya. Dokter mengatakan Abu Younis tewas dan lainnya terluka dalam serangan udara yang ditargetkan dia di jalan di daerah Mawasi Khan Younis di Jalur Gaza selatan. Hamas mengatakan Abu Younis bergabung dengan sayap bersenjata Hamas pada tahun 1991 dan telah mengadakan beberapa peran operasional senior di Rafah sebelum menjadi komandan brigade. Hamas mengatakan pemakamannya akan diadakan pada Minggu sore di Khan Younis. Sebuah gencatan senjata Oktober 2025 dihentikan pertempuran besar tetapi belum berhenti serangan Israel atau dijamin pemusnahan Hamas'. Pihak berwenang kesehatan Gaza mengatakan setidaknya 1.600 warga Palestina telah terbunuh sejak gencatan senjata terjadi. Lima tentara Israel telah terbunuh selama periode yang sama. Pihak berwenang Palestina mengatakan lebih dari 74.000 orang telah tewas dalam kampanye militer Israel melawan Gaza, diluncurkan setelah pejuang Hamas- dipimpin membunuh sekitar 1.200 orang di Israel selatan pada Oktober 2023. Laporan oleh AFP",
+      "originalTitle": "Hamas commander Samir Abu Younis killed in Israeli strike on Khan Younis",
+      "originalDescription": "Hamas commander Samir Abu Younis killed in Israeli strike on Khan Younis Hamas' armed wing said on Sunday that a senior commander who helped plan and oversee the 7 October 2023 attack on Israel had been killed in an Israeli airstrike. The Al-Qassam Brigades identified the commander as Samir Abu Younis, 53, the commander of its Rafah brigade, and said he was killed on Saturday. The Israeli military said on Sunday it had struck a senior commander in Hamas' armed wing but did not identify him. Medics said Abu Younis was killed and others were wounded in an airstrike that targeted him in a street in the Mawasi area of Khan Younis in the southern Gaza Strip. Hamas said Abu Younis joined Hamas' armed wing in 1991 and had held several senior operational roles in Rafah before becoming commander of the brigade. Hamas said his funeral would be held on Sunday afternoon in Khan Younis. An October ​2025 ceasefire halted major fighting but has not stopped Israeli attacks or secured Hamas' disarmament. Gaza health authorities say at least 1,600 Palestinians have been killed since the ceasefire went into effect. Five Israeli soldiers have been killed ​during the same period. Palestinian authorities say more than 74,000 people have been killed in Israel's military campaign against Gaza, launched after Hamas-led fighters killed about 1,200 people in southern Israel in October 2023. Report by AFP",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D7BB6XL%20%281%29.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T00:18:07+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/hamas-commander-samir-abu-younis-killed-israeli-strike-khan-younis"
+    },
+    {
+      "id": "e28880cfeee97c50",
+      "title": "Legislator Minta Oknum TNI Aniaya Santri Dihukum Tegas: Tindakan Biadab",
+      "description": "Kapoksi Komisi I DPR RI, Oleh Soleh, mengecam dugaan penganiayaan santri oleh oknum TNI di Pangandaran. Dia mendesak proses hukum dan perbaikan internal TNI.",
+      "originalTitle": "Legislator Minta Oknum TNI Aniaya Santri Dihukum Tegas: Tindakan Biadab",
+      "originalDescription": "Kapoksi Komisi I DPR RI, Oleh Soleh, mengecam dugaan penganiayaan santri oleh oknum TNI di Pangandaran. Dia mendesak proses hukum dan perbaikan internal TNI.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/02/01/anggota-dpr-ri-komisi-i-oleh-soleh-1_169.jpeg?w=360&q=90",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "Detik",
+      "sources": [
+        "Detik"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-15T00:16:11+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8753505/legislator-minta-oknum-tni-aniaya-santri-dihukum-tegas-tindakan-biadab"
+    },
+    {
+      "id": "27c9236752d51ef2",
+      "title": "Serangan Israel membunuh orang Palestina, dua luka lainnya di Gaza",
+      "description": "Serangan Israel membunuh orang Palestina, melukai dua orang lainnya di Gaza. Seorang Palestina telah tewas dan dua lainnya terluka setelah pasukan Israel menyerang area tersebut.",
+      "originalTitle": "Israeli strike kills Palestinian man, wounds two others in Gaza",
+      "originalDescription": "Israeli strike kills Palestinian man, wounds two others in Gaza A Palestinian man has been killed and two others wounded after Israeli forces carried out a drone strike on the al-Mawasi area of Khan Younis in southern Gaza, Al Jazeera reported, citing sources at the Nasser Medical Complex.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D7BB6XL%20%281%29.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T00:05:07+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-kills-palestinian-man-wounds-two-others-gaza"
+    },
+    {
+      "id": "0b7f22cc7e17b343",
+      "title": "Perang Iran hidup: Koalisi Saudi- dipimpin menyerang 3 drone",
+      "description": "Saudi- dipimpin koalisi mengatakan ditembak jatuh tiga drone Houthi dalam beberapa jam; Iran mengatakan itu menargetkan basis AS di Bahrain.",
+      "originalTitle": "Iran war live: Saudi-led coalition strikes down 3 drones",
+      "originalDescription": "Saudi-led coalition says it shot down three Houthi drones in as many hours; Iran says it targeted US base in Bahrain.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26313685235897-1-1794303255.jpg?resize=1920%2C1440",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T00:00:08+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status"
+    },
     {
       "id": "8e8be93995d39776",
       "title": "Kisah Palestina diatur untuk kehadiran besar di 2027 Oscar",
@@ -770,6 +1296,31 @@
       "region": "",
       "publishedAt": "2026-11-14T14:00:06+00:00",
       "originalUrl": "https://www.nu.or.id/nasional/porsa-diniyah-dorong-santri-kembangkan-bakat-olahraga-dan-seni-vS03P"
+    },
+    {
+      "id": "d3bad44ce8795c91",
+      "title": "Koalisi Arab Saudi Tembak Jatuh Dua Drone Houthi di Riyadh dan Wilayah Selatan",
+      "description": "Pasukan Koalisi Arab Saudi menembak jatuh dua drone yang diluncurkan kelompok Houthi di Riyadh dan wilayah selatan.",
+      "originalTitle": "Koalisi Arab Saudi Tembak Jatuh Dua Drone Houthi di Riyadh dan Wilayah Selatan",
+      "originalDescription": "Pasukan Koalisi Arab Saudi menembak jatuh dua drone yang diluncurkan kelompok Houthi di Riyadh dan wilayah selatan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/HXFnVu4W4AAyr6t-32kp_c_Y.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-14T13:32:20+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/vd3azir84"
     },
     {
       "id": "3d6b86157fc46a35",
@@ -10820,96 +11371,6 @@
       "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
       "originalLanguage": "en",
       "translated": true
-    },
-    {
-      "id": "638cbb1532255585",
-      "title": "Menimbang Keadilan Tuhan dari Tiga Mimbar Tafsir",
-      "description": "Judul Artikel: Menggugat Keadilan Tuhan: Studi Komparasi Tafsīr Al-Kasysyāf, Al-Tafsīr Al-Munīr, dan Tafsir Al-MīzānPenulis: Hasani Ahmad Said, Azizah Romadhona, Wardatul JannahDimuat di: Cakrawala: Jurnal Studi Islam, Vol. 18 No....",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/sejumlah-kitab-tafsir-karya-para-ulama-_140218193139-381.jpg",
-      "category": "Al-Qur'an dan Hadis",
-      "tags": [
-        "Al-Qur'an dan Hadis"
-      ],
-      "source": "Republika",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-08T05:47:14+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to65eq487/menimbang-keadilan-tuhan-dari-tiga-mimbar-tafsir",
-      "translationStatus": "not_needed"
-    },
-    {
-      "id": "2645088467e83847",
-      "title": "Haji Melampaui Simbol Toleransi",
-      "description": "Pelibatan warga non-Muslim dalam pelayanan haji memantik perdebatan setelah Wakil Menteri Haji dan Umrah Dahnil Anzar Simanjuntak mengaitkannya dengan toleransi dan gotong royong. Gagasan tersebut mengandung pesan kebinekaan yang...",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/051480200-1780406876-830-556.jpg",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "Republika",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-08T04:57:19+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to633j366/haji-melampaui-simbol-toleransi",
-      "translationStatus": "not_needed"
-    },
-    {
-      "id": "2acc8197e90523be",
-      "title": "Dahsyatnya Doa Nabi Muhammad SAW untuk Umat Manusia",
-      "description": "JAKARTA -- Cendekiawan dan ulama asal Turki, Badiuzzaman Said Nursi, mengungkapkan keistimewaan doa Nabi Muhammad SAW bagi seluruh makhluk. Menurut dia, doa yang dipanjatkan Rasulullah SAW menunjukkan betapa mulianya...",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/010400200-1771745617-830-556.jpg",
-      "category": "Dakwah dan Ulama",
-      "tags": [
-        "Dakwah dan Ulama"
-      ],
-      "source": "Republika",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-08T04:55:00+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to61as366/dahsyatnya-doa-nabi-muhammad-saw-untuk-umat-manusia",
-      "translationStatus": "not_needed"
-    },
-    {
-      "id": "a04ddb2b0ebd223c",
-      "title": "Menhaj Imbau Jamaah Umrah Santun dan Bijak di Tanah Suci",
-      "description": "JAKARTA -- Menteri Haji dan Umrah (Menhaj), Mochamad Irfan Yusuf mengimbau jamaah umrah Indonesia untuk mengedepankan sikap santun dan bijaksana selama menjalankan ibadah di Tanah Suci. Jamaah diharapkan mampu...",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/kabah-ilustrasi-_180530210639-733.jpg",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "Republika",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-08T00:59:05+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to5s2h430/menhaj-imbau-jamaah-umrah-santun-dan-bijak-di-tanah-suci",
-      "translationStatus": "not_needed"
-    },
-    {
-      "id": "4b1e7ef7b37e7793",
-      "title": "Bandara Dhoho Kediri Resmi Jadi Embarkasi Haji Reguler 2027",
-      "description": "KEDIRI -- Bandara Internasional Dhoho Kediri, Jawa Timur resmi ditetapkan sebagai bandara embarkasi dan debarkasi haji reguler untuk penyelenggaraan ibadah haji 1448 Hijriah/2027 Masehi dengan proyeksi melayani 9.641 calon haji...",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/039585000-1750239596-830-556.jpg",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "Republika",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-07T23:57:59+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to5p8n430/bandara-dhoho-kediri-resmi-jadi-embarkasi-haji-reguler-2027",
-      "translationStatus": "not_needed"
     }
   ]
 }
