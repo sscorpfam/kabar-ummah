@@ -1,19 +1,19 @@
 {
-  "status": "partial",
-  "lastUpdated": "2026-11-16T01:03:32.603457+00:00",
+  "status": "success",
+  "lastUpdated": "2026-11-16T08:00:05.785277+00:00",
   "total": 500,
-  "newArticles": 122,
+  "newArticles": 117,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 11,
-  "sourcesFailed": 1,
+  "sourcesSucceeded": 12,
+  "sourcesFailed": 0,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 3,
-      "filtered": 22,
-      "filteredFootball": 5,
+      "accepted": 1,
+      "filtered": 24,
+      "filteredFootball": 0,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 20,
-      "accepted": 0,
+      "raw": 21,
+      "accepted": 1,
       "filtered": 20,
-      "filteredFootball": 1,
-      "translated": 20,
+      "filteredFootball": 0,
+      "translated": 21,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -49,7 +49,7 @@
       "raw": 50,
       "accepted": 0,
       "filtered": 50,
-      "filteredFootball": 10,
+      "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 10,
-      "filtered": 10,
-      "filteredFootball": 1,
+      "accepted": 8,
+      "filtered": 12,
+      "filteredFootball": 0,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -93,22 +93,22 @@
     },
     {
       "name": "Detik",
-      "status": "error",
-      "raw": 0,
-      "accepted": 0,
-      "filtered": 0,
+      "status": "success",
+      "raw": 100,
+      "accepted": 3,
+      "filtered": 97,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
+      "error": null
     },
     {
       "name": "Muhammadiyah",
       "status": "success",
       "raw": 10,
-      "accepted": 2,
-      "filtered": 8,
+      "accepted": 5,
+      "filtered": 5,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -119,8 +119,8 @@
       "name": "NU Online",
       "status": "success",
       "raw": 50,
-      "accepted": 18,
-      "filtered": 32,
+      "accepted": 14,
+      "filtered": 36,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -131,9 +131,9 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 30,
-      "filtered": 20,
-      "filteredFootball": 5,
+      "accepted": 26,
+      "filtered": 24,
+      "filteredFootball": 7,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -156,16 +156,391 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 249,
+    "translatedArticles": 241,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 1884
+    "cacheEntries": 1954
   },
   "images": {
     "found": 500,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "d8596d19c2c28b28",
+      "title": "Pasukan Yaman mundur meninggalkan Houthis dalam kendali area kunci di pantai perairan Laut Merah",
+      "description": "Saudi- pasukan didukung mengatakan mereka bergerak pasukan dari al- Mandab Selat untuk membela sementara ibukota Aden.",
+      "originalTitle": "Yemeni forces' retreat leaves Houthis in control of key area on coast of Red Sea waterway",
+      "originalDescription": "Saudi-backed forces say they are moving troops from the Bab al-Mandab Strait to defend the interim capital Aden.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e0bf/live/84ae2db0-e165-11f1-9e72-69608c7a1547.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "BBC World",
+      "sources": [
+        "BBC World"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-16T07:23:23+00:00",
+      "originalUrl": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_campaign=rss&at_medium=RSS"
+    },
+    {
+      "id": "4fabdbe4d0a63fb0",
+      "title": "Peringatan Hujan dan Angin Kencang di Sejumlah Wilayah Mekkah",
+      "description": "Pusat Meteorologi Nasional Arab Saudi mengeluarkan peringatan hujan lebat, angin kencang, dan petir di beberapa wilayah Mekkah hingga pukul 21.00 malam.",
+      "originalTitle": "Peringatan Hujan dan Angin Kencang di Sejumlah Wilayah Mekkah",
+      "originalDescription": "Pusat Meteorologi Nasional Arab Saudi mengeluarkan peringatan hujan lebat, angin kencang, dan petir di beberapa wilayah Mekkah hingga pukul 21.00 malam.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/أمطار-باحة-TgTqd-gL.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-16T06:52:57+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/izspikrml"
+    },
+    {
+      "id": "1754e7e5c42829f7",
+      "title": "Harga Produsen di Arab Saudi Naik 6,6 Persen pada September 2026",
+      "description": "Badan Statistik Arab Saudi melaporkan kenaikan indeks harga produsen sebesar 6,6 persen pada September 2026 dibandingkan periode yang sama tahun sebelumnya.",
+      "originalTitle": "Harga Produsen di Arab Saudi Naik 6,6 Persen pada September 2026",
+      "originalDescription": "Badan Statistik Arab Saudi melaporkan kenaikan indeks harga produsen sebesar 6,6 persen pada September 2026 dibandingkan periode yang sama tahun sebelumnya.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/هيئة-الإحصاء-fL15FjKd.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-16T06:50:21+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/ekonomi/o5xlqdkv9"
+    },
+    {
+      "id": "d934f0bc4d888f15",
+      "title": "Di KTT ASEAN, Prabowo Apresiasi Sikap Konsisten China Bela Palestina",
+      "description": "Presiden Prabowo Subianto mengapresiasi dukungan Tiongkok untuk Global South dan Palestina dalam KTT ASEAN-China, menekankan pentingnya kerja sama multilateral.",
+      "originalTitle": "Di KTT ASEAN, Prabowo Apresiasi Sikap Konsisten China Bela Palestina",
+      "originalDescription": "Presiden Prabowo Subianto mengapresiasi dukungan Tiongkok untuk Global South dan Palestina dalam KTT ASEAN-China, menekankan pentingnya kerja sama multilateral.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/15/presiden-ri-prabowo-subianto-saat-menghadiri-sesi-pleno-ktt-ke-49-asean-di-filipina-1794734596466_169.jpeg?w=360&q=90",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Detik",
+      "sources": [
+        "Detik"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-16T06:35:19+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8755049/di-ktt-asean-prabowo-apresiasi-sikap-konsisten-china-bela-palestina"
+    },
+    {
+      "id": "922ad16fbb2ce4cc",
+      "title": "Badak Jawa Terancam, Alquran Ingatkan Manusia tentang Al-Fasad",
+      "description": "Pemerintah berencana merelokasi sejumlah badak jawa dari Taman Nasional Ujung Kulon, Banten, ke Taman Nasional Alas Purwo, Jawa Timur. Utusan Khusus Presiden Bidang Iklim dan Energi, Hashim Djojohadikusumo, mengatakan...",
+      "originalTitle": "Badak Jawa Terancam, Alquran Ingatkan Manusia tentang Al-Fasad",
+      "originalDescription": "Pemerintah berencana merelokasi sejumlah badak jawa dari Taman Nasional Ujung Kulon, Banten, ke Taman Nasional Alas Purwo, Jawa Timur. Utusan Khusus Presiden Bidang Iklim dan Energi, Hashim Djojohadikusumo, mengatakan...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/anak-badak-betina-bernama-helen-dan-jantan-bernama-luther_200923132554-320.jpg",
+      "category": "Al-Qur'an dan Hadis",
+      "tags": [
+        "Al-Qur'an dan Hadis"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-16T06:34:06+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tol0wu483/badak-jawa-terancam-alquran-ingatkan-manusia-tentang-alfasad"
+    },
+    {
+      "id": "d4586fe4a7f9f0b3",
+      "title": "OJK Ingin Keuangan Syariah Makin Inklusif, Bank Sulselbar Perkuat Wakaf",
+      "description": "Bank Sulselbar dan One Waqf kembangkan Cash Waqf Linked Deposit untuk pemberdayaan ekonomi umat. Workshop sinergi keuangan syariah digelar di Makassar.",
+      "originalTitle": "OJK Ingin Keuangan Syariah Makin Inklusif, Bank Sulselbar Perkuat Wakaf",
+      "originalDescription": "Bank Sulselbar dan One Waqf kembangkan Cash Waqf Linked Deposit untuk pemberdayaan ekonomi umat. Workshop sinergi keuangan syariah digelar di Makassar.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/16/ojk-ingin-keuangan-syariah-makin-inklusif-bank-sulselbar-perkuat-wakaf-1794809997122_169.jpeg?w=360&q=90",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "Detik",
+      "sources": [
+        "Detik"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-16T06:20:20+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8754994/ojk-ingin-keuangan-syariah-makin-inklusif-bank-sulselbar-perkuat-wakaf"
+    },
+    {
+      "id": "cf29141b81272ebe",
+      "title": "Naif bin Mahmas Al-Harbi Ditunjuk sebagai Kepala Urusan Sipil Afif",
+      "description": "Naif bin Mahmas Al-Harbi resmi ditunjuk sebagai Kepala Urusan Sipil Kabupaten Afif oleh Kementerian Dalam Negeri Arab Saudi.",
+      "originalTitle": "Naif bin Mahmas Al-Harbi Ditunjuk sebagai Kepala Urusan Sipil Afif",
+      "originalDescription": "Naif bin Mahmas Al-Harbi resmi ditunjuk sebagai Kepala Urusan Sipil Kabupaten Afif oleh Kementerian Dalam Negeri Arab Saudi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-09/الأحوال-المدنية-Tpnw-gpD.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-16T06:02:33+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/mxfxjfqq4"
+    },
+    {
+      "id": "46a2ac6a86460224",
+      "title": "Jip militer Israel berjalan di atas Palestina dalam diduduki West Bank",
+      "description": "Jip militer Israel berjalan di atas Palestina dalam menduduki Bank Barat the Palestina Red Crescent Masyarakat mengatakan bahwa dua orang Palestina yang tersisa terluka setelah ditabrak oleh jip militer Israel dekat Jenin di utara menduduki West Bank. Mereka berdua mengendarai sepeda motor ketika mobil menabrak mereka. Akibatnya, kedua korban menderita patah kaki, dengan salah satu dari mereka juga mempertahankan cedera kepala.",
+      "originalTitle": "Israeli military jeep runs over Palestinians in occupied West Bank",
+      "originalDescription": "Israeli military jeep runs over Palestinians in occupied West Bank The Palestine Red Crescent Society said that two Palestinians were left wounded after being run over by an Israeli military jeep near Jenin in the northern occupied West Bank. The two were riding a motorcycle when the vehicle struck them. As a result, both victims suffered a broken foot, with one of them also sustaining a head injury.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D76F6NQ.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-16T05:45:51+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-jeep-runs-over-palestinians-occupied-west-bank"
+    },
+    {
+      "id": "09b3592e303921a5",
+      "title": "LDK PP Muhammadiyah Pacu Dakwah Komunitas di Sulteng, Pembinaan Mualaf Jadi Prioritas",
+      "description": "MUHAMMADIYAH.OR.ID, PALU – Lembaga Dakwah Komunitas (LDK) Pimpinan Pusat Muhammadiyah terus memperkuat gerakan dakwah berbasis komunitas hingga ke wilayah pelosok. Komitmen tersebut mengemuka dalam Rapat Koordinasi (Rakor) LDK PP Muhammadiyah bersama LDK Pimpinan Wilayah Muhammadiyah (PWM) Sulawesi Tengah di Kampus Universitas Muhammadiyah, Jumat (13/11/2026). Rakor yang dihadiri jajaran pengurus harian LDK PP Muhammadiyah dan seluruh […] The post LDK PP Muhammadiyah Pacu Dakwah Komunitas di Sulteng, Pembinaan Mualaf Jadi Prioritas appeared first on Muhammadiyah .",
+      "originalTitle": "LDK PP Muhammadiyah Pacu Dakwah Komunitas di Sulteng, Pembinaan Mualaf Jadi Prioritas",
+      "originalDescription": "MUHAMMADIYAH.OR.ID, PALU – Lembaga Dakwah Komunitas (LDK) Pimpinan Pusat Muhammadiyah terus memperkuat gerakan dakwah berbasis komunitas hingga ke wilayah pelosok. Komitmen tersebut mengemuka dalam Rapat Koordinasi (Rakor) LDK PP Muhammadiyah bersama LDK Pimpinan Wilayah Muhammadiyah (PWM) Sulawesi Tengah di Kampus Universitas Muhammadiyah, Jumat (13/11/2026). Rakor yang dihadiri jajaran pengurus harian LDK PP Muhammadiyah dan seluruh […] The post LDK PP Muhammadiyah Pacu Dakwah Komunitas di Sulteng, Pembinaan Mualaf Jadi Prioritas appeared first on Muhammadiyah .",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/11/ldk-pp-muhammadiyah-pacu-dakwah-komunitas-di-sulteng-pembinaan-mualaf-jadi-prioritas.jpeg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "Muhammadiyah",
+      "sources": [
+        "Muhammadiyah"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-16T05:33:47+00:00",
+      "originalUrl": "https://muhammadiyah.or.id/2026/11/ldk-pp-muhammadiyah-pacu-dakwah-komunitas-di-sulteng-pembinaan-mualaf-jadi-prioritas"
+    },
+    {
+      "id": "c821cd8169034dc9",
+      "title": "Mengapa Ilmu Tidak Selalu Membuat Seseorang Menjadi Benar?",
+      "description": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Mempelajari kebenaran dan menjadi orang yang benar merupakan dua hal yang berbeda. Seseorang bisa memiliki banyak pengetahuan, termasuk pengetahuan agama, tetapi belum tentu menjadikan pengetahuan tersebut sebagai pedoman dalam perilaku dan kehidupannya. Hal ini disampaikan Anggota Majelis Tarjih dan Tajdid Pimpinan Pusat Muhammadiyah, Mukhlis Rahmanto, dalam Khutbah Jumat di Masjid KH Ahmad […] The post Mengapa Ilmu Tidak Selalu Membuat Seseorang Menjadi Benar? appeared first on Muhammadiyah .",
+      "originalTitle": "Mengapa Ilmu Tidak Selalu Membuat Seseorang Menjadi Benar?",
+      "originalDescription": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Mempelajari kebenaran dan menjadi orang yang benar merupakan dua hal yang berbeda. Seseorang bisa memiliki banyak pengetahuan, termasuk pengetahuan agama, tetapi belum tentu menjadikan pengetahuan tersebut sebagai pedoman dalam perilaku dan kehidupannya. Hal ini disampaikan Anggota Majelis Tarjih dan Tajdid Pimpinan Pusat Muhammadiyah, Mukhlis Rahmanto, dalam Khutbah Jumat di Masjid KH Ahmad […] The post Mengapa Ilmu Tidak Selalu Membuat Seseorang Menjadi Benar? appeared first on Muhammadiyah .",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/04/al-quran-harus-menjadi-penggerak-sains-dan-peradaban.jpeg",
+      "category": "Masjid dan Peradaban",
+      "tags": [
+        "Masjid dan Peradaban"
+      ],
+      "source": "Muhammadiyah",
+      "sources": [
+        "Muhammadiyah"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-16T05:25:36+00:00",
+      "originalUrl": "https://muhammadiyah.or.id/2026/11/mengapa-ilmu-tidak-selalu-membuat-seseorang-menjadi-benar"
+    },
+    {
+      "id": "f13ac54091acd987",
+      "title": "Hujan Lebat dan Potensi Banjir di Sejumlah Wilayah Arab Saudi",
+      "description": "Pusat Meteorologi Nasional memperkirakan hujan lebat disertai petir dan potensi banjir di Jazan, Asir, Al-Baha, dan Mekkah pada Senin ini.",
+      "originalTitle": "Hujan Lebat dan Potensi Banjir di Sejumlah Wilayah Arab Saudi",
+      "originalDescription": "Pusat Meteorologi Nasional memperkirakan hujan lebat disertai petir dan potensi banjir di Jazan, Asir, Al-Baha, dan Mekkah pada Senin ini.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-09/أمطار-2-HguRTqB4.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-16T05:23:04+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/lyx3tf6os"
+    },
+    {
+      "id": "a574177e1f400d2b",
+      "title": "Memasuki Usia 114 Tahun, Pendidikan dan Kesehatan Masih Jadi Pekerjaan Dakwah Muhammadiyah",
+      "description": "MUHAMMADIYAH.OR.ID, JAKARTA – Memasuki usia ke-114 tahun, Muhammadiyah masih menghadapi berbagai pekerjaan dakwah yang membutuhkan perhatian serius. Persoalan pendidikan, kesehatan, kualitas keberagamaan, hingga integritas masyarakat menjadi tantangan yang perlu terus direspons melalui semangat tajdid atau pembaruan. Ketua Pimpinan Pusat Muhammadiyah Dadang Kahmad mengatakan, keberadaan Muhammadiyah akan tetap relevan selama persoalan-persoalan masyarakat masih membutuhkan penyelesaian. Karena […] The post Memasuki Usia 114 Tahun, Pendidikan dan Kesehatan Masih Jadi Pekerjaan Dakwah Muhammadiyah appeared first on Muhammadiyah .",
+      "originalTitle": "Memasuki Usia 114 Tahun, Pendidikan dan Kesehatan Masih Jadi Pekerjaan Dakwah Muhammadiyah",
+      "originalDescription": "MUHAMMADIYAH.OR.ID, JAKARTA – Memasuki usia ke-114 tahun, Muhammadiyah masih menghadapi berbagai pekerjaan dakwah yang membutuhkan perhatian serius. Persoalan pendidikan, kesehatan, kualitas keberagamaan, hingga integritas masyarakat menjadi tantangan yang perlu terus direspons melalui semangat tajdid atau pembaruan. Ketua Pimpinan Pusat Muhammadiyah Dadang Kahmad mengatakan, keberadaan Muhammadiyah akan tetap relevan selama persoalan-persoalan masyarakat masih membutuhkan penyelesaian. Karena […] The post Memasuki Usia 114 Tahun, Pendidikan dan Kesehatan Masih Jadi Pekerjaan Dakwah Muhammadiyah appeared first on Muhammadiyah .",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/09/semangat-menyatukan-bangsa-terpancar-dari-logo-milad-ke-114-muhammadiyah.jpeg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "Muhammadiyah",
+      "sources": [
+        "Muhammadiyah"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-16T05:22:02+00:00",
+      "originalUrl": "https://muhammadiyah.or.id/2026/11/memasuki-usia-114-tahun-pendidikan-dan-kesehatan-masih-jadi-pekerjaan-dakwah-muhammadiyah"
+    },
+    {
+      "id": "c21329afc078aa7f",
+      "title": "Otoritas Jazan Terbitkan 518 Izin Bangunan Sesuai Identitas Arsitektur Saudi dalam 10 Bulan",
+      "description": "Otoritas Jazan menerbitkan 518 izin bangunan sesuai identitas arsitektur Saudi selama 10 bulan pertama 2026 untuk menata kawasan dan memperkuat ciri khas arsitektur lokal.",
+      "originalTitle": "Otoritas Jazan Terbitkan 518 Izin Bangunan Sesuai Identitas Arsitektur Saudi dalam 10 Bulan",
+      "originalDescription": "Otoritas Jazan menerbitkan 518 izin bangunan sesuai identitas arsitektur Saudi selama 10 bulan pertama 2026 untuk menata kawasan dan memperkuat ciri khas arsitektur lokal.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-06/GRKSBL847AR1rA7T.jfif",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-16T04:16:22+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/ekonomi/fynbqtf74"
+    },
+    {
+      "id": "824cbb34f2a83932",
+      "title": "Warga Ditangkap karena Melanggar Larangan Merumput di Cagar Alam Raja Abdulaziz",
+      "description": "Pasukan Keamanan Lingkungan Arab Saudi menangkap seorang warga yang menggembalakan 22 unta di area terlarang Cagar Alam Raja Abdulaziz.",
+      "originalTitle": "Warga Ditangkap karena Melanggar Larangan Merumput di Cagar Alam Raja Abdulaziz",
+      "originalDescription": "Pasukan Keamanan Lingkungan Arab Saudi menangkap seorang warga yang menggembalakan 22 unta di area terlarang Cagar Alam Raja Abdulaziz.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/مخالفة-رعي-tgcUvh9G.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-16T03:00:53+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/1z5f5yr1m"
+    },
+    {
+      "id": "a74818f777bb8f46",
+      "title": "Rumah sakit Yaman menghadapi risiko shutdown karena sege di Taiz",
+      "description": "Rumah sakit Yaman menghadapi risiko mati karena menyegel di Taiz Sebuah rumah sakit di kota Yaman Taiz telah terdengar alarm atas obat dan kekurangan bahan bakar, peringatan bahwa menghadapi risiko shutdown jika akses ke bantuan dan persediaan tidak dipulihkan. \"Selama dua bulan kami telah menelepon dan menarik bagi masyarakat internasional, organisasi kemanusiaan: menyelamatkan Taiz, menyelamatkan kesehatan di Taiz, menyelamatkan rumah sakit Yaman-Swedia. Tidak ada bahan bakar. Kami berada di napas terakhir kami\", kata direktur rumah sakit Sami Al- Sharabi. Houthis telah mengepung Taiz selama lebih dari sebulan karena mereka mencoba untuk masuk ke wilayah yang diselenggarakan oleh Saudi - didukung pasukan pemerintah Yaman. Sejak pertempuran dinyalakan kembali di musim panas, hampir 330.000 orang telah dipindahkan. \"Selamatkan Taiz, simpan kesehatan di Taiz, selamatkan rumah sakit Yaman-Swedia. Tidak ada bahan bakar. Kami berada di napas terakhir kami.\" Sebuah rumah sakit di kota Yaman Taiz telah terdengar alarm atas obat dan kekurangan bahan bakar disebabkan oleh pengepungan oleh Houthis yang telah berlangsung selama lebih dari sebulan. https: / / t.co / vUoimztr5h - Middle East Eye (@ MiddleEastEye) November 15, 2026",
+      "originalTitle": "Yemen hospital faces shutdown risk due to sege on Taiz",
+      "originalDescription": "Yemen hospital faces shutdown risk due to sege on Taiz A hospital in the Yemeni city of Taiz has sounded the alarm over medicine and fuel shortages, warning that it is facing the risk of a shutdown if access to aid and supplies is not restored. \"For two months we have been calling and appealing to the international community, the humanitarian organisations: save Taiz, save health in Taiz, save the Yemeni-Swedish hospital. There is no fuel. We are at our last breath,\" said the hospital director Sami Al-Sharabi. The Houthis have besieged Taiz for more than a month as they try to break into territory held by the Saudi-backed Yemeni government forces. Since fighting reignited in the summer, nearly 330,000 people have been displaced. \"Save Taiz, save health in Taiz, save the Yemeni-Swedish hospital. There is no fuel. We are at our last breath.\" A hospital in the Yemeni city of Taiz has sounded the alarm over medicine and fuel shortages caused by a siege by the Houthis that has lasted for more than a month. https://t.co/vUoimztr5h — Middle East Eye (@MiddleEastEye) November 15, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D76F6NQ.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-16T01:36:59+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-hospital-faces-shutdown-risk-due-sege-taiz"
+    },
     {
       "id": "8048ea5d35a6a802",
       "title": "Otoritas Wilayah Timur catat 141 ribu pelanggaran pasar dalam 9 bulan",
@@ -190,6 +565,31 @@
       "region": "",
       "publishedAt": "2026-11-16T00:58:39+00:00",
       "originalUrl": "https://indonesian.ajel.sa/arab-saudi/0i7v0fbwu"
+    },
+    {
+      "id": "2cf50bad3530d0c6",
+      "title": "6 Pernyataan TNI AD Usai Oknum Prajurit Aniaya Santri",
+      "description": "TNI AD minta maaf atas penganiayaan santri oleh oknum prajurit. Proses hukum sedang berjalan, dan TNI AD menegaskan tidak toleransi kekerasan.",
+      "originalTitle": "6 Pernyataan TNI AD Usai Oknum Prajurit Aniaya Santri",
+      "originalDescription": "TNI AD minta maaf atas penganiayaan santri oleh oknum prajurit. Proses hukum sedang berjalan, dan TNI AD menegaskan tidak toleransi kekerasan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/13/oknum-tni-masuk-pesantren-di-wilayah-cimerak-kabupaten-pangandaran-1794561436649_169.jpeg?w=360&q=90",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "Detik",
+      "sources": [
+        "Detik"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-16T00:02:20+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8754490/6-pernyataan-tni-ad-usai-oknum-prajurit-aniaya-santri"
     },
     {
       "id": "47fa74d6dba6d318",
@@ -1980,31 +2380,6 @@
       "originalUrl": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh"
     },
     {
-      "id": "3455280456b7b257",
-      "title": "TNI AD Minta Maaf Oknum Prajurit Diduga Aniaya Santri: Diproses Hukum",
-      "description": "TNI AD minta maaf atas dugaan penganiayaan santri oleh oknum prajurit. Proses hukum sedang berjalan.",
-      "originalTitle": "TNI AD Minta Maaf Oknum Prajurit Diduga Aniaya Santri: Diproses Hukum",
-      "originalDescription": "TNI AD minta maaf atas dugaan penganiayaan santri oleh oknum prajurit. Proses hukum sedang berjalan.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2026/07/16/kepala-dinas-penerangan-tni-ad-kadispenad-brigjen-tni-donny-pramono-saat-jumpa-pers-di-malacca-toast-jakarta-pusat-jumat-29520-1784207511399_169.jpeg?w=360&q=90",
-      "category": "Pesantren dan Madrasah",
-      "tags": [
-        "Pesantren dan Madrasah"
-      ],
-      "source": "Detik",
-      "sources": [
-        "Detik"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-15T02:10:12+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8753546/tni-ad-minta-maaf-oknum-prajurit-diduga-aniaya-santri-diproses-hukum"
-    },
-    {
       "id": "cb528d2c53398358",
       "title": "Menteri Dalam Negeri Bahrain waspada, mendesak warga untuk tetap tenang.",
       "description": "Departemen Dalam Negeri Bahrain memperingatkan warga agar tetap tenang dan mengikuti berita melalui saluran resmi untuk memastikan keamanan publik. Peringatan datang beberapa saat setelah Arab Saudi mengklaim pertahanan udara dicegat dua rudal balistik Houthi diluncurkan menuju daerah Riyadh. Menurut keterangan ini, hujan turun di musim hujan.",
@@ -3541,31 +3916,6 @@
       "region": "",
       "publishedAt": "2026-11-14T07:02:45+00:00",
       "originalUrl": "https://news.detik.com/berita/d-8752805/oknum-tni-di-pangandaran-ditahan-usai-intimidasi-dan-pukul-santri"
-    },
-    {
-      "id": "4889bad3fb2b0027",
-      "title": "Hujan Petir Disertai Angin Kencang dan Hujan Es di Sejumlah Wilayah Arab Saudi",
-      "description": "Pusat Meteorologi Nasional memperkirakan hujan petir sedang hingga lebat disertai angin kencang dan hujan es di beberapa wilayah Arab Saudi hari ini.",
-      "originalTitle": "Hujan Petir Disertai Angin Kencang dan Hujan Es di Sejumlah Wilayah Arab Saudi",
-      "originalDescription": "Pusat Meteorologi Nasional memperkirakan hujan petir sedang hingga lebat disertai angin kencang dan hujan es di beberapa wilayah Arab Saudi hari ini.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/طقس-2-GHwdodJJ.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-14T05:44:46+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/d85y6cvzw"
     },
     {
       "id": "00dc674acb347ab0",
@@ -12000,332 +12350,6 @@
       "originalDescription": "Masyarakat perlu teruskan semangat Resolusi Jihad melalui pendidikan, ekonomi, keadilan sosial. Pesantren dapat berpera menjawab tantangan kebangsaan.",
       "originalLanguage": "id",
       "translated": false
-    },
-    {
-      "id": "61166f528925ecb3",
-      "title": "Hamas: Dewan Perdamaian abaikan peran Israel dalam krisis banjir Gaza",
-      "description": "Kelompok Palestina Hamas, Senin (9/11), menuduh Dewan Perdamaian (Board of Peace) memberikan gambaran yang keliru ...",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/08/XxjpbeE000595_20261108_PEPFN0A001.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "ANTARA Terkini",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-10T04:10:40+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5843299/hamas-dewan-perdamaian-abaikan-peran-israel-dalam-krisis-banjir-gaza",
-      "translationStatus": "not_needed"
-    },
-    {
-      "id": "11f00d1d0f27a304",
-      "title": "Hampir 80 persen dari Inggris melihat Israel sebagai ancaman bagi perdamaian dunia",
-      "description": "Hampir 80 persen orang Inggris melihat Israel sebagai ancaman bagi perdamaian dunia hampir empat orang Inggris melihat Israel sebagai ancaman serius bagi perdamaian dunia, menurut survei yang diterbitkan minggu lalu oleh National Centre for Social Research (NatCen). Angka naik dari 48 persen pada tahun 2005 sampai 78 persen musim semi ini, dua setengah tahun menuju genosida di Gaza dan setelah Israel dan AS telah menyerang Iran. Pada bulan Juli, polling pendapat YouGov ditugaskan oleh Dewan Inggris-Arab Understanding menemukan bahwa hanya 17 persen dari populasi Inggris yang percaya bahwa Israel tidak melakukan genosida di Gaza. Perang terhadap Iran telah memukul ekonomi Inggris, meninggalkan rumah membayar lebih banyak untuk energi, makanan dan hipotek. Tagihan naik telah membawa biaya perang Israel di rumah di Timur Tengah ke rumah besar Inggris",
-      "image": "https://www.middleeasteye.net/sites/default/files/images-story/Palestine%20London%20AFP.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "language": "id",
-      "country": "International",
-      "publishedAt": "2026-11-10T03:35:49+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/nearly-80-percent-britons-see-israel-threat-world-peace",
-      "originalTitle": "Nearly 80 percent of Britons see Israel as a threat to world peace",
-      "originalDescription": "Nearly 80 percent of Britons see Israel as a threat to world peace Nearly four in five Britons see Israel as a serious threat to world peace, according to a survey published last week by the National Centre for Social Research (NatCen). The figure rose from 48 percent in 2005 to 78 percent this spring, two-and-a-half years into the genocide in Gaza and just after Israel and the US had attacked Iran. In July, a YouGov opinion poll commissioned by the Council for British-Arab Understanding found that only 17 percent of the British population believes that Israel is not committing genocide in Gaza. The war on Iran has hit the UK economy, leaving households paying more for energy, food and mortgages. The rising bills have brought the cost of Israel’s wars in the Middle East home to British hou",
-      "originalLanguage": "en",
-      "translated": true,
-      "translationStatus": "success"
-    },
-    {
-      "id": "8efeb8d03a4a6f38",
-      "title": "Kemenhaj Buka Pelunasan Bipih Haji Reguler Mulai 10 November 2026",
-      "description": "Kemenhaj membuka pelunasan Bipih haji reguler 1448 H/2027 M mulai 10 November 2026. Pelunasan tahap pertama berlangsung hingga 10 Desember 2026.",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/petugas-haji-membantu-pada-musim-haji-2026_1794282271.webp",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "NU Online",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-10T03:30:00+00:00",
-      "originalUrl": "https://www.nu.or.id/nasional/kemenhaj-buka-pelunasan-bipih-haji-reguler-mulai-10-november-2026-edQQ9",
-      "sources": [
-        "NU Online"
-      ],
-      "originalTitle": "Kemenhaj Buka Pelunasan Bipih Haji Reguler Mulai 10 November 2026",
-      "originalDescription": "Kemenhaj membuka pelunasan Bipih haji reguler 1448 H/2027 M mulai 10 November 2026. Pelunasan tahap pertama berlangsung hingga 10 Desember 2026.",
-      "originalLanguage": "id",
-      "translated": false
-    },
-    {
-      "id": "1bd74929ce67ab98",
-      "title": "Putra Bungsu Pendiri NU KH Yusuf Hasyim Dianugerahi Pahlawan Nasional",
-      "description": "JAKARTA — Presiden RI Prabowo Subianto menganugerahkan gelar Pahlawan Nasional kepada KH Muhammad Yusuf Hasyim atau yang akrab disapa Pak Ud. Putra bungsu pendiri Nahdlatul Ulama (NU), Hadratussyaikh KH...",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/kh-yusuf_240818065127-905.jpg",
-      "category": "Dakwah dan Ulama",
-      "tags": [
-        "Dakwah dan Ulama"
-      ],
-      "source": "Republika",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-10T02:28:10+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to9liy483/putra-bungsu-pendiri-nu-kh-yusuf-hasyim-dianugerahi-pahlawan-nasional",
-      "sources": [
-        "Republika"
-      ],
-      "originalTitle": "Putra Bungsu Pendiri NU KH Yusuf Hasyim Dianugerahi Pahlawan Nasional",
-      "originalDescription": "JAKARTA — Presiden RI Prabowo Subianto menganugerahkan gelar Pahlawan Nasional kepada KH Muhammad Yusuf Hasyim atau yang akrab disapa Pak Ud. Putra bungsu pendiri Nahdlatul Ulama (NU), Hadratussyaikh KH...",
-      "originalLanguage": "id",
-      "translated": false
-    },
-    {
-      "id": "0d925e3938a36516",
-      "title": "Perdana Menteri Kanada Carney mengutuk serangan Houthi di Arab Saudi selama panggilan dengan Putra Mahkota",
-      "description": "RIYADH - Saudi Crown Prince dan Perdana Menteri Mohammed bin Salman diadakan pada hari Senin panggilan telepon dengan Perdana Menteri Kanada Mark Carney. Selama panggilan, Carney mengutuk serangan teroris milisi Houthi di Arab Saudi dan menegaskan solidaritas Kanada dengan Arab Saudi terhadap ancaman apapun terhadap keamanannya dan keamanan warga negara dan warganya. Para pemimpin juga membahas hubungan bilateral antara dua negara dan cara untuk memperkuat dan mengembangkan kerjasama di berbagai bidang.",
-      "originalTitle": "Canadian PM Carney condemns Houthi attacks on Saudi Arabia during call with Crown Prince",
-      "originalDescription": "RIYADH — Saudi Crown Prince and Prime Minister Mohammed bin Salman held on Monday a phone call with Prime Minister of Canada Mark Carney.During the call, Carney condemned the terrorist Houthi militia's attacks on Saudi Arabia and affirmed Canada's solidarity with Saudi Arabia against any threats to its security and the safety of its citizens and residents.The leaders also discussed bilateral relations between the two countries and ways to strengthen and develop cooperation across various fields.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/10/2792364.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-09T21:54:19+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666129/saudi-arabia/canadian-pm-carney-condemns-houthi-attacks-on-saudi-arabia-during-call-with-crown-prince"
-    },
-    {
-      "id": "183d0cd2c1bcd0aa",
-      "title": "Saudi FM membahas situasi regional dengan rekan-rekan Inggris, Perancis, Jerman dan Korea di Paris",
-      "description": "PARIS - Saudi Menteri Luar Negeri Pangeran Faisal bin Farhan mengadakan pembicaraan dengan menteri asing Inggris, Perancis, Jerman dan Korea di Paris pada hari Senin. Pertemuan diadakan di pinggir Grup Tujuh (G7) Menteri Asing 'Rapat. Selama pertemuan mereka, Pangeran Faisal dan Sekretaris Negara Luar Negeri, Commonwealth dan Development Affairs of the United Kingdom Ed Miliband meninjau hubungan bilateral antara negara mereka. Mereka mendiskusikan masalah kunci regional dan perkembangan saat ini, serta upaya gabungan untuk memastikan keamanan maritim, rute pengiriman yang aman, dan memulihkan keamanan dan stabilitas di wilayah tersebut. Selama pertemuannya dengan Menteri Perancis untuk urusan luar negeri di Eropa, Jean- Noelle Barrot, Pangeran Faisal menyatakan penghargaan atas upaya Perancis selama kepresidenan G7 tahun ini dan untuk mengundang Arab Saudi untuk berpartisipasi dalam pertemuan menteri. Para menteri mendiskusikan perkembangan regional baru-baru ini, teroris milisi Houthi terus menyerang Arab Saudi, dan kerjasama upaya untuk mengandung krisis regional dan mengurangi dampak mereka. Mereka juga mendiskusikan upaya-upaya untuk melindungi saluran air, memastikan kebebasan navigasi, dan mempertahankan keamanan daerah dan stabilitas. Duta Besar Saudi ke Perancis Dr Faisal Almyfel menghadiri pertemuan. Pangeran Faisal bin Farhan juga bertemu dengan Menteri Luar Negeri Korea Cho Hyun. Selama pertemuan, mereka meninjau hubungan bilateral dan mendiskusikan jalan kerja sama dan kemitraan antara dua negara. Mereka juga bertukar pandangan pada isu-isu regional saat ini dan upaya-upaya yang berkelanjutan untuk mengatasi mereka. Menteri Luar Negeri Saudi dan Menteri Luar Negeri Jerman Johann Wadephul meninjau hubungan bilateral antara negara mereka. Mereka membahas perkembangan regional dan upaya diplomatik bertujuan untuk menjaga keamanan dan stabilitas di wilayah tersebut, memastikan kebebasan navigasi, dan keamanan rute maritim.",
-      "originalTitle": "Saudi FM discusses regional situation with his British, French, German and Korean counterparts in Paris",
-      "originalDescription": "PARIS — Saudi Minister of Foreign Affairs Prince Faisal bin Farhan held talks with foreign ministers of the United Kingdom, France, Germany and Korea in Paris on Monday. The meetings were held on the sidelines of the Group of Seven (G7) Foreign Ministers' Meeting.During their meeting, Prince Faisal and Secretary of State for Foreign, Commonwealth and Development Affairs of the United Kingdom Ed Miliband reviewed bilateral relations between their countries. They discussed key regional issues and current developments, as well as joint efforts to ensure maritime security, safeguard shipping routes, and restore security and stability in the region.During his meeting with French Minister for Europe and Foreign Affairs Jean-Noël Barrot, Prince Faisal expressed appreciation for France's efforts during its G7 presidency this year and for inviting Saudi Arabia to participate in the ministerial meeting. The ministers discussed recent regional developments, the terrorist Houthi militia's continued attacks on Saudi Arabia, and joint efforts to contain regional crises and mitigate their repercussions. They also discussed efforts to safeguard waterways, ensure freedom of navigation, and maintain regional security and stability. Saudi Ambassador to France Dr. Faisal Al-Mujfel attended the meeting. Prince Faisal bin Farhan also met with Korean Minister of Foreign Affairs Cho Hyun. During the meeting, they reviewed bilateral relations and discussed avenues of cooperation and partnership between the two countries. They also exchanged views on current regional issues and ongoing efforts to address them. The Saudi foreign minister and the German Federal Minister for Foreign Affairs Johann Wadephul reviewed bilateral relations between their countries. They discussed regional developments and diplomatic efforts aimed at maintaining security and stability in the region, ensuring freedom of navigation, and safeguarding maritime routes.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/10/2792360.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-09T21:28:39+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666128/saudi-arabia/saudi-fm-discusses-regional-situation-with-his-british-french-german-and-korean-counterparts-in-paris"
-    },
-    {
-      "id": "af47c2e2f54910ca",
-      "title": "Arab Saudi bergabung dengan G7 Paris berbicara tentang memanfaatkan AI untuk keamanan global",
-      "description": "PARIS - Saudi Menteri Luar Negeri Pangeran Faisal bin Farhan menghadiri sesi G7 diperluas dengan Partner (G7 +) pada kecerdasan buatan (AI) di Paris pada hari Senin. Sesi ini membahas implikasi kemajuan cepat dalam teknologi AI dan model untuk lingkungan strategis global dan keamanan internasional. Pertemuan ini juga ditujukan untuk memperkuat koordinasi internasional dalam mengelola resiko terkait AI- sambil mempromosikan inovasi dan memastikan pengembangan yang aman dan bertanggung jawab dan penggunaan teknologi ini untuk melindungi keamanan global dan stabilitas.",
-      "originalTitle": "Saudi Arabia joins G7 Paris talks on harnessing AI for global security",
-      "originalDescription": "PARIS — Saudi Minister of Foreign Affairs Prince Faisal bin Farhan attended an expanded G7 Session with Invited Partners (G7+) on artificial intelligence (AI) in Paris on Monday.The session discussed the implications of rapid advances in AI technologies and models for the global strategic environment and international security. The meeting also addressed ways to strengthen international coordination in managing AI-related risks while promoting innovation and ensuring the safe and responsible development and use of these technologies to safeguard global security and stability.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/10/2792353.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-09T21:05:21+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666127/saudi-arabia/saudi-arabia-joins-g7-paris-talks-on-harnessing-ai-for-global-security"
-    },
-    {
-      "id": "74ebd4ca37cb6b06",
-      "title": "Bagaimana menangani Gaza dengan musim dingin lain yang parah?",
-      "description": "Bagaimana menangani Gaza dengan musim dingin lain yang parah?",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794253648.jpg?resize=1920%2C1080&quality=80",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Al Jazeera",
-      "sourceCountry": "International",
-      "region": "",
-      "language": "id",
-      "country": "International",
-      "publishedAt": "2026-11-09T19:47:46+00:00",
-      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/9/how-is-gaza-coping-with-another-severe-winter",
-      "originalTitle": "How is Gaza coping with another severe winter?",
-      "originalDescription": "How is Gaza coping with another severe winter?",
-      "translationStatus": "success",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
-      "originalLanguage": "en",
-      "translated": true
-    },
-    {
-      "id": "9a47210a9956b138",
-      "title": "Yerusalem Daily: Setelah hujan Gaza terus berlanjut",
-      "description": "Lima orang Palestina tewas di Gaza ketika hujan lebat meruntuhkan tanggul pasir di sebuah kamp perpindahan.",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794246886.jpg?resize=1920%2C1080&quality=80",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Al Jazeera",
-      "sourceCountry": "International",
-      "region": "",
-      "language": "id",
-      "country": "International",
-      "publishedAt": "2026-11-09T17:55:47+00:00",
-      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/9/jerusalem-daily-deadly-aftermath-of-gaza-rainstorm-continues",
-      "originalTitle": "Jerusalem Daily: Deadly aftermath of Gaza rainstorm continues",
-      "originalDescription": "Five Palestinians were killed in Gaza when heavy rain collapsed a sand embankment on a displacement camp.",
-      "translationStatus": "success",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
-      "originalLanguage": "en",
-      "translated": true
-    },
-    {
-      "id": "ee396d9a3271942b",
-      "title": "Saudi, menteri asing Omani mendiskusikan situasi regional dalam panggilan telepon",
-      "description": "RIYADH - Menteri Luar Negeri Pangeran Faisal bin Farhan mengadakan panggilan telepon pada hari Senin dengan Menteri Luar Negeri Oman Sayyid Badar bin Hamad Al Busaidi. Selama panggilan, para menteri membahas situasi regional dalam mengingat perkembangan terbaru. Mereka menekankan kebutuhan untuk melanjutkan upaya diplomatik untuk mengatasi krisis, menjaga navigasi maritim dan rute pelayaran, dan membatasi dampak dari perkembangan ini pada keamanan daerah dan stabilitas.",
-      "originalTitle": "Saudi, Omani foreign ministers discuss regional situation in phone call",
-      "originalDescription": "RIYADH — Minister of Foreign Affairs Prince Faisal bin Farhan held a phone call on Monday with Foreign Minister of Oman Sayyid Badr bin Hamad Al Busaidi. During the call, the ministers discussed the regional situation in light of recent developments. They stressed the need to continue diplomatic efforts to contain the crisis, safeguard maritime navigation and shipping routes, and limit the impact of these developments on regional security and stability.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2792279.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-09T17:24:38+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666125/saudi-arabia/saudi-omani-foreign-ministers-discuss-regional-situation-in-phone-call"
-    },
-    {
-      "id": "2386370aaabc7585",
-      "title": "Tiga terluka saat dinding runtuh di tenda keluarga yang dipindahkan di Gaza, laporan Al Jazeera",
-      "description": "Tiga orang yang terluka saat tembok runtuh di tenda pengungsi di Gaza, Al Jazeera melaporkan ada tiga orang Palestina yang terluka ketika sebuah tembok runtuh pada sebuah tenda melindungi orang-orang di kamp pengungsi Nuseyat di pusat Gaza, sumber dari RS Al- Awda memberitahu Al Jazeera.",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sourceCountry": "International",
-      "region": "",
-      "language": "id",
-      "country": "International",
-      "publishedAt": "2026-11-09T17:18:43+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/three-injured-wall-collapses-displaced-familys-tent-gaza-al-jazeera",
-      "originalTitle": "Three injured as wall collapses on displaced family's tent in Gaza, Al Jazeera reports",
-      "originalDescription": "Three injured as wall collapses on displaced family's tent in Gaza, Al Jazeera reports Three Palestinians were injured when a wall collapsed on a tent sheltering displaced people in the Nuseirat refugee camp in central Gaza, a source at al-Awda hospital told Al Jazeera.",
-      "translationStatus": "success",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
-      "originalLanguage": "en",
-      "translated": true
-    },
-    {
-      "id": "aeb170a49053eac9",
-      "title": "Penanganan kontainer di pelabuhan Saudi meningkat 14% pada bulan Oktober; Port Islam Jeddah membuat rekor",
-      "description": "RIYADH - Penanganan kontainer secara keseluruhan di seluruh pelabuhan Saudi mencatat peningkatan 14 persen dalam satu tahun selama bulan terakhir Oktober, menurut Abdullah Al- Munif, juru bicara dari Otoritas Pelabuhan Saudi (Mawani). Dia mengatakan bahwa Jeddah Islamic Port merekam volume penanganan bulanan tertinggi dalam sejarahnya pada Oktober 2026, mencapai 582.900 TEUs (unit ekuivalen dua belas kaki). Hal ini menandai peningkatan 27,45 persen atas catatan sebelumnya, ditetapkan pada bulan Juni. Al-Munif mencatat bahwa jeddah Islam Port 's catatan kinerja mencerminkan efisiensi operasional dan kemampuan logistik canggih. \"The prestasi underscore kemampuan pelabuhan untuk menjaga kecepatan dengan transformasi cepat dalam perdagangan global dan mengakomodasi tumbuh volume perdagangan. Milestone ini akan membantu memastikan aliran halus barang dan memperkuat kelanjutan rantai pasokan,\" katanya. Menurut Otoritas Umum Ports dan Bea Cukai (GAPC), total volume kontainer yang ditangani di pelabuhan Saudi mencapai sekitar 86.200 TEU pada bulan Oktober, dibandingkan dengan sekitar 759.800 TEU pada bulan yang sama pada 2025. Pertumbuhannya didorong oleh 8,53 persen peningkatan dalam wadah inbound, yang naik sekitar 305.600 TEU dari 281.600 TEUS, dan peningkatan 4.83 persen dalam kontainer luar, yang naik ke sekitar 282.900 TEU dari 269.900 TEUs. Sementara itu, kontainer pengiriman menurun sebesar 10.54 persen ke sekitar 186,400 TEU, dibandingkan dengan 208.400 TEU, sementara kontainer transit berjumlah sekitar 91.300 TEU. Sebaliknya, total volume kargo yang ditangani di pelabuhan Saudi jatuh 11.7 persen menjadi 22.36 juta ton pada bulan Oktober, dibandingkan dengan 25,32 juta ton pada bulan yang sama tahun lalu. Termasuk 1,83 juta ton kargo umum, 9.48 juta ton muatan massal cair, dan 4.44 juta ton kargo padat, sementara kargo transit mencapai 34.780 ton. Adapun lalu lintas maritim, jumlah kapal yang diterima di pelabuhan Saudi menurun sebesar 9.62 persen dibandingkan deng",
-      "originalTitle": "Container handling at Saudi ports rises 14% in October; Jeddah Islamic Port sets a record",
-      "originalDescription": "RIYADH — The overall container handling across Saudi ports recorded a 14 percent year-on-year increase during the last month of October, according to Abdullah Al-Munif, spokesperson of the Saudi Ports Authority (Mawani). He said that Jeddah Islamic Port recorded the highest monthly container-handling volume in its history in October 2026, reaching 582,900 TEUs (twenty-foot equivalent units). This marked a 27.45 percent increase over its previous record, set in June.Al-Munif noted that Jeddah Islamic Port's record performance reflects its operational efficiency and advanced logistical capabilities. “The achievement underscores the port's ability to keep pace with the rapid transformations in global trade and accommodate growing trade volumes. This milestone would help ensure the smooth flow of goods and strengthen the continuity of supply chains,” he said. According to the General Authority of Ports and Customs (GAPC), the total volume of containers handled at Saudi ports reached approximately 866,200 TEUs in October, compared to around 759,800 TEUs in the same month of 2025. The growth was driven by an 8.53 percent increase in inbound containers, which rose to approximately 305,600 TEUs from 281,600 TEUs, and a 4.83 percent increase in outbound containers, which climbed to approximately 282,900 TEUs from 269,900 TEUs. Meanwhile, transshipment containers declined by 10.54 percent to approximately 186,400 TEUs, compared to 208,400 TEUs, while transit containers totaled approximately 91,300 TEUs. In contrast, the total volume of cargo handled at Saudi ports fell by 11.7 percent to 22.36 million tons in October, compared to 25.32 million tons in the same month last year. This included 1.83 million tons of general cargo, 9.48 million tons of liquid bulk cargo, and 4.44 million tons of solid bulk cargo, while transit cargo amounted to 34,780 tons. As for maritime traffic, the number of vessels received at Saudi ports declined by 9.62 percent to approximately 1,500, compar",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2792274.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-09T17:12:43+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666124/saudi-arabia/container-handling-at-saudi-ports-rises-14-in-october-jeddah-islamic-port-sets-a-record"
-    },
-    {
-      "id": "2cd4c70899785dac",
-      "title": "Departemen Energi: Eastern-West Pipeline ditargetkan di Madinah; operasi tetap tidak terpengaruh",
-      "description": "RIYADH - Sebuah sumber resmi di Kementerian Energi menyatakan bahwa East-West Pipeline di wilayah Madinah ditargetkan pada hari Senin, 9 November, mengakibatkan kebakaran kecil. Tim respon darurat berhasil membawa api di bawah kontrol tanpa cedera atau korban jiwa, sementara operasi pipa tetap tidak terpengaruh. Sumber ini menjelaskan bahwa tim tanggap darurat, bersama dengan tim teknis khusus, segera meluncurkan operasi setelah serangan dan mengambil semua tindakan yang diperlukan untuk mengamankan situs dan memastikan keselamatannya sesuai dengan prosedur keamanan yang disetujui dan rencana respon darurat.",
-      "originalTitle": "Energy ministry: East-West Pipeline targeted in Madinah; operations remain unaffected",
-      "originalDescription": "RIYADH — An official source at the Ministry of Energy stated that the East-West Pipeline in the Madinah region was targeted on Monday, November 9, resulting in a minor fire. Emergency response teams successfully brought the fire under control without any injuries or fatalities, while the pipeline's operations remained unaffected.The source explained that emergency response teams, along with specialized technical teams, immediately launched operations following the attack and took all necessary measures to secure the site and ensure its safety in accordance with approved safety procedures and emergency response plans.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2792256.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-09T16:31:47+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666123/saudi-arabia/energy-ministry-east-west-pipeline-targeted-in-madinah-operations-remain-unaffected"
-    },
-    {
-      "id": "7cc8b4f0a11be0d7",
-      "title": "Etimad meluncurkan layanan pembayaran yang baik untuk perusahaan swasta dan nirlaba",
-      "description": "RIYADH - The National Center for Government Resource Systems (NCGR) mengumumkan peluncuran \"Instal Requests for Violations\" layanan untuk privasi - dan non-profit-sektor-sektor melalui platform Etimad. Layanan baru memungkinkan pendirian untuk menerapkan pemasangan berdasarkan penyelesaian denda keuangan yang luar biasa sesuai dengan prosedur yang disetujui. NCGR mengatakan bahwa layanan dirancang untuk memungkinkan pendirian untuk mengajukan permintaan untuk membayar denda keuangan yang luar biasa dalam instalasi, memfasilitasi akses ke layanan sesuai dengan prosedur yang disetujui. Layanan ini memungkinkan pelanggar di sektor swasta dan nirlaba untuk menyelesaikan denda yang diberlakukan oleh lembaga pemerintah dan direkam pada platform \"Efaa\" melalui pembayaran angsuran. Hal ini bertujuan untuk meringankan beban keuangan membayar denda ini sementara berkontribusi untuk meningkatkan pendapatan pemerintah.",
-      "originalTitle": "Etimad launches fine installment payment service for private and non-profit establishments",
-      "originalDescription": "RIYADH — The National Center for Government Resource Systems (NCGR) announced the launch of the “Installment Requests for Violations” service for private- and non-profit-sector establishments through the Etimad platform. The new service enables establishments to apply for installment-based settlement of outstanding financial fines in accordance with approved procedures.The NCGR said that the service is designed to enable establishments to submit requests to pay outstanding financial fines in installments, facilitating access to the service in accordance with approved procedures. The service allows violators in the private and non-profit sectors to settle fines imposed by government agencies and recorded on the “Efaa” platform through installment payments. It aims to ease the financial burden of paying these fines while contributing to increased government revenue.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2792251.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-09T16:09:14+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666122/saudi-arabia/etimad-launches-fine-installment-service-for-private-and-non-profit-establishments"
     }
   ]
 }
