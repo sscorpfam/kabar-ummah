@@ -1,11 +1,11 @@
 {
-  "status": "success",
-  "lastUpdated": "2026-11-15T20:27:51.164075+00:00",
+  "status": "partial",
+  "lastUpdated": "2026-11-16T01:03:32.603457+00:00",
   "total": 500,
-  "newArticles": 124,
+  "newArticles": 122,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 12,
-  "sourcesFailed": 0,
+  "sourcesSucceeded": 11,
+  "sourcesFailed": 1,
   "sourceStats": [
     {
       "name": "Al Jazeera",
@@ -23,8 +23,8 @@
       "name": "BBC World",
       "status": "success",
       "raw": 20,
-      "accepted": 1,
-      "filtered": 19,
+      "accepted": 0,
+      "filtered": 20,
       "filteredFootball": 1,
       "translated": 20,
       "translationPartial": 0,
@@ -49,7 +49,7 @@
       "raw": 50,
       "accepted": 0,
       "filtered": 50,
-      "filteredFootball": 5,
+      "filteredFootball": 10,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 9,
-      "filtered": 11,
-      "filteredFootball": 2,
+      "accepted": 10,
+      "filtered": 10,
+      "filteredFootball": 1,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -93,15 +93,15 @@
     },
     {
       "name": "Detik",
-      "status": "success",
-      "raw": 100,
-      "accepted": 3,
-      "filtered": 97,
-      "filteredFootball": 2,
+      "status": "error",
+      "raw": 0,
+      "accepted": 0,
+      "filtered": 0,
+      "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
     },
     {
       "name": "Muhammadiyah",
@@ -118,9 +118,9 @@
     {
       "name": "NU Online",
       "status": "success",
-      "raw": 48,
-      "accepted": 17,
-      "filtered": 31,
+      "raw": 50,
+      "accepted": 18,
+      "filtered": 32,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -133,7 +133,7 @@
       "raw": 50,
       "accepted": 30,
       "filtered": 20,
-      "filteredFootball": 4,
+      "filteredFootball": 5,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -156,16 +156,270 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 252,
+    "translatedArticles": 249,
     "partialArticles": 1,
     "failedArticles": 0,
-    "cacheEntries": 1841
+    "cacheEntries": 1884
   },
   "images": {
     "found": 500,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "8048ea5d35a6a802",
+      "title": "Otoritas Wilayah Timur catat 141 ribu pelanggaran pasar dalam 9 bulan",
+      "description": "Otoritas Wilayah Timur Arab Saudi mencatat lebih dari 141 ribu pelanggaran di pasar selama sembilan bulan terakhir melalui lebih dari 357 ribu inspeksi.",
+      "originalTitle": "Otoritas Wilayah Timur catat 141 ribu pelanggaran pasar dalam 9 bulan",
+      "originalDescription": "Otoritas Wilayah Timur Arab Saudi mencatat lebih dari 141 ribu pelanggaran di pasar selama sembilan bulan terakhir melalui lebih dari 357 ribu inspeksi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/الجولات-الرقابية-gPajyZ1k.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-16T00:58:39+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/0i7v0fbwu"
+    },
+    {
+      "id": "47fa74d6dba6d318",
+      "title": "Tiga Pelanggar Ditangkap karena Berburu Tanpa Izin di Wilayah Timur",
+      "description": "Pasukan Keamanan Lingkungan Arab Saudi menangkap tiga warga yang berburu tanpa izin di Wilayah Timur dan menyita senjata serta satwa liar hasil buruan.",
+      "originalTitle": "Tiga Pelanggar Ditangkap karena Berburu Tanpa Izin di Wilayah Timur",
+      "originalDescription": "Pasukan Keamanan Lingkungan Arab Saudi menangkap tiga warga yang berburu tanpa izin di Wilayah Timur dan menyita senjata serta satwa liar hasil buruan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-G1j6fk9m.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-15T23:31:18+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/4j40p53mg"
+    },
+    {
+      "id": "3a123371a4f36ae3",
+      "title": "Gelang Keselamatan Tingkatkan Perlindungan Anak dan Lansia di Masjidil Haram",
+      "description": "MAKKAH -- Otoritas Umum Urusan Masjidil Haram dan Masjid Nabawi menyediakan gelang keselamatan bagi para pengunjung Masjidil Haram. Layanan ini bertujuan memudahkan identifikasi dan pelacakan anak-anak, lansia, serta penyandang...",
+      "originalTitle": "Gelang Keselamatan Tingkatkan Perlindungan Anak dan Lansia di Masjidil Haram",
+      "originalDescription": "MAKKAH -- Otoritas Umum Urusan Masjidil Haram dan Masjid Nabawi menyediakan gelang keselamatan bagi para pengunjung Masjidil Haram. Layanan ini bertujuan memudahkan identifikasi dan pelacakan anak-anak, lansia, serta penyandang...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/gelang-keselamatan-bagi-para-pengunjung-masjidil_261116060317-284.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah",
+        "Arab Saudi",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-15T23:05:33+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tokg59430/gelang-keselamatan-tingkatkan-perlindungan-anak-dan-lansia-di-masjidil-haram"
+    },
+    {
+      "id": "592c6de7fba1c0b1",
+      "title": "Jelajah Santri IX di Probolinggo Tanamkan Patriotisme dan Kemandirian Pramuka Pandu Ma'arif NU",
+      "description": "Jelajah Santri IX di Probolinggo Tanamkan Patriotisme dan Kemandirian Pramuka Pandu Ma'arif NU",
+      "originalTitle": "Jelajah Santri IX di Probolinggo Tanamkan Patriotisme dan Kemandirian Pramuka Pandu Ma'arif NU",
+      "originalDescription": "Jelajah Santri IX di Probolinggo Tanamkan Patriotisme dan Kemandirian Pramuka Pandu Ma'arif NU",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/jelajah-santri-news16112026-maarif-di-probolinggo_1794786373.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-15T23:00:00+00:00",
+      "originalUrl": "https://www.nu.or.id/daerah/jelajah-santri-ix-di-probolinggo-tanamkan-patriotisme-dan-kemandirian-pramuka-pandu-ma-arif-nu-hwdrU"
+    },
+    {
+      "id": "e27fa19fdc9b670a",
+      "title": "Pembangunan Stasiun Expo Dimulai dalam Jaringan Kereta Riyadh",
+      "description": "Otoritas Kerajaan Kota Riyadh memulai pembangunan Stasiun Expo pada jaringan Kereta Riyadh, bersamaan dengan pengumuman desain arsitekturnya untuk mendukung Expo 2030.",
+      "originalTitle": "Pembangunan Stasiun Expo Dimulai dalam Jaringan Kereta Riyadh",
+      "originalDescription": "Otoritas Kerajaan Kota Riyadh memulai pembangunan Stasiun Expo pada jaringan Kereta Riyadh, bersamaan dengan pengumuman desain arsitekturnya untuk mendukung Expo 2030.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/قطار-الرياض-RAZQpc-t.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-15T22:13:01+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/as0q226b9"
+    },
+    {
+      "id": "2e4da804b0a426ea",
+      "title": "Australia, Kanada, Italia dan Inggris mendesak Israel untuk memungkinkan bantuan ke Gaza",
+      "description": "Negara-negara menuduh Israel mencegah tenda dan persediaan lainnya dari memasuki Gaza, meskipun krisis kemanusiaan.",
+      "originalTitle": "Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza",
+      "originalDescription": "The countries accuse Israel of preventing tents and other supplies from entering Gaza, despite the humanitarian crisis.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6afa1775392d4-1794774901.jpg?resize=1920%2C1440",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T22:06:38+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/15/australia-canada-italy-and-the-uk-urge-israel-to-allow-aid-into-gaza"
+    },
+    {
+      "id": "1ad75d61dcbc1922",
+      "title": "Orang Palestina merebut kembali pantai Gaza dengan berenang untuk harapan",
+      "description": "Untuk pertama kalinya dalam lebih dari tiga tahun, federasi renang Gaza telah mengadakan kompetisi.",
+      "originalTitle": "Palestinians reclaim Gaza’s shores with a swim for hope",
+      "originalDescription": "For the first time in more than three years, Gaza’s swimming federation has held a competition.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794775692.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T20:50:15+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/15/palestinians-reclaim-gazas-shores-with-a-swim-for-hope"
+    },
+    {
+      "id": "146a0f907f33bd5b",
+      "title": "Liga Dunia Muslim Kecam Upaya Houthi Serang Mekkah dan Wilayah Sipil",
+      "description": "Liga Dunia Muslim mengecam keras upaya berulang kelompok Houthi menargetkan Mekkah dan kawasan sipil di Arab Saudi, serta menegaskan dukungan penuh bagi Kerajaan.",
+      "originalTitle": "Liga Dunia Muslim Kecam Upaya Houthi Serang Mekkah dan Wilayah Sipil",
+      "originalDescription": "Liga Dunia Muslim mengecam keras upaya berulang kelompok Houthi menargetkan Mekkah dan kawasan sipil di Arab Saudi, serta menegaskan dukungan penuh bagi Kerajaan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/رابطة-العالم-الإسلامي-CQmsLIVr.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-15T20:50:12+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/rp28zr8lq"
+    },
+    {
+      "id": "32a10d7717edc5ee",
+      "title": "Anggota Dewan Ulama Senior: Serangan Houthi ke Dua Masjid Suci adalah Kejahatan Keji",
+      "description": "Sheikh Dr. Sami Al-Suqair menegaskan serangan milisi Houthi ke Mekkah dan Madinah merupakan kejahatan besar terhadap tempat paling suci umat Islam.",
+      "originalTitle": "Anggota Dewan Ulama Senior: Serangan Houthi ke Dua Masjid Suci adalah Kejahatan Keji",
+      "originalDescription": "Sheikh Dr. Sami Al-Suqair menegaskan serangan milisi Houthi ke Mekkah dan Madinah merupakan kejahatan besar terhadap tempat paling suci umat Islam.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/1000332041-UcTMfMLZ.webp",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama",
+        "Arab Saudi",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-15T20:43:58+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/cwzdcmtsr"
+    },
+    {
+      "id": "622c2cc59cff601d",
+      "title": "Siapa yang bisa memaksa Israel untuk melaksanakan perjanjian gencatan senjata Gaza?",
+      "description": "Badai menyerang wilayah Palestina saat Israel membatasi jumlah bantuan.",
+      "originalTitle": "Who can force Israel to implement Gaza ceasefire deal?",
+      "originalDescription": "Storms batter Palestinian territory as Israel restricts entry of aid.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794772684.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-15T20:37:43+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/inside-story/2026/11/15/who-can-force-israel-to-implement-gaza-ceasefire-deal"
+    },
     {
       "id": "2eb6d90e38d6e44b",
       "title": "Jaksa Agung Kunjungi Kejaksaan Riyadh, Tegaskan Kepatuhan pada Hukum dan Keadilan",
@@ -12072,238 +12326,6 @@
       "region": "",
       "publishedAt": "2026-11-09T16:09:14+00:00",
       "originalUrl": "https://saudigazette.com.sa/article/666122/saudi-arabia/etimad-launches-fine-installment-service-for-private-and-non-profit-establishments"
-    },
-    {
-      "id": "e0040cc8530253a5",
-      "title": "Kemenhaj Sumbar upayakan pemulangan jamaah umrah asal Pasaman Barat",
-      "description": "Kantor Wilayah (Kanwil) Kementerian Haji dan Umrah (Kemenhaj) Sumatera Barat (Sumbar) mengupayakan pemulangan jamaah ...",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/09/36421.jpg",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "ANTARA Terkini",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T15:33:24+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5842751/kemenhaj-sumbar-upayakan-pemulangan-jamaah-umrah-asal-pasaman-barat",
-      "translationStatus": "not_needed"
-    },
-    {
-      "id": "566be1c1955545c5",
-      "title": "Menteri Haji: jumlah peziarah Umrah asing dua kali lipat dalam 3 tahun",
-      "description": "JEDDAH - Menteri Haji dan Umrah Dr Tawfiq Al- Rabia mengatakan bahwa jumlah peziarah Umrah tiba dari luar Kerajaan meningkat dari sekitar 8,4 juta di 2022 menjadi 18 juta di 2025. \"Selama periode yang sama, jumlah pengunjung ke Al- Rawdah Al- Sharifah di Nabi Masjid di Madinah naik dari sekitar 6 juta sampai hampir 16 juta. Prestasi ini dimungkinkan oleh pengembangan layanan terus menerus dan upaya konser dari pihak berwenang yang relevan,\" katanya. Menteri membuat pernyataan saat menghadiri sesi menteri berjudul \"Melayani Peziarah: Sebuah Ekosistem Nasional Terpadu\", pada hari kedua dari edisi keenam dari Konferensi Haji dan Pameran di Jeddah pada hari Senin. Sesi ini membahas integrasi upaya oleh badan-badan pemerintah dan eksekutif dalam melayani peziarah, mengembangkan mekanisme untuk kerjasama bersama, dan meningkatkan tingkat kesiapan untuk 1448 musim haji. Speakers pada sesi ini juga termasuk Menteri Pariwisata Ahmed Al- Khateeb; Otoritas Umum Penerbangan Sipil Presiden Abdulaziz Al- Duailej, Direktur Keamanan Publik Letnan Jenderal Mohammed Al- Bassami; dan Walikota Mekah Musaed Al- Dawood. Al- Rabiah menunjukkan bahwa lebih dari 60 lembaga pemerintah terlibat dalam sistem haji, beroperasi di bawah sekitar 600 tahunan rencana operasional. Program Haji koordinat Manajemen dan menyelaraskan rencana-rencana ini, menyelesaikan potensi tumpang tindih, dan memonitor indikator operasional melalui Command and Control Center, dengan demikian memperkuat kesiapan dan meningkatkan efisiensi layanan yang disediakan kepada para tamu Allah. Addressing sesi, Menteri Turisme Al- Khateeb menyoroti peran kementerian sebagai mitra kunci dalam sistem melayani tamu Allah. Dia mencatat bahwa pelayanan telah bertanggung jawab untuk mengawasi akomodasi peziarah dalam koordinasi dengan Kementerian Haji dan Umrah, sementara bekerja untuk meningkatkan kualitas fasilitas akomodasi. Dia mengungkapkan bahwa sekitar 400 bangunan telah diambil dari layanan karena gagal untuk memenuhi standa",
-      "originalTitle": "Hajj minister: Number of foreign Umrah pilgrims doubled in 3 years",
-      "originalDescription": "JEDDAH — Minister of Hajj and Umrah Dr. Tawfiq Al-Rabiah said that the number of Umrah pilgrims arriving from outside the Kingdom increased from approximately 8.4 million in 2022 to 18 million in 2025. “During the same period, the number of visitors to Al-Rawdah Al-Sharifah at the Prophet's Mosque in Madinah rose from around 6 million to nearly 16 million. These achievements were made possible by continuous service development and the concerted efforts of the relevant authorities,” he said.The minister made the remarks while attending a ministerial session titled \"Serving the Pilgrims: An Integrated National Ecosystem,\" on the second day of the sixth edition of the Hajj Conference and Exhibition in Jeddah on Monday. The session discussed the integration of efforts by governmental and executive bodies in serving the pilgrims, developing mechanisms for joint cooperation, and raising the level of preparedness for the 1448 AH Hajj season.Speakers at the session also included Minister of Tourism Ahmed Al-Khateeb; General Authority of Civil Aviation President Abdulaziz Al-Duailej, Director of Public Security Lt. Gen. Mohammed Al-Bassami; and Makkah Mayor Musaed Al-Dawood.Al-Rabiah pointed out that more than 60 government agencies are involved in the Hajj system, operating under approximately 600 annual operational plans. The Hajj Projects Management Office coordinates and aligns these plans, resolves potential overlaps, and monitors operational indicators through the Command and Control Center, thereby strengthening preparedness and enhancing the efficiency of services provided to the guests of God. Addressing the session, Minister of Tourism Al-Khateeb highlighted the ministry's role as a key partner in the system of serving the guests of God. He noted that the ministry has assumed responsibility for overseeing pilgrims' accommodation in coordination with the Ministry of Hajj and Umrah, while working to improve the quality of accommodation facilities. He revealed that ap",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2792193.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi",
-        "Haji dan Umrah",
-        "Masjid dan Peradaban"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-09T14:56:09+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666121/saudi-arabia/hajj-minister-number-of-foreign-umrah-pilgrims-doubled-in-3-years"
-    },
-    {
-      "id": "5b4ce1e03708c74e",
-      "title": "Lebih dari 200.000 bergabung Amsterdam berbaris melawan pembantaian Gaza",
-      "description": "Lebih dari 200.000 bergabung Amsterdam berbaris melawan Gaza genosida Dipersembahkan oleh staf MEE pada Mon, 11 / 09 / 2026 - 14: 35 Demonstrasi ingin Belanda menghentikan penjualan senjata di Israel, memperketat sanksi dan mengakui Demonstrasi genosida Gaza mengambil bagian dalam protes \"Red Line\" menuntut \"tindakan pemerintah untuk menghentikan pembantaian di Gaza\" di Amsterdam pada 5 Oktober 2025. (Koen van Weel / ANP / AFP) Off Sepuluh ribu orang berbaris melalui Amsterdam pada hari Minggu, menuntut pemerintah Belanda mengakhiri penjualan senjata kepada Israel dan memaksakan sanksi perdagangan yang lebih keras atas genosida di Gaza. Banyak yang mengenakan warna merah untuk protes Red Line, yang menarik lebih dari 200.000 orang, menurut cabang Belanda Amnesty International, salah satu penyelenggara. Campaigners memanggil Belanda untuk secara resmi mengakui Israel adalah",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_77R8387.jpg.jpg?itok=GgFIIlDm",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sourceCountry": "International",
-      "region": "",
-      "language": "id",
-      "country": "International",
-      "publishedAt": "2026-11-09T14:46:58+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/more-200000-join-amsterdam-march-against-gaza-genocide",
-      "originalTitle": "More than 200,000 join Amsterdam march against Gaza genocide",
-      "originalDescription": "More than 200,000 join Amsterdam march against Gaza genocide Submitted by MEE staff on Mon, 11/09/2026 - 14:35 Protesters want the Netherlands to halt arms sales to Israel, tighten sanctions and recognise the Gaza genocide Demonstrators take part in a \"Red Line\" protest demanding \"government action to stop the genocide in Gaza\" in Amsterdam on October 5, 2025. (Koen van Weel/ANP/AFP) Off Tens of thousands of people marched through Amsterdam on Sunday, demanding that the Dutch government end arms sales to Israel and impose tougher trade sanctions over its genocide in Gaza. Many wore red for the Red Line protest, which drew more than 200,000 people, according to Amnesty International’s Dutch branch, one of the organisers. Campaigners called on the Netherlands to formally recognise Israel’s a",
-      "translationStatus": "success",
-      "translationError": "Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function",
-      "originalLanguage": "en",
-      "translated": true
-    },
-    {
-      "id": "7910744215f316de",
-      "title": "perluasan bandara Madinah untuk meningkatkan kapasitas 18 juta penumpang pada Oktober 2027",
-      "description": "JEDDAH - Otoritas Umum Penerbangan Sipil (GACA) Presiden Abdulaziz Al- Duailej mengatakan bahwa proyek ekspansi di Bandara Internasional Pangeran Mohammed bin Abdulaziz di Madinah akan meningkatkan kapasitas 18 juta dari 8 juta penumpang, dengan penyelesaian proyek dijadwalkan untuk Oktober 2027. Berbicara di Konferensi Haji 6 dan Pameran di Superdome Jeddah, ia menegaskan bahwa sektor penerbangan memainkan peran penting dalam memajukan tujuan dari Program Layanan Pilgrim. Dia mencatat bahwa, dengan dukungan kepemimpinan, tahun-round upaya sedang berlangsung untuk memastikan kenyamanan dan kenyamanan peziarah selama musim haji di enam bandara utama. Al- Duailej mengatakan bahwa Raja Abdulaziz International Airport di Jeddah Menangani rekor 52 juta penumpang tahun lalu. Dia menyoroti proyek pembangunan yang sedang berlangsung ditujukan untuk memperluas kapasitas operasional dan meningkatkan kualitas layanan yang disediakan untuk penumpang dan peziarah di bandara. Kepala GaCA menjelaskan bahwa proyek-proyek ini termasuk peningkatan dan rehabilitasi Terminal 4 untuk mengakomodasi lebih dari 15 juta penumpang, pembangunan terminal haji bandara untuk menangani 16 juta penumpang, dan perluasan Terminal 1. Al- Duailej menegaskan bahwa sektor penerbangan adalah pilar fundamental untuk mencapai tujuan dari Saudi Vision 2030 dan Program Layanan Haji. Dia menunjukkan bahwa program \"Traveler tanpa tas\" telah melayani hampir 4,5 juta peziarah sejak peluncuran sekitar empat tahun lalu, dan melalui itu, sekitar 6,7 juta tas ditangani dengan mengangkut bagasi dari akomodasi ke pesawat. Ini adalah bagian dari inisiatif yang bertujuan untuk mengurangi waktu-waktu tunggu dan memfasilitasi prosedur perjalanan, selain memperluas layanan perjalanan kelompok, gerbang elektronik, dan inisiatif \"Informan Route\". Al- Duailej juga menunjukkan bahwa GACA mengevaluasi maskapai penerbangan berdasarkan komitmen mereka untuk meningkatkan layanan penumpang. Selain itu, upaya-upaya sedang berlangsun",
-      "originalTitle": "GACA Chief: Madinah airport expansion to boost capacity to 18 million passengers by October 2027",
-      "originalDescription": "JEDDAH — The General Authority of Civil Aviation (GACA) President Abdulaziz Al-Duailej said that the expansion project at Prince Mohammed bin Abdulaziz International Airport in Madinah will raise its capacity to 18 million from 8 million passengers, with the project completion scheduled for October 2027.Speaking at the 6th Hajj Conference and Exhibition at Jeddah Superdome, he affirmed that the aviation sector plays a pivotal role in advancing the objectives of the Pilgrim Service Program. He noted that, with the support of the leadership, year-round efforts are underway to ensure the comfort and convenience of pilgrims during the Hajj season across six major airports.Al-Duailej said that King Abdulaziz International Airport in Jeddah handled a record 52 million passengers last year. He highlighted ongoing development projects aimed at expanding operational capacity and enhancing the quality of services provided to passengers and pilgrims at the airport.The GACA chief explained that these projects include the upgrading and rehabilitation of Terminal 4 to accommodate more than 15 million passengers, the development of the airport's Hajj terminals to handle 16 million passengers, and the expansion of Terminal 1.Al-Duailej affirmed that the aviation sector is a fundamental pillar for achieving the objectives of Saudi Vision 2030 and the Hajj Service Program. He pointed out that the “Traveler without a bag” program has served nearly 4.5 million pilgrims since its launch about four years ago, and through it, about 6.7 million bags were handled by transporting luggage from accommodation to aircraft. This is part of initiatives aimed at reducing waiting times and facilitating travel procedures, in addition to expanding group travel services, electronic gates, and the “Makkah Route” initiative.Al-Duailej also pointed out that the GACA is evaluating airlines based on their commitment to enhancing passenger services. In addition, efforts are underway to automate the pilgrims'",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2792183.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi",
-        "Haji dan Umrah"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-09T14:30:33+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666119/saudi-arabia/gaca-chief-madinah-airport-expansion-to-boost-capacity-to-18-million-passengers-by-october-2027"
-    },
-    {
-      "id": "a27a18f22040926f",
-      "title": "Pemerintah Umumkan Biaya Pelunasan Haji 2027 per Embarkasi, Ini Perinciannya",
-      "description": "JAKARTA -- Pemerintah melalui Kementerian Haji dan Umrah mengumumkan besaran pelunasan Biaya Perjalanan Ibadah Haji (Bipih) 1448 Hijriah/2027 Masehi yang harus dibayarkan jamaah berdasarkan embarkasi keberangkatan. “Kami mengimbau jamaah haji...",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/012963900-1781062288-830-556.jpg",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "Republika",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T14:10:00+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to8n3t423/pemerintah-umumkan-biaya-pelunasan-haji-2027-per-embarkasi-ini-perinciannya",
-      "sources": [
-        "Republika"
-      ],
-      "originalTitle": "Pemerintah Umumkan Biaya Pelunasan Haji 2027 per Embarkasi, Ini Perinciannya",
-      "originalDescription": "JAKARTA -- Pemerintah melalui Kementerian Haji dan Umrah mengumumkan besaran pelunasan Biaya Perjalanan Ibadah Haji (Bipih) 1448 Hijriah/2027 Masehi yang harus dibayarkan jamaah berdasarkan embarkasi keberangkatan. “Kami mengimbau jamaah haji...",
-      "originalLanguage": "id",
-      "translated": false
-    },
-    {
-      "id": "93eba80e8f5a69cd",
-      "title": "Pemerintah Kembali Tegaskan Jamaah dengan 9 Penyakit Berikut Bisa Batal Haji Permanen",
-      "description": "JAKARTA – Kementerian Haji dan Umrah (Kemenhaj) RI mengingatkan calon jamaah haji untuk memperhatikan kondisi kesehatan sejak dini menjelang penyelenggaraan ibadah haji 2027. Calon jamaah yang masuk kategori sembilan penyakit...",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/004797400-1782790905-830-556.jpg",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "Republika",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T13:44:34+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/to8m6a320/pemerintah-kembali-tegaskan-jamaah-dengan-9-penyakit-berikut-bisa-batal-haji-permanen",
-      "sources": [
-        "Republika"
-      ]
-    },
-    {
-      "id": "3e4d1aadfb3c645d",
-      "title": "Otoritas Haram membuka prekualifikasi untuk pasokan makanan Iftar tender untuk Ramadan berikutnya",
-      "description": "MAKKAH - Otoritas Umum untuk Layanan Urusan Masjid Grand dan Masjid Nabi, dalam kemitraan dengan Yayasan Kemanusiaan Nusak, telah membuka aplikasi untuk produksi makanan dan perusahaan pasokan untuk pasokan makanan untuk para pemuja puasa di Masjid Grand Mekah dan Masjid Nabi di Madinah selama Ramadan 1448. tender tujuan untuk menarik perusahaan berkualitas yang memenuhi persyaratan teknis dan operasional dan dapat memasok makanan secara efisien, dalam kepatuhan ketat dengan standar keamanan makanan. Untuk prekualifikasi, perusahaan harus memiliki pendapatan rata-rata tahunan setidaknya SR50 juta selama tiga tahun terakhir, pengalaman yang terbukti memasok 150.000 kali makan dalam satu hari, fasilitas produksi makanan berlisensi, setidaknya 15 kendaraan pendingin didedikasikan untuk transportasi makanan, dan setidaknya lima tahun pengalaman dalam produksi makanan atau pasokan. Para pelamar juga harus memegang sertifikasi keamanan makanan terakreditasi, seperti ISO 22000, FSSC 22000, atau ekuivalen, dan memenuhi semua ketentuan lisensi dan persyaratan hukum. Aplikasi dibuka dari hari Minggu, Nov 8, sampai Selasa, Nov 10, 2026, pada platform kualifikasi Sufar pemasok. Rincian tender, persyaratan, dan prosedur pengajuan tersedia di https: / / sufar.org, dan pertanyaan dapat dikirim ke Sufar.org.org.",
-      "originalTitle": "Haram authority opens prequalification for iftar meal supply tender for next Ramadan",
-      "originalDescription": "MAKKAH — The General Authority for the Care of the Affairs of the Grand Mosque and the Prophet's Mosque, in partnership with the Nusuk Humanitarian Foundation, has opened applications for food production and supply companies for a tender for the supply of iftar meals for fasting worshippers at the Grand Mosque in Makkah and the Prophet's Mosque in Madinah during Ramadan 1448 AH.The tender aims to attract qualified companies that meet technical and operational requirements and can supply meals efficiently, in strict compliance with food safety standards. To prequalify, companies must have average annual revenue of at least SR50 million over the past three years, proven experience supplying 150,000 meals in a single day, a licensed food production facility, at least 15 refrigerated vehicles dedicated to meal transport, and at least five years of experience in food manufacturing or supply. Applicants must also hold accredited food safety certification, such as ISO 22000, FSSC 22000, or equivalent, and meet all regulatory licensing and legal requirements. Applications are open from Sunday, Nov. 8, to Tuesday, Nov. 10, 2026, on the Sufar supplier qualification platform. Tender details, requirements, and submission procedures are available at https://sufar.org, and inquiries can be sent to Suppliers@sufar.org.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2792108.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi",
-        "Masjid dan Peradaban"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-09T13:25:23+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666117/saudi-arabia/haram-authority-opens-prequalification-for-iftar-meal-supply-tender-for-next-ramadan"
-    },
-    {
-      "id": "7c525b801b3fed80",
-      "title": "Menteri Perdagangan ingat 2.371 Kia K8 kendaraan atas kerusakan kebocoran bahan bakar",
-      "description": "RIYADH - Departemen Perdagangan mengumumkan penarikan kembali 2,371 Kia K8 kendaraan, model tahun 2022- 2025, karena kemungkinan dari pipa pasokan bahan bakar yang longgar kacang, yang dapat menyebabkan kebocoran bahan bakar dan meningkatkan risiko kebakaran. Departemen mendesak pemilik kendaraan yang terkena dampak untuk menghubungi dealer lokal, Perusahaan Perdagangan Aljabr di nomor gratis tol (800400100) dan Perusahaan Pemasaran Nasional di (8001010010), untuk melaksanakan perbaikan yang diperlukan bebas biaya. Pemilik kendaraan dapat memeriksa apakah nomor identifikasi kendaraan mereka (VIN) ditutupi oleh kampanye penarikan melalui situs web: https:",
-      "originalTitle": "Commerce ministry recalls 2,371 Kia K8 vehicles over fuel leakage defect",
-      "originalDescription": "RIYADH — The Ministry of Commerce announced the recall of 2,371 Kia K8 vehicles, model years 2022–2025, due to the possibility of a loose fuel supply pipe nut, which could cause fuel leakage and increase the risk of fire.The ministry urged owners of the affected vehicles to contact the local dealers, Aljabr Trading Company at the toll-free number (8004400100) and National Marketing Company at (8001010010), to carry out the necessary repairs free of charge.Vehicle owners can check whether their vehicle identification number (VIN) is covered by the recall campaign through the website: ‏https://recalls.sa.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2792082.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-09T12:51:41+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666116/saudi-arabia/commerce-ministry-recalls-2371-kia-k8-vehicles-over-fuel-leakage-defect"
-    },
-    {
-      "id": "e1fc4ef7e3479ff9",
-      "title": "Menjadi Kiblat Demokrasi Dunia Islam",
-      "description": "Indonesia bisa jadi jembatan perdamaian dunia. Mari jadikan demokrasi sebagai jalan terang kemanusiaan.",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/dunia-islam-1-1_1794225459.webp",
-      "category": "Nasional Islam",
-      "tags": [
-        "Nasional Islam"
-      ],
-      "source": "NU Online",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-09T11:42:55+00:00",
-      "originalUrl": "https://www.nu.or.id/opini/menjadi-kiblat-demokrasi-dunia-islam-1wAge",
-      "sources": [
-        "NU Online"
-      ],
-      "originalTitle": "Menjadi Kiblat Demokrasi Dunia Islam",
-      "originalDescription": "Indonesia bisa jadi jembatan perdamaian dunia. Mari jadikan demokrasi sebagai jalan terang kemanusiaan.",
-      "originalLanguage": "id",
-      "translated": false
-    },
-    {
-      "id": "1dd87b5a97dc3c21",
-      "title": "Arab Saudi meluncurkan buku ujian medis online untuk pekerja domestik yang baru tiba",
-      "description": "RIYADH - Arab Saudi Departemen Sumber Daya Manusia dan Pengembangan Sosial (MHRSD) telah memperkenalkan layanan online untuk jadwal pemeriksaan medis pemesanan bagi pekerja lokal yang baru tiba. Melalui integrasi dari platform perekrutan Mushant dan aplikasi Sehhatty, dan kerjasama dengan Departemen Kesehatan, layanan bertujuan untuk menyederhanakan prosedur sederhana bagi para majikan, meningkatkan pengalaman mereka dalam layanan akses dan memfasilitasi penyelesaian persyaratan untuk menerbitkan izin tinggal (iqamas). Layanan baru memungkinkan pengusaha untuk secara otomatis melihat rincian pekerja domestik mereka melalui aplikasi Sehhaty setelah kedatangan mereka di Kingdom, pilih pusat kesehatan terakreditasi terdekat, dan buku dan mengelola pemeriksaan medis janji elektronik. Karyawan dapat menyelesaikan proses pemesanan tanpa mengunjungi pusat kesehatan secara pribadi, menghemat waktu dan usaha sambil membantu mengurangi periode menunggu. Bentuk integrasi bagian dari upaya yang sedang berlangsung untuk mengembangkan proses perekrutan digital melalui platform Musanted, meliputi seluruh perjalanan dari negara pekerja asal sampai penerbitan izin tinggal sesuai dengan peraturan Saudi. Dengan menghubungkan layanan dan menyederhanakan prosedur terkait, inisiatif bertujuan untuk meningkatkan kualitas layanan dan aksesibilitas, mendukung upaya transformasi digital pelayanan dan meningkatkan kepercayaan penerima 'dalam layanan yang disediakan.",
-      "originalTitle": "Saudi Arabia launches online medical exam booking for newly arrived domestic workers",
-      "originalDescription": "RIYADH — Saudi Arabia’s Ministry of Human Resources and Social Development (MHRSD) has introduced an online service for booking medical examination appointments for newly arrived domestic workers. Through the integration of the Musaned recruitment platform and the Sehhaty application, and in cooperation with the Ministry of Health, the service aims to simplify procedures for employers, improve their experience in accessing services and facilitate the completion of requirements for issuing residency permits (iqamas). The new service allows employers to automatically view the details of their domestic workers through the Sehhaty application upon their arrival in the Kingdom, select the nearest accredited health center, and book and manage medical examination appointments electronically. Employers can complete the booking process without visiting a health center in person, saving time and effort while helping reduce waiting periods. The integration forms part of ongoing efforts to develop the digital recruitment process through the Musaned platform, covering the entire journey from the worker’s country of origin to the issuance of a residency permit in accordance with Saudi regulations. By connecting services and simplifying related procedures, the initiative aims to improve service quality and accessibility, support the ministry’s digital transformation efforts and enhance beneficiaries’ trust in the services provided.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2792009.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-09T11:18:59+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666113/saudi-arabia/saudi-arabia-launches-online-medical-exam-booking-for-newly-arrived-domestic-workers"
     }
   ]
 }
