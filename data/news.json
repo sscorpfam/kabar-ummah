@@ -1,19 +1,19 @@
 {
-  "status": "partial",
-  "lastUpdated": "2026-11-16T18:36:01.492632+00:00",
+  "status": "success",
+  "lastUpdated": "2026-11-17T02:31:42.062792+00:00",
   "total": 500,
-  "newArticles": 126,
+  "newArticles": 124,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 11,
-  "sourcesFailed": 1,
+  "sourcesSucceeded": 12,
+  "sourcesFailed": 0,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 3,
-      "filtered": 22,
-      "filteredFootball": 4,
+      "accepted": 2,
+      "filtered": 23,
+      "filteredFootball": 3,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 23,
-      "accepted": 2,
+      "raw": 21,
+      "accepted": 0,
       "filtered": 21,
       "filteredFootball": 0,
-      "translated": 23,
+      "translated": 21,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -47,9 +47,9 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 0,
-      "filtered": 50,
-      "filteredFootball": 1,
+      "accepted": 1,
+      "filtered": 49,
+      "filteredFootball": 4,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 12,
-      "filtered": 8,
-      "filteredFootball": 2,
+      "accepted": 9,
+      "filtered": 11,
+      "filteredFootball": 3,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -93,15 +93,15 @@
     },
     {
       "name": "Detik",
-      "status": "error",
-      "raw": 0,
+      "status": "success",
+      "raw": 100,
       "accepted": 0,
-      "filtered": 0,
+      "filtered": 100,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
+      "error": null
     },
     {
       "name": "Muhammadiyah",
@@ -131,8 +131,8 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 32,
-      "filtered": 18,
+      "accepted": 35,
+      "filtered": 15,
       "filteredFootball": 6,
       "translated": 0,
       "translationPartial": 0,
@@ -156,16 +156,598 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 227,
+    "translatedArticles": 230,
     "partialArticles": 0,
     "failedArticles": 0,
-    "cacheEntries": 2088
+    "cacheEntries": 2189
   },
   "images": {
     "found": 500,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "eb3f5870bed1836c",
+      "title": "Lewat Panggung Teater, Perjuangan Nyai Siti Walidah Hidup Kembali di TIM",
+      "description": "MUHAMMADIYAH.OR.ID, JAKARTA – Seni pertunjukan menjadi salah satu media dakwah yang kreatif dan sarat pesan moral. Hal ini terlihat dalam pementasan drama kolosal berjudul “Nyai Siti Walidah: Perempuan Pembuka Jendela” di Teater Besar, Taman Ismail Marzuki (TIM), Cikini, Jakarta, Kamis (12/11). Pertunjukan tersebut memikat penonton melalui perpaduan seni teater, nilai-nilai keislaman, dan dakwah kultural yang […] The post Lewat Panggung Teater, Perjuangan Nyai Siti Walidah Hidup Kembali di TIM appeared first on Muhammadiyah .",
+      "originalTitle": "Lewat Panggung Teater, Perjuangan Nyai Siti Walidah Hidup Kembali di TIM",
+      "originalDescription": "MUHAMMADIYAH.OR.ID, JAKARTA – Seni pertunjukan menjadi salah satu media dakwah yang kreatif dan sarat pesan moral. Hal ini terlihat dalam pementasan drama kolosal berjudul “Nyai Siti Walidah: Perempuan Pembuka Jendela” di Teater Besar, Taman Ismail Marzuki (TIM), Cikini, Jakarta, Kamis (12/11). Pertunjukan tersebut memikat penonton melalui perpaduan seni teater, nilai-nilai keislaman, dan dakwah kultural yang […] The post Lewat Panggung Teater, Perjuangan Nyai Siti Walidah Hidup Kembali di TIM appeared first on Muhammadiyah .",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/11/lewat-panggung-teater-perjuangan-nyai-siti-walidah-hidup-kembali-di-tim.jpeg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "Muhammadiyah",
+      "sources": [
+        "Muhammadiyah"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-17T01:47:12+00:00",
+      "originalUrl": "https://muhammadiyah.or.id/2026/11/lewat-panggung-teater-perjuangan-nyai-siti-walidah-hidup-kembali-di-tim"
+    },
+    {
+      "id": "09a8603b2db9a103",
+      "title": "Warga Ditangkap karena Angkut Kayu Bakar Lokal di Madinah",
+      "description": "Pasukan Keamanan Lingkungan Arab Saudi menangkap seorang warga yang melanggar aturan lingkungan karena mengangkut 10 meter kubik kayu bakar lokal di Madinah.",
+      "originalTitle": "Warga Ditangkap karena Angkut Kayu Bakar Lokal di Madinah",
+      "originalDescription": "Pasukan Keamanan Lingkungan Arab Saudi menangkap seorang warga yang melanggar aturan lingkungan karena mengangkut 10 meter kubik kayu bakar lokal di Madinah.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/مخالفات-نقل-الحطب-المحلي-sEoP-cT9.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-17T01:45:40+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/jxrw045y6"
+    },
+    {
+      "id": "a0e1af8019273e24",
+      "title": "Korban di Israel pemukim serangan meningkat",
+      "description": "Korban di Israel, para pemukim menyerang penduduk Israel menembaki warga Palestina di desa Duyuk, di dekat Jericho di West Bank, membunuh seorang wanita berusia 60 tahun. Sementara itu, lebih banyak orang telah dilaporkan terluka, termasuk orang tua 65 tahun antara 10 terluka.",
+      "originalTitle": "Casualties in Israeli settler attack rises",
+      "originalDescription": "Casualties in Israeli settler attack rises Israeli settlers opened fire on Palestinians in the village of al-Duyuk al-Tahta, near Jericho in the occupied West Bank, killing a 60 year-old woman. Meanwhile, more people have been reported as wounded, including a 65 year-old man among the 10 injured.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/IranFM_PakistanPM_Eco.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-17T01:21:24+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/casualties-israeli-settler-attack-rises"
+    },
+    {
+      "id": "86f9f9d3b71768a4",
+      "title": "Kemarin, mitigasi bencana hidrometeorologi hingga koperasi pesantren",
+      "description": "Terdapat sejumlah berita humaniora menarik yang terjadi pada Senin (16/11) dan dapat dibaca kembali untuk mengawali ...",
+      "originalTitle": "Kemarin, mitigasi bencana hidrometeorologi hingga koperasi pesantren",
+      "originalDescription": "Terdapat sejumlah berita humaniora menarik yang terjadi pada Senin (16/11) dan dapat dibaca kembali untuk mengawali ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/17/1001185286.jpg",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-17T00:05:29+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5858619/kemarin-mitigasi-bencana-hidrometeorologi-hingga-koperasi-pesantren"
+    },
+    {
+      "id": "89c928eb33da66a0",
+      "title": "Arab Saudi Rampungkan Penandatanganan Perjanjian Penyelenggaraan Haji 2027",
+      "description": "MAKKAH -- Kementerian Haji dan Umrah Arab Saudi telah merampungkan penandatanganan perjanjian pengaturan penyelenggaraan ibadah haji musim 2027. Penandatanganan ini dilakukan dengan kantor-kantor urusan haji dari berbagai negara sebagai...",
+      "originalTitle": "Arab Saudi Rampungkan Penandatanganan Perjanjian Penyelenggaraan Haji 2027",
+      "originalDescription": "MAKKAH -- Kementerian Haji dan Umrah Arab Saudi telah merampungkan penandatanganan perjanjian pengaturan penyelenggaraan ibadah haji musim 2027. Penandatanganan ini dilakukan dengan kantor-kantor urusan haji dari berbagai negara sebagai...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/kabah-ilustrasi-_180530210639-733.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi",
+        "Haji dan Umrah"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-16T23:45:52+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tomcog430/arab-saudi-rampungkan-penandatanganan-perjanjian-penyelenggaraan-haji-2027"
+    },
+    {
+      "id": "14ce0303efec53b6",
+      "title": "Pesan Menag untuk Santri di Langitan: Kuasai Ilmu, Jaga Adab Bekal Jalani Kehidupan di Masyarakat",
+      "description": "Menag Nasaruddin Umar mengingatkan santri pentingnya ilmu, adab, dan hikmah. Ketiganya menjadi bekal membentuk pribadi bijaksana.",
+      "originalTitle": "Pesan Menag untuk Santri di Langitan: Kuasai Ilmu, Jaga Adab Bekal Jalani Kehidupan di Masyarakat",
+      "originalDescription": "Menag Nasaruddin Umar mengingatkan santri pentingnya ilmu, adab, dan hikmah. Ketiganya menjadi bekal membentuk pribadi bijaksana.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/santri-langitan-news17112026_1794871529.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-16T23:00:23+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/pesan-menag-untuk-santri-di-langitan-kuasai-ilmu-jaga-adab-bekal-jalani-kehidupan-di-masyarakat-Oh24g"
+    },
+    {
+      "id": "70ea92bf877cf509",
+      "title": "Wisuda Dauroh Tahfidz di Ponpes Az-Zikra Gunung Sindur, Puluhan Santri Capai 30 Juz",
+      "description": "BOGOR -- Pondok Pesantren Az-Zikra Gunung Sindur, Bogor, menjadi bagian penting dalam penyelenggaraan Dauroh Tahfidz 40 Hari Angkatan Pertama. Kegiatan ini berhasil mengantarkan 30 peserta mencapai hafalan 30 juz. Program...",
+      "originalTitle": "Wisuda Dauroh Tahfidz di Ponpes Az-Zikra Gunung Sindur, Puluhan Santri Capai 30 Juz",
+      "originalDescription": "BOGOR -- Pondok Pesantren Az-Zikra Gunung Sindur, Bogor, menjadi bagian penting dalam penyelenggaraan Dauroh Tahfidz 40 Hari Angkatan Pertama. Kegiatan ini berhasil mengantarkan 30 peserta mencapai hafalan 30 juz. Program...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/wisuda-dauroh-tahfidz-40-hari-angkatan-pertama-pada-sabtu_261117055434-994.jpg",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-16T22:59:46+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tomajm430/wisuda-dauroh-tahfidz-di-ponpes-azzikra-gunung-sindur-puluhan-santri-capai-30-juz"
+    },
+    {
+      "id": "c91190aff38f0433",
+      "title": "Penduduk Israel menembak, melukai lima orang Palestina dekat Jericho, kata Red Crescent",
+      "description": "Penduduk Israel menembak, melukai lima orang Palestina di dekat Jericho, Red Crescent mengatakan bahwa 5 orang Palestina terluka dan terluka oleh pemukim Israel di desa Al- Duyuk Al- Taita dekat Jericho dalam pendudukan Bank Barat, kata Red Crescent Palestina.",
+      "originalTitle": "Israeli settlers shoot, wound five Palestinians near Jericho, Red Crescent says",
+      "originalDescription": "Israeli settlers shoot, wound five Palestinians near Jericho, Red Crescent says Five Palestinians were shot and wounded by Israeli settlers in the village of al-Duyuk al-Tahta near Jericho in the occupied West Bank, the Palestinian Red Crescent said.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/IranFM_PakistanPM_Eco.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-16T22:41:17+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-shoot-wound-five-palestinians-near-jericho-red-0"
+    },
+    {
+      "id": "fe4ddd6e5dc925d7",
+      "title": "Presiden Mauritania Kunjungi Masjid Nabawi",
+      "description": "Presiden Mauritania, Mohamed Ould Cheikh El Ghazouani, bersama delegasi, mengunjungi Masjid Nabawi hari ini dan melaksanakan salat di sana.",
+      "originalTitle": "Presiden Mauritania Kunjungi Masjid Nabawi",
+      "originalDescription": "Presiden Mauritania, Mohamed Ould Cheikh El Ghazouani, bersama delegasi, mengunjungi Masjid Nabawi hari ini dan melaksanakan salat di sana.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-n4TrxW3q.png",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-16T21:56:47+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/gfstb5f2k"
+    },
+    {
+      "id": "684e6c094d209521",
+      "title": "Militer Islam Coalition meluncurkan program kontraterorisme tahun ke-2 di Chad",
+      "description": "N 'DJAMENA - Kontra Militer Islam Terorisme Koalisi (IMCTC) diluncurkan pada hari Senin tahun kedua program untuk negara-negara Sahel di N' Djamena, ibukota Chad, dengan dukungan dari Arab Saudi. Program empat minggu, berjalan dari 16 November ke 11 Desember 2026, bertujuan untuk melatih 150 personil sipil dan militer melalui serangkaian program dan workshop meliputi ideologi, media, pembiayaan teroris, dan aspek militer. Upacara peluncuran itu dihadiri oleh Menteri Tempur Chad, Veteran, dan Korban Perang Issakha Maloua Djaous; Sekretaris Jendral IMCTC. Jenderal Moghedi Al-, dan beberapa militer, keamanan, dan pejabat sipil dari Chad. Tahun kedua dibangun dengan pencapaian program ini pada tahun pertama, di mana koalisi yang dilakukan dengan 22 kegiatan menguntungkan 2,300 orang di lima negara: Mauritania, Mali, Niger, Atlantis Faso, dan Chad. Dalam alamatnya, Menteri Djaous menyatakan kebanggaan Chad dalam keanggotaan dalam koalisi, mengatakan peluncuran program tahun kedua mencerminkan dukungan IMCTC yang berkelanjutan untuk negara-negara Sahel dalam memerangi terorisme. Dia mengatakan empat bidang pekerjaan ditujukan taktik berkembang kelompok teroris, termasuk penyebaran ideologi ekstrimis, mengeksploitasi platform media, mengamankan pendanaan, dan melaksanakan operasi. Dia menambahkan bahwa pelatihan 150 personil sipil dan militer akan membantu memperkuat kemampuan lembaga Chadian bertanggung jawab untuk menangani ancaman ini. Menteri mengatakan terorisme tetap menjadi salah satu tantangan utama dari era ini, melintasi perbatasan dan harapan untuk kerjasama dan stabilitas. Dia menekankan bahwa pergerakan kelompok teroris di seluruh negara Sahel diperlukan koordinasi regional dan internasional, menegaskan komitmen Chad untuk keamanan dan pertahanan kolektif upaya sejalan dengan prioritas nasional dan kerjasama regional. Dia berterima kasih kepada Penjaga dari dua Masjid Suci Raja Salman dan Putra Mahkota dan Perdana Menteri Mohammed bin Salman untuk peran Keraja",
+      "originalTitle": "Islamic Military Coalition launches 2nd year of Saudi-backed counterterrorism program in Chad",
+      "originalDescription": "N’DJAMENA — The Islamic Military Counter Terrorism Coalition (IMCTC) launched on Monday the second year of its program for the Sahel countries in N’Djamena, capital of Chad, with support from Saudi Arabia.The four-week program, running from November 16 to December 11, 2026, aims to train 150 civilian and military personnel through a series of programs and workshops covering ideological, media, counter-terrorist financing, and military aspects.The launch ceremony was attended by Chad’s Minister of the Armed Forces, Veterans, and War Victims Issakha Maloua Djamous; IMCTC Secretary General Maj. Gen. Mohammed Al-Moghedi; and several military, security, and civilian officials from Chad. The second year builds on the achievements of the program’s first year, during which the coalition conducted 22 activities benefiting 2,300 people across five countries: Mauritania, Mali, Niger, Burkina Faso, and Chad. **media[2795492]**In his address, Minister Djamous expressed Chad’s pride in its membership in the coalition, saying the launch of the program’s second year reflected IMCTC’s continued support for Sahel countries in combating terrorism.He said the four areas of work addressed the evolving tactics of terrorist groups, including spreading extremist ideology, exploiting media platforms, securing funding, and carrying out operations. He added that training 150 civilian and military personnel would help strengthen the capabilities of Chadian institutions responsible for addressing these threats.The minister said terrorism remained one of the major challenges of the present era, crossing borders and undermining prospects for cooperation and stability. He stressed that the movement of terrorist groups across Sahel countries required regional and international coordination, affirming Chad’s continued commitment to collective security and defense efforts in line with its national priorities and regional cooperation.He expressed gratitude to Custodian of the Two Holy Mosques King Sal",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/17/2795494.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-16T21:43:42+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666300/saudi-arabia/islamic-military-coalition-launches-2nd-year-of-saudi-backed-counterterrorism-program-in-chad"
+    },
+    {
+      "id": "f8f4db87bcf07640",
+      "title": "Penjelasan Imigrasi Arab Saudi soal Cara Tercepat Mengambil Paspor Baru",
+      "description": "Direktorat Jenderal Imigrasi Arab Saudi menjelaskan cara pengambilan paspor setelah diterbitkan pertama kali, menanggapi pertanyaan warganet di platform X.",
+      "originalTitle": "Penjelasan Imigrasi Arab Saudi soal Cara Tercepat Mengambil Paspor Baru",
+      "originalDescription": "Direktorat Jenderal Imigrasi Arab Saudi menjelaskan cara pengambilan paspor setelah diterbitkan pertama kali, menanggapi pertanyaan warganet di platform X.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/featured-crop-TbcEq7UI.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-16T20:58:28+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/xsir8w73l"
+    },
+    {
+      "id": "6ca2cdeec4c3cbb9",
+      "title": "Festival Film London Palestina kembali selama 27 tahun",
+      "description": "Sejak tahun 1999, Festival Film Palestina London telah membawa kisah Palestina ke layar lebar.",
+      "originalTitle": "London Palestine Film Festival returns for 27th year",
+      "originalDescription": "Since 1999, the London Palestine Film Festival has brought Palestinian stories to the big screen.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/thumb-1794861354.png?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-16T20:36:25+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/16/london-palestine-film-festival-returns-for-27th-year"
+    },
+    {
+      "id": "bacfe556fdebc282",
+      "title": "Imigrasi Arab Saudi Jelaskan Mekanisme Perbaikan Status Warga Yaman",
+      "description": "Direktorat Jenderal Imigrasi Arab Saudi mengumumkan mekanisme perbaikan status bagi warga Yaman yang berada di negara itu secara tidak resmi.",
+      "originalTitle": "Imigrasi Arab Saudi Jelaskan Mekanisme Perbaikan Status Warga Yaman",
+      "originalDescription": "Direktorat Jenderal Imigrasi Arab Saudi mengumumkan mekanisme perbaikan status bagi warga Yaman yang berada di negara itu secara tidak resmi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/featured-crop-KkqPbtV7.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-16T20:22:18+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/ckgg9yao4"
+    },
+    {
+      "id": "5d51c29422288451",
+      "title": "Somalia-Amerika Uber driver pergi dalam keadaan koma setelah dugaan kejahatan kebencian di Minnesota",
+      "description": "Somalia-Amerika Pengemudi Uber koma setelah dugaan kejahatan di Minnesota dikeluarkan oleh staf MEE pada Mon, 11 / 16 / 2026 - 18: 46 Mohamed Yusuf dilaporkan dijalankan berkali-kali dengan kendaraan miliknya sendiri setelah seorang penumpang mengatakan dia tidak menyukai nama muslim-nya sebuah foto penggalangan dana GofundMe diluncurkan untuk mendukung Mohamed Yusuf, pengemudi Uber Somalia-Amerika yang diduga mengalami serangan terhadap kejahatan di Minnesota Off A Somalia-Amerika yang diduga memiliki kebencian terhadap keluarganya sendiri dengan kendaraan-nya sendiri setelah mengalami serangan anti-bunuh diri sendiri. Mohamed Yusuf bekerja di Hopkins, pinggiran kota Minneapolis, awal hari Sabtu ketika seorang penumpang diduga bertanya namanya sebelum mengatakan bahwa dia tidak suka nama \"Mohamed\". Menurut keluarga Yusuf, penumpang kemudian diduga mencekiknya dari belakang, mengambil alih kendaraan dan menabraknya berkali-kali. \"Dia ditabrak beberapa kali dengan kendaraan sendiri\", anak Yusuf, Mustafa Osman, mengatakan The Somalia Brief. Yusuf dilaporkan ditemukan di selokan hampir satu mil jauhnya, menderita patah kaki dan tulang rusuk, dua paru-paru runtuh, cedera tulang belakang dan pendarahan internal. Dia tetap dirawat di rumah sakit dalam keadaan koma, menurut keluarganya. Polisi Hopkins mengkonfirmasi bahwa petugas menanggapi laporan kendaraan mencurigakan sekitar pukul 1.20 pagi pada hari Sabtu menemukan seorang pria terluka serius dan kemudian mengambil tersangka laki-laki ke dalam tahanan. Menurut Times of India, catatan penangkapan menunjukkan bahwa seorang pria diidentifikasi sebagai Samit Aspuva Patel ditangkap oleh Polisi Hopkins pada 14 November pada tuduhan penyerangan tingkat pertama. Namun, pihak berwenang belum mengkonfirmasi apakah Patel apos; s penangkapan berhubungan dengan serangan Yusuf atau publik mengidentifikasi tersangka dalam kasus ini. Polisi juga belum menetapkan motif atau konfirmasi apakah insiden itu diselidiki sebagai kejahatan ke",
+      "originalTitle": "Somali-American Uber driver left in coma after alleged hate crime in Minnesota",
+      "originalDescription": "Somali-American Uber driver left in coma after alleged hate crime in Minnesota Submitted by MEE staff on Mon, 11/16/2026 - 18:46 Mohamed Yusuf was reportedly run over multiple times with his own vehicle after a passenger said he disliked his Muslim name A screenshot of a GoFundMe fundraiser launched to support Mohamed Yusuf, the Somali-American Uber driver who was the victim of a suspected hate crime in Minnesota Off A Somali-American Uber driver is fighting for his life after being strangled and repeatedly run over with his own vehicle, allegedly by a passenger in Minnesota, in an attack his family believes was motivated by anti-Muslim hatred. Mohamed Yusuf was working in Hopkins, a suburb of Minneapolis, early on Saturday when a passenger allegedly asked him his name before telling him he did not like the name \"Mohamed\". According to Yusuf's relatives, the passenger then allegedly choked him from behind, seized control of his vehicle and ran him over multiple times. \"He was run over multiple times with his own vehicle,\" Yusuf's son, Mustafa Osman, told The Somali Brief . Yusuf was reportedly found in a ditch nearly a mile away, suffering from broken legs and ribs, two collapsed lungs, a spinal injury and internal bleeding. He remains hospitalised in a coma, according to his family. Hopkins police confirmed that officers responding to a report of a suspicious vehicle at around 1.20am on Saturday discovered a seriously injured man and subsequently took a male suspect into custody. According to the Times of India , arrest records show that a man identified as Samit Apurva Patel was taken into custody by Hopkins Police on 14 November on a first-degree assault charge. However, authorities have not confirmed whether Patel's arrest is connected to Yusuf's assault or publicly identified the suspect in the case. Police have also not established a motive or confirmed whether the incident is being investigated as a hate crime. The attack has sparked outrage among Somali and ",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/IMG_5404%20%281%29.jpg.jpg?itok=wvZogIPb",
+      "category": "Dunia Muslim",
+      "tags": [
+        "Dunia Muslim",
+        "Islamofobia dan Diskriminasi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-16T20:05:14+00:00",
+      "originalUrl": "https://www.middleeasteye.net/trending/somali-american-uber-driver-left-coma-after-alleged-hate-crime-minnesota"
+    },
+    {
+      "id": "dd01aed95a042820",
+      "title": "Otoritas Sipil Arab Saudi Tetapkan Saluran Resmi Informasi Layanan",
+      "description": "Otoritas Sipil Arab Saudi menegaskan pentingnya memperoleh informasi layanan hanya dari saluran resmi demi mencegah penyebaran kabar tidak akurat.",
+      "originalTitle": "Otoritas Sipil Arab Saudi Tetapkan Saluran Resmi Informasi Layanan",
+      "originalDescription": "Otoritas Sipil Arab Saudi menegaskan pentingnya memperoleh informasi layanan hanya dari saluran resmi demi mencegah penyebaran kabar tidak akurat.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/featured-crop-IOTPV7dN.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-16T20:02:19+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/g2sw4zue7"
+    },
+    {
+      "id": "5b93924542d37472",
+      "title": "Saudi, menteri luar negeri Qatar membahas upaya untuk meredakan ketegangan daerah",
+      "description": "Saudi, menteri luar negeri Qatar mendiskusikan upaya-upaya de- meningkat ketegangan daerah Saudi Menteri Luar Negeri Pangeran Faisal bin Farhan mengadakan panggilan telepon pada hari Senin dengan counterpart Qatar nya, Sheikh Mohammed bin Abdulrahman bin Jassim, untuk mendiskusikan wilayah keamanan dan stabilitas, Kementerian Luar Negeri Saudi mengatakan dalam sebuah pernyataan. \"Panggilan itu membahas eskalasi daerah saat ini dan upaya untuk menghentikan-meningkat dan mempertahankan keamanan dan stabilitas di wilayah,\" kata pernyataan itu.",
+      "originalTitle": "Saudi, Qatari foreign ministers discuss efforts to de-escalate regional tensions",
+      "originalDescription": "Saudi, Qatari foreign ministers discuss efforts to de-escalate regional tensions Saudi Foreign Minister Prince Faisal bin Farhan held a phone call on Monday with his Qatari counterpart, Sheikh Mohammed bin Abdulrahman bin Jassim Al Thani, to discuss the region's security and stability, the Saudi foreign ministry said in a statement. “The call discussed the current regional escalation and efforts to de-escalate and maintain security and stability in the region,” the statement said.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/IranFM_PakistanPM_Eco.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-16T19:58:50+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-qatari-foreign-ministers-discuss-efforts-de-escalate-regional"
+    },
+    {
+      "id": "f7e78baa006f7fb1",
+      "title": "Pejabat: Kami Perkirakan Jumlah Besar Pengunjung Expo, Stasiun Baru Akan Permudah Mobilitas",
+      "description": "Ahmad Al-Drees, Direktur Pengembangan Jaringan Kereta Riyadh, memperkirakan jumlah besar pengunjung Expo dan menyebut stasiun baru akan memudahkan mobilitas mereka.",
+      "originalTitle": "Pejabat: Kami Perkirakan Jumlah Besar Pengunjung Expo, Stasiun Baru Akan Permudah Mobilitas",
+      "originalDescription": "Ahmad Al-Drees, Direktur Pengembangan Jaringan Kereta Riyadh, memperkirakan jumlah besar pengunjung Expo dan menyebut stasiun baru akan memudahkan mobilitas mereka.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/ai-edited/2026-11/Zz1FeFKhcGsDElbX.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-16T19:31:08+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/54o2q9owf"
+    },
+    {
+      "id": "ed549648a9670871",
+      "title": "Gubernur Texas datang untuk membalikkan sebutan teror bagi kelompok kebebasan sipil Muslim",
+      "description": "Masuk Gubernur Texas untuk membalikkan panggilan teror bagi pemerintah kebebasan sipil Muslim-memilih staf MEE pada Mon, 11 / 16 / 2026 - 15: 57 Gina Hinojosa mengatakan menindak non-profit tidak meningkatkan keamanan publik Pemerintah Texas - memilih Gina Hinojosa muncul dengan pendukung di luar Pusat Rekreasi Austin - sebelum polling ditutup pada Hari Pemilihan, pada 3 November 2026, di Austin, Texas (Chip Somodevilla / Getty Ofration Off) kelompok teroris yang dipilih nya dari partai Republik Texas, yang akan memilih kelompok tersebut, Dalam sebuah wawancara yang diterbitkan oleh The Washington Post pada hari Sabtu, Hinojosa, yang dengan rela mengalahkan tiga orang Gubernur Greg Abbott di pertengahan semester pemilihan awal bulan ini untuk menjadi wanita Hispanik pertama dalam peran, mengatakan dia akan menarik perintah eksekutif untuk memeras Dewan tentang Hubungan Islam Amerika (Cair). \"Kita harus menggunakan langkah-langkah keamanan publik untuk keselamatan publik\", katanya. Hinojosa akan dilantik ke kantor pada bulan Januari. Kelompok hak-hak sipil di negara bagian menyambut pergerakan, stasiun lokal di Austin, Fox7, dilaporkan. \"Greg Abbott digunakan kantornya untuk bahan bakar anti-Muslim permusuhan dan mengintimidasi organisasi membela hak-hak masyarakat mereka,\" Sam Robles, direktur eksekutif Texas Nonprofit Protection Network, mengatakan dalam sebuah pernyataan. \"Abbott secara politis termotivasi sebagai CAIR sebagai organisasi teroris adalah eskalasi lain dalam kampanye yang berusaha menggambarkan partisipasi warga Muslim dan advokasi sebagai ancaman keselamatan publik\". Hampir setahun yang lalu, Abbott mengumumkan bahwa ia menunjuk Persaudaraan Muslim serta Cair sebagai organisasi teroris asing dan organisasi kriminal transnasional. Akibatnya, kedua kelompok tersebut dilarang \"dari pembelian atau memperoleh tanah\" di Texas. Pengumuman itu memberi Jaksa Agung pemerintah untuk menuntut kelompok-kelompok tersebut. Aipac menghabiskan 55m dolar untuk kehila",
+      "originalTitle": "Incoming Texas governor to reverse terror designation for Muslim civil liberties group",
+      "originalDescription": "Incoming Texas governor to reverse terror designation for Muslim civil liberties group Submitted by MEE staff on Mon, 11/16/2026 - 15:57 Gina Hinojosa said cracking down on nonprofits does not increase public safety Texas Democratic governor-elect Gina Hinojosa appears with supporters outside the Austin Recreation Center before polls closed on Election Day, on 3 November 2026, in Austin, Texas (Chip Somodevilla/Getty Images via AFP) Off The Democratic governor-elect of Texas, Gina Hinojosa, has revealed she will reverse her predecessor's designation of the largest Muslim civil liberties group in the US as a terrorist organisation. In an interview published by The Washington Post on Saturday, Hinojosa, who handily beat three-term Governor Greg Abbott in the midterm elections earlier this month to become the first Hispanic woman in the role, said she would withdraw the executive order blacklisting the Council on American Islamic Relations (Cair). “We have to use public safety measures for public safety,\" she said. Hinojosa will be sworn into office in January. Civil rights groups in the state welcomed the move, the local station in Austin, Fox7, reported. \"Greg Abbott used his office to fuel anti-Muslim hostility and intimidate the organizations defending their communities' rights,\" Sam Robles, executive director of the Texas Nonprofit Protection Network, said in a statement. \"Abbott’s politically motivated designation of CAIR as a terrorist organization was another escalation in a campaign that sought to portray Muslim civic participation and advocacy as a public safety threat.\" Almost a year ago to the day, Abbott announced that he was designating the Muslim Brotherhood as well as Cair as foreign terrorist organisations and transnational criminal organisations. As a result, both groups were barred \"from purchasing or acquiring land\" in Texas. The proclamation gave the state's attorney general leeway to sue the groups accordingly. Aipac spent $55m on losing congressi",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/063_2303395319-2.jpg.jpg?itok=Cv_IKGGO",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Dunia Muslim",
+        "Islamofobia dan Diskriminasi",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-16T19:24:54+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/incoming-texas-governor-reverse-terror-designation-muslim-civil-liberties-group"
+    },
+    {
+      "id": "0e90b6decb970844",
+      "title": "Karyawan menghadapi penjara enam bulan, SR100.000 denda untuk ilegal menugaskan pekerja kepada orang lain",
+      "description": "RIYADH - Kementerian Dalam Negeri menegaskan bahwa majikan individu, yang memungkinkan pekerja mereka untuk bekerja untuk majikan lain atau pada akun mereka sendiri, denda wajah hingga SR100.000, penjara selama enam bulan, dan larangan perekrutan hingga lima tahun. Menteri mendesak kepatuhan dengan residensi, tenaga kerja, dan peraturan keamanan perbatasan. Ini disebut pada publik untuk melaporkan pelanggaran dengan menelepon 911 di daerah Mekah, Madinah, Riyadh, dan Provinsi Timur dan 999 di seluruh Arab Saudi.",
+      "originalTitle": "Employers face up to six-month jail, SR100,000 fine for illegally assigning workers to others",
+      "originalDescription": "RIYADH — The Ministry of Interior affirmed that individual employers, who allow their workers to work for another employer or on their own account, face fines of up to SR100,000, imprisonment for up to six months, and a recruitment ban of up to five years.The ministry urged compliance with residency, labor, and border security regulations. It called on the public to report violations by calling 911 in the regions of Makkah, Madinah, Riyadh, and the Eastern Province and 999 in the rest of Saudi Arabia.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/16/2795453.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-16T19:21:16+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666298/saudi-arabia/employers-face-up-to-six-month-jail-sr100000-fine-for-illegally-assigning-workers-to-others"
+    },
+    {
+      "id": "5de9237e8298fbad",
+      "title": "Arab Saudi mengabaikan komandan pasukan koalisi melawan Houthis",
+      "description": "Bergerak datang saat pasukan pemerintah mundur dari pantai Laut Merah untuk menghentikan pendekatan Houthi ke ibukota sementara Aden.",
+      "originalTitle": "Saudi Arabia dismisses commander of coalition forces fighting Houthis",
+      "originalDescription": "Move comes as government forces withdraw from Red Sea coast to halt Houthi approach to interim capital Aden.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-27T051408Z_91414459_RC28RNAB5C5M_RTRMADP_3_IRAN-CRISIS-SAUDI-YEMEN-1790501339.jpg?resize=1920%2C1440",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-16T19:19:21+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/16/saudi-arabia-dismisses-commander-of-coalition-forces-fighting-houthis"
+    },
+    {
+      "id": "2fbb7548e4b31a59",
+      "title": "Kementerian Lingkungan memaksa larangan menyapu pada budidaya pangan permanen",
+      "description": "RIYADH - Kementerian Lingkungan, Air dan Pertanian mengumumkan bahwa sebuah keputusan untuk menghentikan pertanian permanen dan transisi ke tanaman musiman berpengaruh pada hari Senin, Nov.16, di rak wilayah sedimen di daerah Al- Jouf, Riyadh, Hay, Provinsi Timur, Qassim, dan Tabuk. Departemen mengatakan bahwa keputusan bertujuan untuk mengekang penurunan air tanah yang tidak terbarukan, meningkatkan efisiensi penggunaan sumber daya alam, dan menghemat sumber daya ini, meningkatkan keberlanjutan pertanian sejalan dengan tujuan Strategi Pertanian Nasional. Kementrian juga menguraikan tanaman pangan musiman yang diijinkan di bawah peraturan yang disetujui untuk pertanian berlisensi dan penurunan yang diharapkan dalam konsumsi air tanah yang tidak terbarukan yang dihasilkan dari transisi. Petani berharap untuk menumbuhkan tanaman pangan musiman dapat applyfor lisensi melalui link berikut: https: / / naama.sa / services / details / 92aed38- 2639- 43c5- 9941- b1571featu3bb.",
+      "originalTitle": "Environment ministry enforces sweeping ban on perennial forage crop cultivation",
+      "originalDescription": "RIYADH — The Ministry of Environment, Water and Agriculture announced that a decision to halt perennial forage cultivation and transition to seasonal crops takes effect on Monday, Nov.16, across sedimentary shelf areas in the regions of Al-Jouf, Riyadh, Hail, Eastern Province, Qassim, and Tabuk.The ministry said the decision aims to curb the depletion of non-renewable groundwater, improve the efficiency of natural resource use, and conserve these resources, enhancing agricultural sustainability in line with the objectives of the National Agriculture Strategy.The ministry also outlined the seasonal forage crops permitted under the approved regulations for licensed farms and the expected reduction in non-renewable groundwater consumption resulting from the transition.Farmers wishing to cultivate seasonal forage crops can applyfor a license through the following link: https://naama.sa/services/details/92aed338-2639-43c5-9941-b1571fea63bb.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/16/2795448.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-16T19:10:05+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666297/saudi-arabia/environment-ministry-enforces-sweeping-ban-on-perennial-forage-crop-cultivation"
+    },
+    {
+      "id": "665f55b702c6494c",
+      "title": "5 Imbauan Penting dari Kepolisian Lalu Lintas untuk Berkendara Aman Saat Pandangan Terbatas",
+      "description": "Kepolisian Lalu Lintas Arab Saudi mengingatkan pengemudi soal bahaya berkendara saat jarak pandang menurun akibat cuaca buruk, serta mengimbau patuh pada aturan keselamatan.",
+      "originalTitle": "5 Imbauan Penting dari Kepolisian Lalu Lintas untuk Berkendara Aman Saat Pandangan Terbatas",
+      "originalDescription": "Kepolisian Lalu Lintas Arab Saudi mengingatkan pengemudi soal bahaya berkendara saat jarak pandang menurun akibat cuaca buruk, serta mengimbau patuh pada aturan keselamatan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/2-crop-jMcQ6gEA.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-16T19:07:38+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/wajbhcor8"
+    },
+    {
+      "id": "2b9b5fcbe1c864ed",
+      "title": "Universitas Al Yamamah beri penghargaan kepada 408 mahasiswa berprestasi di Riyadh",
+      "description": "Universitas Al Yamamah di Riyadh memberikan penghargaan kepada 408 mahasiswa berprestasi akademik dalam acara Daftar Dekan tahun ajaran 2025–2026, termasuk 28 mahasiswa dengan nilai sempurna.",
+      "originalTitle": "Universitas Al Yamamah beri penghargaan kepada 408 mahasiswa berprestasi di Riyadh",
+      "originalDescription": "Universitas Al Yamamah di Riyadh memberikan penghargaan kepada 408 mahasiswa berprestasi akademik dalam acara Daftar Dekan tahun ajaran 2025–2026, termasuk 28 mahasiswa dengan nilai sempurna.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/whatsapp/2026-11/whatsapp-85f62e39-1abb-479f-b4e8-d95604c40eef-GudZar5p.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-16T18:55:38+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/mft5mrohb"
+    },
     {
       "id": "dad63f4a28332359",
       "title": "Pengadilan Israel menahan aktivis tanah Palestina Ghassan Najjar",
@@ -12003,501 +12585,6 @@
       "originalUrl": "https://www.nu.or.id/nasional/kongres-ipnu-ippnu-di-kendal-angkat-isu-perlindungan-santri-hingga-pemanfaatan-ai-BX4z6",
       "sources": [
         "NU Online"
-      ]
-    },
-    {
-      "id": "26183ef4f7308d32",
-      "title": "Dharmapala Minta Polisi Usut Jubah Biksu Dipakai Peneror di Masjid Jaktim",
-      "description": "Dharmapala Nusantara mendesak polisi menyelidiki penggunaan jubah biksu pelaku teror di Masjid Darul Ma'arif. Mereka khawatir akan provokasi antaragama.",
-      "originalTitle": "Dharmapala Minta Polisi Usut Jubah Biksu Dipakai Peneror di Masjid Jaktim",
-      "originalDescription": "Dharmapala Nusantara mendesak polisi menyelidiki penggunaan jubah biksu pelaku teror di Masjid Darul Ma'arif. Mereka khawatir akan provokasi antaragama.",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/09/tangkapan-layar-rekaman-cctv-pelaku-penyerangan-jemaah-di-masjid-darul-maarif-jakarta-timur-1794196012838_169.jpeg?w=360&q=90",
-      "category": "Masjid dan Peradaban",
-      "tags": [
-        "Masjid dan Peradaban"
-      ],
-      "source": "Detik",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-11T05:45:37+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8748058/dharmapala-minta-polisi-usut-jubah-biksu-dipakai-peneror-di-masjid-jaktim"
-    },
-    {
-      "id": "9b2b6b3b4a61ea57",
-      "title": "Prabowo Resmikan Masjid Giok Aceh: Satu-satunya Masjid dari Giok di Dunia",
-      "description": "Prabowo meresmikan Masjid Giok Baitul A'la di Kabupaten Nagan Raya, Aceh. Masjid Baitul A'la menjadi satu-satunya masjid yang dibangun dengan giok di dunia.",
-      "originalTitle": "Prabowo Resmikan Masjid Giok Aceh: Satu-satunya Masjid dari Giok di Dunia",
-      "originalDescription": "Prabowo meresmikan Masjid Giok Baitul A'la di Kabupaten Nagan Raya, Aceh. Masjid Baitul A'la menjadi satu-satunya masjid yang dibangun dengan giok di dunia.",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/11/prabowo-meresmikan-masjid-giok-baitul-ala-di-kabupaten-nagan-raya-aceh-dokyoutube-setpres-1794375712300_169.jpeg?w=360&q=90",
-      "category": "Masjid dan Peradaban",
-      "tags": [
-        "Masjid dan Peradaban"
-      ],
-      "source": "Detik",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-11T05:43:59+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8748047/prabowo-resmikan-masjid-giok-aceh-satu-satunya-masjid-dari-giok-di-dunia"
-    },
-    {
-      "id": "c413aa08be02a601",
-      "title": "Riyadh mengubah batas waktu kerja Stadion Raja Salman",
-      "description": "Stadion akan menjadi tempat final Piala Dunia Fifa tahun 2034.",
-      "originalTitle": "Riyadh shifts bid deadline for King Salman Stadium works",
-      "originalDescription": "The stadium will be the venue for the final of the Fifa World Cup in 2034",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.meed.com/~\\Uploads\\NewsArticle\\21325461\\main.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "MEED Saudi Arabia",
-      "sources": [
-        "MEED Saudi Arabia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-11T05:29:00+00:00",
-      "originalUrl": "https://www.meed.com/riyadh-moves-king-salman-stadium-works-deadline"
-    },
-    {
-      "id": "714968f5a1d9e4ab",
-      "title": "Arab Saudi menyetujui kebangkitan pipa minyak Irak",
-      "description": "Jalur pipa 1.568km terakhir digunakan pada bulan Agustus 1990",
-      "originalTitle": "Saudi Arabia approves revival of Iraq oil pipeline",
-      "originalDescription": "The 1,568km pipeline was last used in August 1990",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.meed.com/~\\Uploads\\NewsArticle\\21304885\\main.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "MEED Saudi Arabia",
-      "sources": [
-        "MEED Saudi Arabia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-11T05:26:00+00:00",
-      "originalUrl": "https://www.meed.com/saudi-arabia-approves-revival-of-iraq-oil-pipeline"
-    },
-    {
-      "id": "2340540c58ba1b37",
-      "title": "Bupati Nagan Raya Dukung Prabowo 2 Periode",
-      "description": "Bupati Nagan Raya, Teuku Raja Keumangan, apresiasi kunjungan Presiden Prabowo yang meresmikan Masjid Giok. Ia dukung Prabowo dua periode",
-      "originalTitle": "Bupati Nagan Raya Dukung Prabowo 2 Periode",
-      "originalDescription": "Bupati Nagan Raya, Teuku Raja Keumangan, apresiasi kunjungan Presiden Prabowo yang meresmikan Masjid Giok. Ia dukung Prabowo dua periode",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/08/31/prabowo-kumpulkan-para-ketua-partai-begini-hasil-pertemuannya-1756638529816_169.jpeg?w=360&q=90",
-      "category": "Masjid dan Peradaban",
-      "tags": [
-        "Masjid dan Peradaban"
-      ],
-      "source": "Detik",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-11T05:14:14+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8747985/bupati-nagan-raya-dukung-prabowo-2-periode"
-    },
-    {
-      "id": "14c8ff513d584cd0",
-      "title": "Nikita Willy dan Indra Priawan Bersama Rumah Zakat Salurkan Air Bersih untuk Warga Palangka Raya",
-      "description": "PALANGKA RAYA — Kekeringan yang melanda sejumlah wilayah di Palangka Raya membuat warga kesulitan memperoleh air bersih. Merespons kondisi tersebut, tim Nikita Willy dan Indra Priawan bersama Sahabat Influencer dan...",
-      "originalTitle": "Nikita Willy dan Indra Priawan Bersama Rumah Zakat Salurkan Air Bersih untuk Warga Palangka Raya",
-      "originalDescription": "PALANGKA RAYA — Kekeringan yang melanda sejumlah wilayah di Palangka Raya membuat warga kesulitan memperoleh air bersih. Merespons kondisi tersebut, tim Nikita Willy dan Indra Priawan bersama Sahabat Influencer dan...",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/_261111112627-690.png",
-      "category": "Ekonomi Syariah",
-      "tags": [
-        "Ekonomi Syariah"
-      ],
-      "source": "Republika",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-11T04:26:37+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/toblod490/nikita-willy-dan-indra-priawan-bersama-rumah-zakat-salurkan-air-bersih-untuk-warga-palangka-raya",
-      "sources": [
-        "Republika"
-      ]
-    },
-    {
-      "id": "a92fff2b49eecb07",
-      "title": "Pemprov DKI Tambah 100 Sekolah Swasta Gratis, Ponpes-Madrasah Masuk Sasaran",
-      "description": "Pramono mengatakan perluasan program tersebut merupakan bagian dari upaya Pemprov DKI menindaklanjuti putusan Mahkamah Konstitusi (MK) terkait sekolah gratis.",
-      "originalTitle": "Pemprov DKI Tambah 100 Sekolah Swasta Gratis, Ponpes-Madrasah Masuk Sasaran",
-      "originalDescription": "Pramono mengatakan perluasan program tersebut merupakan bagian dari upaya Pemprov DKI menindaklanjuti putusan Mahkamah Konstitusi (MK) terkait sekolah gratis.",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/11/gubernur-dki-jakarta-pramono-anung-beliadetikcom-1794369998366_169.jpeg?w=360&q=90",
-      "category": "Pendidikan Islam",
-      "tags": [
-        "Pendidikan Islam"
-      ],
-      "source": "Detik",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-11T04:13:39+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8747849/pemprov-dki-tambah-100-sekolah-swasta-gratis-ponpes-madrasah-masuk-sasaran"
-    },
-    {
-      "id": "b226a23aa7c44c19",
-      "title": "Seskab: Presiden Prabowo Kunjungi Aceh, Saksikan Bentangan Merah Putih 24 Km",
-      "description": "Presiden Prabowo Subianto kunjungi Aceh untuk menyaksikan pembentangan bendera Merah Putih 24 km dan meresmikan masjid serta Sekolah Rakyat.",
-      "originalTitle": "Seskab: Presiden Prabowo Kunjungi Aceh, Saksikan Bentangan Merah Putih 24 Km",
-      "originalDescription": "Presiden Prabowo Subianto kunjungi Aceh untuk menyaksikan pembentangan bendera Merah Putih 24 km dan meresmikan masjid serta Sekolah Rakyat.",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/11/presiden-prabowo-subianto-menaiki-pesawat-kepresidenan-bertolak-ke-aceh-firda-cynthiadetikcom-1794366413535_169.jpeg?w=360&q=90",
-      "category": "Masjid dan Peradaban",
-      "tags": [
-        "Masjid dan Peradaban"
-      ],
-      "source": "Detik",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-11T03:09:06+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8747726/seskab-presiden-prabowo-kunjungi-aceh-saksikan-bentangan-merah-putih-24-km"
-    },
-    {
-      "id": "a57cd653a67e31ce",
-      "title": "Baznas RI salurkan bantuan untuk ibu dan anak guna mencegah stunting",
-      "description": "Badan Amil Zakat Nasional (Baznas) RI menyalurkan paket pangan bergizi secara bertahap bagi 659 anak dan ibu berisiko ...",
-      "originalTitle": "Baznas RI salurkan bantuan untuk ibu dan anak guna mencegah stunting",
-      "originalDescription": "Badan Amil Zakat Nasional (Baznas) RI menyalurkan paket pangan bergizi secara bertahap bagi 659 anak dan ibu berisiko ...",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/11/IMG_20261111_092739.jpg.jpeg",
-      "category": "Ekonomi Syariah",
-      "tags": [
-        "Ekonomi Syariah"
-      ],
-      "source": "ANTARA Terkini",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-11T02:52:41+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5845719/baznas-ri-salurkan-bantuan-untuk-ibu-dan-anak-guna-mencegah-stunting"
-    },
-    {
-      "id": "ae0eab16f87396b9",
-      "title": "HNW Minta Polisi Usut Penyerangan Jemaah dan Dugaan Pembakaran Masjid",
-      "description": "Politikus Hidayat Nur Wahid mengecam penyerangan jemaah di Masjid Darul Ma'arif, Jakarta. Ia mendesak polisi usut tuntas dan jamin keamanan rumah ibadah.",
-      "originalTitle": "HNW Minta Polisi Usut Penyerangan Jemaah dan Dugaan Pembakaran Masjid",
-      "originalDescription": "Politikus Hidayat Nur Wahid mengecam penyerangan jemaah di Masjid Darul Ma'arif, Jakarta. Ia mendesak polisi usut tuntas dan jamin keamanan rumah ibadah.",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/11/hnw-1794365295004_169.jpeg?w=360&q=90",
-      "category": "Masjid dan Peradaban",
-      "tags": [
-        "Masjid dan Peradaban"
-      ],
-      "source": "Detik",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-11T02:48:32+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8747703/hnw-minta-polisi-usut-penyerangan-jemaah-dan-dugaan-pembakaran-masjid"
-    },
-    {
-      "id": "40e017338cf68ca7",
-      "title": "Baznas ajak kampus perkuat ekosistem zakat menuju Indonesia Emas 2045",
-      "description": "Badan Amil Zakat Nasional (Baznas) RI mendorong perguruan tinggi di Indonesia untuk bersama-sama memperkuat ekosistem ...",
-      "originalTitle": "Baznas ajak kampus perkuat ekosistem zakat menuju Indonesia Emas 2045",
-      "originalDescription": "Badan Amil Zakat Nasional (Baznas) RI mendorong perguruan tinggi di Indonesia untuk bersama-sama memperkuat ekosistem ...",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/11/IMG_20261111_092614.jpg.jpeg",
-      "category": "Ekonomi Syariah",
-      "tags": [
-        "Ekonomi Syariah"
-      ],
-      "source": "ANTARA Terkini",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-11T02:44:51+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5845703/baznas-ajak-kampus-perkuat-ekosistem-zakat-menuju-indonesia-emas-2045",
-      "sources": [
-        "ANTARA Terkini"
-      ]
-    },
-    {
-      "id": "409e1a104e88842b",
-      "title": "Baznas perluas beasiswa pendidikan lintas negara dengan KPMAIWP",
-      "description": "Badan Amil Zakat Nasional (Baznas) RI menjajaki sinergi dengan Kolej Profesional Majlis Agama Islam Wilayah Persekutuan ...",
-      "originalTitle": "Baznas perluas beasiswa pendidikan lintas negara dengan KPMAIWP",
-      "originalDescription": "Badan Amil Zakat Nasional (Baznas) RI menjajaki sinergi dengan Kolej Profesional Majlis Agama Islam Wilayah Persekutuan ...",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/11/IMG_20261111_092629.jpg.jpeg",
-      "category": "Ekonomi Syariah",
-      "tags": [
-        "Ekonomi Syariah"
-      ],
-      "source": "ANTARA Terkini",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-11T02:37:07+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5845691/baznas-perluas-beasiswa-pendidikan-lintas-negara-dengan-kpmaiwp",
-      "sources": [
-        "ANTARA Terkini"
-      ]
-    },
-    {
-      "id": "03650c311f963787",
-      "title": "Penipuan Haji dan Umrah Kian Marak, Kemenhaj akan Perkuat Penyidik PNS",
-      "description": "JAKARTA — Kementerian Haji dan Umrah merevitalisasi fungsi Penyidik Pegawai Negeri Sipil (PPNS) demi memperkuat penegakan hukum terhadap praktik penipuan penyelenggaraan ibadah haji dan umrah. Wakil Menteri Haji dan Umrah...",
-      "originalTitle": "Penipuan Haji dan Umrah Kian Marak, Kemenhaj akan Perkuat Penyidik PNS",
-      "originalDescription": "JAKARTA — Kementerian Haji dan Umrah merevitalisasi fungsi Penyidik Pegawai Negeri Sipil (PPNS) demi memperkuat penegakan hukum terhadap praktik penipuan penyelenggaraan ibadah haji dan umrah. Wakil Menteri Haji dan Umrah...",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/_261111082450-613.png",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "Republika",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-11T02:19:39+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/tobfsr483/penipuan-haji-dan-umrah-kian-marak-kemenhaj-akan-perkuat-penyidik-pns",
-      "sources": [
-        "Republika"
-      ]
-    },
-    {
-      "id": "dafbe69a723620cc",
-      "title": "Pengunjuk rasa melempar susu pada Joe Biden selama acara berburu di Dublin.",
-      "description": "Protes Palestina melemparkan susu ke arah Joe Biden di Irlandia atas dukungannya untuk Israel.",
-      "originalTitle": "Protesters throw milk at Joe Biden during Hunter event in Dublin",
-      "originalDescription": "Pro-Palestinian protesters hurled milk towards Joe Biden in Ireland over his support for Israel.",
-      "translated": true,
-      "originalLanguage": "en",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794363073.jpg?resize=1920%2C1080&quality=80",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Al Jazeera",
-      "language": "id",
-      "country": "International",
-      "publishedAt": "2026-11-11T02:12:22+00:00",
-      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/11/protesters-throw-milk-at-joe-biden-during-hunter-event-in-dublin",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "translationStatus": "success"
-    },
-    {
-      "id": "bd6eb905a8f011ca",
-      "title": "Anggota DPR Dorong Usulan Pelarangan Vape Lewat UU Dikaji Komprehensif",
-      "description": "MUI menerbitkan fatwa haram untuk rokok elektronik (vape). Anggota DPR, Lola Oktavia, mendorong kajian mendalam terkait usulan pelarangan vape melalui UU.",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/04/11/anggota-komisi-iii-dpr-ri-fraksi-nasdem-lola-nelria-oktavia-dokistimewa-1744384809013_169.jpeg?w=360&q=90",
-      "category": "Nasional Islam",
-      "tags": [
-        "Nasional Islam"
-      ],
-      "source": "Detik",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-11T02:00:43+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8747646/anggota-dpr-dorong-usulan-pelarangan-vape-lewat-uu-dikaji-komprehensif",
-      "originalTitle": "Anggota DPR Dorong Usulan Pelarangan Vape Lewat UU Dikaji Komprehensif",
-      "originalDescription": "MUI menerbitkan fatwa haram untuk rokok elektronik (vape). Anggota DPR, Lola Oktavia, mendorong kajian mendalam terkait usulan pelarangan vape melalui UU.",
-      "originalLanguage": "id",
-      "sources": [
-        "Detik"
-      ]
-    },
-    {
-      "id": "40f44e6d73143eb1",
-      "title": "Gerakan LGBT di Aksi Women's March, Kemenag Ajak Jaga Nilai dan Etika Bangsa",
-      "description": "JAKARTA — Sekretaris Jenderal Kementerian Agama (Sekjen Kemenag), Kamaruddin Amin mengecam tindakan ciuman sesama laki-laki kaum LGBTQ dalam rangkaian aksi Women's March Jakarta pada Sabtu (7/11/2026) kemarin. Ia pun...",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/sekjen-kemenag-kamaruddin-amin_261111085729-535.jpg",
-      "category": "Nasional Islam",
-      "tags": [
-        "Nasional Islam"
-      ],
-      "source": "Republika",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-11T01:58:07+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/tobesv430/gerakan-lgbt-di-aksi-womens-march-kemenag-ajak-jaga-nilai-dan-etika-bangsa",
-      "sources": [
-        "Republika"
-      ],
-      "originalTitle": "Gerakan LGBT di Aksi Women's March, Kemenag Ajak Jaga Nilai dan Etika Bangsa",
-      "originalDescription": "JAKARTA — Sekretaris Jenderal Kementerian Agama (Sekjen Kemenag), Kamaruddin Amin mengecam tindakan ciuman sesama laki-laki kaum LGBTQ dalam rangkaian aksi Women's March Jakarta pada Sabtu (7/11/2026) kemarin. Ia pun...",
-      "originalLanguage": "id",
-      "translated": false
-    },
-    {
-      "id": "013047f4181a5593",
-      "title": "Menhaj Ungkap Sejumlah Usulan Diterima Saudi dalam MoU Persiapan Haji 2027",
-      "description": "JEDDAH — Menteri Haji dan Umrah Republik Indonesia, Mochamad Irfan Yusuf, menyampaikan bahwa sejumlah usulan Indonesia terkait penyelenggaraan ibadah haji 1448 H/2027 M telah diterima oleh Pemerintah Arab Saudi....",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/delegasi-kementerian-haji-dan-umrah-ri-bersama-dengan-kementerian_261111085145-936.jpeg",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah",
-        "Arab Saudi"
-      ],
-      "source": "Republika",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-11T01:52:35+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/tobejn483/menhaj-ungkap-sejumlah-usulan-diterima-saudi-dalam-mou-persiapan-haji-2027",
-      "sources": [
-        "Republika"
-      ],
-      "originalTitle": "Menhaj Ungkap Sejumlah Usulan Diterima Saudi dalam MoU Persiapan Haji 2027",
-      "originalDescription": "JEDDAH — Menteri Haji dan Umrah Republik Indonesia, Mochamad Irfan Yusuf, menyampaikan bahwa sejumlah usulan Indonesia terkait penyelenggaraan ibadah haji 1448 H/2027 M telah diterima oleh Pemerintah Arab Saudi....",
-      "originalLanguage": "id",
-      "translated": false
-    },
-    {
-      "id": "790f281dad5be8fc",
-      "title": "\"Yang bisa saya lakukan adalah memeluk anak-anak saya dan menangis ': Palestina di Gaza menghadapi banjir musim dingin yang mematikan",
-      "description": "\"Yang bisa saya lakukan adalah memeluk anak-anak saya dan menangis ': Palestina di Gaza menghadapi banjir musim dingin yang mematikan Di MEE Live, Jurnalis Palestina, Nada Nabil berbicara kepada jurnalis MeE James Schneider tentang bagaimana hujan lebat dan banjir yang semakin parah bagi keluarga pengungsi di Gaza, di mana banyak yang tinggal di tenda dan rumah yang rusak. Nabil mengatakan orang yang biasanya akan menyambut hujan sekarang takut itu. Dia menceritakan bagaimana seorang ibu mengatakan kepadanya bahwa semua dia bisa lakukan adalah memeluk anak-anaknya, menangis dan menjanjikan mereka hari yang lebih baik ketika matahari kembali. Banjir datang ketika Palestina di Gaza terus menghadapi konsekuensi pembatasan Israel pada bantuan kemanusiaan memasuki Gaza. Meskipun gencatan senjata, Israel terus menghalangi masuk persediaan penting, termasuk tenda, selimut dan bahan yang diperlukan untuk memperbaiki infrastruktur yang rusak. Di MEE Live, Jurnalis Palestina, Nada Nabil berbicara kepada jurnalis MeE James Schneider tentang bagaimana hujan lebat dan banjir yang semakin parah bagi keluarga pengungsi di Gaza, di mana banyak yang tinggal di tenda dan rumah yang rusak. https: / / t.co / 74Zd01f8u - Middle East Eye (@ MiddleEastEye) November 10, 2026",
-      "originalTitle": "‘All I can do is hug my children and cry’: Palestinians in Gaza face deadly winter floods",
-      "originalDescription": "‘All I can do is hug my children and cry’: Palestinians in Gaza face deadly winter floods On MEE Live, Palestinian journalist Nada Nabil spoke to MEE journalist James Schneider about how heavy rains and flooding are worsening conditions for displaced families in Gaza, where many are living in tents and damaged homes. Nabil said people who would normally welcome the rain are now afraid of it. She recounted how one mother told her that all she could do was hug her children, cry and promise them better days when the sun returned. The flooding comes as Palestinians in Gaza continue to face the consequences of Israel’s restrictions on humanitarian aid entering Gaza. Despite the ceasefire, Israel continues to obstruct the entry of essential supplies, including tents, blankets and materials needed to repair damaged infrastructure. On MEE Live, Palestinian journalist Nada Nabil spoke to MEE journalist James Schneider about how heavy rains and flooding are worsening conditions for displaced families in Gaza, where many are living in tents and damaged homes. https://t.co/74Zd01uf8u — Middle East Eye (@MiddleEastEye) November 10, 2026",
-      "translated": true,
-      "originalLanguage": "en",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "language": "id",
-      "country": "International",
-      "publishedAt": "2026-11-11T00:53:04+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/all-i-can-do-hug-my-children-and-cry-palestinians-gaza-face-deadly",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "translationStatus": "success"
-    },
-    {
-      "id": "1b087f9b0b73343b",
-      "title": "Wamenhaj Sebut Penipu Haji dan Umrah Sebagai Bandit Agama",
-      "description": "JAKARTA — Wakil Menteri Haji dan Umrah (Wamenhaj) Dahnil Anzar Simanjuntak menyebut para pelaku penipuan penyelenggaraan ibadah haji dan umrah sebagai bandit agama. Mereka dinilai memanfaatkan tingginya semangat spiritualitas...",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/000402000-1793365941-830-556.jpg",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "Republika",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-11T00:17:52+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/toba5s483/wamenhaj-sebut-penipu-haji-dan-umrah-sebagai-bandit-agama",
-      "sources": [
-        "Republika"
-      ],
-      "originalTitle": "Wamenhaj Sebut Penipu Haji dan Umrah Sebagai Bandit Agama",
-      "originalDescription": "JAKARTA — Wakil Menteri Haji dan Umrah (Wamenhaj) Dahnil Anzar Simanjuntak menyebut para pelaku penipuan penyelenggaraan ibadah haji dan umrah sebagai bandit agama. Mereka dinilai memanfaatkan tingginya semangat spiritualitas...",
-      "originalLanguage": "id",
-      "translated": false
-    },
-    {
-      "id": "7ddbffafbc3e1831",
-      "title": "Dukung Fatwa Haram MUI, Legislator PDIP Desak Pemerintah Ikut Larang Vape",
-      "description": "Gus Falah mendukung langkah MUI yang menerbitkan fatwa haram rokok elektronik atau vape. Gus Falah mengatakan penggunaan vape bertentangan dengan hukum agama.",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2026/08/13/anggota-komisi-iii-dpr-fraksi-pdip-nasyirul-falah-amru-gus-falah-1786637680270_169.jpeg?w=360&q=90",
-      "category": "Nasional Islam",
-      "tags": [
-        "Nasional Islam"
-      ],
-      "source": "Detik",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-10T23:51:45+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8747498/dukung-fatwa-haram-mui-legislator-pdip-desak-pemerintah-ikut-larang-vape",
-      "originalTitle": "Dukung Fatwa Haram MUI, Legislator PDIP Desak Pemerintah Ikut Larang Vape",
-      "originalDescription": "Gus Falah mendukung langkah MUI yang menerbitkan fatwa haram rokok elektronik atau vape. Gus Falah mengatakan penggunaan vape bertentangan dengan hukum agama.",
-      "originalLanguage": "id",
-      "sources": [
-        "Detik"
-      ]
-    },
-    {
-      "id": "2604d0e614109c5d",
-      "title": "Kebakaran besar-besaran sebagai pemukim Israel membakar bisnis dekat Nablus",
-      "description": "Penduduk Israel telah membakar tanah Palestina di desa Luban ash-Sharqiya, dekat Nablus.",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794353598.jpg?resize=1916%2C1080&quality=80",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Al Jazeera",
-      "language": "id",
-      "country": "International",
-      "publishedAt": "2026-11-10T23:33:43+00:00",
-      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/10/massive-fire-as-israeli-settlers-burn-down-business-near-nablus",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "originalTitle": "Massive fire as Israeli settlers burn down business near Nablus",
-      "originalDescription": "Israeli settlers have set fire to Palestinian property in the village of Luban ash-Sharqiya, near Nablus.",
-      "originalLanguage": "en",
-      "translated": true,
-      "translationStatus": "success"
-    },
-    {
-      "id": "a782bc3aba7cebd1",
-      "title": "Jepang menjanjikan $1.97m untuk mendukung respon kesehatan Gaza",
-      "description": "Jepang menjanjikan $1.97m untuk mendukung respon kesehatan Gaza Jepang menandatangani perjanjian dengan Organisasi Kesehatan Dunia pada hari Selasa untuk menyediakan sekitar $1.97 juta untuk mendukung respon kesehatan di Gaza, Wafa melaporkan, mengutip kantor perwakilan Jepang ke Palestina. Perjanjian ini ditandatangani di Ramallah oleh perwakilan Jepang untuk Palestina, Katsuhiko Araike, dan WHO perwakilan di wilayah Palestina yang ditempati, Reinhilde Van De Weerdt. Komponen utama dari hibah ini adalah pembentukan sel koordinasi Tim Medis Darurat (EMT) dalam Pusat Operasi Darurat Kementerian di Gaza City, menurut laporan tersebut.",
-      "originalTitle": "Japan pledges $1.97m to support Gaza health response",
-      "originalDescription": "Japan pledges $1.97m to support Gaza health response Japan signed an agreement with the World Health Organisation on Tuesday to provide approximately $1.97 million to support the health response in Gaza, Wafa reported, citing Japan’s representative office to Palestine. The agreement was signed in Ramallah by Japan’s representative to Palestine, Katsuhiko Araike, and WHO representative in the occupied Palestinian territory, Reinhilde Van De Weerdt. A key component of the grant is the establishment of an Emergency Medical Team (EMT) coordination cell within the Ministry’s Emergency Operations Centre in Gaza City, the report said.",
-      "translated": true,
-      "originalLanguage": "en",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/A%20displaced%20Palestinian%20boy%20eats%20food%20being%20distributed%20by%20a%20charity%20kitchen%20at%20the%20Nuseirat%20camp%20for%20refugees%2C%20in%20central%20Gaza%20Strip%20on%2010%20November%2C%202026%20%28AFP%29.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "language": "id",
-      "country": "International",
-      "publishedAt": "2026-11-10T23:05:46+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/japan-pledges-197m-support-gaza-health-response",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "translationStatus": "success"
-    },
-    {
-      "id": "31784fd7eb02a748",
-      "title": "Pemimpin Demokrat US Jeffries akan mempertahankan posisi meskipun oposisi, sumber mengatakan",
-      "description": "Pemimpin Demokrat Amerika Serikat Jeffries akan mempertahankan posisi meskipun oposisi, sumber mengatakan Diberikan oleh Yasmine El- Sabawi pada Tue, 11 / 10 / 2026 - 19: 15 Di Senat, kecuali para anggota Kongres New York Hakeem Jeffries secara resmi melangkah ke depan untuk menyatukan peringkat sebagai penantang, Chuck Schumer akan menang sebagai pemimpin Kongres New York Hakeem Jeffries, benar, berbicara kepada wartawan bersama dengan pemimpin Senat Demokrat, New York Senator Chuck Schumer, pada langkah-langkah Senat AS pada 21 Mei 2026 di Washington, DC (Win McNamee / Getty Bagines) Tidak ada pemimpin alternatif dalam pelarian. \"Ini adalah biaya untuk melawan seseorang yang akhirnya akan menjadi pemimpin dari kuucus. Tidak cukup orang yang bersedia melakukan itu\", satu sumber kata. Ini datang karena banyak pemilih telah menyatakan keinginan mereka untuk melihat Jeffries mengosongkan posisi, menuduhnya keluar dari langkah dengan partai tumbuh sayap progresif kiri, yang ingin melihat uang keluar dari politik, dan berhenti untuk transfer senjata untuk Israel. Sebagai gantinya pembuat hukum baru ingin bekerja dengannya, tiga sumber akrab dengan proses internal di Capitol Hill dikonfirmasi MeE. The 56- tahun-tua Jeffries didukung oleh pro- Israel melobi kelompok dan telah membuatnya jelas ia adalah seorang pelindung diilhami Israel. Dia juga menerima dukungan finansial yang besar dari perusahaan besar, termasuk pabrik teknologi dan senjata. Mungkin yang paling penting, pencalonannya di distrik New York dan tawaran kepemimpinannya didukung oleh pembuat raja progresif dan Walikota kota New York Zohran Mamdani - banyak ketawa dari pendukung Mamdani sendiri. Petisi menentang Hakeem Jeffries saat Speaker US House melewati satu juta tanda tangan Baca Lebih \"Mamdani sebagian besar dikreditkan dengan menetapkan gelombang muda Demokrat Sosialis meluncurkan kampanye untuk kantor. Tepat sebelum pemilihan tengah semester 3 November, polling Redbox menunjukkan hanya 19 persen dari",
-      "originalTitle": "US House Democrat leader Jeffries will retain position despite opposition, sources say",
-      "originalDescription": "US House Democrat leader Jeffries will retain position despite opposition, sources say Submitted by Yasmine El-Sabawi on Tue, 11/10/2026 - 19:15 In the Senate, unless progressive-backed Chris Van Hollen formally steps up to unite the ranks as a challenger, Chuck Schumer will likely win The leader of the House Democrats, New York Congressman Hakeem Jeffries, right, speaks to reporters alongside the leader of the Senate Democrats, New York Senator Chuck Schumer, on the steps of the US Senate on 21 May 2026 in Washington, DC (Win McNamee/Getty Images via AFP) Off The top Democrat in the House of Representatives, Hakeem Jeffries, is all but certain to become the next Speaker of the House, despite dissatisfaction among some freshman lawmakers and their progressive colleagues in the chamber, sources have told Middle East Eye. There simply is no alternative leader in the running. \"It's a cost to go against someone who will eventually be the leader of the caucus. There's not enough people who are willing to do that,\" one source said. This comes as many voters have expressed their desire to see Jeffries vacate the position, accusing him of being out of step with the party's growing leftist progressive wing, which wants to see money out of politics, and a stop to the transfer of weapons to Israel. New lawmakers are looking to work with him instead, three sources familiar with the internal process on Capitol Hill confirmed to MEE. The 56-year-old Jeffries is backed by pro-Israel lobbying groups and has made it clear he is an avowed protector of Israel . He has also received substantial financial support from a litany of big corporations , including tech and weapons manufacturers. Perhaps most importantly, his candidacy in his New York district and his leadership bid were endorsed by progressive kingmaker and New York City Mayor Zohran Mamdani - much to the chagrin of Mamdani's own supporters. Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures R",
-      "translated": true,
-      "originalLanguage": "en",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/063_2277503865-2.jpg.jpg?itok=r97KGlZU",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "language": "id",
-      "country": "International",
-      "publishedAt": "2026-11-10T22:52:39+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/us-house-democrat-leader-jeffries-will-retain-position-despite-opposition-sources-say",
-      "translationStatus": "success",
-      "sources": [
-        "Middle East Eye"
       ]
     }
   ]
