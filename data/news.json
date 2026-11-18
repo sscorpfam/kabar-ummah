@@ -1,8 +1,8 @@
 {
   "status": "success",
-  "lastUpdated": "2026-11-17T20:56:44.883829+00:00",
+  "lastUpdated": "2026-11-18T02:55:57.560811+00:00",
   "total": 500,
-  "newArticles": 128,
+  "newArticles": 129,
   "sourcesChecked": 12,
   "sourcesSucceeded": 12,
   "sourcesFailed": 0,
@@ -13,7 +13,7 @@
       "raw": 25,
       "accepted": 2,
       "filtered": 23,
-      "filteredFootball": 1,
+      "filteredFootball": 0,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 27,
+      "raw": 28,
       "accepted": 1,
-      "filtered": 26,
+      "filtered": 27,
       "filteredFootball": 2,
-      "translated": 27,
+      "translated": 28,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -35,8 +35,8 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 9,
-      "filtered": 6,
+      "accepted": 10,
+      "filtered": 5,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -47,9 +47,9 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 3,
-      "filtered": 47,
-      "filteredFootball": 1,
+      "accepted": 4,
+      "filtered": 46,
+      "filteredFootball": 2,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 15,
-      "filtered": 5,
-      "filteredFootball": 2,
+      "accepted": 14,
+      "filtered": 6,
+      "filteredFootball": 0,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -95,8 +95,8 @@
       "name": "Detik",
       "status": "success",
       "raw": 100,
-      "accepted": 3,
-      "filtered": 97,
+      "accepted": 2,
+      "filtered": 98,
       "filteredFootball": 1,
       "translated": 0,
       "translationPartial": 0,
@@ -119,8 +119,8 @@
       "name": "NU Online",
       "status": "success",
       "raw": 48,
-      "accepted": 12,
-      "filtered": 36,
+      "accepted": 14,
+      "filtered": 34,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -131,8 +131,8 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 28,
-      "filtered": 22,
+      "accepted": 27,
+      "filtered": 23,
       "filteredFootball": 6,
       "translated": 0,
       "translationPartial": 0,
@@ -156,16 +156,446 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 218,
+    "translatedArticles": 221,
     "partialArticles": 0,
     "failedArticles": 0,
-    "cacheEntries": 2447
+    "cacheEntries": 2521
   },
   "images": {
     "found": 500,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "44d5876728867b84",
+      "title": "11 orang tewas akibat serangan udara Arab Saudi ke Yaman",
+      "description": "Sebanyak 11 orang, termasuk petugas penyelamat, di Provinsi Sanaa dan Al Hudaydah, Yaman, tewas akibat serangan udara ...",
+      "originalTitle": "11 orang tewas akibat serangan udara Arab Saudi ke Yaman",
+      "originalDescription": "Sebanyak 11 orang, termasuk petugas penyelamat, di Provinsi Sanaa dan Al Hudaydah, Yaman, tewas akibat serangan udara ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/10/CmxztpE000038_20261110_PEPFN0A001.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-18T02:33:13+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5861395/11-orang-tewas-akibat-serangan-udara-arab-saudi-ke-yaman"
+    },
+    {
+      "id": "368af00c2d862d4d",
+      "title": "Kerusakan sekolah hambat pendidikan 700.000 anak di Gaza",
+      "description": "Seorang guru menyampaikan materi pelajaran kepada sejumlah siswa di tenda darurat di salah satu kamp pengungsian ...",
+      "originalTitle": "Kerusakan sekolah hambat pendidikan 700.000 anak di Gaza",
+      "originalDescription": "Seorang guru menyampaikan materi pelajaran kepada sejumlah siswa di tenda darurat di salah satu kamp pengungsian ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/18/CmxztpE000017_20261118_PEPFN0A001.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-18T02:10:32+00:00",
+      "originalUrl": "https://www.antaranews.com/foto/5861339/kerusakan-sekolah-hambat-pendidikan-700000-anak-di-gaza"
+    },
+    {
+      "id": "624b68cbb710f929",
+      "title": "Baznas perkuat konsolidasi UPZ, pastikan zakat optimal dan berdampak",
+      "description": "Badan Amil Zakat Nasional (Baznas) RI memperkuat konsolidasi jaringan Unit Pengumpul Zakat (UPZ) melalui Rapat Kerja ...",
+      "originalTitle": "Baznas perkuat konsolidasi UPZ, pastikan zakat optimal dan berdampak",
+      "originalDescription": "Badan Amil Zakat Nasional (Baznas) RI memperkuat konsolidasi jaringan Unit Pengumpul Zakat (UPZ) melalui Rapat Kerja ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/18/IMG_20261118_082408.jpg.jpeg",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-18T02:06:40+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5861327/baznas-perkuat-konsolidasi-upz-pastikan-zakat-optimal-dan-berdampak"
+    },
+    {
+      "id": "8f1a8ad30b6986f1",
+      "title": "Dirjen Pesantren: Santri Berhak Menolak Ajakan Tidak Pantas, Meski Datang dari Ustadz, Kiai, dan Pengasuh",
+      "description": "Dirjen Pesantren tegaskan santri berhak menolak tindakan tidak pantas. Kemenag dorong pembentukan satgas perlindungan di pesantren demi keamanan.",
+      "originalTitle": "Dirjen Pesantren: Santri Berhak Menolak Ajakan Tidak Pantas, Meski Datang dari Ustadz, Kiai, dan Pengasuh",
+      "originalDescription": "Dirjen Pesantren tegaskan santri berhak menolak tindakan tidak pantas. Kemenag dorong pembentukan satgas perlindungan di pesantren demi keamanan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/basnang-said-kemenag-2_1794965958.webp",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama",
+        "Pesantren dan Madrasah",
+        "Nasional Islam"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-18T01:30:53+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/dirjen-pesantren-santri-berhak-menolak-ajakan-tidak-pantas-meski-datang-dari-ustadz-kiai-dan-pengasuh-ae8jh"
+    },
+    {
+      "id": "e5c087db3248dba3",
+      "title": "DPR dorong dukungan Prabowo terhadap Palestina jadi diplomasi nyata",
+      "description": "Wakil Ketua Komisi I DPR RI Sukamta mendorong agar ketegasan Presiden Prabowo Subianto untuk mendukung kemerdekaan ...",
+      "originalTitle": "DPR dorong dukungan Prabowo terhadap Palestina jadi diplomasi nyata",
+      "originalDescription": "Wakil Ketua Komisi I DPR RI Sukamta mendorong agar ketegasan Presiden Prabowo Subianto untuk mendukung kemerdekaan ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/09/19/13872.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-18T01:24:03+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5861299/dpr-dorong-dukungan-prabowo-terhadap-palestina-jadi-diplomasi-nyata"
+    },
+    {
+      "id": "9bc930e38091f2f9",
+      "title": "Sistem Haji 2027 Berubah, Petugas Diminta Kuasai Seluruh Alur Pelayanan Jamaah",
+      "description": "JAKARTA -- Kementerian Haji dan Umrah (Kemenhaj) menyatakan transformasi sistem penyelenggaraan haji 1448 H/2027 M yang dilakukan Arab Saudi menuntut kesiapan dan pola kerja baru dari seluruh Petugas Penyelenggara Ibadah...",
+      "originalTitle": "Sistem Haji 2027 Berubah, Petugas Diminta Kuasai Seluruh Alur Pelayanan Jamaah",
+      "originalDescription": "JAKARTA -- Kementerian Haji dan Umrah (Kemenhaj) menyatakan transformasi sistem penyelenggaraan haji 1448 H/2027 M yang dilakukan Arab Saudi menuntut kesiapan dan pola kerja baru dari seluruh Petugas Penyelenggara Ibadah...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/038931300-1780406880-830-556.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah",
+        "Arab Saudi"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-18T01:20:45+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/toobql366/sistem-haji-2027-berubah-petugas-diminta-kuasai-seluruh-alur-pelayanan-jamaah"
+    },
+    {
+      "id": "ace8bb6c714f8072",
+      "title": "Koalisi Lakukan Operasi Militer Khusus Targetkan Kemampuan Houthi",
+      "description": "Koalisi Arab Saudi melancarkan operasi militer khusus yang menghancurkan 60 target militer Houthi di beberapa provinsi di Yaman.",
+      "originalTitle": "Koalisi Lakukan Operasi Militer Khusus Targetkan Kemampuan Houthi",
+      "originalDescription": "Koalisi Arab Saudi melancarkan operasi militer khusus yang menghancurkan 60 target militer Houthi di beberapa provinsi di Yaman.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-09/التحالف-المالكي-jAdFc_io.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-18T01:15:43+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/rtdctjord"
+    },
+    {
+      "id": "c4c36ecfb63eb7a0",
+      "title": "Dewan Perdamaian memperingatkan gencatan senjata Gaza wajah segera runtuh tanpa tindakan",
+      "description": "Dewan US- dipimpin telah mencela terus berjuang di Gaza dan penundaan dalam menerapkan ketentuan kesepakatan gencatan senjata 2025.",
+      "originalTitle": "Board of Peace warns Gaza ceasefire faces imminent collapse without action",
+      "originalDescription": "The US-led board has decried continued fighting in Gaza and delays in implementing the terms of a 2025 ceasefire deal.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6afcb93f966d-1794947391.jpg?resize=1920%2C1440",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-18T01:07:01+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action"
+    },
+    {
+      "id": "1065eacd8fd2e14c",
+      "title": "Menteri Agama Ajak Masyarakat Teladani Kepahlawanan Kiai Abbas Buntet",
+      "description": "Menag KH Nasaruddin Umar mengajak masyarakat meneladani keberanian, kecerdasan, dan pengabdian KH Abbas Abdul Jamil sebagai Pahlawan Nasional.",
+      "originalTitle": "Menteri Agama Ajak Masyarakat Teladani Kepahlawanan Kiai Abbas Buntet",
+      "originalDescription": "Menag KH Nasaruddin Umar mengajak masyarakat meneladani keberanian, kecerdasan, dan pengabdian KH Abbas Abdul Jamil sebagai Pahlawan Nasional.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/1002708458_1794961730.webp",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-18T01:00:57+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/menteri-agama-ajak-masyarakat-teladani-kepahlawanan-kiai-abbas-buntet-51aE1"
+    },
+    {
+      "id": "69d283eea772dcc2",
+      "title": "Saudi Arabia membangun kembali komitmen untuk keamanan daerah, stabilitas energi dan navigasi yang aman",
+      "description": "RIYADH - Sesi Kabinet, dipimpin oleh Putra Mahkota dan Perdana Menteri Mohammed bin Salman di Riyadh pada hari Selasa, meninjau hasil pembicaraan terbaru antara Arab Saudi dan negara-negara ramah ditujukan untuk memperluas cakrawala bilateral dan kerjasama multilateral di berbagai bidang. Kabinet juga mendasari pentingnya mendukung semua upaya untuk memperkuat keamanan daerah dan perdamaian, memastikan stabilitas pasar energi, dan koridor maritim yang dilindungi dan kebebasan navigasi, sehingga mengamankan aliran perdagangan dan rantai pasokan global. Dalam pernyataan kepada Badan Pers Saudi setelah sesi ini, Menteri Media Salman Al- Dossary mengatakan bahwa Kabinet telah diberitahu tentang keseluruhan kinerja negara dan kemajuan dan prestasi dibuat di berbagai bidang, meskipun keadaan yang berlaku dan transformasi berturut-turut berlangsung di seluruh dunia, terutama di lingkungan regional. Dewan menegaskan bahwa Kerajaan bergerak maju dengan upaya untuk memperkuat kemampuannya lebih lanjut, alamat muncul perkembangan dan tantangan, menjaga peningkatan dan prestasi nasional, dan menegakkan berdiri di antara bangsa-bangsa dan peran berpengaruh di kedua tingkat regional dan internasional. Dewan Menteri meninjau perkembangan terbaru dalam ekonomi nasional dan ketahanan telah menunjukkan dalam beradaptasi dengan keadaan beragam. Ketahanan ini didasari oleh kemajuan yang dibuat dalam mengubah sumber pertumbuhan ekonomi di bawah kerangka kerja Saudi Vision 2030, bersama reformasi yang telah mengalami pertumbuhan dan kemakmuran dari aktivitas minyak yang tidak - dan membantu menjaga inflasi di tingkat rendah. Ulasan ini juga menyoroti dukungan berkelanjutan untuk investasi, perluasan kesempatan bagi sektor swasta, kapasitas keuangan publik untuk menanggapi perubahan kondisi, dan keberlanjutan pengeluaran pada layanan dan proyek pembangunan penting. Kabinet mengomentari prestasi Kerajaan ini terus-menerus melalui berbagai indikator internasional dan ranking tercanggih di b",
+      "originalTitle": "Saudi Arabia reaffirms commitment to regional security, energy stability and safe navigation",
+      "originalDescription": "RIYADH — The Cabinet session, chaired by Crown Prince and Prime Minister Mohammed bin Salman in Riyadh on Tuesday, reviewed the outcomes of recent talks between Saudi Arabia and friendly nations aimed at broadening the horizons of bilateral and multilateral cooperation across various fields. The Cabinet also underscored the importance of supporting all efforts to reinforce regional security and peace, ensure the stability of energy markets, and safeguard maritime corridors and freedom of navigation, thereby securing the uninterrupted flow of global trade and supply chains. In a statement to the Saudi Press Agency following the session, Minister of Media Salman Al-Dossary said that the Cabinet had been briefed on the overall performance of the state and the progress and achievements made across various fronts, despite the prevailing circumstances and successive transformations unfolding across the world, particularly in the regional environment. The Council affirmed that the Kingdom is moving forward with efforts to further strengthen its capabilities, address emerging developments and challenges, safeguard its development gains and national achievements, and uphold its standing among nations and its influential role at both regional and international levels. The Council of Ministers reviewed the latest developments in the national economy and the resilience it has demonstrated in adapting to diverse circumstances. This resilience is underpinned by the progress made in diversifying sources of economic growth under the framework of Saudi Vision 2030, alongside reforms that have sustained the growth and prosperity of non-oil activities and helped keep inflation at low levels. The review also highlighted continued support for investment, the expansion of opportunities for the private sector, the capacity of public finances to respond to changing conditions, and the sustainability of spending on essential services and development projects. The Cabinet commended the Kingd",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/18/2796029.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-17T23:33:21+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666326/saudi-arabia/saudi-arabia-reaffirms-commitment-to-regional-security-energy-stability-and-safe-navigation"
+    },
+    {
+      "id": "03059a05f686b71e",
+      "title": "ICMI Muda Banten Tolak Relokasi Badak Jawa dari Ujung Kulon, Ini Alasannya",
+      "description": "BANTEN -- Ikatan Cendekiawan Muslim Indonesia (ICMI) Muda Provinsi Banten menyatakan keberatan terhadap wacana pemindahan Badak Jawa (Rhinoceros sondaicus) dari Taman Nasional Ujung Kulon, Kabupaten Pandeglang, Banten ke Taman...",
+      "originalTitle": "ICMI Muda Banten Tolak Relokasi Badak Jawa dari Ujung Kulon, Ini Alasannya",
+      "originalDescription": "BANTEN -- Ikatan Cendekiawan Muslim Indonesia (ICMI) Muda Provinsi Banten menyatakan keberatan terhadap wacana pemindahan Badak Jawa (Rhinoceros sondaicus) dari Taman Nasional Ujung Kulon, Kabupaten Pandeglang, Banten ke Taman...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/anak-badak-betina-bernama-helen-dan-jantan-bernama-luther_200923132554-320.jpg",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-17T23:13:10+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/too5ty430/icmi-muda-banten-tolak-relokasi-badak-jawa-dari-ujung-kulon-ini-alasannya"
+    },
+    {
+      "id": "ae40b2b3df5aa35e",
+      "title": "Dirjen Pesantren Sesalkan Dugaan Penganiayaan Enam Santri di Pangandaran oleh Anggota TNI",
+      "description": "Dirjen Pesantren minta kasus dugaan penganiayaan enam santri diproses menurut hukum. PCNU Pangandaran mengecam kekerasan di lingkungan pesantren.",
+      "originalTitle": "Dirjen Pesantren Sesalkan Dugaan Penganiayaan Enam Santri di Pangandaran oleh Anggota TNI",
+      "originalDescription": "Dirjen Pesantren minta kasus dugaan penganiayaan enam santri diproses menurut hukum. PCNU Pangandaran mengecam kekerasan di lingkungan pesantren.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/basnang-said-kemenag_1794964150.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-17T23:00:30+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/dirjen-pesantren-sesalkan-dugaan-penganiayaan-enam-santri-di-pangandaran-oleh-anggota-tni-UPhko"
+    },
+    {
+      "id": "2a999b6adcc975b4",
+      "title": "\"Kami berada di tengah-tengah perceraian dengan Israel ': orang Palestina Amerika nol dalam pada Senator Fetterman",
+      "description": "\"Kami berada di tengah-tengah perceraian dengan Israel\": nol Amerika Palestina di atas Senator Fetterman Diberikan oleh Yasmine El- Sabawi on Tue, 11 / 17 / 2026 - 17: 21 Penantang pertama untuk calon senator Pennsylvania di tahun 2028, Ahmed Moor, berbicara dalam video yang diposting di akun X-nya, pada 12 November 2026 (Screentake / @ AhmedMoor) Off A 42- tahun tua Palestina - Amerika penulis telah muncul sebagai penantang pertama untuk Pennsylvania Demokrat Senator dan setia pro- Israel sekutu John Fetterman dalam perlombaan senat 2028 nya. Hal ini tidak terlalu jarang bagi kandidat AS untuk menyatakan tawaran mereka awal ini. Kampanye pemilihan di negara ini berlangsung setidaknya selama 18 bulan sebelum pemilihan, memberikan penangguhan hukuman kecil kepada pemilih dari iklan dan tempat-tempat media. Berbicara dengan Mata Timur Tengah pada hari Senin, Ahmed Moor mengatakan dia sedang mengsentrasikan tiga prioritas kebijakan luar negeri. \"Akhiri perang di Iran. Mengakhiri perang di Ukraina. Mengakhiri perang terhadap Palestina\". Slogan menggema platform yang sukses dari mereka yang pasti membuka jalan baginya: Walikota Partai Demokratis New York Zohran Mamdani, dan Demokrat Michigan Senator - memilih Abdul El- Sayed. Meskipun dalam percakapan dengan MEE, ia tampaknya tidak ingin perbandingan harus dibuat. Moor juga seorang imigran, seorang Arab, seorang Muslim, satu milenial, progresif, pendukung penuh gairah hak-hak Palestina, dan seorang ayah dari tiga anak perempuan. Sayed punya dua anak, dan memainkan kepribadian \"ayah gadisnya\". Apakah Moor terinspirasi? \"Saya seorang pria dari kiri\", jawabnya, menempel ketat dengan pesan kampanyenya. \"Kita akan memiliki kontes kiri-kanan di Amerika sepanjang waktu. Apa kampanye ini adalah tentang adalah bentuk kotak pasir. Gagasan bahwa Konstitusi dan Undang-undang Hak-Hak berada di bawah serangan bukan masalah kiri-kanan. Itu masalah Amerika\". Moor dilahirkan di Gaza Selatan, berimigrasi ke AS sebagai anak, menyebut Phila",
+      "originalTitle": "‘We’re in the midst of a divorce with Israel’: Palestinian American zeroes in on Senator Fetterman",
+      "originalDescription": "‘We’re in the midst of a divorce with Israel’: Palestinian American zeroes in on Senator Fetterman Submitted by Yasmine El-Sabawi on Tue, 11/17/2026 - 17:21 The first challenger to Pennsylvania's pro-Israel Democratic senator spoke to Middle East Eye about why the time is right for him to run for office Pennsylvania candidate for US Senate in 2028, Ahmed Moor, speaks in a video posted on his X account, on 12 November 2026 (Screengrab/@AhmedMoor) Off A 42-year-old Palestinian -American writer has emerged as the first challenger to Pennsylvania Democratic Senator and staunch pro- Israel ally John Fetterman in his 2028 Senate race. It's not too uncommon for US candidates to declare their bid this early. Election campaigns in this country run for at least 18 months before every election, giving voters little reprieve from the ads and media placements. Speaking to Middle East Eye on Monday, Ahmed Moor said he is centring three foreign policy priorities. \"End the war in Iran. End the war in Ukraine. End the war on the Palestinians.\" The slogan echoes the successful platforms of those who undoubtedly paved the way for him: Democratic Socialist New York City Mayor Zohran Mamdani, and Democratic Michigan Senator-elect Abdul El-Sayed. Though in his conversation with MEE, he did not seem to want the comparison to be made. Moor is also an immigrant, an Arab, a Muslim, a millennial, a progressive, a passionate proponent of Palestinian rights, and a father of three girls. Sayed has two children, and played up his \"girl dad\" persona. Was Moor inspired? \"I'm a man of the left,\" he responded, sticking strictly to his campaign message. \"We're going to have the left-right contest in America all the time. What this campaign is about is the shape of the sandbox. The idea that the Constitution and Bill of Rights is under assault is not a left-right issue. That's an American issue.\" 'Overdue' Moor was born in southern Gaza, immigrated to the US as a child, calls Philadelphia home, and has",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Screenshot%202026-11-17%20at%201.04.42%E2%80%AFPM.jpg.jpg?itok=_zsMQzQ7",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Dunia Muslim",
+        "Islamofobia dan Diskriminasi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-17T22:45:00+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/were-midst-divorce-israel-palestinian-american-looks-unseat-fetterman"
+    },
+    {
+      "id": "b7502160a663992c",
+      "title": "Perumahan adalah bagian dari Arab Saudi, Tucker Carlson mengatakan",
+      "description": "Perumahan ini merupakan bagian dari Arab Saudi, Tucker Carlson bilang Dipersembahkan oleh staf MEE pada Tue, 11 / 17 / 2026 - 21: 44 Podcaster AS mengatakan dia berbicara dengan pemimpin Teluk baru-baru ini, dan mempertanyakan siapa yang bisa mendukung serangan Houthi Supporters dari kota suci Mekah, selama protes di Sanaa terhadap intervensi Saudi di Yaman dan terhadap tuduhan Arab Saudi yang dipecat di kota suci Mekah, pada 20 September Wasit (Wafire) \"Houthis secara sah mengancam kerajaan Saudi sekarang\", kata Carlson dalam podcast, dirilis pada hari Senin, di mana ia mewawancarai analis geopoli Amerika Brandon J Weichert. \"Mereka sedang menduduki bagian Saudi sekarang... Aku tidak tahu apakah ini bahkan tercakup dalam media Amerika, tapi itu fakta. Ini adalah hal yang benar-benar besar\", katanya. \"Apakah ada kekuatan Houthi di tanah Saudi sekarang? Ada,\" dia menambahkan. Carlson tidak mengatakan di mana ia memperoleh informasi tentang Houthi \"pendudukan\" wilayah Saudi, tetapi kepribadian media sering berbicara dengan pemimpin senior Arab Teluk. Financial Times melaporkan pada bulan Oktober bahwa Carlson mengunjungi \"beberapa bangsawan Teluk Arab di kapal pesiar Mediterania mereka\". Carlson mengaku dalam wawancaranya bahwa ia berbicara dengan pemimpin di Teluk \"minggu ini\". Carlson telah mengkritik pertahanan AS dan pendirian intelijen, tapi dia menghitung Wakil Presiden JD Vance sebagai teman. Meskipun ia telah mengecam Presiden Donald Trump selama perang di Iran dan Israel, ia mengatakan kepada Weichert bahwa ia baru-baru ini memiliki percakapan panjang dengan presiden AS. 'Penyerangan rumah' Carlson mengikuti laporan eksklusif dari Mata Timur Tengah pada 2 November, mengutip pejabat barat dan Arab, bahwa Houthis meluncurkan serangan ke Arab Saudi. Sumber mengatakan bahwa penggerebekan terjadi pada bulan Oktober, tetapi tidak mengkonfirmasi bahwa Houthis masih memegang wilayah Saudi. Perbatasan kasar Arab Saudi dengan Yaman secara efektif terlarang bagi wartawa",
+      "originalTitle": "Houthis are 'occupying' part of Saudi Arabia, Tucker Carlson says",
+      "originalDescription": "Houthis are 'occupying' part of Saudi Arabia, Tucker Carlson says Submitted by MEE staff on Tue, 11/17/2026 - 21:44 US podcaster says he spoke with Gulf leaders recently, and questioned who could be supporting Houthi attacks on the kingdom Supporters of the Houthis hold their weapons during a protest in Sanaa against the Saudi intervention in Yemen and against Saudi Arabia's accusation that the Houthis fired at the holy city of Mecca, on 18 September 2026 (Mohammed Huwais/AFP) Off Conservative US podcaster Tucker Carlson said that Yemen’s Houthis are “occupying” parts of Saudi Arabia , and that the American media is not covering the wartime development. “The Houthis are legitimately threatening the Saudi kingdom right now,” Carlson said in a podcast, released on Monday, where he interviewed American geopolitical analyst Brandon J Weichert. “They are occupying part of Saudi right now… I don’t know if this is even covered in the American media, but it’s a fact. It’s a really big thing,” he said. “Are there Houthi forces on Saudi soil right now? There are,” he added. Carlson did not say where he obtained the information about a Houthi “occupation” of Saudi territory, but the media personality often speaks with senior Arabian Gulf leaders. The Financial Times reported in October that Carlson visited “certain Arab Gulf royals on their Mediterranean yachts”. Carlson claimed in his interview that he spoke to leaders in the Gulf “this week”. Carlson has criticised the US defence and intelligence establishment, but he counts Vice President JD Vance as a friend. Although he has blasted President Donald Trump over the war on Iran and Israel, he told Weichert that he recently had a long conversation with the US president. 'Houthi incursion' Carlson’s claim follows an exclusive report from Middle East Eye on 2 November, citing western and Arab officials, that the Houthis were launching raids into Saudi Arabia. The sources said that the raids took place in October, but did not co",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Houthis-September-2026-AFP.jpg.jpg?itok=JKh7RgeV",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-17T22:14:23+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/houthis-are-occupying-part-saudi-arabia-tucker-carlson-says"
+    },
+    {
+      "id": "7d790e978d2d43e1",
+      "title": "Putra Mahkota Pimpin Sidang Kabinet, 12 Keputusan Ditetapkan Termasuk Revisi Aturan Advokat",
+      "description": "Putra Mahkota Pangeran Mohammed bin Salman memimpin sidang Kabinet di Riyadh dan menetapkan 12 keputusan, termasuk perubahan aturan advokat.",
+      "originalTitle": "Putra Mahkota Pimpin Sidang Kabinet, 12 Keputusan Ditetapkan Termasuk Revisi Aturan Advokat",
+      "originalDescription": "Putra Mahkota Pangeran Mohammed bin Salman memimpin sidang Kabinet di Riyadh dan menetapkan 12 keputusan, termasuk perubahan aturan advokat.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-09/سمو-ولي-العهد-HEY3xxpV.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-17T21:59:18+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/c6lmywzq6"
+    },
+    {
+      "id": "c27d34d1a4c213af",
+      "title": "Perusahaan pemukiman Israel sanksi Inggris untuk melindungi dua negara bagian",
+      "description": "Inggris telah memberlakukan sanksi baru terhadap delapan perusahaan Israel yang mendukung pemukiman ilegal di West Bank.",
+      "originalTitle": "UK sanctions Israeli settlement firms to protect two-state solution",
+      "originalDescription": "The UK has imposed new sanctions on eight Israeli companies supporting illegal settlements in the occupied West Bank.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794950905.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-17T21:28:31+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/17/aje-onl-nf_uk-sanctions-eight-israeli-settlement-firms-171126"
+    },
+    {
+      "id": "f18e1c38830aaf74",
+      "title": "Irak melanjutkan pengiriman minyak untuk ekspor ke Turki melalui pipa",
+      "description": "Irak melanjutkan pengiriman minyak untuk ekspor ke Turki melalui jalur pipa yang diberikan oleh staf MEE pada Tue, 11 / 17 / 2026 - 20: 00 menteri minyak Irak mengatakan Kirkuk- Ceyhan pipa dapat mencapai kapasitas 500.000 bpd dengan perbaikan dan upgrades anggota pemerintahan Irak berjalan ke sebelah pipa di Lapangan Minyak Bai Hassan Oil, barat dari kota Irak Utara Kirkuk, pada 19 Oktober 2017 (Ahmad alk-Ruye / AFAFP) telah memompa minyak ke barat untuk ekspor minyak ke Kirkran. Irak berencana untuk memompa sampai 120.000 barel per hari (bpd) minyak melalui pipa sepanjang 960km- yang berjalan dari kota Irak ke pelabuhan Mediterania Turki, Menteri Minyak Irak Bassem Khudair mengatakan dalam sebuah pernyataan yang dilaporkan oleh Badan Berita Irak milik negara pada hari Selasa. Dia mengatakan aliran bisa mencapai 500.000 bpd setelah \"keberhasilan penyelesaian pemeliharaan, rehabilitasi, teknis dan tes operasional\" pada pipa, yang telah ditutup selama lebih dari satu dekade. Irak adalah salah satu negara yang paling terpukul oleh AS dan Iran yang bersaing memblokade di Selat Hormuz. Hampir semua ekspor minyak Irak keluar dari jalur air sebelum perang Amerika-Israel di Iran, dan pendapatan dari penjualan berkontribusi hingga 90 persen dari anggaran Irak. Memulai kembali minyak mengalir dari Kirkuk ke Ceyhan adalah langkah pertama dalam upaya Irak untuk mengurangi ketergantungan pada Hormuz. Baghdad ingin menghubungkan Basra, pusat energi di Irak selatan, ke Mediterania melalui pelabuhan Suriah Baniyas dan Turki pelabuhan Ceyhan. Mata Timur Tengah adalah yang pertama untuk melaporkan upaya AS untuk menghidupkan kembali koneksi pipa antara Kirkuk dan Baniyas. Duta besar AS ke Irak Tom Barrack dipuji pembukaan kembali dari Kirkuk- Ceyhan baris pada hari Selasa di posting di media sosial. \"Go Irak, Go\", barak menulis. Komandan US Centcom diharapkan di Arab Saudi dengan puluhan ahli pertahanan udara, sumber mengatakan Baca Lebih \"Irak mulai mengekspor minyak ke Turki pada ",
+      "originalTitle": "Iraq resumes shipping oil for export to Turkey via pipeline",
+      "originalDescription": "Iraq resumes shipping oil for export to Turkey via pipeline Submitted by MEE staff on Tue, 11/17/2026 - 20:00 Iraqi oil minister says Kirkuk-Ceyhan pipeline could reach capacity of 500,000 bpd with repairs and upgrades An Iraqi government forces member walks next to a pipeline at the Bai Hassan Oil Field, west of the northern Iraqi city of Kirkuk, on 19 October 2017 (Ahmad al-Rubaye/AFP) Off Iraq has resumed the pumping of crude oil for export through the Kirkuk-Ceyhan Pipeline to Turkey , as it looks to bypass the Strait of Hormuz. Iraq plans to pump up to 120,000 barrels per day (bpd) of oil through the 960km-long pipeline that runs from the Iraqi city to Turkey’s Mediterranean port, Iraqi Oil Minister Bassem Khudair said in a statement reported by the state-owned Iraqi News Agency on Tuesday. He said the flow could reach 500,000 bpd after “successful completion of maintenance, rehabilitation, technical and operational tests” on the pipeline, which has been shuttered for more than a decade. Iraq is one of the countries hardest hit by the US and Iran’s competing blockades in the Strait of Hormuz. Nearly all of Iraq’s oil exports exited the waterway before the US-Israeli war on Iran, and revenue from sales contributed to 90 percent of Iraq’s budget. Restarting oil flows from Kirkuk to Ceyhan is the first step in Iraq’s efforts to reduce its dependence on Hormuz. Baghdad wants to connect Basra, its energy hub in southern Iraq, to the Mediterranean via the Syrian port of Baniyas and Turkey’s port of Ceyhan. Middle East Eye was the first to report US efforts to revive a pipeline connection between Kirkuk and Baniyas. US ambassador to Iraq Tom Barrack hailed the reopening of the Kirkuk-Ceyhan line on Tuesday in a post on social media. “Go Iraq, Go,” Barrack wrote . US Centcom commander expected in Saudi Arabia with dozens of air defence experts, sources say Read More » Iraq began reexporting oil to Turkey in September 2025 from the semiautonomous Kurdistan region after ",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Iraq-pipeline-kirkuk-AFP.jpg.jpg?itok=Hup9M9Cs",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-17T20:58:46+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/iraq-resumes-shipping-oil-export-turkey-pipeline"
+    },
     {
       "id": "f00afb6c6986fab7",
       "title": "Wanita Palestina, 72, ditembak mati oleh pemukim Israel di West Bank, departemen kesehatan mengatakan",
@@ -266,6 +696,31 @@
       "region": "",
       "publishedAt": "2026-11-17T20:07:19+00:00",
       "originalUrl": "https://www.middleeasteye.net/trending/mamdanis-moustache-sparks-meltdown-critics-see-saddam-hussein-terrorism-and-end-nyc"
+    },
+    {
+      "id": "f0bef46466dc93ca",
+      "title": "Dewan Penuntut Publik menyetujui Proses Investigasi Kode",
+      "description": "RIYADH - Dewan Penuntut Umum menyetujui \"Kode Investigasi dan Penuntut Umum\", panduan untuk anggota Penuntut Umum dalam melaksanakan mereka investigasi dan tuntutan tugas. Sesi ketujuh Dewan dipimpin oleh Jaksa Agung dan Ketua Dewan Dr Khalid Al- Yousef di Riyadh pada hari Selasa. Dewan membahas beberapa hal agenda dan mengeluarkan keputusan yang ditujukan untuk mengembangkan operasi tuntutan dan meningkatkan kinerja profesional dan institusional. Kode bertujuan untuk memastikan integritas dan legalitas prosedur, menjaga hak-hak hukum dan jaminan, dan meningkatkan kualitas investigasi dan tuntutan kerja. Dewan juga menyetujui 2027 rencana pelatihan untuk anggota Jaksa Umum, menegaskan kembali komitmennya untuk pengembangan profesional terus menerus dan memperkuat kemampuan hukum dan keterampilan khusus. Pada masalah personil, dewan menyetujui promosi anggota Penuntut Umum 179 dan mengadopsi beberapa keputusan administratif lainnya sesuai dengan hukum dan peraturan yang berlaku. Keputusan membentuk bagian dari upaya dewan yang sedang berlangsung untuk mengembangkan sistem penuntut, memperkuat kualifikasi profesional, dan berinvestasi di modal manusia untuk meningkatkan kinerja institusi dan memastikan standar tinggi dalam praktek kejaksaan.",
+      "originalTitle": "Public Prosecution Council approves Code of Investigation Procedures",
+      "originalDescription": "RIYADH — The Public Prosecution Council approved the “Code of Investigation and Public Prosecution Procedures,” a guide for Public Prosecution members in carrying out their investigative and prosecutorial duties. The seventh session of the Council was chaired by Attorney General and Council Chairman Dr. Khalid Al-Yousef in Riyadh on Tuesday. The council discussed several agenda items and issued decisions aimed at developing prosecutorial operations and enhancing professional and institutional performance.The code aims to ensure the integrity and legality of procedures, safeguard legal rights and guarantees, and improve the quality of investigative and prosecutorial work. The council also approved the 2027 training plan for Public Prosecution members, reaffirming its commitment to continuous professional development and strengthening legal capabilities and specialized skills.On personnel matters, the council approved the promotion of 179 Public Prosecution members and adopted several other administrative decisions in accordance with applicable laws and regulations. The decisions form part of the council’s ongoing efforts to develop the prosecutorial system, strengthen professional qualifications, and invest in human capital to improve institutional performance and ensure high standards in prosecutorial practice.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/17/2795987.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-17T19:58:23+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666325/saudi-arabia/public-prosecution-council-approves-code-of-investigation-procedures"
     },
     {
       "id": "ade92d5624f6a558",
@@ -12292,419 +12747,6 @@
       "region": "",
       "publishedAt": "2026-11-12T05:32:05+00:00",
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-drone-intercepted-over-riyadh"
-    },
-    {
-      "id": "ebcaa36fca4e82c7",
-      "title": "9 Tim Tiba di Doha untuk Piala Dunia U-17 2026, Arab Saudi di Grup D",
-      "description": "Sembilan tim nasional telah tiba di Doha untuk persiapan Piala Dunia U-17 FIFA 2026, yang akan diikuti 48 tim termasuk Arab Saudi di Grup D.",
-      "originalTitle": "9 Tim Tiba di Doha untuk Piala Dunia U-17 2026, Arab Saudi di Grup D",
-      "originalDescription": "Sembilan tim nasional telah tiba di Doha untuk persiapan Piala Dunia U-17 FIFA 2026, yang akan diikuti 48 tim termasuk Arab Saudi di Grup D.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-EaD35wiq.png",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-12T04:47:22+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/olahraga/w5fqr853o"
-    },
-    {
-      "id": "e92fcbc33097a4be",
-      "title": "Otoritas Urusan Dua Masjid Suci Buka Peluang Relawan di Masjid Nabawi",
-      "description": "Otoritas Urusan Dua Masjid Suci membuka peluang relawan bagi masyarakat yang ingin melayani jamaah dan pengunjung Masjid Nabawi.",
-      "originalTitle": "Otoritas Urusan Dua Masjid Suci Buka Peluang Relawan di Masjid Nabawi",
-      "originalDescription": "Otoritas Urusan Dua Masjid Suci membuka peluang relawan bagi masyarakat yang ingin melayani jamaah dan pengunjung Masjid Nabawi.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-09/المسجد-النبوي-AX1CsXUU.jpg",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah",
-        "Masjid dan Peradaban"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-12T04:04:18+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/yr1b0zyza"
-    },
-    {
-      "id": "59310ef9a89466f7",
-      "title": "Pemprov Akan Dampingi 7 Santri Diduga Dilecehkan Kiai Ponpes di Jaksel",
-      "description": "Gubernur Pramono Anung mengatakan Pemprov DKI akan mendampingi santri korban kekerasan seksual oleh kiai di Ponpes Darul Hasbi di Jakarta Selatan.",
-      "originalTitle": "Pemprov Akan Dampingi 7 Santri Diduga Dilecehkan Kiai Ponpes di Jaksel",
-      "originalDescription": "Gubernur Pramono Anung mengatakan Pemprov DKI akan mendampingi santri korban kekerasan seksual oleh kiai di Ponpes Darul Hasbi di Jakarta Selatan.",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/12/gubernur-pramono-anung-mengatakan-pemprov-dki-akan-mendampingi-santri-korban-kekerasan-seksual-oleh-kiai-di-ponpes-darul-hasbi-1794455035763_169.jpeg?w=360&q=90",
-      "category": "Dakwah dan Ulama",
-      "tags": [
-        "Dakwah dan Ulama",
-        "Pesantren dan Madrasah"
-      ],
-      "source": "Detik",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-12T03:44:06+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8749429/pemprov-akan-dampingi-7-santri-diduga-dilecehkan-kiai-ponpes-di-jaksel",
-      "sources": [
-        "Detik"
-      ]
-    },
-    {
-      "id": "7ab8dfbf5eb33a7a",
-      "title": "Watch: Setidaknya enam Palestina tewas dalam serangan Israel di rumah sakit Nasser",
-      "description": "Watch: Setidaknya enam orang Palestina tewas dalam serangan Israel di Nasser Hospital Fotage menunjukkan akibat serangan udara Israel di Rumah Sakit Nasser di selatan Gaza Khan Younis dini hari pada hari Kamis. Menurut pertahanan sipil Gaza, setidaknya enam Palestina tewas dalam serangan itu, menyebabkan lebih dari 20 orang terluka. Sebuah serangan udara Israel pada sebuah bangunan di Nasser Hospital di Gaza Khan Younis dini pada hari Kamis menewaskan setidaknya lima warga Palestina, termasuk seorang dokter, dan terluka 20 lainnya, menurut pertahanan sipil Gaza. https: / / t.co / 0Ab4RFODW - Middle East Eye (@ MiddleEastEye) November 12, 2026",
-      "originalTitle": "Watch: At least six Palestinians killed in Israeli attack on Nasser hospital",
-      "originalDescription": "Watch: At least six Palestinians killed in Israeli attack on Nasser hospital Footage shows the aftermath of Israeli air strike on the Nasser Hospital in southern Gaza’s Khan Younis early on Thursday. According to Gaza’s civil defence, at least six Palestinians were killed in the attack, leaving more than 20 others wounded. An Israeli air strike on a building at Nasser Hospital in Gaza’s Khan Younis early on Thursday killed at least five Palestinians, including a doctor, and wounded 20 others, according to Gaza’s civil defence. https://t.co/0Ab44RFOdW — Middle East Eye (@MiddleEastEye) November 12, 2026",
-      "translated": true,
-      "originalLanguage": "en",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Cop31%20Erdogan.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "language": "id",
-      "country": "International",
-      "publishedAt": "2026-11-12T03:38:54+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-least-six-palestinians-killed-israeli-attack-nasser-hospital",
-      "translationStatus": "success",
-      "sources": [
-        "Middle East Eye",
-        "Al Jazeera"
-      ]
-    },
-    {
-      "id": "61e73a7731bd6464",
-      "title": "Menko Polkam Apresiasi Peran Muhammadiyah dalam Dakwah dan Persatuan Bangsa",
-      "description": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Milad ke-114 Muhammadiyah merupakan momentum nyata dalam rangka memperkuat komitmen menegakkan, serta menjunjung tinggi ajaran keislaman murni yang berlandaskan Al Quran dan As Sunnah untuk terwujudnya masyarakat Islam yang berkemajuan. Hal itu diungkapkan Dudung Abdurrahman, Menteri Koordinator Bidang Politik dan Keamanan Republik Indonesia (Menkopolkam RI) dalam ucapan Selamat Milad ke-114 Muhammadiyah yang […] The post Menko Polkam Apresiasi Peran Muhammadiyah dalam Dakwah dan Persatuan Bangsa appeared first on Muhammadiyah .",
-      "originalTitle": "Menko Polkam Apresiasi Peran Muhammadiyah dalam Dakwah dan Persatuan Bangsa",
-      "originalDescription": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Milad ke-114 Muhammadiyah merupakan momentum nyata dalam rangka memperkuat komitmen menegakkan, serta menjunjung tinggi ajaran keislaman murni yang berlandaskan Al Quran dan As Sunnah untuk terwujudnya masyarakat Islam yang berkemajuan. Hal itu diungkapkan Dudung Abdurrahman, Menteri Koordinator Bidang Politik dan Keamanan Republik Indonesia (Menkopolkam RI) dalam ucapan Selamat Milad ke-114 Muhammadiyah yang […] The post Menko Polkam Apresiasi Peran Muhammadiyah dalam Dakwah dan Persatuan Bangsa appeared first on Muhammadiyah .",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://muhammadiyah.or.id/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-22-at-20.54.07.jpeg",
-      "category": "Al-Qur'an dan Hadis",
-      "tags": [
-        "Al-Qur'an dan Hadis",
-        "Dakwah dan Ulama"
-      ],
-      "source": "Muhammadiyah",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-12T03:37:03+00:00",
-      "originalUrl": "https://muhammadiyah.or.id/2026/11/menko-polkam-apresiasi-peran-muhammadiyah-dalam-dakwah-dan-persatuan-bangsa",
-      "sources": [
-        "Muhammadiyah"
-      ]
-    },
-    {
-      "id": "c001676a1ed31cbf",
-      "title": "Israel menyerang Nasser Hospital membunuh setidaknya enam, badan pertahanan sipil Gaza mengatakan",
-      "description": "Pemogokan memukul departemen operasi rumah sakit di Khan Younis, melukai setidaknya 20 orang dan menyebabkan kerusakan yang luas, juru bicara mengatakan.",
-      "originalTitle": "Israeli strike on Nasser Hospital kills at least six, Gaza civil defence agency says",
-      "originalDescription": "The strike hit the surgery department of the hospital in Khan Younis, wounding at least 20 people and causing extensive damage, a spokesperson says.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61be/live/ca670730-de47-11f1-9cac-a1aa02a901fa.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "BBC World",
-      "sources": [
-        "BBC World"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-12T03:32:54+00:00",
-      "originalUrl": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_campaign=rss&at_medium=RSS"
-    },
-    {
-      "id": "8e65c566ebd9558c",
-      "title": "SUMU Padukan Ekspansi Bisnis dan Kepedulian Sosial",
-      "description": "MUHAMMADIYAH.OR.ID, JAKARTA — Serikat Usaha Muhammadiyah (SUMU) menunjukkan komitmennya dalam mengembangkan kepedulian sosial melalui penyaluran dana wakaf dan donasi yang dihimpun dari kegiatan Business Trip China. Dari kegiatan tersebut, para peserta berhasil mengumpulkan dana sebesar 23.000 yuan atau setara Rp62 juta. Dana tersebut disalurkan kepada tiga penerima manfaat, yakni Lembaga Amil Zakat, Infak, dan Sedekah […] The post SUMU Padukan Ekspansi Bisnis dan Kepedulian Sosial appeared first on Muhammadiyah .",
-      "originalTitle": "SUMU Padukan Ekspansi Bisnis dan Kepedulian Sosial",
-      "originalDescription": "MUHAMMADIYAH.OR.ID, JAKARTA — Serikat Usaha Muhammadiyah (SUMU) menunjukkan komitmennya dalam mengembangkan kepedulian sosial melalui penyaluran dana wakaf dan donasi yang dihimpun dari kegiatan Business Trip China. Dari kegiatan tersebut, para peserta berhasil mengumpulkan dana sebesar 23.000 yuan atau setara Rp62 juta. Dana tersebut disalurkan kepada tiga penerima manfaat, yakni Lembaga Amil Zakat, Infak, dan Sedekah […] The post SUMU Padukan Ekspansi Bisnis dan Kepedulian Sosial appeared first on Muhammadiyah .",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/11/sumu-padukan-ekspansi-bisnis-dan-kepedulian-sosial.jpeg",
-      "category": "Ekonomi Syariah",
-      "tags": [
-        "Ekonomi Syariah"
-      ],
-      "source": "Muhammadiyah",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-12T03:28:27+00:00",
-      "originalUrl": "https://muhammadiyah.or.id/2026/11/sumu-padukan-ekspansi-bisnis-dan-kepedulian-sosial",
-      "sources": [
-        "Muhammadiyah"
-      ]
-    },
-    {
-      "id": "41676748d694eebf",
-      "title": "Timnas Arab Saudi lanjutkan persiapan hadapi Korea Selatan di Qatar",
-      "description": "Tim nasional Arab Saudi melanjutkan latihan di Doha untuk persiapan laga persahabatan melawan Korea Selatan dalam rangkaian pemusatan latihan FIFA November.",
-      "originalTitle": "Timnas Arab Saudi lanjutkan persiapan hadapi Korea Selatan di Qatar",
-      "originalDescription": "Tim nasional Arab Saudi melanjutkan latihan di Doha untuk persiapan laga persahabatan melawan Korea Selatan dalam rangkaian pemusatan latihan FIFA November.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/تدريبات-الأخضر-0J5hSlDI.png",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-12T03:16:49+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/olahraga/um5qkkpti"
-    },
-    {
-      "id": "a992e00d892707cf",
-      "title": "Prabowo Ungkap Shirathal Mustaqim dalam HUT Nasdem, Apa Sebenarnya Tafsir dan Maknanya?",
-      "description": "JAKARTA — Presiden Prabowo Subianto menyinggung soal frasa Alquran yakni Shirathal Mustaqim dalam pidatonya di Hari Ulang Tahun ke-15 Partai Nasdem di Jakarta, Rabu(11/11/2026). Presiden mengungkapkan, Shirathal Mustaqim merupakan bagian dari doa...",
-      "originalTitle": "Prabowo Ungkap Shirathal Mustaqim dalam HUT Nasdem, Apa Sebenarnya Tafsir dan Maknanya?",
-      "originalDescription": "JAKARTA — Presiden Prabowo Subianto menyinggung soal frasa Alquran yakni Shirathal Mustaqim dalam pidatonya di Hari Ulang Tahun ke-15 Partai Nasdem di Jakarta, Rabu(11/11/2026). Presiden mengungkapkan, Shirathal Mustaqim merupakan bagian dari doa...",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/024147800-1792579348-830-556.jpg",
-      "category": "Al-Qur'an dan Hadis",
-      "tags": [
-        "Al-Qur'an dan Hadis"
-      ],
-      "source": "Republika",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-12T03:08:55+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/todcqv483/prabowo-ungkap-shirathal-mustaqim-dalam-hut-nasdem-apa-sebenarnya-tafsir-dan-maknanya",
-      "sources": [
-        "Republika"
-      ]
-    },
-    {
-      "id": "2d0befe1724d78d3",
-      "title": "Baznas RI dorong zakat jadi penggerak kesejahteraan mustahik",
-      "description": "Badan Amil Zakat Nasional (Baznas) RI mendorong pengelola zakat untuk berperan sebagai penggerak peningkatan ...",
-      "originalTitle": "Baznas RI dorong zakat jadi penggerak kesejahteraan mustahik",
-      "originalDescription": "Badan Amil Zakat Nasional (Baznas) RI mendorong pengelola zakat untuk berperan sebagai penggerak peningkatan ...",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/12/IMG_20261112_094538.jpg.jpeg",
-      "category": "Ekonomi Syariah",
-      "tags": [
-        "Ekonomi Syariah"
-      ],
-      "source": "ANTARA Terkini",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-12T03:08:08+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5848419/baznas-ri-dorong-zakat-jadi-penggerak-kesejahteraan-mustahik"
-    },
-    {
-      "id": "2863b45807200ef5",
-      "title": "Baznas RI perkuat keterbukaan informasi publik dalam tata kelola zakat",
-      "description": "Badan Amil Zakat Nasional (Baznas) RI memperkuat transparansi dan keterbukaan informasi publik dalam pengelolaan zakat, ...",
-      "originalTitle": "Baznas RI perkuat keterbukaan informasi publik dalam tata kelola zakat",
-      "originalDescription": "Badan Amil Zakat Nasional (Baznas) RI memperkuat transparansi dan keterbukaan informasi publik dalam pengelolaan zakat, ...",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/12/IMG_20261112_094555.jpg.jpeg",
-      "category": "Ekonomi Syariah",
-      "tags": [
-        "Ekonomi Syariah"
-      ],
-      "source": "ANTARA Terkini",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-12T02:58:43+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5848379/baznas-ri-perkuat-keterbukaan-informasi-publik-dalam-tata-kelola-zakat"
-    },
-    {
-      "id": "7ee05c30b223304c",
-      "title": "Saudi Bahas Persiapan Haji 2027 dengan 76 Negara, Ini Lima Prioritasnya",
-      "description": "JEDDAH -- Menteri Haji dan Umrah Arab Saudi, Tawfig Al-Rabiah, menggelar pertemuan berkala terkait persiapan penyelenggaraan ibadah haji 1448 Hijriyah atau 2027 Masehi dengan para kepala Kantor Urusan Haji...",
-      "originalTitle": "Saudi Bahas Persiapan Haji 2027 dengan 76 Negara, Ini Lima Prioritasnya",
-      "originalDescription": "JEDDAH -- Menteri Haji dan Umrah Arab Saudi, Tawfig Al-Rabiah, menggelar pertemuan berkala terkait persiapan penyelenggaraan ibadah haji 1448 Hijriyah atau 2027 Masehi dengan para kepala Kantor Urusan Haji...",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/015488300-1781062292-830-556.jpg",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah",
-        "Arab Saudi"
-      ],
-      "source": "Republika",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-12T02:58:28+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/todc9g366/saudi-bahas-persiapan-haji-2027-dengan-76-negara-ini-lima-prioritasnya",
-      "sources": [
-        "Republika"
-      ]
-    },
-    {
-      "id": "a8a116d03b8ae4c6",
-      "title": "Abbas sebut rakyat Palestina hadapi perang, kehancuran, dan pengusiran",
-      "description": "Presiden Palestina Mahmoud Abbas menyebutkan rakyat Palestina menghadapi perang, kehancuran, dan upaya ...",
-      "originalTitle": "Abbas sebut rakyat Palestina hadapi perang, kehancuran, dan pengusiran",
-      "originalDescription": "Presiden Palestina Mahmoud Abbas menyebutkan rakyat Palestina menghadapi perang, kehancuran, dan upaya ...",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/12/CjkinzN000024_20261111_CBMFN0A001.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "ANTARA Terkini",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-12T02:47:29+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5848355/abbas-sebut-rakyat-palestina-hadapi-perang-kehancuran-dan-pengusiran"
-    },
-    {
-      "id": "fc2f6a28689a3afa",
-      "title": "Mengapa Fatwa Rokok Konvensional tak 'Seharam' Vape? Ini Penjelasan MUI",
-      "description": "JAKARTA — Majelis Ulama Indonesia (MUI) memiliki pertimbangan berbeda dalam menetapkan hukum rokok konvensional dan rokok elektrik atau vape. Jika hukum merokok dalam fatwa MUI pada 2009 bersifat kondisional,...",
-      "originalTitle": "Mengapa Fatwa Rokok Konvensional tak 'Seharam' Vape? Ini Penjelasan MUI",
-      "originalDescription": "JAKARTA — Majelis Ulama Indonesia (MUI) memiliki pertimbangan berbeda dalam menetapkan hukum rokok konvensional dan rokok elektrik atau vape. Jika hukum merokok dalam fatwa MUI pada 2009 bersifat kondisional,...",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/ilustrasi-vape-atau-rokok_260508092557-318.jpg",
-      "category": "Nasional Islam",
-      "tags": [
-        "Nasional Islam",
-        "Dakwah dan Ulama"
-      ],
-      "source": "Republika",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-12T01:44:24+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/tod8u0483/mengapa-fatwa-rokok-konvensional-tak-seharam-vape-ini-penjelasan-mui",
-      "sources": [
-        "Republika"
-      ]
-    },
-    {
-      "id": "fdf80fc2aec6c9aa",
-      "title": "Serangan Israel di Selatan Rumah Sakit Nasser Gaza membunuh setidaknya enam orang Palestina",
-      "description": "Serangan Israel di Selatan Rumah Sakit Nasser Gaza membunuh setidaknya enam orang Palestina dan serangan udara Israel menargetkan kompleks Nasser Medical di Gaza awal hari Kamis telah membunuh setidaknya enam orang Palestina dan melukai lebih dari 20 lainnya. Pemogokan menghantam lantai dua gedung al- Yasin dalam kompleks medis, dengan direktur rumah sakit menunjukkan bahwa hal itu menyebabkan kerusakan yang luas ke perawatan intensif dan bangsal bedah. Sementara Radio Angkatan Darat Israel mengklaim bahwa pemogokan adalah \"operasi pembunuhan\", korban adalah staf dan pasien, termasuk beberapa orang yang dijadwalkan menjalani operasi hari berikutnya.",
-      "originalTitle": "Israeli strike on south Gaza's Nasser Hospital kills at least six Palestinians",
-      "originalDescription": "Israeli strike on south Gaza's Nasser Hospital kills at least six Palestinians An Israeli air strike targeting the Nasser Medical Complex in southern Gaza early on Thursday has killed at least six Palestinians and injured more than 20 others. The strike hit the second floor of al-Yasin building within the medical complex, with the hospital’s director indicating that it caused extensive damage to the intensive care and surgical wards. While Israeli Army Radio claimed that the strike was an \"assassination operation\", the casualties were staff and patients, including some people who were scheduled to undergo surgery the following day.",
-      "translated": true,
-      "originalLanguage": "en",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Cop31%20Erdogan.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "language": "id",
-      "country": "International",
-      "publishedAt": "2026-11-12T01:26:10+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-south-gazas-nasser-hospital-kills-least-six-palestinians",
-      "translationStatus": "success",
-      "sources": [
-        "Middle East Eye"
-      ]
-    },
-    {
-      "id": "92b6cedb87655936",
-      "title": "Israel menyerang perawatan intensif di Rumah Sakit Nasser Gaza",
-      "description": "Pertahanan Sipil Gaza mengatakan serangan Israel terhadap Nasser Hospital telah membunuh setidaknya enam orang.",
-      "originalTitle": "Israel strikes intensive care at Gaza’s Nasser Hospital",
-      "originalDescription": "Gaza's Civil Defence says an Israeli strike on Nasser Hospital has killed at least six people.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794446435.jpg?resize=1920%2C1080&quality=80",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Al Jazeera",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-12T01:20:55+00:00",
-      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/12/israel-strikes-intensive-care-at-gazas-nasser-hospital"
-    },
-    {
-      "id": "d462de619a315abb",
-      "title": "Otoritas Wilayah Timur Jalankan Sejumlah Proyek Pengembangan untuk Tingkatkan Tata Kota",
-      "description": "Otoritas Wilayah Timur melaksanakan berbagai proyek pengembangan dan perbaikan tata kota selama Oktober 2026 demi mendukung target Visi Saudi 2030.",
-      "originalTitle": "Otoritas Wilayah Timur Jalankan Sejumlah Proyek Pengembangan untuk Tingkatkan Tata Kota",
-      "originalDescription": "Otoritas Wilayah Timur melaksanakan berbagai proyek pengembangan dan perbaikan tata kota selama Oktober 2026 demi mendukung target Visi Saudi 2030.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/أعمال-النظافة-RMAkmLob.png",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-12T01:11:59+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/589um84ni"
-    },
-    {
-      "id": "aa21f1e3c3a924cb",
-      "title": "Teka-teki Jubah Biksu yang Dipakai Peneror Masjid di Jaktim",
-      "description": "Aksi teror di Masjid Darul Ma'arif, Jakarta Timur, melibatkan penusukan jemaah oleh pelaku berpakaian jubah biksu. Polisi selidiki motif dan status pelaku.",
-      "originalTitle": "Teka-teki Jubah Biksu yang Dipakai Peneror Masjid di Jaktim",
-      "originalDescription": "Aksi teror di Masjid Darul Ma'arif, Jakarta Timur, melibatkan penusukan jemaah oleh pelaku berpakaian jubah biksu. Polisi selidiki motif dan status pelaku.",
-      "translated": false,
-      "originalLanguage": "id",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/09/tangkapan-layar-rekaman-cctv-pelaku-penyerangan-jemaah-di-masjid-darul-maarif-jakarta-timur-1794196012838_169.jpeg?w=360&q=90",
-      "category": "Masjid dan Peradaban",
-      "tags": [
-        "Masjid dan Peradaban"
-      ],
-      "source": "Detik",
-      "language": "id",
-      "country": "Indonesia",
-      "publishedAt": "2026-11-12T01:01:40+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8749190/teka-teki-jubah-biksu-yang-dipakai-peneror-masjid-di-jaktim",
-      "sources": [
-        "Detik"
-      ]
     }
   ]
 }
