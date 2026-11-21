@@ -1,19 +1,19 @@
 {
-  "status": "success",
-  "lastUpdated": "2026-11-20T20:17:47.209660+00:00",
+  "status": "partial",
+  "lastUpdated": "2026-11-21T01:33:24.996603+00:00",
   "total": 500,
-  "newArticles": 126,
+  "newArticles": 123,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 12,
-  "sourcesFailed": 0,
+  "sourcesSucceeded": 11,
+  "sourcesFailed": 1,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 7,
-      "filtered": 18,
-      "filteredFootball": 0,
+      "accepted": 8,
+      "filtered": 17,
+      "filteredFootball": 1,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -35,8 +35,8 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 7,
-      "filtered": 8,
+      "accepted": 8,
+      "filtered": 7,
       "filteredFootball": 1,
       "translated": 0,
       "translationPartial": 0,
@@ -49,7 +49,7 @@
       "raw": 50,
       "accepted": 0,
       "filtered": 50,
-      "filteredFootball": 5,
+      "filteredFootball": 4,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 11,
-      "filtered": 9,
-      "filteredFootball": 3,
+      "accepted": 9,
+      "filtered": 11,
+      "filteredFootball": 4,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -93,15 +93,15 @@
     },
     {
       "name": "Detik",
-      "status": "success",
-      "raw": 100,
-      "accepted": 2,
-      "filtered": 98,
+      "status": "error",
+      "raw": 0,
+      "accepted": 0,
+      "filtered": 0,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
     },
     {
       "name": "Muhammadiyah",
@@ -131,9 +131,9 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 37,
-      "filtered": 13,
-      "filteredFootball": 3,
+      "accepted": 36,
+      "filtered": 14,
+      "filteredFootball": 4,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -156,16 +156,342 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 228,
+    "translatedArticles": 230,
     "partialArticles": 0,
     "failedArticles": 0,
-    "cacheEntries": 3452
+    "cacheEntries": 3525
   },
   "images": {
     "found": 500,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "1e1b30676465e225",
+      "title": "Trump: 'ICC di luar kendali, tidak bisa masuk dan menangkap kepala dewan'",
+      "description": "Trump: 'ICC di luar kendali, tidak bisa masuk dan menangkap kepala negara' Presiden AS Donald Trump mengatakan Pengadilan Pidana Internasional adalah \"di luar kendali\", sambil mengklaim Cina \"setuju untuk pertama kalinya untuk mengutuk pelanggaran dan melampaui\" pengadilan, laporan AFP. Trump, saat kembali dari pertemuan dengan Xi Jinping dan Vladimir Putin dari Rusia, mengeluh bahwa ICC percaya \"mereka bisa masuk dan menangkap para kepala negara, dan mereka tidak bisa melakukan itu. Mereka bisa melakukannya tanpa alasan -- jadi kita mengutuk itu sebagai kelompok\". Washington telah bersumpah untuk membongkar pengadilan, yang ditargetkan dengan sanksi baru bulan lalu. Trump telah marah dengan pergerakan pengadilan untuk mengeluarkan surat penangkapan untuk Perdana Menteri Israel Benjamin Netanyahu atas pembantaian Gaza. Washington telah bersumpah untuk membongkar pengadilan, yang ditargetkan dengan sanksi baru bulan lalu. (AFP)",
+      "originalTitle": "Trump: 'ICC out of control, can't go in and arrest heads of countries'",
+      "originalDescription": "Trump: 'ICC out of control, can't go in and arrest heads of countries' US President Donald Trump has said the International Criminal Court was \"out of control\", while claiming China \"agreed for the first time to condemn the abuses and overreach\" of the court, AFP reported. Trump, on his return from a summit with China's Xi Jinping and Russia's Vladimir Putin, complained that the ICC believes \"they can go in and arrest the heads of countries, and they can't do that. They can do it for no reason -- so we condemned that as a group.\" Washington has vowed to dismantle the court, which it targeted with new sanctions last month. Trump has been angered by the tribunal's move to issue an arrest warrant for Israel's Prime Minister Benjamin Netanyahu over Gaza genocide. Washington has vowed to dismantle the court, which it targeted with new sanctions last month. (AFP)",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/images-story/icc%20the%20hague%20building%20reuters.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-21T00:56:24+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-icc-out-control-cant-go-and-arrest-heads-countries"
+    },
+    {
+      "id": "ad37c03e41a7a8e2",
+      "title": "Enam orang Palestina tewas dalam serangan Israel di Gaza, pertahanan sipil mengatakan",
+      "description": "Enam orang Palestina tewas dalam serangan Israel di Gaza, pertahanan sipil mengatakan Israel menyerang enam orang di Jalur Gaza pada hari Jumat, lembaga pertahanan sipil di medan perang hancur wilayah mengatakan AFP, meskipun gencatan senjata. Mahmoud Bassal, juru bicara lembaga pertahanan sipil Gaza, mengatakan bahwa empat orang Palestina tewas dan beberapa lainnya terluka dalam serangan udara Israel barat daya kamp pengungsi Bureij di pusat Jalur Gaza pada hari Jumat. Pertahanan sipil juga mengatakan satu Palestina tewas dalam serangan pesawat tak berawak Israel menargetkan sebuah tenda di kamp Al- Munasara untuk pengungsi orang di Deir Al- Balah. Orang lain tewas dalam serangan pesawat tak berawak utara kamp pengungsi Nuseyat, juga di Jalur Gaza Tengah. Militer Israel mengatakan kepada AFP itu telah \"ditargetkan beberapa koperasi militer\" dalam beberapa serangan, yang datang sehari setelah tentara mengatakan telah menyelesaikan serangan tanah di Jalur Gaza pusat. Lebih dari 1.600 warga Palestina telah terbunuh sejak dimulainya gencatan senjata, menurut perhitungan AFP berdasarkan data dari Departemen Kesehatan Gaza yang jumlahnya dianggap dapat diandalkan oleh PBB. Laporan oleh AFP",
+      "originalTitle": "Six Palestinians killed in Israeli strikes on Gaza, civil defence says",
+      "originalDescription": "Six Palestinians killed in Israeli strikes on Gaza, civil defence says Israeli strikes killed six people in the Gaza Strip on Friday, the civil defence agency in the war-shattered territory told AFP, despite a ceasefire. Mahmoud Bassal, the spokesman for Gaza's civil defence agency, said that four Palestinians were killed and several others wounded in an Israeli airstrike southwest of Bureij refugee camp in the central Gaza Strip on Friday. The civil defence also said one Palestinian was killed in an Israeli drone strike targeting a tent in the Al-Munasara camp for displaced people in Deir al-Balah. Another person was killed in a drone strike north of Nuseirat refugee camp, also in the central Gaza Strip. The Israeli military told AFP it had \"targeted multiple military operatives\" in several strikes, which came a day after the army said it had completed a ground incursion in the central Gaza Strip. More than 1,600 Palestinians have been killed since the start of the ceasefire, according to an AFP tally based on data from the Gaza health ministry whose figures are considered reliable by the United Nations. Report by AFP",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/063_2305953310%281%29.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-21T00:15:23+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/six-palestinians-killed-israeli-strikes-gaza-civil-defence-says"
+    },
+    {
+      "id": "3a7deb8460329616",
+      "title": "Tiga rudal balistik Houthi dicegat lebih Riyadh, Saudi- dipimpin koalisi mengatakan",
+      "description": "Tiga rudal balistik Houthi dicegat lebih Riyadh, Saudi- dipimpin koalisi mengatakan Tiga rudal balistik diluncurkan oleh Houthis menuju Riyadh dicegat dan dihancurkan oleh Saudi- dipimpin koalisi udara pertahanan, juru bicara untuk koalisi, Mayor Jenderal Turki Al Malki mengatakan pada X Pengumuman Turki datang setelah agen pertahanan sipil Saudi mengeluarkan, dan kemudian mengangkat, dua peringatan darurat untuk ibukota.",
+      "originalTitle": "Three Houthi ballistic missiles intercepted over Riyadh, Saudi-led coalition says",
+      "originalDescription": "Three Houthi ballistic missiles intercepted over Riyadh, Saudi-led coalition says Three ballistic missiles launched by Houthis towards Riyadh were intercepted and destroyed by Saudi-led coalition's air defences, spokesman for the coalition, Major General Turki Al Malki said on X. Turki's announcement comes after the Saudi Civil Defence agency issued, and later lifted, two emergency alerts for the capital city.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/063_2305953310%281%29.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-21T00:00:08+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/three-houthi-ballistic-missiles-intercepted-over-riyadh-saudi-led"
+    },
+    {
+      "id": "ea106474e4833d71",
+      "title": "Perang Iran hidup: Saudi- dipimpin koalisi Downs Houthi rudal",
+      "description": "Arab Saudi mengeluarkan berita darurat untuk Riyadh, seperti yang dikatakan koalisi Saudi bahwa dia mencegat tiga rudal.",
+      "originalTitle": "Iran war live: Saudi-led coalition downs Houthi missiles",
+      "originalDescription": "Saudi Arabia issues a flurry of emergency alerts for Riyadh, as the Saudi coalition says it intercepted three missiles.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b00dbc90b00-1795218377.jpg?resize=1920%2C1440",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-21T00:00:06+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles"
+    },
+    {
+      "id": "f73a7c77a7707f32",
+      "title": "Koalisi Arab Saudi Gagalkan Tiga Serangan Rudal Balistik Houthi ke Riyadh",
+      "description": "Juru bicara Koalisi Arab Saudi menyatakan pertahanan udara berhasil mencegat dan menghancurkan tiga rudal balistik yang diluncurkan kelompok Houthi ke arah Riyadh.",
+      "originalTitle": "Koalisi Arab Saudi Gagalkan Tiga Serangan Rudal Balistik Houthi ke Riyadh",
+      "originalDescription": "Juru bicara Koalisi Arab Saudi menyatakan pertahanan udara berhasil mencegat dan menghancurkan tiga rudal balistik yang diluncurkan kelompok Houthi ke arah Riyadh.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-09/التحالف-المالكي-jAdFc_io.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-20T23:46:21+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/disfz5k0t"
+    },
+    {
+      "id": "de5738a40a5fbde1",
+      "title": "MUI Jatim Sesalkan Pernyataan Habib Alwi terhadap Kiai Cholil",
+      "description": "JAKARTA -- Sekretaris MUI Jawa Timur Bidang Fatwa, KH Nur Fauzi Palestin menyayangkan pernyataan Habib Alwi bin Abdurrahman Assegaf yang merendahkan Wakil Ketua Umum Majelis Ulama Indonesia (MUI), KH...",
+      "originalTitle": "MUI Jatim Sesalkan Pernyataan Habib Alwi terhadap Kiai Cholil",
+      "originalDescription": "JAKARTA -- Sekretaris MUI Jawa Timur Bidang Fatwa, KH Nur Fauzi Palestin menyayangkan pernyataan Habib Alwi bin Abdurrahman Assegaf yang merendahkan Wakil Ketua Umum Majelis Ulama Indonesia (MUI), KH...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/ilustrasi-logo-mui_260224173938-909.jpg",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam",
+        "Dakwah dan Ulama"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-20T23:31:00+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/totqen430/mui-jatim-sesalkan-pernyataan-habib-alwi-terhadap-kiai-cholil"
+    },
+    {
+      "id": "426b27313b1deeeb",
+      "title": "Ledakan keras terdengar di Riyadh setelah peringatan pertahanan sipil Saudi",
+      "description": "Ledakan keras terdengar di Riyadh setelah pertahanan sipil Saudi memperingatkan ledakan keras terdengar di ibukota Saudi Riyadh jam pada hari Jumat, saksi mengatakan Reuters, segera setelah pertahanan sipil kerajaan mengeluarkan peringatan bahaya potensial di kota. Pertahanan sipil mengirim pesan kedua segera setelah itu mengatakan bahaya telah berlalu. Penyebab ledakan itu tidak segera jelas. Itu adalah peringatan pertama seperti di Riyadh sejak serangan Houthi menghantam gedung pencakar langit tertinggi pada hari Kamis. Sebelumnya, pertahanan sipil mengeluarkan peringatan serupa untuk pemerintah Sulayyil, di Arab Saudi pusat, sebelum kemudian mengatakan bahaya yang ada juga berlalu.",
+      "originalTitle": "Loud explosion heard in Riyadh after Saudi civil defence alerts",
+      "originalDescription": "Loud explosion heard in Riyadh after Saudi civil defence alerts A loud boom was heard in the Saudi capital Riyadh late hours on Friday, a witness told Reuters, shortly after the kingdom’s civil defence issued an alert warning of potential danger in the city. The civil defence sent a second message soon afterwards saying the danger had passed. The cause of the boom was not immediately clear. It was the first such alert in Riyadh since a Houthi attack struck the capital’s tallest skyscraper on Thursday. Earlier, the civil defence issued a similar alert for al-Sulayyil governorate, in central Saudi Arabia, before later saying the danger there had also passed.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/063_2305953310%281%29.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-20T23:22:18+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/loud-explosion-heard-riyadh-after-saudi-civil-defence-alerts"
+    },
+    {
+      "id": "d20bbfb8e85f67ec",
+      "title": "Rahul Gandhi kembali kuat India- Israel dasi meskipun perang Gaza",
+      "description": "Pemimpin oposisi India Rahul Gandhi, mengatakan New Delhi harus terus menjaga hubungan yang kuat dengan Israel.",
+      "originalTitle": "Rahul Gandhi backs strong India-Israel ties despite Gaza war",
+      "originalDescription": "India’s opposition leader Rahul Gandhi, says New Delhi should continue to maintain strong ties with Israel.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/cms-wide-thumb-raga2011-1795216805.png?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-20T23:20:50+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/20/rahul-gandhi-backs-strong-india-israel-ties-despite-gaza-war"
+    },
+    {
+      "id": "6df617a7406a7726",
+      "title": "Di dalam kota Kurdi Irak tertangkap antara AS dan Iran",
+      "description": "Di dalam kota Kurdi Irak tertangkap antara AS dan Iran Disampaikan oleh Sean Mathews pada Fri, 11 / 20 / 2026 - 19: 37 Sulaymanyah terhuyung-huyung dari batas ekonomi perang Iran dan bergulat dengan kekuatan regional terwujudkan sebelah sebuah pasar di kota Sulaymanyah di wilayah Kurdistan Irak dikatakan sebagai bazaar terbesar di wilayah tersebut, pada 11 November 2026 (Sean Mathews / MEE) bila Presiden AS Donald Trump punya jalannya sendiri, Baran * akan kehilangan bisnis. Kurd yang berumur tiga puluh tahun adalah pedagang yang membeli diesel di Irak dan menjualnya di Afghanistan. Ini adalah pertunjukan stres, tapi satu yang dapat menghasilkan keuntungan rapi di tempat seperti Irak Kurdistan. Sebuah truk berisi solar senilai $20.000 di Irak dapat dijual di Kabul untuk sekitar $24.000, meninggalkan sekitar $2.000 untuk pedagang sekali biaya dibayar. Tapi itu harus melalui Iran dulu. \"Perjalanan lebih berbahaya sekarang. Sulit untuk menemukan driver. Perbatasan tidak dapat diandalkan. Harga diesel juga naik,\" Baran, yang namanya telah diubah untuk melindungi identitasnya, mengatakan kepada Mata Timur Tengah. Trump berkata, alih-alih memulai serangan ulang di Iran, dia ingin mencekik ekonominya. Selain blokade angkatan laut, AS menekan negara-negara seperti Turki, Irak dan Pakistan untuk menutup perbatasan mereka dengan Iran. Awal bulan ini, AS mengumumkan satuan tugas untuk memblokade perdagangan di perbatasan Iran dan Laut Kaspia. Baran tidak memiliki politik daging sapi dengan AS. Sebaliknya, dia berkata, \"George W. Bush menggulingkan Saddam Hussein. Dia membantu Kurdistan. Saya tidak lebih suka Iran daripada AS\", katanya lebih dari segelas anise- rasa Arak dan hookahs di sebuah restoran di Sulaymanyah. Tapi perang ini tidak baik untuk bisnis atau perekonomian kita. Baran adalah mikro kota yang dia sebut rumah. Sulaymanyah Nesterled di Pegunungan Zagram, Sulaymanyah adalah Irak Kurdistan kedua terbesar kota. Jantung berdetak adalah bazaar penyemprotan di mana pend",
+      "originalTitle": "Inside the Iraqi Kurdish city caught between the US and Iran",
+      "originalDescription": "Inside the Iraqi Kurdish city caught between the US and Iran Submitted by Sean Mathews on Fri, 11/20/2026 - 19:37 Sulaymaniyah is reeling from the economic toll of the Iran war and grappling with an emboldened regional power next door A market in the city of Sulaymaniyah in Iraq's Kurdistan Region is said to be the largest bazaar in the region, on 11 November 2026 (Sean Mathews/MEE) Off If US President Donald Trump has his way, Baran* will be out of business. The thirty-year-old Kurd is a trader who buys diesel in Iraq and sells it in Afghanistan. It’s a stressful gig, but one that can generate a tidy profit in a place like Iraqi Kurdistan. A truck laden with $20,000 worth of diesel in Iraq can sell in Kabul for around $24,000, leaving around $2,000 for the trader once expenses are paid. But it has to make it through Iran first. “The journey is more dangerous now. It’s harder to find drivers. The border isn’t as reliable. The price of diesel has also shot up,” Baran, whose name has been changed to protect his identity, told Middle East Eye. Trump says instead of restarting strikes on Iran, he wants to choke its economy. In addition to a naval blockade, the US is pressing countries like Turkey , Iraq and Pakistan to seal their borders with Iran. Earlier this month, the US announced a task force to blockade trade across Iran’s land borders and the Caspian Sea. Baran has no political beef with the US. On the contrary, he says, “George W. Bush overthrew Saddam Hussein. He helped Kurdistan. I don’t prefer Iran to the US,” he said over a glass of anise-flavoured Arak and hookahs at a restaurant in Sulaymaniyah. “But this war has not been good for business or our economy.” Baran is a microcosm of the city he calls home. Sulaymaniyah Nestled in the Zagros Mountains, Sulaymaniyah is Iraqi Kurdistan’s second largest city. Its beating heart is a sprawling bazaar where locals boast that any item a shopper desires can be procured. November is pomegranate season, and the fruit wa",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Sulaymaniyah-market-Sean-Mathews-AFP.jpg.jpg?itok=lxg3q4AD",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-20T21:48:28+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/inside-iraqi-kurdish-city-caught-between-us-and-iran"
+    },
+    {
+      "id": "3b3ba7d2cf13f897",
+      "title": "Al-Khaleej Pimpin Klasemen Liga Bola Tangan Saudi Usai Raih Kemenangan Ketujuh Beruntun",
+      "description": "Tim Al-Khaleej memuncaki klasemen Liga Bola Tangan Saudi setelah mengalahkan Mudhar pada pekan ke-10 dan mengumpulkan poin sempurna, 14 poin.",
+      "originalTitle": "Al-Khaleej Pimpin Klasemen Liga Bola Tangan Saudi Usai Raih Kemenangan Ketujuh Beruntun",
+      "originalDescription": "Tim Al-Khaleej memuncaki klasemen Liga Bola Tangan Saudi setelah mengalahkan Mudhar pada pekan ke-10 dan mengumpulkan poin sempurna, 14 poin.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-W54Shel4.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-20T21:06:46+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/olahraga/j7ob6ba61"
+    },
+    {
+      "id": "45a2f7f4d49faaad",
+      "title": "Anak-anak pengungsi Gaza merayakan Hari Anak-Anak Dunia",
+      "description": "Dibuang anak-anak berkumpul di kamp pengungsi Nuseyat untuk menandai Hari Anak Dunia.",
+      "originalTitle": "Gaza’s displaced children celebrate World Children’s Day",
+      "originalDescription": "Displaced children gathered in al-Nuseirat refugee camp to mark World Children’s Day.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/Screenshot-2026-11-20-at-20.39.51-1795207289.png?resize=1200%2C675",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-20T20:45:09+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/20/gazas-displaced-children-celebrate-world-childrens-day"
+    },
+    {
+      "id": "77fe946434a8a83a",
+      "title": "Pemerintah Kota Madinah Tawarkan Peluang Investasi di Sektor Komersial dan Hunian",
+      "description": "Pemerintah Kota Madinah membuka peluang investasi baru di bidang komersial dan hunian untuk mendukung pertumbuhan ekonomi dan memperluas layanan.",
+      "originalTitle": "Pemerintah Kota Madinah Tawarkan Peluang Investasi di Sektor Komersial dan Hunian",
+      "originalDescription": "Pemerintah Kota Madinah membuka peluang investasi baru di bidang komersial dan hunian untuk mendukung pertumbuhan ekonomi dan memperluas layanan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-QZn33mxs.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-20T20:42:34+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/ekonomi/2cadvmkob"
+    },
+    {
+      "id": "01c8334c6d2ea772",
+      "title": "Serangan pesawat tak berawak Israel membunuh tujuh orang Palestina di pusat Gaza",
+      "description": "Drone menyebabkan 'takut dan panik' di antara Palestina karena Israel terus menyerang di Strip meskipun 'gencatan senjata'.",
+      "originalTitle": "Israeli drone attacks kill seven Palestinians in central Gaza",
+      "originalDescription": "Drones cause 'fear and panic' among Palestinians as Israel continues attacks on the Strip despite 'ceasefire'.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/epa_6afe4b7f56bb-1795050367.jpg?resize=1920%2C1440",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-20T20:14:56+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/20/israeli-drone-attacks-kill-seven-palestinians-in-central-gaza"
+    },
     {
       "id": "0907a14d91f43b91",
       "title": "Anti- Hamas Palestina kelompok yang dituduh peran dalam operasi Gaza Israel",
@@ -4437,31 +4763,6 @@
       "region": "",
       "publishedAt": "2026-11-19T06:22:10+00:00",
       "originalUrl": "https://indonesian.ajel.sa/arab-saudi/4plgxkr8a"
-    },
-    {
-      "id": "d6a4a6a42737fd6a",
-      "title": "Koalisi Arab Saudi Tembak Jatuh 4 Rudal Balistik Houthi di Wilayah Selatan",
-      "description": "Juru bicara Koalisi Arab Saudi menyatakan pertahanan udara berhasil mencegat dan menghancurkan empat rudal balistik yang ditembakkan Houthi ke wilayah selatan.",
-      "originalTitle": "Koalisi Arab Saudi Tembak Jatuh 4 Rudal Balistik Houthi di Wilayah Selatan",
-      "originalDescription": "Juru bicara Koalisi Arab Saudi menyatakan pertahanan udara berhasil mencegat dan menghancurkan empat rudal balistik yang ditembakkan Houthi ke wilayah selatan.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-09/التحالف-المالكي-jAdFc_io.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T06:08:14+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/cfnova2e4"
     },
     {
       "id": "36bfcd699033e2f9",
@@ -12431,308 +12732,6 @@
       "region": "",
       "publishedAt": "2026-11-15T15:01:54+00:00",
       "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/15/jerusalem-daily-mass-funeral-in-gaza-as-netanyahu-clings-to-power"
-    },
-    {
-      "id": "40d0be177470a61a",
-      "title": "Data Israel menunjukkan hal ini memungkinkan setengah dari truk bantuan yang dijanjikan ke Gaza",
-      "description": "Data Israel menunjukkan bahwa truk-truk bantuan yang dijanjikan ke Gaza telah dikeluarkan oleh staf MEE pada Sun, 11 / 15 / 2026 - 14: 15 data militer Israel menunjukkan pengiriman ke Gaza telah jatuh jauh lebih pendek dari 4.200 truk yang dijanjikan dalam seminggu di bawah kesepakatan gencatan senjata dalam beberapa bulan seorang anak makan dari pot sebagai pengungsi warga Palestina yang mengumpulkan makanan panas yang didistribusikan ke Gaza oleh sebuah dapur amal di kamp pengungsi Nuseirat sejak 12 Juni 2026 bulan (Eyba-Fig) yang gagal melakukan hal-hal tersebut. Data yang diperoleh oleh surat kabar Haaretz menunjukkan penurunan pertumbuhan dalam pengiriman makanan ke Gaza, bersama kekurangan pasokan medis yang parah, tenda dan bahan untuk memperbaiki infrastruktur yang rusak. Hujan deras telah membanjiri kamp perpindahan, meninggalkan ratusan ribu orang Palestina dalam kondisi semakin mengerikan. Di bawah gencatan senjata, Israel berjanji untuk memungkinkan 4.200 kendaraan membawa kemanusiaan dan barang komersial ke Gaza setiap minggu, setara dengan sekitar 18,200 per bulan. Pengiriman termasuk makanan, bahan bakar, obat-obatan dan peralatan, bahan penampungan dan peralatan untuk memperbaiki infrastruktur penting. Data yang diberikan oleh koordinator Aktivitas Pemerintah di Wilayah (Cogat) kepada Pusat Dukungan AS yang dipimpin Internasional Gaza (IGSC) menunjukkan bahwa Israel mengizinkan sekitar 4.700 truk ke Gaza pada bulan Maret, naik menjadi 5.300 pada bulan April dan lebih dari 9.600 Mei. Angka meningkat menjadi lebih dari 12.000 pada bulan Juni sebelum jatuh ke sekitar 10.000 di baik Juli dan Agustus. Pengiriman memuncak di lebih dari 13.000 pada bulan September, kemudian turun tajam hanya untuk lebih dari 6.500 pada bulan Oktober. Cogat membantah penemuan tersebut, mengatakan bahwa data yang disajikan adalah \"tidak akurat\" dan bahwa Israel bertemu komitmen kemanusiaan \"dan di luar mereka.\" Angka tanda langka dalam statistik yang disediakan oleh Israel un",
-      "originalTitle": "Israel's data shows it allowed half of the promised aid trucks into Gaza",
-      "originalDescription": "Israel's data shows it allowed half of the promised aid trucks into Gaza Submitted by MEE staff on Sun, 11/15/2026 - 14:15 Israeli military data shows deliveries to Gaza have fallen well short of the 4,200 trucks a week promised under the ceasefire deal in most months A boy eats from a pot as displaced Palestinians gather for hot meals distributed by a charity kitchen in Nuseirat refugee camp in the central Gaza Strip on 12 June 2026 (Eyad Baba/AFP) Off Israel has failed to meet its commitments under the Gaza ceasefire deal, allowing in only around half the agreed volume of humanitarian and commercial goods each month since March, Israeli military data shows. Data obtained by Haaretz newspaper showed a growing shortfall in food deliveries to Gaza, alongside severe shortages of medical supplies, tents and materials to repair damaged infrastructure. Torrential rains have flooded displacement camps, leaving hundreds of thousands of Palestinians in increasingly dire conditions. Under the ceasefire deal, Israel pledged to allow 4,200 vehicles carrying humanitarian and commercial goods into Gaza each week, equivalent to roughly 18,200 a month. Deliveries were to include food, fuel, medical supplies and equipment, shelter materials and equipment to repair essential infrastructure. Data supplied by the Coordinator of Government Activities in the Territories (Cogat) to the US-led International Gaza Support Center (IGSC) show that Israel allowed about 4,700 trucks into Gaza in March, rising to 5,300 in April and more than 9,600 in May. The number increased to more than 12,000 in June before falling to about 10,000 in both July and August. Deliveries peaked at more than 13,000 in September, then dropped sharply to just over 6,500 in October. Cogat disputed the findings, saying that the data presented was \"inaccurate” and that Israel was meeting its humanitarian commitments “and beyond them”. The figures mark a rare instance in which statistics supplied by Israel to the IGSC sh",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/A%20boy%20eats%20from%20a%20pot%20as%20displaced%20Palestinians%20gather%20for%20hot%20meals%20distributed%20by%20a%20charity%20kitchen%20in%20Nuseirat%20refugee%20camp%2C%20central%20Gaza%20Strip%2C%2012%20June%202026%20%28Eyad%20Baba%20AFP%29.jpg.jpg?itok=rtSEmYYE",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-15T15:01:42+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/israels-data-shows-allowed-half-promised-aid-trucks-gaza"
-    },
-    {
-      "id": "64995cafe002de61",
-      "title": "Keselamatan gelang layanan meningkatkan perawatan untuk anak-anak dan lansia di Mesjid Mekah",
-      "description": "MakKAH - Otoritas Umum untuk Layanan Urusan Masjid Agung dan Masjid Nabi adalah menyediakan gelang keselamatan untuk pengunjung Masjid Agung untuk memfasilitasi identifikasi dan lokasi anak-anak, orang tua dan orang-orang dengan cacat jika mereka terpisah dari teman-teman mereka. Inisiatif bertujuan untuk meningkatkan keselamatan pengunjung dan memastikan kesejahteraan mereka sementara mereka berada di dalam Masjid Grand dan porseleds nya. Layanan disediakan gratis biaya melalui pusat perawatan tamu. Pewaris diberikan gelang berisi rincian identifikasi, yang memungkinkan staf di tanah untuk mengidentifikasi mereka dan menghubungi keluarga mereka ketika diperlukan. Inisiatif ini mencerminkan komitmen otoritas untuk memprioritaskan keamanan dan kemanusiaan, memastikan lingkungan yang aman dan diakses bagi semua orang yang mengunjungi Masjid, dengan demikian memfasilitasi perjalanan mereka dan memungkinkan mereka untuk melakukan ibadah mereka dengan ketenangan pikiran.",
-      "originalTitle": "Safety bracelet service enhances care for children and elderly at Makkah Grand Mosque",
-      "originalDescription": "MAKKAH — The General Authority for the Care of the Affairs of the Grand Mosque and the Prophet’s Mosque is providing safety bracelets to visitors of the Grand Mosque to facilitate the identification and location of children, elderly people and persons with disabilities if they become separated from their companions. The initiative aims to enhance visitor safety and ensure their well-being while they are inside the Grand Mosque and its courtyards. The service is provided free of charge through the guest care centers. Beneficiaries are given bracelets containing identification details, which enable staff on the ground to identify them and contact their families when necessary. This initiative reflects the authority’s commitment to prioritizing safety and humanitarian care, ensuring a secure and accessible environment for all who visit the Grand Mosque, thereby facilitating their journey and allowing them to perform their worship with peace of mind.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/15/2794892.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi",
-        "Masjid dan Peradaban"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-15T14:49:51+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666267/saudi-arabia/safety-bracelet-service-enhances-care-for-children-and-elderly-at-makkah-grand-mosque"
-    },
-    {
-      "id": "e746ee0034150930",
-      "title": "Imam Nawawi Jelaskan Nasib Tiga Golongan Manusia di Atas Shirath",
-      "description": "JAKARTA -- Setiap manusia akan menghadapi ujian saat melintasi shirath, jembatan yang terbentang di atas neraka Jahannam. Imam An-Nawawi menjelaskan, berdasarkan hadis Rasulullah SAW, manusia terbagi menjadi tiga kelompok...",
-      "originalTitle": "Imam Nawawi Jelaskan Nasib Tiga Golongan Manusia di Atas Shirath",
-      "originalDescription": "JAKARTA -- Setiap manusia akan menghadapi ujian saat melintasi shirath, jembatan yang terbentang di atas neraka Jahannam. Imam An-Nawawi menjelaskan, berdasarkan hadis Rasulullah SAW, manusia terbagi menjadi tiga kelompok...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/pengetahuan-tentang-akhirat-ilustrasi-_140210120707-435.jpg",
-      "category": "Al-Qur'an dan Hadis",
-      "tags": [
-        "Al-Qur'an dan Hadis"
-      ],
-      "source": "Republika",
-      "sources": [
-        "Republika"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-15T14:06:34+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/tojr6y430/imam-nawawi-jelaskan-nasib-tiga-golongan-manusia-di-atas-shirath"
-    },
-    {
-      "id": "02e4a2bbda94d5fd",
-      "title": "Menteri Perdagangan memanggil 2.214 Speaker Bose atas baterai terlalu panas dan risiko kebakaran",
-      "description": "RIYADH - Departemen Perdagangan mengumumkan penarikan kembali pembicara 2.214 Bose, model S1 Pro dan S1 Pro, karena kemungkinan baterai overwarming selama digunakan, yang bisa menimbulkan bahaya kebakaran. Menteri mendesak pengguna produk-produk yang terkena dampak untuk berhenti menggunakannya segera dan menghubungi Apparansi Elektronik Dawliah pada (01126666932) untuk mengganti baterai dengan gratis. Pengguna dapat memeriksa apakah produk mereka disertakan dalam kampanye penarikan melalui situs web Recall Product Recall Center: http: / / Recalls.sa. recalls",
-      "originalTitle": "Commerce ministry recalls 2,214 Bose speakers over battery overheating and fire risk",
-      "originalDescription": "RIYADH — The Ministry of Commerce announced the recall of 2,214 Bose speakers, models S1 Pro+ and S1 Pro, due to the possibility of the batteries overheating during use, which could pose a fire hazard. The ministry urged users of the affected products to stop using them immediately and contact aDawliah Electronic Appliances Company on (01126669932) to have the battery replaced free of charge. Users can check whether their products are included in the recall campaign through the website of the Defective Products Recall Center: http://Recalls.sa.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/15/2794815.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-15T14:01:29+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666266/saudi-arabia/commerce-ministry-recalls-2214-bose-speakers-over-battery-overheating-and-fire-risk"
-    },
-    {
-      "id": "3d2894acedf0dc37",
-      "title": "Bangkit Bergerak: Menelusuri Pergulatan NU di Jawa Barat, Banten, dan Jakarta",
-      "description": "Buku Abdullah Alawi merekonstruksi kebangkitan NU di Jawa Barat, Banten, dan Jakarta 1926–1941 lewat jaringan ulama, pesantren, dan gerakan sosial.",
-      "originalTitle": "Bangkit Bergerak: Menelusuri Pergulatan NU di Jawa Barat, Banten, dan Jakarta",
-      "originalDescription": "Buku Abdullah Alawi merekonstruksi kebangkitan NU di Jawa Barat, Banten, dan Jakarta 1926–1941 lewat jaringan ulama, pesantren, dan gerakan sosial.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/bangkit-bergerak_1794760910.webp",
-      "category": "Dakwah dan Ulama",
-      "tags": [
-        "Dakwah dan Ulama",
-        "Pesantren dan Madrasah"
-      ],
-      "source": "NU Online",
-      "sources": [
-        "NU Online"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-15T14:00:41+00:00",
-      "originalUrl": "https://www.nu.or.id/pustaka/bangkit-bergerak-menelusuri-pergulatan-nu-di-jawa-barat-banten-dan-jakarta-FZ36Z"
-    },
-    {
-      "id": "d345b0d66ab34110",
-      "title": "Keluarga Gaza mengubur mayat orang yang dicintai terjebak selama bertahun-tahun di bawah reruntuhan",
-      "description": "Sisa-sisa 69 orang Palestina telah ditemukan di Gaza Utara, memungkinkan keluarga untuk mengubur mereka.",
-      "originalTitle": "Gaza families bury bodies of loved ones trapped for years under rubble",
-      "originalDescription": "The remains of 69 Palestinians have been recovered in northern Gaza, allowing families to bury them.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/0Q1A4969-copy-1794747221.jpg?resize=1920%2C1440",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Al Jazeera",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-15T13:45:02+00:00",
-      "originalUrl": "https://www.aljazeera.com/features/2026/11/15/gaza-families-bury-bodies-of-loved-ones-trapped-for-years-under-rubble"
-    },
-    {
-      "id": "feb2b8f174aaa2a7",
-      "title": "Inflasi di Arab Saudi mencapai 1,7% pada bulan Oktober",
-      "description": "RIYADH - Inflation or Consumer Price Index (CPI) di Arab Saudi mencatat peningkatan tahunan 1,7 persen pada Oktober 2026 dibandingkan dengan bulan yang sama tahun lalu, menurut data yang dirilis pada hari Minggu oleh Otoritas Umum Statistik (GASTAT). Otoritas utamanya menghubungkan kenaikan menjadi 3,5 persen dari kenaikan perumahan, air, listrik, gas dan harga bahan bakar lainnya, bersama kenaikan 1,1% dalam harga makanan dan minuman dan kenaikan 2,3 persen harga transportasi. Dalam hal pengeluaran konsumen, laporan tersebut mengungkapkan bahwa sewa perumahan yang sebenarnya meningkat sebesar 3,5 persen, sedangkan harga dalam layanan asuransi dan keuangan juga naik sebesar 3,5 persen, didorong oleh kenaikan harga layanan asuransi sebesar 6,5 persen. Harga rekreasi, sektor olahraga dan budaya naik 2,7 persen, mencerminkan peningkatan 4,6 persen harga paket liburan. Layanan transportasi penumpang mencatat kenaikan lebih dari 9,5 persen. Sebaliknya, harga di furnitur, peralatan rumah tangga dan kategori pemeliharaan rumah rutin menurun sebesar 0,5 persen sedangkan yang dalam pakaian dan kategori alas kaki jatuh sebesar 0.2 persen. Perumahan, air, listrik, gas dan kategori bahan bakar lainnya muncul sebagai kontributor terbesar untuk tingkat inflasi tahunan, akuntansi untuk 0,7 persen. Hal ini diikuti oleh transportasi pada 0,3 persen, makanan dan minuman pada titik 0.2 persen, dan perawatan pribadi, perlindungan sosial dan barang-barang dan jasa lainnya pada 0,1 persen. Kategori yang tersisa secara kolektif berkontribusi 0,4 persen. Pada satu bulan ke bulan, indeks Harga Konsumer (CPI) meningkat 0,1 persen pada Oktober dibandingkan dengan September 2026. Kenaikan ini didorong oleh kenaikan 0,2 persen perumahan, air, listrik, gas dan harga bahan bakar lainnya, didukung oleh kenaikan 0,4 persen dari sewa perumahan yang sebenarnya. Harga makanan dan minuman juga meningkat sebesar 0,2 persen, sedangkan layanan asuransi dan keuangan naik sebesar 1,5 persen, rekreasi, olahr",
-      "originalTitle": "Inflation in Saudi Arabia reaches 1.7% in October",
-      "originalDescription": "RIYADH — Inflation or Consumer Price Index (CPI) in Saudi Arabia registered an annual increase of 1.7 percent in October 2026 compared to the same month last year, according to data released on Sunday by the General Authority for Statistics (GASTAT). The authority attributed the rise primarily to a 3.5 percent increase in housing, water, electricity, gas and other fuel prices, alongside a 1.1 percent rise in food and beverage prices and a 2.3 percent increase in transportation prices.In terms of consumer spending, the report revealed that actual housing rents increased by 3.5 percent, while prices in insurance and financial services also rose by 3.5 percent, driven by a 6.5 percent increase in insurance service prices.Prices in the recreation, sports and culture sector climbed by 2.7 percent, reflecting a 4.6 percent increase in holiday package prices. Passenger transportation services recorded a more substantial rise of 9.5 percent. Conversely, prices in the furniture, household appliances and routine home maintenance category declined by 0.5 percent while those in the clothing and footwear category fell by 0.2 percent.The housing, water, electricity, gas and other fuels category emerged as the largest contributor to the annual inflation rate, accounting for 0.7 percentage points. This was followed by transportation at 0.3 percentage points, food and beverages at 0.2 percentage points, and personal care, social protection and other goods and services at 0.1 percentage points. The remaining categories collectively contributed 0.4 percentage points.On a month-on-month basis, the Consumer Price Index (CPI) increased by 0.1 percent in October compared to September 2026. The rise was driven by a 0.2 percent increase in housing, water, electricity, gas and other fuel prices, supported by a 0.4 percent rise in actual housing rents. Food and beverage prices also increased by 0.2 percent, while insurance and financial services rose by 1.5 percent, recreation, sports and cul",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/15/2794795.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-15T13:41:00+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666265/saudi-arabia/inflation-in-saudi-arabia-reaches-17-in-october"
-    },
-    {
-      "id": "bd439d554c6af860",
-      "title": "Dua warga Palestina korban serangan Israel dimakamkan di Gaza",
-      "description": "ANTARA - Dua warga Palestina, Samir Abu Younis dan Nidal Zaarab yang tewas dalam serangan Israel, di ...",
-      "originalTitle": "Dua warga Palestina korban serangan Israel dimakamkan di Gaza",
-      "originalDescription": "ANTARA - Dua warga Palestina, Samir Abu Younis dan Nidal Zaarab yang tewas dalam serangan Israel, di ...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/Screenshot-2026-11-15-195843.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "ANTARA Terkini",
-      "sources": [
-        "ANTARA Terkini"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-15T13:19:28+00:00",
-      "originalUrl": "https://www.antaranews.com/video/5855887/dua-warga-palestina-korban-serangan-israel-dimakamkan-di-gaza"
-    },
-    {
-      "id": "22de3fe1c9bbf17e",
-      "title": "Ikhtiar Rawat Khazanah Keilmuan Kitab Kuning dengan MQK",
-      "description": "Ketua PCNU Jakarta Timur Ahmad Syukri mendorong santri menjaga khazanah keilmuan kitab kuning lewat lomba MQK dan MHQ.",
-      "originalTitle": "Ikhtiar Rawat Khazanah Keilmuan Kitab Kuning dengan MQK",
-      "originalDescription": "Ketua PCNU Jakarta Timur Ahmad Syukri mendorong santri menjaga khazanah keilmuan kitab kuning lewat lomba MQK dan MHQ.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/1002138924_1794669907.webp",
-      "category": "Pesantren dan Madrasah",
-      "tags": [
-        "Pesantren dan Madrasah"
-      ],
-      "source": "NU Online",
-      "sources": [
-        "NU Online"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-15T13:00:29+00:00",
-      "originalUrl": "https://www.nu.or.id/jakarta/ikhtiar-rawat-khazanah-keilmuan-kitab-kuning-dengan-mqk-1CIa7"
-    },
-    {
-      "id": "d117ec3012d95ec7",
-      "title": "Isu kementrian kota 80.775 izin pembangunan di Saudi Arabia dalam 9 bulan",
-      "description": "RIYADH - Kementerian Kota dan Perumahan telah mengeluarkan izin pembangunan 80,775 di seluruh Arab Saudi dari Januari sampai akhir September 2026. Ini adalah bagian dari upaya kementerian untuk mengatur kegiatan konstruksi, prosedur perizinan pembangunan yang efisien, dan menjaga kecepatan dengan pertumbuhan perkotaan di kota dan pemerintahan. Menteri mengatakan bahwa meningkatkan layanan lisensi adalah bagian dari upaya untuk meningkatkan efisiensi operasi kota, meningkatkan lingkungan perkotaan, dan memfasilitasi akses ke layanan kota untuk individu dan investor, sehingga meningkatkan kualitas pengalaman perkotaan dan mendukung pengembangan kota yang lebih efisien yang lebih memenuhi kebutuhan warga. Departemen mencatat bahwa prosedur yang efisien dan meningkatkan efisiensi layanan digital yang mendukung pembangunan kota dan aktivitas investasi, meningkatkan kualitas proyek di dalam kota, dan menyesuaikan dengan tujuan pelayanan untuk meningkatkan kualitas hidup, meningkatkan kualitas layanan, dan meningkatkan lanskap perkotaan.",
-      "originalTitle": "Municipalities ministry issues 80,775 building permits across Saudi Arabia in 9 months",
-      "originalDescription": "RIYADH — The Ministry of Municipalities and Housing has issued 80,775 building permits across Saudi Arabia from January through the end of September 2026. This is part of the ministry's efforts to regulate construction activities, streamline building permit procedures, and keep pace with urban growth in cities and governorates. The ministry said that improving licensing services is part of its efforts to enhance the efficiency of city operations, improve the urban environment, and facilitate access to municipal services for individuals and investors, thereby enhancing the quality of the urban experience and supporting the development of more efficient cities that better meet residents' needs. The ministry noted that streamlining procedures and improving the efficiency of digital services support urban development and investment activity, improve the quality of projects within cities, and align with the ministry's objectives of improving quality of life, enhancing service quality, and improving the urban landscape.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/15/2794746.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-15T12:40:33+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666262/saudi-arabia/municipalities-ministry-issues-80775-building-permits-across-saudi-arabia-in-9-months"
-    },
-    {
-      "id": "7ee0d34068eafda5",
-      "title": "Kementerian Olahraga Luncurkan Layanan Akreditasi Platform Penjualan Tiket Olahraga Lewat 'Riyadhi'",
-      "description": "Kementerian Olahraga Arab Saudi meluncurkan layanan akreditasi platform penjualan dan penjualan ulang tiket olahraga melalui platform digital 'Riyadhi', serta menetapkan tenggat waktu bagi operator.",
-      "originalTitle": "Kementerian Olahraga Luncurkan Layanan Akreditasi Platform Penjualan Tiket Olahraga Lewat 'Riyadhi'",
-      "originalDescription": "Kementerian Olahraga Arab Saudi meluncurkan layanan akreditasi platform penjualan dan penjualan ulang tiket olahraga melalui platform digital 'Riyadhi', serta menetapkan tenggat waktu bagi operator.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-08/وزارة-الرياضة-NBvJJpRi.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-15T12:30:50+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/q0553z1ug"
-    },
-    {
-      "id": "8bd45baddf00d7f6",
-      "title": "Siege di Hebron Beit Ula daerah industri mengancam ekonomi Palestina",
-      "description": "Israel mengambil langkah-langkah untuk menghancurkan bisnis Palestina di west bank.",
-      "originalTitle": "Siege on Hebron’s Beit Ula industrial zone threatens Palestinian economy",
-      "originalDescription": "Israel takes measures to crush Palestinian business in the occupied West Bank.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/163A5524-1-1794734694.jpg?resize=1920%2C1440",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Al Jazeera",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-15T12:02:45+00:00",
-      "originalUrl": "https://www.aljazeera.com/economy/2026/11/15/siege-on-hebrons-beit-ula-industrial-zone-threatens-palestinian-economy"
     }
   ]
 }
