@@ -1,18 +1,18 @@
 {
-  "status": "success",
-  "lastUpdated": "2026-11-21T17:32:03.660642+00:00",
+  "status": "partial",
+  "lastUpdated": "2026-11-21T23:15:41.406899+00:00",
   "total": 500,
-  "newArticles": 127,
+  "newArticles": 112,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 12,
-  "sourcesFailed": 0,
+  "sourcesSucceeded": 11,
+  "sourcesFailed": 1,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 2,
-      "filtered": 23,
+      "accepted": 1,
+      "filtered": 24,
       "filteredFootball": 4,
       "translated": 25,
       "translationPartial": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 25,
+      "raw": 27,
       "accepted": 0,
-      "filtered": 25,
+      "filtered": 27,
       "filteredFootball": 0,
-      "translated": 25,
+      "translated": 27,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -47,9 +47,9 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 1,
-      "filtered": 49,
-      "filteredFootball": 3,
+      "accepted": 0,
+      "filtered": 50,
+      "filteredFootball": 9,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,8 +83,8 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 9,
-      "filtered": 11,
+      "accepted": 7,
+      "filtered": 13,
       "filteredFootball": 1,
       "translated": 20,
       "translationPartial": 0,
@@ -117,15 +117,15 @@
     },
     {
       "name": "NU Online",
-      "status": "success",
-      "raw": 49,
-      "accepted": 11,
-      "filtered": 38,
+      "status": "error",
+      "raw": 0,
+      "accepted": 0,
+      "filtered": 0,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "403 Client Error: Forbidden for url: https://islam.nu.or.id/rss.xml"
     },
     {
       "name": "Ajel Indonesia",
@@ -133,7 +133,7 @@
       "raw": 50,
       "accepted": 35,
       "filtered": 15,
-      "filteredFootball": 2,
+      "filteredFootball": 4,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -156,16 +156,267 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 234,
+    "translatedArticles": 231,
     "partialArticles": 0,
     "failedArticles": 0,
-    "cacheEntries": 3715
+    "cacheEntries": 3771
   },
   "images": {
     "found": 500,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "1ed39b425dc4f457",
+      "title": "Saudi- dipimpin koalisi mengatakan itu dicegat rudal balistik Houthi menargetkan wilayah barat",
+      "description": "Koalisi Saudi- dipimpin mengatakan itu dicegat rudal balistik Houthi menargetkan daerah barat Koalisi Saudi- dipimpin mengatakan pada hari Sabtu telah dicegat dan menghancurkan rudal balistik diluncurkan oleh Houthis Yaman menuju daerah barat Arab Saudi, di tengah permusuhan meningkat antara kerajaan dan kelompok Iranized. Kepulauan Saudi pantai barat host kunci infrastruktur energi, termasuk Yanbu South Terminal, sebuah fasilitas crude- ekspor utama terkait dengan Eastern-West Pipeline, dan kilang Jazan di daerah barat daya.",
+      "originalTitle": "Saudi-led coalition says it intercepted Houthi ballistic missile targeting western region",
+      "originalDescription": "Saudi-led coalition says it intercepted Houthi ballistic missile targeting western region The Saudi-led coalition said on Saturday it had intercepted and destroyed a ballistic missile launched by Yemen's Houthis towards Saudi Arabia's western region, amid escalating hostilities between the kingdom and the Iran-aligned group. Saudi Arabia's western coast hosts key energy infrastructure, including Yanbu South Terminal, a major crude-export facility linked to the East-West Pipeline, and the Jazan refinery in the country's far southwest.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_C7FN2G9%281%29.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-21T22:50:48+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-intercepted-houthi-ballistic-missile-0"
+    },
+    {
+      "id": "1b0638638a611274",
+      "title": "Polisi Madinah Temukan Remaja Perempuan yang Sempat Hilang, Bantah Isu Penculikan",
+      "description": "Polisi Madinah berhasil menemukan seorang remaja perempuan yang sempat dilaporkan hilang dalam keadaan sehat dan membantah adanya penculikan.",
+      "originalTitle": "Polisi Madinah Temukan Remaja Perempuan yang Sempat Hilang, Bantah Isu Penculikan",
+      "originalDescription": "Polisi Madinah berhasil menemukan seorang remaja perempuan yang sempat dilaporkan hilang dalam keadaan sehat dan membantah adanya penculikan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/شرطة-منطقة-مكة-المكرمة-HmEZq-RT.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T20:46:07+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/liwlkscaw"
+    },
+    {
+      "id": "7d0f6cc13a28500b",
+      "title": "Penjelasan Imigrasi Arab Saudi soal Mekanisme Perbaikan Status Warga Yaman",
+      "description": "Direktorat Jenderal Imigrasi Arab Saudi membuka layanan perbaikan status bagi warga Yaman yang tinggal secara ilegal atau izin tinggalnya telah habis.",
+      "originalTitle": "Penjelasan Imigrasi Arab Saudi soal Mekanisme Perbaikan Status Warga Yaman",
+      "originalDescription": "Direktorat Jenderal Imigrasi Arab Saudi membuka layanan perbaikan status bagi warga Yaman yang tinggal secara ilegal atau izin tinggalnya telah habis.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/263373-crop-FFqf1lWL.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T20:41:05+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/rs62a3zkd"
+    },
+    {
+      "id": "88f66fc03cf9e57f",
+      "title": "Simulator Beban Lalu Lintas Uji Sampel Jalan Setara 20 Tahun Pemakaian",
+      "description": "Otoritas Umum Jalan Arab Saudi mengungkapkan alat simulator beban lalu lintas berat mampu menguji sampel jalan di laboratorium setara 20 tahun pemakaian.",
+      "originalTitle": "Simulator Beban Lalu Lintas Uji Sampel Jalan Setara 20 Tahun Pemakaian",
+      "originalDescription": "Otoritas Umum Jalan Arab Saudi mengungkapkan alat simulator beban lalu lintas berat mampu menguji sampel jalan di laboratorium setara 20 tahun pemakaian.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-k4Cvwm0T.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T20:16:30+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/fvkej1zsc"
+    },
+    {
+      "id": "25e84c480236ba48",
+      "title": "Bolehkah ke Kuwait dengan KTP yang Masa Berlakunya 5 Bulan? Ini Penjelasan Imigrasi Saudi",
+      "description": "Imigrasi Arab Saudi menegaskan warga boleh bepergian ke Kuwait dengan KTP yang masa berlakunya minimal 3 bulan.",
+      "originalTitle": "Bolehkah ke Kuwait dengan KTP yang Masa Berlakunya 5 Bulan? Ini Penjelasan Imigrasi Saudi",
+      "originalDescription": "Imigrasi Arab Saudi menegaskan warga boleh bepergian ke Kuwait dengan KTP yang masa berlakunya minimal 3 bulan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/3733-crop-PH7VsLwV.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T20:13:52+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/cj40xg7qs"
+    },
+    {
+      "id": "f7e7d100f072f47a",
+      "title": "Serangan rumah membunuh satu warga sipil tewas, melukai tujuh di Taiz, pemerintah Yaman mengatakan",
+      "description": "Serangan rumah membunuh satu warga sipil tewas, melukai tujuh orang di Taiz, pemerintah Yaman mengatakan serangan Houthi di kota yang dikepung Taiz membunuh satu orang dan terluka setidaknya tujuh lainnya, kantor Yemen untuk Siege Affairs mengatakan. Kantor mengatakan penembakan menabrak ambulans di selatan distrik Sabr al- Muamad, membunuh satu orang dan melukai enam. Ambulans dilaporkan mengambil bagian dalam operasi untuk menyelamatkan warga sipil yang terluka ketika dipukul. Penembak jitu Houthi terpisah terluka seorang wanita 20 tahun di Al-Quhaf, selatan kota, kata kantor. Asap lambung dari sebuah situs yang ditargetkan selama pertempuran antara pejuang pemerintah Saudi - yang selaras dengan para pejuang pemerintah Yaman dan tempat tinggal Iran- yang selaras di front Jabal Han, bagian barat kota Taiz, pada 21 Oktober 2026 (AFP)",
+      "originalTitle": "Houthi attacks kill one civilian killed, injure seven in Taiz, Yemen government says",
+      "originalDescription": "Houthi attacks kill one civilian killed, injure seven in Taiz, Yemen government says Houthi attacks on the besieged city of Taiz killed one person and wounded at least seven others, Yemen’s Office for Siege Affairs said. The office said shelling hit an ambulance in the southern district of Sabr al-Muamad, killing one person and wounding six. The ambulance was reportedly taking part in an operation to rescue an injured civilian when it was hit. Houthi snipers separately wounded a 20-year-old woman in al-Quhaf, south of the city, the office said. Smoke billows from a site that was targeted during battles between Saudi-aligned Yemeni government fighters and Yemen's Iran-aligned Houthis at the Jabal Han front, west of the city of Taiz, on 21 October 2026 (AFP)",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/Smoke%20billows%20from%20a%20site%20that%20was%20targeted%20during%20battles%20between%20Saudi-backed%20Yemeni%20government%20fighters%20and%20Yemen%27s%20Iran-backed%20Houthis%20at%20the%20Jabal%20Han%20front%2C%20west%20of%20the%20city%20of%20Taiz%2C%20on%20October%2021%2C%202026..jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-21T20:03:36+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-attacks-kill-one-civilian-killed-injure-seven-injured-taiz-yemen"
+    },
+    {
+      "id": "4f2d8b508ac2a987",
+      "title": "Apakah Ibu Warga Negara Menanggung PPN Layanan Kesehatan? Otoritas Pajak Arab Saudi Menjelaskan",
+      "description": "Otoritas Pajak Arab Saudi menegaskan negara menanggung PPN layanan kesehatan bagi ibu warga negara di fasilitas medis, setelah verifikasi identitas.",
+      "originalTitle": "Apakah Ibu Warga Negara Menanggung PPN Layanan Kesehatan? Otoritas Pajak Arab Saudi Menjelaskan",
+      "originalDescription": "Otoritas Pajak Arab Saudi menegaskan negara menanggung PPN layanan kesehatan bagi ibu warga negara di fasilitas medis, setelah verifikasi identitas.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/3710-crop-bPbLEoRV.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T18:49:38+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/n0zmistx4"
+    },
+    {
+      "id": "18580e47f4ba3c61",
+      "title": "Israel menyerang kendaraan bantuan makanan di Gaza, menewaskan tiga orang",
+      "description": "Tiga orang Palestina tewas dalam serangan udara Israel pada kendaraan membawa makanan.",
+      "originalTitle": "Israeli strike hits food aid vehicle in Gaza, killing three",
+      "originalDescription": "Three Palestinians were killed in an Israeli air attack on a vehicle carrying food.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795283560.jpg?resize=1620%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-21T17:54:19+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck"
+    },
+    {
+      "id": "c816ea3415960b14",
+      "title": "Perintah pengiriman meningkat 25% lebih dari 129 juta di Q3 2026",
+      "description": "RIYADH - Otoritas Umum Transportasi (TGA) mengatakan bahwa perintah pengiriman di Arab Saudi melampaui 129 juta pada kuartal ketiga 2026, menandai peningkatan 25,2 persen dibandingkan dengan periode yang sama pada 2025. Pertumbuhan mencerminkan peningkatan permintaan layanan pengiriman dan peningkatan ketergantungan pada aplikasi pengiriman di seluruh Kingdom. Menurut buletin statistik otoritas triwulanan, Riyadh menghitung pesanan pengiriman terbesar pada 44 persen, diikuti oleh Mekah wilayah 22 persen, Provinsi Timur 16persen, Madinah Daerah 5 persen, dan Asir region4 persen. Qassim menghitung 3 persen permintaan total, sementara Tabuk dan Hail masing-masing tercatat 2 persen. Al- Jouf, Borders Utara, Jazan, dan Najran masing-masing menghitung satu persen sementara Al- Baha tercatat 0.28 persen. Pihak berwenang menegaskan kembali komitmennya untuk mengembangkan sektor pengiriman, meningkatkan efisiensi operasional, dan meningkatkan kualitas layanan. Upaya ini bertujuan untuk mendukung pertumbuhan sektor dan keberlanjutan dan memperkuat keandalan layanan pengiriman di seluruh Kingdom.",
+      "originalTitle": "Delivery orders surge 25% to over 129 million in Q3 2026",
+      "originalDescription": "RIYADH — The Transport General Authority (TGA) said that delivery orders in Saudi Arabia exceeded 129 million in the third quarter of 2026, marking a 25.2 percent increase compared to the same period in 2025. The growth reflects rising demand for delivery services and increased reliance on delivery applications across the Kingdom.According to the authority’s quarterly statistical bulletin, Riyadh accounted for the largest share of delivery orders at 44 percent, followed by Makkah region 22 percent, Eastern Province 16percent, Madinah region 5 percent , and Asir region4 percent. Qassim accounted for 3 percent of total requests, while Tabuk and Hail each recorded 2 percent. Al-Jouf, Northern Borders, Jazan, and Najran each accounted for one percent while Al-Baha recorded 0.28 percent.The authority reaffirmed its commitment to developing the delivery sector, enhancing operational efficiency, and improving service quality. These efforts aim to support the sector’s growth and sustainability and strengthen the reliability of delivery services across the Kingdom.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/21/2797708.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T17:26:06+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666423/saudi-arabia/delivery-orders-surge-25-to-over-129-million-in-q3-2026"
+    },
+    {
+      "id": "9978221d2945d876",
+      "title": "Arab Saudi meminta jaminan bersama untuk keamanan daerah abadi di Dialog Mediterania",
+      "description": "NAPLES - Penasehat dan Utusan Khusus Menteri Luar Negeri untuk Negosiasi dan Usaha Perdamaian Manal Radwan menegaskan bahwa Arab Saudi tetap teguh dalam mengejar strategi seimbang yang mengkombinasikan penahanan, pertahanan, dan dialog untuk menjaga perdamaian daerah dan stabilitas. Dia menekankan bahwa komitmen Kerajaan tak tergoyahkan untuk mempertahankan keamanan nasionalnya, mempertahankan keamanan dan stabilitas Teluk, dan melindungi jalur air penting Selat Hormuz dan Bab al- Selat Mandab meluas jauh melampaui wilayah, melayani kepentingan seluruh dunia. Radwan membuat pernyataan sambil menyampaikan sesi berjudul \"Redefine Security: Iran, Selat, dan Masa Depan Perintah Regional\" di Dialogues Mediterania (MED) konferensi di Naples, Italia. Dia meminta arsitektur keamanan regional yang berkelanjutan di mana setiap keamanan negara terkait dengan tetangganya dan tidak mencapai biaya orang lain, yang didirikan pada jaminan keamanan bersama, sehingga akhir dari satu putaran konflik tidak hanya mengatur panggung untuk yang lebih kejam. \"Pengaturan sementara tidak akan bekerja kecuali mereka selaras dengan jangka panjang strategi frameworks. Berurusan dengan kelompok bersenjata di luar kontrol negara memerlukan visi politik, bukan hanya satu keamanan, yang menangani penyebab lokal munculnya mereka dan link mereka ke pihak eksternal yang mendukung dan mengeksploitasi mereka,\" katanya. Radwan mengatakan Dewan Kerjasama Teluk (GCC) bersatu dalam tujuan mereka dan bahwa peran mereka harus melengkapi satu sama lain dalam mendukung mediasi, de- eskalasi, dan pencegahan dari perang baru, membuka jalan untuk kepercayaan - bangunan. \"Dialog regional dan stabilitas internasional terhubung erat, dan tidak ada tempat di wilayah tersebut untuk setiap kekuatan hegemonik\", dia menekankan. Di Yaman, Radwan mengatakan perang berada pada intinya konflik di Yaman, dan Kerajaan mendukung resolusi melalui trek politik dan ekonomi sejalan dengan UN-dipimpin roadmap. Dia memperingatkan bahwa",
+      "originalTitle": "Saudi Arabia calls for mutual guarantees for lasting regional security at Mediterranean Dialogues",
+      "originalDescription": "NAPLES — Advisor and Special Envoy of the Minister of Foreign Affairs for Negotiations and Peace Efforts Manal Radwan affirmed that Saudi Arabia remains steadfast in pursuing a balanced strategy that combines containment, deterrence, and dialogue to safeguard regional peace and stability. She emphasized that the Kingdom’s unwavering commitment to defending its national security, preserving the security and stability of the Gulf, and protecting the vital waterways of the Strait of Hormuz and Bab al-Mandab Strait extends far beyond the region, serving the interests of the entire world. Radwan made the remarks while addressing a session titled \"Redefining Security: Iran, the Straits, and the Future of the Regional Order\" at the Mediterranean Dialogues (MED) conference in Naples, Italy. She called for a sustainable regional security architecture in which each state's security is linked to that of its neighbors and not achieved at another's expense, founded on mutual security guarantees, so that the end of one round of conflict does not merely set the stage for a more violent one. “Temporary arrangements will not work unless they are aligned with long-term strategic frameworks. Dealing with armed groups outside state control requires a political vision, not only a security one, that addresses the local causes of their emergence and their links to the external parties that support and exploit them,” she said.Radwan said Gulf Cooperation Council (GCC) member states are united in their objectives and that their roles should complement one another in supporting mediation, de-escalation, and the prevention of a new war, paving the way for confidence-building. “Regional dialogue and international stability are closely linked, and there is no place in the region for any hegemonic power,” she emphasized.On Yemen, Radwan said the war is at its core an intra-Yemeni conflict, and the Kingdom supports a resolution through political and economic tracks in line with the UN-led roadmap",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/21/2797704.webp",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T17:02:37+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666422/saudi-arabia/saudi-arabia-calls-for-mutual-guarantees-for-lasting-regional-security-at-mediterranean-dialogues"
+    },
     {
       "id": "9f208b181f8b8fe3",
       "title": "Koalisi Saudi- dipimpin dilakukan 71 serangan dalam 24 jam, Houthis mengatakan",
@@ -12479,259 +12730,6 @@
       "region": "",
       "publishedAt": "2026-11-16T14:27:14+00:00",
       "originalUrl": "https://saudigazette.com.sa/article/666294/saudi-arabia/saudi-public-transport-buses-carry-over-255-million-passengers-in-q3-2026"
-    },
-    {
-      "id": "53cc8ed9769898b4",
-      "title": "Kepala daftar Arab ditunjuk sementara wakil pembicara parlemen Israel",
-      "description": "Kepala daftar Arab yang ditunjuk sebagai wakil pembicara sementara parlemen Israel yang ditunjuk oleh staf MeE pada Mon, 11 / 16 / 2026 - 13: 50 Ahmad Tibi, yang menjabat sebagai wakil pembicara tahun 2006 dan 2022, mengamankan posisi tersebut walaupun menghadapi oposisi dari anggota parlemen Perdana Menteri Benjamin Netanyahu, Ahmad Tibi berbicara kepada para pendukung di Ara, Israel, pada 23 Oktober 2026 (Ahmad Gharabli / AFP) dari partai parlemen Palestina yang ditunjuk sebagai wakil presiden sementara dari parlemen Israel, pada bulan depan parlemen Israel, pada bulan pertama dalam partai pemilihan umum Israel, dalam partai Israel, pada bulan pertama dalam partai hak pilih-hak pilih-hak pilih 23 Oktober. Times of Israel melaporkan bahwa Komite Arrangsasi Knesset menyetujui daftar sembilan wakil pembicara sementara oleh 13- 9 suara berikut debat panas. Dikatakan bahwa wakil pembicara yang disetujui adalah Tibi, yang menjabat sebagai anggota dewan gabungan dan memimpin partai Ta 'al' al, United Arab List (Ra 's) MP Walid Taha, B' Yachad MP Ginzburg, MP Demokrat Yair Fink, Yisrael MP Beytenu Oded Forer, United Judainisme MP Yitzhak Pindrus, Likov Yaakov Bardov, Otztenu Yedev, dan juga telah mengampuni dosa. Menurut Times of Israel, para deputi sementara akan melayani sampai wakil pembicara Knesset tetap ditunjuk. Juga dilaporkan bahwa selama debat, Likud MP Ofir Katz menuduh komite \"pendukung teror normalisasi\", sementara Otzma Yehudit MP Yitzhak Kroizer menyebut janji \"Rubicon yang tidak boleh menyeberang\". Berbicara dengan Al Jazeera setelah pemungutan suara, Tibi mengatakan bahwa pertemuannya adalah \"prestasi yang sah\" untuk aliansi, yang dijamin 11 kursi dalam pemilihan 27 Oktober. Daftar Gabungan dan Ra 'am, yang mewakili warga Palestina di Israel, memenangkan 19 kursi gabungan di parlemen 120- anggota, menandai peningkatan yang signifikan dalam representasi mereka. Berbicara dengan Al Jazeera, Tibi menuduh Perdana Menteri Partai Likud Benjamin Netanyahu dan Me",
-      "originalTitle": "Head of Arab list appointed temporary deputy speaker of Israel's parliament",
-      "originalDescription": "Head of Arab list appointed temporary deputy speaker of Israel's parliament Submitted by MEE staff on Mon, 11/16/2026 - 13:50 Ahmad Tibi, who served as deputy speaker between 2006 and 2022, secured the position despite facing opposition from Prime Minister Benjamin Netanyahu Palestinian lawmaker Ahmad Tibi speaks to supporters in Ara, northern Israel, on 23 October 2026 (Ahmad Gharabli/AFP) Off Palestinian lawmaker Ahmad Tibi was appointed temporary deputy speaker of Israel 's parliament on Monday, securing a prominent position after parties representing Palestinian citizens of Israel made significant gains in last month's election. The Times of Israel reported that the Knesset's Arrangements Committee approved a list of nine temporary deputy speakers by 13-9 votes following a heated debate. It said the the approved deputy speakers were Tibi, who chairs the Joint List alliance and leads the Ta'al party, United Arab List (Ra'am) MP Walid Taha, B'Yachad MP Eitan Ginzburg, Democrats MP Yair Fink, Yisrael Beytenu MP Oded Forer, United Torah Judaism MP Yitzhak Pindrus, Likud MP Yaakov Bardugo, Otzma Yehudit MP Limor Son Har-Melech and Shas MP Michael Malkieli. According to the Times of Israel, the temporary deputies will serve until permanent deputy Knesset speakers are appointed. It also reported that the during the debate, Likud MP Ofir Katz accused the committee of \"normalising terror supporters,\" while Otzma Yehudit MP Yitzhak Kroizer called the appointments a \"Rubicon that must not be crossed.\" Speaking to Al Jazeera after the vote, Tibi said that his appointment was a \"rightful achievement\" for the alliance, which secured 11 seats in the 27 October election. The Joint List and Ra'am, which represent Palestinian citizens of Israel, won a combined 19 seats in the 120-member parliament, marking a significant increase in their representation. Speaking to Al Jazeera, Tibi accused Prime Minister Benjamin Netanyahu's Likud party and National Security Minister Itamar Ben G",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/palestinian-lawmaker-ahmad-tibi-speaks-supporters-ara-israel-23-oct-2026-afp.jpg.jpg?itok=L8aQqXJ8",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-16T14:20:52+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/arab-list-ahmad-tibi-appointed-deputy-speaker-israel-parliament"
-    },
-    {
-      "id": "35290481a28e5662",
-      "title": "'Lenganku kosong': Tragedi menyerang keluarga Gaza setelah bayi mati kedinginan",
-      "description": "Bayi berusia sembilan puluh sembilan meninggal karena hipotermia di dalam tenda perpindahan keluarganya di Gaza, saat musim dingin kembali.",
-      "originalTitle": "‘My arms are empty’: Tragedy strikes Gaza family after baby dies from cold",
-      "originalDescription": "A nine-month-old baby has died from hypothermia inside his family’s displacement tent in Gaza, as winter returns.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/IMG_1742-1794835313.jpeg?resize=1920%2C1440",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Al Jazeera",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-16T14:20:43+00:00",
-      "originalUrl": "https://www.aljazeera.com/features/2026/11/16/my-arms-are-empty-gaza-mothers-brace-for-another-winter-of-cold-and-fear"
-    },
-    {
-      "id": "eee02ef439e817aa",
-      "title": "Kantor Dalam Negeri menekan dewan untuk membatalkan acara yang menampilkan aktivis pro-Palestina, pengungkapan menyarankan",
-      "description": "Departemen Dalam Negeri menekan dewan untuk membatalkan acara yang menampilkan aktivis-aktivis Palestina, namun pernyataan tersebut menunjukkan bahwa Katherine Hearst akan Mon, 11 / 16 / 2026 - 12: 35 Kantor Dalam Negeri memperingatkan pejabat Hackney bahwa Hukum Tribune bisa melanggar undang-undang teror meskipun penilaian awal menemukan Andreas Malm 'tidak mungkin memenuhi ambang batas untuk gangguan' Andres Malm 'mengumumkan \"Bagaimana Meluncurkan Sebuah Pipal\" Program Internasional dalam Film Internasional pada 20 Tord Pada bulan Oktober, Malm dilarang masuk Inggris oleh Kantor Pusat, dan sebaliknya ditetapkan muncul oleh link video pada acara untuk majalah Tribune pada 4 November di tempat yang dimiliki oleh Dewan Hackney. Peristiwa ini bertepatan dengan tantangan hukum melawan larangan kontroversial pemerintah Inggris terhadap Aksi Palestina yang mana Ammori sedang berjuang di Mahkamah Agung. Freedom of Information and Subject Access Request dokumen yang dirilis ke Tribune muncul untuk menunjukkan bahwa dalam aksi tersebut, Kantor Dalam Negeri mencoba untuk menekan pejabat Dewan Hackney untuk membatalkannya dengan memperingatkan mereka bahwa itu bisa melanggar Undang-Undang Terorisme 2000 karena partisipasi Ammori. Pengungkapan mengungkapkan bahwa penilaian Kantor Dalam Negeri awal menemukan bahwa acara itu \"tidak mungkin untuk memenuhi ambang batas untuk gangguan\". Meskipun demikian, Home Office menghubungi Prevents dan Hate Crime koordinator Dewan Hackney, memperingatkan mereka bahwa acara tersebut akan menampilkan \"dua pembicara keprihatinan\" dan berbagi dengan mereka ringkasan intelijen yang digunakan untuk bar Malum dari memasuki Inggris, yang menggambarkan dia \"melegitimasi [ing] dan encoura [ing] menyerang infrastruktur energi dan terorisme\". Dalam satu email tertanggal 12 Oktober, tim ekstrimisme Departemen Dalam Negeri menyatakan bahwa Malm \"telah membuat banyak pernyataan mendukung teroris dan tindakan langsung, terutama mengenai Palestina dan peruba",
-      "originalTitle": "Home Office pressured council to cancel event featuring pro-Palestine activist, disclosures suggest",
-      "originalDescription": "Home Office pressured council to cancel event featuring pro-Palestine activist, disclosures suggest Submitted by Katherine Hearst on Mon, 11/16/2026 - 12:35 Home Office warned Hackney officials that Tribune event could breach counter-terror laws despite an initial assessment finding Andreas Malm was 'unlikely to meet the threshold for disruption' Andreas Malm attends the \"How To Blow Up A Pipeline\" premiere during the 2022 Toronto International Film Festival on 10 September 2022 in Toronto, Ontario (Jeremy Chan/Getty Images/AFP ) Off The UK Home Office pushed Hackney Council to cancel an event featuring Swedish climate scholar Andreas Malm and Palestine Action co-founder Huda Ammori, despite the Home Office's own assessment which found the event \"did not meet the threshold for disruption,\" disclosures suggest. In October, Malm was barred from entering the UK by the Home Office, and instead was set to appear by video link at the event for the magazine Tribune on 4 November at a venue owned by Hackney Council. The event coincided with a legal challenge against the UK government’s controversial ban against Palestine Action which Ammori is fighting in the Supreme Court. Freedom of Information and Subject Access Request documents released to Tribune appear to show that in the run-up to the event, the Home Office tried to pressure Hackney Council officials into cancelling it by warning them that it could breach the Terrorism Act 2000 due to Ammori’s participation. The disclosures reveal that an initial Home Office assessment found that the event was “unlikely to meet the threshold for disruption”. Despite this, the Home Office contacted the Prevent and Hate Crime coordinator of Hackney Council, warning them that the event would feature “two speakers of concern” and sharing with them an intelligence summary used to bar Malm from entering the UK, which described him “legitimis[ing] and encoura[ing] attacks on energy infrastructure and terrorism”. In one email dated 12 Octob",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Untitled_92.jpg.jpg?itok=GETN_tA4",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-16T13:50:22+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/petty-authoritarianism-home-office-tried-pressure-hackney-council-cancelling-andreas-malm"
-    },
-    {
-      "id": "45d88d77010016be",
-      "title": "Militer Israel mengatakan itu tidak akan mengusir pemukim yang menempati rumah-rumah Palestina di Jericho",
-      "description": "Militer Israel mengatakan itu tidak akan mengusir pemukim yang menempati rumah-rumah Palestina di Jericho Dipersembahkan oleh Nadav Rapaport pada Mon, 11 / 16 / 2026 - 11: 53 Awal bulan ini, keluarga-keluarga Israel menyerbu sebuah lingkungan Tepi Barat dan mengambil alih 8 rumah Palestina Badui anak-anak Palestina, yang rumahnya dekat dengan kota Tepi Barat yang diduduki Jericho diambil alih oleh pemukim Israel minggu lalu, bermain di sebuah lokasi baru dekat perbatasan kota pada 9 November 2026 (AFP) Off The Israel militer Israel telah memutuskan untuk tidak mengevakuasi 13 keluarga pemukim pemukim yang menyerbu rumah-rumah orang Palestina di sebuah kota di Jericho Timur yang menempati Bank Barat, sebagai pejabat militer takut akan menjadi bawella, situs Israel pada hari Senin. Awal bulan ini, sumber-sumber keamanan Palestina mengatakan penduduk Israel, disertai dengan keluarga mereka, menyerbu delapan rumah Palestina di al- Duyuk al- Taita, barat dari Yerikho. Rumah-rumah itu kosong pada saat itu, dan pemukim menghancurkan pintu mereka sebelum menempati properti, sumber keamanan mengatakan agen berita Wafa. Kelompok hak-hak Israel, Peace, mengatakan bahwa sekitar 30 pendatang datang untuk mengambil alih rumah-rumah, dan seperti yang mereka lakukan, mereka menyerang dan merampok dua aktivis Israel dan menembak seorang Palestina di kaki. Walla melaporkan bahwa serangan melanggar peraturan tentara dan dilakukan tanpa persetujuan militer sebelumnya. Namun, Avi Bluth, komandan tentara Israel di Tepi Barat, telah memutuskan untuk mengusir pemukim. Dengan pemerintahan Israel berikutnya masih sedang diputuskan, Bluth ingin menghindari kontroversial gerakan, laporan mengatakan, termasuk evakuasi keluarga pemukim. Bluth, yang dibesarkan di pemukiman Israel, memiliki kebijakan yang berlebihan untuk memperluas pos-pos pemukim di seluruh Tepi Barat selama masa jabatannya, memerintahkan tentara untuk memblokir jalan pemukim 'menuju Area A, yang berada di bawah kekuasaan Otorit",
-      "originalTitle": "Israeli military says it will not evict settlers occupying Palestinian homes in Jericho",
-      "originalDescription": "Israeli military says it will not evict settlers occupying Palestinian homes in Jericho Submitted by Nadav Rapaport on Mon, 11/16/2026 - 11:53 Earlier this month, Israeli families raided a West Bank neighbourhood and took over eight Palestinian homes Palestinian Bedouin children, whose homes near the occupied West Bank city of Jericho were taken over by Israeli settlers the previous week, play at a new location near the city limits on 9 November 2026 (AFP) Off The Israeli military has decided not to evacuate 13 settler families who raided Palestinian homes in a neighbourhood of Jericho in the eastern occupied West Bank, as military officials fear a right-wing backlash, the Israeli news site Walla reported on Monday. Earlier this month, Palestinian security sources said Israeli settlers, accompanied by their families, stormed eight Palestinian homes in al-Duyuk al-Tahta, west of Jericho. The homes were empty at the time, and the settlers smashed their doors before occupying the properties, the security sources told the Wafa news agency. Israeli rights group Peace Now said that around 30 settlers came to take over the houses, and as they did, \"they assaulted and robbed two Israeli activists and shot a Palestinian man in the leg\". Walla reported that the raid violated army regulations and was carried out without prior military approval. However, Avi Bluth, the commander of the Israeli army in the West Bank, has decided against evicting the settlers. With Israel's next government still being decided, Bluth wants to avoid controversial moves, the report said, including the evacuation of the settler families. Bluth, who grew up in an Israeli settlement, has overseen policies to expand settler outposts across the West Bank during his tenure, ordered the army to block the settlers' road leading to Area A, which is under Palestinian Authority control and where Israeli law prohibits Israelis from entering. The settlers invaded homes in Area C, where Israel maintains full civi",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/displaced-palestinian-children-jericho-9nov26-afp.jpg.jpg?itok=dBmSf1iI",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-16T13:44:08+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/israeli-military-will-not-evict-settlers-occupying-palestinian-homes-jericho"
-    },
-    {
-      "id": "71045fcb094dfa23",
-      "title": "Raja Salman menunjuk Al- Ruwaili bertindak Komandan Pasukan Gabungan",
-      "description": "RIYADH - Penjaga dari Dua Masjid Suci Raja Salman mengeluarkan perintah kerajaan pada Senin penunjukan Letnan Fahd bin Hamad Al- Salman sebagai Penasehat Menteri Pertahanan untuk Urusan Militer. Perintah kerajaan juga ditugaskan Kepala Jenderal Staf. Fayyad Al- Ruwaili sebagai tugas Komandan Pasukan Gabungan, selain tanggung jawabnya saat ini. Raja Salman, yang juga Panglima Tertinggi semua Angkatan Militer, mengeluarkan perintah sejalan dengan rekomendasi Menteri Pertahanan Pangeran Khalid bin Salman.",
-      "originalTitle": "King Salman appoints Al-Ruwaili acting Commander of the Joint Forces",
-      "originalDescription": "RIYADH — Custodian of the Two Holy Mosques King Salman issued a royal order on Monday appointing Lt. Gen. Fahd bin Hamad Al-Salman as Advisor to the Minister of Defense for Military Affairs.The royal order also assigned Chief of the General Staff Gen. Fayyad Al-Ruwaili to assume the duties of Commander of the Joint Forces, in addition to his current responsibilities.King Salman, who is also Supreme Commander of all Military Forces, issued the order in line with the recommendation of Minister of Defense Prince Khalid bin Salman.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/16/2795247.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi",
-        "Masjid dan Peradaban"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T13:26:43+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666291/saudi-arabia/king-salman-appoints-al-ruwaili-acting-commander-of-the-joint-forces"
-    },
-    {
-      "id": "3b1c1c043357e1c5",
-      "title": "Arab Saudi menghapus komandan koalisi militer di Yaman dari jabatannya",
-      "description": "Arab Saudi mengangkat komandan koalisi militer di Yaman dari jabatannya di Arab Saudi pada hari Senin memecat komandan koalisi militer yang mendukung pemerintah internasional Yaman yang diakui secara internasional terhadap Houini, Badan Pers Saudi (SPA) mengumumkan. \"Jenderal Fahd bin Hamad bin Abdulazial- Salman telah ditunjuk sebagai penasihat Menteri Pertahanan\", SPA melaporkan, mengutip keputusan kerajaan. Ini menambahkan bahwa ia akan digantikan oleh Kepala Staf Umum Fayyad al- Ruwaili.",
-      "originalTitle": "Saudi Arabia removes commander of military coalition in Yemen from his post",
-      "originalDescription": "Saudi Arabia removes commander of military coalition in Yemen from his post Saudi Arabia on Monday dismissed the commander of the military coalition supporting the internationally recognised Yemeni government against the Houthis, the Saudi Press Agency (SPA) announced. \"General Fahd bin Hamad bin Abdulaziz al-Salman has been appointed as an advisor to the Minister of Defense,\" the SPA reported, citing a royal decree. It added that he would be replaced by Chief of the General Staff Fayyad al-Ruwaili.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D76F6NQ.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-16T13:25:25+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-removes-commander-military-coalition-yemen-his-post"
-    },
-    {
-      "id": "0cdcb587622cb905",
-      "title": "Arab Saudi meluncurkan kampanye nasional untuk mengembalikan keseimbangan lingkungan",
-      "description": "RIYADH - Kementerian Lingkungan Hidup, Air dan Pertanian, melalui Inisiatif Kesadaran Lingkungan, diluncurkan pada hari Senin Kampanye Keseimbangan Lingkungan 2026 di bawah slogan \"Keseimbangan Kami\". Kampanye ini berjalan selama 15 hari, dari Nov 15 sampai 29, dengan partisipasi dari berbagai lembaga dan pusat dalam sistem lingkungan, serta pemerintah, swasta, dan sektor nirlaba, dan anggota masyarakat dari semua daerah di Kingdom. Kampanye ini didasarkan pada visi nasional yang menekankan bahwa perlindungan lingkungan adalah tanggung jawab dari sistem yang saling berhubungan, di mana peran dari pelayanan dan pusat-pusat spesialnya saling melengkapi. Upaya mereka bersatu untuk melindungi sumber daya alam dan mempertahankan keseimbangan sistem ekologi, penyatuan pesan kesadaran dan mencapai tujuan dari Saudi Vision 2030 dan Strategi Lingkungan Nasional dalam mempertahankan sumber daya alam dan mengurangi semua bentuk polusi. Kampanye ini mempromosikan praktek-praktek lingkungan yang bertanggung jawab dan perlindungan alam, alam, padang gurun, dan daerah pesisir, menyoroti interketergantungan dari unsur-unsur lingkungan melalui isu-isu kunci seperti memancing satwa liar dan berkelanjutan; perlindungan vegetasi dan pemulihan habitat; lingkungan laut, terumbu karang, dan penyu laut; dampak infrastruktur dan pelayanan lingkungan; limbah dan ekonomi lingkaran; cuaca dan pemantauan iklim; dan memungkinkan solusi dan pembiayaan lingkungan. Kementrian menyerukan semua lembaga pemerintah, lembaga pendidikan, sektor swasta dan organisasi nirlaba, dan masyarakat umum untuk terlibat dengan kampanye melalui platform digital dan inisiatif-ground. Hal ini didasarkan pada prinsip yang mempertahankan keseimbangan lingkungan adalah tanggung jawab bersama yang menyatukan individu, organisasi, dan bisnis dalam mendukung tujuan lingkungan dan memastikan keberlanjutan sumber daya alam Kerajaan.",
-      "originalTitle": "Saudi Arabia launches nationwide campaign to restore environmental balance",
-      "originalDescription": "RIYADH — The Ministry of Environment, Water and Agriculture, through the Environmental Awareness Initiative, launched on Monday the 2026 Environmental Balance Campaign under the slogan “Balance Connects Us.” The campaign runs for 15 days, from Nov. 15 to 29, with participation from various agencies and centers within the environmental system, as well as government, private, and nonprofit sectors, and members of the public from all regions of the Kingdom. The campaign is based on a national vision that emphasizes that environmental protection is the responsibility of an interconnected system, in which the roles of the ministry and its specialized centers complement one another. Their efforts are united to safeguard natural resources and maintain the balance of ecological systems, unifying awareness messages and achieving the objectives of Saudi Vision 2030 and the National Environment Strategy in preserving natural resources and reducing all forms of pollution. The campaign promotes responsible environmental practices and the protection of natural, wilderness, and coastal areas, highlighting the interdependence of environmental elements through key issues such as wildlife and sustainable fishing; vegetation cover and habitat restoration; the marine environment, coral reefs, and sea turtles; infrastructure impact and environmental stewardship; waste and the circular economy; weather and climate monitoring; and enabling solutions and environmental financing. The ministry called on all government agencies, educational institutions, private-sector and nonprofit organizations, and the general public to engage with the campaign through digital platforms and on-the-ground initiatives. This is based on the principle that preserving environmental balance is a shared responsibility that unites individuals, organizations, and businesses in supporting environmental goals and ensuring the sustainability of the Kingdom’s natural resources.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/16/2795233.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T12:48:57+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666288/saudi-arabia/saudi-arabia-launches-nationwide-campaign-to-restore-environmental-balance"
-    },
-    {
-      "id": "f02be852f6950af9",
-      "title": "Lebih dari 25,5 Juta Penumpang Gunakan Bus di Kota-Kota Arab Saudi pada Kuartal III 2026",
-      "description": "Otoritas Transportasi Arab Saudi melaporkan jumlah penumpang bus di kota-kota Saudi menembus 25,5 juta pada kuartal ketiga 2026, naik 3,6% dari tahun sebelumnya.",
-      "originalTitle": "Lebih dari 25,5 Juta Penumpang Gunakan Bus di Kota-Kota Arab Saudi pada Kuartal III 2026",
-      "originalDescription": "Otoritas Transportasi Arab Saudi melaporkan jumlah penumpang bus di kota-kota Saudi menembus 25,5 juta pada kuartal ketiga 2026, naik 3,6% dari tahun sebelumnya.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-08/الهيئة-العامة-للنقل-L35e1VQn.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T12:39:44+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/inow6u34s"
-    },
-    {
-      "id": "53e03b8fad0a73d1",
-      "title": "Palang Merah Arab Saudi di Riyadh Teken Kerja Sama Tingkatkan Respons Darurat",
-      "description": "Palang Merah Arab Saudi di Riyadh menandatangani perjanjian dengan tim respons cepat untuk mempercepat penanganan darurat dan meningkatkan layanan ambulans.",
-      "originalTitle": "Palang Merah Arab Saudi di Riyadh Teken Kerja Sama Tingkatkan Respons Darurat",
-      "originalDescription": "Palang Merah Arab Saudi di Riyadh menandatangani perjanjian dengan tim respons cepat untuk mempercepat penanganan darurat dan meningkatkan layanan ambulans.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-l9JluFld.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T12:20:30+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/laa8l84rv"
-    },
-    {
-      "id": "9fae7c9850edf69c",
-      "title": "Britania definisi 'anti- Muslim permusuhan' melindungi negara, bukan mereka yang menjadi target",
-      "description": "Definisi Inggris dari 'anti- Muslim permusuhan' melindungi negara, bukan mereka yang sedang ditargetkan oleh Karsen Trull pada Thu, 11 / 12 / 2026 - 14: 09 Laporan baru dari Cage International menunjukkan bagaimana kebijakan Inggris meninggalkan mekanisme pusat postingan -9 / 11 Islammophobia tidak tersentuh - dan meminjamkan secara resmi menutupi definisi Inggris anti- permusuhan Muslim 'bukanlah upaya gagal untuk melindungi umat Islam. Ini adalah upaya sukses untuk melindungi negara' (Reuters) Off Tahun ini ditandai seperempat abad sejak awal \"perang terhadap teror\", dan pada saat itu, Inggris telah membangun salah satu yang paling luas countermisme sistem di dunia. Juga tahun ini, Inggris diproduksi - untuk pertama kalinya - definisi resmi dari apa yang disebut \"anti- Muslim permusuhan\". Akan lebih mudah untuk menganggap ini sebagai kisah yang terpisah, satu tentang keamanan dan lainnya tentang hubungan masyarakat - tapi laporan baru dari Cage International berpendapat bahwa mereka tidak. Definisi telah dibentuk begitu tepat di sekitar negara keamanan yang, membaca dekat, berfungsi kurang sebagai perlindungan bagi umat Islam daripada sebagai perlindungan bagi lembaga yang telah menghabiskan dua dekade memperlakukan mereka sebagai tersangka. Kuncinya, saat laporan ditetapkan, terletak pada satu kata yang berjalan melalui setiap bagian dari definisi: maksud. Permusuhan anti- Muslim, seperti pemerintah mendefinisikan itu, berarti sengaja terlibat dalam tindakan kriminal terhadap Muslim, atau stereotip mereka \"dengan maksud mendorong kebencian\". Ini berarti diskriminasi di mana perilaku \"dimaksudkan untuk merugikan umat Muslim dalam kehidupan publik dan ekonomi\". Diskriminasi jarang mengumumkan sendiri dengan cara ini. Unit Respon Islammophobia, sebuah badan amal yang menangani kasus diskriminasi, telah memperingatkan bahwa ambang batas tidak termasuk kasus yang dilihatnya: bias, hambatan institusi, dan perekrutan proses yang diam-diam menyaring pelamar dengan nama M",
-      "originalTitle": "Britain's definition of 'anti-Muslim hostility' protects the state, not those being targeted",
-      "originalDescription": "Britain's definition of 'anti-Muslim hostility' protects the state, not those being targeted Submitted by Karsen Trull on Thu, 11/12/2026 - 14:09 New report from Cage International shows how UK policy leaves the central mechanism of post-9/11 Islamophobia untouched - and lends it official cover Britain's definition of anti-Muslim hostility 'is not a failed attempt to protect Muslims. It is a successful attempt to protect the state' (Reuters) Off This year marked a quarter of a century since the beginning of the “war on terror”, and in that time, the British state has built one of the most extensive counter-extremism systems in the world. Also this year, Britain produced - for the first time - an official definition of what it calls “anti-Muslim hostility” . It would be easy to treat these as separate stories, one about security and the other about community relations - but a new report from Cage International argues that they are not. The definition has been shaped so precisely around the security state that, read closely, it functions less as a protection for Muslims than as a protection for the institutions that have spent two decades treating them as suspects. The key, as the report sets out, lies in a single word that runs through every part of the definition: intent. Anti-Muslim hostility, as the government defines it, means intentionally engaging in criminal acts against Muslims, or stereotyping them “with the intention of encouraging hatred.” It means discrimination where the conduct “is intended to disadvantage Muslims in public and economic life”. Discrimination rarely announces itself this way. The Islamophobia Response Unit, a charity that handles discrimination casework, has warned that the threshold excludes most of the cases it sees: bias, institutional barriers, and recruitment processes that quietly filter out applicants with Muslim names. Professor Nasar Meer of the University of Glasgow has identified the omission of the systemic and structural as ",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/uk-police-mosque-regents-park-london-dec-1998-pic-reuters.jpg.jpg?itok=q4peE25f",
-      "category": "Dunia Muslim",
-      "tags": [
-        "Dunia Muslim",
-        "Islamofobia dan Diskriminasi",
-        "Nasional Islam"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-16T12:20:29+00:00",
-      "originalUrl": "https://www.middleeasteye.net/opinion/britains-definition-anti-muslim-hostility-protects-state-not-those-being-targeted"
     }
   ]
 }
