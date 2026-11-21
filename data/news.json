@@ -1,11 +1,11 @@
 {
-  "status": "partial",
-  "lastUpdated": "2026-11-21T09:49:49.058928+00:00",
+  "status": "success",
+  "lastUpdated": "2026-11-21T17:32:03.660642+00:00",
   "total": 500,
-  "newArticles": 136,
+  "newArticles": 127,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 11,
-  "sourcesFailed": 1,
+  "sourcesSucceeded": 12,
+  "sourcesFailed": 0,
   "sourceStats": [
     {
       "name": "Al Jazeera",
@@ -13,7 +13,7 @@
       "raw": 25,
       "accepted": 2,
       "filtered": 23,
-      "filteredFootball": 2,
+      "filteredFootball": 4,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 24,
+      "raw": 25,
       "accepted": 0,
-      "filtered": 24,
+      "filtered": 25,
       "filteredFootball": 0,
-      "translated": 24,
+      "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -35,8 +35,8 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 11,
-      "filtered": 4,
+      "accepted": 10,
+      "filtered": 5,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -47,9 +47,9 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 5,
-      "filtered": 45,
-      "filteredFootball": 0,
+      "accepted": 1,
+      "filtered": 49,
+      "filteredFootball": 3,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 13,
-      "filtered": 7,
-      "filteredFootball": 2,
+      "accepted": 9,
+      "filtered": 11,
+      "filteredFootball": 1,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -93,15 +93,15 @@
     },
     {
       "name": "Detik",
-      "status": "error",
-      "raw": 0,
-      "accepted": 0,
-      "filtered": 0,
-      "filteredFootball": 0,
+      "status": "success",
+      "raw": 100,
+      "accepted": 2,
+      "filtered": 98,
+      "filteredFootball": 1,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
+      "error": null
     },
     {
       "name": "Muhammadiyah",
@@ -119,8 +119,8 @@
       "name": "NU Online",
       "status": "success",
       "raw": 49,
-      "accepted": 10,
-      "filtered": 39,
+      "accepted": 11,
+      "filtered": 38,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -131,8 +131,8 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 38,
-      "filtered": 12,
+      "accepted": 35,
+      "filtered": 15,
       "filteredFootball": 2,
       "translated": 0,
       "translationPartial": 0,
@@ -156,16 +156,645 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 232,
+    "translatedArticles": 234,
     "partialArticles": 0,
     "failedArticles": 0,
-    "cacheEntries": 3619
+    "cacheEntries": 3715
   },
   "images": {
     "found": 500,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "9f208b181f8b8fe3",
+      "title": "Koalisi Saudi- dipimpin dilakukan 71 serangan dalam 24 jam, Houthis mengatakan",
+      "description": "Koalisi Saudi- dipimpin dilakukan 71 serangan dalam 24 jam, Houthis mengatakan Koalisi Saudi - dipimpin dilakukan 71 serangan dalam 24 jam terakhir dan ditargetkan \"situs sipil\" di pemerintah al- Bayda, Amran, Hajjah, Saada, Lahij, Taiz, al- Jawf dan Marib, juru bicara militer Houthi Yahya Saree kata. Saree mengatakan dalam sebuah pernyataan bahwa serangan mengakibatkan korban sipil.",
+      "originalTitle": "Saudi-led coalition carried out 71 strikes in 24 hours, Houthis say",
+      "originalDescription": "Saudi-led coalition carried out 71 strikes in 24 hours, Houthis say The Saudi-led coalition carried out 71 strikes in the past 24 hours and targeted “civilian sites” in the governorates of al-Bayda, Amran, Hajjah, Saada, Lahij, Taiz, al-Jawf and Marib, Houthi military spokesperson Yahya Saree said. Saree said in a statement that the attacks resulted in civilian casualties.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_C7FN2G9%281%29.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-21T17:00:49+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-carried-out-71-strikes-24-hours-houthis-say"
+    },
+    {
+      "id": "d9995c5544ef282c",
+      "title": "Pemkot Riyadh Al-Khabar Tindaklanjuti 562 Laporan dan Atasi 285 Titik Gangguan Visual",
+      "description": "Pemerintah Kota Riyadh Al-Khabar menindaklanjuti 562 laporan dan menangani gangguan visual di 285 lokasi selama kuartal ketiga 2026.",
+      "originalTitle": "Pemkot Riyadh Al-Khabar Tindaklanjuti 562 Laporan dan Atasi 285 Titik Gangguan Visual",
+      "originalDescription": "Pemerintah Kota Riyadh Al-Khabar menindaklanjuti 562 laporan dan menangani gangguan visual di 285 lokasi selama kuartal ketiga 2026.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/WhatsApp-Image-2026-11-21-at-64518-PM-7NvzdEOO.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T16:55:03+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/559v419ew"
+    },
+    {
+      "id": "fd1e3064930bbefc",
+      "title": "Apakah Rekrutmen PRT dari Etiopia Masih Dibuka? Musaned Beri Penjelasan",
+      "description": "Platform Musaned menegaskan rekrutmen pekerja rumah tangga asal Etiopia di Arab Saudi tetap tersedia sesuai biaya yang telah ditetapkan sebelumnya.",
+      "originalTitle": "Apakah Rekrutmen PRT dari Etiopia Masih Dibuka? Musaned Beri Penjelasan",
+      "originalDescription": "Platform Musaned menegaskan rekrutmen pekerja rumah tangga asal Etiopia di Arab Saudi tetap tersedia sesuai biaya yang telah ditetapkan sebelumnya.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/3812-crop-FnIkiwC9.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T16:43:12+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/p1tj39h6z"
+    },
+    {
+      "id": "e410b34ca1deda43",
+      "title": "Utusan Saudi mempersembahkan kredensial sebagai duta besar non-penduduk untuk presiden Macedonia Utara",
+      "description": "SKOPJE - Duta Besar Arab Saudi ke Albania Turki Al- Madi telah menunjukkan kredensial nya sebagai duta besar non-penduduk luar biasa dan plenipotinary ke Makedonia Utara kepada Presiden Gordana Siljanovska- Davkova. Selama upacara, Duta Besar Al- Madi menyampaikan salam dari Penjaga Dua Masjid Suci Raja Salman dan Putra Mahkota dan Perdana Menteri Mohammed bin Salman, bersama dengan keinginan mereka untuk kemajuan lebih lanjut dan kemakmuran bagi pemerintah dan masyarakat Makedonia Utara. Presiden Siljanovska- Davkova menyatakan rasa terima kasihnya dan apresiasi kepada kepemimpinan Kingdom, pemerintah, dan rakyat, menegaskan aspirasi Macedonia Utara untuk memperkuat kerjasama bilateral di semua bidang.",
+      "originalTitle": "Saudi envoy presents credentials as non-resident ambassador to North Macedonia president",
+      "originalDescription": "SKOPJE — Saudi Ambassador to Albania Turki Al-Madi has presented his credentials as non-resident ambassador extraordinary and plenipotentiary to North Macedonia to President Gordana Siljanovska-Davkova. During the ceremony, Ambassador Al-Madi conveyed the greetings of Custodian of the Two Holy Mosques King Salman and Crown Prince and Prime Minister Mohammed bin Salman, along with their wishes for further progress and prosperity for the government and people of North Macedonia. President Siljanovska-Davkova expressed her gratitude andappreciation to the Kingdom's leadership, government, and people, affirming North Macedonia's aspiration to strengthen bilateral cooperation across all fields.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/21/2797697.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T16:13:10+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666421/saudi-arabia/saudi-envoy-presents-credentials-as-non-resident-ambassador-to-northmacedonia-president"
+    },
+    {
+      "id": "cdd285f51eded313",
+      "title": "Permintaan Layanan Antar di Arab Saudi Tembus 129 Juta pada Kuartal III 2026",
+      "description": "Jumlah permintaan layanan antar di Arab Saudi melebihi 129 juta pada kuartal ketiga 2026, naik 25,2% dibanding periode yang sama tahun lalu.",
+      "originalTitle": "Permintaan Layanan Antar di Arab Saudi Tembus 129 Juta pada Kuartal III 2026",
+      "originalDescription": "Jumlah permintaan layanan antar di Arab Saudi melebihi 129 juta pada kuartal ketiga 2026, naik 25,2% dibanding periode yang sama tahun lalu.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-ox-rtS3i.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T16:03:04+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/va5spi6cp"
+    },
+    {
+      "id": "e22a9f5b52809770",
+      "title": "Arab Saudi mendeportasi 11.915 warga ilegal dalam seminggu",
+      "description": "RIYADH - otoritas keamanan Saudi menangkap 10,783 warga ilegal dalam seminggu. Penangkapan dilakukan dalam pemeriksaan bersama, dilakukan oleh pasukan keamanan dalam kolaborasi dengan lembaga-lembaga pemerintah yang relevan, selama periode antara 12 November dan 18, Kementerian Dalam Negeri diumumkan pada hari Sabtu. Mereka yang ditangkap termasuk 5.718 pelanggar Hukum Residensi, 2.797 pelanggar Hukum Keamanan Perbatasan, dan 2.268 pelanggar Hukum Tenaga Kerja. Total penduduk ilegal 11.915 dideportasi sementara 23.250 pelanggar disebut misi diplomatik mereka untuk mendapatkan dokumen perjalanan dan 10,814 pelanggar disebut untuk menyelesaikan pemesanan perjalanan mereka. Jumlah total orang yang ditangkap saat mencoba untuk menyeberangi perbatasan ke Kingdom terhitung 1.373. Total 28 orang ditangkap saat mencoba meninggalkan Kerajaan secara ilegal. Beberapa 14 orang terlibat dalam memberikan transportasi, tempat tinggal, dan pekerjaan untuk pelanggar juga ditangkap. Total ekspatriat 40.941, termasuk 38.730 pria dan 2.211 perempuan, saat ini menjalani prosedur untuk melakukan tindakan hukum untuk pelanggaran. Kementerian Dalam Negeri telah memperingatkan bahwa setiap orang, yang memfasilitasi entri ilegal individu ke Kerajaan, mengangkut mereka di wilayahnya, menyediakan tempat tinggal atau bantuan atau jasa lainnya, akan dihukum hingga 15 tahun penjara dan denda hingga SR1 juta, dan kendaraan yang digunakan untuk transportasi atau rumah yang digunakan untuk memberikan perlindungan akan disita. Menteri mendesak publik untuk melaporkan setiap kasus pelanggaran dengan menelepon nomor 911 di daerah Mekah, Riyadh, dan Provinsi Timur dan nomor 999 dan 996 di sisa wilayah Kerajaan.",
+      "originalTitle": "Saudi Arabia deports 11,915 illegal residents in a week",
+      "originalDescription": "RIYADH — Saudi security authorities arrested a total of 10,783 illegal residents in a week. The arrests were made in the joint inspections, carried out by the security forces in collaboration with the relevant government agencies, during the period between November 12 and 18, the Ministry of Interior announced on Saturday. Those who were arrested include 5,718 violators of the Residency Law, 2,797 violators of the Border Security Law, and 2,268 violators of the Labor Law. A total of 11,915 illegal residents were deported while 23,250 violators were referred to their diplomatic missions to obtain travel documents and 10,814 violators were referred to complete their travel reservations. The total number of people who were arrested while trying to cross the border into the Kingdom accounted for 1,373. A total of 28 people were arrested while attempting to leave the Kingdom illegally. Some 14 people involved in giving transportation, shelter, and employment for violators were also arrested. A total of 40,941 expatriates, including 38,730 men and 2,211 women, are currently undergoing procedures to enforce legal measures for violations. The Ministry of Interior has warned that any person, who facilitates the illegal entry of individuals into the Kingdom, transports them on its territory, provides them with shelter or any other assistance or service, will be penalized with up to 15 years in prison and a fine of up to SR1 million, and that the vehicles used for transportation or houses used for giving shelter will be confiscated. The ministry urged the public to report any cases of violation by calling the number 911 in the regions of Makkah, Riyadh, and the Eastern Province and the numbers 999 and 996 in the rest of the Kingdom’s regions.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/21/2797696.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T16:02:53+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666420/saudi-arabia/saudi-arabia-deports-11915-illegal-residents-in-a-week"
+    },
+    {
+      "id": "848a3955abc55cdb",
+      "title": "'Akan melemparkan kunci kembali ke PBB': Dewan Dewan Penasihat Perdamaian yang ditunjuk mengatakan Israel memblokir upaya",
+      "description": "'Akan melemparkan kembali kunci ke PBB': Trump- ditunjuk Dewan Penasihat Perdamaian mengatakan Israel memblokir upaya Dibatalkan oleh Daniel Temter di Sat, 11 / 21 / 2026 - 13: 27 Dewan mengatakan itu frustrasi oleh hambatan Israel sementara Gaza tetap terjebak dalam krisis kemanusiaan yang mendalam Palestina berjalan masa lalu menghancurkan bangunan dan tenda perpindahan di Khan Younis, Jalur Gaza Selatan, 17 November 2026 (Eyad Baba / AFP) Off Seorang penasihat senior ke AS - dipimpin Dewan Perdamaian untuk Gaza mengatakan bahwa panel akan \"melemparkan kunci kembali ke PBB\" jika Israel terus memblokir upaya untuk mempersiapkan stabilitas internasional dan Hamas Gencatan. \"Kami telah sangat sabar dan telah memberikan Israel ruang\", resmi AS Josh Gruenbaum kepada situs berita Israel Ynet dalam wawancara diterbitkan pada hari Jumat. Tapi dia bilang \"membuat frustasi\" bahwa \"Israel gagal melanjutkan komitmen pada Perdana Menteri Netanyahu yang dibuat untuk Presiden Trump\". \"Jika kepemimpinan politik ini [di Israel] sekarang memberitahu kita bahwa mereka tidak lagi ingin menghormati apa yang mereka berkomitmen, maka biarkan kami tahu sekarang - dan kita pada dasarnya akan melemparkan kunci kembali ke PBB untuk mengawasi mandat,\" kata Gruenbaum. Dipimpin oleh Presiden AS Donald Trump, Dewan Perdamaian diberikan mandat menyapu oleh Dewan Keamanan PBB pada bulan November 2025 untuk mendirikan kekuatan stabilisasi internasional di Gaza sebagai bagian dari rencana 20 poin untuk mengakhiri permusuhan dan merehabilitasi enklaf yang hancur. Sementara rencana tersebut menetapkan beberapa tuntutan Israel, termasuk demiliterisasi penuh di Jalur Gaza, pembicaraan telah berhenti selama berbulan-bulan karena perselisihan akan kepemilikan senjata Hamas dan serangan Israel yang sedang berlangsung, yang telah membunuh lebih dari 1.600 warga Palestina di Gaza sejak gencatan senjata Oktober 2025. Hamas secara resmi menerima Dewan Peta Jalan Perdamaian pada bulan Juli, setuju untuk menyer",
+      "originalTitle": "'Will throw keys back to UN': Trump-appointed Board of Peace adviser says Israel blocking efforts",
+      "originalDescription": "'Will throw keys back to UN': Trump-appointed Board of Peace adviser says Israel blocking efforts Submitted by Daniel Tester on Sat, 11/21/2026 - 13:27 The board said it was frustrated by Israel's obstructions while Gaza remains trapped in a deepening humanitarian crisis Palestinians walk past destroyed buildings and displacement tents in Khan Younis, southern Gaza Strip, 17 November 2026 (Eyad Baba/AFP) Off A senior adviser to the US -led Board of Peace for Gaza has said that the panel will \"throw the keys back to the UN\" if Israel continues to block efforts to prepare for an international stabilisation force and disarm Hamas. “We have been extremely patient and have given Israel its space,” US official Josh Gruenbaum told the Israeli news site Ynet in an interview published on Friday. But he said that it was “frustrating” that “Israel is failing to move forward on the commitments Prime Minister Netanyahu made to President Trump”. “If this political leadership [in Israel] is now telling us that they no longer want to honour what they committed to, then just let us know now - and we’re basically going to throw the keys back to the UN to oversee the mandate,” Gruenbaum said. Chaired by US President Donald Trump, the Board of Peace was given a sweeping mandate by the UN Security Council in November 2025 to establish an international stabilisation force in Gaza as part of a 20-point plan to end hostilities and rehabilitate the devastated enclave. While the plan features several Israeli demands, including the full demilitarisation of the Gaza Strip, talks have stalled for months amid disputes over Hamas’ weapons handover and ongoing Israeli attacks, which have killed over 1,600 Palestinians in Gaza since the October 2025 ceasefire. Hamas formally accepted the Board of Peace’s roadmap in July, agreeing to hand over its weapons to the National Committee for the Administration of Gaza, a technocratic Palestinian body inaugurated and overseen by the US-led board. But since ",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Palestinians%20walk%20past%20destroyed%20buildings%20and%20displacement%20tents%20in%20Khan%20Younis%2C%20southern%20Gaza%20Strip%2C%2017%20November%202026%20%28Eyad%20Baba%20AFP%29.jpg.jpg?itok=Pb3pBUGn",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-21T15:03:47+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/board-peace-adviser-warns-israel-it-could-hand-keys-gaza-un-over-stalled-talks"
+    },
+    {
+      "id": "566f72b21c907916",
+      "title": "PBNU Gelar PPWK di Lombok NTB, Perkuat Kapasitas Kepemimpinan Ulama",
+      "description": "PBNU menggelar PPWK Angkatan I Abad Kedua NU di Lombok. Kegiatan diikuti 100 peserta pilihan memperkuat kapasitas kepemimpinan dan wawasan keulamaan.",
+      "originalTitle": "PBNU Gelar PPWK di Lombok NTB, Perkuat Kapasitas Kepemimpinan Ulama",
+      "originalDescription": "PBNU menggelar PPWK Angkatan I Abad Kedua NU di Lombok. Kegiatan diikuti 100 peserta pilihan memperkuat kapasitas kepemimpinan dan wawasan keulamaan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/ppwk-di-ntb-news-nuo-21112026_1795274733.webp",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-21T15:00:00+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/pbnu-gelar-ppwk-di-lombok-ntb-perkuat-kapasitas-kepemimpinan-ulama-x1OGc"
+    },
+    {
+      "id": "9be4b5e3af525c97",
+      "title": "ZATCA imbau pelaku usaha segera laporkan pajak konsumsi September-Oktober 2026",
+      "description": "Otoritas Zakat, Pajak, dan Bea Cukai Arab Saudi meminta pelaku usaha yang terkena pajak konsumsi untuk melaporkan pajaknya untuk September dan Oktober 2026 paling lambat 30 November 2026.",
+      "originalTitle": "ZATCA imbau pelaku usaha segera laporkan pajak konsumsi September-Oktober 2026",
+      "originalDescription": "Otoritas Zakat, Pajak, dan Bea Cukai Arab Saudi meminta pelaku usaha yang terkena pajak konsumsi untuk melaporkan pajaknya untuk September dan Oktober 2026 paling lambat 30 November 2026.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-TejPdlCM.jpg",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah",
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T14:50:16+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/pb6nbhta3"
+    },
+    {
+      "id": "44611040ef29e7a4",
+      "title": "Tiga warga Palestina tewas akibat Israel serang bantuan pangan di Gaza",
+      "description": "Sebanyak tiga warga Palestina tewas akibat serangan udara Israel kepada satu kendaraan yang mengangkut bantuan pangan ...",
+      "originalTitle": "Tiga warga Palestina tewas akibat Israel serang bantuan pangan di Gaza",
+      "originalDescription": "Sebanyak tiga warga Palestina tewas akibat serangan udara Israel kepada satu kendaraan yang mengangkut bantuan pangan ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/10/08/Warga.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-21T14:35:20+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5870091/tiga-warga-palestina-tewas-akibat-israel-serang-bantuan-pangan-di-gaza"
+    },
+    {
+      "id": "b762cab7883e0d77",
+      "title": "Lelang Pelat Nomor Khusus Dibuka Besok Lewat Platform Absher",
+      "description": "Direktorat Jenderal Lalu Lintas Arab Saudi membuka lelang pelat nomor khusus secara daring melalui platform Absher mulai besok, Minggu.",
+      "originalTitle": "Lelang Pelat Nomor Khusus Dibuka Besok Lewat Platform Absher",
+      "originalDescription": "Direktorat Jenderal Lalu Lintas Arab Saudi membuka lelang pelat nomor khusus secara daring melalui platform Absher mulai besok, Minggu.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/featured-crop-0JS2JjNm.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T14:12:40+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/7jhlzptdv"
+    },
+    {
+      "id": "1544497e0a3f8312",
+      "title": "Yerusalem Daily: Gaza menghadapi serangan mematikan dan krisis kesehatan",
+      "description": "Yerusalem Daily: Gaza menghadapi serangan mematikan dan krisis kesehatan",
+      "originalTitle": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
+      "originalDescription": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795269949.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-21T14:06:06+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/21/jerusalem-daily-gaza-faces-deadly-strikes-and-health-crisis"
+    },
+    {
+      "id": "536078beb2725ce0",
+      "title": "Muslimat NU, Merawat Mata Rantai Perjuangan Perempuan Nahdlatul Ulama",
+      "description": "Kaderisasi perempuan Muslimat NU diperlukan. Tujuannya untuk menjaga kesinambungan perjuangan dan kepemimpinan organisasi.",
+      "originalTitle": "Muslimat NU, Merawat Mata Rantai Perjuangan Perempuan Nahdlatul Ulama",
+      "originalDescription": "Kaderisasi perempuan Muslimat NU diperlukan. Tujuannya untuk menjaga kesinambungan perjuangan dan kepemimpinan organisasi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/siti-aniroh-news21112026-anty-husnawati-harlah-muslimat-80_1795272523.webp",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-21T14:00:36+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/muslimat-nu-merawat-mata-rantai-perjuangan-perempuan-nahdlatul-ulama-szPSn"
+    },
+    {
+      "id": "deb5238ca148f74f",
+      "title": "Pertahanan Sipil Nyatakan Jazan Aman dari Ancaman",
+      "description": "Pertahanan Sipil Arab Saudi menyatakan situasi di Jazan telah aman usai peringatan dini, dan mengingatkan warga untuk tidak menyebarkan informasi terkait penanganan ancaman.",
+      "originalTitle": "Pertahanan Sipil Nyatakan Jazan Aman dari Ancaman",
+      "originalDescription": "Pertahanan Sipil Arab Saudi menyatakan situasi di Jazan telah aman usai peringatan dini, dan mengingatkan warga untuk tidak menyebarkan informasi terkait penanganan ancaman.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-09/الدفاع-المدني-PuvxMYyZ.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T13:16:07+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/fy0men0de"
+    },
+    {
+      "id": "cdf1139deea8ace1",
+      "title": "Investor asing menyuntikkan SR786 juta ke dalam 131 Saudi-terdaftar perusahaan",
+      "description": "RIYADH - Investor asing membeli total 34,9 juta saham, dihargai sekitar SR786 juta, pada Pertukaran Saham Saudi (Tadabul). Menurut laporan perubahan kepemilikan asing, meliputi minggu perdagangan berakhir November 19, kepemilikan mereka meningkat 131 perusahaan terdaftar pada Tadaul. Sementara itu, investor asing mengurangi kepemilikan mereka pada 197 perusahaan lain dengan menjual 53.3 juta saham senilai sekitar SR929 juta. Kepemilikan mereka tetap tidak berubah di 71 perusahaan lain. Indeks utama pasar saham Saudi, Tadabul, mengakhiri minggu dengan 167,6 poin, atau 1,6 persen, dari minggu sebelumnya, menutup pada 10,158,9 poin. Sementara itu, indeks pasar paralel, Nomu, ditolak 337.72 poin, atau 1,5 persen, selama periode yang sama, penutupan pada 21.716.4 poin.",
+      "originalTitle": "Foreign investors inject SR786 million into 131 Saudi-listed companies",
+      "originalDescription": "RIYADH — Foreign investors purchased a total of 34.9 million shares, valued at approximately SR786 million, on the Saudi Stock Exchange (Tadawul). According to a report on changes in foreign ownership, covering the trading week ended November 19, their holdings increased in 131 companies listed on Tadawul. Meanwhile, foreign investors reduced their holdings in 197 other companies by selling 53.3 million shares worth approximately SR929 million. Their ownership remained unchanged in 71 other companies. The Saudi stock market’s main index, Tadawul, ended the week down 167.6 points, or 1.6 percent, from the previous week, closing at 10,158.9 points. Meanwhile, the parallel market index, Nomu, declined by 337.72 points, or 1.5 percent, over the same period, closing at 21,716.4 points.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/21/2797564.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T13:03:41+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666418/saudi-arabia/foreign-investors-inject-sr786-million-into-131-saudi-listed-companies"
+    },
+    {
+      "id": "2463a7f19550bee8",
+      "title": "Arab Saudi Teken 12 Kesepakatan di Konferensi Transportasi Udara Dunia Montreal",
+      "description": "Arab Saudi menuntaskan partisipasinya di Konferensi Transportasi Udara Dunia ke-7 di Montreal dengan menandatangani 12 kesepakatan dan menggelar sejumlah agenda internasional.",
+      "originalTitle": "Arab Saudi Teken 12 Kesepakatan di Konferensi Transportasi Udara Dunia Montreal",
+      "originalDescription": "Arab Saudi menuntaskan partisipasinya di Konferensi Transportasi Udara Dunia ke-7 di Montreal dengan menandatangani 12 kesepakatan dan menggelar sejumlah agenda internasional.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-9Rl4w7-L.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T12:51:45+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/ekonomi/hc1ptbnlt"
+    },
+    {
+      "id": "5ce0d71d84286a18",
+      "title": "Santri Ponpes Ketapang Belum Pernah Dapat MBG, Ini Respons Sudaryono",
+      "description": "Kepala BGN Sudaryono hadir di munajat kebangsaan di Ponpes PPAI Ketapang, tekankan pentingnya program Makan Bergizi Gratis dan janji untuk segera meluncurkannya",
+      "originalTitle": "Santri Ponpes Ketapang Belum Pernah Dapat MBG, Ini Respons Sudaryono",
+      "originalDescription": "Kepala BGN Sudaryono hadir di munajat kebangsaan di Ponpes PPAI Ketapang, tekankan pentingnya program Makan Bergizi Gratis dan janji untuk segera meluncurkannya",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/21/bgn-1795264834896_169.jpeg?w=360&q=90",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "Detik",
+      "sources": [
+        "Detik"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-21T12:40:56+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8763662/santri-ponpes-ketapang-belum-pernah-dapat-mbg-ini-respons-sudaryono"
+    },
+    {
+      "id": "7d3f77d9f015a45b",
+      "title": "Israel menyerang pada kendaraan mendistribusikan bantuan makanan di Gaza membunuh tiga",
+      "description": "Secara terpisah, orang Palestina ditembak mati oleh pasukan Israel di Jabalia dan tiga orang terluka dalam serangan di Khan Younis.",
+      "originalTitle": "Israeli strike on vehicle distributing food aid in Gaza kills three",
+      "originalDescription": "Separately, Palestinian man is shot dead by Israeli forces in Jabalia and three people injured in attack in Khan Younis.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b018e5c201e-1795264092.jpg?resize=1920%2C1440",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-21T12:29:49+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza"
+    },
+    {
+      "id": "6f37f7ff7b93976d",
+      "title": "Layanan Skuter Listrik di Masjidil Haram untuk Lansia Diberi Diskon 50 Persen",
+      "description": "Otoritas Pengelola Dua Masjid Suci menegaskan lansia di atas 60 tahun mendapat diskon 50 persen untuk layanan skuter listrik di Masjidil Haram.",
+      "originalTitle": "Layanan Skuter Listrik di Masjidil Haram untuk Lansia Diberi Diskon 50 Persen",
+      "originalDescription": "Otoritas Pengelola Dua Masjid Suci menegaskan lansia di atas 60 tahun mendapat diskon 50 persen untuk layanan skuter listrik di Masjidil Haram.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/1000335548-crop-9cq2UNXL.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T12:23:43+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/jzrtmjmiy"
+    },
+    {
+      "id": "914866144b7f884a",
+      "title": "Pertahanan udara Saudi mencegat 3 rudal Houthi ditembakkan ke arah Riyadh",
+      "description": "RIYADH - pertahanan udara Saudi dicegat dan menghancurkan tiga rudal balistik yang diluncurkan oleh teroris Houthi milisi menuju Riyadh. Ini diungkapkan oleh Mayor Jenderal Turki Al- Maliki, juru bicara Koalisi untuk memulihkan Legitimasi di Yaman. Dia mengatakan bahwa dua drone, dipecat oleh milisi Houthi menuju daerah selatan, dicegat dan hancur.",
+      "originalTitle": "Saudi air defenses intercept 3 Houthi missiles fired toward Riyadh",
+      "originalDescription": "RIYADH — Saudi air defenses intercepted and destroyed three ballistic missiles launched by the terrorist Houthi militia toward Riyadh. This was disclosed by Maj. Gen. Turki Al-Maliki, spokesperson of the Coalition to Restore Legitimacy in Yemen. He said that two drones, fired by Houthi militia toward the southern region, were intercepted and destroyed.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/21/2797524.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T12:10:07+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666416/saudi-arabia/saudi-air-defenses-intercept-3-houthi-missiles-fired-toward-riyadh"
+    },
+    {
+      "id": "c23cab3bab9b2f39",
+      "title": "Serangan Israel segar di Gaza membunuh tiga",
+      "description": "Serangan baru Israel di Gaza membunuh tiga orang Palestina yang terbunuh oleh serangan udara Israel pada sebuah kendaraan di Gaza City 's Tel-al Hawa lingkungan pada hari Sabtu. Serangan tersebut, yang dilaporkan oleh badan berita Wafa dan dikonfirmasikan oleh wartawan Al Jazeera yang tinggal di enclave, juga melukai beberapa orang. Lebih dari 1.600 warga Palestina telah terbunuh oleh serangan Israel yang sedang berlangsung sejak persetujuan gencatan senjata Oktober 2025 antara Perdana Menteri Benjamin Netanyahu dan Hamas, dengan total korban kematian Palestina di wilayah tersebut sejak Oktober 2023 melebihi 74.000.",
+      "originalTitle": "Fresh Israeli attack on Gaza kills three",
+      "originalDescription": "Fresh Israeli attack on Gaza kills three Three Palestinians were killed by an Israeli air strike on a vehicle in Gaza City's Tel-al Hawa neighbourhood on Saturday. The attack, which was reported by the Wafa news agency and corroborated by Al Jazeera reporters based in the enclave, also injured several people. Over 1,600 Palestinians have been killed by ongoing Israeli attacks since the October 2025 ceasefire agreement between Prime Minister Benjamin Netanyahu's government and Hamas, with the total Palestinian death toll in the enclave since October 2023 exceeding 74,000.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_C7FN2G9%281%29.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-21T11:31:51+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/fresh-israeli-attack-gaza-kills-three"
+    },
+    {
+      "id": "db8b727771e906ab",
+      "title": "ZATCA ungkap 1.053 kasus penyelundupan dalam sepekan",
+      "description": "Otoritas Zakat, Pajak, dan Bea Cukai Arab Saudi (ZATCA) mengungkap 1.053 kasus penyelundupan di pelabuhan bea cukai selama satu pekan terakhir.",
+      "originalTitle": "ZATCA ungkap 1.053 kasus penyelundupan dalam sepekan",
+      "originalDescription": "Otoritas Zakat, Pajak, dan Bea Cukai Arab Saudi (ZATCA) mengungkap 1.053 kasus penyelundupan di pelabuhan bea cukai selama satu pekan terakhir.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/تهريب-vfxkDEqr.jpg",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah",
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T11:31:51+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/g344xf9zz"
+    },
+    {
+      "id": "e6608962feffb90a",
+      "title": "10.783 Pelanggar Izin Tinggal, Kerja, dan Keamanan Perbatasan Ditangkap di Arab Saudi dalam Sepekan",
+      "description": "Operasi gabungan di seluruh Arab Saudi selama 12–18 November 2026 berhasil menangkap 10.783 pelanggar aturan izin tinggal, kerja, dan keamanan perbatasan.",
+      "originalTitle": "10.783 Pelanggar Izin Tinggal, Kerja, dan Keamanan Perbatasan Ditangkap di Arab Saudi dalam Sepekan",
+      "originalDescription": "Operasi gabungan di seluruh Arab Saudi selama 12–18 November 2026 berhasil menangkap 10.783 pelanggar aturan izin tinggal, kerja, dan keamanan perbatasan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/وزارة-الداخلية-CMyuKNJA.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T10:13:05+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/hqta8uy23"
+    },
+    {
+      "id": "382a5bbcff58329c",
+      "title": "Amazon Saudi Arabia Luncurkan Promo 'White Friday' Selama 12 Hari",
+      "description": "Sebanyak 87% konsumen di Arab Saudi lebih antusias menyambut musim diskon tahun ini. Amazon Saudi Arabia hadirkan jutaan promo White Friday 19-30 November.",
+      "originalTitle": "Amazon Saudi Arabia Luncurkan Promo 'White Friday' Selama 12 Hari",
+      "originalDescription": "Sebanyak 87% konsumen di Arab Saudi lebih antusias menyambut musim diskon tahun ini. Amazon Saudi Arabia hadirkan jutaan promo White Friday 19-30 November.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/1001059333-crop-UqHzJHYv.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-21T10:10:59+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/ekonomi/9u4lbn0ez"
+    },
+    {
+      "id": "d30149b0b37c5018",
+      "title": "Kotak berisi bahan peledak jatuh dari langit: Senjata terbaru Israel di Gaza",
+      "description": "Kotak-kotak berisi bahan peledak yang jatuh dari langit: Senjata terbaru Israel di Gaza diturunkan oleh Abdallah al- Naami on Fri, 11 / 20 / 2026 - 12: 08 keluarga Palestina menceritakan bagaimana quadcopters Israel menjatuhkan bahan peledak ke rumah mereka, menghancurkan seluruh bangunan dan puluhan keluarga Jaber Yaber berdiri di tengah puing-puing rumahnya, dihancurkan oleh kotak-kotak berisi bahan peledak Israel di kota Gaza. Keluarga Palestina dari 13 terkejut oleh kebisingan, yang tumbuh lebih keras saat mendekati rumah mereka di setiap lingkungan Zaytoon, timur Gaza City. \"Saya pikir itu adalah sebuah tangki Israel pada awalnya. Saya melihat keluar jendela dan terkejut melihat sebuah pesawat tak berawak dengan membawa dua kotak bahan peledak terbang rendah di sekitar kita,\" Yaseen mengatakan kepada Mata Timur Tengah. \"Aku melihat pesawat tak berawak bergerak ke arah kita. Tanpa peringatan apapun, itu menjatuhkan dua kotak bahan peledak ke atap kami. Aku takut dengan kehidupan anak-anakku. Aku meraih mereka dan bergegas keluar dari rumah, mengetahui bahan peledak bisa meledak setiap saat. Kami tidak bisa membawa apa-apa bersama kami\". Panik menyebar sebagai keluarga menyaksikan lebih banyak drone Israel menjatuhkan bahan peledak ke atap di seluruh lingkungan. Puluhan dipaksa untuk meninggalkan rumah mereka, tanpa tempat untuk pergi. Sekelompok penduduk berkumpul di kejauhan, menyaksikan Drone quadcopter terus menjatuhkan bahan peledak. Beberapa menit kemudian, perangkat di atap mulai meledak. Selama 33 tahun, Ismail Madi tua, melihat drone sangat memilukan. \"Kami telah dipindahkan beberapa kali sebelumnya, dan setiap kali saya berpegang pada beberapa harapan bahwa kami akan kembali ke rumah. Tapi ketika saya melihat robot-robot terbang yang membawa bahan peledak di atas rumah kami, saya merasa seolah-olah saya telah meninggalkan jiwa saya saat berjalan pergi,\" Madi mengatakan kepada MeE. Abdaljawad Badwan, warga lain dari lingkungan, menggambarkan teror menont",
+      "originalTitle": "Explosive-laden boxes dropped from the sky: Israel’s latest weapon in Gaza",
+      "originalDescription": "Explosive-laden boxes dropped from the sky: Israel’s latest weapon in Gaza Submitted by Abdallah al-Naami on Fri, 11/20/2026 - 12:08 Palestinian families recount how Israeli quadcopters drop explosives on to their homes, demolishing entire buildings and displacing dozens of families Jaber Yaseen stands amid the rubble of his home, destroyed by explosive-laden boxes dropped by an Israeli drone in Gaza City’s al-Zaytoon neighbourhood (Abdallah al-Naami/MEE) Off Jaber Yaseen's family was preparing the traditional maftoul dish for their Friday family lunch when they heard a loud engine approaching. The Palestinian family of 13 were startled by the noise, which grew louder as it approached their home in al-Zaytoon neighbourhood, east of Gaza City. “I thought it was an Israeli tank at first. I looked out of the window and was shocked to see a huge quadcopter drone carrying two boxes of explosives, flying low over our neighbourhood,” Yaseen told Middle East Eye. “I watched the drone move towards us. Without any warning, it dropped the two boxes of explosives on to our roof. I was terrified for my children's lives. I grabbed them and rushed out of the house, knowing the explosives could detonate at any moment. We couldn't take anything with us.” Panic spread as families watched more Israeli drones dropping explosives on to rooftops across the neighbourhood. Dozens were forced to flee their homes, with nowhere to go. A group of residents gathered at a distance, watching as the quadcopter drones continued to drop explosives. Minutes later, the devices on the rooftops began detonating. For 33-year-old Ismail Madi, watching the drones was heartbreaking. “We had been displaced several times before, and each time I held on to some hope that we would return home. But when I saw the quadcopter drones carrying explosives above our home, I felt as though I had left my soul behind as I walked away,” Madi told MEE. Abdaljawad Badwan, another resident of the neighbourhood, described the",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Jaber%20Yaseen%20in%20front%20of%20his%20destroyed%20home%20in%20AlZaytoon%20neighborhood%20east%20of%20Gaza%20city%204%20%281%29.jpg.jpg?itok=smfQYLer",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-21T09:51:33+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/explosive-laden-boxes-dropped-sky-israels-latest-weapon-gaza"
+    },
     {
       "id": "e4a4dee0388c1bab",
       "title": "Indonesia-Arab Saudi jajaki penguatan ekosistem ekonomi kreatif",
@@ -190,6 +819,32 @@
       "region": "",
       "publishedAt": "2026-11-21T09:42:03+00:00",
       "originalUrl": "https://www.antaranews.com/berita/5869671/indonesia-arab-saudi-jajaki-penguatan-ekosistem-ekonomi-kreatif"
+    },
+    {
+      "id": "1bbbcbb63fc3727d",
+      "title": "Shalat Jumat di Masjid yang Dibangun di Atas Tanah Nonwakaf, Bolehkah?",
+      "description": "Sebagian masjid dibangun di atas tanah milik desa, bukan tanah wakaf. Bagaimana fiqih memandang keabsahan shalat Jumat di masjid tersebut?",
+      "originalTitle": "Shalat Jumat di Masjid yang Dibangun di Atas Tanah Nonwakaf, Bolehkah?",
+      "originalDescription": "Sebagian masjid dibangun di atas tanah milik desa, bukan tanah wakaf. Bagaimana fiqih memandang keabsahan shalat Jumat di masjid tersebut?",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/firqah-dirariyah-15_1795254485.webp",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah",
+        "Masjid dan Peradaban"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-21T09:41:19+00:00",
+      "originalUrl": "https://islam.nu.or.id/bahtsul-masail/shalat-jumat-di-masjid-yang-dibangun-di-atas-tanah-nonwakaf-bolehkah-ZgbHg"
     },
     {
       "id": "232c9d52a487ecf4",
@@ -343,10 +998,10 @@
     },
     {
       "id": "a200de2da1559228",
-      "title": "donor Pro-Palestina James Chambers dirilis, mengatakan 'pengorbanan saya sangat kecil'",
-      "description": "Donor ProPalestina James Chambers dibebaskan, mengatakan 'pengorbananku sangat kecil' Pengadilan Tinggi Spanyol telah merilis donor pro-Palestina dan pewaris media AS James Cox Chambers Jr dengan jaminan kondisional, sementara mempertimbangkan permintaan ekstradisi oleh Amerika Serikat, menurut putusan pengadilan dirilis pada hari Jumat (20 November). Pengadilan memutuskan untuk membebaskan Chambers setelah pihak berwenang AS mengakui apa yang mereka deskripsikan sebagai kesalahan substansial dan tidak disengaja dalam terjemahan Spanyol dari pernyataan sumpah agen FBI yang diajukan dalam mendukung permintaan ekstradisi. Pada rilis, Chambers mengatakan kepada Reuters ia percaya tuduhan terhadap dirinya tidak berdasar dan politik termotivasi, menambahkan bahwa ia telah sendirian di sel untuk apa \"merasa seperti waktu yang lama\". \"Saya senang bahwa ini adalah langkah ke arah yang benar\", katanya. Chambers menambahkan: \"Pada akhirnya, saya mengerti bahwa sebagian besar pengorbanan yang harus saya buat sangat, sangat kecil dalam hubungannya, untuk perjuangan bahwa kita semua bagian dari rakyat Palestina, untuk pembebasan mereka, untuk kedaulatan mereka, untuk penghormatan mereka, untuk hak untuk hidup\". \"Tapi dalam konteks hanya sendirian dalam sel sepanjang waktu, rasanya seperti waktu yang lama. Aku hanya merindukan keluargaku. Saya benar-benar merindukan keluarga dan teman-teman saya\", kata Chambers. Chambers, yang keluarganya memiliki Cox Enterprises, ditangkap atas permintaan otoritas AS pada tanggal 10 Juli saat berlibur di Ibiza. Dia telah ditahan sejak tuduhan termasuk kerusuhan, konspirasi untuk melakukan kerusuhan dan pencucian uang internasional. Chambers, dikenal sebagai Fergie, menyangkal kesalahan. Pengacara Chambers bilang mereka menantang serangan oleh polisi Irlandia di rumah keluarganya di Dublin, yang katanya dilakukan atas permintaan otoritas AS dan melibatkan penyitaan perangkat elektronik dan properti lainnya. Tim hukumnya mengatakan itu akan mencar",
-      "originalTitle": "Pro-Palestine donor James Chambers released, says 'my sacrifice is very small'",
-      "originalDescription": "Pro-Palestine donor James Chambers released, says 'my sacrifice is very small' Spain's High Court has released pro-Palestinian donor and US media heir James Cox Chambers Jr. on conditional bail, while it considers an extradition request by the United States, according to a court ruling released on Friday (November 20). The court said it had decided to release Chambers after US authorities acknowledged what they described as substantial and unintentional errors in the Spanish translation of an FBI agent's sworn statement submitted in support of the extradition request. On his release, Chambers told Reuters he believed the accusations against him were baseless and politically motivated, adding that he had been alone in a cell for what \"felt like a long time\". \"I'm glad that this is a step in the right direction,\" he said. Chambers added: \"In the end of the day, I understand that most of the sacrifice I've had to make is very, very small in relation, to the struggle that that we are all a part of for the Palestinian people, for their liberation, for their sovereignty, for their respect, for the right to live.\" \"But in the context of just being alone in a cell all the time, it feels like a long time. I just missed my family. I really missed my family and my friends,” Chambers said. Chambers, whose family owns Cox Enterprises, was arrested at the request of US authorities on July 10 while on holiday in Ibiza. He has been held in custody since on accusations including riot, conspiracy to commit riot and international money laundering. Chambers, known as Fergie, denies wrongdoing. Separately, Chambers' lawyers said they were challenging a raid by Irish police on his family home in Dublin, which they said was conducted at the request of US authorities and involved the seizure of electronic devices and other property. His legal team said it would seek judicial review unless authorities clarify the legal basis for the operation. Report by Reuters Chambers said his sacrifice w",
+      "title": "Aktivis Pro-Palestina Fergie Chambers dibebaskan, mengatakan 'pengorbananku sangat kecil'",
+      "description": "Aktivis ProPalestina Fergie Chambers dibebaskan, mengatakan 'pengorbananku sangat kecil' Pengadilan Tinggi Spanyol telah merilis pro- aktivis Palestina dan ahli waris media AS Fergie Chambers dengan jaminan kondisional, sementara mempertimbangkan permintaan ekstradisi oleh AS, menurut putusan pengadilan dirilis pada hari Jumat. Pengadilan memutuskan untuk membebaskan Chambers setelah pihak berwenang AS mengakui apa yang mereka deskripsikan sebagai kesalahan substansial dan tidak disengaja dalam terjemahan Spanyol pernyataan sumpah seorang agen FBI diajukan dalam mendukung permintaan ekstradisi. Pada rilis, Chambers mengatakan kepada Reuters ia percaya tuduhan terhadap dirinya tidak berdasar dan politik termotivasi, menambahkan bahwa ia telah sendirian di sel untuk apa \"merasa seperti waktu yang lama\". \"Saya senang bahwa ini adalah langkah ke arah yang benar\", katanya. Chambers menambahkan: \"Pada akhirnya, saya mengerti bahwa sebagian besar pengorbanan yang harus saya buat sangat, sangat kecil dalam hubungannya dengan perjuangan bahwa kita semua bagian dari rakyat Palestina, untuk pembebasan mereka, untuk kedaulatan mereka, untuk penghormatan mereka, untuk hak untuk hidup\". \"Tapi dalam konteks hanya sendirian dalam sel sepanjang waktu, rasanya seperti waktu yang lama. Aku hanya merindukan keluargaku. Saya sangat merindukan keluarga dan teman-teman saya\", kata Chambers. Chambers, yang keluarganya memiliki Cox Enterprises, ditangkap atas permintaan otoritas AS pada tanggal 10 Juli saat berlibur di Ibiza. Dia telah ditahan sejak tuduhan termasuk kerusuhan, konspirasi untuk melakukan kerusuhan dan pencucian uang internasional. Chambers, yang nama lengkapnya adalah James Cox Chambers Jr, menyangkal kesalahan. Pengacara Chambers bilang mereka menantang serangan oleh polisi Irlandia di rumah keluarganya di Dublin, yang katanya dilakukan atas permintaan otoritas AS dan melibatkan penyitaan perangkat elektronik dan properti lainnya. Tim hukumnya mengatakan itu akan mencari ti",
+      "originalTitle": "Pro-Palestine activist Fergie Chambers released, says 'my sacrifice is very small'",
+      "originalDescription": "Pro-Palestine activist Fergie Chambers released, says 'my sacrifice is very small' Spain's High Court has released pro-Palestinian activist and US media heir Fergie Chambers on conditional bail, while it considers an extradition request by the US, according to a court ruling released on Friday. The court said it had decided to release Chambers after US authorities acknowledged what they described as substantial and unintentional errors in the Spanish translation of an FBI agent's sworn statement submitted in support of the extradition request. On his release, Chambers told Reuters he believed the accusations against him were baseless and politically motivated, adding that he had been alone in a cell for what \"felt like a long time\". \"I'm glad that this is a step in the right direction,\" he said. Chambers added: \"At the end of the day, I understand that most of the sacrifice I've had to make is very, very small in relation to the struggle that we are all a part of for the Palestinian people, for their liberation, for their sovereignty, for their respect, for the right to live.\" \"But in the context of just being alone in a cell all the time, it feels like a long time. I just missed my family. I really missed my family and my friends,” Chambers said. Chambers, whose family owns Cox Enterprises, was arrested at the request of US authorities on 10 July while on holiday in Ibiza. He has been held in custody ever since on accusations including riot, conspiracy to commit riot and international money laundering. Chambers, whose full name is James Cox Chambers Jr, denies wrongdoing. Separately, Chambers' lawyers said they were challenging a raid by Irish police on his family home in Dublin, which they said was conducted at the request of US authorities and involved the seizure of electronic devices and other property. His legal team said it would seek judicial review unless authorities clarify the legal basis for the operation. Report by Reuters Chambers said his sacrifice wa",
       "translated": true,
       "translationStatus": "success",
       "originalLanguage": "en",
@@ -365,6 +1020,31 @@
       "region": "",
       "publishedAt": "2026-11-21T08:04:33+00:00",
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/pro-palestine-donor-and-us-media-heir-james-chambers-released-jail"
+    },
+    {
+      "id": "fa1c321dac1d37a2",
+      "title": "Lima Sifat Bunga Jadi Pesan Ustadz Maulana untuk Muslimat NU",
+      "description": "Ustadz Maulana ajak Muslimat NU teladani lima sifat bunga. Ini untuk menggambarkan karakter perempuan salehah dan mandiri.",
+      "originalTitle": "Lima Sifat Bunga Jadi Pesan Ustadz Maulana untuk Muslimat NU",
+      "originalDescription": "Ustadz Maulana ajak Muslimat NU teladani lima sifat bunga. Ini untuk menggambarkan karakter perempuan salehah dan mandiri.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/jamaah-menyimak-harlah-muslimat-nu-istiqlal-news21112026_1795257631.webp",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-21T08:00:31+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/lima-sifat-bunga-jadi-pesan-ustadz-maulana-untuk-muslimat-nu-1K7h1"
     },
     {
       "id": "ce494f3fa13d5b72",
@@ -816,6 +1496,31 @@
       "region": "",
       "publishedAt": "2026-11-21T03:55:26+00:00",
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-has-not-acted-calls-protect-palestinian-olive-farmers-ocha-says"
+    },
+    {
+      "id": "17397fdf58f85b47",
+      "title": "Ditipu Biro Umrah, 53 Jemaah Asal Boyolali Terdampar di Bangkok",
+      "description": "Sebanyak 53 jemaah umrah dari Boyolali terjebak di Bangkok setelah ditipu biro perjalanan ilegal. Mereka telantar 3 hari sebelum kembali ke Indonesia.",
+      "originalTitle": "Ditipu Biro Umrah, 53 Jemaah Asal Boyolali Terdampar di Bangkok",
+      "originalDescription": "Sebanyak 53 jemaah umrah dari Boyolali terjebak di Bangkok setelah ditipu biro perjalanan ilegal. Mereka telantar 3 hari sebelum kembali ke Indonesia.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/20/kantor-kementerian-haji-dan-umrah-boyolali-1795160021095_169.jpeg?w=360&q=90",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "Detik",
+      "sources": [
+        "Detik"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-21T03:46:31+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8762951/ditipu-biro-umrah-53-jemaah-asal-boyolali-terdampar-di-bangkok"
     },
     {
       "id": "f3c09f56d8aaf147",
@@ -12027,707 +12732,6 @@
       "region": "",
       "publishedAt": "2026-11-16T12:20:29+00:00",
       "originalUrl": "https://www.middleeasteye.net/opinion/britains-definition-anti-muslim-hostility-protects-state-not-those-being-targeted"
-    },
-    {
-      "id": "138c62565aa664e8",
-      "title": "Penjaga Pantai Madinah Selamatkan Dua Warga yang Kapal Rusaknya di Laut",
-      "description": "Tim pencarian dan penyelamatan Penjaga Pantai di Yanbu, Madinah, menolong dua warga yang kapalnya rusak di tengah laut dan memberikan bantuan.",
-      "originalTitle": "Penjaga Pantai Madinah Selamatkan Dua Warga yang Kapal Rusaknya di Laut",
-      "originalDescription": "Tim pencarian dan penyelamatan Penjaga Pantai di Yanbu, Madinah, menolong dua warga yang kapalnya rusak di tengah laut dan memberikan bantuan.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/Screenshot2026-11-16134214-crop-HdHFCG7N.png",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T12:09:29+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/5lokvcbnm"
-    },
-    {
-      "id": "ec297961c6935716",
-      "title": "DPR dan Pemerintah Bentuk Panja Revisi UU Pengelolaan Keuangan Haji, Perkuat Perlindungan Dana Jamaah",
-      "description": "Panja DPR dan pemerintah bahas revisi UU Keuangan Haji untuk memperkuat pengawasan investasi, kepastian hukum, dan perlindungan dana jamaah.",
-      "originalTitle": "DPR dan Pemerintah Bentuk Panja Revisi UU Pengelolaan Keuangan Haji, Perkuat Perlindungan Dana Jamaah",
-      "originalDescription": "Panja DPR dan pemerintah bahas revisi UU Keuangan Haji untuk memperkuat pengawasan investasi, kepastian hukum, dan perlindungan dana jamaah.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/revisi-uu-bpkh_1794837429.webp",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "NU Online",
-      "sources": [
-        "NU Online"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-16T12:00:07+00:00",
-      "originalUrl": "https://www.nu.or.id/nasional/dpr-dan-pemerintah-bentuk-panja-revisi-uu-pengelolaan-keuangan-haji-perkuat-perlindungan-dana-jamaah-8na7Q"
-    },
-    {
-      "id": "7e8127c3415e02f2",
-      "title": "Cara Mengubah Data Akta Kelahiran Secara Online di Absher",
-      "description": "Platform Absher kini menyediakan layanan pengubahan data akta kelahiran secara daring bagi warga negara dan penduduk Arab Saudi.",
-      "originalTitle": "Cara Mengubah Data Akta Kelahiran Secara Online di Absher",
-      "originalDescription": "Platform Absher kini menyediakan layanan pengubahan data akta kelahiran secara daring bagi warga negara dan penduduk Arab Saudi.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-07/أبشر-FSLO2Gh-.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T11:32:24+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/px45tzo1j"
-    },
-    {
-      "id": "36ac27c86db62faa",
-      "title": "Otoritas Madinah imbau pemilik gedung komersial perbarui data secara digital",
-      "description": "Otoritas Madinah meminta pemilik gedung komersial mendaftarkan dan memperbarui data izin serta unit bangunan mereka secara digital sebelum akhir 2026.",
-      "originalTitle": "Otoritas Madinah imbau pemilik gedung komersial perbarui data secara digital",
-      "originalDescription": "Otoritas Madinah meminta pemilik gedung komersial mendaftarkan dan memperbarui data izin serta unit bangunan mereka secara digital sebelum akhir 2026.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/1000018787-crop-ZNY2F9l6.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T11:23:24+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/5wvgjb3bm"
-    },
-    {
-      "id": "c93457a7ad4266b2",
-      "title": "Saudi Arabia terpilih menjadi Dewan ITU untuk 2027- 2030",
-      "description": "DOHA - Arab Saudi telah terpilih untuk Dewan Internasional Telekomunikasi Uni (ITU) untuk 2027- 2030 istilah, bergabung dengan 47 negara lain pada dewan anggota 48, yang mendukung kegiatan serikat antara konferensi besar. Pemilu berlangsung selama Konferensi Plenipotentiary ITU (PP-26), saat ini sedang diadakan di Doha, Qatar, dengan dewan yang terdiri dari 48 negara terpilih dari negara-negara anggota serikat 194. Pemilihan ini mencerminkan berdiri internasional Kingdom dan kontribusi untuk mengembangkan komunikasi, sektor ruang dan teknologi, sambil memperkuat perannya dalam membentuk arah strategis ITU dan membangun konsensus pada prioritas internasional. Hal ini juga memperkuat upaya Arab Saudi untuk menjembatani kesenjangan digital, memperkuat konektivitas dan memperluas akses ke teknologi dan kecerdasan buatan, sementara memanfaatkan energi dan kemampuan komputasi untuk mendukung masa depan digital yang lebih inklusif. Menteri Komunikasi dan Teknologi Informasi dan Ketua Komunikasi, Space and Technology Commission (CST), Eng. Al- Swaha mengatakan pemilu Kingdom mencerminkan masyarakat internasional pengakuan dan kepercayaan diri dalam kepemimpinan dan kontribusi untuk mengembangkan komunikasi, sektor ruang dan teknologi dan memperkuat kemitraan internasional. Dia menekankan bahwa Arab Saudi mengukur nilai kemajuan teknologi dengan pengaruhnya pada kehidupan masyarakat dan bekerja dengan mitra internasional untuk memperluas akses ke teknologi dan membantu negara-negara mengembangkan kemampuan digital mereka. Gubernur CST Eng. \"Arab Saudi memainkan peran penting dalam pekerjaan ITU dengan berkontribusi dalam pengembangan kebijakan dan strateginya, membangun konsensus di antara anggota negara dan pertukaran keahlian yang mendukung kemajuan komunikasi, sektor ruang dan teknologi\", kata Al- Ohaly. Dia menambahkan bahwa Arab Saudi akan bekerja dengan rekannya selama jangka waktu mendatang untuk memperkuat infrastruktur digital, mengembangkan kemampuan dan mendukung ",
-      "originalTitle": "Saudi Arabia elected to ITU Council for 2027–2030 term",
-      "originalDescription": "DOHA — Saudi Arabia has been elected to the Council of the International Telecommunication Union (ITU) for the 2027–2030 term, joining 47 other countries on the 48-member council, which oversees the union’s activities between major conferences. The election took place during the ITU Plenipotentiary Conference (PP-26), currently being held in Doha, Qatar, with the council comprising 48 countries elected from the union’s 194 member states. The election reflects the Kingdom’s international standing and its contributions to developing the communications, space and technology sectors, while strengthening its role in shaping the ITU’s strategic direction and building consensus on international priorities. It also reinforces Saudi Arabia’s efforts to bridge the digital divide, strengthen connectivity and expand access to technology and artificial intelligence, while leveraging its energy and computing capabilities to support a more inclusive digital future. Minister of Communications and Information Technology and Chairman of the Communications, Space and Technology Commission (CST), Eng. Abdullah Al-Swaha, congratulated Custodian of the Two Holy Mosques King Salman and Crown Prince and Prime Minister Mohammed bin Salman on the occasion. Al-Swaha said the Kingdom’s election reflects the international community’s recognition of and confidence in its leadership and contributions to developing the communications, space and technology sectors and strengthening international partnerships. He stressed that Saudi Arabia measures the value of technological progress by its impact on people’s lives and works with international partners to expand access to technology and help countries develop their digital capabilities. CST Governor Eng. Haitham Al-Ohaly also congratulated the Saudi leadership, saying the election reflects international confidence in the Kingdom’s contributions to the ITU and its ability to advance shared objectives. “Saudi Arabia plays a pivotal role in the ITU’s w",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/16/2795154.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T11:13:14+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666282/saudi-arabia/saudi-arabia-elected-to-itu-council-for-20272030-term"
-    },
-    {
-      "id": "d8596d19c2c28b28",
-      "title": "Pasukan Yaman mundur untuk mempertahankan kota pelabuhan dari Houthis",
-      "description": "Saudi- pasukan didukung mengatakan mereka bergerak pasukan dari al- Mandab Selat untuk melindungi ibukota sementara, Aden.",
-      "originalTitle": "Yemeni forces retreat to defend port city from Houthis",
-      "originalDescription": "Saudi-backed forces say they are moving troops from the Bab al-Mandab Strait to protect the interim capital, Aden.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e0bf/live/84ae2db0-e165-11f1-9e72-69608c7a1547.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "BBC World",
-      "sources": [
-        "BBC World"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-16T11:09:38+00:00",
-      "originalUrl": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_campaign=rss&at_medium=RSS"
-    },
-    {
-      "id": "282b8d413654cc35",
-      "title": "Indonesia dan 17 Negara Kecam Serangan Israel ke Kompleks Medis Nasser di Gaza",
-      "description": "Indonesia dan 17 negara mengecam serangan Israel ke RS Nasser Gaza. Israel didesak hormati gencatan senjata dan buka akses bantuan kemanusiaan.",
-      "originalTitle": "Indonesia dan 17 Negara Kecam Serangan Israel ke Kompleks Medis Nasser di Gaza",
-      "originalDescription": "Indonesia dan 17 negara mengecam serangan Israel ke RS Nasser Gaza. Israel didesak hormati gencatan senjata dan buka akses bantuan kemanusiaan.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/1002700854_1794832978.webp",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "NU Online",
-      "sources": [
-        "NU Online"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-16T11:00:45+00:00",
-      "originalUrl": "https://www.nu.or.id/internasional/indonesia-dan-17-negara-kecam-serangan-israel-ke-kompleks-medis-nasser-di-gaza-NjaJc"
-    },
-    {
-      "id": "c02bf5868b93055b",
-      "title": "Empat Pelanggar dan Satu Warga Ethiopia Ditangkap di Jeddah karena Edarkan Narkoba",
-      "description": "Direktorat Jenderal Narkotika Arab Saudi menangkap empat pelanggar dan satu warga Ethiopia di Jeddah atas dugaan peredaran amfetamin dan 25 kilogram ganja.",
-      "originalTitle": "Empat Pelanggar dan Satu Warga Ethiopia Ditangkap di Jeddah karena Edarkan Narkoba",
-      "originalDescription": "Direktorat Jenderal Narkotika Arab Saudi menangkap empat pelanggar dan satu warga Ethiopia di Jeddah atas dugaan peredaran amfetamin dan 25 kilogram ganja.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/Screenshot2026-11-16111806-crop-zR7V4q5M.png",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T10:51:23+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/xd4imd5ip"
-    },
-    {
-      "id": "cc1e7c89f1b14a32",
-      "title": "Kementerian SDM Tegaskan Kepatuhan Aturan Tenaga Kerja Pendukung",
-      "description": "Kementerian Sumber Daya Manusia Arab Saudi menegaskan pentingnya mematuhi aturan dan tabel pelanggaran terbaru di sektor tenaga kerja pendukung.",
-      "originalTitle": "Kementerian SDM Tegaskan Kepatuhan Aturan Tenaga Kerja Pendukung",
-      "originalDescription": "Kementerian Sumber Daya Manusia Arab Saudi menegaskan pentingnya mematuhi aturan dan tabel pelanggaran terbaru di sektor tenaga kerja pendukung.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-09/وزارة-الموارد-البشرية-7tm6-9Fl.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T10:32:01+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/4kzk49h99"
-    },
-    {
-      "id": "ffc342572b3a491e",
-      "title": "Arab Saudi Terpilih sebagai Anggota Dewan ITU Periode 2027–2030",
-      "description": "Arab Saudi terpilih sebagai anggota Dewan Uni Telekomunikasi Internasional (ITU) periode 2027–2030, mencerminkan peran pentingnya di sektor komunikasi global.",
-      "originalTitle": "Arab Saudi Terpilih sebagai Anggota Dewan ITU Periode 2027–2030",
-      "originalDescription": "Arab Saudi terpilih sebagai anggota Dewan Uni Telekomunikasi Internasional (ITU) periode 2027–2030, mencerminkan peran pentingnya di sektor komunikasi global.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-09/المملكة-العربية-السعودية-k7OZcc34-RTWxc0Hj.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T10:30:27+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/aynhsf773"
-    },
-    {
-      "id": "1121d8d1aef989c3",
-      "title": "Mengenal Jeddah Tower, Calon Gedung Tertinggi di Dunia Setinggi 1 Kilometer",
-      "description": "JEDDAH — Jeddah Tower di Arab Saudi ditargetkan selesai pada tahun 2028. Pembangunan gedung pencakar langit yang dirancang setinggi satu kilometer ini terus berlanjut di bawah kesepakatan senilai 7,2...",
-      "originalTitle": "Mengenal Jeddah Tower, Calon Gedung Tertinggi di Dunia Setinggi 1 Kilometer",
-      "originalDescription": "JEDDAH — Jeddah Tower di Arab Saudi ditargetkan selesai pada tahun 2028. Pembangunan gedung pencakar langit yang dirancang setinggi satu kilometer ini terus berlanjut di bawah kesepakatan senilai 7,2...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/jeddah_261116171521-716.jpeg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Republika",
-      "sources": [
-        "Republika"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-16T10:18:28+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/tolbas483/mengenal-jeddah-tower-calon-gedung-tertinggi-di-dunia-setinggi-1-kilometer"
-    },
-    {
-      "id": "e75186bb42717adc",
-      "title": "Badak Jawa Terancam Punah, Alquran Ingatkan Amanah Manusia sebagai Khalifah",
-      "description": "JAKARTA -- Kata khalifah dalam Quran Surat Al-Baqarah Ayat 30 menunjukkan bahwa manusia diberi kedudukan untuk mengelola dan memakmurkan bumi sesuai perintah Allah. Tafsir Kementerian Agama terkait ayat ini...",
-      "originalTitle": "Badak Jawa Terancam Punah, Alquran Ingatkan Amanah Manusia sebagai Khalifah",
-      "originalDescription": "JAKARTA -- Kata khalifah dalam Quran Surat Al-Baqarah Ayat 30 menunjukkan bahwa manusia diberi kedudukan untuk mengelola dan memakmurkan bumi sesuai perintah Allah. Tafsir Kementerian Agama terkait ayat ini...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/dua-anak-badak-jawa-rhenoceros-sondaicus-kembali-terlihat-pada_210613001923-212.jpg",
-      "category": "Al-Qur'an dan Hadis",
-      "tags": [
-        "Al-Qur'an dan Hadis",
-        "Nasional Islam"
-      ],
-      "source": "Republika",
-      "sources": [
-        "Republika"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-16T10:17:20+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/tolb8w430/badak-jawa-terancam-punah-alquran-ingatkan-amanah-manusia-sebagai-khalifah"
-    },
-    {
-      "id": "5d7a5e31b95f06d8",
-      "title": "DPR Ingatkan Pemanfaatan Nilai Manfaat Tidak Gerus Keuangan Haji Jamaah Tunggu",
-      "description": "DPR ingatkan pemanfaatan nilai manfaat dana haji tak boleh gerus hak jemaah tunggu. BPKH diminta kelola dana secara aman, syariah, dan terukur.",
-      "originalTitle": "DPR Ingatkan Pemanfaatan Nilai Manfaat Tidak Gerus Keuangan Haji Jamaah Tunggu",
-      "originalDescription": "DPR ingatkan pemanfaatan nilai manfaat dana haji tak boleh gerus hak jemaah tunggu. BPKH diminta kelola dana secara aman, syariah, dan terukur.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/1002700831_1794831855.webp",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "NU Online",
-      "sources": [
-        "NU Online"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-16T10:00:57+00:00",
-      "originalUrl": "https://www.nu.or.id/nasional/dpr-ingatkan-pemanfaatan-nilai-manfaat-tidak-gerus-keuangan-haji-jamaah-tunggu-pZhNL"
-    },
-    {
-      "id": "e3dcaa13023f07e3",
-      "title": "Arab Saudi Eksekusi Pelaku Kejahatan Berat di Riyadh",
-      "description": "Kementerian Dalam Negeri Arab Saudi mengeksekusi seorang warga di Riyadh setelah terbukti melakukan perampokan bersenjata dan penyerangan berat.",
-      "originalTitle": "Arab Saudi Eksekusi Pelaku Kejahatan Berat di Riyadh",
-      "originalDescription": "Kementerian Dalam Negeri Arab Saudi mengeksekusi seorang warga di Riyadh setelah terbukti melakukan perampokan bersenjata dan penyerangan berat.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-07/وزارة-الداخلية-I0hfTy9p.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T09:13:27+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/ptbdzps1b"
-    },
-    {
-      "id": "c692c86edbf9417b",
-      "title": "348 Ford Bronco Raptor Tahun 2022-2026 Ditarik karena Masalah Teknis",
-      "description": "Sebanyak 348 unit Ford Bronco Raptor tahun 2022-2026 ditarik di Arab Saudi akibat masalah pada pemasangan pelindung fender yang berpotensi membahayakan pengguna jalan.",
-      "originalTitle": "348 Ford Bronco Raptor Tahun 2022-2026 Ditarik karena Masalah Teknis",
-      "originalDescription": "Sebanyak 348 unit Ford Bronco Raptor tahun 2022-2026 ditarik di Arab Saudi akibat masalah pada pemasangan pelindung fender yang berpotensi membahayakan pengguna jalan.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-10/وزارة-التجارة-FgzfgjzG.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T08:57:23+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/hjezfpjdp"
-    },
-    {
-      "id": "522dba63c7f0236c",
-      "title": "Inggris dan sekutu memanggil Israel untuk memungkinkan akses kemanusiaan cepat ke Gaza",
-      "description": "Inggris, Australia, Kanada dan Italia mengatakan pemerintah Israel menahan persediaan penting di perbatasan, termasuk tenda 150,00.",
-      "originalTitle": "UK and allies call on Israel to allow rapid humanitarian access to Gaza",
-      "originalDescription": "The UK, Australia, Canada and Italy say Israeli authorities are holding back vital supplies at the borders, including 150,00 tents.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c14/live/abcff740-e181-11f1-9386-1b849272ca8f.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "BBC World",
-      "sources": [
-        "BBC World"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-16T08:56:04+00:00",
-      "originalUrl": "https://www.bbc.co.uk/news/articles/cwm2mllj1pp8o?at_campaign=rss&at_medium=RSS"
-    },
-    {
-      "id": "9777bacae7143475",
-      "title": "Undang-undang Perlindungan Konsumen baru Saudi memberikan denda maksimum kepada SR8 juta",
-      "description": "RIYADH - Hukum Perlindungan Konsumen Arab Saudi yang baru memperkenalkan pelanggaran stricter, menaikkan denda maksimum ke SR8 juta dari langit-langit SR2 juta sebelumnya diatur di bawah Hukum Penipuan Anti- Komersial, menurut Departemen Perdagangan. Disetujui oleh Dewan Menteri pada 10 November 2026, Hukum Perlindungan Konsumen pertama di Kingdom menetapkan kerangka kerja yang terpadu mengatur hak konsumen dalam produk dan jasa. Ini menggantikan pendekatan sebelumnya dari mendistribusikan ketentuan perlindungan konsumen ke beberapa undang-undang, dengan lebih dari 20 entitas pemerintah yang terlibat dalam implementasi tersebut. Hukum juga memperkuat perlindungan konsumen dalam transaksi layanan dan memperkenalkan langkah-langkah terhadap kenaikan harga yang tidak dibenarkan selama krisis dan pandemi, termasuk kemungkinan pengaturan harga dan memaksakan batas keuntungan maksimum. Ini memungkinkan periklanan komparatif dalam kondisi yang membutuhkan akurasi dan melarang praktek menyesatkan atau merugikan pesaing, sementara melarang ulasan palsu, memanipulasi peringkat dan praktek komersial penipuan lainnya. ketentuan khusus melindungi anak-anak, dewasa dan orang-orang dengan cacat, termasuk pembatasan pada iklan ditujukan pada anak-anak yang bisa membahayakan hidup mereka atau keselamatan. Undang-undang juga memungkinkan asosiasi konsumen untuk mengajukan tuntutan hukum atas nama konsumen dan memperkenalkan alternatif yang lebih cepat untuk menyelesaikan perselisihan di luar pengadilan.",
-      "originalTitle": "Saudi Arabia’s new Consumer Protection Law raises maximum fines to SR8 million",
-      "originalDescription": "RIYADH — Saudi Arabia’s new Consumer Protection Law introduces stricter penalties for violations, raising maximum fines to SR8 million from the SR2 million ceiling previously set under the Anti-Commercial Fraud Law, according to the Ministry of Commerce. Approved by the Council of Ministers on November 10, 2026, the Kingdom’s first comprehensive Consumer Protection Law establishes a unified framework governing consumer rights in products and services. It replaces the previous approach of distributing consumer protection provisions across several laws, with more than 20 government entities involved in its implementation. The law also strengthens consumer protections in service transactions and introduces measures against unjustified price increases during crises and pandemics, including the possibility of setting prices and imposing maximum profit margins. It permits comparative advertising under conditions requiring accuracy and prohibiting misleading practices or harm to competitors, while banning fake reviews, manipulated ratings and other fraudulent commercial practices. Special provisions protect children, older adults and people with disabilities, including restrictions on advertisements directed at children that could harm their lives or safety. The legislation also allows consumer associations to file lawsuits on behalf of consumers and introduces faster alternatives for resolving disputes outside the courts.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/16/2795084.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T08:33:33+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666281/saudi-arabia/saudi-arabias-new-consumer-protection-law-raises-maximum-fines-to-sr8-million"
-    },
-    {
-      "id": "67f916e5b4110f6e",
-      "title": "Saudi Arabia R & D menghabiskan 17% untuk SR34.51 miliar pada 2025",
-      "description": "RIYADH - Arab Saudi pengeluaran penelitian dan pengembangan (R & D) naik 17 persen tahun-tahun ke sekitar SR34.51 miliar pada tahun 2025, sementara pekerjaan di sektor meningkat 20 persen ke 67.691, menurut Otoritas Umum untuk Statistik (GASAT). Otoritas Penelitian dan Pengembangan Statistik 2025 juga menunjukkan bahwa jumlah peneliti meningkat 19 persen dibandingkan 2024, mencapai 49.383. Sektor bisnis menghitung pengeluaran R & D terbesar sebesar 44,8 persen, setara dengan SR15.47 miliar, diikuti oleh sektor pemerintah sebesar 37,5 persen, atau SR12.95 miliar, dan pendidikan tertinggi sebesar 17,7 persen, sebesar SR6.10 miliar. Sementara itu, sektor pemerintah menyediakan dana R & D terbesar di SR16.27 miliar, mewakili total 47.1 persen, diikuti oleh sektor bisnis di SR15.40 miliar, atau 44.6 persen, dan pendidikan tinggi di SR2.84 miliar, akuntansi sebesar 8.2 persen. Laporan tersebut juga mengungkapkan bahwa entitas besar yang terdiri dari 97.9 persen dari pengeluaran total R & D, yang mencapai SR33.79 miliar, sedangkan entitas kecil dan medium berukuran berkontribusi SR0.73 miliar, mewakili 2,1 persen. * * Media [2795079] * Biaya R & D sebagai proporsi produk domestik kotor Kerajaan (PDB) mencapai 0,72% pada tahun 2025. Dalam hal pekerjaan, sektor pendidikan tinggi menyimpan saham terbesar R & D pada 65,7 persen, dengan 44.469 karyawan, diikuti oleh sektor bisnis dengan 18,354 karyawan, atau 27.1 persen, dan sektor pemerintah dengan 4.868 karyawan, mewakili 7,2 persen. Pendidikan yang lebih tinggi juga dihitung untuk 79,3 persen dari semua peneliti, menghitung 39.141, di antaranya 56.1 persen adalah laki-laki dan 43.9 persen perempuan. Sektor bisnis mempekerjakan 7.814 peneliti, mewakili 15,8 persen total, dengan akuntansi pria sebesar 72.3 persen dan wanita 27.7 persen. Sementara itu, sektor pemerintah menghitung 4.9 persen peneliti, menghitung 2.428, di antaranya 66.3 persen adalah laki-laki dan 33,7 persen perempuan. Dengan aktivitas ekonomi, pertambangan, m",
-      "originalTitle": "Saudi Arabia’s R&D spending rises 17% to SR34.51 billion in 2025",
-      "originalDescription": "RIYADH — Saudi Arabia’s expenditure on research and development (R&D) rose 17 percent year-on-year to approximately SR34.51 billion in 2025, while employment in the sector increased by 20 percent to 67,691, according to the General Authority for Statistics (GASTAT). The authority’s Research and Development Statistics 2025 report also showed that the number of researchers increased by 19 percent compared with 2024, reaching 49,383. The business sector accounted for the largest share of R&D expenditure at 44.8 percent, equivalent to SR15.47 billion, followed by the government sector at 37.5 percent, or SR12.95 billion, and higher education at 17.7 percent, totaling SR6.10 billion. Meanwhile, the government sector provided the largest share of R&D funding at SR16.27 billion, representing 47.1 percent of the total, followed by the business sector at SR15.40 billion, or 44.6 percent, and higher education at SR2.84 billion, accounting for 8.2 percent. The report also revealed that large entities accounted for 97.9 percent of total R&D expenditure, amounting to SR33.79 billion, while micro, small and medium-sized entities contributed SR0.73 billion, representing 2.1 percent. **media[2795079]** R&D expenditure as a proportion of the Kingdom’s gross domestic product (GDP) reached 0.72 percent in 2025. In terms of employment, the higher education sector accounted for the largest share of R&D personnel at 65.7 percent, with 44,469 employees, followed by the business sector with 18,354 employees, or 27.1 percent, and the government sector with 4,868 employees, representing 7.2 percent. Higher education also accounted for 79.3 percent of all researchers, totaling 39,141, of whom 56.1 percent were male and 43.9 percent were female. The business sector employed 7,814 researchers, representing 15.8 percent of the total, with men accounting for 72.3 percent and women 27.7 percent. Meanwhile, the government sector accounted for 4.9 percent of researchers, totaling 2,428, of whom 66.3",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/16/2795080.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T08:13:12+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666280/saudi-arabia/saudi-arabias-rd-spending-rises-17-to-sr3451-billion-in-2025"
-    },
-    {
-      "id": "f3582b11afab70c1",
-      "title": "Polisi Tangkap Warga Myanmar di Madinah karena Edarkan Sabu",
-      "description": "Petugas Keamanan Jalan Raya Madinah menangkap seorang warga Myanmar karena diduga mengedarkan sabu yang disembunyikan di kendaraannya.",
-      "originalTitle": "Polisi Tangkap Warga Myanmar di Madinah karena Edarkan Sabu",
-      "originalDescription": "Petugas Keamanan Jalan Raya Madinah menangkap seorang warga Myanmar karena diduga mengedarkan sabu yang disembunyikan di kendaraannya.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/Screenshot2026-11-16095325-crop-3gsNOiKA.png",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T08:06:19+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/lg8nflv62"
-    },
-    {
-      "id": "3bb8aa0bfbdaf526",
-      "title": "Revisi UU Keuangan Haji Optimalkan Investasi Langsung di Sektor Produktif",
-      "description": "JAKARTA — Komisi VIII DPR RI menyatakan, revisi Undang-Undang Nomor 34 Tahun 2014 tentang Pengelolaan Keuangan Haji diharapkan dapat memperkuat landasan hukum bagi Badan Pengelola Keuangan Haji (BPKH) dalam...",
-      "originalTitle": "Revisi UU Keuangan Haji Optimalkan Investasi Langsung di Sektor Produktif",
-      "originalDescription": "JAKARTA — Komisi VIII DPR RI menyatakan, revisi Undang-Undang Nomor 34 Tahun 2014 tentang Pengelolaan Keuangan Haji diharapkan dapat memperkuat landasan hukum bagi Badan Pengelola Keuangan Haji (BPKH) dalam...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/ilustrasi-dana_250527221517-194.jpg",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "Republika",
-      "sources": [
-        "Republika"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-16T08:04:18+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/tol536483/revisi-uu-keuangan-haji-optimalkan-investasi-langsung-di-sektor-produktif"
-    },
-    {
-      "id": "e926863b26b3ed36",
-      "title": "NCM mengeluarkan peringatan merah untuk hujan lebat di Mekah sebagai badai petir mengancam daerah Saudi lainnya",
-      "description": "JEDDAH - Pusat Nasional Meteorologi (NCM) telah mengeluarkan peringatan merah untuk hujan deras di Ibukota Suci pada hari Senin, sementara moderat untuk badai petir berat juga diperkirakan di seluruh daerah Jazan, Asir dan Al- Baha daerah. Peringatan merah untuk Mekah akan tetap berlaku dari 02: 00 sampai 09: 00, dengan hujan lebat diharapkan disertai dengan angin kuat, dekat- nol visibilitas, hujan es, banjir kilat dan petir. Dalam cuaca nasional cuaca cuaca, yang mengatakan moderat untuk badai petir berat mampu memicu banjir kilat diharapkan di seluruh bagian Jazan, Asir, Al- Baha dan Mekah daerah, disertai dengan hujan dan angin aktif. Kabut mungkin juga terbentuk di beberapa daerah yang terkena. Di Mekah, suhu diperkirakan berkisar dari 23 ° C sampai 35 ° C, dengan kelembaban mencapai 85 persen, sementara Al- Baha diharapkan untuk merekam suhu antara 12 ° C dan 20 ° C, dengan kelembaban mencapai 95 persen. Abha diperkirakan mengalami suhu berkisar dari 11 ° C sampai 21 ° C, dengan kelembaban mencapai 95 persen, sementara Jazan diharapkan untuk merekam suhu antara 26 ° C dan 33 ° C, dengan kelembaban mencapai 90 persen. Keempat lokasi diperkirakan akan mengalami badai besar dan angin kencang. Sementara itu, Riyadh diharapkan untuk mengalami kondisi berawan, dengan suhu berkisar dari 11 ° C sampai 25 ° C dan kelembaban mencapai 70 persen. Jeddah diperkirakan mengalami kondisi berawan sebagian dan kabut, dengan suhu antara 25 ° C dan 34 ° C dan kelembaban mencapai 90 persen. Dammam diharapkan untuk mengalami angin aktif, dengan suhu berkisar dari 15 ° C ke 26 ° C dan kelembaban mencapai 65 persen. Ramalan lainnya termasuk beberapa kondisi berawan di Madinah, dengan suhu antara 20 ° C dan 32 ° C, dan berawan pada kondisi berawan di Tabuk, Buraydah, Hail dan Najran. Arar dan Sakaka diramalkan untuk mengalami kondisi awan, dengan suhu berkisar dari 12 ° C sampai 26 ° C dan 11 ° C sampai 25 ° C, hormat.",
-      "originalTitle": "NCM issues red alert for heavy rainfall in Makkah as thunderstorms threaten other Saudi regions",
-      "originalDescription": "JEDDAH — The National Center for Meteorology (NCM) has issued a red alert for heavy rainfall in the Holy Capital on Monday, while moderate to heavy thunderstorms are also forecast across parts of Jazan, Asir and Al-Baha regions. The red alert for Makkah will remain in effect from 2 p.m. to 9 p.m., with heavy rainfall expected to be accompanied by strong winds, near-zero visibility, hail, flash floods and lightning. In its nationwide daily weather forecast, the NCM said moderate to heavy thunderstorms capable of triggering flash floods are expected across parts of Jazan, Asir, Al-Baha and Makkah regions, accompanied by hail and active winds. Fog may also form in some affected areas. In Makkah, temperatures are forecast to range from 23°C to 35°C, with humidity reaching 85 percent, while Al-Baha is expected to record temperatures between 12°C and 20°C, with humidity reaching 95 percent. Abha is forecast to experience temperatures ranging from 11°C to 21°C, with humidity reaching 95 percent, while Jazan is expected to record temperatures between 26°C and 33°C, with humidity reaching 90 percent. All four locations are forecast to experience moderate to heavy thunderstorms and active winds. Meanwhile, Riyadh is expected to experience cloudy conditions, with temperatures ranging from 11°C to 25°C and humidity reaching 70 percent. Jeddah is forecast to experience partly cloudy conditions and fog, with temperatures between 25°C and 34°C and humidity reaching 90 percent. Dammam is expected to experience active winds, with temperatures ranging from 15°C to 26°C and humidity reaching 65 percent. Other forecasts include partly cloudy conditions in Madinah, with temperatures between 20°C and 32°C, and cloudy to partly cloudy conditions in Tabuk, Buraydah, Hail and Najran. Arar and Sakaka are forecast to experience cloudy conditions, with temperatures ranging from 12°C to 26°C and 11°C to 25°C, respectively.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/16/2795071.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T07:49:46+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666279/saudi-arabia/ncm-issues-red-alert-for-heavy-rainfall-in-makkah-as-thunderstorms-threaten-other-saudi-regions"
-    },
-    {
-      "id": "0c87abee147cd9b2",
-      "title": "Harga produsen Arab Saudi naik 6,6% pada bulan September, didorong oleh pertumbuhan manufaktur",
-      "description": "RIYADH - Arab Saudi Producer Price Index (PPI) naik 6,6 persen tahun -pada September 2026, didorong oleh peningkatan 7 persen dalam harga produksi, menurut Authority Umum untuk Statistik (GASTAT). Peningkatan juga didukung dengan kenaikan 3,4 persen harga untuk persediaan air, sewerage dan aktivitas pengelolaan limbah, bersama peningkatan listrik 2,2 persen, gas, uap dan harga penyediaan udara. Dalam produksi, mengenakan pakaian tercatat peningkatan harga tahunan tertinggi pada 12.3 persen, diikuti dengan bahan kimia dan produk kimia pada 12,2 persen dan logam dasar pada 9.5 persen. Harga untuk produk minyak halus naik 8.4 persen, sementara harga pangan meningkat 6.1 persen. Sebaliknya, harga untuk produk logam buatan, tanpa mesin dan peralatan, menurun 3 persen, sedangkan kegiatan ekonomi lainnya mencatat penurunan 3,7 persen. * * Media [2795063] * Secara bulanan, PPI meningkatkan 1,7 persen pada bulan September dibandingkan dengan Agustus 2026, didorong terutama oleh kenaikan 3.7 persen dalam harga pabrik minyak halus dan 2,9 persen peningkatan bahan kimia dan produk kimia. Harga produksi pangan juga naik 0,7 persen bulan, sementara aktivitas ekonomi lainnya meningkat 0,2 persen. Sementara itu, harga produksi tekstil menurun sebesar 4,3 persen, diikuti dengan penurunan 2,6 persen dari harga pembuatan peralatan listrik. Harga listrik, gas, uap, dan sektor pendingin udara tetap tidak berubah selama sebulan, sementara pasokan air, sewerage dan kegiatan pengelolaan limbah merekam peningkatan 0,1 persen. The Producer Price Index mengukur perubahan dalam harga produsen domestik di seluruh manufaktur, listrik, gas, uap dan penyediaan udara, dan pasokan air, sewerage dan sampah kegiatan manajemen.",
-      "originalTitle": "Saudi Arabia’s producer prices rise 6.6% in September, driven by manufacturing growth",
-      "originalDescription": "RIYADH — Saudi Arabia’s Producer Price Index (PPI) rose 6.6 percent year-on-year in September 2026, driven by a 7 percent increase in manufacturing prices, according to the General Authority for Statistics (GASTAT). The increase was also supported by a 3.4 percent rise in prices for water supply, sewerage and waste management activities, alongside a 2.2 percent increase in electricity, gas, steam and air-conditioning supply prices. Within manufacturing, wearing apparel recorded the highest annual price increase at 12.3 percent, followed by chemicals and chemical products at 12.2 percent and basic metals at 9.5 percent. Prices for refined petroleum products rose 8.4 percent, while food manufacturing prices increased 6.1 percent. In contrast, prices for fabricated metal products, excluding machinery and equipment, declined by 3 percent, while other economic activities recorded a 3.7 percent decrease. **media[2795063]** On a monthly basis, the PPI increased by 1.7 percent in September compared with August 2026, driven primarily by a 3.7 percent rise in refined petroleum product manufacturing prices and a 2.9 percent increase in chemicals and chemical products. Food manufacturing prices also rose 0.7 percent month-on-month, while other economic activities increased by 0.2 percent. Meanwhile, textile manufacturing prices declined by 4.3 percent, followed by a 2.6 percent decrease in electrical equipment manufacturing prices. Prices in the electricity, gas, steam and air-conditioning supply sector remained unchanged during the month, while water supply, sewerage and waste management activities recorded a 0.1 percent increase. The Producer Price Index measures changes in domestic producer prices across manufacturing, electricity, gas, steam and air-conditioning supply, and water supply, sewerage and waste management activities.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/16/2795062.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T07:29:58+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666278/saudi-arabia/saudi-arabias-producer-prices-rise-66-in-september-driven-by-manufacturing-growth"
-    },
-    {
-      "id": "1754e7e5c42829f7",
-      "title": "Harga Produsen di Arab Saudi Naik 6,6 Persen pada September 2026",
-      "description": "Badan Statistik Arab Saudi melaporkan kenaikan indeks harga produsen sebesar 6,6 persen pada September 2026 dibandingkan periode yang sama tahun sebelumnya.",
-      "originalTitle": "Harga Produsen di Arab Saudi Naik 6,6 Persen pada September 2026",
-      "originalDescription": "Badan Statistik Arab Saudi melaporkan kenaikan indeks harga produsen sebesar 6,6 persen pada September 2026 dibandingkan periode yang sama tahun sebelumnya.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-07/هيئة-الإحصاء-fL15FjKd.png",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T06:50:21+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/ekonomi/o5xlqdkv9"
-    },
-    {
-      "id": "d934f0bc4d888f15",
-      "title": "Di KTT ASEAN, Prabowo Apresiasi Sikap Konsisten China Bela Palestina",
-      "description": "Presiden Prabowo Subianto mengapresiasi dukungan Tiongkok untuk Global South dan Palestina dalam KTT ASEAN-China, menekankan pentingnya kerja sama multilateral.",
-      "originalTitle": "Di KTT ASEAN, Prabowo Apresiasi Sikap Konsisten China Bela Palestina",
-      "originalDescription": "Presiden Prabowo Subianto mengapresiasi dukungan Tiongkok untuk Global South dan Palestina dalam KTT ASEAN-China, menekankan pentingnya kerja sama multilateral.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/15/presiden-ri-prabowo-subianto-saat-menghadiri-sesi-pleno-ktt-ke-49-asean-di-filipina-1794734596466_169.jpeg?w=360&q=90",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Detik",
-      "sources": [
-        "Detik"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-16T06:35:19+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8755049/di-ktt-asean-prabowo-apresiasi-sikap-konsisten-china-bela-palestina"
-    },
-    {
-      "id": "922ad16fbb2ce4cc",
-      "title": "Badak Jawa Terancam, Alquran Ingatkan Manusia tentang Al-Fasad",
-      "description": "Pemerintah berencana merelokasi sejumlah badak jawa dari Taman Nasional Ujung Kulon, Banten, ke Taman Nasional Alas Purwo, Jawa Timur. Utusan Khusus Presiden Bidang Iklim dan Energi, Hashim Djojohadikusumo, mengatakan...",
-      "originalTitle": "Badak Jawa Terancam, Alquran Ingatkan Manusia tentang Al-Fasad",
-      "originalDescription": "Pemerintah berencana merelokasi sejumlah badak jawa dari Taman Nasional Ujung Kulon, Banten, ke Taman Nasional Alas Purwo, Jawa Timur. Utusan Khusus Presiden Bidang Iklim dan Energi, Hashim Djojohadikusumo, mengatakan...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/anak-badak-betina-bernama-helen-dan-jantan-bernama-luther_200923132554-320.jpg",
-      "category": "Al-Qur'an dan Hadis",
-      "tags": [
-        "Al-Qur'an dan Hadis"
-      ],
-      "source": "Republika",
-      "sources": [
-        "Republika"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-16T06:34:06+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/tol0wu483/badak-jawa-terancam-alquran-ingatkan-manusia-tentang-alfasad"
-    },
-    {
-      "id": "d4586fe4a7f9f0b3",
-      "title": "OJK Ingin Keuangan Syariah Makin Inklusif, Bank Sulselbar Perkuat Wakaf",
-      "description": "Bank Sulselbar dan One Waqf kembangkan Cash Waqf Linked Deposit untuk pemberdayaan ekonomi umat. Workshop sinergi keuangan syariah digelar di Makassar.",
-      "originalTitle": "OJK Ingin Keuangan Syariah Makin Inklusif, Bank Sulselbar Perkuat Wakaf",
-      "originalDescription": "Bank Sulselbar dan One Waqf kembangkan Cash Waqf Linked Deposit untuk pemberdayaan ekonomi umat. Workshop sinergi keuangan syariah digelar di Makassar.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/16/ojk-ingin-keuangan-syariah-makin-inklusif-bank-sulselbar-perkuat-wakaf-1794809997122_169.jpeg?w=360&q=90",
-      "category": "Ekonomi Syariah",
-      "tags": [
-        "Ekonomi Syariah"
-      ],
-      "source": "Detik",
-      "sources": [
-        "Detik"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-16T06:20:20+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8754994/ojk-ingin-keuangan-syariah-makin-inklusif-bank-sulselbar-perkuat-wakaf"
-    },
-    {
-      "id": "cf29141b81272ebe",
-      "title": "Naif bin Mahmas Al-Harbi Ditunjuk sebagai Kepala Urusan Sipil Afif",
-      "description": "Naif bin Mahmas Al-Harbi resmi ditunjuk sebagai Kepala Urusan Sipil Kabupaten Afif oleh Kementerian Dalam Negeri Arab Saudi.",
-      "originalTitle": "Naif bin Mahmas Al-Harbi Ditunjuk sebagai Kepala Urusan Sipil Afif",
-      "originalDescription": "Naif bin Mahmas Al-Harbi resmi ditunjuk sebagai Kepala Urusan Sipil Kabupaten Afif oleh Kementerian Dalam Negeri Arab Saudi.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-09/الأحوال-المدنية-Tpnw-gpD.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T06:02:33+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/mxfxjfqq4"
-    },
-    {
-      "id": "46a2ac6a86460224",
-      "title": "Jip militer Israel berjalan di atas Palestina dalam diduduki West Bank",
-      "description": "Jip militer Israel berjalan di atas Palestina dalam menduduki Bank Barat the Palestina Red Crescent Masyarakat mengatakan bahwa dua orang Palestina yang tersisa terluka setelah ditabrak oleh jip militer Israel dekat Jenin di utara menduduki West Bank. Mereka berdua mengendarai sepeda motor ketika mobil menabrak mereka. Akibatnya, kedua korban menderita patah kaki, dengan salah satu dari mereka juga mempertahankan cedera kepala.",
-      "originalTitle": "Israeli military jeep runs over Palestinians in occupied West Bank",
-      "originalDescription": "Israeli military jeep runs over Palestinians in occupied West Bank The Palestine Red Crescent Society said that two Palestinians were left wounded after being run over by an Israeli military jeep near Jenin in the northern occupied West Bank. The two were riding a motorcycle when the vehicle struck them. As a result, both victims suffered a broken foot, with one of them also sustaining a head injury.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D76F6NQ.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-16T05:45:51+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-jeep-runs-over-palestinians-occupied-west-bank"
     }
   ]
 }
