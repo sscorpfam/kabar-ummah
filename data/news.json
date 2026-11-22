@@ -1,19 +1,19 @@
 {
-  "status": "partial",
-  "lastUpdated": "2026-11-21T23:15:41.406899+00:00",
+  "status": "success",
+  "lastUpdated": "2026-11-22T03:12:53.805220+00:00",
   "total": 500,
-  "newArticles": 112,
+  "newArticles": 122,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 11,
-  "sourcesFailed": 1,
+  "sourcesSucceeded": 12,
+  "sourcesFailed": 0,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 1,
-      "filtered": 24,
-      "filteredFootball": 4,
+      "accepted": 3,
+      "filtered": 22,
+      "filteredFootball": 3,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -49,7 +49,7 @@
       "raw": 50,
       "accepted": 0,
       "filtered": 50,
-      "filteredFootball": 9,
+      "filteredFootball": 7,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,8 +83,8 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 7,
-      "filtered": 13,
+      "accepted": 9,
+      "filtered": 11,
       "filteredFootball": 1,
       "translated": 20,
       "translationPartial": 0,
@@ -95,8 +95,8 @@
       "name": "Detik",
       "status": "success",
       "raw": 100,
-      "accepted": 2,
-      "filtered": 98,
+      "accepted": 1,
+      "filtered": 99,
       "filteredFootball": 1,
       "translated": 0,
       "translationPartial": 0,
@@ -117,23 +117,23 @@
     },
     {
       "name": "NU Online",
-      "status": "error",
-      "raw": 0,
-      "accepted": 0,
-      "filtered": 0,
+      "status": "success",
+      "raw": 49,
+      "accepted": 11,
+      "filtered": 38,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": "403 Client Error: Forbidden for url: https://islam.nu.or.id/rss.xml"
+      "error": null
     },
     {
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 35,
-      "filtered": 15,
-      "filteredFootball": 4,
+      "accepted": 31,
+      "filtered": 19,
+      "filteredFootball": 5,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -156,16 +156,216 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 231,
+    "translatedArticles": 233,
     "partialArticles": 0,
     "failedArticles": 0,
-    "cacheEntries": 3771
+    "cacheEntries": 3803
   },
   "images": {
     "found": 500,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "1a3cd6eb8d9b200c",
+      "title": "Displaced Palestina protes sebagai serangan udara Israel terus di Gaza",
+      "description": "Pasukan Israel terus menghancurkan bangunan perumahan sebagai bagian dari kebijakan 'perpindahan bertahap', kata walikota Gaza.",
+      "originalTitle": "Displaced Palestinians protest as Israeli air strikes continue in Gaza",
+      "originalDescription": "Israeli forces continue to destroy residential buildings as part of a 'gradual displacement' policy, a Gaza mayor says.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/epa_6b00990b1735-1795201291.jpg?resize=1920%2C1440",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-22T02:14:18+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/22/displaced-palestinians-protest-as-israeli-air-strikes-continue-in-gaza"
+    },
+    {
+      "id": "3733a12c3f75f8ec",
+      "title": "Penduduk Israel menyerang rumah-rumah Palestina di Hebron, Ramallah",
+      "description": "Penduduk Israel menyerang rumah-rumah Palestina di Hebron, Ramallah pemukim Israel menyerang dua rumah orang Palestina di kota Yatta, selatan Hebron, pada Sabtu malam, merusak properti dan mencoba untuk membobol salah satu rumah, Wafa melaporkan. Osama Makhmara, seorang aktivis anti- pemukim di Hebron selatan, mengatakan kepada Wafa bahwa pemukim bersenjata menyerang rumah Yusuf Shanaran di Wadi al- Rakhim, melempari dengan batu dan merusak isinya. Dalam insiden terpisah, pemukim berusaha untuk memaksa membuka pintu dan menghancurkan jendela rumah di Khallet al- Hummus daerah, selatan Yatta. Al Jazeera, sementara itu, melaporkan bahwa pasukan Israel menembakkan gas air mata di Palestina selama serangan terhadap pendudukan West Bank kota Deir al- Sudan di daerah Ramallah. Dikatakan pemukim Israel membakar kendaraan dan rumah-rumah di barat laut kota Ramallah.",
+      "originalTitle": "Israeli settlers attack Palestinian homes in Hebron, Ramallah",
+      "originalDescription": "Israeli settlers attack Palestinian homes in Hebron, Ramallah Israeli settlers attacked two Palestinian homes in the town of Yatta, south of Hebron, on Saturday evening, damaging property and attempting to break into one of the houses, Wafa reported. Osama Makhmara, an anti-settler activist in southern Hebron, told Wafa that armed settlers attacked the home of Yusuf Shanaran in Wadi al-Rakhim, pelting it with stones and damaging its contents. In a separate incident, settlers attempted to force open the door and smashed the windows of a home in Khallet al-Hummus area, south of Yatta. Al Jazeera, meanwhile, reported that Israeli forces fired tear gas at Palestinians during a raid on the occupied West Bank town of Deir al-Sudan in the Ramallah area. It said Israeli settlers set fire to vehicles and homes in the town northwest of Ramallah.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/images-story/iran-irgc-rocket-hormuz-february-2026-sepah-news-afp.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-22T01:35:25+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-attack-palestinian-homes-hebron-ramallah"
+    },
+    {
+      "id": "3611323c59102c18",
+      "title": "Monsha'at Tutup Acara Komunitas Kendaraan di Riyadh",
+      "description": "Monsha'at menutup acara Komunitas Kendaraan di Riyadh, mempertemukan pelaku usaha kecil-menengah dengan lembaga pendukung sektor otomotif.",
+      "originalTitle": "Monsha'at Tutup Acara Komunitas Kendaraan di Riyadh",
+      "originalDescription": "Monsha'at menutup acara Komunitas Kendaraan di Riyadh, mempertemukan pelaku usaha kecil-menengah dengan lembaga pendukung sektor otomotif.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-5BcWNgSU.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-22T01:11:23+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/ekonomi/xlwqdo6au"
+    },
+    {
+      "id": "d889d813cb03a5c8",
+      "title": "Turki mengatakan Israel memblokir ribuan rumah kontainer dari memasuki Gaza",
+      "description": "Turki mengatakan Israel memblokir ribuan rumah kontainer dari masuk Menteri Luar Negeri Turki Gaza Hakan Fidan mengatakan Israel memblokir ribuan rumah kontainer yang ditakdirkan untuk Gaza, menambahkan bahwa pemerintah Israel berpendapat Hamas dapat menggunakan struktur logam untuk membuat senjata. Fidan mengatakan kepada penyiar Turki TGRT Haber pada hari Sabtu bahwa Presiden Rewep Tayyip Erdogan telah memerintahkan unit perumahan sementara, yang Turki digunakan selama gempa bumi, untuk dikirim ke enclave Palestina. Dia mengatakan pembatasan Israel yang meninggalkan pengungsi Palestina tergantung pada tenda kain, mengekspos mereka untuk banjir, badai dan cuaca dingin. \"Ketika banjir, badai atau cuaca dingin datang, mereka menyebabkan bencana setidaknya seperti menghancurkan sebagai kelaparan, jika tidak lebih begitu,\" katanya.",
+      "originalTitle": "Turkey says Israel blocking thousands of container homes from entering Gaza",
+      "originalDescription": "Turkey says Israel blocking thousands of container homes from entering Gaza Turkish Foreign Minister Hakan Fidan has said Israel is blocking thousands of container homes destined for Gaza, adding that Israeli authorities argue Hamas could use the metal structures for manufacturing weapons. Fidan told Turkish broadcaster TGRT Haber on Saturday that President Recep Tayyip Erdogan had ordered the temporary housing units, which Turkey used during the earthquake, to be sent to the Palestinian enclave. He said Israeli restrictions were leaving displaced Palestinians dependent on fabric tents, exposing them to flooding, storms and cold weather. “When floods, storms or cold weather come, they cause a disaster at least as devastating as hunger, if not more so,” he said.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/images-story/iran-irgc-rocket-hormuz-february-2026-sepah-news-afp.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-22T01:04:57+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/turkey-says-israel-blocking-thousands-container-homes-entering-gaza"
+    },
+    {
+      "id": "56f00fa59d25a375",
+      "title": "Hind Rajab Foundation mendesak Jerman untuk menangkap tentara Israel atas kejahatan perang Gaza",
+      "description": "Yayasan HIND Rajab mendesak Jerman untuk menangkap tentara Israel atas kejahatan perang Gaza Yayasan Hind Rajab (HRF) telah mendesak Jerman untuk menangkap seorang tentara Israel, Almog Keisi, yang telah terlihat di Luneburg minggu ini, menuduhnya kejahatan perang, kejahatan terhadap kemanusiaan dan tindakan genosida di Gaza. Dalam sebuah pernyataan, yayasan mengatakan mengajukan keluhan pidana dengan Jaksa Umum Federal Jerman di Karlsruhe di bawah prinsip yurisdiksi universal berangkat dalam Kode Kejahatan Jerman 1 terhadap Hukum Internasional yang meliputi genosida, kejahatan terhadap kemanusiaan, dan kejahatan perang. Pihak berwenang Jerman dapat menjalankan yurisdiksi atas pelanggaran ini terlepas dari tersangka apos; s kebangsaan atau di mana dugaan kejahatan yang dilakukan, pernyataan dibaca. HRF mengatakan bahwa Keisi berpartisipasi dalam pembakaran bangunan perumahan di lingkungan Sheikh Radwan Gaza antara 9 dan 10 Oktober 2025, berikut pengumuman perjanjian gencatan senjata dan menjelang penarikan pasukan Israel dari Gaza utara. Menurut pengaduan, Keisi diposting foto pada 10 Oktober menunjukkan dirinya menempatkan bahan peledak di sekitar objek sipil dan kemudian berpose di depan bangunan ditelan dalam api. Tentara lain dari Brigade Givati juga berbagi foto dari struktur terbakar, menggambarkan kehancuran sebagai perpisahan perayaan. HRF mengatakan gedung itu terletak di dekat Sekolah Wanita Al- Mawhobeen dan mengutip data pendeteksi api NASA dan citra satelit sebagai bukti nyata dari kebakaran dan kerusakan. Dyab Abou Jajah, direktur umum HRF, berkata: \"Jerman telah menerima bukti terhadap tersangka penjahat perang sebelumnya dan memilih untuk berpaling. Sementara itu, penangkapan dan tuntutan orang untuk melambaikan keffiyhs atau nyanyian slogan terhadap genosida.\" \"Jadi pertanyaannya adalah: berapa lama Jerman akan menghabiskan sumber daya untuk menuntut mereka yang melawan genosida bukan mereka yang melakukannya?\" Keisi terlihat di Lüneburg, Jerman, mi",
+      "originalTitle": "Hind Rajab Foundation urges Germany to arrest Israeli soldier over Gaza war crimes",
+      "originalDescription": "Hind Rajab Foundation urges Germany to arrest Israeli soldier over Gaza war crimes The Hind Rajab Foundation (HRF) has urged Germany to arrest an Israeli soldier, Almog Keisi, who has been sighted in Luneburg this week, accusing him of war crimes, crimes against humanity and acts of genocide in Gaza. In a statement, the foundation said it filed a criminal complaint with Germany’s Federal Public Prosecutor in Karlsruhe under the principle of universal jurisdiction set out in Section 1 of the German Code of Crimes against International Law that cover genocide, crimes against humanity, and war crimes. German authorities can exercise jurisdiction over these offences regardless of the suspect’s nationality or where the alleged crimes were committed, the statement read. HRF said that Keisi participated in the burning of residential buildings in Gaza City’s Sheikh Radwan neighbourhood between 9 and 10 October 2025, following the announcement of a ceasefire agreement and ahead of Israeli forces’ withdrawal from northern Gaza. According to the complaint, Keisi posted photographs on 10 October showing himself placing explosives around civilian objects and later posing in front of buildings engulfed in flames. Other soldiers from the Givati Brigade also shared photographs of the burning structures, describing the destruction as a celebratory farewell. HRF said it had geolocated the buildings near Al-Mawhobeen Secondary Female School and cited NASA fire-detection data and satellite imagery as corroborating evidence of the fires and damage. Dyab Abou Jahjah, HRF’s general director, said: “Germany has received evidence against suspected war criminals before and chose to look away. Meanwhile, it arrests and prosecutes people for waving keffiyehs or chanting slogans against the genocide.\" \"So the question stands: how long will Germany spend its resources prosecuting those who fight the genocide instead of those who commit it?\" 🇩🇪🚨The #HindRajabFoundation has filed a criminal compla",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/images-story/iran-irgc-rocket-hormuz-february-2026-sepah-news-afp.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-22T00:44:32+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/hind-rajab-foundation-urges-germany-arrest-israeli-soldier-over-gaza-war"
+    },
+    {
+      "id": "78ea82c38bd683e7",
+      "title": "Jumlah korban Gaza meningkat menjadi 1,671",
+      "description": "Kematian Gaza meningkat menjadi 1.671 serangan Israel di Gaza menewaskan setidaknya sembilan orang dalam 48 jam terakhir, mengambil korban kematian sejak bulan Oktober 2025 \"gencatan senjata\" ke 1.661, Al Jazeera melaporkan, mengutip pelayanan kesehatan Palestina. Menteri mengatakan 55 Palestina terluka dalam 48 jam terakhir, dan bahwa tubuh 851 orang telah pulih. Jumlah total yang terluka sejak Oktober 2025 telah mencapai 6.062. Istri seorang pria Palestina yang tewas dalam serangan Israel terhadap kendaraan berkabung atas tubuhnya yang terselubung di depan pemakamannya di Rumah Sakit Al- Shifa di Gaza City pada 21 November 2026 (AFP)",
+      "originalTitle": "Gaza death toll rises to 1,671",
+      "originalDescription": "Gaza death toll rises to 1,671 Israeli attacks in Gaza killed at least nine people in the past 48 hours, taking the death toll since the October 2025 “ceasefire” to 1,661, Al Jazeera reported, citing the Palestinian health ministry. The ministry said 55 Palestinians were wounded in the past 48 hours, and that the bodies of 851 people have been recovered. The total number of wounded since October 2025 has reached 6,062. Wife of a Palestinian man who was killed in an israeli strike on a vehicle mourns over his shrouded body ahead of his funeral at Al-Shifa Hospital in Gaza City on 21 November 2026 (AFP)",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/Abeer%2C%20%28C%29%20the%20wife%20of%20Khaled%20Naeem%2C%20who%20was%20killed%20in%20an%20israeli%20strike%20on%20a%20vehicle%20earlier%2C%20mourns%20over%20his%20shrouded%20body%20ahead%20of%20his%20funeral%20at%20Al-Shifa%20Hospital%20in%20Gaza%20City%20on%20November%2021%2C%202026.%20.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-22T00:04:17+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/gaza-death-toll-rises-1671"
+    },
+    {
+      "id": "914b97b00a2bb256",
+      "title": "Perang Iran hidup: sasaran Iran basis AS di Bahrain; serangan Houthi terus",
+      "description": "Bahrain telah mengutuk serangan Iran terhadap aset militer AS di negara Teluk, sebagaimana Houthis menjaga Arab Saudi di ujung.",
+      "originalTitle": "Iran war live: Iran targets US bases in Bahrain; Houthi strikes continue",
+      "originalDescription": "Bahrain has condemned Iran's strikes on US military assets in the Gulf country, as Houthis keep Saudi Arabia on edge.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b022741d913-1795303233.jpg?resize=1920%2C1440",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-21T23:59:03+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-iran-targets-us-military-in-bahrain-houthi-strikes-continue"
+    },
+    {
+      "id": "cee0ac0ad0bdd454",
+      "title": "Perumahan menyangkal ancaman untuk Arab Saudi kota suci Mekah",
+      "description": "Perumahan menyangkal ancaman untuk Arab Saudi kota suci Mekah Juru bicara militer Yahya Saree mengatakan ada \"tidak ada ancaman untuk Mekah\" setelah Arab Saudi mengeluarkan peringatan bahaya bagi provinsi Mekah dan mengangkatnya saat kemudian. Dalam sebuah pernyataan di Telegram, Saree mengatakan bahwa orang-orang Yaman adalah orang-orang yang menyucikan Mekah dan semua situs suci Islam \"dan bahwa\" Arab Saudi menyebarkan kebohongan besar dengan mengklaim ada ancaman di daerah Mekah. Operasi kami menargetkan fasilitas minyak dan pangkalan militer \".",
+      "originalTitle": "Houthis deny threat to Saudi Arabia’s holy city of Mecca",
+      "originalDescription": "Houthis deny threat to Saudi Arabia’s holy city of Mecca Houthi military spokesman Yahya Saree said there was “no threat to Mecca” after Saudi Arabia issued a danger alert for the Mecca province and lifted it moments later. In a statement on Telegram, Saree said that the “Yemeni people are ones who sanctify Mecca and all Islamic holy sites” and that “Saudi Arabia propagates a great lie by claiming there is a threat in the Mecca region. Our operations target its oil facilities and military bases.”",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/images-story/iran-irgc-rocket-hormuz-february-2026-sepah-news-afp.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-21T23:39:48+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-deny-threat-saudi-arabias-holy-city-mecca"
+    },
     {
       "id": "1ed39b425dc4f457",
       "title": "Saudi- dipimpin koalisi mengatakan itu dicegat rudal balistik Houthi menargetkan wilayah barat",
@@ -12530,206 +12730,6 @@
       "region": "",
       "publishedAt": "2026-11-16T15:52:43+00:00",
       "originalUrl": "https://www.middleeasteye.net/news/paper-trail-leads-uae-dead-boy-sudan"
-    },
-    {
-      "id": "574d60612cba1fe3",
-      "title": "Bagaimana Maroko menjadi pusat keamanan Israel di Afrika",
-      "description": "Bagaimana Maroko menjadi pusat keamanan Israel di Afrika Diberikan oleh Ahmed Alqarout di Fri, 11 / 13 / 2026 - 18: 04 Rabat menawarkan kepada Abraham Accates nya mitra tempat aman industri, jauh dari rudal dan sanksi Seorang tentara Israel meluncurkan kendaraan udara tak berawak Elbit, digunakan untuk pengawasan, dekat perbatasan Gaza pada 30 September 2025 (Jack Guez / AFP) Off Di Pertunjukan Udara Marrakech bulan lalu, Departemen Pertahanan Israel membuka paviliun resmi pertamanya di Maroko. Delapan perusahaan Israel, di antara mereka dimiliki Israel Aerospace Industries (IAI) dan Rafael, menunjukkan drone, berkeliaran amunisi dan sistem pertahanan udara, sementara Elbit 's Maroko usaha gabungan mengumumkan bahwa hal itu akan memberikan menara ke tentara Maroko dari Maret 2027. Juga di pertunjukan udara, kelompok pertahanan UAE Edge menandatangani kontrak untuk mempersenjatai drone Maroko. Acara ini bertepatan dengan ulang tahun 7 Oktober, yang menarik demonstran untuk berjaga-jaga di luar parlemen di Rabat. Acara-acara yang disebut di beberapa 30 kota Maroko, mendesak pemerintah untuk menjatuhkan langkah-langkah baru bertujuan lebih lanjut normalisasi hubungan dengan Israel. BDS Maroko meminta boikot dari acara Marrakech. Pertunjukan udara menggambarkan bagaimana, sejak bergabung dengan Perjanjian Abraham tahun 2020, Maroko telah berpindah dari membeli senjata Israel untuk membangunnya. Perang di Gaza mempercepat kemitraan itu, sebagai boikot global dan sanksi terhadap Israel diperluas. Di Eropa, Spanyol dibatalkan €1.2bn ($1.3bn) kontrak militer Israel, dan Perancis melarang Israel dari pameran pertahanan Eurosatory. Perang dengan Iran semakin jauh mengekspos industri Israel dan Emiri. Iran mengatakan hal itu menyerang Rafael dan situs IAI, bersama dengan pemasok pesawat tanpa awak, dan Emirates Global Aluminium' s Abu Dhabi tanaman mengalami kerusakan yang signifikan. Maroko menawarkan Abraham Accords sebagai mitra sebuah tempat aman industri, jauh dari rudal ",
-      "originalTitle": "How Morocco is becoming Israel's security hub in Africa",
-      "originalDescription": "How Morocco is becoming Israel's security hub in Africa Submitted by Ahmed Alqarout on Fri, 11/13/2026 - 18:04 Rabat offers its Abraham Accords partners an industrial safe haven, away from missiles and sanctions An Israeli soldier launches an Elbit unmanned aerial vehicle, used for surveillance, near the border with Gaza on 30 September 2025 (Jack Guez/AFP) Off At the Marrakech Air Show last month, Israel ’s defence ministry opened its first official pavilion in Morocco . Eight Israeli firms , among them the state-owned Israel Aerospace Industries (IAI) and Rafael, showed drones, loitering munitions and air defence systems, while Elbit’s Moroccan joint venture announced that it would deliver turrets to the Moroccan army from March 2027. Also at the air show, the UAE ’s defence group Edge signed a contract to arm Morocco’s drones. The event coincided with the anniversary of 7 October, which drew protesters to a vigil outside parliament in Rabat. Events were called in some 30 Moroccan cities, urging the government to drop new measures aimed at further normalising ties with Israel . BDS Morocco called for a boycott of the Marrakech show. The air show illustrates how, since joining the Abraham Accords in 2020, Morocco has moved from buying Israeli weapons to building them . The war on Gaza accelerated that partnership, as global boycotts and sanctions against Israel expanded. In Europe, Spain cancelled €1.2bn ($1.3bn) of Israeli military contracts, and France barred Israel from the Eurosatory defence exhibition. The war with Iran further exposed Israeli and Emirati industries. Iran said it struck Rafael and IAI sites, along with a drone supplier , and Emirates Global Aluminium’s Abu Dhabi plant suffered significant damage . Morocco offers its Abraham Accords partners an industrial safe haven, away from missiles and sanctions, and its coordination with Israel now spans production, intelligence, training, weapons testing, shipping and policing in Gaza . The kingdom is bec",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/israel-soldier-elbit-uav-gaza-september-2025-jack-guez-afp.jpg.jpg?itok=A0R14rni",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-16T15:42:40+00:00",
-      "originalUrl": "https://www.middleeasteye.net/opinion/how-morocco-becoming-israels-security-hub"
-    },
-    {
-      "id": "3d2ec92f34de239d",
-      "title": "Kementerian Dalam Negeri Arab Saudi Tegaskan Sanksi bagi Pemberi Kerja yang Biarkan Pekerja Bekerja untuk Pihak Lain",
-      "description": "Kementerian Dalam Negeri Arab Saudi memperingatkan pemberi kerja agar tidak membiarkan pekerjanya bekerja untuk pihak lain atau secara mandiri, dengan ancaman sanksi berat.",
-      "originalTitle": "Kementerian Dalam Negeri Arab Saudi Tegaskan Sanksi bagi Pemberi Kerja yang Biarkan Pekerja Bekerja untuk Pihak Lain",
-      "originalDescription": "Kementerian Dalam Negeri Arab Saudi memperingatkan pemberi kerja agar tidak membiarkan pekerjanya bekerja untuk pihak lain atau secara mandiri, dengan ancaman sanksi berat.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/images-crop-WfpQrP4F.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T15:25:15+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/dunia/alepfsmdb"
-    },
-    {
-      "id": "8df841ce59147741",
-      "title": "Hakim ICC memerintahkan akhir untuk menyelidiki dugaan kejahatan oleh pasukan AS di Afghanistan",
-      "description": "Hakim ICC memerintahkan untuk mengakhiri penyelidikan terhadap dugaan kejahatan oleh pasukan AS di Afghanistan Diberikan oleh Sondos Asem pada Mon, 11 / 16 / 2026 - 10: 56 Keputusan, ditandai dalam urutan pertama yang dilaporkan oleh MEE pada bulan Agustus, menimbulkan pertanyaan atas apakah pengadilan sedang berusaha untuk meringankan AS berikut Sanctions Rosario Salvatore Aitala, sekarang hakim dari ICC 's Preal Chamber II, pada sumpah-nya dalam upacara di The Hague pada 9 Maret 2018 (ICC / Flirr) Off Hakim di International Crime Court (ICC) telah memerintahkan penutupan pengadilan pengadilan yang meliput kasus-kasus yang sedang berlangsung oleh pihak-pihak yang mengajukan tuntutan oleh pihak-tuntutan pengadilan internasional. Mengakhiri penyelidikan terhadap dugaan kejahatan AS alamat salah satu Washington' s lama keberatan kepada ICC dan salah satu alasan di balik sanksi pada pengadilan dan pejabat tersebut. Karena itu, kemungkinan besar untuk menimbulkan pertanyaan tentang apakah pengadilan mencari untuk meringankan ketegangan dengan Washington dengan menandatangani bahwa hal itu tidak akan lagi mengejar tuduhan terhadap pasukan AS dan sekutu mereka. Situasi Afghanistan di ICC tanggal kembali ke November 2017, ketika kemudian-Jaksa Fatou Bensouda pertama kali meminta otorisasi untuk menyelidiki dugaan kejahatan yang dilakukan sejak 2003, termasuk oleh Afghanistan dan pasukan AS serta kelompok Taliban dan ISK. Permintaan itu awalnya ditolak oleh yang berbeda terdiri ruang pra-pengadilan pada tahun 2019, sebelum ruang banding terbalik keputusan pada bulan Maret 2020 dan berwenang penyelidikan untuk melanjutkan. Bensouda disetujui oleh pemerintah AS beberapa bulan kemudian atas upaya dugaan untuk subjek Amerika ke yurisdiksi pengadilan. Anggota dari ruang banding yang berwenang keputusan juga kemudian sanksi. Afganistan II diluncurkan pada bulan November 2024, enam negara bagian - Chile, Kosta Rika, Spanyol, Perancis, Luxembourg dan Meksiko - bersamaan disebut tud",
-      "originalTitle": "ICC judges order end to investigation into alleged crimes by US forces in Afghanistan",
-      "originalDescription": "ICC judges order end to investigation into alleged crimes by US forces in Afghanistan Submitted by Sondos Asem on Mon, 11/16/2026 - 10:56 The decision, signalled in an order first reported by MEE in August, raises questions over whether the court is seeking to ease US pressure following sanctions Rosario Salvatore Aitala, now presiding judge of the ICC’s Pre-Trial Chamber II, at his swearing-in ceremony in The Hague on 9 March 2018 (ICC/Flikr) Off Judges at the International Criminal Court (ICC) have ordered the closure of the court’s Afghanistan investigation that covered alleged war crimes by US forces, despite ongoing attempts by prosecutors to appeal the decision. Ending the investigation into alleged US crimes addresses one of Washington ’s longstanding objections to the ICC and one of the reasons behind the sanctions on the court and its officials. The move is therefore likely to raise questions about whether the court is seeking to ease tensions with Washington by signalling that it will no longer pursue allegations against US forces and their allies. The Afghanistan situation at the ICC dates back to November 2017, when then-prosecutor Fatou Bensouda first requested authorisation to investigate alleged crimes committed since 2003, including by Afghan and US forces as well as the Taliban and the IS-K group. That request was initially rejected by a differently composed pre-trial chamber in 2019, before the appeals chamber overturned the decision in March 2020 and authorised the investigation to proceed. Bensouda was sanctioned by the US government a few months later over alleged attempts to subject Americans to the court's jurisdiction. Members of the appeals chamber that authorised the decision were also later sanctioned. Afghanistan II launched In November 2024, six states - Chile, Costa Rica, Spain, France, Luxembourg and Mexico - jointly referred allegations of crimes against women and girls committed since the Taliban's return to power in August 2021, ask",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/icc-judge-aitala-sworn-in-2018-flikr.jpg.jpg?itok=6r3zBohq",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-16T15:07:15+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/icc-judges-order-end-afghanistan-investigation-covering-us-forces-prosecutors-appeal"
-    },
-    {
-      "id": "871ae49e91a942f9",
-      "title": "Pakar Jelaskan Faktor Penguat Laba Perusahaan Asuransi",
-      "description": "Pakar asuransi Louay Abdu memaparkan faktor-faktor yang mendorong peningkatan laba perusahaan asuransi di Arab Saudi.",
-      "originalTitle": "Pakar Jelaskan Faktor Penguat Laba Perusahaan Asuransi",
-      "originalDescription": "Pakar asuransi Louay Abdu memaparkan faktor-faktor yang mendorong peningkatan laba perusahaan asuransi di Arab Saudi.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/featured-crop-bmlrWz7l.png",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T15:05:42+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/ekonomi/fwqrr5out"
-    },
-    {
-      "id": "12a377236e8d2722",
-      "title": "Kementerian Luar Negeri Buka Lowongan untuk Pegawai Golongan VI dan VII",
-      "description": "Kementerian Luar Negeri Arab Saudi membuka lowongan bagi pegawai laki-laki golongan VI dan VII melalui mekanisme mutasi sesuai regulasi sumber daya manusia.",
-      "originalTitle": "Kementerian Luar Negeri Buka Lowongan untuk Pegawai Golongan VI dan VII",
-      "originalDescription": "Kementerian Luar Negeri Arab Saudi membuka lowongan bagi pegawai laki-laki golongan VI dan VII melalui mekanisme mutasi sesuai regulasi sumber daya manusia.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/featured-crop-NRCMLCdP.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T15:04:22+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/dunia/bmn2baehe"
-    },
-    {
-      "id": "4bee1dd6d40aebae",
-      "title": "MP berusaha menyelidiki kedalam pendanaan grup parlemen Inggris ke perusahaan Israel",
-      "description": "MP berusaha menyelidiki pendanaan grup parlemen Inggris kepada perusahaan Israel yang diberikan oleh Imran Mulla on Mon, 11 / 16 / 2026 - 10: 45 APPG pada funder Israel adalah uang ganti rugi oleh perusahaan Israel yang berusaha untuk membentuk perdebatan di parlemen A camar terbang oleh River Thames, dekat Jembatan Westminster dan Elizabeth Tower, yang dikenal sebagai Big Ben, di Rumah Sakit Parlemen di London Tengah pada 12 November 2026. (AFP) Off Komisi standar parlemen Inggris telah didesak untuk menyelidiki AllParlemen Grup (APPG) pada Israel mengikuti laporan yang menghubungkan pendanaan ke organisasi Israel yang mengatakan itu membantu perdebatan bentuk dalam parlemen Inggris. APPG didanai oleh Cedarrendam Ltd, sebuah perusahaan Inggris di mana Lord Mendelsohn, mantan ketua Labour Friends of Israel, dan Lord Polak, mantan direktur dari Teman Konservatif Israel, adalah satu-satunya direktur. Tapi Byline Times melaporkan awal bulan ini bahwa perusahaan berbasis Tel Aviv- Cedars Oak Israel Ltd berhutang pada perusahaan Inggris Cedarscash £147.687 dalam penggantian dana pada tahun 2024. Cedars Oak Israel menggambarkan dirinya sebagai \"bagian aktif dalam membentuk narasi di Parlemen Inggris\" untuk \"melayani tujuan nasional\". Its 2024 laporan kepada Israel lembaga amal mengatakan itu bekerja untuk mempengaruhi opini Inggris dan kebijakan pada Hamas, antisemitisme, sanksi, Iran dan isu-isu lainnya. Donor perusahaan di tahun 2024 adalah perusahaan Line Trust Limited, perusahaan perwalian Gibraltar yang dimiliki oleh Hassans, perusahaan hukum terbesar di wilayah ini. APPG, yang merupakan kelompok informal dari MPs dan rekan-rekan, diwajibkan untuk menamai partai manapun yang \"akhirnya didanai\" sebuah keuntungan menurut aturan parlemen. Menurut Byline Times, APPG juga secara retroaktif mendaftarkan sebuah benefit- in-kind, yang dinilai antara £85,501 dan £87.000, dari Cedarscash Ltd pada awal 2025. MP Independen Iqbal Mohamed telah menulis kepada komisaris standar par",
-      "originalTitle": "MP seeks probe into UK parliamentary group’s funding links to Israeli firm",
-      "originalDescription": "MP seeks probe into UK parliamentary group’s funding links to Israeli firm Submitted by Imran Mulla on Mon, 11/16/2026 - 10:45 APPG on Israel’s UK funder was owed reimbursements by an Israeli firm seeking to shape debate in parliament A gull flies by the River Thames, near Westminster Bridge and the Elizabeth Tower, commonly known as Big Ben, at the Houses of Parliament in central London on 12 November 2026. (AFP) Off The UK parliament’s standards commissioner has been urged to investigate the All-Party Parliamentary Group (APPG) on Israel following reports linking its funding to an Israeli organisation that says it helps shape debate in the British parliament. The APPG is funded by Cedarsoak Ltd, a British company in which Lord Mendelsohn, the former chair of Labour Friends of Israel, and Lord Polak, the former director of the Conservative Friends of Israel, are the sole directors . But Byline Times reported earlier this month that the Tel Aviv-based firm Cedars Oak Israel Ltd owed the UK firm Cedarsoak £147,687 in reimbursements in 2024. Cedars Oak Israel describes itself as taking \"an active part in shaping the narrative in the British Parliament\" to \"serve national objectives\". Its 2024 report to the Israeli charity registrar said it worked to influence British opinion and policy on Hamas, antisemitism, sanctions, Iran and other issues. The firm's donor in 2024 was Line Trust Corporation Limited, a Gibraltar-based trust company owned by Hassans, the territory's biggest law firm. APPGs, which are informal groups of MPs and peers, are required to name any party that \"ultimately funded\" a benefit according to parliamentary rules. According to Byline Times, the APPG also retroactively registered a benefit-in-kind, valued at between £85,501 and £87,000, from Cedarsoak Ltd in early 2025. Independent MP Iqbal Mohamed has written to the parliamentary standards commissioner requesting \"an immediate and comprehensive investigation into alleged systemic breaches of the Rul",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_D7AP3BR%20%281%29.jpg.jpg?itok=EPCukVvb",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-16T14:52:24+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/mp-seeks-probe-against-uk-parliamentary-group-funding-from-israeli-firm"
-    },
-    {
-      "id": "af1ac02ee6bb4163",
-      "title": "Saudi-pasukan mundur dari Bab al- Mandab sebagai tanah galian Houthis",
-      "description": "Saudi- pasukan mundur dari Bab al- Mandab sebagai Houthis tanah gain Dikirimkan oleh staf MEE pada Mon, 11 / 16 / 2026 - 12: 09 Angkatan Bersenjata Selatan mengatakan bahwa tindakan ini dimaksudkan untuk memperkuat Aden, sementara klaim Houthis mereka mendorong pasukan dari posisi yang menghadap ke arah laut strategis di Yaman Yang berwenang berkumpul selama protes terhadap Saudi Intervention di Sanaa, 9 Oktober 2026 (Mohammed Huwais / AFP) Off Saudi - didukung pasukan di Yaman telah ditarik dari posisi yang menghadap Bab al- Mandab Selat strategis, meninggalkan Houthis dengan pengaruh yang lebih besar di pintu masuk selatan ke Laut Merah. Angkatan Bersenjata Selatan, yang didukung oleh Arab Saudi dan berjuang bersama pemerintah Yaman yang diakui internasional, berkata pada hari Minggu mereka mengerahkan pasukan dari bandara Dhubab dan daerah Bab al- Mandab untuk memperkuat pertahanan di sekitar ibukota internal Aden. \"Langkah ini diambil berdasarkan prioritas mengamankan ibukota, Aden, dan pemerintah tetangga, serta memperkuat garis depan dan mengatasi ancaman yang sudah ada\", kata kelompok dalam sebuah pernyataan. Perumahan, secara resmi dikenal sebagai Ansar Allah, menawarkan rekening yang berbeda. Seorang sumber militer dikutip oleh agen berita Houthi- run Saba mengatakan bahwa mereka telah memaksa Saudi-didukung pasukan keluar dari posisi sekitar Dhubab dan Bab al- Mandab setelah memisahkan rute pasokan belakang mereka, memaksa mereka untuk bergerak menuju Aden. The Houthi- run outlet juga melaporkan bahwa pasukan kelompok telah melakukan operasi mengapit di lebih dari 60km daerah pegunungan dari Taiz dan Lahij, memaksa pasukan musuh untuk mundur dari posisi di sekitar bandara Dhubab, pinggiran Kahbub dan daerah sekitar Bab al- Mandab. Perkembangan terbaru memberikan Houthis pengaruh lebih atas bagaimana Bab Al- Mandab, salah satu titik yang paling kritis dari lalu lintas jalur air di dunia, dikendalikan. Selat duduk di rute maritim antara Laut Merah dan Teluk ",
-      "originalTitle": "Saudi-backed forces retreat from Bab al-Mandab as Houthis gain ground",
-      "originalDescription": "Saudi-backed forces retreat from Bab al-Mandab as Houthis gain ground Submitted by MEE staff on Mon, 11/16/2026 - 12:09 The Southern Armed Forces say the move is intended to reinforce Aden, while the Houthis claim they drove troops from positions overlooking the strategic waterway Supporters of Yemen’s Houthi authorities gather during a protest against Saudi intervention in Sanaa, 9 October 2026 (Mohammed Huwais/AFP) Off Saudi-backed forces in Yemen have withdrawn from positions overlooking the strategic Bab al-Mandab Strait, leaving the Houthis with greater leverage over the southern entrance to the Red Sea after weeks of fighting. The Southern Armed Forces, who are backed by Saudi Arabia and fighting alongside the internationally recognised Yemeni government, said on Sunday they had \"redeployed\" troops from Dhubab airport and surrounding regions of Bab al-Mandab to strengthen defences around the interim capital Aden. “This step is taken based on the priority of securing the capital, Aden, and the neighbouring governorates, as well as strengthening the front lines and addressing existing threats,” the group said in a statement. The Houthis, officially known as Ansar Allah, offered a different account. A military source quoted by the Houthi-run Saba news agency said that they had forced Saudi-backed forces out of positions around Dhubab and Bab al-Mandab after severing their rear supply routes, forcing them to move towards Aden. The Houthi-run outlet also reported that the group's forces had carried out a flanking operation across more than 60km of the mountainous regions of Taiz and Lahij, forcing enemy troops to retreat from positions around Dhubab airport, the outskirts of Kahbub and areas around Bab al-Mandab. The latest developments give the Houthis more leverage over how Bab al-Mandab, one of the most critical points of waterway traffic in the world, is controlled. The strait sits on the maritime route between the Red Sea and the Gulf of Aden, leading into the",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Supporters%20of%20Yemen%E2%80%99s%20Houthi%20authorities%20gather%20during%20a%20protest%20against%20Saudi%20intervention%20in%20Sanaa%2C%209%20October%202026%20%28Mohammed%20Huwais%20AFP%29.jpg.jpg?itok=nGpxq1Cl",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-16T14:44:34+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/saudi-backed-forces-retreat-bab-al-mandab-houthis-gain-ground"
-    },
-    {
-      "id": "3d030fda9050384d",
-      "title": "Bus angkutan umum Saudi mengangkut lebih dari 25,5 juta penumpang di Q3 2026",
-      "description": "RIYADH - Otoritas Umum Transportasi (TGA) mengumumkan bahwa transportasi umum bus di kota-kota di Arab Saudi membawa lebih dari 25,5 juta penumpang di kuartal ketiga 2026, peningkatan 3.6 persen dibandingkan dengan periode yang sama pada tahun 2025. Hal ini mencerminkan peningkatan ketergantungan pada transportasi umum dan tingkat penggunaan yang lebih tinggi di seluruh kota-kota Kerajaan. Riyadh topped daftar kota dengan jumlah tertinggi penumpang bus publik, merekam lebih dari 19.29 juta, diikuti dengan lebih dari 2.89 juta dan Jeddah dengan lebih dari 1.19 juta. Nomor penumpang di daerah Metropolitan Dammam dan pemerintah Qatif melebihi 789.000, sedangkan Madinah merekam lebih dari 568.000. Angka-angka ini mencerminkan upaya TGA untuk memperluas layanan transportasi publik di dalam kota-kota dan menyediakan pilihan transportasi yang efisien dan berkelanjutan yang meningkatkan mobilitas, sejalan dengan tujuan Transportasi Nasional dan Strategi Logistik.",
-      "originalTitle": "Saudi public transport buses carry over 25.5 million passengers in Q3 2026",
-      "originalDescription": "RIYADH — The Transport General Authority (TGA) announced that public transport buses in cities across Saudi Arabia carried more than 25.5 million passengers in the third quarter of 2026, an increase of 3.6 percent compared with the same period in 2025. This reflects growing reliance on public transport and higher usage rates across the Kingdom's cities. Riyadh topped the list of cities with the highest number of public bus passengers, recording more than 19.29 million, followed by Makkah with more than 2.89 million and Jeddah with more than 1.19 million. Passenger numbers in the Dammam Metropolitan Area and Qatif governorate exceeded 789,000, while Madinah recorded more than 568,000. These figures reflect TGA's efforts to expand public transport services within cities and provide efficient, sustainable transport options that improve mobility, in line with the objectives of the National Transport and Logistics Strategy.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/16/2795285.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-16T14:27:14+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666294/saudi-arabia/saudi-public-transport-buses-carry-over-255-million-passengers-in-q3-2026"
     }
   ]
 }
