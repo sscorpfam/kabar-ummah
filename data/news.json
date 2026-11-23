@@ -1,8 +1,8 @@
 {
   "status": "success",
-  "lastUpdated": "2026-11-22T19:38:49.727620+00:00",
+  "lastUpdated": "2026-11-23T00:52:36.937948+00:00",
   "total": 500,
-  "newArticles": 123,
+  "newArticles": 118,
   "sourcesChecked": 12,
   "sourcesSucceeded": 12,
   "sourcesFailed": 0,
@@ -11,9 +11,9 @@
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 3,
-      "filtered": 22,
-      "filteredFootball": 1,
+      "accepted": 1,
+      "filtered": 24,
+      "filteredFootball": 3,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 34,
+      "raw": 35,
       "accepted": 0,
-      "filtered": 34,
+      "filtered": 35,
       "filteredFootball": 0,
-      "translated": 34,
+      "translated": 35,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -49,7 +49,7 @@
       "raw": 50,
       "accepted": 0,
       "filtered": 50,
-      "filteredFootball": 6,
+      "filteredFootball": 9,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -118,8 +118,8 @@
     {
       "name": "NU Online",
       "status": "success",
-      "raw": 50,
-      "accepted": 13,
+      "raw": 49,
+      "accepted": 12,
       "filtered": 37,
       "filteredFootball": 0,
       "translated": 0,
@@ -131,9 +131,9 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 26,
-      "filtered": 24,
-      "filteredFootball": 7,
+      "accepted": 24,
+      "filtered": 26,
+      "filteredFootball": 13,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -156,27 +156,177 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 237,
+    "translatedArticles": 240,
     "partialArticles": 0,
     "failedArticles": 0,
-    "cacheEntries": 3996
+    "cacheEntries": 4044
   },
   "images": {
-    "found": 499,
-    "missing": 1
+    "found": 500,
+    "missing": 0
   },
   "articles": [
     {
-      "id": "5e3343bcf39cbe81",
-      "title": "CHK _ Aber Kawas menjadi orang Palestina pertama dalam sejarah senat negara bagian New York",
+      "id": "f99089e43a3b4a5c",
+      "title": "Eisenkot mengutuk 'terorisme Yahudi' dekat Ramallah sebagai anggota Kongres AS meminta pertanggungjawaban",
+      "description": "Eisenkot mengutuk 'terorisme Yahudi' dekat Ramallah sebagai anggota kongres AS menyerukan akuntabilitas politisi Israel Gadi Eisenkot telah mengutuk serangkaian serangan pembakaran oleh pemukim di Tepi Barat yang diduduki sebagai \"terorisme Yahudi\", menuduh menteri-menteri yang tepat Bezalel Smotrich dan Itamar Ben Gvir dari fuelling kekerasan terhadap Palestina. Dalam beberapa malam ke hari Minggu, pemukim Israel menyerang tiga desa Palestina di dekat Ramallah, membakar kendaraan dan mengecat slogan rasis di bangunan perumahan. Eisenkot, pemimpin partai Yashar, menggambarkan serangan sebagai \"terorisme Yahudi dalam setiap arti kata\" dan menyerukan pada pemerintah dan keamanan pembentukan untuk mengambil tindakan yang lebih keras terhadap pemukim kekerasan. \"Tindakan sabotase dilakukan oleh kelompok ekstremis membakar kendaraan dan rumah-rumah merusak stabilitas regional, membahayakan nyawa dan serius membahayakan keamanan nasional Israel dan hubungan luar negeri\", menulis tentang X. Pemimpin oposisi Yair Lapid juga mengutuk serangan, menyebut mereka \"terorisme Yahudi\" disebabkan oleh kelalaian pemerintah. \"Terorisme Yahudi adalah hasil dari kelalaian kriminal pada bagian dari pemerintah Israel\", kata Lapid. \"Dengan tetap diam, menteri pemerintah sengaja mendorong pogroms ini\". \"Ketika kita membentuk pemerintahan, kita akan mengatasi terorisme ini dan mengembalikan pemerintahan, hukum dan ketertiban\", tambahnya. Di Amerika Serikat, Anggota Kongres Demokratik Josh Gottheimer mengutuk serangan dan menyerukan pertanggungjawaban. \"Insiden ini menjamin penyelidikan penuh dan menyeluruh\", Gottheimer menulis pada X, menambahkan bahwa keadilan main hakim sendiri tidak \"di masyarakat. Polisi Israel mengatakan mereka telah membuka penyelidikan ke pembakaran, vandalisme dan kerusakan properti.",
+      "originalTitle": "Eisenkot condemns 'Jewish terrorism' near Ramallah as US congressman calls for accountability",
+      "originalDescription": "Eisenkot condemns 'Jewish terrorism' near Ramallah as US congressman calls for accountability Israeli politician Gadi Eisenkot has condemned a series of arson attacks by settlers in the occupied West Bank as \"Jewish terrorism\", accusing far-right ministers Bezalel Smotrich and Itamar Ben Gvir of fuelling violence against Palestinians. Overnight into Sunday, Israeli settlers attacked three Palestinian villages near Ramallah, setting fire to vehicles and spray-painting racist slogans on residential buildings. Eisenkot, leader of the Yashar party, described the attacks as \"Jewish terrorism in every sense of the word\" and called on the government and security establishment to take tougher action against violent settlers. \"The acts of sabotage carried out by extremist groups setting fire to vehicles and homes undermine regional stability, endanger lives and seriously harm Israel's national security and foreign relations,\" he wrote on X. Opposition leader Yair Lapid also condemned the attacks, calling them \"Jewish terrorism\" caused by government negligence. \"Jewish terrorism is the product of criminal negligence on the part of the Israeli government,\" Lapid said. \"By remaining silent, government ministers are deliberately encouraging these pogroms.\" \"When we form a government, we will tackle this terrorism and restore governance, law and order,\" he added. In the United States, Democratic Congressman Josh Gottheimer condemned the attacks and called for accountability. \"These incidents warrant a full and thorough investigation,\" Gottheimer wrote on X, adding that vigilante justice had \"no place\" in society. Israeli police said they had opened investigations into arson, vandalism and property damage.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/lebanon-israel.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-22T21:53:37+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/eisenkot-condemns-jewish-terrorism-near-ramallah-us-congressman-calls"
+    },
+    {
+      "id": "bd498f0bf11b0ddd",
+      "title": "Para pekerja ditembak, penduduk terjebak: pasukan Israel dan pemukim menyerang kota-kota Palestina di sepanjang Tepi Barat",
+      "description": "Para pekerja ditembak, para penduduk terjebak: pasukan dan pemukim Israel menyerang kota-kota Palestina di seluruh Tepi Barat dan pendatang Israel melakukan penggerebekan dan serangan di seluruh Tepi Barat yang diduduki pada hari Minggu, melukai dan menahan Palestina, agen berita Palestina Waba melaporkan. Serangan datang di tengah meningkat tajam dalam kekerasan pemukim di wilayah tersebut. Dalam beberapa malam ke hari Minggu, pemukim Israel menyerang tiga desa Palestina, membakar 12 kendaraan dan menyemprot slogan rasis di bangunan perumahan. Serangan itu ditargetkan Kafr Malik, Deir Abu Mash 'al dan Deir al- Sudan, dalam Ramallah dan al- Bireh gubernur. Dekat Hizma, timur laut Yerusalem, pasukan Israel menembakkan amunisi hidup pada pekerja Palestina mencoba menyeberangi dinding pemisahan ke kota, melukai beberapa dari mereka, menurut Gubernur Yerusalem. Sekitar 18 pekerja ditahan, dan rekaman video menunjukkan salah satu dari mereka dipukuli parah. The Palestina Red Crescent mengatakan hal itu memperlakukan dua orang yang terluka setelah dipukuli oleh pasukan Israel dan jatuh dari dinding. Pasukan Israel kemudian menutup pintu masuk ke Hizma dan memaksa toko untuk menutup. Dalam al- Mughayyir, utara Ramallah, beberapa Palestina terluka oleh kaca terbang ketika pemukim menyerang kendaraan pada hari Minggu malam, kepala dewan desa, Amin Abu Alia, memberitahu Wafa. Abu Alia mengatakan pemukim, dilindungi oleh pasukan Israel, berkumpul di pintu masuk desa dan mencegah warga dari masuk atau pergi. Dia menambahkan bahwa pasukan Israel ditahan beberapa Palestina, dan bahwa tidak ada informasi sejauh ini pada nasib mereka atau keberadaan. Banyak warga Palestina juga terdampar di desa tetangga Abu Fulah, tidak dapat kembali ke rumah. Selatan Jenin, pasukan Israel menyerbu kota-kota Anza, Jaba', Arraba dan Ya 'bad. Rekaman video menunjukkan orang Palestina dikalahkan oleh tentara Israel di dalam rumahnya di Ya' bad. Di Azzun Atma, selatan Qalqilya, pasukan Israel menghanc",
+      "originalTitle": "Workers shot, villagers trapped: Israeli forces and settlers attack Palestinian towns across West Bank",
+      "originalDescription": "Workers shot, villagers trapped: Israeli forces and settlers attack Palestinian towns across West Bank Israeli forces and settlers carried out raids and attacks across the occupied West Bank on Sunday, injuring and detaining Palestinians, the Palestinian news agency Wafa reported. The attacks come amid a sharp escalation in settler violence in the territory. Overnight into Sunday, Israeli settlers attacked three Palestinian villages, setting fire to 12 vehicles and spray-painting racist slogans on residential buildings. The attacks targeted Kafr Malik, Deir Abu Mash'al and Deir al-Sudan, in the Ramallah and al-Bireh governorate. Near Hizma, north-east of Jerusalem, Israeli forces fired live ammunition at Palestinian workers trying to cross the separation wall into the city, wounding several of them, according to the Jerusalem Governorate. Around 18 workers were detained, and video footage showed one of them being severely beaten. The Palestine Red Crescent said it treated two people who were injured after being beaten by Israeli forces and falling from the wall. Israeli forces later closed the entrances to Hizma and forced shops to shut. In al-Mughayyir, north-east of Ramallah, several Palestinians were injured by flying glass when settlers attacked vehicles on Sunday evening, the head of the village council, Amin Abu Alia, told Wafa. Abu Alia said settlers, protected by Israeli forces, gathered at the village entrances and prevented residents from entering or leaving. He added that Israeli forces detained several Palestinians, and that there was no information so far on their fate or whereabouts. Many Palestinian residents were also left stranded in the neighbouring village of Abu Falah, unable to return home. South of Jenin, Israeli forces raided the towns of Anza, Jaba', Arraba and Ya'bad. Video footage showed Palestinian man severely beaten by Israeli soldiers inside his house in Ya'bad. In Azzun Atma, south of Qalqilya, Israeli forces demolished a Palestinian f",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/palestine-westbank-israeli-settler-attack.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-22T21:06:04+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/workers-shot-villagers-trapped-israeli-forces-and-settlers-attack"
+    },
+    {
+      "id": "94f395a19187f6d2",
+      "title": "Arab Saudi sangat mengutuk serangan drone menargetkan Khartoum",
+      "description": "RIYADH - Kementerian Luar Negeri menyatakan hukuman yang sangat berat bagi Arab Saudi atas serangan pesawat tak berawak yang menargetkan ibukota Sudan, Khartoum, termasuk serangan terhadap gedung PBB, yang mengakibatkan korban warga sipil dan kerusakan infrastruktur dan fasilitas sipil. Dalam sebuah pernyataan, kementrian mengatakan: \"Kerajaan secara kategori menolak serangan brutal ini dan menekankan pentingnya menghormati hukum kemanusiaan internasional, memenuhi kewajiban untuk melindungi warga sipil, fasilitas sipil, dan tempat organisasi internasional, memastikan keselamatan personil mereka, dan menyelamatkan rakyat Sudan lebih lanjut\". Arab Saudi menegaskan kembali posisinya yang teguh menyerukan pelestarian keamanan Sudan, stabilitas, kesatuan, kedaulatan, dan lembaga yang sah. Menteri juga menyampaikan belasungkawa sebesar-besarnya kepada keluarga korban dan berharap yang terluka cepat sembuh.",
+      "originalTitle": "Saudi Arabia strongly condemns drone attacks targeting Khartoum",
+      "originalDescription": "RIYADH — The Ministry of Foreign Affairs expressed Saudi Arabia’s strong condemnation of the drone attacks targeting the Sudanese capital, Khartoum, including the attack on a United Nations building, which resulted in civilian casualties and damage to civilian infrastructure and facilities. In a statement, the ministry said: “The Kingdom categorically rejects these brutal attacks and stresses the importance of respecting international humanitarian law, fulfilling the obligation to protect civilians, civilian facilities, and the premises of international organizations, ensuring the safety of their personnel, and sparing the Sudanese people further suffering.” Saudi Arabia reiterated its steadfast position calling for the preservation of Sudan’s security, stability, unity, sovereignty, and legitimate institutions. The ministry also extended the Kingdom’s sincere condolences to the families of the victims and wished the injured a speedy recovery.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/22/2798363.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-22T20:19:34+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666451/saudi-arabia/saudi-arabia-strongly-condemns-drone-attacks-targeting-khartoum"
+    },
+    {
+      "id": "aa6dedb8d0494a19",
+      "title": "Arab Saudi Kecam Keras Serangan Drone di Khartoum",
+      "description": "Kementerian Luar Negeri Arab Saudi mengecam keras serangan drone yang menargetkan Khartoum, termasuk gedung PBB, dan menimbulkan korban sipil.",
+      "originalTitle": "Arab Saudi Kecam Keras Serangan Drone di Khartoum",
+      "originalDescription": "Kementerian Luar Negeri Arab Saudi mengecam keras serangan drone yang menargetkan Khartoum, termasuk gedung PBB, dan menimbulkan korban sipil.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/الخارجية-wZ9uhAap.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-22T20:02:52+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/iy0v1x82r"
+    },
+    {
+      "id": "077989ef5984b5aa",
+      "title": "Menlu Arab Saudi Bahas Hubungan Bilateral dengan Menlu Norwegia",
+      "description": "Menteri Luar Negeri Arab Saudi, Pangeran Faisal bin Farhan, melakukan pembicaraan telepon dengan Menteri Luar Negeri Norwegia membahas hubungan bilateral dan perkembangan kawasan.",
+      "originalTitle": "Menlu Arab Saudi Bahas Hubungan Bilateral dengan Menlu Norwegia",
+      "originalDescription": "Menteri Luar Negeri Arab Saudi, Pangeran Faisal bin Farhan, melakukan pembicaraan telepon dengan Menteri Luar Negeri Norwegia membahas hubungan bilateral dan perkembangan kawasan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-47aK_cWz.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-22T19:54:14+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/k6s16b5kv"
+    },
+    {
+      "id": "4ec000eb00b92f29",
+      "title": "Mendagri meletakkan fondasi batu untuk Unified Security Operation Center in Salam",
+      "description": "HAIL - Menteri Dalam Negeri Pangeran Abdullah bin Saud bin Naif meletakkan fondasi batu untuk Unified Security Operation Center (911) di Wilayah Hail pada hari Minggu. Upacara diadakan di hadapan Emir dari Salam Pangeran Abdullah bin Saad. Menteri itu diberitahu tentang proyek, yang merupakan salah satu Kementerian Dalam Negeri apos; s inisiatif strategis. Sedang diimplementasikan dalam kerjasama dengan Kualitas Hidup Program, salah satu dari Saudi Vision 2030 program, proyek bertujuan untuk menyatukan nomor darurat dan pusat operasi di wilayah Kerajaan. Ini akan memperkuat integrasi antara keamanan dan lembaga pelayanan dan meningkatkan efisiensi respon operasional. Pangeran Abdulaziz juga melihat presentasi memperkenalkan pusat, menguraikan fungsi ruang operasinya dan mekanisme mengatur pekerjaan mereka dalam sistem operasional terpadu. Pusat terdiri dari empat ruang operasi di tingkat regional dan akan melayani kota Hail dan delapan pemerintahan, sehingga meningkatkan efisiensi respon darurat. Deputi Emir dari Salam Pangeran Faisal bin Fahd dan sejumlah pejabat senior menghadiri pendiri-batu peletakan upacara. * * Media [2798361] * * Selama kunjungan, menteri interior bertemu dengan anggota komite keamanan di wilayah Hail, di hadapan Emir of Hail. Menteri itu diberitahu tentang pekerjaan dan tanggung jawab komite keamanan, terutama perannya dalam mengkoordinasikan upaya keamanan dan lembaga-lembaga militer dan memonitor semua hal yang berkaitan dengan keamanan wilayah. Pangeran Abdulaziz memuji upaya dedikasi keamanan dan personil militer dalam melaksanakan tugas mereka, memuji pengabdian mereka dan kesetiaan dalam keamanan dan melayani agama mereka, Raja mereka dan negara mereka. Dia mengarahkan anggota komite untuk menyampaikan salam dan apresiasi kepada personil di masing-masing sektor.",
+      "originalTitle": "Interior minister lays foundation stone for Unified Security Operations Center in Hail",
+      "originalDescription": "HAIL — Minister of Interior Prince Abdulaziz bin Saud bin Naif laid the foundation stone for the Unified Security Operations Center (911) in the Hail region on Sunday. The ceremony was held in the presence of Emir of Hail Prince Abdulaziz bin Saad. The minister was briefed on the project, which is one of the Ministry of Interior’s strategic initiatives. Being implemented in cooperation with the Quality of Life Program, one of the Saudi Vision 2030 programs, the project aims to unify emergency numbers and operations centers across the Kingdom’s regions. This will strengthen integration among security and service agencies and enhance operational response efficiency. Prince Abdulaziz also viewed a presentation introducing the center, outlining the functions of its operations rooms and the mechanisms governing their work within an integrated operational system. The center comprises four operations rooms at the regional level and will serve the city of Hail and eight governorates, thereby enhancing emergency response efficiency. Deputy Emir of Hail Prince Faisal bin Fahd and a number of senior officials attended the foundation-stone laying ceremony. **media[2798361]** During the visit, the minister of interior met with members of the security committee in the Hail region, in the presence of the Emir of Hail. The minister was briefed on the security committee’s work and responsibilities, particularly its role in coordinating the efforts of security and military agencies and monitoring all matters relating to the region’s security. Prince Abdulaziz commended the dedicated efforts of security and military personnel in carrying out their duties, praising their devotion and loyalty in safeguarding security and serving their religion, their King and their country. He directed the committee members to convey his greetings and appreciation to personnel across their respective sectors.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/22/2798360.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-22T19:51:06+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666450/saudi-arabia/interior-minister-lays-foundation-stone-for-unified-security-operations-center-in-hail"
+    },
+    {
+      "id": "5db28e9e46244edc",
+      "title": "Aber Kawas menjadi orang Palestina pertama dalam sejarah senat negara bagian New York",
       "description": "Kawas, sosialis demokratis, menang dengan 74,5 persen suara, memenangkan politik progresif.",
-      "originalTitle": "CHK_Aber Kawas becomes first Palestinian in New York state Senate history",
+      "originalTitle": "Aber Kawas becomes first Palestinian in New York state Senate history",
       "originalDescription": "Kawas, a democratic socialist, won with 74.5 percent of the vote, championing progressive politics.",
       "translated": true,
       "translationStatus": "success",
       "originalLanguage": "en",
       "language": "id",
-      "image": "",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/aber-1-1794942045.jpg?resize=1920%2C1333",
       "category": "Palestina",
       "tags": [
         "Palestina"
@@ -189,7 +339,7 @@
       "sourceCountry": "International",
       "region": "",
       "publishedAt": "2026-11-22T19:18:29+00:00",
-      "originalUrl": "https://www.aljazeera.com/news/2026/11/22/chk_aber-kawas-becomes-first-palestinian-in-new-york-state-senate-history"
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/22/aber-kawas-becomes-first-palestinian-in-new-york-state-senate-history"
     },
     {
       "id": "aa411470c093292a",
@@ -12580,156 +12730,6 @@
       "region": "",
       "publishedAt": "2026-11-17T12:51:48+00:00",
       "originalUrl": "https://indonesian.ajel.sa/arab-saudi/acn9r87y7"
-    },
-    {
-      "id": "f4c4c48dc7d1c22c",
-      "title": "Menara Jam Mekah menang Guinness Records untuk museum tertinggi, dek observasi",
-      "description": "MakKAH - Komisi Kerajaan untuk kota suci dan surga telah mencapai dua tonggak global baru dengan Guinness World Records untuk museum tertinggi di dunia dalam sebuah bangunan dan dek observasi luar tertinggi. Rekor pertama mengakui Museum Clock Tower adalah museum tertinggi di dalam gedung, pada ketinggian 426.875 meter. Kehormatan kedua di dunia yang tertinggi Pengamatan dek, terletak di 560.875 meter dalam Kompleks Menara Jam. Prestasi ini mencerminkan upaya-upaya yang sedang berlangsung komisi kerajaan untuk mengembangkan tengara terkemuka dan fasilitas, memanfaatkan sejarah Astan, ilmiah, dan aset arsitektur, memperkaya pengalaman penduduk, peziarah, dan pengunjung, dan memperkuat posisi kota sebagai tujuan global yang menggabungkan keaslian dengan modernitas.",
-      "originalTitle": "Makkah Clock Tower wins Guinness Records for highest museum, observation deck",
-      "originalDescription": "MAKKAH — The Royal Commission for Makkah City and Holy Sites has achieved two new global milestones with Guinness World Records for the world’s highest museum in a building and the highest outdoor observation deck. The first record recognizes the Makkah Clock Tower Museum as the highest museum inside a building, at an altitude of 426.875 meters. The second honors the world’s highest outdoor observation deck, located at 560.875 meters within the Makkah Clock Tower complex. This achievement reflects the royal commission’s ongoing efforts to develop prominent landmarks and facilities, harness Makkah’s historical, scientific, and architectural assets, enrich the experiences of residents, pilgrims, and visitors, and reinforce the city’s position as a global destination that blends authenticity with modernity.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/17/2795728.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-17T12:38:29+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666310/saudi-arabia/makkah-clock-tower-wins-guinness-records-for-highest-museum-observation-deck"
-    },
-    {
-      "id": "4f8f7a80acd0e4cf",
-      "title": "Mendikbud Arab Saudi bahas kerja sama pendidikan dengan Universitas California Berkeley",
-      "description": "Menteri Pendidikan Arab Saudi, Yousef bin Abdullah Al-Benyan, mengunjungi Universitas California Berkeley di San Francisco untuk membahas peluang kerja sama pendidikan.",
-      "originalTitle": "Mendikbud Arab Saudi bahas kerja sama pendidikan dengan Universitas California Berkeley",
-      "originalDescription": "Menteri Pendidikan Arab Saudi, Yousef bin Abdullah Al-Benyan, mengunjungi Universitas California Berkeley di San Francisco untuk membahas peluang kerja sama pendidikan.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-P1XEIjs8.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-17T12:08:16+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/m1ml1wlfg"
-    },
-    {
-      "id": "1bdff7c715d20b11",
-      "title": "Australia, Kanada, Italia, dan Inggris Desak Israel Buka Jalur Bantuan Kemanusiaan ke Gaza",
-      "description": "Australia, Kanada, Italia, dan Inggris mendesak Israel membuka akses bantuan ke Gaza. Sebanyak 150 ribu tenda masih tertahan di perbatasan.",
-      "originalTitle": "Australia, Kanada, Italia, dan Inggris Desak Israel Buka Jalur Bantuan Kemanusiaan ke Gaza",
-      "originalDescription": "Australia, Kanada, Italia, dan Inggris mendesak Israel membuka akses bantuan ke Gaza. Sebanyak 150 ribu tenda masih tertahan di perbatasan.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/palestina-freepik3_1794908216.webp",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "NU Online",
-      "sources": [
-        "NU Online"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-17T12:00:30+00:00",
-      "originalUrl": "https://www.nu.or.id/internasional/australia-kanada-italia-dan-inggris-desak-israel-buka-jalur-bantuan-kemanusiaan-ke-gaza-3wDub"
-    },
-    {
-      "id": "1669bf0333174bae",
-      "title": "Arab Saudi: Kesepakatan dengan Kenya Hanya untuk Pekerja Rumah Tangga",
-      "description": "Kementerian Sumber Daya Manusia menegaskan kesepakatan teknis dengan Kenya hanya berlaku untuk perekrutan pekerja rumah tangga, bukan tenaga kerja profesional.",
-      "originalTitle": "Arab Saudi: Kesepakatan dengan Kenya Hanya untuk Pekerja Rumah Tangga",
-      "originalDescription": "Kementerian Sumber Daya Manusia menegaskan kesepakatan teknis dengan Kenya hanya berlaku untuk perekrutan pekerja rumah tangga, bukan tenaga kerja profesional.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-10/وزارة-الموارد-البشرية-OzlizT0H.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-17T11:53:33+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/s0o18egov"
-    },
-    {
-      "id": "447c003fab57ad81",
-      "title": "Kepala Badan Pemeriksa Keuangan Arab Saudi Hadiri Rapat Dewan Eksekutif INTOSAI di Wina",
-      "description": "Kepala Badan Pemeriksa Keuangan Arab Saudi, Dr. Hussam Alangari, menghadiri rapat Dewan Eksekutif INTOSAI di Wina dan memaparkan laporan terkait komite organisasi.",
-      "originalTitle": "Kepala Badan Pemeriksa Keuangan Arab Saudi Hadiri Rapat Dewan Eksekutif INTOSAI di Wina",
-      "originalDescription": "Kepala Badan Pemeriksa Keuangan Arab Saudi, Dr. Hussam Alangari, menghadiri rapat Dewan Eksekutif INTOSAI di Wina dan memaparkan laporan terkait komite organisasi.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-wuJFq6lC.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-17T11:44:34+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/ekonomi/5s1lppejf"
-    },
-    {
-      "id": "44867d9a2ea0fc12",
-      "title": "BSI buka akses investasi syariah lewat Sukuk Tabungan seri ST017",
-      "description": "PT Bank Syariah Indonesia (Persero) Tbk (BSI) memperluas akses masyarakat terhadap investasi syariah yang aman, ...",
-      "originalTitle": "BSI buka akses investasi syariah lewat Sukuk Tabungan seri ST017",
-      "originalDescription": "PT Bank Syariah Indonesia (Persero) Tbk (BSI) memperluas akses masyarakat terhadap investasi syariah yang aman, ...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/17/WhatsApp-Image-2026-11-17-at-13.10.44.jpeg",
-      "category": "Ekonomi Syariah",
-      "tags": [
-        "Ekonomi Syariah"
-      ],
-      "source": "ANTARA Terkini",
-      "sources": [
-        "ANTARA Terkini"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-17T11:41:55+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5860311/bsi-buka-akses-investasi-syariah-lewat-sukuk-tabungan-seri-st017"
     }
   ]
 }
