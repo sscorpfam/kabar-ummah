@@ -1,19 +1,19 @@
 {
-  "status": "success",
-  "lastUpdated": "2026-11-23T00:52:36.937948+00:00",
+  "status": "partial",
+  "lastUpdated": "2026-11-23T09:02:52.810385+00:00",
   "total": 500,
-  "newArticles": 118,
+  "newArticles": 114,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 12,
-  "sourcesFailed": 0,
+  "sourcesSucceeded": 11,
+  "sourcesFailed": 1,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 1,
-      "filtered": 24,
-      "filteredFootball": 3,
+      "accepted": 0,
+      "filtered": 25,
+      "filteredFootball": 1,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -35,8 +35,8 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 10,
-      "filtered": 5,
+      "accepted": 9,
+      "filtered": 6,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -49,7 +49,7 @@
       "raw": 50,
       "accepted": 0,
       "filtered": 50,
-      "filteredFootball": 9,
+      "filteredFootball": 1,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 12,
-      "filtered": 8,
-      "filteredFootball": 0,
+      "accepted": 9,
+      "filtered": 11,
+      "filteredFootball": 1,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -93,22 +93,22 @@
     },
     {
       "name": "Detik",
-      "status": "success",
-      "raw": 100,
-      "accepted": 1,
-      "filtered": 99,
+      "status": "error",
+      "raw": 0,
+      "accepted": 0,
+      "filtered": 0,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
     },
     {
       "name": "Muhammadiyah",
       "status": "success",
       "raw": 10,
-      "accepted": 6,
-      "filtered": 4,
+      "accepted": 5,
+      "filtered": 5,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -118,9 +118,9 @@
     {
       "name": "NU Online",
       "status": "success",
-      "raw": 49,
-      "accepted": 12,
-      "filtered": 37,
+      "raw": 50,
+      "accepted": 15,
+      "filtered": 35,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -156,16 +156,394 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 240,
+    "translatedArticles": 238,
     "partialArticles": 0,
     "failedArticles": 0,
-    "cacheEntries": 4044
+    "cacheEntries": 4123
   },
   "images": {
     "found": 500,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "fc8442a1b6e2a2d0",
+      "title": "Update pagi",
+      "description": "Pagi pembaruan Selamat pagi pembaca Mata Timur Tengah, Berikut adalah terbaru: Juru bicara Kementerian Luar Negeri Iran Esmaeil Baqaei mengatakan bahwa Teheran dapat \"bertindak sangat cepat\" untuk membuka kembali Selat Hormuz, diberikan bahwa AS bersekongkol dengan tuntutan negara. \"Iran tetap teguh dalam menghormati komitmennya dan akan memenuhi mereka secepat mungkin, menyediakan kondisi pihak lain yang relevan\", kata Baqaui. Perdana Menteri Israel Benjamin Netanyahu mendesak Trump untuk menyerang Iran \"sesegera mungkin\", menurut penyiar Israel Kan. Laporan, diterbitkan pada hari Minggu, menunjukkan bahwa Trump belum membuat keputusan tentang masalah ini enggan untuk melakukannya. Presiden AS Donald Trump mengklaim bahwa dia memprediksi penurunan pasar saham serta serangan keras dari Iran setelah kemenangan Demokrat dalam pemilihan tengah semester. Trump menjelaskan pemilu sebagai \"sangat aneh\". Dia juga mempertanyakan penurunan harga minyak, mengatakan: \"Bukankah ini menarik bahwa harga minyak telah jatuh drastis setelah pemilihan tengah semester? Aku bilang itu akan terjadi. Semuanya adalah Raksasa Hoax!\" Sebuah serangan Saudi terhadap kota kunci Yaman di Hodeida menewaskan setidaknya empat orang dan melukai 18 orang lainnya, menurut media yang berhubungan dengan perumahan. Pemogokan dilaporkan menargetkan sebuah bangunan milik Perusahaan Telekomunikasi Publik Yaman. Menteri Pertahanan Korea Selatan Kang Shin- chul mengatakan bahwa gerakan untuk memperpanjang penyebaran unit anti-pembajakan Cheonghae di Teluk Aden tidak termasuk keterlibatan dalam perang AS-Israel terhadap Iran. Sebaliknya, ia mengutip kenaikan pembajakan bersama upaya untuk melindungi kapal Korea Selatan dan warga menggunakan rute maritim.",
+      "originalTitle": "Morning update",
+      "originalDescription": "Morning update Good morning Middle East Eye readers, Here are the latest developments: Iranian Foreign Ministry spokesman Esmaeil Baqaei said that Tehran can \"act very quickly\" to reopen the Strait of Hormuz, granted that the US complies with the country's demands. \"Iran remains steadfast in honouring its commitments and will fulfil them as soon as possible, provided the other side complies with the relevant conditions,\" Baqaei said. Israeli Prime Minister Benjamin Netanyahu is urging Trump to carry out strikes on Iran \"as soon as possible\", according to Israel’s public broadcaster Kan. The report, published on Sunday, indicated that Trump has yet to make a decision on the matter is reluctant to do so. US president Donald Trump claimed that he predicted a stock market decline as well as harsher attacks from Iran after the Democratic victory in the recent midterm elections. Trump went onto describe the elections as \"very strange\". He also questioned the drop in oil prices, saying: \"Isn’t it interesting that Oil prices have dropped precipitously after the Midterm Elections? I said that was going to happen. The whole thing is a Giant Hoax!\" A Saudi attack on Yemen's key port city of Hodeida killed at least four people and injured 18 others, according to Houthi-affiliated media. The strike reportedly targeted a building belonging to Yemen's Public Telecommunications Corporation. South Korean Defence Minister Kang Shin-chul said that a motion to extend the deployment of the Cheonghae anti-piracy unit in the Gulf of Aden did not amount to involvement in the US-Israeli war on Iran. Instead, he cited a rise in piracy alongside efforts to protect South Korean ships and citizens using the maritime route.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/lebanon-israel.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-23T08:03:11+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-678"
+    },
+    {
+      "id": "aafa59902d5214c1",
+      "title": "biaya konstruksi Arab Saudi naik 2,3% pada bulan Oktober, dipimpin oleh sektor non- perumahan",
+      "description": "RIYADH - Indeks Biaya Konstruksi Arab Saudi (CCI) meningkat 2,3 persen pada Oktober 2026 dibandingkan dengan bulan yang sama pada tahun 2025, didorong oleh biaya yang lebih tinggi baik dalam konstruksi perumahan maupun non-perumahan, menurut Otoritas Umum untuk Statistik (GASTAT). Laporan otoritas Oktober 2026 menunjukkan bahwa biaya konstruksi non- perumahan naik 2,7 persen tahun-tahun, sementara biaya konstruksi perumahan meningkat sebesar 2,2 persen. Di sektor non- perumahan, peralatan dan biaya rental mesin dicatat peningkatan terbesar sebesar 5,8 persen, didorong oleh kenaikan 7.2 persen biaya sewa peralatan dan mesin dengan operator. Biaya kerja di sektor meningkat 2,1 persen, sementara bahan dasar meningkat 2.0 persen, didukung oleh peningkatan 4.4 persen dari harga bahan bangunan lain. Biaya energi juga meningkat sebesar 3,0 persen. Sementara itu, peningkatan biaya konstruksi perumahan sebagian dikaitkan dengan peningkatan 4.0 persen pada peralatan dan biaya sewa mesin, termasuk kenaikan 5,4 persen biaya sewa untuk peralatan dengan operator. Biaya bahan dasar di sektor perumahan meningkat menjadi 1,8 persen, didukung oleh kenaikan 3,4 persen pada harga kayu dan kerja sama, sementara biaya kerja naik 1,6 persen dan biaya energi meningkat sebesar 3,0 persen. Secara bulanan, Indeks Biaya Konstruksi keseluruhan naik 0,1 persen dibandingkan dengan September 2026, didorong oleh peningkatan 0,1 persen dalam biaya konstruksi non- perumahan, sementara biaya konstruksi tetap tidak berubah. GASTAT mencatat bahwa Indeks Biaya Konstruksi melacak perubahan harga 51 input konstruksi, dengan data dikumpulkan bulanan di 13 wilayah Kingdom dari kantor kontraktor, kantor rekayasa dan pemasok bahan bangunan.",
+      "originalTitle": "Saudi Arabia’s construction costs rise 2.3% in October, led by non-residential sector",
+      "originalDescription": "RIYADH — Saudi Arabia's Construction Cost Index (CCI) increased by 2.3 percent in October 2026 compared with the same month in 2025, driven by higher costs in both residential and non-residential construction, according to the General Authority for Statistics (GASTAT). The authority's October 2026 report showed that non-residential construction costs rose 2.7 percent year-on-year, while residential construction costs increased by 2.2 percent. In the non-residential sector, equipment and machinery rental costs recorded the largest increase at 5.8 percent, driven by a 7.2 percent rise in the cost of renting equipment and machinery with an operator. Labor costs in the sector increased by 2.1 percent, while basic materials rose 2.0 percent, supported by a 4.4 percent increase in the prices of other building materials. Energy costs also increased by 3.0 percent. Meanwhile, the increase in residential construction costs was partly attributed to a 4.0 percent rise in equipment and machinery rental costs, including a 5.4 percent increase in rental costs for equipment with an operator. Basic materials costs in the residential sector increased by 1.8 percent, supported by a 3.4 percent rise in timber and joinery prices, while labor costs rose 1.6 percent and energy costs increased by 3.0 percent. On a monthly basis, the overall Construction Cost Index rose 0.1 percent compared with September 2026, driven by a 0.1 percent increase in non-residential construction costs, while residential construction costs remained unchanged. GASTAT noted that the Construction Cost Index tracks changes in the prices of 51 construction inputs, with data collected monthly across the Kingdom's 13 regions from contractors' offices, engineering offices and construction material suppliers.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/23/2798453.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-23T07:27:52+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666459/saudi-arabia/saudi-arabias-construction-costs-rise-23-in-october-led-by-non-residential-sector"
+    },
+    {
+      "id": "90be589d25c8d5f3",
+      "title": "Pendapat: Anti- Muslim rasisme adalah sistem global yang digunakan untuk menormalkan pembunuhan massal",
+      "description": "Pendapat: Anti- Muslim rasisme adalah sistem global yang digunakan untuk menormalkan massa membunuh Dr Amina Shareef, seorang peneliti anti- Muslim rasisme, mengatakan bahwa kehancuran berlangsung di Gaza, Iran dan Lebanon adalah bagian dari sejarah yang lebih lama dari anti- rasisme Muslim yang telah membuat massa Muslim penderitaan dan kematian secara politik diperbolehkan. Dia mengatakan bahwa Islamophobia tidak hanya masalah prasangka atau diskriminasi, tetapi sistem global kekuasaan rasial yang membangun Muslim dan mereka diidentifikasi sebagai Muslim sebagai ancaman keamanan, memungkinkan kekerasan terhadap mereka untuk dibenarkan atas nama keamanan. Pusat sistem ini adalah figur teroris Muslim, yang menggambarkan agen politik Muslim sebagai ancaman. Shareef mengatakan bahwa logika ini meluas melampaui pengawasan, penahanan dan perbatasan militer untuk perang, ditinggalkan politik dan kehancuran kondisi yang diperlukan untuk hidup. Dia mengidentifikasi Palestina sebagai situs kunci di mana praktek keamanan kontemporer dan teknologi kontrol telah disempurnakan dan diproduksi kembali di tempat lain, sebuah proses yang dia jelaskan melalui konsep \"bumerang Palestina\". Meskipun konflik di Iran, Lebanon, Kashmir, Suriah, Yaman, Irak dan Afganistan memiliki sejarah yang berbeda, dia berpendapat bahwa mereka mengungkapkan pola yang berulang di mana populasi Muslim digambarkan sebagai ancaman dan penderitaan mereka menjadi lebih mudah untuk membenarkan. Shareef menyimpulkan bahwa menghadapi anti- Muslim rasisme akhirnya perjuangan untuk melindungi kehidupan dan martabat manusia. Dia menyerukan perlawanan berkelanjutan terhadap sistem yang mengekspos seluruh populasi untuk kematian prematur, menyatakan bahwa tanggung jawab untuk mencari keadilan tetap bahkan ketika hasilnya tidak pasti.",
+      "originalTitle": "Opinion: Anti-Muslim racism is a global system used to normalise mass killing",
+      "originalDescription": "Opinion: Anti-Muslim racism is a global system used to normalise mass killing Dr Amina Shareef, a researcher of anti-Muslim racism, says that the destruction unfolding in Gaza, Iran and Lebanon is part of a longer history of anti-Muslim racism that has made mass Muslim suffering and death politically permissible. She says that Islamophobia is not simply a matter of prejudice or discrimination, but a global system of racial power that constructs Muslims and those identified as Muslim as security threats, allowing violence against them to be justified in the name of security. Central to this system is the figure of the Muslim terrorist, which portrays Muslim political agency as inherently threatening. Shareef says that this logic extends beyond surveillance, detention and militarised borders to warfare, political abandonment and the destruction of the conditions necessary for life. She identifies Palestine as a key site where contemporary security practices and technologies of control have been refined and reproduced elsewhere, a process she describes through the concept of the “Palestine boomerang”. Although conflicts in Iran, Lebanon, Kashmir, Syria, Yemen, Iraq and Afghanistan have distinct histories, she argues that they reveal a recurring pattern in which Muslim populations are portrayed as threats and their suffering becomes easier to justify. Shareef concludes that confronting anti-Muslim racism is ultimately a struggle to protect life and human dignity. She calls for sustained resistance to systems that expose entire populations to premature death, arguing that the responsibility to seek justice remains even when the outcome is uncertain.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/lebanon-israel.jpg",
+      "category": "Dunia Muslim",
+      "tags": [
+        "Dunia Muslim",
+        "Islamofobia dan Diskriminasi",
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-23T06:23:22+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/opinion-anti-muslim-racism-global-system-used-normalise-mass-killing"
+    },
+    {
+      "id": "154b8ff982b28df6",
+      "title": "Gus Kikin Ingatkan Pentingnya Membangun Generasi Masa Depan dengan Akhlak dan Persatuan",
+      "description": "Gus Kikin menekankan pendidikan akhlak sebagai fondasi pembentukan karakter santri. Ia juga mengajak warga NU menjaga persatuan dan persaudaraan.",
+      "originalTitle": "Gus Kikin Ingatkan Pentingnya Membangun Generasi Masa Depan dengan Akhlak dan Persatuan",
+      "originalDescription": "Gus Kikin menekankan pendidikan akhlak sebagai fondasi pembentukan karakter santri. Ia juga mengajak warga NU menjaga persatuan dan persaudaraan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/gus-kikin_1795413567.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-23T06:00:01+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/gus-kikin-ingatkan-pentingnya-membangun-generasi-masa-depan-dengan-akhlak-dan-persatuan-p4Fya"
+    },
+    {
+      "id": "f5c72a8e04f222d4",
+      "title": "Hadapi Transformasi Layanan Haji 2027, PPIH Dituntut Kuasai Tugas dan Mekanisme Pelayanan",
+      "description": "PPIH 2027 dituntut memahami mekanisme layanan haji berbasis syarikah. Pelatihan membekali petugas dengan kompetensi, koordinasi, dan fisik prima.",
+      "originalTitle": "Hadapi Transformasi Layanan Haji 2027, PPIH Dituntut Kuasai Tugas dan Mekanisme Pelayanan",
+      "originalDescription": "PPIH 2027 dituntut memahami mekanisme layanan haji berbasis syarikah. Pelatihan membekali petugas dengan kompetensi, koordinasi, dan fisik prima.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/ppih-2027_1795411505.webp",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-23T05:00:09+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/hadapi-transformasi-layanan-haji-2027-ppih-dituntut-kuasai-tugas-dan-mekanisme-pelayanan-CbywJ"
+    },
+    {
+      "id": "69812ec28b197512",
+      "title": "Yayasan Bakti Putra Perkasa dan Rumah Zakat Salurkan Bantuan Gempa NTT",
+      "description": "JAKARTA — Yayasan Bakti Putra Perkasa berkolaborasi dengan Rumah Zakat menyalurkan bantuan kemanusiaan bagi masyarakat terdampak gempa bumi di Nusa Tenggara Timur (NTT). Bantuan tersebut merupakan hasil penggalangan dana...",
+      "originalTitle": "Yayasan Bakti Putra Perkasa dan Rumah Zakat Salurkan Bantuan Gempa NTT",
+      "originalDescription": "JAKARTA — Yayasan Bakti Putra Perkasa berkolaborasi dengan Rumah Zakat menyalurkan bantuan kemanusiaan bagi masyarakat terdampak gempa bumi di Nusa Tenggara Timur (NTT). Bantuan tersebut merupakan hasil penggalangan dana...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/_261123112654-805.png",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-23T04:28:35+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/toxtrn370/yayasan-bakti-putra-perkasa-dan-rumah-zakat-salurkan-bantuan-gempa-ntt"
+    },
+    {
+      "id": "ee836f9be94716e8",
+      "title": "Kiai Dahlan Visioner dalam Pemikiran, Bersahaja dalam Kehidupan",
+      "description": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Meski corak berpikirnya maju, bahkan melintasi zamannya, tapi sosok Kiai Ahmad Dahlan tetap menghargai budaya tempat dia dilahirkan sebagai orang Jawa. Hal itu diungkapkan Ketua Umum Pimpinan Pusat (PP) Muhammadiyah, Haedar Nashir pada Ahad (22/11) di Hotel SM Malioboro seusai menjamu Mufti Perlis, Mohd Asri bin Zainul Abidin atau Dato’ MAZA. Haedar […] The post Kiai Dahlan Visioner dalam Pemikiran, Bersahaja dalam Kehidupan appeared first on Muhammadiyah .",
+      "originalTitle": "Kiai Dahlan Visioner dalam Pemikiran, Bersahaja dalam Kehidupan",
+      "originalDescription": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Meski corak berpikirnya maju, bahkan melintasi zamannya, tapi sosok Kiai Ahmad Dahlan tetap menghargai budaya tempat dia dilahirkan sebagai orang Jawa. Hal itu diungkapkan Ketua Umum Pimpinan Pusat (PP) Muhammadiyah, Haedar Nashir pada Ahad (22/11) di Hotel SM Malioboro seusai menjamu Mufti Perlis, Mohd Asri bin Zainul Abidin atau Dato’ MAZA. Haedar […] The post Kiai Dahlan Visioner dalam Pemikiran, Bersahaja dalam Kehidupan appeared first on Muhammadiyah .",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/11/kiai-dahlan-visioner-dalam-pemikiran-bersahaja-dalam-kehidupan.jpeg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "Muhammadiyah",
+      "sources": [
+        "Muhammadiyah"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-23T04:02:41+00:00",
+      "originalUrl": "https://muhammadiyah.or.id/2026/11/kiai-dahlan-visioner-dalam-pemikiran-bersahaja-dalam-kehidupan"
+    },
+    {
+      "id": "0086e2f04a527025",
+      "title": "Mufti Perlis Empat Kali ke Yogyakarta, Selalu Kagumi Luasnya Dakwah Muhammadiyah",
+      "description": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Mufti Negeri Perlis, Malaysia, adalah Prof. Dato’ Arif Perkasa Dr. Mohd Asri bin Zainul Abidin atau Dr. MAZA kembali berkunjung ke Yogyakarta, dan kembali kagum dengan Muhammadiyah. Dato’ MAZA dalam keterangannya ke awak media muhammadiyah.or.id pada Ahad (22/11) di Hotel SM Malioboro menyampaikan, bahwa ini adalah kunjungan keempatnya ke Yogyakarta dan bersilaturahmi […] The post Mufti Perlis Empat Kali ke Yogyakarta, Selalu Kagumi Luasnya Dakwah Muhammadiyah appeared first on Muhammadiyah .",
+      "originalTitle": "Mufti Perlis Empat Kali ke Yogyakarta, Selalu Kagumi Luasnya Dakwah Muhammadiyah",
+      "originalDescription": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Mufti Negeri Perlis, Malaysia, adalah Prof. Dato’ Arif Perkasa Dr. Mohd Asri bin Zainul Abidin atau Dr. MAZA kembali berkunjung ke Yogyakarta, dan kembali kagum dengan Muhammadiyah. Dato’ MAZA dalam keterangannya ke awak media muhammadiyah.or.id pada Ahad (22/11) di Hotel SM Malioboro menyampaikan, bahwa ini adalah kunjungan keempatnya ke Yogyakarta dan bersilaturahmi […] The post Mufti Perlis Empat Kali ke Yogyakarta, Selalu Kagumi Luasnya Dakwah Muhammadiyah appeared first on Muhammadiyah .",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/11/mufti-perlis-empat-kali-ke-yogyakarta-selalu-kagumi-luasnya-dakwah-muhammadiyah.jpeg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "Muhammadiyah",
+      "sources": [
+        "Muhammadiyah"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-23T03:54:33+00:00",
+      "originalUrl": "https://muhammadiyah.or.id/2026/11/mufti-perlis-empat-kali-ke-yogyakarta-selalu-kagumi-luasnya-dakwah-muhammadiyah"
+    },
+    {
+      "id": "19b70c70b27453ab",
+      "title": "Saudi menyerang Hodeida Yaman membunuh empat, luka 18 lainnya",
+      "description": "Serangan ke Saudi terhadap Hodeida di Yaman menewaskan empat orang, luka 18 orang lainnya serangan Saudi terhadap kota pelabuhan di Yaman Hodeida menewaskan setidaknya empat orang dan melukai 18 orang lainnya, menurut media yang terlibat dengan perumahan. Pemogokan dilaporkan menargetkan sebuah bangunan milik Perusahaan Telekomunikasi Publik Yaman.",
+      "originalTitle": "Saudi attack on Yemen's Hodeida kills four, wounds 18 others",
+      "originalDescription": "Saudi attack on Yemen's Hodeida kills four, wounds 18 others A Saudi attack on Yemen's key port city of Hodeida killed at least four people and injured 18 others, according to Houthi-affiliated media. The strike reportedly targeted a building belonging to Yemen's Public Telecommunications Corporation.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/lebanon-israel.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-23T03:42:49+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-attack-yemens-hodeida-kills-four-wounds-18-others"
+    },
+    {
+      "id": "671c32669e4d3bcd",
+      "title": "Kemenhaj Tekankan Fikih Taisir dan Hifdzun Nafs bagi Petugas Haji 1448 H",
+      "description": "Kemenhaj tekankan fikih taisir dan hifdzun nafs bagi petugas haji 1448 H. Prioritas utama pelayanan adalah keselamatan dan kemaslahatan jamaah.",
+      "originalTitle": "Kemenhaj Tekankan Fikih Taisir dan Hifdzun Nafs bagi Petugas Haji 1448 H",
+      "originalDescription": "Kemenhaj tekankan fikih taisir dan hifdzun nafs bagi petugas haji 1448 H. Prioritas utama pelayanan adalah keselamatan dan kemaslahatan jamaah.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/kemenhaj-news23112026-ss_1795411085.webp",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-23T03:30:49+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/kemenhaj-tekankan-fikih-taisir-dan-hifdzun-nafs-bagi-petugas-haji-1448-h-zGZVP"
+    },
+    {
+      "id": "627ddb25c77b04d6",
+      "title": "Taujihat PPWK di NTB, Wakil Rais Aam Singgung Cara Nabi Kelola Masalah Sosial",
+      "description": "Kiai Musthofa menekankan pentingnya manajemen organisasi melalui keteladanan Nabi Muhammad. Ia mendorong pengurus NU memperkuat kemandirian dan wawasan.",
+      "originalTitle": "Taujihat PPWK di NTB, Wakil Rais Aam Singgung Cara Nabi Kelola Masalah Sosial",
+      "originalDescription": "Kiai Musthofa menekankan pentingnya manajemen organisasi melalui keteladanan Nabi Muhammad. Ia mendorong pengurus NU memperkuat kemandirian dan wawasan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/kiai-mustofa-agil-news23112026_1795407698.webp",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-23T03:00:12+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/taujihat-ppwk-di-ntb-wakil-rais-aam-singgung-cara-nabi-kelola-masalah-sosial-fh8n5"
+    },
+    {
+      "id": "c828d6062ff80436",
+      "title": "225 Kisah Ulama, Pengingat Bahaya Budaya Instan",
+      "description": "JAKARTA — Perjalanan panjang para ulama dalam menuntut ilmu menjadi pengingat penting bagi generasi sekarang agar tidak terjebak budaya serba instan. Kedalaman ilmu, kematangan berpikir, dan integritas tidak dapat...",
+      "originalTitle": "225 Kisah Ulama, Pengingat Bahaya Budaya Instan",
+      "originalDescription": "JAKARTA — Perjalanan panjang para ulama dalam menuntut ilmu menjadi pengingat penting bagi generasi sekarang agar tidak terjebak budaya serba instan. Kedalaman ilmu, kematangan berpikir, dan integritas tidak dapat...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/ulama_211016154049-937.jpg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-23T02:01:18+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/toxmy6483/225-kisah-ulama-pengingat-bahaya-budaya-instan"
+    },
+    {
+      "id": "0cedc439a8e6bed8",
+      "title": "Petugas Haji 2027 Dituntut Kuasai Sistem Layanan Baru",
+      "description": "JAKARTA — Transformasi sistem pelayanan haji di Arab Saudi menuntut Petugas Penyelenggara Ibadah Haji (PPIH) 1448 H/2027 M memiliki kompetensi dan pemahaman menyeluruh mengenai tugas serta mekanisme pelayanan jamaah....",
+      "originalTitle": "Petugas Haji 2027 Dituntut Kuasai Sistem Layanan Baru",
+      "originalDescription": "JAKARTA — Transformasi sistem pelayanan haji di Arab Saudi menuntut Petugas Penyelenggara Ibadah Haji (PPIH) 1448 H/2027 M memiliki kompetensi dan pemahaman menyeluruh mengenai tugas serta mekanisme pelayanan jamaah....",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/seorang-petugas-haji-indonesia-sedang-melayani-jamaah-haji-ilustrasi-_170420172846-288.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi",
+        "Haji dan Umrah"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-23T01:39:36+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/toxly0483/petugas-haji-2027-dituntut-kuasai-sistem-layanan-baru"
+    },
+    {
+      "id": "870aaaede2bd315e",
+      "title": "Muhammadiyah Berjuang untuk Kepentingan Bangsa, Bukan Organisasi Semata",
+      "description": "MUHAMMADIYAH.OR.ID, PURWOKERTO – Ketua Umum Pimpinan Pusat (PP) Muhammadiyah Haedar Nashir menegaskan komitmen Muhammadiyah untuk terus berkontribusi dalam membangun bangsa yang unggul dan berkemajuan melalui penguatan pendidikan, kesehatan, sosial, ekonomi, serta dakwah di tengah masyarakat. Hal tersebut disampaikan Haedar pada Ahad (22/11) dalam Resepsi Milad ke-114 Muhammadiyah tingkat Jawa Tengah yang diselenggarakan Pimpinan Wilayah Muhammadiyah […] The post Muhammadiyah Berjuang untuk Kepentingan Bangsa, Bukan Organisasi Semata appeared first on Muhammadiyah .",
+      "originalTitle": "Muhammadiyah Berjuang untuk Kepentingan Bangsa, Bukan Organisasi Semata",
+      "originalDescription": "MUHAMMADIYAH.OR.ID, PURWOKERTO – Ketua Umum Pimpinan Pusat (PP) Muhammadiyah Haedar Nashir menegaskan komitmen Muhammadiyah untuk terus berkontribusi dalam membangun bangsa yang unggul dan berkemajuan melalui penguatan pendidikan, kesehatan, sosial, ekonomi, serta dakwah di tengah masyarakat. Hal tersebut disampaikan Haedar pada Ahad (22/11) dalam Resepsi Milad ke-114 Muhammadiyah tingkat Jawa Tengah yang diselenggarakan Pimpinan Wilayah Muhammadiyah […] The post Muhammadiyah Berjuang untuk Kepentingan Bangsa, Bukan Organisasi Semata appeared first on Muhammadiyah .",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/11/muhammadiyah-berjuang-untuk-kepentingan-bangsa-bukan-organisasi-semata.jpeg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "Muhammadiyah",
+      "sources": [
+        "Muhammadiyah"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-23T01:16:48+00:00",
+      "originalUrl": "https://muhammadiyah.or.id/2026/11/muhammadiyah-berjuang-untuk-kepentingan-bangsa-bukan-organisasi-semata"
+    },
+    {
+      "id": "0558ebf5358900bc",
+      "title": "Hukum Peralihan Tanah Wakaf Jadi Aset Desa Bakal Dikaji LBM NU Bintan Kepri",
+      "description": "PCNU Bintan agendakan Bahtsul Masail membahas hukum peralihan tanah wakaf menjadi aset desa. Pembahasan ini demi kepentingan pembangunan keagamaan.",
+      "originalTitle": "Hukum Peralihan Tanah Wakaf Jadi Aset Desa Bakal Dikaji LBM NU Bintan Kepri",
+      "originalDescription": "PCNU Bintan agendakan Bahtsul Masail membahas hukum peralihan tanah wakaf menjadi aset desa. Pembahasan ini demi kepentingan pembangunan keagamaan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/ilustrasi-aset-desa-for-news-from-bintan-23112026_1795396392.webp",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-23T00:00:54+00:00",
+      "originalUrl": "https://www.nu.or.id/daerah/hukum-peralihan-tanah-wakaf-jadi-aset-desa-bakal-dikaji-lbm-nu-bintan-kepri-MXIhB"
+    },
     {
       "id": "f99089e43a3b4a5c",
       "title": "Eisenkot mengutuk 'terorisme Yahudi' dekat Ramallah sebagai anggota Kongres AS meminta pertanggungjawaban",
@@ -12355,381 +12733,6 @@
       "region": "",
       "publishedAt": "2026-11-17T15:52:23+00:00",
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-kill-palestinian-grandmother-her-home-jericho"
-    },
-    {
-      "id": "d7399d0edad60c4b",
-      "title": "Badan migrasi PBB memperingatkan lebih banyak kematian hipotermia Gaza, seperti Israel bar 100.000 tenda dari memasuki wilayah",
-      "description": "Badan migrasi PBB memperingatkan lebih banyak kematian hipotermia Gaza, seperti Israel bar 100.000 tenda dari memasuki wilayah Badan migrasi PBB telah memperingatkan akan kematian lebih lanjut dari hipotermia di Gaza karena Israel terus membatasi akses bantuan penampungan ke wilayah tersebut. Hujan lebat menyapu melalui medan perang-robek pekan lalu, membatalkan ribuan tenda darurat di mana mayoritas penduduk Gaza berlindung. Seorang bayi berusia sembilan puluh bulan meninggal karena kedinginan di tengah suhu jatuh. \"Tanpa tempat penampungan yang tepat, tanpa barang pertolongan yang kritis, maka kematian hipotermia akan terjadi\", Karl Baker, kepala Organisasi Internasional untuk program Migrasi Gaza, berkata pada hari Selasa, menambahkan bahwa anak-anak sangat rentan, karena mereka kehilangan panas tubuh lebih cepat. \"Ini tidak dapat diterima untuk memiliki hipotermia di dunia modern.\" Baker mengatakan bahwa beberapa 100.000 tenda berada di luar Gaza, namun pihak berwenang Israel telah melarang entri barang yang mereka anggap \"kegunaan ganda\" - terutama tempat penampungan barang termasuk tiang tenda dan rumah bergerak. Baker menjelaskan pertemuan keluarga yang basah kuyup perlindungan di bawah kendur, buruk - out tarpaulins. \"Gaza berubah menjadi satu kamp IDP yang besar (orang-orang pengungsi internal). Ini jajaran sebagai salah satu yang terburuk Aku sudah berjalan melalui,\" katanya. Pelaporan oleh Reuters",
-      "originalTitle": "UN migration agency warns of more Gaza hypothermia deaths, as Israel bars 100,000 tents from entering territory",
-      "originalDescription": "UN migration agency warns of more Gaza hypothermia deaths, as Israel bars 100,000 tents from entering territory The UN migration agency has warned of further deaths from hypothermia in Gaza as Israel continues to heavily restrict the entry of shelter aid into the territory. Heavy rains swept through the war-torn enclave last week, inundating thousands of makeshift tents where the majority of Gaza's population is sheltering. A nine-month-old baby died from the cold amid the plummeting temperatures. \"Without proper shelter, without critical relief items, then hypothermia deaths will occur,\" Karl Baker, head of the International Organization for Migration's Gaza programme, said on Tuesday, adding that children were particularly vulnerable, since they lose body heat more quickly. \"It's unacceptable to have hypothermia in the modern world.\" Baker said that some 100,000 tents were prepositioned outside Gaza, but the Israeli authorities had barred the entry of items which they consider to be \"dual use\"- predominantly shelter items including tent poles and mobile homes. Baker described meeting a drenched family sheltering beneath sagging, worn-out tarpaulins. \"Gaza is turning into one large IDP camp (internally displaced persons). It ranks as one of the worst I've walked through,\" he said. Reporting by Reuters",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Untitled_2.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-17T15:48:40+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/un-migration-agency-warns-more-gaza-hypothermia-deaths-israel-bars"
-    },
-    {
-      "id": "73da1120c940b6af",
-      "title": "Larangan Konsultasi Hukum di Siaran Langsung, Asosiasi Pengacara Saudi Ingatkan Pelanggaran Etik",
-      "description": "Asosiasi Pengacara Saudi menegaskan konsultasi hukum lewat siaran langsung di media sosial merupakan pelanggaran etik profesi yang umum terjadi.",
-      "originalTitle": "Larangan Konsultasi Hukum di Siaran Langsung, Asosiasi Pengacara Saudi Ingatkan Pelanggaran Etik",
-      "originalDescription": "Asosiasi Pengacara Saudi menegaskan konsultasi hukum lewat siaran langsung di media sosial merupakan pelanggaran etik profesi yang umum terjadi.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/WhatsAppImage2026-11-17at54823PM-crop-CgZ8e94G.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-17T15:38:08+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/6n2i7mbit"
-    },
-    {
-      "id": "df2502c1936229ed",
-      "title": "Kementerian HR: Tidak ada kesepakatan dengan Kenya untuk perekrutan pekerja terampil",
-      "description": "RIYADH - Kementerian Sumber Daya Manusia dan Pengembangan Sosial telah mengkonfirmasi bahwa annex teknis yang ditandatangani dengan Kenya secara eksklusif dimaksudkan untuk mengatur perekrutan pekerja dalam negeri dan tidak mencakup perekrutan pekerja terampil untuk berbagai sektor. Kementerian menjelaskan bahwa tidak ada kesepakatan saat ini untuk perekrutan pekerja terampil dari Kenya. Dalam pernyataan klarifikasi yang dikeluarkan pada hari Selasa, pelayanan tersebut menjelaskan bahwa perekrutan pekerja dalam negeri dari Kenya terbatas pada pekerjaan tertentu, termasuk pekerja domestik dan pengemudi swasta, dan tidak memperpanjang kesempatan kerja di sektor profesional lain. Kamis lalu, Wakil Menteri Sumber Daya Manusia dan Pengembangan Sosial untuk Tenaga Kerja Abdullah Abuthnain dan Sekretaris Kabinet Kenya untuk Buruh dan Perlindungan Sosial Alfred Nganga Mutua menandatangani annex teknis untuk perjanjian perekrutan pekerja domestik antara Arab Saudi dan Kenya yang telah ditandatangani pada 5 Juli 2026. Upacara penandatanganan itu diadakan selama kunjungan Alfred Nganga Mutua ke Riyadh. Annex adalah bagian dari upaya untuk memperkuat kerjasama dan mengembangkan mekanisme teknis dan regulasi yang mengatur perekrutan pekerja domestik. Departemen mencatat bahwa annex teknis dibangun sekitar tiga pilar utama: mengurangi biaya perekrutan, meningkatkan kualitas pekerja domestik melalui pelatihan dan program kualifikasi, dan menjaga hak-hak dari semua pihak yang terlibat dalam hubungan kontrak. Untuk bagiannya, pihak Kenya menyatakan kesiapan untuk memasok pekerja dalam negeri sesuai dengan peraturan dan prosedur yang berlaku di Kerajaan, sambil berpegang teguh pada persyaratan biaya perekrutan dan jangka waktu. Rekrutmen akan didasarkan pada permintaan yang sebenarnya dan persyaratan dari majikan, baik warga negara maupun penduduk. Mendagri menegaskan pentingnya memastikan keakuratan saat menyebarkan informasi terkait perekrutan, mendesak publik untuk bergantung seca",
-      "originalTitle": "HR Ministry: No agreement with Kenya for recruitment of skilled workers",
-      "originalDescription": "RIYADH — The Ministry of Human Resources and Social Development has confirmed that the technical annex signed with Kenya is exclusively intended to regulate the recruitment of domestic workers and does not cover the recruitment of skilled workers for various sectors. The ministry clarified that no agreement is currently in place for the recruitment of skilled workers from Kenya.In a clarifying statement issued on Tuesday, the ministry explained that the recruitment of domestic workers from Kenya is confined to specific occupations, including domestic workers and private drivers, and does not extend to employment opportunities in other professional sectors.Last Thursday, Deputy Minister of Human Resources and Social Development for Labor Abdullah Abuthnain and Kenya’s Cabinet Secretary for Labour and Social Protection Alfred Nganga Mutua signed a technical annex to the agreement on the recruitment of domestic workers between Saudi Arabia and Kenya that had signed on July 5, 2026. The signing ceremony was held during the visit of Alfred Nganga Mutua to Riyadh. The annex is part of efforts to strengthen cooperation and develop the technical and regulatory mechanisms governing the recruitment of domestic workers.The ministry noted that the technical annex is built around three key pillars: reducing recruitment costs, enhancing the quality of domestic workers through training and qualification programs, and safeguarding the rights of all parties involved in the contractual relationship.For its part, the Kenyan side expressed its readiness to supply domestic workers in accordance with the regulations and procedures in force in the Kingdom, while adhering to the stipulated recruitment costs and timeframes. Recruitment will be based on actual demand and the requirements of employers, both citizens and residents.The ministry underscored the importance of ensuring accuracy when disseminating recruitment-related information, urging the public to rely exclusively on its officia",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/17/2795816.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-17T14:48:41+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666316/saudi-arabia/hr-ministry-no-agreement-with-kenya-for-recruitment-of-skilled-workers"
-    },
-    {
-      "id": "3e24569ad4aa1788",
-      "title": "Indeks Saham Saudi Ditutup Turun ke 10.253,20 dengan Transaksi 3,5 Miliar Riyal",
-      "description": "Indeks utama saham Arab Saudi ditutup melemah ke 10.253,20 poin dengan nilai transaksi 3,5 miliar riyal; 93 saham naik dan 165 saham turun.",
-      "originalTitle": "Indeks Saham Saudi Ditutup Turun ke 10.253,20 dengan Transaksi 3,5 Miliar Riyal",
-      "originalDescription": "Indeks utama saham Arab Saudi ditutup melemah ke 10.253,20 poin dengan nilai transaksi 3,5 miliar riyal; 93 saham naik dan 165 saham turun.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-08/مؤشر-سوق-الأسهم-السعودية-XzwBJTLw.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-17T14:45:33+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/ekonomi/f0ao3hnu4"
-    },
-    {
-      "id": "71c69607c490d7fa",
-      "title": "Arab Saudi sangat mengutuk serangan berulang Iran di Bahrain",
-      "description": "RIYADH - Kementerian Luar Negeri menyatakan kutukan terkuat Arab Saudi atas serangan berulang-ulang Iran di Bahrain, menggambarkan mereka sebagai pelanggaran yang mencolok terhadap hukum internasional dan prinsip-prinsip lingkungan yang baik. \"Serangan ini melemahkan upaya perdamaian dan upaya yang berkelanjutan untuk menjaga keamanan dan stabilitas wilayah dan rakyatnya\", kata Menteri dalam sebuah pernyataan. Arab Saudi menegaskan kembali solidaritas penuh dengan Bahrain dalam segala hal untuk menjaga keamanan dan stabilitas. The Kingdom juga menekankan kebutuhan mendesak untuk segera berhenti untuk semua serangan terang-terangan Iran terhadap negara-negara di wilayah, sementara mendasari pentingnya memungkinkan upaya diplomatik untuk mengejar perdamaian dan menyelesaikan krisis melalui negosiasi, pernyataan ditambahkan.",
-      "originalTitle": "Saudi Arabia strongly condemns repeated Iranian attacks on Bahrain",
-      "originalDescription": "RIYADH — The Ministry of Foreign Affairs expressed Saudi Arabia’s strongest condemnation of the repeated Iranian attacks on Bahrain, describing them as a flagrant violation of international law and the principles of good neighborliness. “These attacks undermine peace efforts and ongoing endeavors to safeguard the security and stability of the region and its people,” the ministry said in a statement.Saudi Arabia reaffirmed its full solidarity with Bahrain in all measures it takes to safeguard its security and stability. The Kingdom also stressed the urgent need for an immediate halt to all blatant Iranian attacks against the countries of the region, while underscoring the importance of allowing diplomatic efforts to pursue peace and resolve the crisis through negotiations, the statement added.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/17/2795785.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-17T14:03:00+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666314/saudi-arabia/saudi-arabia-strongly-condemns-repeated-iranian-attacks-on-bahrain"
-    },
-    {
-      "id": "f153220df59b0930",
-      "title": "Arab Saudi Kecam Serangan Berulang Iran terhadap Bahrain, Tegaskan Dukungan untuk Manama",
-      "description": "Kementerian Luar Negeri Arab Saudi mengecam keras serangan berulang Iran ke Bahrain dan menegaskan solidaritas penuh dengan Manama.",
-      "originalTitle": "Arab Saudi Kecam Serangan Berulang Iran terhadap Bahrain, Tegaskan Dukungan untuk Manama",
-      "originalDescription": "Kementerian Luar Negeri Arab Saudi mengecam keras serangan berulang Iran ke Bahrain dan menegaskan solidaritas penuh dengan Manama.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-10/الخارجية-f3hwlFoU.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-17T13:50:54+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/del56374j"
-    },
-    {
-      "id": "c1b160cae1acc4c7",
-      "title": "Di KTT Asia Timur, Prabowo Tegaskan Tak Akan Berhenti Perjuangkan Palestina",
-      "description": "Presiden Prabowo menegaskan dukungan Indonesia untuk kemerdekaan Palestina dan solusi dua negara dalam KTT Asia Timur, mendorong perdamaian global yang adil.",
-      "originalTitle": "Di KTT Asia Timur, Prabowo Tegaskan Tak Akan Berhenti Perjuangkan Palestina",
-      "originalDescription": "Presiden Prabowo menegaskan dukungan Indonesia untuk kemerdekaan Palestina dan solusi dua negara dalam KTT Asia Timur, mendorong perdamaian global yang adil.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/17/prabowo-menghadiri-ktt-ke-21-asia-timur-di-picc-manila-filipina-selasa-17112026-1794923267508_169.jpeg?w=360&q=90",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Detik",
-      "sources": [
-        "Detik"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-17T13:48:49+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8757503/di-ktt-asia-timur-prabowo-tegaskan-tak-akan-berhenti-perjuangkan-palestina"
-    },
-    {
-      "id": "7deb57078984b196",
-      "title": "Raja Salman Royal Reserve mencatat dua kelahiran rusa Arab rentan",
-      "description": "SAKKA - Raja Salman bin Abdulaziz Royal Reserve mencatat dua kelahiran rusa Arab baru pada bulan November 2026, sebagai bagian dari upaya untuk memperkenalkan kembali spesies satwa liar, meningkatkan keanekaragaman hayati dan memulihkan keseimbangan ekologi dalam cadangan. Gazelle Arab (Gazella arabica), dikenal sebagai \"Al- Idmi\", diklasifikasikan sebagai Vulnerable di International Union for Conservation of Nature (IUCN) Red List dan merupakan salah satu spesies yang ditargetkan oleh program pengenalan ulang cadangan. * * Media [2795757] * Perempuan Arab rusa biasanya melahirkan satu keturunan pada suatu waktu, membuat dua kelahiran dicatat terutama signifikan untuk konservasi upaya ditujukan untuk melindungi spesies. Cadangan sebelumnya tercatat kelahiran rusa Arab pada tahun 2024. Kelahiran terbaru menunjukkan keberhasilan program perawatan dan pembiakan cadangan, serta keikutsertaan habitat alaminya untuk mendukung spesies dan mempertahankan reproduksi. * * media [2795759] * * Raja Salman bin Abdulaziz Royal Reserve Development Authority terus mengimplementasikan inisiatif untuk melindungi satwa liar, mengembangkan habitat alam dan memperkenalkan kembali spesies asli ke lingkungan asli mereka. Upaya ini berkontribusi untuk memulihkan keseimbangan ekologi, memperkaya keanekaragaman hayati dan memajukan tujuan keberlanjutan lingkungan Saudi Arabia.",
-      "originalTitle": "King Salman Royal Reserve records two births of vulnerable Arabian gazelles",
-      "originalDescription": "SKAKA — The King Salman bin Abdulaziz Royal Reserve recorded two new Arabian gazelle births in November 2026, as part of its ongoing efforts to reintroduce wildlife species, enhance biodiversity and restore ecological balance within the reserve. The Arabian gazelle (Gazella arabica), locally known as “Al-Idmi,” is classified as Vulnerable on the International Union for Conservation of Nature (IUCN) Red List and is among the species targeted by the reserve’s reintroduction programs. **media[2795757]** Female Arabian gazelles typically give birth to one offspring at a time, making the two recorded births particularly significant for conservation efforts aimed at protecting the species. The reserve previously recorded Arabian gazelle births in 2024. The latest births indicate the success of the reserve’s care and breeding programs, as well as the suitability of its natural habitats for supporting the species and sustaining its reproduction. **media[2795759]** The King Salman bin Abdulaziz Royal Reserve Development Authority continues to implement initiatives aimed at protecting wildlife, developing natural habitats and reintroducing native species into their original environments. These efforts contribute to restoring ecological balance, enriching biodiversity and advancing Saudi Arabia’s environmental sustainability objectives.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/17/2795758.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-17T13:38:39+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666313/saudi-arabia/king-salman-royal-reserve-records-two-births-of-vulnerable-arabian-gazelles"
-    },
-    {
-      "id": "4fb6c9d1a28683cf",
-      "title": "Nilai pasar dari lonjakan aset tak berwujud Saudi Exchange ke SR5.78 triliun",
-      "description": "RIYADH - Nilai pasar dari aset tak berwujud yang dipegang oleh perusahaan-perusahaan yang terdaftar di Pertukaran Saudi mencapai sekitar SR5.78 triliun pada akhir 2025, akuntansi sebesar 65,6 persen dari total nilai pasar mereka, menurut Asset tak berwujud 2025 di Kerajaan Arab Saudi laporan yang dikeluarkan oleh Saudi Authority for Inteleprential Properti (SAIP). Nilai aset tak berwujud diungkapkan dalam laporan keuangan berdiri di sekitar SR311.52 miliar, laporan menunjukkan. Laporan ini memeriksa kondisi aset tak berwujud saat ini, nilai ekonomi mereka, dan peran mereka dalam meningkatkan persaingan dan mendukung pengetahuan dan inovasi berbasis pertumbuhan ekonomi, sejalan dengan tujuan dari Saudi Vision 2030. Ini bertujuan untuk mengukur nilai pasar aset tak berwujud dipegang oleh perusahaan yang terdaftar di Saudi Exchange dan menganalisis distribusi mereka di sektor. Penerbitan laporan ini adalah bagian dari upaya SAIP untuk meningkatkan kesadaran akan nilai ekonomi dari aset tak berwujud dan mendukung pengembangan praktek pengelolaan dan investasi di dalamnya, sehingga berkontribusi untuk merangsang inovasi, menarik investasi, dan meningkatkan persaingan ekonomi nasional.",
-      "originalTitle": "Market value of Saudi Exchange’s intangible assets surges to SR5.78 trillion",
-      "originalDescription": "RIYADH — The market value of intangible assets held by companies listed on the Saudi Exchange reached approximately SR5.78 trillion at the end of 2025, accounting for 65.6 percent of their total market value, according to Intangible Assets 2025 in the Kingdom of Saudi Arabia report issued by the Saudi Authority for Intellectual Property (SAIP).The value of intangible assets disclosed in financial statements stood at approximately SR311.52 billion, the report pointed out. The report examines the current state of intangible assets, their economic value, and their role in enhancing competitiveness and supporting knowledge- and innovation-based economic growth, in line with the objectives of Saudi Vision 2030. It aims to measure the market value of intangible assets held by companies listed on the Saudi Exchange and analyze their distribution across sectors. The report’s publication is part of SAIP’s efforts to raise awareness of the economic value of intangible assets and support the development of practices for managing and investing in them, thereby contributing to stimulating innovation, attracting investment, and enhancing the competitiveness of the national economy.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/17/2795756.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-17T13:37:12+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666312/saudi-arabia/market-value-of-saudi-exchanges-intangible-assets-surges-to-sr578-trillion"
-    },
-    {
-      "id": "30cdafed11ead275",
-      "title": "Empat Orang Ditangkap di Riyadh karena Edarkan Ganja dan Obat Terlarang",
-      "description": "Direktorat Jenderal Narkotika Arab Saudi menangkap empat orang di Riyadh, termasuk warga negara dan pendatang asal Ethiopia serta Eritrea, atas dugaan peredaran ganja dan obat terlarang.",
-      "originalTitle": "Empat Orang Ditangkap di Riyadh karena Edarkan Ganja dan Obat Terlarang",
-      "originalDescription": "Direktorat Jenderal Narkotika Arab Saudi menangkap empat orang di Riyadh, termasuk warga negara dan pendatang asal Ethiopia serta Eritrea, atas dugaan peredaran ganja dan obat terlarang.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/Screenshot2026-11-17103311-crop-caFY0rK9.png",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-17T12:57:30+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/ipuekqq68"
-    },
-    {
-      "id": "8f01a5a07ba012cd",
-      "title": "Warga Ditangkap karena Menyalakan Api di Tempat Terlarang di Hail",
-      "description": "Pasukan Keamanan Lingkungan Arab Saudi menangkap seorang warga di Hail karena menyalakan api di luar area yang diperbolehkan, melanggar aturan pelestarian lingkungan.",
-      "originalTitle": "Warga Ditangkap karena Menyalakan Api di Tempat Terlarang di Hail",
-      "originalDescription": "Pasukan Keamanan Lingkungan Arab Saudi menangkap seorang warga di Hail karena menyalakan api di luar area yang diperbolehkan, melanggar aturan pelestarian lingkungan.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-09/الأمن-البيئي-PwN_EZqy.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-17T12:57:14+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/b2lcug11k"
-    },
-    {
-      "id": "50e3c79c0917dc44",
-      "title": "Kementerian Kesehatan Arab Saudi Gelar Razia Ketat Cuti Sakit",
-      "description": "Kementerian Kesehatan Arab Saudi memulai kampanye pengawasan untuk memastikan kepatuhan tenaga kesehatan dan fasilitas medis terhadap aturan cuti sakit.",
-      "originalTitle": "Kementerian Kesehatan Arab Saudi Gelar Razia Ketat Cuti Sakit",
-      "originalDescription": "Kementerian Kesehatan Arab Saudi memulai kampanye pengawasan untuk memastikan kepatuhan tenaga kesehatan dan fasilitas medis terhadap aturan cuti sakit.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-07/NPMWcNCno5L-1uF6.PNG",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-17T12:57:10+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/dunia/sch5njlzq"
-    },
-    {
-      "id": "bca1a3845392edd3",
-      "title": "Lebih dari 1,8 Juta Kontrak Sewa Mobil Elektronik Diterbitkan pada Kuartal Ketiga 2026",
-      "description": "Otoritas Transportasi Arab Saudi mengumumkan penerbitan lebih dari 1,8 juta kontrak sewa mobil elektronik selama kuartal ketiga 2026.",
-      "originalTitle": "Lebih dari 1,8 Juta Kontrak Sewa Mobil Elektronik Diterbitkan pada Kuartal Ketiga 2026",
-      "originalDescription": "Otoritas Transportasi Arab Saudi mengumumkan penerbitan lebih dari 1,8 juta kontrak sewa mobil elektronik selama kuartal ketiga 2026.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-08/الهيئة-العامة-للنقل-L35e1VQn.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-17T12:56:59+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/jh7q5zj56"
-    },
-    {
-      "id": "8d2975c498db1369",
-      "title": "Dewan Insinyur Saudi mendeteksi 1.593 sertifikat tidak sah dan tidak terakreditasi",
-      "description": "RIYADH - Dewan Insinyur Saudi, bekerja sama dengan platform \"Mosadaqa\", mendeteksi 603 sertifikat tidak sah dan 990 sertifikat yang tidak terakreditasi antara Januari dan Oktober 2026. Ini adalah bagian dari upaya untuk memverifikasi kualifikasi teknik, melindungi profesi, dan meningkatkan kredibilitas akreditasi profesional. Rekayasa elektrikal mencatat jumlah sertifikat tak valid tertinggi, dengan 174, diikuti dengan teknik sipil, arsitektur, dan konstruksi dengan 83, dan mekanik teknik dengan 79. Sertifikat yang tersisa didistribusikan di berbagai bidang teknik dan disiplin ilmu teknis. Dewan merujuk kasus yang melibatkan sertifikat tidak valid kepada pihak berwenang yang kompeten untuk tindakan lebih lanjut.",
-      "originalTitle": "Saudi Council of Engineers detects 1,593 invalid and unaccredited certificates",
-      "originalDescription": "RIYADH — The Saudi Council of Engineers, in cooperation with the \"Mosadaqa\" platform, detected 603 invalid certificates and 990 unaccredited certificates between January and October 2026. This was part of its efforts to verify engineering qualifications, protect the profession, and enhance the credibility of professional accreditation. Electrical engineering recorded the highest number of invalid certificates, with 174, followed by civil engineering, architecture, and construction with 83, and mechanical engineering with 79. The remaining certificates were distributed across other engineering and technical disciplines. The council referred cases involving invalid certificates to the competent authorities for further action.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/17/2795737.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-17T12:55:24+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666311/saudi-arabia/saudi-council-of-engineers-detects-1593-invalid-and-unaccredited-certificates"
-    },
-    {
-      "id": "14a77f30dc80d2a2",
-      "title": "Polisi Tangkap 5 Pelaku Asal Ethiopia, Yaman, dan Warga Saudi karena Edarkan Ganja di Jazan",
-      "description": "Direktorat Jenderal Narkotika Arab Saudi menangkap lima pelaku asal Ethiopia, Yaman, dan seorang warga Saudi di Jazan atas dugaan peredaran 20 kilogram ganja.",
-      "originalTitle": "Polisi Tangkap 5 Pelaku Asal Ethiopia, Yaman, dan Warga Saudi karena Edarkan Ganja di Jazan",
-      "originalDescription": "Direktorat Jenderal Narkotika Arab Saudi menangkap lima pelaku asal Ethiopia, Yaman, dan seorang warga Saudi di Jazan atas dugaan peredaran 20 kilogram ganja.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-XfdwjP0-.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-17T12:51:48+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/acn9r87y7"
     }
   ]
 }
