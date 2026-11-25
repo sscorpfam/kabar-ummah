@@ -1,18 +1,18 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-24T17:44:29.329188+00:00",
+  "lastUpdated": "2026-11-25T02:28:19.167988+00:00",
   "total": 500,
-  "newArticles": 130,
+  "newArticles": 134,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 10,
-  "sourcesFailed": 2,
+  "sourcesSucceeded": 11,
+  "sourcesFailed": 1,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 4,
-      "filtered": 21,
+      "accepted": 2,
+      "filtered": 23,
       "filteredFootball": 2,
       "translated": 25,
       "translationPartial": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 28,
+      "raw": 31,
       "accepted": 1,
-      "filtered": 27,
+      "filtered": 30,
       "filteredFootball": 1,
-      "translated": 28,
+      "translated": 31,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -47,9 +47,9 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 4,
-      "filtered": 46,
-      "filteredFootball": 2,
+      "accepted": 1,
+      "filtered": 49,
+      "filteredFootball": 1,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 13,
-      "filtered": 7,
-      "filteredFootball": 0,
+      "accepted": 12,
+      "filtered": 8,
+      "filteredFootball": 1,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -117,23 +117,23 @@
     },
     {
       "name": "NU Online",
-      "status": "error",
-      "raw": 0,
-      "accepted": 0,
-      "filtered": 0,
+      "status": "success",
+      "raw": 50,
+      "accepted": 16,
+      "filtered": 34,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": "403 Client Error: Forbidden for url: https://islam.nu.or.id/rss.xml"
+      "error": null
     },
     {
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 38,
-      "filtered": 12,
-      "filteredFootball": 0,
+      "accepted": 32,
+      "filtered": 18,
+      "filteredFootball": 6,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -159,13 +159,865 @@
     "translatedArticles": 218,
     "partialArticles": 0,
     "failedArticles": 0,
-    "cacheEntries": 4481
+    "cacheEntries": 4588
   },
   "images": {
     "found": 500,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "ce97f75097a8a883",
+      "title": "Saudi- led koalisi klaim serangan di pelabuhan Hodeidah Yaman",
+      "description": "Koalisi Saudi- dipimpin serangan terhadap pelabuhan Hodeidah Yaman Saudi- dipimpin juru bicara koalisi mengatakan menargetkan kemampuan operasional di pelabuhan Hodeidah Yaman bersama menghancurkan sejumlah target di Saada dan pemerintah Amran.",
+      "originalTitle": "Saudi-led coalition claims attack on Yemen's Hodeidah port",
+      "originalDescription": "Saudi-led coalition claims attack on Yemen's Hodeidah port The Saudi-led coalition's spokesperson said it targeted operational capabilities at Yemen's Hodeidah port alongside destroying a number of targets in Saada and Amran governorates.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D8D693J.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-25T02:21:47+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-claims-attack-yemens-hodeidah-port"
+    },
+    {
+      "id": "4673a64398f769ce",
+      "title": "Kemenhaj Bentuk Satgas Istithaah Kesehatan di Daerah",
+      "description": "JAKARTA — Kementerian Haji dan Umrah (Kemenhaj) memperketat pengawasan dan penetapan istitaah kesehatan calon haji pada 2027 dengan membentuk Satuan Tugas (Satgas) Istithaah Kesehatan tersebar di seluruh daerah guna menjamin transparansi, akuntabilitas,...",
+      "originalTitle": "Kemenhaj Bentuk Satgas Istithaah Kesehatan di Daerah",
+      "originalDescription": "JAKARTA — Kementerian Haji dan Umrah (Kemenhaj) memperketat pengawasan dan penetapan istitaah kesehatan calon haji pada 2027 dengan membentuk Satuan Tugas (Satgas) Istithaah Kesehatan tersebar di seluruh daerah guna menjamin transparansi, akuntabilitas,...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/008511100-1781627473-830-556.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-25T01:30:24+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tp1auo483/kemenhaj-bentuk-satgas-istithaah-kesehatan-di-daerah"
+    },
+    {
+      "id": "9741dbd008759ae9",
+      "title": "Saudi- dipimpin koalisi klaim penghancuran dua drone atas Arab Saudi timur",
+      "description": "Saudi- dipimpin koalisi klaim penghancuran dua drone atas Arab Saudi timur Koalisi Saudi- dipimpin mengatakan bahwa itu dicegat dan menghancurkan dua drone selama kerajaan Provinsi timur.",
+      "originalTitle": "Saudi-led coalition claims destruction of two drones over eastern Saudi Arabia",
+      "originalDescription": "Saudi-led coalition claims destruction of two drones over eastern Saudi Arabia The Saudi-led coalition said that it intercepted and destroyed two drones over the kingdom’s eastern Province.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D8D693J.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-25T00:55:09+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-claims-destruction-two-drones-over-eastern-saudi"
+    },
+    {
+      "id": "95510fe2b09ffcc2",
+      "title": "Perang Iran hidup: Houthis mengancam pelabuhan Saudi atas perintah Hodeidah",
+      "description": "Perumahan untuk menargetkan Jeddah dan pelabuhan Saudi lainnya jika Hodeidah diserang, setelah masalah koalisi perintah evakuasi.",
+      "originalTitle": "Iran war live: Houthis threaten Saudi ports over coalition’s Hodeidah order",
+      "originalDescription": "Houthis vow to target Jeddah and other Saudi ports if Hodeidah is hit, after the coalition issues an evacuation order.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-24T172418Z_1883247986_RC2AUOAQ8FSH_RTRMADP_3_IRAN-CRISIS-SAUDI-YEMEN-1795561635.jpg?resize=1200%2C630",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-25T00:00:00+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order"
+    },
+    {
+      "id": "5cc6acd31a210a14",
+      "title": "Bahrain Kecam Serangan Teroris Houthi Terhadap Pusat Keuangan Raja Abdullah",
+      "description": "Bahrain mengecam keras serangan teroris Houthi yang didukung Iran ke salah satu menara Pusat Keuangan Raja Abdullah di Riyadh, yang melukai sebelas orang.",
+      "originalTitle": "Bahrain Kecam Serangan Teroris Houthi Terhadap Pusat Keuangan Raja Abdullah",
+      "originalDescription": "Bahrain mengecam keras serangan teroris Houthi yang didukung Iran ke salah satu menara Pusat Keuangan Raja Abdullah di Riyadh, yang melukai sebelas orang.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/وزارة-الخارجية-البحرينية-Z5ZXLWvm.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T23:37:09+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/mckt6hj34"
+    },
+    {
+      "id": "5327311cd9c767c4",
+      "title": "Sekjen PBB: Rekonstruksi Gaza harus dipimpin oleh rakyat Palestina",
+      "description": "Sekretaris Jenderal Perserikatan Bangsa-Bangsa (PBB) Antonio Guterres mengatakan rekonstruksi Gaza ...",
+      "originalTitle": "Sekjen PBB: Rekonstruksi Gaza harus dipimpin oleh rakyat Palestina",
+      "originalDescription": "Sekretaris Jenderal Perserikatan Bangsa-Bangsa (PBB) Antonio Guterres mengatakan rekonstruksi Gaza ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/25/CjkinzN000012_20261124_CBMFN0A001.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-24T23:31:02+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5876359/sekjen-pbb-rekonstruksi-gaza-harus-dipimpin-oleh-rakyat-palestina"
+    },
+    {
+      "id": "8174085d69740010",
+      "title": "Laporan mengatakan Saudi- led koalisi menyerang pelabuhan Hodeidah Yaman",
+      "description": "Laporan mengatakan Saudi- led koalisi menyerang pelabuhan Hodeidah Yaman koalisi Saudi- dipimpin telah meluncurkan serangan di pelabuhan Hodeidah, Badan berita Houthi- menjalankan Saba melaporkan. Serangan itu diikuti perintah evakuasi yang dikeluarkan oleh Saudi- dipimpin koalisi yang dikeluarkan untuk daerah.",
+      "originalTitle": "Report says Saudi-led coalition attacked Yemen’s Hodeidah port",
+      "originalDescription": "Report says Saudi-led coalition attacked Yemen’s Hodeidah port The Saudi-led coalition has launched an attack on Hodeidah port, the Houthi-run Saba news agency reported. The attack followed an evacuation order issued by the Saudi-led coalition issued for the area.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D8D693J.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-24T23:05:36+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/report-says-saudi-led-coalition-attacked-yemens-hodeidah-port"
+    },
+    {
+      "id": "7eb9714d88470198",
+      "title": "Pameran 'Negeri Tanpa Pelanggar' Digelar di Mekkah oleh Penjaga Perbatasan",
+      "description": "Direktorat Jenderal Penjaga Perbatasan menggelar pameran 'Negeri Tanpa Pelanggar' di Jeddah untuk meningkatkan kesadaran pentingnya kepatuhan terhadap aturan keamanan perbatasan.",
+      "originalTitle": "Pameran 'Negeri Tanpa Pelanggar' Digelar di Mekkah oleh Penjaga Perbatasan",
+      "originalDescription": "Direktorat Jenderal Penjaga Perbatasan menggelar pameran 'Negeri Tanpa Pelanggar' di Jeddah untuk meningkatkan kesadaran pentingnya kepatuhan terhadap aturan keamanan perbatasan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-5f7gkmEu.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T23:03:57+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/1bzehd21b"
+    },
+    {
+      "id": "966f563c0543c0df",
+      "title": "Koalisi Arab Saudi Tembak Jatuh Dua Drone di Wilayah Timur",
+      "description": "Koalisi Arab Saudi mengumumkan berhasil mencegat dan menghancurkan dua pesawat nirawak di wilayah timur pada Rabu.",
+      "originalTitle": "Koalisi Arab Saudi Tembak Jatuh Dua Drone di Wilayah Timur",
+      "originalDescription": "Koalisi Arab Saudi mengumumkan berhasil mencegat dan menghancurkan dua pesawat nirawak di wilayah timur pada Rabu.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/اللواء-الركن-تركي-المالكي-OVx1Phz3.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T22:36:56+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/53jvlfsmb"
+    },
+    {
+      "id": "d31552df9a1517f3",
+      "title": "Qatar Kecam Serangan Houthi ke Menara Pusat Keuangan di Riyadh",
+      "description": "Qatar mengecam keras serangan kelompok Houthi ke salah satu menara pusat keuangan di Riyadh dan menyebutnya sebagai tindakan agresif yang tercela.",
+      "originalTitle": "Qatar Kecam Serangan Houthi ke Menara Pusat Keuangan di Riyadh",
+      "originalDescription": "Qatar mengecam keras serangan kelompok Houthi ke salah satu menara pusat keuangan di Riyadh dan menyebutnya sebagai tindakan agresif yang tercela.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/علم-القطر-9rvRf22p.PNG",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T22:27:25+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/44hvde03y"
+    },
+    {
+      "id": "f5d6ab5f82239314",
+      "title": "Media perumahan melaporkan serangan udara dekat bandara Sanaa",
+      "description": "Media Amerika melaporkan serangan udara dekat bandara Sanaa, Saudi- dipimpin koalisi mendukung pemerintah Yaman menargetkan sekitar Bandara Internasional Sanaa, menurut lembaga berita di Saba. Laporan tersebut datang setelah Houthis menghantam menara tertinggi di ibukota Saudi, Riyadh, hari Selasa untuk kedua kalinya dalam waktu kurang dari seminggu.",
+      "originalTitle": "Houthi media report air strikes near Sanaa airport",
+      "originalDescription": "Houthi media report air strikes near Sanaa airport The Saudi-led coalition backing the Yemeni government targeted the vicinity of Sanaa International Airport, according to the Houthi-run Saba news agency. The report came after the Houthis struck the tallest tower in the Saudi capital, Riyadh, on Tuesday for the second time in less than a week.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D8D693J.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-24T22:05:58+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-media-reports-air-strikes-near-sanaa-airport"
+    },
+    {
+      "id": "9a0eb4fa52a4ee23",
+      "title": "Koalisi Minta Warga Sipil Segera Tinggalkan Pelabuhan Hodeidah di Yaman",
+      "description": "Koalisi meminta warga sipil segera mengosongkan Pelabuhan Hodeidah di Yaman demi keselamatan, menyusul serangan drone di Riyadh.",
+      "originalTitle": "Koalisi Minta Warga Sipil Segera Tinggalkan Pelabuhan Hodeidah di Yaman",
+      "originalDescription": "Koalisi meminta warga sipil segera mengosongkan Pelabuhan Hodeidah di Yaman demi keselamatan, menyusul serangan drone di Riyadh.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-09/التحالف-المالكي-jAdFc_io.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T22:01:33+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/bi6ruu9ho"
+    },
+    {
+      "id": "653a118630e33804",
+      "title": "Kementerian Pariwisata membuat 5 layanan digital tersedia melalui Tawakkalna App",
+      "description": "RIYADH - Departemen Pariwisata telah menyediakan lima layanan digital yang tersedia melalui aplikasi nasional yang terpadu \"Tawakakalna\", dalam sebuah gerakan yang bertujuan untuk memperkuat integrasi digital dan memfasilitasi para penerima dana 'akses ke layanan pariwisata sektor. Tujuannya adalah untuk meningkatkan pengalaman mereka dan meningkatkan efisiensi layanan pengiriman sejalan dengan perkembangan yang berlangsung di sektor pariwisata Kingdom. Langkah ini adalah bagian dari upaya kementerian untuk menyelaraskan layanan digital dengan arah Pemerintah Digital dan memperkuat integrasi dengan platform nasional, memperluas saluran akses untuk layanan sektor pariwisata dan memfasilitasi penggunaan mereka. Layanan-layanan yang tersedia melalui aplikasi Tawakkhalna termasuk mendaftar untuk lisensi pemandu wisata; Kementerian Surat Izin dan aplikasi Turisme; pelatihan pemandu wisata; melihat aplikasi pelatihan dan sertifikat yang dikeluarkan oleh kementerian; dan memeriksa daftar individu dan entitas yang dilisensikan oleh Kementerian Turis. Layanan yang tersedia melalui Tawakkalna diintegrasikan dengan Platform Turisme, diluncurkan oleh kementerian sebagai bagian dari upaya untuk mengembangkan sistem digital terpadu untuk layanan sektor pariwisata. Ahli waris dapat memasukkan aplikasi mereka melalui aplikasi, yang kemudian diproses melalui sistem digital kementerian, memperkuat hubungan layanan dan memastikan kelanjutan prosedur melalui berbagai saluran digital. Menteri mengatakan layanan ini' ketersediaan melalui Takakalna merupakan langkah lebih lanjut dalam upaya untuk mengembangkan layanan digital dan memberikan penerima hak akses dengan pilihan yang lebih besar, sebagai bagian dari kemitraan yang berbuah dengan entitas pemerintah lain. Ditambah lagi bahwa peluncuran adalah hasil dari kerjasama yang berkelanjutan antara Kementerian Turisme dan Otoritas Pemerintah Digital, menegaskan bahwa kerjasama akan terus menyediakan layanan digital canggih yang membantu m",
+      "originalTitle": "Ministry of Tourism makes 5 digital services available through Tawakkalna App",
+      "originalDescription": "RIYADH — The Ministry of Tourism has made five digital services available through the unified national application \"Tawakkalna,\" in a move aimed at strengthening digital integration and facilitating beneficiaries' access to tourism sector services. It’s objective is to improve their experience and enhancing service delivery efficiency in line with the development taking place in the Kingdom's tourism sector.The move is part of the ministry's efforts to align its digital services with the Digital Government Authority's directions and strengthen integration with national platforms, expanding access channels for tourism sector services and facilitating their use. The services made available through the Tawakkalna app include applying for a tour guide license; the Ministry of Tourism's licenses and applications; tour guiding training; viewing training applications and certificates issued by the ministry; and checking the list of individuals and entities licensed by the Ministry of Tourism.The services available through Tawakkalna are integrated with the Tourism Platform, launched by the ministry as part of its efforts to develop an integrated digital system for tourism sector services. Beneficiaries can submit their applications through the app, which are then processed through the ministry's digital systems, strengthening service connectivity and ensuring continuity of procedures across various digital channels.The ministry said these services' availability through Tawakkalna represents a further step in its efforts to develop its digital services and provide beneficiaries with wider access options, as part of its fruitful partnerships with other government entities. It added that the launch was the result of ongoing cooperation between the Ministry of Tourism and the Digital Government Authority, affirming that cooperation would continue to provide advanced digital services that help develop the Kingdom's tourism sector.Making these services available through Tawakkal",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/25/2799496.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T21:55:06+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666508/saudi-arabia/ministry-of-tourism-makes-5-digital-services-available-through-tawakkalna-app"
+    },
+    {
+      "id": "7a7b3f3db36a2f31",
+      "title": "Menteri Investasi: Anggaran 2027 Dorong Pertumbuhan dan Daya Saing Investasi",
+      "description": "Menteri Investasi Fahd bin Abduljalil Al-Saif menegaskan anggaran negara 2027 mendukung target pembangunan Visi Saudi 2030 dan memperkuat peran sektor swasta.",
+      "originalTitle": "Menteri Investasi: Anggaran 2027 Dorong Pertumbuhan dan Daya Saing Investasi",
+      "originalDescription": "Menteri Investasi Fahd bin Abduljalil Al-Saif menegaskan anggaran negara 2027 mendukung target pembangunan Visi Saudi 2030 dan memperkuat peran sektor swasta.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/وزير-الاستثمار-الأستاذ-فهد-بن-عبدالجليل-السيف-wik1Bvum.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T21:50:48+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/ekonomi/ezk3y5rt7"
+    },
+    {
+      "id": "d0c03c8f04459a8b",
+      "title": "Menteri Al- Saif: pertumbuhan anggaran berkelanjutan, meningkatkan kompetisi investasi",
+      "description": "RIYADH - Menteri Investasi Fahad Al- Saif mengatakan anggaran negara untuk fiskal tahun 2027 mencerminkan komitmen kepemimpinan untuk memajukan tujuan pembangunan Saudi Vision 2030. Hal ini juga mendukung upaya untuk mengubah basis produksi ekonomi nasional dan meningkatkan kontribusi sektor swasta. Al- Saif menyoroti kemampuan ekonomi Saudi untuk mempertahankan stabilitas dan mempertahankan pertumbuhan di tengah perubahan ekonomi global dan geopolitik, mencerminkan kekuatan fondasinya. Dia menambahkan bahwa ketahanan ini memperkuat kepercayaan investor dengan kemampuan mereka untuk mempertahankan dan memperluas bisnis mereka di Arab Saudi. \"Kejernihan pengeluaran prioritas membantu sektor swasta merencanakan investasinya dan memperluas bisnisnya\", kata menteri. \"Di ekosistem investasi, kami bekerja bersama mitra kami untuk menciptakan kesempatan bagi investor lokal dan internasional dan mengubahnya menjadi proyek-proyek produktif yang berkontribusi untuk mentransfer pengetahuan dan teknologi, mengembangkan konten dan rantai nilai lokal, dan menciptakan pekerjaan di berbagai daerah di Kingdom\". Al-Saif menunjuk ke indikator Arab Saudi memperluas basis investasi. Investasi langsung asing mengalir mencapai sekitar SR159 miliar pada tahun 2025, naik 33,5%, sementara tetap kotor formasi modal dibatasi sekitar SR1.4 triliun, setara dengan 28,4% produk domestik kotor (PDB). Dia menegaskan bahwa ekosistem investasi bekerja untuk memperkuat lingkungan investasi melalui ekonomi, legislatif, dan reformasi regulasi dan peningkatan layanan bagi investor. Hal ini juga berusaha untuk memungkinkan sektor swasta untuk memperluas investasi bernilai tinggi, sehingga meningkatkan persaingan Arab Saudi dan mendukung pertumbuhan ekonomi berkelanjutan.",
+      "originalTitle": "Minister Al-Saif : Budget sustains growth, enhances investment competitiveness",
+      "originalDescription": "RIYADH —Minister of Investment Fahad Al-Saif said the state budget for fiscal year 2027 reflects the leadership’s commitment to advancing the development goals of Saudi Vision 2030. It also supports efforts to diversify the national economy’s production base and increase the private sector’s contribution.Al-Saif highlighted the Saudi economy’s ability to maintain stability and sustain growth amid global economic and geopolitical changes, reflecting the strength of its foundations. He added that this resilience reinforces investors’ confidence in their ability to maintain and expand their businesses in Saudi Arabia. “The clarity of spending priorities helps the private sector plan its investments and expand its businesses,\" the minister said. “At the investment ecosystem, we are working with our partners to create opportunities for local and international investors and turn them into productive projects that contribute to transferring knowledge and technology, developing local content and value chains, and creating jobs across various regions of the Kingdom.\"Al-Saif pointed to indicators of Saudi Arabia’s expanding investment base. Foreign direct investment inflows reached around SR159 billion in 2025, up 33.5%, while gross fixed capital formation totaled around SR1.4 trillion, equivalent to 28.4% of gross domestic product (GDP).He affirmed that the investment ecosystem is working to strengthen the investment environment through economic, legislative, and regulatory reforms and improved services for investors. It also seeks to enable the private sector to expand its high-value investments, thereby enhancing Saudi Arabia’s competitiveness and supporting sustainable economic growth.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/25/2799495.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T21:50:02+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666507/saudi-arabia/ministeral-saif-budget-sustains-growth-enhances-investment-competitiveness"
+    },
+    {
+      "id": "947c361fcf6695a7",
+      "title": "'Excepto de tidak sah': AS duduk di 12 tahun backlog diduga pelanggaran hak-hak Israel",
+      "description": "'Pelepasan de facto': US duduk di 12 tahun backlog dugaan pelanggaran hak cipta Israel Dikirimkan oleh staf MEE pada Tue, 11 / 24 / 2026 - 18: 17 Laporan dari Kantor Inspektur Umum telah menimbulkan keprihatinan bahwa AS telah memberikan Israel sebuah 'pembebasan' dari Menteri Hukum AS Leahy Marco Rubio Negara bulan lalu (Oliver Contreras / AFP) Off Departemen Negara AS memiliki 12 tahun backlog tuduhan kasus pelanggaran hak asasi manusia kotor di Israel untuk memberikan penghargaan, karena lembaga tersebut telah membuat sedikit upaya untuk melacak titik akhir dari bantuan militer AS di sana, sebuah laporan diam-diam diposting oleh Kantor Pemeriksa Umum Umum Umum. Penemuan ini \"menunjukkan bahwa Departemen telah menciptakan pembebasan yang melanggar hukum bagi hukum Israel\", Charles Blaha, seorang pejabat departemen negara yang pensiun pada tahun 2023, menulis dalam sepotong untuk Just Security pada hari Senin. Laporan OIG menunjukkan pada aplikasi Hukum Leahy, yang melarang kami membantu setiap unit pasukan keamanan asing jika sekretaris negara memiliki informasi terpercaya bahwa unit tersebut telah melakukan \"pelanggaran besar hak asasi manusia\". Dalam sebuah laporan September 2025 kepada Kongres, departemen negara mengatakan satu-satunya unit yang telah dinilai tidak dapat diakses untuk bantuan keamanan AS berada di Ukraina, Mesir, dan Yordania - meskipun sebelumnya Israel telah mengutip sebagai memiliki bantuan yang tidak terlacak (NTA). NTA berarti departemen negara \"tidak dapat mengidentifikasi unit penerima sebelum transfer bantuan atau pelatihan, atau unit-unit tidak dikenal dengan detail yang cukup untuk membuat pemeriksaan Leahy mungkin,\" kata laporan OIG. Hal ini menyimpulkan bahwa departemen negara \"tidak dikembangkan atau didistribusikan panduan komprehensif dan pelatihan untuk membantu staf melaksanakan persyaratan pemeriksaan NTA\", dan bahwa hampir setengah dari semua misi di luar negeri \"tidak menanggapi persyaratan tahunan untuk menyatakan jika sebu",
+      "originalTitle": "'Unlawful de facto exemption': US sitting on 12-year backlog of alleged Israeli rights violations",
+      "originalDescription": "'Unlawful de facto exemption': US sitting on 12-year backlog of alleged Israeli rights violations Submitted by MEE staff on Tue, 11/24/2026 - 18:17 A report from the Office of The Inspector General has raised concerns that the US has given Israel an 'exemption' from the Leahy Law US Secretary of State Marco Rubio pictured last month (Oliver Contreras/AFP) Off The US Department of State has a 12-year backlog of alleged cases of gross human rights violations in Israel to adjudicate, because the agency has made little effort to trace the end point of US military assistance there, a report quietly posted online by the Office of the Inspector General (OIG) last month showed. The findings \"demonstrate that the Department has created an unlawful de facto exemption to the law for Israel\", Charles Blaha, a state department official who retired in 2023, wrote in a piece for Just Security on Monday. The OIG report hones in on the application of the Leahy Law, which prohibits US assistance to any foreign security forces unit if the secretary of state has credible information that such a unit has committed \"gross violations of human rights\". In a September 2025 report to Congress, the state department said the only units it had assessed to be ineligible for US security assistance were in Ukraine, Egypt and Jordan - even though Israel had previously been cited as having non-traceable assistance (NTA). The NTA means the state department \"cannot identify recipient units in advance of the transfer of assistance or training, or the units are not known with sufficient detail to make Leahy vetting possible\", the OIG report said. It concluded that the state department \"had not developed or distributed comprehensive guidance and training to help staff implement NTA vetting requirements\", and that nearly half of all missions overseas \"did not respond to annual requirements to certify if a country was receiving NTA\". \"For those countries receiving NTA, additional certifications are necessa",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_D4TY9TE-2.jpg.jpg?itok=xYBY3OL9",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Dakwah dan Ulama"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-24T21:46:23+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/unlawful-de-facto-exemption-us-sitting-12-year-backlog-alleged-israeli-rights-violations"
+    },
+    {
+      "id": "03a87f36c8be7919",
+      "title": "Koalisi: teroris perumahan menggunakan drone untuk menyerang menara KAFD",
+      "description": "RIYADH Serangan teroris, menargetkan salah satu menara Distrik Keuangan King Abdullah (KAFD) di Riyadh pada hari Selasa, dilakukan oleh Houthi milia, menggunakan drone. Ini diungkapkan oleh Mayor Jenderal Turki Al- Maliki, juru bicara Koalisi untuk mendukung Legitimasi di Yaman. Dia menekankan bahwa sengaja menargetkan warga sipil dan infrastruktur sipil oleh teroris milisi Houthi akan bertemu dengan tegas dan tegas respon. Sebelas orang terluka dalam serangan teroris, diluncurkan oleh milisi Houthi pada hari Selasa.",
+      "originalTitle": "Coalition: Houthi terrorists used drone to attack KAFD tower",
+      "originalDescription": "RIYADH —The terrorist attack, targeting one of the towers of the King Abdullah Financial District (KAFD) in Riyadh on Tuesday, was carried out by the Houthi milia, using a drone. This was disclosed by Maj. Gen. Turki Al-Maliki, spokesperson of the Coalition to Support Legitimacy in Yemen. He emphasized that the deliberate targeting of civilians and civilian infrastructure by the terrorist Houthi militia would be met with a firm and decisive response. Eleven people were injured in the terrorist attack, launched by the Houthi militia on Tuesday.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/25/2799494.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T21:44:38+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666506/saudi-arabia/coalition-houthi-terrorists-used-drone-to-attack-kafd-tower"
+    },
+    {
+      "id": "e6321295cdcff53e",
+      "title": "Supermoon Terangi Langit Wilayah Perbatasan Utara Arab Saudi",
+      "description": "Langit wilayah perbatasan utara Arab Saudi malam ini dihiasi fenomena supermoon saat bulan purnama mendekati titik terdekatnya dengan Bumi.",
+      "originalTitle": "Supermoon Terangi Langit Wilayah Perbatasan Utara Arab Saudi",
+      "originalDescription": "Langit wilayah perbatasan utara Arab Saudi malam ini dihiasi fenomena supermoon saat bulan purnama mendekati titik terdekatnya dengan Bumi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-qejvmfIG.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T20:52:04+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/ti8926ibl"
+    },
+    {
+      "id": "578dad42725a501b",
+      "title": "Inggris Nyatakan Dukungan untuk Arab Saudi dan Pemerintah Yaman Hadapi Eskalasi Houthi",
+      "description": "Pemerintah Inggris menegaskan dukungannya kepada Arab Saudi dan pemerintah Yaman dalam menghadapi peningkatan serangan kelompok Houthi.",
+      "originalTitle": "Inggris Nyatakan Dukungan untuk Arab Saudi dan Pemerintah Yaman Hadapi Eskalasi Houthi",
+      "originalDescription": "Pemerintah Inggris menegaskan dukungannya kepada Arab Saudi dan pemerintah Yaman dalam menghadapi peningkatan serangan kelompok Houthi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/بريطانيا-لندن-إنجلترا-IdiDKzoj.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T20:50:25+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/y0s3416ck"
+    },
+    {
+      "id": "ba85473bd446392c",
+      "title": "Neom kalah dari Al Duhail Qatar di Liga Champions Klub Teluk",
+      "description": "Tim Neom asal Arab Saudi kalah 2-3 dari Al Duhail Qatar pada laga keempat Liga Champions Klub Teluk, membuat Al Duhail memimpin klasemen grup.",
+      "originalTitle": "Neom kalah dari Al Duhail Qatar di Liga Champions Klub Teluk",
+      "originalDescription": "Tim Neom asal Arab Saudi kalah 2-3 dari Al Duhail Qatar pada laga keempat Liga Champions Klub Teluk, membuat Al Duhail memimpin klasemen grup.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/1000019663-crop-mkbPlf9A.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T20:46:17+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/olahraga/vum0lbucj"
+    },
+    {
+      "id": "f9260b88f9eb84ee",
+      "title": "Pakistan Kecam Serangan Houthi ke Menara di Riyadh, Tegaskan Dukungan untuk Arab Saudi",
+      "description": "Pakistan mengecam keras serangan Houthi ke sebuah menara di kawasan keuangan Riyadh dan menegaskan solidaritasnya dengan Arab Saudi.",
+      "originalTitle": "Pakistan Kecam Serangan Houthi ke Menara di Riyadh, Tegaskan Dukungan untuk Arab Saudi",
+      "originalDescription": "Pakistan mengecam keras serangan Houthi ke sebuah menara di kawasan keuangan Riyadh dan menegaskan solidaritasnya dengan Arab Saudi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-09/باكستان-NHulfTxs.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T20:42:01+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/lg77ykeq1"
+    },
+    {
+      "id": "31d26cf166cd7d34",
+      "title": "Fenomena Konjungsi Gugus Bintang Pleiades dan Bulan Tandai Masuknya Wusum Al-Jauza di Langit Arab Saudi",
+      "description": "Langit Arab Saudi hari ini menyaksikan konjungsi gugus bintang Pleiades dengan Bulan, dikenal sebagai 'Qiran 15', yang menandai awal Wusum Al-Jauza menurut tradisi setempat.",
+      "originalTitle": "Fenomena Konjungsi Gugus Bintang Pleiades dan Bulan Tandai Masuknya Wusum Al-Jauza di Langit Arab Saudi",
+      "originalDescription": "Langit Arab Saudi hari ini menyaksikan konjungsi gugus bintang Pleiades dengan Bulan, dikenal sebagai 'Qiran 15', yang menandai awal Wusum Al-Jauza menurut tradisi setempat.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-3AtQcTVK.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T20:40:13+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/hz8vq8rah"
+    },
+    {
+      "id": "0798ccce8527da41",
+      "title": "Perdana menteri Lebanon mengutuk serangan Houthi terhadap Riyadh",
+      "description": "Perdana menteri Lebanon mengutuk serangan Houthi terhadap Perdana Menteri Riyadh Nawaf Salam telah mengutuk serangan Houthi pada hari Selasa sebelumnya, menyebutnya tindakan terorisme. Dalam sebuah pos di X, Salam mengatakan serangan itu adalah \"serangan flagrant terhadap kedaulatan dan keamanan Kerajaan Saudara Arab Saudi dan ancaman serius terhadap keamanan wilayah dan stabilitas.\" Di sana Anda akan menemukan tempat tinggal Anda. - Nawaf Salam (@ nawafsalam) November 24, 2026",
+      "originalTitle": "Lebanese prime minister condemns Houthi attack on Riyadh",
+      "originalDescription": "Lebanese prime minister condemns Houthi attack on Riyadh Lebanese Prime Minister Nawaf Salam has condemned the Houthi attack on Riyadh earlier on Tuesday, calling it an act of terrorism. In a post on X, Salam said the attack was a “flagrant assault on the sovereignty and security of the brotherly Kingdom of Saudi Arabia and a serious threat to the region’s security and stability”. أدين بأشدّ العبارات الهجوم الإرهابي الذي شنّته جماعة الحوثي على أحد أبراج المركز المالي في مدينة الرياض، في اعتداء سافر على سيادة المملكة العربية السعودية الشقيقة وأمنها، وتهديد خطير لأمن المنطقة واستقرارها. — Nawaf Salam نواف سلام (@nawafsalam) November 24, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D8D693J.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-24T20:38:27+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanese-prime-minister-condemns-houthi-attack-riyadh"
+    },
+    {
+      "id": "cbcb03546dbfa122",
+      "title": "Gol Spektakuler Joao Felix Bawa Al Nassr Kalahkan Al Sadd di Liga Champions Asia",
+      "description": "Joao Felix mencetak gol salto indah di babak kedua yang memastikan kemenangan Al Nassr 2-1 atas Al Sadd dalam laga Liga Champions Asia di Riyadh.",
+      "originalTitle": "Gol Spektakuler Joao Felix Bawa Al Nassr Kalahkan Al Sadd di Liga Champions Asia",
+      "originalDescription": "Joao Felix mencetak gol salto indah di babak kedua yang memastikan kemenangan Al Nassr 2-1 atas Al Sadd dalam laga Liga Champions Asia di Riyadh.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/featured-crop-p45aeyfr.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T20:36:19+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/olahraga/p0ltw9pc0"
+    },
+    {
+      "id": "5ca310a249794605",
+      "title": "Kushner mengatakan Israel menjadi 'pariah' sebagai Dewan nya rencana perdamaian kios",
+      "description": "Kushner mengatakan Israel menjadi 'pariah' karena Dewan Perancangnya ditutup oleh staf MEE pada Tue, 11 / 24 / 2026 - 18: 33 anak presiden AS telah menghadapi masalah pendanaan dan penundaan dalam usahanya untuk merekonstruksi Gaza dengan utusan khusus US US AS Jared Kushner membayangkan minggu lalu (Hannah McKay / AFP) Off Israel adalah pada jalur untuk menjadi \"pariah global di atas genosida di Jalur Gaza, Jared Kusonner wawancara pada hari Senin,\" Israel bisa bangkit dari tragedi 7 Oktober, [dan] menjadi jauh lebih aman dan jauh lebih terintegrasi ke dunia, atau mereka dapat pergi pada lintasan saat ini, yang akan tren terhadap status global - pariah, \"Kushner mengatakan dalam wawancara dengan New York Magazine. Kata-kata tersebut dapat dikatakan diberikan advokasi jangka panjang dari Kushner untuk Israel dan usaha untuk meletakkannya di pusat arsitektur keamanan regional baru di Timur Tengah. Kushner adalah teman lama keluarga Perdana Menteri Israel Benjamin Netanyahu dan menciptakan Dewan Perdamaian kontroversial yang seharusnya mengawasi rekonstruksi Gaza. Belum jelas apa yang memotivasi komentar Kushner, tapi tawaran untuk menjadi seorang pembuat perdamaian Timur Tengah dan pembangun belum bertahan, dengan Israel menyerang enclave dikepung dan proyek rekonstruksi banyak terhenti. Enclave itu ditarik oleh Israel dalam genosida Palestina setelah Hamas- dipimpin 7 Oktober 2023 serangan terhadap Israel selatan. Lebih dari 70.000 orang Palestina tewas dalam serangan itu dengan 1.679 orang Israel tewas dalam serangan sejak Oktober 2025\" gencatan senjata \"Kushner membantu diumumkan. PBB memperkirakan akan menghabiskan $70bn untuk membangun kembali Gaza, tapi Kushner telah berjuang untuk meluncurkan proyek kecil membangun kembali 2,45bn yang melibatkan 66 proyek di seluruh enclave. Kushner menyalahkan\" penundaan berbeda pada hal-hal yang berbeda, untuk alasan apapun, \"selama presentasi di pinggir PBB Jenderal Majelis di New York City pada bulan September. Israel memb",
+      "originalTitle": "Kushner says Israel is becoming a 'pariah' as his Board of Peace plans stall",
+      "originalDescription": "Kushner says Israel is becoming a 'pariah' as his Board of Peace plans stall Submitted by MEE staff on Tue, 11/24/2026 - 18:33 US president's son-in-law has faced funding issues and delays in his attempt to reconstruct Gaza with Gulf cash US special envoy Jared Kushner pictured last week (Hannah McKay/AFP) Off Israel is on track to become a “global pariah” over its genocide in the Gaza Strip, Jared Kushner, US President Donald Trump’s son-in-law and diplomatic envoy, said in an interview released on Monday. “Israel could rise from the tragedy of October 7, [and] be much more secure and much more integrated into the world, or they can go on the current trajectory, which is to trend toward global-pariah status,” Kushner said in an interview with New York Magazine. The remarks are notable given Kushner’s longtime advocacy for Israel and efforts to put it at the centre of a new regional security architecture in the Middle East. Kushner is a longtime family friend of Israeli Prime Minister Benjamin Netanyahu and created the controversial Board of Peace which was supposed to oversee Gaza’s reconstruction. It is not clear what motivated Kushner’s comments, but his bid to be a Middle East peacemaker and builder has not held up, with Israel attacking the besieged enclave and much hyped-up reconstruction projects stalled. The enclave was pummelled by Israel in a genocide of Palestinians after the Hamas-led 7 October 2023 attack on southern Israel. More than 70,000 Palestinians were killed in the onslaught with 1,679 people killed in Israeli strikes since the October 2025 “ceasefire” Kushner helped broker was announced. The UN estimates it will cost $70bn to rebuild Gaza, but Kushner has struggled to launch even a small $2.45bn rebuilding project involving 66 projects across the enclave. Kushner blamed \"different delays on different things, for whatever reason\", during a presentation on the sidelines of the UN General Assembly in New York City in September. Israel kills UN wor",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Kushner-2026-AFP.jpg.jpg?itok=GnmCbjpk",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-24T20:32:56+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/kushner-says-israel-becoming-pariah-his-board-peace-plans-stall"
+    },
+    {
+      "id": "a81c7b3b592130d4",
+      "title": "Koalisi: Serangan Teroris ke Menara Pusat Keuangan Riyadh Dilakukan dengan Drone",
+      "description": "Koalisi Arab Saudi menegaskan serangan teroris ke salah satu menara pusat keuangan Riyadh hari ini dilakukan dengan drone.",
+      "originalTitle": "Koalisi: Serangan Teroris ke Menara Pusat Keuangan Riyadh Dilakukan dengan Drone",
+      "originalDescription": "Koalisi Arab Saudi menegaskan serangan teroris ke salah satu menara pusat keuangan Riyadh hari ini dilakukan dengan drone.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/featured-crop-4KoeE0ks.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T20:31:44+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/iuc05jok2"
+    },
+    {
+      "id": "f93e25d791c34cbf",
+      "title": "Tuduhan Houthis Arab Saudi menargetkan wilayah sipil di Sanaa",
+      "description": "Pihak rumah menuduh Arab Saudi menargetkan daerah sipil di juru bicara Sanaa Houthi Yahya Saree mengatakan Arab Saudi telah melakukan 72 serangan udara selama 24 jam terakhir. Dalam sebuah pernyataan tentang Telegram, Saree mengatakan Arab Saudi menyerang al- Jawf, Taiz, Saada, Al- Hodeidah, Ibb dan pemerintah Lahij di Yaman dan menuduh kerajaan daerah sipil menargetkan wilayah ibukota, Sanaa. Anak Yaman tengah-tengah kerusakan yang disebabkan oleh serangan udara yang menargetkan sebuah peternakan kuda di pinggiran Sanaa pada 24 November 2026 (AFP)",
+      "originalTitle": "Houthis accuse Saudi Arabia of targeting civilian areas in Sanaa",
+      "originalDescription": "Houthis accuse Saudi Arabia of targeting civilian areas in Sanaa Houthi spokesperson Yahya Saree said Saudi Arabia had carried out 72 air strikes over the past 24 hours. In a statement on Telegram, Saree said Saudi Arabia attacked al-Jawf, Taiz, Saada, Al-Hodeidah, Ibb and Lahij governorates in Yemen and accused the kingdom of targeting civilian areas in the capital, Sanaa. Yemeni boys amid the damage caused by an air strike that targeted a horse farm on the outskirts of Sanaa on 24 November 2026 (AFP)",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/Yemeni%20boys%20inspect%20the%20damage%20following%20a%20strike%20allegedly%20carried%20out%20by%20Saudi%20that%20targeted%20a%20horse%20farm%20on%20the%20outskirts%20of%20Sanaa%20on%2024%20November%202026%20%28AFP%29.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-24T20:12:44+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-accuse-saudi-arabia-targeting-civilian-areas-sanaa"
+    },
+    {
+      "id": "f7fe0aaed4515a86",
+      "title": "Ben-Gvir Israel dituduh mencari 'perang agama' atas serangan masjid",
+      "description": "Polisi Israel telah menyita pengeras suara masjid sebagai pembuat undang-undang yang jauh di kanan mendorong undang-undang untuk membatasi panggilan untuk berdoa.",
+      "originalTitle": "Israel’s Ben-Gvir accused of seeking ‘religious war’ over mosque raids",
+      "originalDescription": "Israeli police have confiscated mosque loudspeakers as far-right lawmakers push legislation to restrict call to prayer.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b05d7d4e2386-1795545044.jpg?resize=1920%2C1440",
+      "category": "Masjid dan Peradaban",
+      "tags": [
+        "Masjid dan Peradaban"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-24T19:02:49+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/24/israels-ben-gvir-accused-of-seeking-religious-war-over-mosque-raids"
+    },
+    {
+      "id": "24caa8da86440e71",
+      "title": "Hakim AS secara permanen memblok Trump dari grup hak-hak menghukum yang berhubungan dengan ICC",
+      "description": "Hakim AS secara permanen memblok Trump dari kelompok hak-hak menghukum yang berhubungan dengan ICC Dituruni oleh staf MEE pada Tue, 11 / 24 / 2026 - 16: 42 Perintah eksekutif presiden telah menempatkan beberapa organisasi berbasis US- beresiko denda dan waktu penjara Internasional Pengadilan Pidana di Hague (Remko De Waal / ANP / AFP) Off A US federal hakim pada hari Senin permanen dilarang administrasi Trump dari menghukum kelompok hak-hak yang berhubungan dengan Pengadilan Pidana Internasional (ICC). Kekuasaan meluas ke semua orang Amerika, dan bukan hanya penggugat dalam kasus ini. Hakim Jesse Furman dari Distrik Selatan New York pertama kali mengeluarkan perintah sementara bulan lalu. Minggu ini ia memutuskan bahwa sementara \"Pemerintah secara efektif meminta bahwa Pengadilan mempertimbangkan kembali keputusan sebelumnya... tidak ada manfaat untuk permintaan itu.\" \"Sederhananya, Penggugat mendemonstrasikan bahwa Larangan Layanan adalah pembatasan berdasarkan pada pidato dan bahwa itu tidak disesuaikan untuk melayani menarik kepentingan negara\", Furman menulis. Demokrasi bagi dunia Arab (Dawn), didirikan oleh kolumnis mata timur tengah Jamal Khashoggi, mengajukan gugatan pada bulan Juli. Pada bulan Oktober, Furman memblokir administrasi Trump dari berpotensi memaksakan kewajiban sipil atau pidana pada kelompok serta organisasi sekutu lain, yang Aliansi Taxpayer Melawan Genosida (Taag), untuk setiap pekerjaan yang dilakukan dengan ICC. \"Siapapun yang melanggar larangan ini bisa menghadapi 20 tahun penjara dan hingga $1 juta denda sipil\", kata Dawn dalam siaran pers pada hari Selasa. \"Karena pemerintah dapat menafsirkan istilah 'jasa' untuk mencakup apapun yang menguntungkan penerima, orang Amerika sebelum tuntutan pidana yang beresiko ini untuk mengirimkan bukti tentang kejahatan yang mungkin kepada ICC, atau untuk bertukar informasi dengan dan terlibat dalam konvokasi gabungan dengan kelompok HAM Palestina dan Rapporteur Khusus [Francesca] Albania.\" Hakim AS memb",
+      "originalTitle": "US judge permanently bars Trump from punishing rights groups who liaise with ICC",
+      "originalDescription": "US judge permanently bars Trump from punishing rights groups who liaise with ICC Submitted by MEE staff on Tue, 11/24/2026 - 16:42 The president's executive order had put several US-based organisations at risk of fines and prison time The International Criminal Court in The Hague (Remko De Waal/ANP/AFP) Off A US federal judge on Monday permanently barred the Trump administration from punishing rights groups who liaise with the International Criminal Court (ICC). The ruling extends to all Americans, and not just the plaintiffs in the case. Judge Jesse Furman of the Southern District of New York first issued a temporary injunction last month. This week he ruled that while \"the Government effectively requests that the Court reconsider its earlier decisions ... there is no merit to that request\". \"Put simply, Plaintiffs demonstrate that the Services Prohibition is a content-based restriction on speech and that it is not narrowly tailored to serve compelling state interests,\" Furman wrote. Democracy for the Arab World Now (Dawn), founded by the late Middle East Eye columnist Jamal Khashoggi, filed the lawsuit in July. In October, Furman blocked the Trump administration from potentially imposing civil or criminal liability on the group as well as another allied organisation, the Taxpayer Alliance Against Genocide (Taag), for any work carried out with the ICC. \"Anyone violating this prohibition could face up to 20 years in prison and up to $1 million in civil fines,\" Dawn said in a press release on Tuesday. \"Because the government can interpret the term 'services' to encompass anything that confers a benefit on the recipient, Americans before this ruling risked criminal prosecution for submitting evidence about possible crimes to the ICC, or for exchanging information with and engaging in joint advocacy with the Palestinian human rights groups and Special Rapporteur [Francesca] Albanese.\" US judge bars Trump from punishing rights groups for liaising with ICC Read More » Al",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_C94G396-2.jpg.jpg?itok=7cvs-d9K",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-24T18:59:28+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/us-judge-permanently-bars-trump-punishing-rights-groups-who-liaise-icc"
+    },
+    {
+      "id": "66444280078f0dcb",
+      "title": "Jerman sayap kiri Partai Die Linke mengeluarkan pro- Palestina pembuat hukum",
+      "description": "Partai Kiri- sayap kiri Jerman Die Linke mengeluarkan pro- Palestina pembuat hukum Jerman yang jauh - meninggalkan Die Linke partai pada hari Selasa mengusir progmaker lokal Palestina Vanessa Emde atas kritik nya Israel. Die Linke, yang pertama kali datang dalam pemilu lokal di Berlin pada bulan September, telah mencoba untuk meremukkan kesepakatan koalisi dengan pusat Partai Demokrat Sosial (SPD) dan Green. Emde baru terpilih sebagai perwakilan lokal dari distrik Neukolln, yang memiliki populasi Arab yang besar. Mengusir Emde pada hari Selasa - yang didukung oleh lebih dari dua pertiga dari hukum Die Linke di parlemen Berlin - membersihkan satu rintangan potensial untuk menyegel kesepakatan koalisi dengan SPD dan Greenens. Anggota dari jarak jauh Jerman meninggalkan partai Die Linke Vanessa Emde pengunjuk rasa di Berlin pada 31 Oktober 2026 (AFP)",
+      "originalTitle": "Germany's left-wing Die Linke party expels pro-Palestine lawmaker",
+      "originalDescription": "Germany's left-wing Die Linke party expels pro-Palestine lawmaker Germany's far-left Die Linke party on Tuesday expelled local pro-Palestine lawmaker Vanessa Emde over her criticism of Israel. Die Linke, which came first in local elections in Berlin in September, has been trying to hammer out a coalition deal with the centre-left Social Democrats (SPD) and the Greens. Emde was newly elected as a local representative from the Neukolln district, which has a large Arab population. Emde's expulsion on Tuesday - which was backed by more than two-thirds of Die Linke's lawmakers in the Berlin parliament - clears one potential hurdle to sealing a coalition deal with the SPD and the Greens. Member of Germany's far-left Die Linke party Vanessa Emde addresses protesters in Berlin on 31 October 2026 (AFP)",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/Member%20of%20Germany%27s%20far-left%20Die%20Linke%20party%20Vanessa%20Emde%20addresses%20protesters%20in%20Berlin%20October%2031%2C%202026..jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-24T18:41:10+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/germanys-left-wing-die-linke-party-expels-pro-palestinian-lawmaker"
+    },
+    {
+      "id": "d481b6291737c685",
+      "title": "Kuwait Kecam Serangan Berkelanjutan Milisi Houthi ke Arab Saudi",
+      "description": "Kuwait mengecam keras serangan teroris berulang yang dilakukan milisi Houthi terhadap Arab Saudi, termasuk serangan terbaru ke salah satu menara pusat keuangan di Riyadh.",
+      "originalTitle": "Kuwait Kecam Serangan Berkelanjutan Milisi Houthi ke Arab Saudi",
+      "originalDescription": "Kuwait mengecam keras serangan teroris berulang yang dilakukan milisi Houthi terhadap Arab Saudi, termasuk serangan terbaru ke salah satu menara pusat keuangan di Riyadh.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/featured-crop-H0n-T73X.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T18:25:11+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/z61x31x7b"
+    },
+    {
+      "id": "b0fb879cbda5485b",
+      "title": "GCC mengutuk serangan Houthi menargetkan pencakar langit Riyadh",
+      "description": "GCC mengutuk serangan Houthi menargetkan gedung pencakar langit Riyadh, Jasem Mohamed Albudaiwi, secrettary- Jenderal Dewan Koperasi Teluk (GCC), telah menghukum dengan keras \"serangan berbahaya\" yang diluncurkan oleh Houthis-align di sebuah menara di ibukota Saudi, Riyadh 's pusat keuangan. Serangan itu melukai 11 orang - dua warga negara Saudi dan sembilan warga negara asing. \"Serangan ini adalah kejahatan keji dan agresi yang mengungkapkan bahaya pendekatan teroris milisi ini dan mengabaikan kehidupan yang tidak bersalah, yang membutuhkan sikap internasional yang menentukan untuk memegang milisi ini bertanggung jawab\", kata Albudaiwi dalam sebuah pernyataan. Dia menambahkan bahwa anggota GCC negara berdiri dengan Arab Saudi.",
+      "originalTitle": "GCC condemns Houthi attack targeting Riyadh skyscraper",
+      "originalDescription": "GCC condemns Houthi attack targeting Riyadh skyscraper Jasem Mohamed Albudaiwi, secretary-general of the Gulf Cooperation Council (GCC), has strongly condemned the “treacherous attack” launched by the Iran-aligned Houthis on a tower in Saudi capital Riyadh’s financial centre. The attack injured 11 people - two Saudi citizens and nine foreign nationals. “This attack is a heinous crime and an aggression that reveals the danger of this militia’s terrorist approach and its disregard for innocent lives, which requires a decisive international stance to hold this militia accountable,” Albudaiwi said in a statement. He added that the GCC member states stand with Saudi Arabia.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D8D693J.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-24T18:00:07+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/gcc-condemns-houthi-attack-targeting-riyadh-skyscraper"
+    },
+    {
+      "id": "2de5c6a9e6587c60",
+      "title": "Kementerian Kebudayaan memperkenalkan layanan konsultasi asuransi untuk aset budaya",
+      "description": "RIYADH - Kementerian Kebudayaan telah memperkenalkan layanan konsultasi asuransi budaya yang memungkinkan individu, entitas pemerintah, dan pendirian budaya untuk mengidentifikasi risiko terhadap aset budaya dan kegiatan dan membuat keputusan asuransi yang masuk akal. Layanan ini menyediakan khusus saran pada asuransi karya seni, koleksi warisan, bangunan bersejarah, museum, pameran, dan peristiwa budaya. Ini bertujuan untuk mengurangi dampak keuangan dari risiko dan memperkuat kesinambungan aset budaya di Kerajaan. Mereka yang ingin mendapat manfaat dari layanan dapat diterapkan melalui situs kementerian dengan memilih layanan \"Inquiry\" pada halaman \"Contact Us\" di glyhttps: / / www.moc.gov.sa / Modules / Pages / SocialChannels.",
+      "originalTitle": "Culture Ministry introduces insurance consulting service for cultural assets",
+      "originalDescription": "RIYADH — The Ministry of Culture has introduced a cultural insurance consulting service that enables individuals, government entities, and cultural establishments to identify risks to cultural assets and activities and make informed insurance decisions. The service provides specialized advice on insuring artworks, heritage collections, historic buildings, museums, exhibitions, and cultural events. It aims to reduce the financial impact of risks and strengthen the sustainability of cultural assets in the Kingdom. Those wishing to benefit from the service may apply through the ministry's website by selecting the \"Inquiry\" service on the \"Contact Us\" page at ‏https://www.moc.gov.sa/Modules/Pages/SocialChannels .",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/24/2799399.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T17:51:07+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666505/saudi-arabia/culture-ministry-introduces-insurance-consulting-service-for-cultural-assets"
+    },
+    {
+      "id": "487fe5e3f66c7c02",
+      "title": "AI memimpin sektor teknologi registrasi komersial dengan 31% lonjakan",
+      "description": "RIYADH - Departemen Perdagangan telah melaporkan pertumbuhan signifikan dalam pendaftaran komersial aktif di sektor teknologi menjanjikan pada tahun 2026. Hal ini didorong oleh upaya untuk memfasilitasi transformasi digital dan inovasi, mempromosikan diversifikasi ekonomi, kewirausahaan asuh, dan mendukung tujuan dari Saudi Vision 2030. Pada akhir kuartal ketiga 2026, pendaftaran komersial aktif untuk teknologi kecerdasan buatan naik 31persen ke 24.693, dibandingkan dengan 18,846 dalam periode yang sama pada 2025. Registrasi dalam layanan komputasi awan meningkat 35 persen menjadi 7.362 dari 5.466 setahun sebelumnya. Registrasi komersial aktif di sektor keamanan cyber juga meningkat 22 persen ke 11.274 pada akhir kuartal ketiga 2026, dari 9.238 pada periode yang berhubungan tahun 2025. Registrasi dalam industri game elektronik naik 25 persen ke 981 pada akhir kuartal ketiga 2026, naik dari 784 dalam periode yang sama tahun sebelumnya.",
+      "originalTitle": "AI leads tech sector commercial registrations with 31% surge",
+      "originalDescription": "RIYADH — The Ministry of Commerce has reported significant growth in active commercial registrations in promising technology sectors in 2026. This was driven by efforts to facilitate digital transformation and innovation, promote economic diversification, foster entrepreneurship, and support the goals of Saudi Vision 2030. By the end of the third quarter of 2026, active commercial registrations for artificial intelligence technologies rose 31percent to 24,693, compared with 18,846 in the same period of 2025. Registrations in cloud computing services increased 35 percent to 7,362 from 5,466 a year earlier. Active commercial registrations in the cybersecurity sector also grew 22 percent to 11,274 by the end of the third quarter of 2026, from 9,238 in the corresponding period of 2025. Registrations in the electronic gaming industry climbed 25 percent to 981 by the end of the third quarter of 2026, up from 784 in the same period the previous year.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/24/2799394.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T17:45:55+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666504/saudi-arabia/ai-leads-tech-sector-commercial-registrations-with-31-surge"
+    },
     {
       "id": "d8d616e702efffae",
       "title": "Houthis tidak akan merebut Aden, pasukan pemerintah Yaman mengatakan",
@@ -190,6 +1042,31 @@
       "region": "",
       "publishedAt": "2026-11-24T17:37:32+00:00",
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-wont-seize-aden-yemeni-government-forces-say"
+    },
+    {
+      "id": "05d4ae010d5b785a",
+      "title": "Al- Jataan: Aktivitas tanpa minyak mencatat kontribusi tertinggi bagi PDB sebesar 57.7%",
+      "description": "RIYADH - Menteri Keuangan Mohammed Al- Jadan menegaskan bahwa prioritas anggaran umum negara untuk tahun fiskal 2027 berpusat pada terus menyediakan layanan penting bagi warga negara, meningkatkan kualitas hidup mereka, mengarahkan dukungan kepada kelompok yang memenuhi syarat, memberdayakan sektor swasta, merangsang pertumbuhan ekonomi, dan menjaga pencapaian bangsa. Dia mencatat bahwa perkiraan pendapatan untuk tahun mendatang berdiri di SR1.202 triliun, terhadap pengeluaran yang diproyeksikan dari SR1.392 triliun, menghasilkan defisit sekitar SR190 miliar. Dia membuat pernyataan tersebut saat mengadakan konferensi pers pemerintah yang diselenggarakan oleh Kementerian Media di Riyadh pada hari Selasa, pada malam persetujuan dari anggaran umum negara untuk tahun fiskal 2027. Dia menguraikan fitur utama kinerja keuangan dan ekonomi pada tahun 2026, anggaran 2027, keuangan publik selama jangka menengah, distribusi pengeluaran di berbagai sektor, dan kemungkinan pertumbuhan ekonomi. * * Media [2799388] * * Al- Jataan menjelaskan bahwa Kerajaan telah mengalami perubahan yang mendalam dalam lintasan ekonomi dan pengembangan selama dekade terakhir sejak peluncuran Saudi Vision 2030. Aktivitas ekonomi non-minyak telah berkembang, kontribusi sektor swasta telah meningkat, dan kualitas layanan yang diberikan kepada warga telah meningkat, meskipun tantangan berturut-turut menghadapi ekonomi global. Menteri menyatakan bahwa Saudi Vision 2030 diluncurkan untuk menstruktur ulang ekonomi dan keuangan publik, mengubah basis ekonomi dan sumber pendapatan minyak, memberdayakan sektor swasta, dan memperkuat kapasitas ekonomi Saudi untuk menahan kejutan eksternal. \"Perkiraan menunjukkan bahwa tahun 2026 fiskal akan menutup dengan pengeluaran sekitar SR1.436 triliun dan pendapatan SR1.191 triliun, menghasilkan defisit SR245 miliar, setara dengan sekitar 4,9 persen dari PDB. Pemerintah telah berhasil mempertahankan kontrol atas tingkat defisit meskipun tantangan,\" katanya. Al- Jataan m",
+      "originalTitle": "Al-Jadaan: Non-oil activities record highest contribution to GDP at 57.7%",
+      "originalDescription": "RIYADH — Minister of Finance Mohammed Al-Jadaan affirmed that the priorities of the state’s general budget for the fiscal year 2027 are centered on continuing to provide essential services to citizens, enhancing their quality of life, directing support to eligible groups, empowering the private sector, stimulating economic growth, and safeguarding the nation’s achievements. He noted that estimated revenues for the coming year stand at SR1.202 trillion, against projected expenditures of SR1.392 trillion, resulting in a deficit of approximately SR190 billion.He made the remarks while addressing the government press conference organized by the Ministry of Media in Riyadh on Tuesday, on the eve of the approval of the state’s general budget for the fiscal year 2027. He outlined the key features of financial and economic performance in 2026, the 2027 budget, public finances over the medium term, the distribution of expenditure across various sectors, and the outlook for economic growth. **media[2799388]**Al-Jadaan explained that the Kingdom has undergone a profound transformation in its economic and development trajectory over the past decade since the launch of Saudi Vision 2030. Non-oil economic activities have expanded, the private sector’s contribution has increased, and the quality of services provided to citizens has improved, despite the successive challenges confronting the global economy.The minister pointed out that Saudi Vision 2030 was launched to restructure the economy and public finances, diversify the economic base and sources of non-oil revenue, empower the private sector, and strengthen the Saudi economy’s capacity to withstand external shocks. “Estimates indicate that the 2026 fiscal year will close with expenditures of approximately SR1.436 trillion and revenues of SR1.191 trillion, resulting in a deficit of SR245 billion, equivalent to around 4.9 percent of GDP. The government had succeeded in maintaining control over deficit levels despite the challe",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/24/2799386.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-24T17:33:23+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666503/saudi-arabia/al-jadaan-non-oil-activities-record-highest-contribution-to-gdp-at-577percent"
     },
     {
       "id": "0c305b7773a91683",
@@ -570,6 +1447,31 @@
       "originalUrl": "https://indonesian.ajel.sa/ekonomi/swr6t8m5h"
     },
     {
+      "id": "e2330f6d40daf592",
+      "title": "Jaringan Gusdurian Dorong Kolaborasi Lintas Agama untuk Lindungi Lingkungan",
+      "description": "Jaringan Gusdurian mendorong kolaborasi lintas iman menjaga alam. Kemenag mendukung ekoteologi sebagai landasan gerakan perlindungan alam bersama.",
+      "originalTitle": "Jaringan Gusdurian Dorong Kolaborasi Lintas Agama untuk Lindungi Lingkungan",
+      "originalDescription": "Jaringan Gusdurian mendorong kolaborasi lintas iman menjaga alam. Kemenag mendukung ekoteologi sebagai landasan gerakan perlindungan alam bersama.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/gusdurian-2026_1795532218.webp",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-24T14:30:03+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/jaringan-gusdurian-dorong-kolaborasi-lintas-agama-untuk-lindungi-lingkungan-nEUnp"
+    },
+    {
       "id": "2b5c7daea9d07f51",
       "title": "11 terluka dalam serangan Houthi di menara Riyadh, pertahanan sipil Saudi mengatakan",
       "description": "Dua warga Saudi, sembilan orang asing terluka dalam serangan Houthi pada bangunan di Riyadh 's distrik keuangan.",
@@ -797,6 +1699,31 @@
       "originalUrl": "https://khazanah.republika.co.id/berita/tp01cp320/surah-alquran-yang-membuat-rambut-rasulullah-saw-beruban-bagaimana-bisa"
     },
     {
+      "id": "d176d3bdac588c29",
+      "title": "Kemenag Buka PMB-PTKIN 2027, Pendaftaran Jalur SPAN Mulai 1 Desember",
+      "description": "Kemenag menyediakan 188.968 kursi PMB-PTKIN 2027 melalui tiga jalur seleksi. Pendaftaran akun sekolah jalur SPAN dimulai 1 Desember 2026.",
+      "originalTitle": "Kemenag Buka PMB-PTKIN 2027, Pendaftaran Jalur SPAN Mulai 1 Desember",
+      "originalDescription": "Kemenag menyediakan 188.968 kursi PMB-PTKIN 2027 melalui tiga jalur seleksi. Pendaftaran akun sekolah jalur SPAN dimulai 1 Desember 2026.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/kemenag-ptkin_1795531430.webp",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-24T14:00:06+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/kemenag-buka-pmb-ptkin-2027-pendaftaran-jalur-span-mulai-1-desember-bsIq3"
+    },
+    {
       "id": "e3153e14f7d08634",
       "title": "Menkeu: Ekonomi Arab Saudi Tumbuh Didukung Permintaan Domestik dan Sektor Swasta",
       "description": "Menteri Keuangan Mohammed Al-Jadaan menyatakan ekonomi Arab Saudi tumbuh berkat permintaan domestik dan sektor swasta, meski menghadapi berbagai tantangan.",
@@ -922,6 +1849,31 @@
       "region": "",
       "publishedAt": "2026-11-24T13:44:28+00:00",
       "originalUrl": "https://indonesian.ajel.sa/ekonomi/kxb44lc9r"
+    },
+    {
+      "id": "9bdcc615a93a7efb",
+      "title": "NU Online Institute Buka Beasiswa English Camp bagi Santri dan Mahasantri Ma’had Aly, Daftar di Sini",
+      "description": "NU Online Institute membuka beasiswa English Camp di Pare bagi santri dan mahasantri Ma'had Aly. Pendaftaran berlangsung pada 25–27 November 2026.",
+      "originalTitle": "NU Online Institute Buka Beasiswa English Camp bagi Santri dan Mahasantri Ma’had Aly, Daftar di Sini",
+      "originalDescription": "NU Online Institute membuka beasiswa English Camp di Pare bagi santri dan mahasantri Ma'had Aly. Pendaftaran berlangsung pada 25–27 November 2026.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/english-camp-nu-online-institute_1795530516.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-24T13:30:19+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/nu-online-institute-buka-beasiswa-english-camp-bagi-santri-dan-mahasantri-ma-had-aly-daftar-di-sini-E9Ce6"
     },
     {
       "id": "1fa464d2ac1eb0ee",
@@ -1098,6 +2050,31 @@
       "region": "",
       "publishedAt": "2026-11-24T12:48:48+00:00",
       "originalUrl": "https://indonesian.ajel.sa/dunia/8utihrzuj"
+    },
+    {
+      "id": "e682faa9dbd4c451",
+      "title": "Menag Sebut Pendekatan Agama Efektif untuk Cegah Kerusakan Lingkungan",
+      "description": "Menag nilai pendekatan agama dapat membangun kesadaran ekologis. Kemenag mendorong ekoteologi dan kerja sama lintas iman untuk menjaga alam kini.",
+      "originalTitle": "Menag Sebut Pendekatan Agama Efektif untuk Cegah Kerusakan Lingkungan",
+      "originalDescription": "Menag nilai pendekatan agama dapat membangun kesadaran ekologis. Kemenag mendorong ekoteologi dan kerja sama lintas iman untuk menjaga alam kini.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/menag-nasaruddin_1795524994.webp",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-24T12:45:09+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/menag-sebut-pendekatan-agama-efektif-untuk-cegah-kerusakan-lingkungan-iBp7V"
     },
     {
       "id": "dbf8aa9ac0a6b8fd",
@@ -1350,6 +2327,31 @@
       "originalUrl": "https://indonesian.ajel.sa/arab-saudi/q3adxt8rp"
     },
     {
+      "id": "5603437095ba5e6c",
+      "title": "Pastikan Kesetaraan Hak Santri, Dirjen Pesantren Targetkan PDF di 34 Provinsi",
+      "description": "Imtihan Wathani 2026 diikuti 12.463 santri dari 17 provinsi. Dirjen Pesantren targetkan PDF Ula, Wustha, dan Ulya merata di 34 provinsi.",
+      "originalTitle": "Pastikan Kesetaraan Hak Santri, Dirjen Pesantren Targetkan PDF di 34 Provinsi",
+      "originalDescription": "Imtihan Wathani 2026 diikuti 12.463 santri dari 17 provinsi. Dirjen Pesantren targetkan PDF Ula, Wustha, dan Ulya merata di 34 provinsi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/1002737218_1795517500.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-24T12:30:19+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/pastikan-kesetaraan-hak-santri-dirjen-pesantren-targetkan-pdf-di-34-provinsi-fWOAu"
+    },
+    {
       "id": "6cfc33bd2e0202db",
       "title": "Dana Properti Salurkan Lebih dari Satu Miliar Riyal untuk Penerima Bantuan Perumahan November",
       "description": "Dana Pengembangan Properti menyalurkan 1,096 miliar riyal Saudi ke rekening penerima Program Bantuan Perumahan untuk November 2026.",
@@ -1450,6 +2452,31 @@
       "region": "",
       "publishedAt": "2026-11-24T12:00:31+00:00",
       "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/how-eu-failure-regulate-tech-made-palestine-laboratory-ai-weaponry-and"
+    },
+    {
+      "id": "2b3d3fa6c19e08eb",
+      "title": "Muslimat NU Jabar Dorong Penguatan Karakter Anak Sejak Dini",
+      "description": "Yayasan Pendidikan Muslimat Nahdlatul Ulama (YPMNU) Jawa Barat menggelar Seminar Integrasi Kurikulum Berbasis Cinta (KBC) dan Bedah Buku Aswaja",
+      "originalTitle": "Muslimat NU Jabar Dorong Penguatan Karakter Anak Sejak Dini",
+      "originalDescription": "Yayasan Pendidikan Muslimat Nahdlatul Ulama (YPMNU) Jawa Barat menggelar Seminar Integrasi Kurikulum Berbasis Cinta (KBC) dan Bedah Buku Aswaja",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/desain-tanpa-judul-6_1795505927.webp",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-24T12:00:12+00:00",
+      "originalUrl": "https://www.nu.or.id/jabar/muslimat-nu-jabar-dorong-penguatan-karakter-anak-sejak-dini-45E5r"
     },
     {
       "id": "fc8f2099001f952d",
@@ -1855,6 +2882,57 @@
       "originalUrl": "https://indonesian.ajel.sa/arab-saudi/l0kutvef6"
     },
     {
+      "id": "07cae1bf5641461c",
+      "title": "Diplomasi Kaum Sarungan: Ketika Ulama Bergerak Tanpa Negara",
+      "description": "Komite Hijaz bukti ulama Nusantara mampu berdiplomasi tanpa negara. Dari misi ke Tanah Suci, NU meneguhkan peran membela umat dan kebebasan bermazhab.",
+      "originalTitle": "Diplomasi Kaum Sarungan: Ketika Ulama Bergerak Tanpa Negara",
+      "originalDescription": "Komite Hijaz bukti ulama Nusantara mampu berdiplomasi tanpa negara. Dari misi ke Tanah Suci, NU meneguhkan peran membela umat dan kebebasan bermazhab.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/komite-hijaz-nu-1_1795509956.webp",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah",
+        "Dakwah dan Ulama"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-24T09:12:45+00:00",
+      "originalUrl": "https://www.nu.or.id/fragmen/diplomasi-kaum-sarungan-ketika-ulama-bergerak-tanpa-negara-P5sZj"
+    },
+    {
+      "id": "02afc82b779ae7cd",
+      "title": "Kemenhaj Perbarui Daftar Jamaah Haji Khusus Berhak Lunas 2027, PIHK Diminta Segera Sosialisasi",
+      "description": "Kemenhaj memperbarui daftar jemaah haji khusus berhak lunas 2027 setelah verifikasi menemukan jemaah tak memenuhi syarat usia dan masa tunggu.",
+      "originalTitle": "Kemenhaj Perbarui Daftar Jamaah Haji Khusus Berhak Lunas 2027, PIHK Diminta Segera Sosialisasi",
+      "originalDescription": "Kemenhaj memperbarui daftar jemaah haji khusus berhak lunas 2027 setelah verifikasi menemukan jemaah tak memenuhi syarat usia dan masa tunggu.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/haji-khusus_1795503216.webp",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-24T07:00:41+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/kemenhaj-perbarui-daftar-jamaah-haji-khusus-berhak-lunas-2027-pihk-diminta-segera-sosialisasi-jFBNl"
+    },
+    {
       "id": "502552b6dbd8eb38",
       "title": "Rumah Zakat Salurkan Bantuan untuk Guru Honorer dan Guru Ngaji Dhuafa di Batam",
       "description": "BATAM — Dedikasi dalam mendidik generasi bangsa dan mengajarkan Al-Qur'an tidak selalu beriringan dengan kesejahteraan yang layak. Sebagai bentuk kepedulian terhadap para pejuang pendidikan, Rumah Zakat menyalurkan bantuan bagi...",
@@ -1878,6 +2956,31 @@
       "region": "",
       "publishedAt": "2026-11-24T06:31:07+00:00",
       "originalUrl": "https://khazanah.republika.co.id/berita/tozu3v370/rumah-zakat-salurkan-bantuan-untuk-guru-honorer-dan-guru-ngaji-dhuafa-di-batam"
+    },
+    {
+      "id": "fad7f6fbb9e8151c",
+      "title": "Menag Sebut Madrasah Semakin Kompetitif dalam Sains dan Teknologi",
+      "description": "Menag menilai madrasah kian kompetitif dalam sains dan teknologi. Ia menyoroti prestasi MAN serta biaya pendidikan relatif terjangkau bagi siswa.",
+      "originalTitle": "Menag Sebut Madrasah Semakin Kompetitif dalam Sains dan Teknologi",
+      "originalDescription": "Menag menilai madrasah kian kompetitif dalam sains dan teknologi. Ia menyoroti prestasi MAN serta biaya pendidikan relatif terjangkau bagi siswa.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/menag_1795532653.webp",
+      "category": "Pendidikan Islam",
+      "tags": [
+        "Pendidikan Islam"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-24T06:30:00+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/menag-sebut-madrasah-semakin-kompetitif-dalam-sains-dan-teknologi-MW2yO"
     },
     {
       "id": "22461a16d21e3d7d",
@@ -1928,6 +3031,31 @@
       "region": "",
       "publishedAt": "2026-11-24T06:07:37+00:00",
       "originalUrl": "https://indonesian.ajel.sa/arab-saudi/jw4w6yffr"
+    },
+    {
+      "id": "ed2bcd3995d405d9",
+      "title": "Apakah Jenazah Korban Kebakaran Wajib Dimandikan? Ini Penjelasan Ulama Fiqih",
+      "description": "Bagaimana hukum memandikan jenazah korban kebakaran? Simak penjelasan fikih tentang tayamum sebagai pengganti mandi jenazah menurut ulama.",
+      "originalTitle": "Apakah Jenazah Korban Kebakaran Wajib Dimandikan? Ini Penjelasan Ulama Fiqih",
+      "originalDescription": "Bagaimana hukum memandikan jenazah korban kebakaran? Simak penjelasan fikih tentang tayamum sebagai pengganti mandi jenazah menurut ulama.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/6351_1795494004.webp",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-24T06:02:41+00:00",
+      "originalUrl": "https://islam.nu.or.id/syariah/apakah-jenazah-korban-kebakaran-wajib-dimandikan-ini-penjelasan-ulama-fiqih-l4PhH"
     },
     {
       "id": "5891a7e90c6e38bd",
@@ -11606,1135 +12734,6 @@
       "region": "",
       "publishedAt": "2026-11-19T13:41:38+00:00",
       "originalUrl": "https://news.detik.com/berita/d-8760765/eks-stafsus-yaqut-dapat-usd-75-ribu-cuma-modal-kasih-nomor-hp"
-    },
-    {
-      "id": "0e0efa39c6c84d34",
-      "title": "Sepeda listrik meningkatkan 'Perjalanan Absher untuk Layanan Pengunjung di perbatasan darat'",
-      "description": "RIYADH - Direktorat Umum Passport adalah prosedur entri untuk wisatawan di perbatasan darat dengan menyebarkan sepeda listrik untuk paspor personil keamanan untuk membantu pengguna dari \"Perjalanan Absher untuk Pengunjung\" layanan. * * media [2796780] * * Layanan ini tersedia untuk warga Dewan Kerjasama Teluk (GCC) negara-negara dan pengunjung tiba di Kerajaan oleh tanah. Sepeda memungkinkan personil keamanan paspor mencapai pengguna lebih cepat sehingga untuk memberikan mereka dengan dukungan. Direktorat mendesak wisatawan untuk menggunakan layanan melalui aplikasi Absher. Layanan akan menjadi wajib enam bulan setelah 26 Oktober 2026. Hal ini dirancang untuk memasukkan otomatis prosedur bagi wisatawan dan kendaraan mereka dengan memungkinkan mereka untuk menyelesaikan persyaratan perjalanan digital sebelum tiba di perbatasan melintasi Kingdom.",
-      "originalTitle": "Electric bikes enhance 'Absher Travel for Visitors' service at land border crossings",
-      "originalDescription": "RIYADH — The General Directorate of Passports is streamlining entry procedures for travelers at land border crossings by deploying electric bikes for passport security personnel to assist users of the \"Absher Travel for Visitors\" service. **media[2796780]**This service is available to citizens of Gulf Cooperation Council (GCC) countries and visitors arriving in the Kingdom by land. The bikes allow passport security personnel to reach users faster so as to provide them with support. The directorate urged travelers to use the service via the Absher app. The service will become mandatory six months after October 26, 2026. It is designed to automate entry procedures for travelers and their vehicles by allowing them to complete travel requirements digitally before arriving at the border crossing across the Kingdom.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/19/2796781.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T13:32:48+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666373/saudi-arabia/electric-bikes-enhance-absher-travel-for-visitors-service-at-land-border-crossings"
-    },
-    {
-      "id": "f7c9affb7fa3147e",
-      "title": "Keamanan Lingkungan Tangkap Pelaku Perburuan Liar Tanpa Izin di Cagar Alam Riyadh",
-      "description": "Pasukan Khusus Keamanan Lingkungan menangkap seorang warga yang berburu tanpa izin di Cagar Alam Imam Turki bin Abdullah, Riyadh, dan menindak sesuai aturan.",
-      "originalTitle": "Keamanan Lingkungan Tangkap Pelaku Perburuan Liar Tanpa Izin di Cagar Alam Riyadh",
-      "originalDescription": "Pasukan Khusus Keamanan Lingkungan menangkap seorang warga yang berburu tanpa izin di Cagar Alam Imam Turki bin Abdullah, Riyadh, dan menindak sesuai aturan.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-09/الأمن-البيئي-PwN_EZqy.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T13:22:05+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/kcfe7qs7d"
-    },
-    {
-      "id": "e38350ec188ae408",
-      "title": "Arab Saudi Terapkan Pajak Minimum Tambahan untuk Perusahaan Multinasional Mulai 2027",
-      "description": "Otoritas Zakat, Pajak, dan Bea Cukai Arab Saudi akan menerapkan pajak minimum tambahan bagi perusahaan multinasional berpendapatan tahunan 750 juta euro ke atas mulai 1 Januari 2027.",
-      "originalTitle": "Arab Saudi Terapkan Pajak Minimum Tambahan untuk Perusahaan Multinasional Mulai 2027",
-      "originalDescription": "Otoritas Zakat, Pajak, dan Bea Cukai Arab Saudi akan menerapkan pajak minimum tambahan bagi perusahaan multinasional berpendapatan tahunan 750 juta euro ke atas mulai 1 Januari 2027.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-10/هيئة-الزكاة-8ya2ZCam.jpg",
-      "category": "Ekonomi Syariah",
-      "tags": [
-        "Ekonomi Syariah",
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T13:20:11+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/ekonomi/2ijsijrl5"
-    },
-    {
-      "id": "fdf59dee4887ae09",
-      "title": "Inggris Teken Kontrak Partisipasi di Expo 2030 Riyadh, Mulai Persiapan",
-      "description": "Inggris resmi menandatangani kontrak partisipasi di Expo 2030 Riyadh dan mulai memasuki tahap persiapan, menegaskan komitmen historisnya pada ajang Expo internasional.",
-      "originalTitle": "Inggris Teken Kontrak Partisipasi di Expo 2030 Riyadh, Mulai Persiapan",
-      "originalDescription": "Inggris resmi menandatangani kontrak partisipasi di Expo 2030 Riyadh dan mulai memasuki tahap persiapan, menegaskan komitmen historisnya pada ajang Expo internasional.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-NW8vQ5GT.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T13:17:18+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/ekonomi/yh133o05d"
-    },
-    {
-      "id": "887efab335c64e4d",
-      "title": "Flynas Luncurkan Penerbangan Langsung Jeddah-Muscat Mulai 1 Desember",
-      "description": "Maskapai Flynas akan membuka penerbangan langsung antara Jeddah dan Muscat mulai 1 Desember 2026, tiga kali seminggu, untuk memperluas jaringan internasionalnya.",
-      "originalTitle": "Flynas Luncurkan Penerbangan Langsung Jeddah-Muscat Mulai 1 Desember",
-      "originalDescription": "Maskapai Flynas akan membuka penerbangan langsung antara Jeddah dan Muscat mulai 1 Desember 2026, tiga kali seminggu, untuk memperluas jaringan internasionalnya.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/1001057175-crop-JNtGZOxD.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T13:12:10+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/zcqhx5kfb"
-    },
-    {
-      "id": "90f7dfe70d82b458",
-      "title": "Dua Warga Ditangkap di Madinah karena Menangkap Ikan Tanpa Izin",
-      "description": "Patroli Penjaga Perbatasan di Yanbu, Madinah, menangkap dua warga yang melanggar aturan keamanan dan keselamatan laut karena menangkap ikan tanpa izin.",
-      "originalTitle": "Dua Warga Ditangkap di Madinah karena Menangkap Ikan Tanpa Izin",
-      "originalDescription": "Patroli Penjaga Perbatasan di Yanbu, Madinah, menangkap dua warga yang melanggar aturan keamanan dan keselamatan laut karena menangkap ikan tanpa izin.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-07/حرس-الحدود-4-wN3DlrAn.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T12:57:56+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/3jv624uqa"
-    },
-    {
-      "id": "71b95c83c3d4f5d8",
-      "title": "Langkah Pemesanan Jadwal Ujian Digital di Platform Sadid",
-      "description": "Otoritas Penilaian Pendidikan dan Pelatihan Arab Saudi mengumumkan langkah pemesanan jadwal ujian digital melalui platform Sadid, mulai dari login hingga konfirmasi pembayaran.",
-      "originalTitle": "Langkah Pemesanan Jadwal Ujian Digital di Platform Sadid",
-      "originalDescription": "Otoritas Penilaian Pendidikan dan Pelatihan Arab Saudi mengumumkan langkah pemesanan jadwal ujian digital melalui platform Sadid, mulai dari login hingga konfirmasi pembayaran.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/HVrHwt7XsAAKgOi-iIwmhyKP.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T12:57:54+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/dunia/3nnjz9ygz"
-    },
-    {
-      "id": "61471ace07c6dd4c",
-      "title": "Tiga Warga Ethiopia Ditangkap di Asir karena Selundupkan 60 Kg Khat",
-      "description": "Patroli Perbatasan Arab Saudi di Asir menangkap tiga warga Ethiopia yang menyelundupkan 60 kilogram khat, dan menyerahkan mereka ke pihak berwenang.",
-      "originalTitle": "Tiga Warga Ethiopia Ditangkap di Asir karena Selundupkan 60 Kg Khat",
-      "originalDescription": "Patroli Perbatasan Arab Saudi di Asir menangkap tiga warga Ethiopia yang menyelundupkan 60 kilogram khat, dan menyerahkan mereka ke pihak berwenang.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/حرس-3-cZrkVpjr.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T12:57:52+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/nm16ju4nf"
-    },
-    {
-      "id": "f00a9303a0b3a2cc",
-      "title": "Kedutaan Besar AS di Riyadh menyangkal laporan serangan pesawat tak berawak",
-      "description": "RIYADH - Kedutaan Besar AS di Riyadh pada Kamis menyangkal laporan dan klaim beredar di media sosial yang menyatakan bahwa tempatnya telah ditargetkan dalam serangan pesawat tak berawak, menegaskan bahwa klaim ini sepenuhnya palsu. \"Klaim beredar online bahwa Kedutaan Besar AS di Riyadh telah terkena serangan pesawat tanpa awak hari ini adalah palsu,\" kata kedutaan dalam pernyataan pada akun X nya. Beberapa hari yang lalu, Kedutaan Besar mendesak warga AS untuk meninjau Departemen Perjalanan Negara untuk Amerika tentang Arab Saudi untuk informasi keamanan tambahan dan bimbingan perjalanan. \"Amerika saat ini di Timur Tengah harus melatih tingkat kewaspadaan karena meningkatnya ancaman serangan bersenjata oleh Iran - mendukung upaya Houthis dan Iran untuk menargetkan pejabat pemerintah AS di wilayah tersebut\", kata kedutaan dalam nasihatnya dikeluarkan pada Nov 14.",
-      "originalTitle": "US Embassy in Riyadh denies drone attack reports",
-      "originalDescription": "RIYADH — The US Embassy in Riyadh on Thursday categorically denied reports and claims circulating on social media alleging that its premises had been targeted in a drone attack, affirming that these claims were entirely false.“Claims circulating online that the U.S. Embassy in Riyadh has been hit by a drone strike today are false,” the embassy said in a statement on its X account. A few days ago, the Embassy urged U.S. citizens to review the Department of State’s travel advisory for Americans regarding Saudi Arabia for additional security information and travel guidance. “Americans currently in the Middle East should exercise heightened vigilance due to the increased threat of armed attacks by Iranian-supported Houthis and Iranian efforts to target U.S. government officials in the region,” the embassy said in its advisory issued on Nov. 14.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/19/2796761.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T12:51:33+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666372/saudi-arabia/us-embassy-in-riyadh-denies-drone-attack-reports"
-    },
-    {
-      "id": "be87addd3930aa59",
-      "title": "Hujan Lebat Disertai Petir Diperkirakan Berlanjut di Sebagian Besar Wilayah hingga Selasa",
-      "description": "Pusat Meteorologi Nasional Arab Saudi memperkirakan hujan lebat disertai petir masih akan terjadi di sebagian besar wilayah mulai Jumat hingga Selasa mendatang.",
-      "originalTitle": "Hujan Lebat Disertai Petir Diperkirakan Berlanjut di Sebagian Besar Wilayah hingga Selasa",
-      "originalDescription": "Pusat Meteorologi Nasional Arab Saudi memperkirakan hujan lebat disertai petir masih akan terjadi di sebagian besar wilayah mulai Jumat hingga Selasa mendatang.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/أمطار-3-TdNRlO7m.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T12:49:48+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/ktmgzi8dw"
-    },
-    {
-      "id": "a8d436f90d68d3db",
-      "title": "Universitas Islam Madinah Beri Penghargaan kepada Peneliti Masuk Daftar Stanford 2026",
-      "description": "Universitas Islam Madinah memberikan penghargaan kepada 21 penelitinya yang masuk daftar 2% ilmuwan terbaik dunia versi Stanford tahun 2026, serta akademisi dan mahasiswa pascasarjana.",
-      "originalTitle": "Universitas Islam Madinah Beri Penghargaan kepada Peneliti Masuk Daftar Stanford 2026",
-      "originalDescription": "Universitas Islam Madinah memberikan penghargaan kepada 21 penelitinya yang masuk daftar 2% ilmuwan terbaik dunia versi Stanford tahun 2026, serta akademisi dan mahasiswa pascasarjana.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-n3wQ16_R.jpg",
-      "category": "Pendidikan Islam",
-      "tags": [
-        "Pendidikan Islam",
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T12:43:52+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/e8t0i7jcc"
-    },
-    {
-      "id": "6f8b7ed40cd091d8",
-      "title": "Aplikasi Transportasi Catat Lebih dari 41 Juta Perjalanan pada Kuartal III 2026",
-      "description": "Aplikasi transportasi di Arab Saudi mencatat lebih dari 41 juta perjalanan pada kuartal ketiga 2026, tumbuh 5,81% dibanding periode yang sama tahun sebelumnya.",
-      "originalTitle": "Aplikasi Transportasi Catat Lebih dari 41 Juta Perjalanan pada Kuartal III 2026",
-      "originalDescription": "Aplikasi transportasi di Arab Saudi mencatat lebih dari 41 juta perjalanan pada kuartal ketiga 2026, tumbuh 5,81% dibanding periode yang sama tahun sebelumnya.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-08/الهيئة-العامة-للنقل-_NvsFlpk.png",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T12:20:12+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/6a3jkisdh"
-    },
-    {
-      "id": "c445ec7954d1392a",
-      "title": "Tabungan harta sebesar US Arabia jatuh $5.33 miliar menjadi $135.9 miliar pada bulan September",
-      "description": "WASHIINGTON - Arab Saudi kepemilikan Keamanan Keuangan AS jatuh sekitar $5.33 miliar di September 2026 menjadi $135.9 miliar, turun dari sekitar $141,2 miliar pada Agustus, menurut Departemen Keuangan AS. Kerajaan ini berada di peringkat 18 secara global di antara pemegang terbesar di US Treasury Securities. Data keuangan menunjukkan bahwa kepemilikan Arab Saudi terdiri dari 112.8 miliar dolar dalam sekuritas jangka panjang, akuntansi sebesar 83 persen total, dan $23,1 miliar dalam sekuritas jangka pendek, mewakili 17 persen sisanya. Secara global, Jepang berperingkat sebagai pemegang asing terbesar AS Treasury Securities dengan $1,06 triliun, diikuti oleh Inggris dengan sekitar $985.8 miliar dan Cina dengan $563,9 miliar. Sementara itu, kepemilikan investor asing dari US Treasury Securities menurun sekitar $75.5 miliar September hingga $9.24 triliun, menandai penurunan bulanan terbesar dalam enam bulan dan tingkat terendah dalam setahun.",
-      "originalTitle": "Saudi Arabia’s US Treasury holdings fall $5.33 billion to $135.9 billion in September",
-      "originalDescription": "WASHIINGTON — Saudi Arabia's holdings of US Treasury securities fell by approximately $5.33 billion in September 2026 to $135.9 billion, down from around $141.2 billion in August, according to the US Department of the Treasury. The Kingdom ranked 18th globally among the largest foreign holders of US Treasury securities. Treasury data showed that Saudi Arabia's holdings comprised $112.8 billion in long-term securities, accounting for 83 percent of the total, and $23.1 billion in short-term securities, representing the remaining 17 percent. Globally, Japan ranked as the largest foreign holder of US Treasury securities with $1.06 trillion, followed by the United Kingdom with approximately $985.8 billion and China with $563.9 billion. Meanwhile, foreign investors' holdings of US Treasury securities declined by approximately $75.5 billion in September to $9.24 trillion, marking the largest monthly drop in six months and the lowest level in a year.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/19/2796735.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T11:58:58+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666370/saudi-arabia/saudi-arabias-us-treasury-holdings-fall-533-billion-to-1359-billion-in-september"
-    },
-    {
-      "id": "3990c6721909318e",
-      "title": "Harga Emas di Arab Saudi Hari Ini Kamis 9-6-1448 untuk Semua Kadar",
-      "description": "Harga emas di Arab Saudi turun pada Kamis 9-6-1448 untuk semua kadar, meski harga emas dunia sedikit naik usai sempat turun di bawah 3.800 dolar per ons.",
-      "originalTitle": "Harga Emas di Arab Saudi Hari Ini Kamis 9-6-1448 untuk Semua Kadar",
-      "originalDescription": "Harga emas di Arab Saudi turun pada Kamis 9-6-1448 untuk semua kadar, meski harga emas dunia sedikit naik usai sempat turun di bawah 3.800 dolar per ons.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-10/أسعار-الذهب-559sjxmc.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T11:57:10+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/dunia/2cwty64ea"
-    },
-    {
-      "id": "859c74861dd82cd9",
-      "title": "Langkah Pemesanan Jadwal di Absher bagi Warga Yaman untuk Urusan Imigrasi",
-      "description": "Direktorat Jenderal Imigrasi Arab Saudi menjelaskan cara warga Yaman memesan jadwal secara daring melalui platform Absher untuk memperbaiki status keimigrasian mereka.",
-      "originalTitle": "Langkah Pemesanan Jadwal di Absher bagi Warga Yaman untuk Urusan Imigrasi",
-      "originalDescription": "Direktorat Jenderal Imigrasi Arab Saudi menjelaskan cara warga Yaman memesan jadwal secara daring melalui platform Absher untuk memperbaiki status keimigrasian mereka.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-07/الجوازات-9TeF6Nk2.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T11:45:30+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/dunia/k40tqcxqf"
-    },
-    {
-      "id": "9da29c3db69f454a",
-      "title": "PP KB PII: Rumah dan sekolah harus jadi ruang aman bagi anak",
-      "description": "Pengurus Pusat Keluarga Besar Pelajar Islam Indonesia (PP KB PII) mengajak masyarakat menjadikan rumah dan sekolah ...",
-      "originalTitle": "PP KB PII: Rumah dan sekolah harus jadi ruang aman bagi anak",
-      "originalDescription": "Pengurus Pusat Keluarga Besar Pelajar Islam Indonesia (PP KB PII) mengajak masyarakat menjadikan rumah dan sekolah ...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://img.antaranews.com/cache/800x533/2026/08/10/IMG_20260810_121032.jpg",
-      "category": "Nasional Islam",
-      "tags": [
-        "Nasional Islam"
-      ],
-      "source": "ANTARA Terkini",
-      "sources": [
-        "ANTARA Terkini"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-19T11:22:50+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5865479/pp-kb-pii-rumah-dan-sekolah-harus-jadi-ruang-aman-bagi-anak"
-    },
-    {
-      "id": "32aeb8f4a7430868",
-      "title": "Militer Israel melengkapi operasi darat di Gaza di luar Garis Kuning",
-      "description": "Hamas mengutuk serangan tersebut, yang dikatakan militer Israel adalah untuk membongkar \"terowongan teror\", sebagai pelanggaran gencatan senjata \"flagrant\".",
-      "originalTitle": "Israeli military completes ground operation in Gaza beyond Yellow Line",
-      "originalDescription": "Hamas condemned the incursion, which the Israeli military said was to dismantle a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee79/live/56061990-e382-11f1-a094-5fdc692f3e33.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "BBC World",
-      "sources": [
-        "BBC World"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-19T11:07:37+00:00",
-      "originalUrl": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_campaign=rss&at_medium=RSS"
-    },
-    {
-      "id": "d769bdf954a39700",
-      "title": "Pesantren Award 2026 Digelar 25-26 November, Kemenag Apresiasi Kepala Daerah Pendukung Pendidikan Pesantren",
-      "description": "Kemenag menggelar Pesantren Award 2026 untuk mengapresiasi kepala daerah pendukung pesantren. Ajang ini diharapkan memperkuat kolaborasi.",
-      "originalTitle": "Pesantren Award 2026 Digelar 25-26 November, Kemenag Apresiasi Kepala Daerah Pendukung Pendidikan Pesantren",
-      "originalDescription": "Kemenag menggelar Pesantren Award 2026 untuk mengapresiasi kepala daerah pendukung pesantren. Ajang ini diharapkan memperkuat kolaborasi.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/arsyad-hidayat_1795087438.webp",
-      "category": "Pesantren dan Madrasah",
-      "tags": [
-        "Pesantren dan Madrasah",
-        "Nasional Islam"
-      ],
-      "source": "NU Online",
-      "sources": [
-        "NU Online"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-19T11:00:49+00:00",
-      "originalUrl": "https://www.nu.or.id/nasional/pesantren-award-2026-digelar-25-26-november-kemenag-apresiasi-kepala-daerah-pendukung-pendidikan-pesantren-ZOBdo"
-    },
-    {
-      "id": "f124a79cd6288980",
-      "title": "Sepupu perkelahian sepupu sebagai perang di Yaman membagi keluarga di tengah",
-      "description": "Sepupu sepupu berjuang sepupu sebagai perang di Yaman membagi keluarga ke tengah Diganti oleh koresponden MEE pada Wed, 11 / 18 / 2026 - 15: 27 Fraktur umum dengan loyalitas terpecah antara Houthis dan pemerintah internasional yang diakui seorang pejuang setia kepada pemerintah Yaman di garis depan sekitar Gunung-Midan di provinsi Taiz, pada 26 Oktober 2026 (Ahmad al-Basha / AFP) Off Itu tidak mudah bagi Mukhtar, 45, untuk melarikan diri dari rumahnya di desa di mana ia lahir dan dibesarkan, 50 kilometer selatan kota Taiz. Namun, ia merasa dipaksa untuk meninggalkan pada tahun 2019, percaya bahwa Houthis (juga dikenal sebagai Tuhan) berjuang untuk tujuan mulia di Yaman dan bahwa ia perlu untuk mendukung mereka. Mukhtar telah tinggal di daerah yang dikendalikan oleh pemerintah Arab Saudi, dan prospek untuk tinggal di sana lebih lama telah menjadi berbahaya. Banyak kerabatnya, termasuk saudara dan sepupunya, pasukan pendukung pemerintah, dan dia takut dia mungkin ditahan, seperti yang lainnya. \"Banyak pendukung Ansar Allah ditahan atau melarikan diri desa mereka, tidak hanya pejuang, tapi warga sipil dan syekh yang mendukung mereka. Jadi tidak ada pilihan selain melarikan diri dari desa saya dan tinggal di Ansar Alllah yang dikendalikan,\" Mukhtar mengatakan Mata Timur Tengah. Kembali di desanya, Mukhtar telah bekerja sebagai petani dan paruh waktu broker, tapi ia kehilangan mata pencaharian ketika ia melarikan diri. Ketika ia mencapai daerah Houthi, ia bergabung dengan kelompok, yakin bahwa mereka didorong bukan oleh uang tetapi oleh keinginan untuk membela Islam. Mereka menjadikan sesuatu yang mereka benci sebagai milik Allah. Mereka mengira bahwa malaikat adalah anak perempuan Allah dan mereka pun menyembahnya. Mereka adalah proyek untuk dunia lain, bukan proyek tentara bayaran, \"Mukhtar ditambahkan. Pada 3 September, Houthi pasukan meluncurkan serangan keras terhadap pasukan pemerintah di selatan Hodeidah dan distrik barat Taiz, merebut daerah besar kedua pemerinta",
-      "originalTitle": "Cousin fights cousin as war in Yemen splits families down the middle",
-      "originalDescription": "Cousin fights cousin as war in Yemen splits families down the middle Submitted by MEE correspondent on Wed, 11/18/2026 - 15:27 Communities fracture with loyalties split between the Houthis and the internationally recognised government A fighter loyal to Yemen's government on the front line around Mount al-Midan in Taiz province, on 26 October 2026 (Ahmad al-Basha/AFP) Off It wasn’t easy for Mukhtar, 45, to flee his home in the village where he was born and raised, 50 kilometres south of Taiz city. However, he felt forced to leave in 2019, believing that the Houthis (also known as Ansar Allah) were fighting for a noble cause in Yemen and that he needed to support them. Mukhtar had been living in an area controlled by the Saudi Arabia -backed government, and the prospect of staying there any longer had become dangerous. Many of his relatives, including his brothers and cousins, supported government forces, and he feared he might be detained, like so many others. “Many Ansar Allah supporters were detained or fled their villages; not just fighters, but civilians and sheikhs who supported them. So there was no choice but to flee my village and live in Ansar Allah-controlled areas,” Mukhtar told Middle East Eye. Back in his village, Mukhtar had worked as a farmer and part-time land broker, but he lost his livelihood when he fled. When he reached a Houthi area, he joined the group, convinced that they were driven not by money but by a desire to defend Islam. “Ansar Allah’s project is for the hereafter; they implement what is in the Quran rather than following the orders of foreign countries. Theirs is a project for the afterworld, not a project of mercenaries,” Mukhtar added. On 3 September, Houthi forces launched a heavy offensive against government troops in southern Hodeidah and the western district of Taiz, seizing large areas of both governorates. On 4 October they launched another major attack, capturing the remaining areas of Taiz that had been outside their control",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/TAIZ_FIGHTER_AFP.jpg.jpg?itok=WDz6-Zq3",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-19T10:53:34+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/cousin-fights-cousin-yemen-war-divides-families"
-    },
-    {
-      "id": "3c57e85ad6396dfd",
-      "title": "Masjid Dinilai Berpotensi Jadi Pusat Ketahanan Iklim Berbasis Komunitas",
-      "description": "JAKARTA — Perubahan iklim semakin menjadi ancaman bagi kehidupan Masyarakat Indonesia. Banjir, kekeringan, tanah longsor, abrasi, hingga cuaca ekstrem tidak hanya merusak lingkungan, tetapi juga mengganggu aktivitas sosial dan...",
-      "originalTitle": "Masjid Dinilai Berpotensi Jadi Pusat Ketahanan Iklim Berbasis Komunitas",
-      "originalDescription": "JAKARTA — Perubahan iklim semakin menjadi ancaman bagi kehidupan Masyarakat Indonesia. Banjir, kekeringan, tanah longsor, abrasi, hingga cuaca ekstrem tidak hanya merusak lingkungan, tetapi juga mengganggu aktivitas sosial dan...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/054306800-1766147649-830-556.jpg",
-      "category": "Masjid dan Peradaban",
-      "tags": [
-        "Masjid dan Peradaban"
-      ],
-      "source": "Republika",
-      "sources": [
-        "Republika"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-19T10:45:52+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/toqwkg483/masjid-dinilai-berpotensi-jadi-pusat-ketahanan-iklim-berbasis-komunitas"
-    },
-    {
-      "id": "068e060d906e55f7",
-      "title": "Kementerian Industri Proses 837 Permohonan Izin Kimia Oktober 2026",
-      "description": "Kementerian Industri dan Sumber Daya Mineral Arab Saudi memproses 837 permohonan layanan izin bahan kimia selama Oktober 2026 untuk mendukung pertumbuhan industri.",
-      "originalTitle": "Kementerian Industri Proses 837 Permohonan Izin Kimia Oktober 2026",
-      "originalDescription": "Kementerian Industri dan Sumber Daya Mineral Arab Saudi memproses 837 permohonan layanan izin bahan kimia selama Oktober 2026 untuk mendukung pertumbuhan industri.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/وزارة-الصناعة-EWe2kyFU.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T10:39:28+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/3x3bc9zv3"
-    },
-    {
-      "id": "0596ad2d1d173a42",
-      "title": "Menteri Pendidikan Saudi, Duta Besar membahas perluasan akademik dan kemitraan penelitian dengan MIT",
-      "description": "WASHINGTON - Saudi Minister of Education Yousef Al- Benyan dan Duta Besar Saudi kepada Putri Amerika Serikat Reema Bint Bandar berpartisipasi dalam pertemuan bulat dengan para pemimpin Massachusetts Institute of Technology (MIT) untuk mengeksplorasi kesempatan untuk memperkuat akademik, ilmiah dan kerjasama penelitian antara lembaga Saudi dan MIT. Selama pertemuan dengan Presiden MIT, Profesor Sally Kornbluth, menteri dan duta besar mendiskusikan kesempatan untuk meningkatkan kerjasama antara universitas Saudi dan lembaga penelitian dan MIT, serta mengembangkan kemitraan dalam penelitian ilmiah dan inovasi. * * media [2796670] * * Diskusi juga membahas pentingnya pertukaran keahlian dan pengetahuan dan menyelaraskan kegiatan penelitian dengan tantangan dan kebutuhan pembangunan, mendukung peran universitas dalam menghasilkan pengetahuan dan inovasi maju. Dua sisi lebih lanjut dieksplorasi jalan untuk kerjasama bersama ditujukan untuk mendukung Saudi Arabia apos; s prioritas penelitian nasional. Pertemuan ini menjadi bagian dari kunjungan Al- Benyan ke Amerika Serikat, termasuk pertemuan dengan universitas dan pusat penelitian terkemuka untuk mengeksplorasi peluang bagi kemitraan internasional dalam bidang akademik dan penelitian. * * media [2796669] * *",
-      "originalTitle": "Saudi Education Minister, Ambassador discuss expanding academic and research partnerships with MIT",
-      "originalDescription": "WASHINGTON — Saudi Minister of Education Yousef Al-Benyan and Saudi Ambassador to the United States Princess Reema bint Bandar participated in a roundtable meeting with leaders of the Massachusetts Institute of Technology (MIT) to explore opportunities for strengthening academic, scientific and research cooperation between Saudi institutions and MIT. During their meeting with MIT President Professor Sally Kornbluth, the minister and ambassador discussed opportunities to enhance cooperation between Saudi universities and research institutions and MIT, as well as expand partnerships in scientific research and innovation. **media[2796670]** The discussions also addressed the importance of exchanging expertise and knowledge and aligning research activities with development challenges and needs, supporting the role of universities in generating knowledge and advancing innovation. The two sides further explored avenues for joint cooperation aimed at supporting Saudi Arabia's national research priorities. The meeting took place as part of Al-Benyan's visit to the United States, which includes meetings with leading universities and research centers to explore opportunities for international partnerships in academic and research fields. **media[2796669]**",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/19/2796673.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T10:30:44+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666366/saudi-arabia/saudi-education-minister-ambassador-discuss-expanding-academic-and-research-partnerships-with-mit"
-    },
-    {
-      "id": "164bb72fbda14abe",
-      "title": "Saudi Arabia, UK tanda MoU untuk memperkuat regulasi kedokteran hewan dan keselamatan",
-      "description": "LONDON - Otoritas Makanan Saudi dan Obat-obatan (SFDA) menandatangani memorandum pemahaman (MoU) dengan Direktorat Dokter Hewan Inggris (VMD) untuk memperkuat kerjasama dalam regulasi obat-obatan dan produk-produk. Perjanjian ini ditandatangani oleh Kepala Eksekutif SFDA Dr. Hisham bin Saad Al- Jadhey and VMD Chief Executive Abigail Seager pada pertemuan Internasional Koalition of Medicine Regubation Otories (ICMRA) bekerja kelompok pada pengembangan obat-obatan untuk populasi kecil dan penyakit langka, yang diadakan di London. MoU bertujuan untuk memfasilitasi pertukaran informasi regulasi dan pengawasan dan keahlian untuk meningkatkan praktek regulasi dan meningkatkan keamanan. Ini juga mencakup kerjasama dan pertukaran keahlian pada regulasi dan ketersediaan obat-obatan hewan, persyaratan evaluasi, praktek regulasi dan pengujian laboratorium. Persetujuan ini termasuk pengawasan terhadap produsen dan produk dokter hewan sebelum dan sesudah pemasaran, serta menggambar keahlian spesialis dari kedua pihak dan menerapkan program pelatihan untuk memperkuat kemampuan teknis dan regulasi. MoU juga membangun usaha SFDA untuk memperkuat kemitraan internasional, memajukan kerangka regulasi, meningkatkan keamanan obat-obatan hewan dan membantu melindungi kesehatan hewan dan ternak di Arab Saudi, termasuk kuda, elang dan unta, yang memiliki tempat khusus dalam warisan nasional Kerajaan dan",
-      "originalTitle": "Saudi Arabia, UK sign MoU to strengthen veterinary medicine regulation and safety",
-      "originalDescription": "LONDON — The Saudi Food and Drug Authority (SFDA) signed a memorandum of understanding (MoU) with the UK's Veterinary Medicines Directorate (VMD) to strengthen cooperation in the regulation of veterinary medicines and products. The agreement was signed by SFDA Chief Executive Officer Dr. Hisham bin Saad Al-Jadhey and VMD Chief Executive Abigail Seager on the sidelines of a meeting of the International Coalition of Medicines Regulatory Authorities (ICMRA) working group on the development of medicines for small populations and rare diseases, held in London. The MoU aims to facilitate the exchange of regulatory and supervisory information and expertise to improve regulatory practices and enhance safety. It also covers cooperation and the exchange of expertise on the regulation and availability of veterinary medicines, evaluation requirements, regulatory practices and laboratory testing. The agreement includes oversight of manufacturers and veterinary products before and after marketing, as well as drawing on the expertise of specialists from both sides and implementing training programs to strengthen technical and regulatory capabilities. The MoU also builds on the SFDA's efforts to strengthen its international partnerships, advance the regulatory framework, enhance the safety of veterinary medicines and help protect animal health and livestock in Saudi Arabia, including horses, falcons and camels, which hold a special place in the Kingdom's national heritage and",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/19/2796646.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T10:07:42+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666365/saudi-arabia/saudi-arabia-uk-sign-mou-to-strengthen-veterinary-medicine-regulation-and-safety"
-    },
-    {
-      "id": "ba0402629b670645",
-      "title": "'Displacement by design': Rencana perdamaian Trump di Gaza gagal, kelompok bantuan mengatakan",
-      "description": "Dengan dua juta orang Palestina yang dikurung di area yang kurang dari 130sq km, rencana perdamaian Gaza yang belum didukung telah runtuh.",
-      "originalTitle": "‘Displacement by design’: Trump’s Gaza peace plan a failure, aid groups say",
-      "originalDescription": "With two million Palestinians confined to an area of less than 130sq km, UN-backed Gaza peace plan has collapsed.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/873A0709-copy-1794143945.jpeg?resize=1920%2C1440",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Al Jazeera",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-19T10:05:33+00:00",
-      "originalUrl": "https://www.aljazeera.com/news/2026/11/19/displacement-by-design-trumps-gaza-peace-plan-a-failure-aid-groups-say"
-    },
-    {
-      "id": "6a6db8346e939990",
-      "title": "Pusat Ithra dan Penghargaan Al-Fozan Teken MoU untuk Perkuat Kolaborasi Seni Islam",
-      "description": "Pusat Ithra dan Penghargaan Abdul Latif Al-Fozan menandatangani nota kesepahaman untuk memperkuat kerja sama di bidang seni Islam dan arsitektur masjid, bertepatan dengan Hari Seni Islam Sedunia.",
-      "originalTitle": "Pusat Ithra dan Penghargaan Al-Fozan Teken MoU untuk Perkuat Kolaborasi Seni Islam",
-      "originalDescription": "Pusat Ithra dan Penghargaan Abdul Latif Al-Fozan menandatangani nota kesepahaman untuk memperkuat kerja sama di bidang seni Islam dan arsitektur masjid, bertepatan dengan Hari Seni Islam Sedunia.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/HXZ-putaQAA5Al3-crop-m8Dyo5CO.jpg",
-      "category": "Masjid dan Peradaban",
-      "tags": [
-        "Masjid dan Peradaban"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T09:30:40+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/6tbqeh0tn"
-    },
-    {
-      "id": "57b6c1309650a6e6",
-      "title": "Otoritas Ketahanan Pangan Salurkan 17 Juta Riyal ke Petani Gandum 2026",
-      "description": "Otoritas Ketahanan Pangan Arab Saudi menyalurkan pembayaran terakhir sebesar 17 juta riyal Saudi kepada petani gandum lokal untuk musim 2026.",
-      "originalTitle": "Otoritas Ketahanan Pangan Salurkan 17 Juta Riyal ke Petani Gandum 2026",
-      "originalDescription": "Otoritas Ketahanan Pangan Arab Saudi menyalurkan pembayaran terakhir sebesar 17 juta riyal Saudi kepada petani gandum lokal untuk musim 2026.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/featured-crop-dyauoaRl.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T09:18:58+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/skptrud5e"
-    },
-    {
-      "id": "7581e43a5ab578b0",
-      "title": "BPOM Saudi Teken MoU dengan Otoritas Obat Hewan Inggris",
-      "description": "Badan Pengawas Obat dan Makanan Arab Saudi menandatangani nota kesepahaman dengan Otoritas Obat Hewan Inggris untuk memperkuat kerja sama pengawasan obat hewan.",
-      "originalTitle": "BPOM Saudi Teken MoU dengan Otoritas Obat Hewan Inggris",
-      "originalDescription": "Badan Pengawas Obat dan Makanan Arab Saudi menandatangani nota kesepahaman dengan Otoritas Obat Hewan Inggris untuk memperkuat kerja sama pengawasan obat hewan.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-cHkpCgTo.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T09:13:50+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/jcrhco8co"
-    },
-    {
-      "id": "8abe5bc5bf45988f",
-      "title": "Dalam penilaian bersejarah, ICJ menyimpulkan bahwa Myanmar melakukan genosida terhadap Muslim Rohingya",
-      "description": "Dalam penilaian sejarah, ICJ menyimpulkan bahwa Myanmar melakukan genosida terhadap Muslim Rohingya Diberikan oleh Sondos Asem pada Thu, 11 / 19 / 2026 - 08: 16 Pengadilan Atas PBB menyatakan bahwa Iwasawa Yuji bertanggung jawab atas kasus genosida dalam kasus bersejarah yang akan membantu membentuk keputusan dalam kasus di Afrika Selatan melawan Pengadilan Internasional Israel (ICJ) Presiden Iwasawa Yuji membaca keputusan Pengadilan dalam kasus genosida yang dibawa oleh Gambia melawan Myanmar, dengan 11 Amerika Serikat, pada sidang umum di Istana Perdamaian di The Hague pada 19 November 2026 (McGREGen Jumelet) di Pengadilan Internasional di Pengadilan Internasional (ClJ) yang dilakukan oleh pasukan Islam pada Kamis). Pengadilan mengatakan niat genosida adalah \"satu-satunya kesimpulan yang masuk akal\" yang dapat diambil dari bukti perilaku Myanmar diambil secara keseluruhan dan bahwa Mynamar dimaksudkan untuk menghancurkan sebagian besar dari kelompok yang dilindungi. Pengadilan menemukan bahwa Rohingya adalah kelompok etnis dilindungi di bawah Pasal II dari Konvensi Genosida. Para juri mengatakan bukti-bukti yang mendukung perkiraan bahwa 10.000 Rohingya tewas selama operasi 2017. Pengadilan mengidentifikasi sekitar 815.000 Rohingya tinggal di Rakhine utara sebelum operasi sebagai bagian dari kelompok yang ditargetkan. Para juri mengatakan bahwa populasi cukup besar, baik dalam istilah mutlak dan relatif terhadap populasi Rohingya di Myanmar, untuk membentuk bagian substansial dari kelompok. Juga memegang bahwa tindakan pasukan keamanan Mynmar disebabkan oleh negara, dan memerintahkan Mynmar untuk memberikan balasan kepada kelompok dan korban individu, termasuk memastikan kelompok itu kembali ke negara asal mereka dan memfasilitasi pencarian untuk menghilang. \"Pengadilan sepenuhnya yakin bahwa Myanmar melakukan tindakan di bawah Acts 2 (a) (b) dan (d) dengan maksud untuk menderoy substansial bagian Rohingya,\" yang diadakan ICJ. Pengadilan mengatakan tiga tindakan g",
-      "originalTitle": "In historic judgment, ICJ concludes that Myanmar committed genocide against Rohingya Muslims",
-      "originalDescription": "In historic judgment, ICJ concludes that Myanmar committed genocide against Rohingya Muslims Submitted by Sondos Asem on Thu, 11/19/2026 - 08:16 The UN's top court holds a state responsible for genocide in a historic precedent that will help shape the decision in South Africa's case against Israel International Court of Justice (ICJ) President Iwasawa Yuji reads the Court's judgment in the genocide case brought by Gambia against Myanmar, with 11 States intervening, at a public hearing at the Peace Palace in The Hague on 19 November 2026 (Jeroen Jumelet/AFP) Off Judges at the International Court of Justice (ICJ) in The Hague on Thursday concluded that Myanmar’s security forces committed genocide during the brutal 2017 “clearance operations” against its Muslim Rohingya minority. The court said genocidal intent was “the only reasonable inference” that could be drawn from the evidence of Myanmar's conduct taken as a whole and that Mynamar intended to destroy a substantial part of the protected group. The court found that the Rohingya are a protected ethnic group under Article II of the Genocide Convention. The judges said the evidence supported an estimate that 10,000 Rohingya were killed during the 2017 operations. The court identified the approximately 815,000 Rohingya living in northern Rakhine before the operations as the part of the group that was targeted. The judges said that population was large enough, both in absolute terms and relative to the Rohingya population in Myanmar, to constitute a substantial part of the group. It also held that the conduct of Myanmar’s security forces was attributable to the state, and ordered Mynmar to provide reparations to the group and individual victims, including ensuring the group's return to their home country and facilitating the search for the disappeared. \"The court is fully convinced that Myanmar committed acts under Acts 2 (a) (b) and (d) with the intent to desroy substantial parts of the Rohingya,\" the ICJ held. The co",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/icj-president-19-nov-gambia-myanmar-afp.jpg.jpg?itok=QVT-k7p3",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-19T08:55:27+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/icj-historic-judgment-myanmar-genocide-rohingya-muslims"
-    },
-    {
-      "id": "19c8e53732fd733b",
-      "title": "Eksekusi Mati Terhadap Penyelundup Kokain Asal Nigeria di Mekkah",
-      "description": "Kementerian Dalam Negeri Arab Saudi mengeksekusi mati seorang warga Nigeria yang terbukti menyelundupkan kokain ke wilayah Kerajaan setelah seluruh proses hukum dilalui.",
-      "originalTitle": "Eksekusi Mati Terhadap Penyelundup Kokain Asal Nigeria di Mekkah",
-      "originalDescription": "Kementerian Dalam Negeri Arab Saudi mengeksekusi mati seorang warga Nigeria yang terbukti menyelundupkan kokain ke wilayah Kerajaan setelah seluruh proses hukum dilalui.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/وزارة-الداخلية-CMyuKNJA.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T08:37:36+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/b0q9of8k8"
-    },
-    {
-      "id": "1579df04a504d811",
-      "title": "Saudi, menteri asing Yordania mendiskusikan ketegangan daerah, upaya de- eskalasi",
-      "description": "RIYADH - Menteri Luar Negeri Saudi Pangeran Faisal bin Farhan menerima panggilan dari rekan Yordania-nya, Ayman Safadi, pada hari Kamis untuk mendiskusikan pengembangan daerah dan upaya untuk meringankan ketegangan. Selama panggilan dengan Jordan Wakil Perdana Menteri dan Menteri Luar Negeri dan Expatriates, dua menteri meninjau terbaru perkembangan regional dan kerjasama upaya bertujuan untuk mengurangi ketegangan dan mengurangi eskalasi. Diskusi tersebut berfokus pada mendukung keamanan dan stabilitas di wilayah tersebut, menurut pernyataan yang dikeluarkan oleh Kementerian Luar Negeri Saudi.",
-      "originalTitle": "Saudi, Jordanian foreign ministers discuss regional tensions, de-escalation efforts",
-      "originalDescription": "RIYADH — Saudi Foreign Minister Prince Faisal bin Farhan received a phone call from his Jordanian counterpart, Ayman Safadi, on Thursday to discuss regional developments and efforts to ease tensions. During the call with Jordan’s Deputy Prime Minister and Minister of Foreign Affairs and Expatriates, the two ministers reviewed the latest regional developments and joint efforts aimed at easing tensions and reducing escalation. The discussions focused on supporting security and stability in the region, according to a statement issued by the Saudi Ministry of Foreign Affairs.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/19/2796603.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T08:20:06+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666364/saudi-arabia/saudi-jordanian-foreign-ministers-discuss-regional-tensions-de-escalation-efforts"
-    },
-    {
-      "id": "b49d5502b4ab2b92",
-      "title": "Menlu Arab Saudi Bahas Perkembangan Regional dengan Menlu Yordania",
-      "description": "Menteri Luar Negeri Arab Saudi, Pangeran Faisal bin Farhan, menerima telepon dari Wakil Perdana Menteri sekaligus Menlu Yordania, Ayman Safadi.",
-      "originalTitle": "Menlu Arab Saudi Bahas Perkembangan Regional dengan Menlu Yordania",
-      "originalDescription": "Menteri Luar Negeri Arab Saudi, Pangeran Faisal bin Farhan, menerima telepon dari Wakil Perdana Menteri sekaligus Menlu Yordania, Ayman Safadi.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/وزير-الخارجية-6lDpbR25.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T08:19:48+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/fps05duje"
-    },
-    {
-      "id": "eb9baa6520715e74",
-      "title": "Saudi- dipimpin koalisi mencegat rudal Houthi menargetkan Riyadh dan selatan",
-      "description": "Kerusakan material dilaporkan setelah puing-puing jatuh berikut Houthi terbaru serangan diluncurkan menuju Arab Saudi.",
-      "originalTitle": "Saudi-led coalition intercepts Houthi missiles targeting Riyadh and south",
-      "originalDescription": "Material damage was reported after ​debris fell following the latest Houthi strikes launched towards Saudi Arabia.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6afea99c3cae6-1795074460.jpg?resize=1920%2C1440",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Al Jazeera",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-19T08:19:17+00:00",
-      "originalUrl": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south"
-    },
-    {
-      "id": "5882748c7bf15753",
-      "title": "Putra Mahkota Saudi, komandan CENTCOM AS membahas hubungan militer, perkembangan regional",
-      "description": "RIYADH - Putra Mahkota Muhammad bin Salman bertemu dengan Laksamana Brad Cooper, Komandan Komando Pusat AS, di Riyadh untuk membahas hubungan bilateral dan perkembangan regional. Selama pertemuan pada hari Kamis, kedua belah pihak meninjau hubungan antara Arab Saudi dan Amerika Serikat, terutama di bidang militer, dan mendiskusikan perkembangan di wilayah tersebut. Pertemuan ini dihadiri oleh Pangeran Khalid bin Salman Abdulaziz, Menteri Pertahanan; Dr Musaed bin Mohammed Al- Aiban, Menteri Negara, Anggota Dewan Menteri dan Penasihat Keamanan Nasional; dan Jenderal Fayyad bin Hamed Al- Ruwaili, Kepala Staf Umum dan Bertindak Komandan Pasukan Gabungan.",
-      "originalTitle": "Saudi Crown Prince, US CENTCOM commander discuss military ties, regional developments",
-      "originalDescription": "RIYADH — Crown Prince Mohammed bin Salman met with Admiral Brad Cooper, Commander of U.S. Central Command, in Riyadh to discuss bilateral relations and regional developments. During the meeting on Thursday, the two sides reviewed relations between Saudi Arabia and the United States, particularly in the military field, and discussed developments in the region. The meeting was attended by Prince Khalid bin Salman bin Abdulaziz, Minister of Defense; Dr. Musaed bin Mohammed Al-Aiban, Minister of State, Member of the Council of Ministers and National Security Adviser; and General Fayyad bin Hamed Al-Ruwaili, Chief of the General Staff and Acting Commander of the Joint Forces.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/19/2796602.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T08:13:22+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666363/saudi-arabia/saudi-crown-prince-us-centcom-commander-discuss-military-ties-regional-developments"
-    },
-    {
-      "id": "578fbd914cbf1292",
-      "title": "Perhatikan: tentara Israel memaksa petani Palestina keluar dari ladang mereka di Tepi Barat yang diduduki",
-      "description": "Lihatlah, tentara Israel memaksa petani Palestina keluar dari ladang mereka dalam pendudukan petani-petani Palestina di Tepi Barat mengatakan bahwa tentara Israel menghentikan mereka untuk mencapai ladang-ladang mereka di Idhna, sebelah barat Hebron, di kawasan yang ditempati di Tepi Barat. Pemilik tanah Palestina Amna Tamizi mengatakan mereka dihentikan ketika mereka datang untuk mengolah ladang mereka dan dipaksa untuk pergi. \"Mereka ingin merebut tanah ini dengan cara apapun yang mungkin, tetapi mereka tidak akan pernah bisa menerimanya,\" katanya. \"Mereka ingin merebut tanah ini dengan cara apapun, tetapi mereka tidak akan pernah bisa mengambilnya\". Para petani Palestina mengatakan bahwa tentara Israel menghentikan mereka untuk mencapai ladang mereka di Idhna, sebelah barat Hebron, di wilayah yang dikuasai di West Bank. Tanah Palestina Amna Tamizi mengatakan mereka dihentikan ketika mereka datang untuk mengolah ladang mereka dan dipaksa pergi.",
-      "originalTitle": "Watch: Israeli army forces Palestinian farmers out of their fields in occupied West Bank",
-      "originalDescription": "Watch: Israeli army forces Palestinian farmers out of their fields in occupied West Bank Palestinian farmers said that the Israeli army is stopping them from reaching their fields in the town of Idhna, west of Hebron, in the occupied West Bank. Palestinian landowner Amna Tamizi said they were stopped when they came to cultivate their fields and were forced to leave. \"They want to seize this land by any means possible, but they will never be able to take it,\" she said. “They want to seize this land by any means possible, but they will never be able to take it.” Palestinian farmers said that the Israeli army is stopping them from reaching their fields in the town of Idhna, west of Hebron, in the occupied West Bank. Palestinian landowner Amna Tamizi said they were stopped when they came to cultivate their fields and were forced to leave. — Middle East Eye (@MiddleEastEye) November 19, 2026",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/saudi-arabia-riyadh-financial-district-15-oct-2026-reuters.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-19T07:59:42+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-israeli-army-forces-palestinian-farmers-out-their-fields-occupied"
-    },
-    {
-      "id": "20e4cd050b446aa1",
-      "title": "Menteri Pertahanan Saudi, Komandan CENTCOM AS membahas kerjasama pertahanan, keamanan regional",
-      "description": "RIYADH - Saudi Menteri Pertahanan Pangeran Khalid bin Salman bin Abdullah bertemu dengan Komandan Komando Pusat AS Brad Cooper di Riyadh pada hari Kamis. Selama pertemuan, kedua belah pihak membahas prospek untuk kerjasama pertahanan antara Arab Saudi dan Amerika Serikat, upaya untuk mempromosikan keamanan, stabilitas dan perdamaian di wilayah tersebut, dan masalah kepentingan bersama.",
-      "originalTitle": "Saudi Defense Minister, US CENTCOM commander discuss defense cooperation, regional security",
-      "originalDescription": "RIYADH — Saudi Minister of Defense Prince Khalid bin Salman bin Abdulaziz met with Commander of U.S. Central Command General Brad Cooper in Riyadh on Thursday. During the meeting, the two sides discussed prospects for defense cooperation between Saudi Arabia and the United States, efforts to promote security, stability and peace in the region, and matters of mutual interest.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/19/2796601.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T07:52:13+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666362/saudi-arabia/saudi-defense-minister-us-centcom-commander-discuss-defense-cooperation-regional-security"
-    },
-    {
-      "id": "b6c243d66732e9ad",
-      "title": "Update pagi",
-      "description": "Pagi pembaruan Selamat pagi pembaca Mata Timur Tengah, Berikut adalah terbaru perkembangan: Saudi Arabia 's berdaulat dana PIF Tower rusak dalam mogok pada hari Kamis, Reuters melaporkan tiga sumber. Sebelumnya, Saudi- dipimpin koalisi mengatakan bahwa hal itu ditangani dengan rudal Houthi ancaman diluncurkan ke arah ibukota Saudi, menambahkan bahwa penilaian awal menunjukkan bahwa kerusakan material berkelanjutan karena puing-puing. Pertahanan sipil Arab Saudi telah mengeluarkan beberapa peringatan selama beberapa jam terakhir, termasuk di ibukota Riyadh, pemerintah Khamis Mushait, Abha City, Wadi-Dawasir dan al- Sulayyil. Sementara itu, Saudi- dipimpin koalisi juga mengatakan bahwa kekuatan telah menanggapi sejumlah ancaman rudal Houthi di Riyadh dan kerajaan bagian selatan AS Presiden Donald Trump mengatakan bahwa Washington tidak \"membutuhkan bantuan apapun\" dari Cina atau Rusia untuk mengakhiri perang di Iran. Dia juga mengklaim bahwa rudal Teheran adalah \"ke sekitar 12, 13% dari apa yang mereka, dan mereka ingin membuat kesepakatan, jadi saya tidak perlu bantuan. Saya tidak akan meminta bantuan apapun,\" tambahkan bahwa AS memiliki \"kendali total Selat Hormuz\". Putra Mahkota Saudi Mohammed bin Salman dan Menteri Pertahanan Pangeran Khalid bin Salman bin Abdullah bertemu kepala Komando Pusat AS di Riyadh. Delapan orang Palestina, termasuk empat wanita, terluka pada hari Rabu ketika pemukim Israel dilaporkan sengaja berlari mereka di lima lokasi yang berbeda di Kafr Qassem. Beberapa korban menderita cedera sementara dan dibawa ke rumah sakit.",
-      "originalTitle": "Morning update",
-      "originalDescription": "Morning update Good morning Middle East Eye readers, Here are the latest developments: Saudi Arabia's sovereign wealth fund's PIF Tower was damaged in a strike on Thursday, Reuters reported citing three sources. Earlier, the Saudi-led coalition said that it dealt with a Houthi missile threat launched towards the Saudi capital, adding that an initial assessment showed that material damage was sustained due to debris. Saudi Arabia’s civil defence has issued several alerts over the past few hours, including in the capital of Riyadh, the Khamis Mushait governorate, Abha City, Wadi ad-Dawasir and al-Sulayyil. Meanwhile, the Saudi-led coalition also said that its forces have responded to a number of Houthi missile threats in Riyadh and the kingdom's southern region US President Donald Trump said that Washington does not \"need any help\" from China or Russia to end the war on Iran. He also claimed that Tehran's missiles are \"down to about 12, 13% of what they were, and they want to make a deal, so I don’t need help. I’m not going to go in asking for any help,\" adding that the US has \"total control of the Hormuz Strait\". Saudi Crown Prince Mohammed bin Salman and Minister of Defense Prince Khalid bin Salman bin Abdulaziz met the chief of the US Central Command in Riyadh. Eight Palestinians, including four women, were injured on Wednesday when an Israeli settler reportedly deliberately ran them over at five different locations in Kafr Qassem. Several victims sustained moderate injuries and were taken to hospital.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/saudi-arabia-riyadh-financial-district-15-oct-2026-reuters.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi",
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-19T07:51:35+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-674"
-    },
-    {
-      "id": "08c4ee3f104663eb",
-      "title": "Syndrome Gaza: Mengapa trauma tentara Israel menghapus korban Palestina",
-      "description": "Tentara Israel menggambarkan jumlah korban psikologis genosida di Gaza, namun banyak yang tidak mengungkapkan penyesalan.",
-      "originalTitle": "Gaza Syndrome: Why Israeli soldiers’ trauma erases Palestinian victims",
-      "originalDescription": "Israeli soldiers describe the psychological toll of the genocide in Gaza, yet many express no remorse.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/IMG_7408-1793189803.png?resize=1920%2C1080&quality=80",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Al Jazeera",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-19T07:51:03+00:00",
-      "originalUrl": "https://www.aljazeera.com/features/2026/11/19/gaza-syndrome-why-israeli-soldiers-trauma-erases-palestinian-victims"
-    },
-    {
-      "id": "06a9045105020279",
-      "title": "Saudi Arab kaya berdaulat menara dana di Riyadh rusak mogok",
-      "description": "Menara dana kedaulatan Arab Saudi di Riyadh rusak karena menyerang PIF Tower milik Arab Saudi yang berdaulat telah rusak dalam serangan pada hari Kamis, Reuters melaporkan tiga sumber. Sebelumnya, Saudi- dipimpin koalisi mengatakan bahwa hal itu ditangani dengan rudal Houthi ancaman diluncurkan ke arah ibukota Saudi, menambahkan bahwa penilaian awal menunjukkan bahwa kerusakan material berkelanjutan karena puing-puing.",
-      "originalTitle": "Saudi Arabia's sovereign wealth fund's tower in Riyadh damaged in strike",
-      "originalDescription": "Saudi Arabia's sovereign wealth fund's tower in Riyadh damaged in strike Saudi Arabia's sovereign wealth fund's PIF Tower was damaged in a strike on Thursday, Reuters reported citing three sources. Earlier, the Saudi-led coalition said that it dealt with a Houthi missile threat launched towards the Saudi capital, adding that an initial assessment showed that material damage was sustained due to debris.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/saudi-arabia-riyadh-financial-district-15-oct-2026-reuters.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-19T07:38:06+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabias-sovereign-wealth-funds-tower-riyadh-damaged-strike"
-    },
-    {
-      "id": "43cb625a7d6ab189",
-      "title": "Otoritas Pasar Modal Wajibkan Perusahaan Gelar Diskusi Hasil Keuangan",
-      "description": "Otoritas Pasar Modal Arab Saudi mewajibkan seluruh perusahaan tercatat di pasar utama untuk menggelar pertemuan diskusi hasil keuangan secara berkala mulai 2026.",
-      "originalTitle": "Otoritas Pasar Modal Wajibkan Perusahaan Gelar Diskusi Hasil Keuangan",
-      "originalDescription": "Otoritas Pasar Modal Arab Saudi mewajibkan seluruh perusahaan tercatat di pasar utama untuk menggelar pertemuan diskusi hasil keuangan secara berkala mulai 2026.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-07/_lNSwQWHuofrKjc-.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T07:01:08+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/ekonomi/mstpey5rw"
-    },
-    {
-      "id": "fc370fc401e0d8c5",
-      "title": "Abdul Mu’ti Tekankan Pendidikan dan Dakwah sebagai Misi Kampus Muhammadiyah",
-      "description": "MUHAMMADIYAH.OR.ID, JAKARTA – Universitas Muhammadiyah Jakarta (UMJ) sebagai Perguruan Tinggi Muhammadiyah-’Aisyiyah (PTMA) tertua diharapkan menjadi kampus Muhammadiyah berdaya saing dan terbaik. Harapan itu disampaikan Sekretaris Umum Pimpinan Pusat (PP) Muhammadiyah, Abdul Mu’ti pada Rabu (18/11) dalam Sidang Terbuka Senat UMJ di Auditorium KH. Ahmad Azhar Basyir, Gedung Cendekia UMJ. “UMJ adalah Perguruan Tinggi Muhammadiyah yang […] The post Abdul Mu’ti Tekankan Pendidikan dan Dakwah sebagai Misi Kampus Muhammadiyah appeared first on Muhammadiyah .",
-      "originalTitle": "Abdul Mu’ti Tekankan Pendidikan dan Dakwah sebagai Misi Kampus Muhammadiyah",
-      "originalDescription": "MUHAMMADIYAH.OR.ID, JAKARTA – Universitas Muhammadiyah Jakarta (UMJ) sebagai Perguruan Tinggi Muhammadiyah-’Aisyiyah (PTMA) tertua diharapkan menjadi kampus Muhammadiyah berdaya saing dan terbaik. Harapan itu disampaikan Sekretaris Umum Pimpinan Pusat (PP) Muhammadiyah, Abdul Mu’ti pada Rabu (18/11) dalam Sidang Terbuka Senat UMJ di Auditorium KH. Ahmad Azhar Basyir, Gedung Cendekia UMJ. “UMJ adalah Perguruan Tinggi Muhammadiyah yang […] The post Abdul Mu’ti Tekankan Pendidikan dan Dakwah sebagai Misi Kampus Muhammadiyah appeared first on Muhammadiyah .",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/04/abdul-muti-pendidikan-prasekolah-kunci-utama-pembentukan-karakter-anak.jpeg",
-      "category": "Dakwah dan Ulama",
-      "tags": [
-        "Dakwah dan Ulama"
-      ],
-      "source": "Muhammadiyah",
-      "sources": [
-        "Muhammadiyah"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-19T06:56:09+00:00",
-      "originalUrl": "https://muhammadiyah.or.id/2026/11/abdul-muti-tekankan-pendidikan-dan-dakwah-sebagai-misi-kampus-muhammadiyah"
-    },
-    {
-      "id": "264abd59f3a9e86e",
-      "title": "Koalisi menghancurkan dua platform peluncuran rudal Houthi balistik yang digunakan untuk mencoba menyerang Arab Saudi",
-      "description": "RIYADH - Koalisi untuk mendukung Legitimasi di Yaman menghancurkan dua platform peluncuran rudal balistik Houthi di Yaman yang mengatur Saada dan Dhamar setelah mereka digunakan untuk mencoba menyerang daerah selatan Arab Saudi dan Riyadh. Juru bicara Koalisi Mayor Jenderal Turki Al- Malki mengumumkan Kamis pagi bahwa Koalisi telah menghancurkan platform peluncuran rudal di Saada. Al- Malki mengatakan milisi Houthi telah menggunakan platform dalam upaya serangan di Arab Saudi daerah selatan awal hari itu. Kemudian di pagi hari, Al- Malki mengumumkan penghancuran lain peluncuran rudal platform di Dhamar. Menurut Koalisi, milisi Houthi telah menggunakan platform dalam percobaan serangan terhadap Riyadh hari itu.",
-      "originalTitle": "Coalition destroys two Houthi ballistic missile launch platforms used in attempted attacks on Saudi Arabia",
-      "originalDescription": "RIYADH — Coalition to Support Legitimacy in Yemen destroyed two Houthi ballistic missile launch platforms in the Yemeni governorates of Saada and Dhamar after they were used in attempted attacks on Saudi Arabia’s southern region and Riyadh. Coalition spokesperson Maj. Gen. Turki Al-Malki announced early Thursday morning that the Coalition had destroyed a ballistic missile launch platform in Saada. Al-Malki said the Houthi militia had used the platform in an attempted attack on Saudi Arabia’s southern region earlier that day. Later in the morning morning, Al-Malki announced the destruction of another ballistic missile launch platform in Dhamar. According to the Coalition, the Houthi militia had used the platform in an attempted attack on Riyadh that day.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/19/2796595.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T06:54:42+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666360/saudi-arabia/coalition-destroys-two-houthi-ballistic-missile-launch-platforms-used-in-attempted-attacks-on-saudi-arabia"
-    },
-    {
-      "id": "da31011d68181621",
-      "title": "Koalisi Saudi- dipimpin mengatakan jatuh rudal Houthi, seperti peringatan diangkat di Khamis Mushait, kota Abha",
-      "description": "Koalisi Saudi- dipimpin mengatakan jatuh rudal Houthi, seperti peringatan diangkat di Khamis Mushait, kota Abha Koalisi Sauha-led mengatakan pertahanan udara itu jatuh dan menghancurkan empat rudal balistik Houthi diluncurkan ke arah wilayah selatan kerajaan. Sementara itu, pertahanan sipil Arab Saudi telah mengeluarkan peringatan terpisah atas potensi ancaman di kota Abha dan Khamis Mushait pemerintahan, sebelum menyatakan bahwa bahaya telah berlalu.",
-      "originalTitle": "Saudi-led coalition says it downed Houthi missiles, as alerts lifted in Khamis Mushait, Abha city",
-      "originalDescription": "Saudi-led coalition says it downed Houthi missiles, as alerts lifted in Khamis Mushait, Abha city The Saudi-led coalition said its air defences downed and destroyed four Houthi ballistic missiles launched towards the kingdom's southern region. Meanwhile, Saudi Arabia's civil defence has issued separate alerts over potential threats in Abha city and Khamis Mushait governorate, before declaring that the danger had passed.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/saudi-arabia-riyadh-financial-district-15-oct-2026-reuters.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-19T06:39:44+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-downed-houthi-missiles-alerts-lifted-khamis"
-    },
-    {
-      "id": "038603210309e494",
-      "title": "Bimtek Tata Kelola, Literasi Numerasi, Pembelajaran Mendalam LP Ma’arif NU Paniai Papua Tengah",
-      "description": "LP Ma’arif NU Paniai adakan Bimtek peningkatan kompetensi guru dan tata kelola madrasah. Kegiatan membahas literasi, hingga pembelajaran mendalam.",
-      "originalTitle": "Bimtek Tata Kelola, Literasi Numerasi, Pembelajaran Mendalam LP Ma’arif NU Paniai Papua Tengah",
-      "originalDescription": "LP Ma’arif NU Paniai adakan Bimtek peningkatan kompetensi guru dan tata kelola madrasah. Kegiatan membahas literasi, hingga pembelajaran mendalam.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/lp-maarif-pania-bimtek-news19112026_1795069305.webp",
-      "category": "Pendidikan Islam",
-      "tags": [
-        "Pendidikan Islam"
-      ],
-      "source": "NU Online",
-      "sources": [
-        "NU Online"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-19T06:30:28+00:00",
-      "originalUrl": "https://www.nu.or.id/daerah/bimtek-tata-kelola-literasi-numerasi-pembelajaran-mendalam-lp-ma-arif-nu-paniai-papua-tengah-JlSj5"
-    },
-    {
-      "id": "603f5df7abe1dfcd",
-      "title": "Peringatan Hujan Lebat dan Angin Kencang di Al-Baha hingga Pukul 20.00",
-      "description": "Pusat Meteorologi Nasional Arab Saudi mengeluarkan peringatan hujan lebat dan angin kencang di wilayah Al-Baha dan sejumlah kabupaten hingga pukul 20.00 malam ini.",
-      "originalTitle": "Peringatan Hujan Lebat dan Angin Kencang di Al-Baha hingga Pukul 20.00",
-      "originalDescription": "Pusat Meteorologi Nasional Arab Saudi mengeluarkan peringatan hujan lebat dan angin kencang di wilayah Al-Baha dan sejumlah kabupaten hingga pukul 20.00 malam ini.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-07/المركز-الوطني-للأرصاد-2-Ng5KAtRB.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-19T06:22:10+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/4plgxkr8a"
-    },
-    {
-      "id": "36bfcd699033e2f9",
-      "title": "Kemenag Perluas Perlindungan Sosial bagi Guru Non-ASN, Ini Skemanya",
-      "description": "Kemenag menyiapkan BPJS Kesehatan gratis bagi 100 ribu guru non-ASN. Program disertai beasiswa dan sertifikasi guru.",
-      "originalTitle": "Kemenag Perluas Perlindungan Sosial bagi Guru Non-ASN, Ini Skemanya",
-      "originalDescription": "Kemenag menyiapkan BPJS Kesehatan gratis bagi 100 ribu guru non-ASN. Program disertai beasiswa dan sertifikasi guru.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/amin-suyitno-for-news-nuo19112026_1795066841.webp",
-      "category": "Nasional Islam",
-      "tags": [
-        "Nasional Islam"
-      ],
-      "source": "NU Online",
-      "sources": [
-        "NU Online"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-19T06:00:19+00:00",
-      "originalUrl": "https://www.nu.or.id/nasional/kemenag-perluas-perlindungan-sosial-bagi-guru-non-asn-ini-skemanya-qexfb"
     }
   ]
 }
