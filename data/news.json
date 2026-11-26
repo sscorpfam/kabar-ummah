@@ -1,19 +1,19 @@
 {
-  "status": "partial",
-  "lastUpdated": "2026-11-25T22:34:34.340808+00:00",
+  "status": "success",
+  "lastUpdated": "2026-11-26T05:02:11.944537+00:00",
   "total": 500,
   "newArticles": 124,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 11,
-  "sourcesFailed": 1,
+  "sourcesSucceeded": 12,
+  "sourcesFailed": 0,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 1,
-      "filtered": 24,
-      "filteredFootball": 2,
+      "accepted": 3,
+      "filtered": 22,
+      "filteredFootball": 3,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 32,
+      "raw": 30,
       "accepted": 2,
-      "filtered": 30,
-      "filteredFootball": 1,
-      "translated": 32,
+      "filtered": 28,
+      "filteredFootball": 3,
+      "translated": 30,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -35,8 +35,8 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 10,
-      "filtered": 5,
+      "accepted": 11,
+      "filtered": 4,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -47,9 +47,9 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 2,
-      "filtered": 48,
-      "filteredFootball": 8,
+      "accepted": 1,
+      "filtered": 49,
+      "filteredFootball": 2,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 11,
-      "filtered": 9,
-      "filteredFootball": 4,
+      "accepted": 12,
+      "filtered": 8,
+      "filteredFootball": 3,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -93,22 +93,22 @@
     },
     {
       "name": "Detik",
-      "status": "error",
-      "raw": 0,
-      "accepted": 0,
-      "filtered": 0,
+      "status": "success",
+      "raw": 100,
+      "accepted": 1,
+      "filtered": 99,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
+      "error": null
     },
     {
       "name": "Muhammadiyah",
       "status": "success",
       "raw": 10,
-      "accepted": 3,
-      "filtered": 7,
+      "accepted": 1,
+      "filtered": 9,
       "filteredFootball": 1,
       "translated": 0,
       "translationPartial": 0,
@@ -118,9 +118,9 @@
     {
       "name": "NU Online",
       "status": "success",
-      "raw": 49,
+      "raw": 50,
       "accepted": 16,
-      "filtered": 33,
+      "filtered": 34,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -131,9 +131,9 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 27,
-      "filtered": 23,
-      "filteredFootball": 8,
+      "accepted": 25,
+      "filtered": 25,
+      "filteredFootball": 10,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -156,16 +156,620 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 209,
+    "translatedArticles": 200,
     "partialArticles": 0,
     "failedArticles": 0,
-    "cacheEntries": 4856
+    "cacheEntries": 4941
   },
   "images": {
     "found": 500,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "95faad93d05d550e",
+      "title": "MUI Sahkan Pengunduran Diri KH Ma'ruf Amin",
+      "description": "JAKARTA -- Dewan Pimpinan Majelis Ulama Indonesia (MUI) secara resmi mengesahkan pengunduran diri KH Ma'ruf Amin dari jabatan Ketua Dewan Pertimbangan (Wantim) MUI. Hal itu disampaikan Wakil Ketua Umum...",
+      "originalTitle": "MUI Sahkan Pengunduran Diri KH Ma'ruf Amin",
+      "originalDescription": "JAKARTA -- Dewan Pimpinan Majelis Ulama Indonesia (MUI) secara resmi mengesahkan pengunduran diri KH Ma'ruf Amin dari jabatan Ketua Dewan Pertimbangan (Wantim) MUI. Hal itu disampaikan Wakil Ketua Umum...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/rapat-paripurna-mui-menjelang-pelaksanaan-musyawarah-kerja-nasional-mukernas_261126115252-641.jpg",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam",
+        "Dakwah dan Ulama"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-26T04:54:33+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tp3eyx430/mui-sahkan-pengunduran-diri-kh-maruf-amin"
+    },
+    {
+      "id": "81c536b9bfb717f5",
+      "title": "Hari Ini, Kejuaraan 'Qafz Saudi' Edisi Keenam Dimulai di Riyadh",
+      "description": "Kejuaraan 'Qafz Saudi' edisi keenam untuk lompat rintangan dimulai hari ini di Riyadh, berlangsung tiga pekan dengan total hadiah lebih dari 3,4 juta riyal Saudi.",
+      "originalTitle": "Hari Ini, Kejuaraan 'Qafz Saudi' Edisi Keenam Dimulai di Riyadh",
+      "originalDescription": "Kejuaraan 'Qafz Saudi' edisi keenam untuk lompat rintangan dimulai hari ini di Riyadh, berlangsung tiga pekan dengan total hadiah lebih dari 3,4 juta riyal Saudi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/بطولة-قفز-السعودية-ScZe0XDc.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-26T04:54:07+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/olahraga/bj9qh0afp"
+    },
+    {
+      "id": "20c436cf10569dcd",
+      "title": "Empat Jalur Hiking Baru Diluncurkan di Kawasan Hail",
+      "description": "Otoritas Pengembangan Kawasan Konservasi Raja Salman meluncurkan empat jalur hiking baru di Hail, menjadi jalur hiking pertama di Arab Saudi yang diakui secara internasional.",
+      "originalTitle": "Empat Jalur Hiking Baru Diluncurkan di Kawasan Hail",
+      "originalDescription": "Otoritas Pengembangan Kawasan Konservasi Raja Salman meluncurkan empat jalur hiking baru di Hail, menjadi jalur hiking pertama di Arab Saudi yang diakui secara internasional.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/الهايكنج-cNJ_RciU.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-26T04:50:59+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/olahraga/5oaagpkbx"
+    },
+    {
+      "id": "cba9f10ac5b92258",
+      "title": "Bank BSN Tancap Gas Gandeng Barantin Buka Jalan UMKM Mendunia",
+      "description": "Jakarta (ANTARA) — PT Bank Syariah Nasional (Bank BSN) mengambil langkah cepat memperkuat ekosistem perdagangan ...",
+      "originalTitle": "Bank BSN Tancap Gas Gandeng Barantin Buka Jalan UMKM Mendunia",
+      "originalDescription": "Jakarta (ANTARA) — PT Bank Syariah Nasional (Bank BSN) mengambil langkah cepat memperkuat ekosistem perdagangan ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/11/26/WhatsApp-Image-2026-11-26-at-11.05.26.jpg",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-26T04:36:38+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5879495/bank-bsn-tancap-gas-gandeng-barantin-buka-jalan-umkm-mendunia"
+    },
+    {
+      "id": "6b8767fd91651fe6",
+      "title": "Ditangkap, Eks Marbut Masjid Surabaya Bakar Marbut karena Kesal Diganti",
+      "description": "Polisi menangkap Supardi (65), eks marbut Masjid Istiqomah Surabaya, karena membakar penggantinya, Suparman (75). Supardi ditangkap saat bersembunyi di rumahnya",
+      "originalTitle": "Ditangkap, Eks Marbut Masjid Surabaya Bakar Marbut karena Kesal Diganti",
+      "originalDescription": "Polisi menangkap Supardi (65), eks marbut Masjid Istiqomah Surabaya, karena membakar penggantinya, Suparman (75). Supardi ditangkap saat bersembunyi di rumahnya",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/25/marbot-masjid-surabaya-1795615277810_169.jpeg?w=360&q=90",
+      "category": "Masjid dan Peradaban",
+      "tags": [
+        "Masjid dan Peradaban"
+      ],
+      "source": "Detik",
+      "sources": [
+        "Detik"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-26T04:13:43+00:00",
+      "originalUrl": "https://news.detik.com/berita/d-8770648/ditangkap-eks-marbut-masjid-surabaya-bakar-marbut-karena-kesal-diganti"
+    },
+    {
+      "id": "a444540cddff8362",
+      "title": "Hari Ini, Lomba Kecantikan Burung Elang Digelar di Festival Raja Abdulaziz",
+      "description": "Lomba kecantikan burung elang di Festival Raja Abdulaziz 2026 dimulai hari ini di Malham, Riyadh, berlangsung hingga 29 November.",
+      "originalTitle": "Hari Ini, Lomba Kecantikan Burung Elang Digelar di Festival Raja Abdulaziz",
+      "originalDescription": "Lomba kecantikan burung elang di Festival Raja Abdulaziz 2026 dimulai hari ini di Malham, Riyadh, berlangsung hingga 29 November.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-gRVjq8-C.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-26T04:10:19+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/olahraga/cxwxotd1e"
+    },
+    {
+      "id": "48c9250d4e75c64c",
+      "title": "Mudzakarah Fatwa 2026, MUI DKI Ulas Hukum Penyelenggaraan Dam Tamattu di Tanah Air",
+      "description": "JAKARTA — Majelis Ulama Indonesia (MUI) Provinsi DKI Jakarta menggelar Mudzakarah Fatwa Tahun 2026 bertema \"Kontekstualisasi Fikih Haji: Menjamin Kepastian Hukum Syariat dan Standardisasi Manasik Pelaksanaan Dam Tamattu di...",
+      "originalTitle": "Mudzakarah Fatwa 2026, MUI DKI Ulas Hukum Penyelenggaraan Dam Tamattu di Tanah Air",
+      "originalDescription": "JAKARTA — Majelis Ulama Indonesia (MUI) Provinsi DKI Jakarta menggelar Mudzakarah Fatwa Tahun 2026 bertema \"Kontekstualisasi Fikih Haji: Menjamin Kepastian Hukum Syariat dan Standardisasi Manasik Pelaksanaan Dam Tamattu di...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/004528900-1778658509-830-556.jpg",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam",
+        "Dakwah dan Ulama",
+        "Haji dan Umrah"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-26T03:59:10+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tp3cem483/mudzakarah-fatwa-2026-mui-dki-ulas-hukum-penyelenggaraan-dam-tamattu-di-tanah-air"
+    },
+    {
+      "id": "957f682300fcd162",
+      "title": "Muhammadiyah Arahkan Distribusi Dam Haji untuk Atasi Kemiskinan dan Stunting di Indonesia",
+      "description": "MUHAMMADIYAH.OR.ID, JAKARTA—Pengalihan penyembelihan dam haji ke Indonesia dinilai dapat membuka peluang pemanfaatan daging untuk membantu masyarakat yang menghadapi kemiskinan dan persoalan gizi. Muhammadiyah mempertimbangkan kondisi sosial Indonesia, persoalan logistik pengiriman daging, serta dampak lingkungan penyembelihan massal di Tanah Suci dalam menetapkan fatwa mengenai penyembelihan dan distribusi dam tamattu’ di tanah air. Pertimbangan tersebut disampaikan Wakil […] The post Muhammadiyah Arahkan Distribusi Dam Haji untuk Atasi Kemiskinan dan Stunting di Indonesia appeared first on Muhammadiyah .",
+      "originalTitle": "Muhammadiyah Arahkan Distribusi Dam Haji untuk Atasi Kemiskinan dan Stunting di Indonesia",
+      "originalDescription": "MUHAMMADIYAH.OR.ID, JAKARTA—Pengalihan penyembelihan dam haji ke Indonesia dinilai dapat membuka peluang pemanfaatan daging untuk membantu masyarakat yang menghadapi kemiskinan dan persoalan gizi. Muhammadiyah mempertimbangkan kondisi sosial Indonesia, persoalan logistik pengiriman daging, serta dampak lingkungan penyembelihan massal di Tanah Suci dalam menetapkan fatwa mengenai penyembelihan dan distribusi dam tamattu’ di tanah air. Pertimbangan tersebut disampaikan Wakil […] The post Muhammadiyah Arahkan Distribusi Dam Haji untuk Atasi Kemiskinan dan Stunting di Indonesia appeared first on Muhammadiyah .",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/04/kiai-saad-ibrahim-ingatkan-jemaah-haji-bekal-terbaik-adalah-takwa-dan-fisik-prima.jpeg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "Muhammadiyah",
+      "sources": [
+        "Muhammadiyah"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-26T03:25:11+00:00",
+      "originalUrl": "https://muhammadiyah.or.id/2026/11/muhammadiyah-arahkan-distribusi-dam-haji-untuk-atasi-kemiskinan-dan-stunting-di-indonesia"
+    },
+    {
+      "id": "49a5bb1dd9306139",
+      "title": "Petugas Haji 2027 Dibekali Manasik, Pelayanan Jamaah Harus Jadi Prioritas Utama",
+      "description": "JAKARTA -- Kementerian Haji dan Umrah (Kemenhaj) Republik Indonesia memantapkan kesiapan calon Petugas Penyelenggara Ibadah Haji (PPIH) musim haji 1448 H/2027 M melalui pembekalan manasik haji dan pemetaan tugas...",
+      "originalTitle": "Petugas Haji 2027 Dibekali Manasik, Pelayanan Jamaah Harus Jadi Prioritas Utama",
+      "originalDescription": "JAKARTA -- Kementerian Haji dan Umrah (Kemenhaj) Republik Indonesia memantapkan kesiapan calon Petugas Penyelenggara Ibadah Haji (PPIH) musim haji 1448 H/2027 M melalui pembekalan manasik haji dan pemetaan tugas...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/_261126101435-278.png",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-26T03:17:34+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tp3aha502/petugas-haji-2027-dibekali-manasik-pelayanan-jamaah-harus-jadi-prioritas-utama"
+    },
+    {
+      "id": "52b8aaaca384871e",
+      "title": "AlUla kokoh di puncak Liga Yelo usai menang tiga gol tanpa balas",
+      "description": "AlUla memperkuat posisinya di puncak Liga Yelo setelah menaklukkan Al-Adalah 3-0 di Madinah dan menjaga rekor tak terkalahkan.",
+      "originalTitle": "AlUla kokoh di puncak Liga Yelo usai menang tiga gol tanpa balas",
+      "originalDescription": "AlUla memperkuat posisinya di puncak Liga Yelo setelah menaklukkan Al-Adalah 3-0 di Madinah dan menjaga rekor tak terkalahkan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/فريق-العلا-M03_8gBQ.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-26T03:12:11+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/olahraga/s9j64lqmq"
+    },
+    {
+      "id": "f5fd48e04b8eb40e",
+      "title": "Dahnil Imbau Calon Jamaah Jaga Kesehatan Fisik Jelang Haji 2027",
+      "description": "JAKARTA -- Wakil Menteri Haji (Wamenhaj) Dahnil Anzar Simanjuntak mengimbau calon jamaah haji untuk menyiapkan kesehatan fisik agar mampu menjalani seluruh rangkaian ibadah penting bagi kaum Muslim itu secara...",
+      "originalTitle": "Dahnil Imbau Calon Jamaah Jaga Kesehatan Fisik Jelang Haji 2027",
+      "originalDescription": "JAKARTA -- Wakil Menteri Haji (Wamenhaj) Dahnil Anzar Simanjuntak mengimbau calon jamaah haji untuk menyiapkan kesehatan fisik agar mampu menjalani seluruh rangkaian ibadah penting bagi kaum Muslim itu secara...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/017528600-1783523808-830-556.jpg",
+      "category": "Haji dan Umrah",
+      "tags": [
+        "Haji dan Umrah"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika",
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-26T02:56:35+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tp39ib366/dahnil-imbau-calon-jamaah-jaga-kesehatan-fisik-jelang-haji-2027"
+    },
+    {
+      "id": "41874edc8d5c6cb9",
+      "title": "Serangan Israel pada apartemen membunuh dua di pusat Gaza",
+      "description": "Serangan Israel terhadap apartemen membunuh dua orang di tengah Gaza dan serangan udara Israel menargetkan sebuah apartemen di Deir al- Balah, pusat Gaza, telah membunuh setidaknya dua orang dan melukai beberapa lainnya, Al Jazeera melaporkan.",
+      "originalTitle": "Israeli strike on apartment kills two in central Gaza",
+      "originalDescription": "Israeli strike on apartment kills two in central Gaza An Israeli air strike targeting a residential apartment in Deir al-Balah, central Gaza, has killed at least two and wounded several others, Al Jazeera reported.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Mourners%20after%20an%20overnight%20Israeli%20airstrike%20in%20Gaza%20City%20on%20November%2025%2C%202026..jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-26T02:54:56+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-apartment-kills-two-central-gaza"
+    },
+    {
+      "id": "f25f63fdc30495f6",
+      "title": "Otoritas Jalan Tingkatkan Keselamatan dan Layanan Jalan Antar-Kota",
+      "description": "Otoritas Umum Jalan Arab Saudi terus memperkuat pengalaman pengguna jalan melalui berbagai inisiatif dan proyek peningkatan keselamatan serta pengembangan layanan antar-kota.",
+      "originalTitle": "Otoritas Jalan Tingkatkan Keselamatan dan Layanan Jalan Antar-Kota",
+      "originalDescription": "Otoritas Umum Jalan Arab Saudi terus memperkuat pengalaman pengguna jalan melalui berbagai inisiatif dan proyek peningkatan keselamatan serta pengembangan layanan antar-kota.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/الهيئة-العامة-للطرق-tbmW7Ue5.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-26T02:41:34+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/sx9kdu1rt"
+    },
+    {
+      "id": "b31a8eecf1287e18",
+      "title": "Otoritas Jeddah Sita Satu Ton Makanan dan Tertibkan 11 Lapak Liar",
+      "description": "Otoritas Jeddah menyita 1.000 kg bahan makanan dan menertibkan 11 lapak liar di wilayah Baladiyah Al-Matar, dalam upaya berkelanjutan menindak penjualan ilegal.",
+      "originalTitle": "Otoritas Jeddah Sita Satu Ton Makanan dan Tertibkan 11 Lapak Liar",
+      "originalDescription": "Otoritas Jeddah menyita 1.000 kg bahan makanan dan menertibkan 11 lapak liar di wilayah Baladiyah Al-Matar, dalam upaya berkelanjutan menindak penjualan ilegal.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/جدة-أمانة-Mh42a66O.avif",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-26T02:11:10+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/kpmepp5wy"
+    },
+    {
+      "id": "b219eef273399eca",
+      "title": "Perluasan Jalan Lingkar Ketiga di Makkah Permudah Mobilitas Jamaah",
+      "description": "JEDDAH -- Pembukaan bagian yang diperluas dari Jalan Lingkar Ketiga (Third Ring Road) di Makkah diharapkan dapat meningkatkan layanan transportasi di seluruh kota suci tersebut serta membantu penyedia layanan...",
+      "originalTitle": "Perluasan Jalan Lingkar Ketiga di Makkah Permudah Mobilitas Jamaah",
+      "originalDescription": "JEDDAH -- Pembukaan bagian yang diperluas dari Jalan Lingkar Ketiga (Third Ring Road) di Makkah diharapkan dapat meningkatkan layanan transportasi di seluruh kota suci tersebut serta membantu penyedia layanan...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/_260520172914-966.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-26T02:04:20+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tp3738366/perluasan-jalan-lingkar-ketiga-di-makkah-permudah-mobilitas-jamaah"
+    },
+    {
+      "id": "3bfcb4ca62820dd9",
+      "title": "Serangan terakhir Israel di Gaza City dilaporkan membunuh tiga",
+      "description": "Serangan terakhir Israel di Gaza City dilaporkan membunuh tiga Setidaknya tiga orang Palestina telah dilaporkan tewas dalam serangan pesawat tak berawak Israel terhadap kamp pengungsi Shati, barat kota Gaza, menurut Al Jazeera mengutip sumber medis. Sebelumnya, serangan pesawat tak berawak Israel lain telah menargetkan sekelompok warga sipil di lingkungan Tuffah, terletak di timur kota, membunuh tiga.",
+      "originalTitle": "Latest Israeli attack in Gaza City reportedly kills three",
+      "originalDescription": "Latest Israeli attack in Gaza City reportedly kills three At least three Palestinians have been reportedly killed in an Israeli drone attack on the Shati refugee camp, west of Gaza City, according to Al Jazeera citing medical sources. Earlier, another Israeli drone strike had targeted a group of civilians in the Tuffah neighbourhood, located east of the city, killing three.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Mourners%20after%20an%20overnight%20Israeli%20airstrike%20in%20Gaza%20City%20on%20November%2025%2C%202026..jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-26T01:05:13+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/latest-israeli-attack-gaza-city-reportedly-kills-three"
+    },
+    {
+      "id": "21e1ce77b312d2bf",
+      "title": "Dua drone dicegat di Arab Saudi Wilayah Timur, Saudi- dipimpin koalisi mengatakan",
+      "description": "Dua drone dicegat di wilayah timur Arab Saudi, Saudi- dipimpin koalisi mengatakan Saudi- dipimpin juru bicara koalisi mengatakan dalam sebuah posting pada X bahwa dua drone dicegat dan hancur di Arab Saudi Daerah Timur.",
+      "originalTitle": "Two drones intercepted in Saudi Arabia's Eastern Region, Saudi-led coalition says",
+      "originalDescription": "Two drones intercepted in Saudi Arabia's Eastern Region, Saudi-led coalition says The Saudi-led coalition's spokesperson said in a post on X that two drones were intercepted and destroyed in Saudi Arabia's Eastern Region.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Mourners%20after%20an%20overnight%20Israeli%20airstrike%20in%20Gaza%20City%20on%20November%2025%2C%202026..jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-26T01:00:32+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/two-drones-intercepted-saudi-arabias-eastern-region-saudi-coalition-says"
+    },
+    {
+      "id": "893faec5be854bf9",
+      "title": "Israel telah mengubah Gaza menjadi 'gurun beracun'",
+      "description": "Israel telah mengubah Gaza menjadi 'gurun beracun' Sebuah laporan baru, \"Kejahatan Perang Lingkungan\", oleh Oxfam dan Observatorium Konflik dan Lingkungan menemukan bahwa pembantaian Israel di Jalur Gaza telah mengubahnya menjadi \"gurun beracun\". Bushra Khalidi, Pemimpin Kebijakan dan Advokasi Kemanusiaan di Oxfam, bergabung dengan MEE LIVE untuk mendiskusikan penemuan dan apa artinya bagi kehidupan sehari-hari Palestina.",
+      "originalTitle": "Israel has turned Gaza into a 'toxic wasteland'",
+      "originalDescription": "Israel has turned Gaza into a 'toxic wasteland' A new report, “Environmental War Crimes”, by Oxfam and the Conflict and Environment Observatory finds that Israel’s genocide on the Gaza Strip has turned it into a “toxic wasteland.” Bushra Khalidi, the Humanitarian Policy and Advocacy Lead at Oxfam, joins MEE LIVE to discuss the findings and what it means for the daily lives of Palestinians.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Mourners%20after%20an%20overnight%20Israeli%20airstrike%20in%20Gaza%20City%20on%20November%2025%2C%202026..jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-26T00:26:09+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-has-turned-gaza-toxic-wasteland"
+    },
+    {
+      "id": "6e0a72aa983594b6",
+      "title": "Kisah Kaum yang Gemar Berkhianat dan Makar dari Zaman Nabi Musa Hingga Nabi Muhammad SAW",
+      "description": "Alquran dan catatan sejarah merekam sejumlah peristiwa pengkhianatan dan makar yang dilakukan sebagian kaum Yahudi terhadap para nabi dan perjanjian yang telah mereka sepakati. Mulai dari pembangkangan terhadap Nabi...",
+      "originalTitle": "Kisah Kaum yang Gemar Berkhianat dan Makar dari Zaman Nabi Musa Hingga Nabi Muhammad SAW",
+      "originalDescription": "Alquran dan catatan sejarah merekam sejumlah peristiwa pengkhianatan dan makar yang dilakukan sebagian kaum Yahudi terhadap para nabi dan perjanjian yang telah mereka sepakati. Mulai dari pembangkangan terhadap Nabi...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/seorang-anggota-komunitas-yahudi-mengamati-tempat-lilin-hanukkah-setinggi_221219075157-174.jpg",
+      "category": "Al-Qur'an dan Hadis",
+      "tags": [
+        "Al-Qur'an dan Hadis"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-26T00:21:18+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tp32bi483/kisah-kaum-yang-gemar-berkhianat-dan-makar-dari-zaman-nabi-musa-hingga-nabi-muhammad-saw"
+    },
+    {
+      "id": "99eb5cb2796fb588",
+      "title": "Perang Iran hidup: batu ledakan Sanaa; rudal dicegat lebih Riyadh",
+      "description": "Ledakan menghantam Sanaa setelah serangan udara dekat bandara, karena koalisi Saudi mencegat rudal atas Riyadh.",
+      "originalTitle": "Iran war live: Explosion rocks Sanaa; missiles intercepted over Riyadh",
+      "originalDescription": "A blast hits Sanaa after air strikes near the airport, as the Saudi coalition intercepts missiles over Riyadh.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-25T142119Z_494453788_RC22VOAYEVVA_RTRMADP_3_IRAN-CRISIS-SAUDI-HOUTHI-1795644562.jpg?resize=1920%2C1440",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-26T00:00:00+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh"
+    },
+    {
+      "id": "eda9af014f5e6ad5",
+      "title": "Target perumahan di pelabuhan Laut Merah Arab Saudi meningkat",
+      "description": "Ledakan dilaporkan di Sanaa setelah pertahanan udara Saudi mencegat rudal balistik menargetkan Riyadh.",
+      "originalTitle": "Houthis target Saudi Arabia’s Red Sea ports as strikes escalate",
+      "originalDescription": "Explosion reported in Sanaa after Saudi air defenses intercept ballistic missiles targeting Riyadh.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b075e56efe1-1795645014.jpg?resize=1920%2C1440",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-25T23:33:39+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/25/houthis-target-saudi-arabias-red-sea-ports-as-strikes-escalate"
+    },
+    {
+      "id": "8ec3e0412201f5b7",
+      "title": "Menag Apresiasi Komitmen Kepala Daerah Kembangkan Pesantren",
+      "description": "Menag apresiasi kepala daerah atas dukungan pesantren melalui kebijakan dan APBD. Pesantren Award 2026 diharapkan mendorong lebih banyak daerah.",
+      "originalTitle": "Menag Apresiasi Komitmen Kepala Daerah Kembangkan Pesantren",
+      "originalDescription": "Menag apresiasi kepala daerah atas dukungan pesantren melalui kebijakan dan APBD. Pesantren Award 2026 diharapkan mendorong lebih banyak daerah.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/menag-pesantren-award-2026_1795666356.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-25T23:30:02+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/menag-apresiasi-komitmen-kepala-daerah-kembangkan-pesantren-BBRh8"
+    },
+    {
+      "id": "21937d344f5c1db6",
+      "title": "Israel menyerang orang Palestina 11 orang, termasuk dua gadis hari ini di Gaza",
+      "description": "Israel menyerang 11 orang Palestina, termasuk dua gadis hari ini di Gaza serangan udara Israel telah membunuh setidaknya 11 orang Palestina, termasuk dua gadis muda, di Gaza City dan Utara Jalur Gaza sejak fajar pada hari Rabu, Al Jazeera melaporkan, mengutip sumber rumah sakit. Pengampunan Palestina mengumpulkan sekitar tubuh empat anggota keluarga Abu Al- Ouf setelah mereka tewas dalam serangan udara Israel dalam semalam di Gaza City pada tanggal 25 November 2026 (AFP)",
+      "originalTitle": "Israeli strikes kill 11 Palestinians, including two girls today in Gaza",
+      "originalDescription": "Israeli strikes kill 11 Palestinians, including two girls today in Gaza Israeli air strikes have killed at least 11 Palestinians, including two young girls, in Gaza City and the northern Gaza Strip since dawn on Wednesday, Al Jazeera reported, citing hospital sources. Palestinian mourners gather around the bodies of four members of the Abu al-Ouf family after they were killed in an overnight Israeli air strike in Gaza City on November 25, 2026 (AFP)",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/Palestinian%20mourners%20gather%20around%20the%20bodies%20of%20four%20members%20of%20the%20Abu%20al-Ouf%20family%20after%20they%20were%20killed%20in%20an%20overnight%20Israeli%20airstrike%20in%20Gaza%20City%20on%20November%2025%2C%202026%20%28AFP%29.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-25T23:11:06+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-kill-11-palestinians-including-two-girls-today-gaza"
+    },
+    {
+      "id": "4aa3ad774663dc3e",
+      "title": "LBM PCNU Pidie Agendakan Bahtsul Masail Setiap Empat Bulan, Zakat Produktif Dibahas Desember 2026",
+      "description": "LBM PCNU Pidie menyepakati pelaksanaa Bahtsul Masail setiap empat bulan. Pembahsan terkait zakat produktif dijadwalkan pada Desember mendatang.",
+      "originalTitle": "LBM PCNU Pidie Agendakan Bahtsul Masail Setiap Empat Bulan, Zakat Produktif Dibahas Desember 2026",
+      "originalDescription": "LBM PCNU Pidie menyepakati pelaksanaa Bahtsul Masail setiap empat bulan. Pembahsan terkait zakat produktif dijadwalkan pada Desember mendatang.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/pertemuan-pcnu-pidie-news26112026_1795641043.webp",
+      "category": "Ekonomi Syariah",
+      "tags": [
+        "Ekonomi Syariah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-25T23:00:54+00:00",
+      "originalUrl": "https://www.nu.or.id/daerah/lbm-pcnu-pidie-agendakan-bahtsul-masail-setiap-empat-bulan-zakat-produktif-dibahas-desember-2026-7g6lp"
+    },
     {
       "id": "c6898c33aef4b0aa",
       "title": "Ledakan terdengar di Riyadh setelah 'ancaman udara bermusuhan' peringatan, laporan mengatakan",
@@ -215,6 +819,32 @@
       "region": "",
       "publishedAt": "2026-11-25T22:16:18+00:00",
       "originalUrl": "https://khazanah.republika.co.id/berita/tp2wj6483/mengenal-istilah-makar-dalam-alquran-dan-bagaimana-cara-allah-menggagalkannya"
+    },
+    {
+      "id": "ad93fea646ed4994",
+      "title": "Peduli Pengembangan Pesantren, Berikut Enam Kepala Daerah Peraih Pesantren Award 2026",
+      "description": "Enam kepala daerah raih Pesantren Award 2026 atas dukungan untuk pesantren. Kemenag berharap penghargaan ini mendorong daerah lain berkontribusi.",
+      "originalTitle": "Peduli Pengembangan Pesantren, Berikut Enam Kepala Daerah Peraih Pesantren Award 2026",
+      "originalDescription": "Enam kepala daerah raih Pesantren Award 2026 atas dukungan untuk pesantren. Kemenag berharap penghargaan ini mendorong daerah lain berkontribusi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/pesantren-award-2026_1795663709.webp",
+      "category": "Nasional Islam",
+      "tags": [
+        "Nasional Islam",
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-25T22:00:07+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/peduli-pengembangan-pesantren-berikut-enam-kepala-daerah-peraih-pesantren-award-2026-kFHFL"
     },
     {
       "id": "188e2b97cfd7c7d6",
@@ -2529,31 +3159,6 @@
       "originalUrl": "https://indonesian.ajel.sa/ekonomi/t6tyc020o"
     },
     {
-      "id": "95e16a7af544e890",
-      "title": "Israel memukul apartemen di Gaza City membunuh empat",
-      "description": "Israel merampok apartemen di Gaza City membunuh empat orang yang menargetkan sebuah apartemen di Gaza City telah membunuh setidaknya empat orang dan melukai beberapa orang lainnya, menurut Al Jazeera.",
-      "originalTitle": "Israeli hit on apartment in Gaza City kills four",
-      "originalDescription": "Israeli hit on apartment in Gaza City kills four An Israeli attack targeting an apartment in Gaza City has killed at least four people and wounded several others, according to Al Jazeera.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/attack%20gaza%20city%2025%20november%202026%20reuters.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-25T03:08:33+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-hit-apartment-gaza-city-kills-four"
-    },
-    {
       "id": "c92b3f1100251f6b",
       "title": "Koalisi Saudi- dipimpin mengatakan itu jatuh empat drone atas kerajaan Provinsi Timur",
       "description": "Koalisi Saudi- dipimpin mengatakan itu jatuh empat drone atas Provinsi Timur kerajaan Koalisi Saudi- dipimpin mengatakan dicegat dan menghancurkan empat drone di Ras Tanura, terletak di Arab Saudi Timur Provinsi. Juru bicara koalisi Turki al- Maliki menunjukkan bahwa sejumlah fragmen telah jatuh sebagai hasil dari interception, tanpa korban dilaporkan dalam penilaian awal.",
@@ -3731,31 +4336,6 @@
       "region": "",
       "publishedAt": "2026-11-24T15:56:07+00:00",
       "originalUrl": "https://www.aljazeera.com/news/2026/11/24/palestine-weekly-a-night-of-arson-sees-israel-jewish-terrorism-reckoning"
-    },
-    {
-      "id": "44598cc442f145d2",
-      "title": "Wamenhaj imbau jamaah siapkan kesehatan fisik jalani rangkaian haji",
-      "description": "Wakil Menteri Haji (Wamenhaj) Dahnil Anzar Simanjuntak mengimbau calon jamaah haji untuk menyiapkan kesehatan ...",
-      "originalTitle": "Wamenhaj imbau jamaah siapkan kesehatan fisik jalani rangkaian haji",
-      "originalDescription": "Wakil Menteri Haji (Wamenhaj) Dahnil Anzar Simanjuntak mengimbau calon jamaah haji untuk menyiapkan kesehatan ...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/24/IMG-20261124-WA0008_upscaled.jpg",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "ANTARA Terkini",
-      "sources": [
-        "ANTARA Terkini"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-24T15:44:41+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5876091/wamenhaj-imbau-jamaah-siapkan-kesehatan-fisik-jalani-rangkaian-haji"
     },
     {
       "id": "c3995ed96d0226e4",
@@ -12153,585 +12733,6 @@
       "region": "",
       "publishedAt": "2026-11-20T17:58:09+00:00",
       "originalUrl": "https://indonesian.ajel.sa/ekonomi/bak3nv9l2"
-    },
-    {
-      "id": "31c8abd5c3d21ebe",
-      "title": "Pembalasan atas serangan koalisi terhadap pembangkit listrik Saudi.",
-      "description": "Pembalasan atas serangan koalisi terhadap pembangkit listrik Saudi dan pelabuhan Yemen pada hari Jumat mengatakan bahwa mereka telah menyerang pembangkit listrik di Arab Saudi Al- Shuqaiq dan pelabuhan Jizan, dalam menanggapi Saudi-dipimpin koalisi menyerang Yaman. \"Dengan bantuan Tuhan, angkatan bersenjata kami melakukan operasi militer presisi menargetkan pembangkit listrik Al- Shuqaiq dan Pelabuhan Jizan. Serangan itu akurat dan langsung, menyebabkan kerusakan parah,\" Juru bicara militer Houthi Yahya Saree mengatakan pada X Saree bilang serangan itu merupakan respon atas serangan koalisi terhadap pembangkit listrik Saada dan Mokha, dan pada salah satu badai di pelabuhan Hodeidah lebih awal pada hari itu. \"Kami meyakinkan musuh Saudi bahwa setiap serangan di Port of Hodeidah atau stasiun daya akan bertemu dengan respon langsung menargetkan pelabuhan dan stasiun listrik\", katanya. Pada hari Jumat, koalisi meluncurkan apa yang disebut \"operasi khusus\", menyerang Hodeidah juga target di Sanaa, Saada dan Taiz. Houthis mengatakan serangan menewaskan 41 orang dalam 24 jam terakhir.",
-      "originalTitle": "Houthis retaliate for coalition strikes with attack on Saudi power station and port",
-      "originalDescription": "Houthis retaliate for coalition strikes with attack on Saudi power station and port Yemen’s Houthis said on Friday that they had attacked a power station in Saudi Arabia’s Al-Shuqaiq and the port of Jizan, in response to Saudi-led coalition strikes on Yemen. “With God’s help, our armed forces carried out a precision military operation targeting the Al-Shuqaiq power station and the Port of Jizan. The strikes were accurate and direct, causing extensive damage,” Houthi military spokesman Yahya Saree said on X. Saree said the attack was a response to coalition strikes on the Saada and Mokha power stations, and on one of the quays at Hodeidah port earlier in the day. “We assure the Saudi enemy that any attack on the Port of Hodeidah or power stations will be met with an immediate response targeting its ports and power stations,” he wrote. On Friday, the coalition launched what it called a “special operation”, striking Hodeidah as well as targets in Sanaa, Saada and Taiz. The Houthis said strikes killed 41 people in the past 24 hours.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/063_2305953310%281%29.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-20T17:44:37+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-retaliate-coalition-strikes-attack-saudi-power-station-and-port"
-    },
-    {
-      "id": "7b81a7e392caf73c",
-      "title": "Houthis mengatakan 41 tewas sebagai Saudi- dipimpin koalisi meluncurkan 'operasi khusus' di Yaman",
-      "description": "Houthis mengatakan 41 tewas sebagai Saudi- dipimpin koalisi meluncurkan 'operasi khusus' di Yaman Saudi- dipimpin koalisi serangan di Yaman menewaskan 41 orang dalam 24 jam terakhir, Houthis mengatakan pada hari Jumat, setelah koalisi menyerang kota pelabuhan Laut Merah Hodeidah dan target lainnya dalam apa yang disebut \"operasi khusus\". Koalisi mengatakan hal itu memukul penyelundupan dan senjata-transportasi operasi di Hodeidah sementara juga melaksanakan serangan di Sanaa, Saada dan Taiz mengatur. Sementara itu, Houthis telah bersumpah untuk menyerang Jeddah dan pelabuhan Laut Merah Saudi lainnya jika Hodeidah diserang, sementara peringatan penerbangan bahwa udara Saudi \"tidak aman\". Mereka juga mengancam distrik keuangan Riyadh dan pembangkit listrik di Al- Shuqaiq. \"Kami menargetkan kemampuan operasional di pelabuhan Hodeidah yang digunakan dalam operasi penyelundupan dan pengiriman senjata dan rudal balistik\", Juru bicara Koalisi Saudi Turki al- Malki diposting di X Koalisi menyerang \"target militer\" di Sanaa, termasuk fasilitas rudal dan drone dan depot pasokan, ia menambahkan. Dua rudal balistik dicegat selama daerah Jizan dekat perbatasan Yaman, ia diposting kemudian, dengan puing-puing jatuh di Al- Shuqaiq. The Houthis 'Al- Masirah siaran televisi gambar dari pembangkit listrik rusak di Mokha setelah serangan udara koalisi. HANYA DI: Arab Saudi telah melanda pelabuhan Hodeidah Yaman, menjadi negara ketiga untuk menyerang pelabuhan strategis setelah Amerika Serikat dan Israel. Dalam menanggapi Ansarallah memperingatkan bahwa Jeddah, pelabuhan Jizan dan Yanbu, bersama dengan distrik keuangan Riyadh, akan menjadi target. https: / / t.co / lHCVGpfkxf - Laporan Saat ini (@ Recentreporter 1) November 20, 2026",
-      "originalTitle": "Houthis say 41 killed as Saudi-led coalition launches 'special operation' in Yemen",
-      "originalDescription": "Houthis say 41 killed as Saudi-led coalition launches 'special operation' in Yemen Saudi-led coalition strikes on Yemen killed 41 people in the past 24 hours, the Houthis said on Friday, after the coalition attacked the Red Sea port city of Hodeidah and other targets in what it called a “special operation”. The coalition said it hit smuggling and weapons-transporting operations in Hodeidah while also carrying out attacks in Sanaa, Saada and Taiz governorates. Meanwhile, Houthis had vowed to hit Jeddah and other Saudi Red Sea ports if Hodeidah was attacked, while warning airlines that Saudi airspace was “unsafe”. They also threatened Riyadh’s financial district and a power station in Al-Shuqaiq. “We targeted operational capabilities at Hodeidah port that were used in smuggling operations and the transport of weapons and ballistic missiles,” Saudi coalition spokesman Turki al-Malki posted on X. The coalition hit “military targets” in Sanaa, including missile and drone facilities and a supply depot, he added. Two ballistic missiles were intercepted over the Jizan region near the Yemen border, he posted later, with debris falling in Al-Shuqaiq. The Houthis’ Al-Masirah television broadcast images of a damaged power station in Mokha after a coalition air raid. JUST IN: Saudi Arabia has struck Yemen's Hodeidah port, becoming the third country to attack the strategic port after the United States and Israel. In response Ansarallah warned that Jeddah, Jizan and Yanbu ports, along with Riyadh's financial district, would be targeted. https://t.co/lHCVGpfkxf — Current Report (@Currentreport1) November 20, 2026",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/063_2305953310%281%29.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-20T16:57:08+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-41-killed-saudi-led-coalition-launches-special-operation"
-    },
-    {
-      "id": "b581d7a66dc72540",
-      "title": "Fergie Chambers dirilis di Spanyol sebagai AS mengakui kesalahan terjemahan pengadilan",
-      "description": "Fergie Chambers dibebaskan di Spanyol karena AS mengakui kesalahan terjemahan pengadilan yang diikuti oleh Amandla Thomas- Johnson di Fri, 11 / 20 / 2026 - 15: 53 pro- Palestina aktivis Amerika 'senang untuk menghirup udara segar' berikut pembebasan bersyarat dari penjara sementara ia memerangi permintaan ekstradisi AS Fergie Chambers di luar Aranjuez penjara berikut pembebasannya pada hari Jumat, 20 November 2026 (Reuters) Off Fergie Chambers, donor provinsi-Palestina yang ditahan di Spanyol mengikuti permohonan ekstradisi, yang diberikan pada Jumat tersebut. Berbicara di luar penjara Aranjuez pada hari Jumat setelah pembebasannya, Chambers menjelaskan tuduhan terhadap dirinya sebagai \"tidak berdasar\" dan mengatakan dia berharap pembebasannya adalah \"langkah pertama dalam proses mengakui bahwa internasional\". \"Saya pikir kasus ini penting untuk hak asasi manusia, untuk orang-orang yang ingin berbicara di mana saja di dunia\", katanya. Keputusan dari Ruang Kriminal Pengadilan Nasional Spanyol, dikenal sebagai Audiencia Nacional, datang setelah Chambers telah menghabiskan lebih dari empat bulan dalam tahanan sejak penahanannya di Ibiza pada bulan Juli. Dalam kuasanya, dilihat oleh Mata Timur Tengah, pengadilan mengatakan kesalahan dalam terjemahan dokumen yang diajukan oleh pihak berwenang AS telah menimbulkan keraguan pada keandalan permintaan ekstradisi dan melemahkan dasarnya. Para hakim menemukan bahwa pembangunan tampaknya mengurangi risiko dari melarikan diri Chambers dan berarti bahwa nya lanjutan penahanan tidak bisa lagi dibenarkan. Pembebasannya tunduk pada beberapa kondisi, termasuk penampilan mingguan sebelum pengadilan terdekat kediamannya setiap Senin, menyerahkan paspornya, larangan untuk meninggalkan Spanyol dan kewajiban untuk muncul di hadapan pengadilan setiap kali dipanggil. Pengadilan juga menunda keputusan apakah akan memberikan ekstradisi sementara masalah terjemahan diperiksa. \"Saya pikir kasus ini penting untuk hak asasi manusia, bagi orang-or",
-      "originalTitle": "Fergie Chambers released in Spain as US admits court translation errors",
-      "originalDescription": "Fergie Chambers released in Spain as US admits court translation errors Submitted by Amandla Thomas-Johnson on Fri, 11/20/2026 - 15:53 American pro-Palestinian activist is 'happy to breathe fresh air' following conditional release from prison as he fights US extradition request Fergie Chambers outside Aranjuez prison following his release on Friday, 20 November 2026 (Reuters) Off Fergie Chambers, the American pro-Palestinian donor detained in Spain following a US extradition request, was granted provisional release on Friday after the Trump administration admitted to “substantial” translation errors in court documents submitted in support of its case. Speaking outside Aranjuez prison on Friday following his release, Chambers described the charges against him as “baseless” and said he hoped his release was “the first step in a process of recognising that internationally”. “I think this case is important for human rights, for people who want to speak out anywhere in the world,” he said. The decision by the Criminal Chamber of Spain's National Court, known as the Audiencia Nacional, comes after Chambers had spent more than four months in custody since his arrest in Ibiza in July. In its ruling, seen by Middle East Eye, the court said errors in the translation of documents submitted by US authorities had cast doubt on the reliability of the extradition request and weakened its basis. The judges found that the development appeared to reduce the risk of Chambers fleeing and meant that his continued detention could no longer be justified. His release is subject to several conditions, including weekly appearances before the court nearest his residence every Monday, surrendering his passport, a prohibition on leaving Spain and an obligation to appear before the court whenever summoned. The court has also suspended its decision on whether to grant extradition while the translation issues are examined. 'I think this case is important for human rights, for people who want to sp",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/spain-fergie-chambers-november-2025-reuters.jpg.jpg?itok=xMmL2rsQ",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-20T16:48:11+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/fergie-chambers-released-spain-us-admits-court-translation-errors"
-    },
-    {
-      "id": "cbf460cf51f71121",
-      "title": "Kesepakatan konsep Cop31 'terburuk yang pernah ada', kampanye memperingatkan",
-      "description": "Kesepakatan konsep Cop31 'yang terburuk yang pernah ada', para kampanye memperingatkan Diberikan oleh Katherine Hearst pada Fri, 11 / 20 / 2026 - 14: 55 Sebuah konsep kedua dari teks kunci merangkum pembicaraan iklim telah mereferensikan sebuah fase dari bahan bakar fosil yang telah dihapus sementara yang berpusat pada teknologi penangkapan karbon Cop31 konferensi iklim diadakan di Antalya Expo Centre di Turki (AFP) dari kampanye keadilan iklim telah memukul keluar pada hasil rancangan pembicaraan iklim global, menggambarkannya sebagai \"terburuk\" dalam sejarah konferensi tersebut. Perjanjian draft, yang menguraikan komitmen kunci dari konferensi iklim Cop31 di Turki, telah dilucuti dari semua referensi mengenai fase- dari bahan bakar fosil, tetapi didukung \"mempercepat penangkapan karbon, utilisasi dan penyimpanan\", dimana aktor masyarakat sipil telah dicemooh sebagai \"solusi palsu\" untuk kerusakan iklim. \"Bahasa yang jauh lebih lemah di seluruh front, dan secara keseluruhan, ketika kita melihatnya, agresif, pelacakan balik, dan tidak akan membantu negara-negara berkembang\", Harjeet Singh, penasihat strategis ke Fuel Fosil Treatty Initiative, kata Mata Timur Tengah. \"Sebaliknya, itu akan membantu sektor swasta, industri bahan bakar fosil, dan itu bukan apa yang kita datang ke sini untuk,\" kata Singh. \"Keputusan penutup\" adalah teks overarching yang merangkum hasil negosiasi yang berbeda, berisi janji janji yang dimaksudkan untuk memenuhi tujuan Perjanjian Paris. Sebuah draft awal yang muncul pada hari Senin sangat diedit, dengan banyak komitmen utama, termasuk transisi jauh dari bahan bakar fosil dan target $120bn untuk keuangan untuk membantu negara-negara berkembang beradaptasi dengan krisis iklim, dilucuti. Secara radikal, teks substitusi terbaru komitmen untuk \"transisi jauh dari bahan bakar fosil\" untuk janji untuk \"transisi global tidak dapat dikembalikan menuju emisi gas rumah kaca rendah dan daya tahan iklim\". Draft baru ini juga pusat kontroversial teknolog",
-      "originalTitle": "Cop31 draft agreement ‘the worst ever', campaigners warn",
-      "originalDescription": "Cop31 draft agreement ‘the worst ever', campaigners warn Submitted by Katherine Hearst on Fri, 11/20/2026 - 14:55 A second draft of the key text summarising the climate talks had references to a phase out of fossil fuels removed while centring carbon capture technologies The Cop31 climate conference is being held at the Antalya Expo Centre in Turkey (AFP) Off Climate justice campaigners have hit out at the draft outcome of the global climate talks, describing it as the “worst” in the conference’s history. The draft agreement, which outlines the key commitments of the Cop31 climate summit in Turkey, was stripped of all references to a phase-out of fossil fuels, but backed “accelerating carbon capture, utilisation and storage”, which civil society actors have derided as a “false solution” to climate breakdown. “It's much weaker language across all fronts, and overall, when we look at it, it’s aggressive, it is backtracking, and it's not going to help developing countries,\" Harjeet Singh, strategic adviser to the Fossil Fuel Treaty Initiative, told Middle East Eye. \"Rather, it is going to help the private sector, fossil fuel industry, and that is not what we came here for,” Singh said. The “cover decision” is an overarching text which summarises the different negotiation outcomes, containing pledges intended to meet the goals of the Paris Agreement. An initial draft which appeared on Monday was heavily edited, with many of the main commitments, including a transition away from fossil fuels and a $120bn target for finance to help developing countries adapt to the climate crisis, stripped out. Crucially, the latest text substitutes a commitment to “transition away from fossil fuels” for a pledge to “irreversible global transition towards low greenhouse gas emissions and climate resilience”. The new draft also centres controversial carbon capture technologies, pledging to increase them 20- to 40-fold by 2035. Cop31: Turkey signs $5.1bn loan deals to boost green transition",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Untitled_95.jpg.jpg?itok=mzscUP0x",
-      "category": "Palestina",
-      "tags": [
-        "Palestina",
-        "Arab Saudi"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-20T16:31:24+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/cop31-draft-agreement-worst-history-campaigners-warn"
-    },
-    {
-      "id": "8a2ef12db77f08c3",
-      "title": "Pasukan keamanan Irak menyebar di benteng Kataeb Hezbollah berikut 'kompromi' kesepakatan",
-      "description": "Pasukan keamanan Irak menyebar di benteng Kataeb Hezbollah berikut 'kompromi' kesepakatan Diberikan oleh Alex MacDonald pada Fri, 11 / 20 / 2026 - 14: 49 Meskipun kesepakatan dengan Baghdad, banyak yang masih melihat risiko konflik terbuka dengan Iran- didukung anggota-anggota polisi Irak menyebar di Jurf al-Sakhar, pemerintahan Babil, di selatan Baghdad, pada 20 November 2026 (Ahmad al- Rubaye / AFP) Layanan keamanan Irak memasuki benteng-Hezbollah Kataeb pada hari Jumat mengikuti kesepakatan dengan militer Iran yang kuat yang menghindari konflik terbuka. Wartawan lokal melaporkan pasukan polisi melewati pos pemeriksaan yang berawak oleh Kataeb Hezbollah di Jurf al- Sakhar, selatan Baghdad. \"Pasukan gabungan Irak mulai memasuki area [Jurf al-Sakhar] untuk menyebar kembali ke sana\", laporan media negara bagian. Kataeb Hezbollah telah diberikan sampai Jumat untuk menyerahkan kendali daerah tersebut. Perdana Menteri Ali Al- Zaidi telah menempatkan pasukan keamanan di pinggiran, siap untuk masuk dengan paksa. Pihak berwenang menuduh Kataeb Hezbollah yang menjalankan sebuah cincin penyelundupan dari Jurf al- Sakhar yang menyedot ratusan juta dolar senilai minyak negara. Namun, tiga petugas keamanan senior mengatakan kepada Reuters pada hari Kamis bahwa kesepakatan telah tercapai untuk memungkinkan pasukan pemerintah untuk memasuki kota pada hari Jumat. Kesepakatan itu ditengahi oleh pemimpin politik senior Syiah. Esmail Qaani, komandan pasukan elit Iran, juga tiba di Baghdad pada hari Senin untuk membantu meredakan situasi. Sebagai AS menarik pasukannya keluar dari Irak, apa yang terjadi dengan Iran- didukung kelompok bersenjata? Baca lagi \"Lieutenant- Jenderal Saad Maan, kepala Keamanan Irak Media Cell, mengatakan pasukan kelompok bersenjata akan pindah ke daerah lain dan kantor pusat baru melaporkan kepada polisi federal akan mulai beroperasi di Jurf al- Sakhar. Dia mengatakan kepada TV negara pada hari Jumat bahwa ada sejauh ini telah\" kerjasama yang sangat baik \"den",
-      "originalTitle": "Iraq security forces deploy in Kataeb Hezbollah stronghold following 'compromise' deal",
-      "originalDescription": "Iraq security forces deploy in Kataeb Hezbollah stronghold following 'compromise' deal Submitted by Alex MacDonald on Fri, 11/20/2026 - 14:49 Despite the agreement with Baghdad, many still see a risk of open conflict with Iran-backed groups Members of the Iraqi Federal Police deploy in Jurf al-Sakhar, Babil governorate, south of Baghdad, on 20 November 2026 (Ahmad al-Rubaye/AFP) Off Iraq's security services entered Kataeb Hezbollah's stronghold on Friday following a deal with the powerful Iran -backed paramilitary that narrowly avoided open conflict. Local journalists reported police forces passing through checkpoints manned by Kataeb Hezbollah in Jurf al-Sakhar, south of Baghdad. \"Joint Iraqi forces began entering the [Jurf al-Sakhar] area to redeploy there,\" state media reported. Kataeb Hezbollah had been given until Friday to hand over control of the area. Prime Minister Ali al-Zaidi had stationed security forces on its outskirts, ready to enter by force. Officials had accused Kataeb Hezbollah of running a smuggling ring from Jurf al-Sakhar that siphoned off hundreds of millions of dollars' worth of state-owned oil. However, three senior security officials told Reuters on Thursday that a deal had been reached to allow government forces to enter the town on Friday. The deal was brokered by senior Shia political leaders. Esmail Qaani, commander of Iran's elite Quds Force, also arrived in Baghdad late on Monday to help defuse the situation. As the US pulls its forces out of Iraq, what happens to Iran-backed armed groups? Read More » Lieutenant-General Saad Maan, head of Iraq's Security Media Cell, said the armed group's forces would move to other areas and a new headquarters reporting to the federal police would begin operating in Jurf al-Sakhar. He told state TV on Friday that there had so far been \"very good cooperation\" with Kataeb Hezbollah brigades within the Hashd al-Shaabi, also known as Popular Mobilisation Forces (PMF), an umbrella group nominally answerabl",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/IRAQ_JURF_AFP.jpg.jpg?itok=QuNokgXj",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-20T15:52:23+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/iraq-security-forces-deploy-kataeb-hezbollah-stronghold-following-compromise-deal"
-    },
-    {
-      "id": "a3ec511c5c2507ac",
-      "title": "Sepertiga serangan pada anak-anak di seluruh dunia direkam di Palestina",
-      "description": "Hampir satu dari tiga laporan pelanggaran terhadap anak-anak di seluruh dunia terjadi di Palestina pada tahun 2025.",
-      "originalTitle": "One third of attacks on children worldwide recorded in Palestine",
-      "originalDescription": "Almost one in three reported violations against children worldwide occurred in Palestine in 2025.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/Screenshot-2026-11-20-at-15.45.20-1795189633.png?resize=1200%2C675",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Al Jazeera",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-20T15:50:28+00:00",
-      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/20/one-third-of-attacks-on-children-worldwide-recorded-in-palestine"
-    },
-    {
-      "id": "e34f3a89f0987d3e",
-      "title": "Yerusalem Daily: orang Palestina kembali ke rumah untuk reruntuhan",
-      "description": "Orang Palestina kembali untuk menemukan rumah mereka menjadi puing-puing setelah Israel menyerang, seperti serangan di Gaza berlanjut.",
-      "originalTitle": "Jerusalem Daily: Palestinians return home to ruins",
-      "originalDescription": "Palestinians return to find their homes reduced to rubble after Israel’s ground offensive, as attacks on Gaza continue.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795189286.jpg?resize=1920%2C1080&quality=80",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Al Jazeera",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-20T15:42:04+00:00",
-      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/20/jerusalem-daily-palestinians-return-home-to-ruins"
-    },
-    {
-      "id": "33d86c035b3f0b95",
-      "title": "Saudi- pasukan didukung mempertahankan serangan di pelabuhan Hodeidah Yaman",
-      "description": "Pasukan Saudi- didukung serangan pada pelabuhan Hodeidah Yaman pasukan didukung telah mempertahankan serangan Saudi Arab terbaru pada pelabuhan sipil Yaman Hodeidah, dengan jumlah korban dari serangan hari ini masih belum diketahui. Salem al- Awaqi, menteri informasi dalam pemerintahan yang didukung Saudi, mengatakan kepada pemerintah - menjalankan biro berita Saba bahwa operasi menargetkan fasilitas diduga digunakan oleh Houthis untuk menyelundupkan senjata ke Yaman. \"Operasi ini menargetkan komponen tertentu dari fasilitas pelabuhan yang digunakan untuk mengangkut senjata selundupan, terutama rudal balistik, dari kapal penyelundupan\", katanya, menuduh Houthis menyeret port ke dalam konflik. \"Kami meyakinkan warga bahwa aliran barang-barang penting, bantuan kemanusiaan, dan kegiatan komersial akan terus sesuai dengan pengaturan yang ditetapkan,\" al- Awaqi klaim. Sebuah serangan awal Saudi di pelabuhan pada 17 November menewaskan setidaknya 15 orang.",
-      "originalTitle": "Saudi-backed forces defend strikes on Yemen's Hodeidah port",
-      "originalDescription": "Saudi-backed forces defend strikes on Yemen's Hodeidah port Saudi-backed forces have defended Saudi Arabia's latest attack on Yemen's civilian port of Hodeidah, with the number of casualties from today's strikes still unknown. Salem al-Awalqi, the information minister in Yemen’s Saudi-backed government, told the government-run Saba news agency that the operation targeted facilities allegedly used by the Houthis to smuggle weapons into Yemen. “The operation targeted specific components of the port facilities used to transport smuggled weapons, particularly ballistic missiles, from smuggling vessels,” he said, accusing the Houthis of dragging the port into the conflict. “We reassure citizens that the flow of essential goods, humanitarian aid, and commercial activities will continue in accordance with established arrangements,” al-Awalqi claimed. An earlier Saudi strike on the port on 17 November killed at least 15 people.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/063_2305953310%281%29.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-20T15:34:29+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-backed-forces-defend-strikes-yemens-hodeidah-port"
-    },
-    {
-      "id": "afff0fd23fb013f3",
-      "title": "Film Palestina dan Israel menampilkan bayangan realitas yang berbeda di tengah genosida",
-      "description": "Film-film Palestina dan Israel menampilkan gambaran realitas yang berbeda di tengah genosida yang difilmkan oleh Joseph Fahim di Fri, 11 / 20 / 2026 - 09: 59 Hosam Abu Dan 's Thirteen di Gaza dan Ahmed Hassouna Citizen Osama difilmkan di tengah kehancuran Tiga belas di Gaza adalah eksplorasi kebusukan moral yang mempengaruhi masyarakat yang mengalami pembantaian (Toronto International Film Festival) Off a year after the so-disebut gencatan senjata perjanjian antara Israel dan Hamas pada Oktober 2025, Palestina dan Israel sinema telah berebut untuk menangkap realitas volatile dibentuk oleh pertanyaan lebih kompleks daripada mereka yang muncul segera setelah 7 Oktober. Mempertahankan martabat seseorang ketika selamat dari kampanye dehumanising yang sadis menargetkan warga sipil adalah penetapan utama dari beberapa film tentang Gaza dirilis antara 2024 dan awal 2026. Musim gugur 2026, bagaimanapun, menawarkan serangkaian pertanyaan yang berbeda: dinamika daya yang sangat tidak simetris antara Israel agresor dan Palestina; kemampuan dari apa yang sekarang menjadi mimpi layu dari dua negara; rasa sakit yang tertinggal untuk tanah air yang hilang, irretrivable; dan yang baru terekspos, tidak menyenangkan realitas ekonomi informal Gaza. Sebagai keberhasilan kolosal NAZA telah dibuat jelas, Gaza akan terus mendominasi narasi bioskop di Palestina untuk masa depan yang bisa diperkirakan. Namun, ketika musim gugur ini tanaman film menunjukkan, dimensi baru secara bertahap akan menjadi fokus sebagai pembuat film Palestina terus bergulat dengan medan tidak pasti posting - 7 Oktober. Sementara itu, perfilman Israel akan tetap terpecah, terjebak antara tekanan yang dihasilkan oleh pemimpin politik Jingoist yang putus asa untuk memberikan negara mereka karakter PR dan dorongan bersaing dari pembuat film kiri berusaha untuk mengembalikan posisi internasional yang berkurang dari sebuah bioskop nasional yang motivasinya hanya dapat dinilai pada kasus-kasus kasus. Tiga belas di Gaza Fi",
-      "originalTitle": "Palestinian and Israeli films present different shades of reality amid genocide",
-      "originalDescription": "Palestinian and Israeli films present different shades of reality amid genocide Submitted by Joseph Fahim on Fri, 11/20/2026 - 09:59 Hosam Abu Dan's Thirteen in Gaza and Ahmed Hassouna's Citizen Osama were filmed amid destruction Thirteen in Gaza is an exploration of the moral rot that affects a society undergoing genocide (Toronto International Film Festival) Off A year after the so-called ceasefire agreement between Israel and Hamas in October 2025, Palestinian and Israeli cinemas have been scrambling to capture a volatile reality shaped by questions more complex than those that emerged in the immediate aftermath of 7 October. Maintaining one’s dignity while surviving a sadistically dehumanising campaign targeting civilians was the central preoccupation of the handful of films about Gaza released between 2024 and early 2026. The 2026 autumn season, however, offers a different set of inquiries: the deeply asymmetrical power dynamics between the Israeli aggressor and the Palestinians ; the viability of what has now become the wistful dream of a two-state solution; the lingering ache for a lost, irretrievable homeland; and the newly exposed, unflattering realities of Gaza’s informal economy. As the colossal success of NAZA has made evident, Gaza will continue to dominate cinema's narrative on Palestine for the foreseeable future. Yet, as this fall's crop of films suggests, new dimensions will gradually come into focus as Palestinian filmmakers continue to grapple with uncertain terrain post-7 October. Israeli cinema, meanwhile, will remain divided, caught between the pressure exerted by jingoist political leaders desperate to give their country a PR facelift and the competing impulse of leftist filmmakers seeking to restore the diminished international standing of a national cinema whose motivations can only be assessed on a case-by-case basis. Thirteen in Gaza The debut feature by Palestinian filmmaker Hosam Abu Dan is the first narrative film made by a Palestinian ",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/ThirteenInGaza-HERO.jpg.jpg?itok=suPrYSz7",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-20T15:26:16+00:00",
-      "originalUrl": "https://www.middleeasteye.net/discover/made-gaza-palestinian-and-israeli-films-present-different-shades-reality-amidst-genocide"
-    },
-    {
-      "id": "ca7db68e097a3da5",
-      "title": "Eksklusif: dokter Inggris yang dituduh antisemitisme mencari tindakan hukum terhadap regulator selama kebocoran data pribadi",
-      "description": "Ekslusif: dokter Inggris yang dituduh antisemitisme mencari tindakan hukum terhadap regulator atas kebocoran data pribadi Diberikan oleh Amara Sophia Elahi pada Fri, 11 / 20 / 2026 - 14: 08 Para dokter mengeluhkan keamanan mereka setelah Majelis Medis Umum membocorkan data kepada para pekerja kesehatan Pro-Palestina yang berkumpul di alun-alun Parlemen London dengan solidaritas-solidaritas para pekerja medis yang mengalami suspensi melalui pos media sosial, pada tanggal 15 Oktober 2025 (Vuk Valcic / ZUMA Press Wire / Reuters) Off Doctors di Inggris yang telah disebut sebagai Dewan Medis Umum (GMC) untuk dugaan antisemitim dan Islamo (Islamo) mempertimbangkan tindakan yang legal di koran tersebut telah menerbitkan surat kabar sakit tersebut. Kebocoran terjadi setelah Permintaan Kebebasan Informasi yang diajukan oleh Times ke GMC, yang meminta untuk jumlah dokter yang telah mengeluh tentang, diselidiki dan disetujui untuk antisemitisme dan Islammophobia sejak Oktober 2023. Dalam responnya, GMC berbagi nomor referensi 223 dokter, yang memungkinkan mereka untuk diidentifikasi melalui publikasi regulator yang menghadap basis data. GMC juga termasuk rincian etnis dokter, di bawah hukum Inggris adalah karakteristik yang dilindungi. Dalam sebuah surat yang dikirim kepada kelompok dokter minggu ini, Claire Light, kepala kesetaraan GMC, keragaman dan penyertaan, menyatakan bahwa data internal telah dibagikan kepada The Times \"dalam kesalahan, dan regulator secara resmi meminta melalui pengacara mereka bahwa surat kabar menghapus data rahasia dan tidak menyebarkannya. The Times telah mengatakan kepada GMC bahwa itu tidak akan mempublikasikan informasi tetapi akan mempertahankannya. regulator terpaksa menghubungi dokter untuk meminta maaf untuk pengungkapan. Beberapa dokter sebelumnya tidak menyadari keluhan tentang mereka, karena bukti tidak memenuhi ambang batas untuk memulai penyelidikan. Banyak dokter yang terlibat dalam Pro- Palestina sejak dimulainya perang genosida Israe",
-      "originalTitle": "Exclusive: UK doctors accused of antisemitism seek legal action against regulator over personal data leak",
-      "originalDescription": "Exclusive: UK doctors accused of antisemitism seek legal action against regulator over personal data leak Submitted by Amara Sophia Elahi on Fri, 11/20/2026 - 14:08 Doctors complained about over pro-Palestine posts fear for their safety after General Medical Council leaked data to national newspaper Pro-Palestine healthcare workers and protesters gather in London’s Parliament Square in solidarity with medical workers facing suspension over social media posts, on 15 October 2025 (Vuk Valcic/ZUMA Press Wire/Reuters) Off Doctors in the UK who have been referred to the General Medical Council (GMC) for alleged antisemitism and Islamophobia are considering legal action after the regulator leaked sensitive data about them to The Times newspaper, Middle East Eye has learned. The leak occurred following a Freedom of Information request submitted by the Times to the GMC, which asked for the number of doctors who had been complained about, investigated and sanctioned for antisemitism and Islamophobia since October 2023. In its response, the GMC shared the reference numbers of 223 doctors, which allows them to be identified through the regulator’s public-facing database. The GMC also included details of doctors’ ethnicities, which under UK law is a protected characteristic. In a letter sent to doctors' groups this week, Claire Light, the GMC’s head of equality, diversity and inclusion, stated that internal data had been shared with The Times “in error”, and that the regulator had formally requested through their lawyers that the newspaper deletes the confidential data and does not disseminate it. The Times has told the GMC that it will not publish the information but will retain it. The regulator was forced to contact doctors affected to apologise for the disclosure. Some doctors were not previously aware of complaints about them, because the evidence did not meet the threshold for initiating an investigation. Many doctors who have been involved in pro- Palestine advocacy sinc",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Pro-Palestine-healthcare-workers-London-suspension-social-media-posts-15-October-2025-Valcic-ZUMA-Reuters.JPG.jpg?itok=D2IHkf8j",
-      "category": "Dunia Muslim",
-      "tags": [
-        "Dunia Muslim",
-        "Islamofobia dan Diskriminasi",
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-20T15:21:21+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/exclusive-uk-doctors-accused-antisemitism-seek-legal-action-against-regulator-over-personal"
-    },
-    {
-      "id": "6ec60e758e68a783",
-      "title": "Wamenlu: Sumud Flotilla Ubah Isu Palestina Jadi Perlawanan Kemanusiaan Global",
-      "description": "JAKARTA -- Wakil Menteri Luar Negeri (Wamenlu) RI, Anis Matta, menilai gerakan Sumud Flotilla telah mengangkat isu Palestina melampaui sekat agama dan geografi. Gerakan ini dinilai mengubah perjuangan Palestina...",
-      "originalTitle": "Wamenlu: Sumud Flotilla Ubah Isu Palestina Jadi Perlawanan Kemanusiaan Global",
-      "originalDescription": "JAKARTA -- Wakil Menteri Luar Negeri (Wamenlu) RI, Anis Matta, menilai gerakan Sumud Flotilla telah mengangkat isu Palestina melampaui sekat agama dan geografi. Gerakan ini dinilai mengubah perjuangan Palestina...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/_261120212736-873.png",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Republika",
-      "sources": [
-        "Republika"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-20T15:08:34+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/tot3ea430/wamenlu-sumud-flotilla-ubah-isu-palestina-jadi-perlawanan-kemanusiaan-global"
-    },
-    {
-      "id": "9892b94249c10db7",
-      "title": "Pameran Sumud of Palestine Ajak Publik Rasakan Sisi Kemanusiaan Rakyat Palestina",
-      "description": "JAKARTA -- Pemimpin Redaksi Republika Andi (Dio),Muhyiddin mengajak masyarakat untuk tidak sekadar melihat penderitaan rakyat Palestina sebagai rutinitas berita dan deretan angka statistik. Namun, merasakannya sebagai kisah kemanusiaan melalui...",
-      "originalTitle": "Pameran Sumud of Palestine Ajak Publik Rasakan Sisi Kemanusiaan Rakyat Palestina",
-      "originalDescription": "JAKARTA -- Pemimpin Redaksi Republika Andi (Dio),Muhyiddin mengajak masyarakat untuk tidak sekadar melihat penderitaan rakyat Palestina sebagai rutinitas berita dan deretan angka statistik. Namun, merasakannya sebagai kisah kemanusiaan melalui...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/_261120213637-665.png",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Republika",
-      "sources": [
-        "Republika"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-20T15:05:03+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/tot38f430/pameran-sumud-of-palestine-ajak-publik-rasakan-sisi-kemanusiaan-rakyat-palestina"
-    },
-    {
-      "id": "69e36cfde57d8fab",
-      "title": "Empat Warga Saudi Ditangkap karena Edarkan Narkoba di Asir dan Wilayah Timur",
-      "description": "Direktorat Jenderal Narkotika Arab Saudi menangkap empat warga atas dugaan peredaran pil terlarang, amfetamin, dan ganja di Asir serta Wilayah Timur.",
-      "originalTitle": "Empat Warga Saudi Ditangkap karena Edarkan Narkoba di Asir dan Wilayah Timur",
-      "originalDescription": "Direktorat Jenderal Narkotika Arab Saudi menangkap empat warga atas dugaan peredaran pil terlarang, amfetamin, dan ganja di Asir serta Wilayah Timur.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-l-rvFCXJ.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-20T14:56:30+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/lsk11f3pf"
-    },
-    {
-      "id": "4ce3712d84253238",
-      "title": "Koalisi Saudi dan pertukaran Houthis ancaman ke port kunci bom",
-      "description": "Yemen Houthis telah memperingatkan maskapai aktivitas militer di wilayah udara Saudi dalam beberapa jam mendatang.",
-      "originalTitle": "Saudi coalition and Houthis exchange threats to bomb key ports",
-      "originalDescription": "Yemen's Houthis have warned airlines of military activity in Saudi airspace in the coming hours.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/epa_6b003d8ba895-1795177867.jpg?resize=1200%2C675",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Al Jazeera",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-20T14:48:04+00:00",
-      "originalUrl": "https://www.aljazeera.com/news/2026/11/20/saudi-coalition-and-houthis-exchange-threats-to-bomb-key-ports"
-    },
-    {
-      "id": "123b45f90dcdfdd7",
-      "title": "Koalisi Arab Saudi Hancurkan 7 Target Militer Houthi di Yaman",
-      "description": "Koalisi Arab Saudi mengumumkan telah menghancurkan tujuh target militer yang digunakan untuk mendukung operasi militer kelompok Houthi di Yaman.",
-      "originalTitle": "Koalisi Arab Saudi Hancurkan 7 Target Militer Houthi di Yaman",
-      "originalDescription": "Koalisi Arab Saudi mengumumkan telah menghancurkan tujuh target militer yang digunakan untuk mendukung operasi militer kelompok Houthi di Yaman.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-nUKZS74k.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-20T14:44:53+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/r5grtsid3"
-    },
-    {
-      "id": "07c85682328bf65a",
-      "title": "Koalisi meluncurkan operasi militer besar untuk menetralisir ancaman Houthi terhadap Arab Saudi",
-      "description": "RIYADH - Komando Pasukan Gabungan Koalisi untuk mengembalikan Legitimasi di Yaman diluncurkan pada hari Jumat sebuah operasi militer untuk menetralisir sumber ancaman yang digunakan oleh milisi teroris Houthi untuk menargetkan warga sipil di Arab Saudi dan Yaman, termasuk fasilitas penting yang mendukung kegiatan militernya. Koalisi mengatakan operasi ini menargetkan kemampuan militer Houthi dan infrastruktur yang terlibat dalam penyelundupan senjata dan transportasi, menambahkan operasi yang terus berlanjut terhadap target militer di pemerintahan Sanaa, Saada dan Taiz. Koalisi mengumumkan penghancuran tujuh target militer sah yang telah ditunjuk untuk penggunaan militer dan mendukung kegiatan militer Houthis '. Ini juga menegaskan penghancuran enam lokakarya yang digunakan oleh milisi untuk mendukung kemampuan militernya. Koalisi mengatakan operasinya di Sanaa difokuskan untuk menghancurkan dan menetralkan sumber ancaman untuk mencegah serangan terhadap warga sipil di Arab Saudi dan Yaman. Ini juga mengumumkan netralisasi dari salah satu milisi teroris Houthi fasilitas pasokan utama di Sanaa. Komando Pasukan Gabungan sebelumnya telah memanggil warga sipil untuk mengevakuasi pelabuhan Hodeidah sesuai dengan peta yang menyertai untuk memastikan keselamatan mereka.",
-      "originalTitle": "Coalition launches major military operation to neutralize Houthi threats against Saudi Arabia",
-      "originalDescription": "RIYADH — The Joint Forces Command of the Coalition to Restore Legitimacy in Yemen launched on Friday a military operation to neutralize sources of threat used by the Houthi terrorist militia to target civilians in Saudi Arabia and Yemen, including vital facilities supporting its military activities.The coalition said the operation targeted Houthi military capabilities and infrastructure involved in weapons smuggling and transportation, adding that operations were continuing against military targets in the governorates of Sanaa, Saada and Taiz.The coalition announced the destruction of seven legitimate military targets that had been designated for military use and supporting the Houthis’ military activities.It also confirmed the destruction of six workshops used by the militia to support its military capabilities.The coalition said its operations in Sanaa focused on destroying and neutralizing sources of threat to prevent attacks against civilians in Saudi Arabia and Yemen.It also announced the neutralization of one of the Houthi terrorist militia’s main supply facilities in Sanaa.The Joint Forces Command had earlier called on civilians to evacuate the port of Hodeidah in accordance with an accompanying map to ensure their safety.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/20/2797276.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-20T14:36:21+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666410/saudi-arabia/coalition-launches-major-military-operation-against-houthi-threats-in-yemen"
-    },
-    {
-      "id": "9c5654f71f3a261f",
-      "title": "Israel menyebabkan lima luka di Palestina di pusat Gaza",
-      "description": "Israel meluluhkan lima orang Palestina di pusat Gaza Lima orang Palestina telah terluka, beberapa kritis, setelah artileri Israel menargetkan area di dekat kamp pengungsi di pusat Gaza, Badan Berita Wafa melaporkan. Badan berita Palestina juga mengatakan pasukan Israel meledakkan bahan peledak untuk menghancurkan bangunan timur Khan Younis di Gaza selatan.",
-      "originalTitle": "Israeli shelling wounds five Palestinians in central Gaza",
-      "originalDescription": "Israeli shelling wounds five Palestinians in central Gaza Five Palestinians have been wounded, some critically, after Israeli artillery targeted an area near the al-Maghazi refugee camp in central Gaza, the Wafa news agency reports. The Palestinian news agency also says Israeli forces detonated explosives to destroy buildings east of Khan Younis in southern Gaza.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/063_2305953310%281%29.jpg",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-20T14:22:18+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-shelling-wounds-five-palestinians-central-gaza"
-    },
-    {
-      "id": "52398933d13cf840",
-      "title": "Koalisi Dukung Pemerintah Yaman Luncurkan Operasi Militer terhadap Houthi, Sasar Fasilitas di Pelabuhan Hodeidah",
-      "description": "Koalisi Dukung Pemerintah Yaman memulai operasi militer untuk menetralkan ancaman Houthi yang membidik warga sipil di Yaman dan Arab Saudi, termasuk menyerang fasilitas di Pelabuhan Hodeidah.",
-      "originalTitle": "Koalisi Dukung Pemerintah Yaman Luncurkan Operasi Militer terhadap Houthi, Sasar Fasilitas di Pelabuhan Hodeidah",
-      "originalDescription": "Koalisi Dukung Pemerintah Yaman memulai operasi militer untuk menetralkan ancaman Houthi yang membidik warga sipil di Yaman dan Arab Saudi, termasuk menyerang fasilitas di Pelabuhan Hodeidah.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/HXkoEIRW8AAvMDn-YLnjQcuR.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-20T13:50:07+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/haeegx18s"
-    },
-    {
-      "id": "47f3db47b1f764c6",
-      "title": "Enam belas negara kembali sanksi menargetkan ekspansi pemukiman ilegal Israel",
-      "description": "Enam belas negara kembali sanksi menargetkan ekspansi penyelesaian ilegal Israel Diberikan oleh Elis Gjevori pada Fri, 11 / 20 / 2026 - 12: 14 Pernyataan bersama-sama menyambut langkah-langkah terhadap perusahaan-perusahaan penyelesaian dan kelompok pemukim Israel menghalangi bantuan kemanusiaan ke Gaza penduduk Israel yang ingin menduduki Gaza di lapangan di luar Kibbutz Nir- Am oleh batas Israel-Gaza pada 27 September 2026 (Ilia Yefimovich / AFP) dari 16 negara mayoritas Muslim telah menyambut keputusan oleh Inggris dan Australia untuk memaksakan sanksi pemukiman ilegal Israel di Palestina. Dalam sebuah pernyataan bersama, menteri-menteri asing dari negara-negara besar termasuk Mesir, Arab Saudi, Pakistan, Turki, Qatar, Uni Arab Emirat dan Aljazair mengatakan sanksi tersebut datang \"sebagai respon atas aktivitas pemukiman ilegal Israel di wilayah Palestina yang telah diduduki, termasuk mengukur yang melibatkan perusahaan yang terlibat dalam pembangunan pemukiman\". Mereka juga menyambut keputusan Inggris untuk menyetujui organisasi yang menghalangi pengiriman bantuan kemanusiaan ke Gaza. Menteri Luar Negeri Inggris Ed Miliband mengumumkan sanksi pada hari Selasa, tak lama sebelum pemerintah Israel dijadwalkan untuk mengalokasikan tender untuk bloc pemukiman E1, yang secara efektif akan membagi West Bank menjadi dua. Beberapa jam setelah pengumuman, Israel menunda menerbitkan tender untuk pembangunan di pemukiman E1 di Tepi Barat sampai pemerintahan baru dibentuk. Pejabat Israel bersikeras bahwa keputusan itu tidak dalam menanggapi sanksi. Sanctions menargetkan delapan konstruksi Israel, pengembangan properti dan perusahaan arsitektur. Inggris juga mendukung Tsav9, kelompok Israel yang terlibat dalam memblokir pengiriman bantuan ke Gaza. Amerika Serikat sanksi kelompok pada tahun 2024. Kantor Luar Negeri menggambarkan Tsav9 sebagai \"pergerakan aktivis Israel yang menyatakan misinya adalah menghentikan bantuan kemanusiaan memasuki Jalur Gaza, yang telah mengatur dan ",
-      "originalTitle": "Sixteen countries back sanctions targeting Israel’s illegal settlement expansion",
-      "originalDescription": "Sixteen countries back sanctions targeting Israel’s illegal settlement expansion Submitted by Elis Gjevori on Fri, 11/20/2026 - 12:14 Joint statement welcomes measures against settlement firms and an Israeli settler group blocking humanitarian aid to Gaza Israeli settlers who want to occupy Gaza in a field outside Kibbutz Nir-Am by the Israel-Gaza boundary on 27 September 2026 (Ilia Yefimovich/AFP) Off Sixteen Muslim-majority countries have welcomed decisions by the UK and Australia to impose sanctions over Israel’s illegal settlement activities in occupied Palestine . In a joint statement , foreign ministers from major countries including Egypt , Saudi Arabia , Pakistan , Turkey , Qatar , the United Arab Emirates and Algeria said the sanctions came \"in response to illegal Israeli settlement activities in the Occupied Palestinian Territory, including measures targeting companies involved in settlement construction\". They also welcomed the UK’s decision to sanction an organisation obstructing humanitarian aid deliveries to Gaza . UK Foreign Secretary Ed Miliband announced the sanctions on Tuesday, shortly before the Israeli government was scheduled to allocate tenders for the E1 settlement bloc, which would effectively split the occupied West Bank in two. Hours after the announcement, Israel postponed the issuing of tenders for construction in the E1 settlement in the West Bank until a new government is formed. Israeli officials insisted the decision was not in response to the sanctions. The sanctions target eight Israeli construction, property development and architectural firms. The UK also sanctioned Tsav9, an Israeli group involved in blocking aid deliveries into Gaza . The United States sanctioned the group in 2024. The Foreign Office described Tsav9 as \"an Israeli activist movement whose stated mission has been to stop humanitarian aid entering the Gaza Strip, and which has organised and carried out blockades of crossings, ports and roads used by humanitarian a",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_C9H623D.jpg.jpg?itok=dF0vEgQB",
-      "category": "Palestina",
-      "tags": [
-        "Palestina",
-        "Arab Saudi"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-20T13:45:16+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/sixteen-countries-back-sanctions-targeting-israels-illegal-settlement-expansion"
-    },
-    {
-      "id": "b1ed84dcf8d27807",
-      "title": "Ahli Israel memperingatkan putusan genosida Myanmar dapat memperkuat kasus Gaza di ICJ",
-      "description": "Ahli-ahli Israel memperingatkan tindakan genosida Myanmar dapat memperkuat kasus tersebut di ICJ yang dituduhkan oleh Nadav Rapport di Fri, 11 / 20 / 2026 - 12: 48 pejabat Israel dan para ahli hukum, takut pada putusan pengadilan internasional dapat mempengaruhi keputusan akhirnya terhadap kasus genosida di Afrika Selatan terhadap warga Palestina yang tinggal di kemah-kemah yang dibangun di antara reruntuhan rumah-rumah tersebut di Jabalia, Jalur-jalur Gaza Utara (Salah Hashem / Zura Pres Off) dengan para ahli-Palang Nasional yang bertanggung jawab Padang-Padang-Padang-upeti oleh para pengguna Nasional) yang bertanggung jawab di Gaza) \"Ini adalah contoh yang berbahaya\", seorang pejabat senior Israel mengatakan pada Ynet, yang mengacu pada putusan, yang menandai pertama kalinya ICJ telah menemukan negara yang bertanggung jawab atas pembantaian. \"Ini menetapkan parameter dan standar bahwa, diakui, Anda tidak dapat menerapkan satu-ke-satu untuk Israel, tetapi membuka pintu,\" ditambahkan pejabat. Sementara kasus Israel di Gaza \"lebih rumit\", keputusan \"tentu tidak ada gunanya bagi kita\". Pejabat Israel lainnya mengatakan kepada publik penyiar Kan 11 bahwa keputusan merefleksikan \"tren mengkhawatirkan\" di pengadilan PBB atas, tapi bersikeras Israel bisa menghindari keputusan yang sama dalam kasus ini dibawa oleh Afrika Selatan pada Desember 2023. Pejabat mengatakan Israel bisa menahan \"setiap tes hukum\", bersikeras bahwa \"kami tidak melakukan genosida\". Mereka memperkirakan bahwa penghakiman terakhir dalam kasus genosida Gaza tidak akan disampaikan sebelum 2030. Sejak Oktober 2023, ketika Israel meluncurkan serangan militer di Jalur Gaza setelah serangan Hamas- dipimpin 7 Oktober, pejabat PBB, ahli genosida dan organisasi kemanusiaan telah menuduh Israel melakukan genosida di wilayah yang dikepung. Sejak itu, tentara Israel telah membunuh lebih dari 74.000 orang Palestina, kebanyakan dari mereka anak-anak, wanita dan orang-orang tua. Israel juga menggunakan kelaparan seb",
-      "originalTitle": "Israeli experts warn Myanmar genocide ruling could strengthen Gaza case at ICJ",
-      "originalDescription": "Israeli experts warn Myanmar genocide ruling could strengthen Gaza case at ICJ Submitted by Nadav Rapaport on Fri, 11/20/2026 - 12:48 Israeli officials and legal experts fear the International Court of Justice's landmark ruling could influence its eventual judgment on South Africa's genocide case against Israel Displaced Palestinians living in tents set up among the rubble of their destroyed homes in Jabalia, northern Gaza Strip (Salah Hashem/ZUMA Press Wire via Reuters) Off Thursday's landmark ruling by the International Court of Justice (ICJ), holding Myanmar responsible for genocide against its Rohingya minority, has raised alarm among Israeli officials and legal experts over its potential implications for the genocide case against Israel over Gaza. \"This is a dangerous precedent,\" a senior Israeli official told Ynet , referring to the ruling, which marked the first time the ICJ had found a state responsible for committing genocide. \"This sets parameters and standards that, admittedly, you can't apply one-to-one to Israel, but it opens the door,\" the official added. While Israel's case in Gaza is \"more complicated\", the ruling \"certainly doesn't do us any good\". Another Israeli official told the public broadcaster Kan 11 that the decision reflected \"worrying trends\" at the top UN court, but insisted Israel could avoid a similar ruling in the case brought by South Africa in December 2023. The official said Israel could withstand \"any legal test\", insisting that \"we did not commit a genocide\". They estimated that a final judgment in the Gaza genocide case would not be delivered before 2030. Since October 2023, when Israel launched its military onslaught on the Gaza Strip following the Hamas-led attacks of 7 October, UN officials, genocide experts and humanitarian organisations have accused Israel of committing genocide in the besieged enclave. Since then, the Israeli army has killed more than 74,000 Palestinians, most of them children, women and elderly people. Isr",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/2026-11-18T153823Z_1942531925_MT1ZUMA000R2PUOQ_RTRMADP_3_ZUMA%20%282%29.jpg.jpg?itok=VepdRTPH",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-20T13:42:43+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/israeli-experts-warn-myanmar-genocide-ruling-could-strengthen-gaza-case-icj"
-    },
-    {
-      "id": "988475ca1404b26d",
-      "title": "Muhammadiyah Harus Bertransformasi dari Employee Mindset ke Entrepreneurial Mindset",
-      "description": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Anggota Dewan Perwakilan Daerah Republik Indonesia (DPD RI), Ahmad Syauqi Soeratno, memaparkan gagasan tentang arah pengembangan dakwah ekonomi Muhammadiyah dalam diskusi bersama Ketua Pimpinan Pusat Muhammadiyah, Anwar Abbas, yang disiarkan melalui TvMu Channel. Dalam diskusi tersebut, Syauqi mengangkat hasil penelitian disertasinya yang memperkenalkan konsep Socio-Religiopreneurship. Gagasan ini kemudian dikaitkan dengan posisi Muhammadiyah […] The post Muhammadiyah Harus Bertransformasi dari Employee Mindset ke Entrepreneurial Mindset appeared first on Muhammadiyah .",
-      "originalTitle": "Muhammadiyah Harus Bertransformasi dari Employee Mindset ke Entrepreneurial Mindset",
-      "originalDescription": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Anggota Dewan Perwakilan Daerah Republik Indonesia (DPD RI), Ahmad Syauqi Soeratno, memaparkan gagasan tentang arah pengembangan dakwah ekonomi Muhammadiyah dalam diskusi bersama Ketua Pimpinan Pusat Muhammadiyah, Anwar Abbas, yang disiarkan melalui TvMu Channel. Dalam diskusi tersebut, Syauqi mengangkat hasil penelitian disertasinya yang memperkenalkan konsep Socio-Religiopreneurship. Gagasan ini kemudian dikaitkan dengan posisi Muhammadiyah […] The post Muhammadiyah Harus Bertransformasi dari Employee Mindset ke Entrepreneurial Mindset appeared first on Muhammadiyah .",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://muhammadiyah.or.id/wp-content/uploads/2024/11/Ketika-Pekerjaan-Menghadang-Salat-Jum‘at.jpg",
-      "category": "Dakwah dan Ulama",
-      "tags": [
-        "Dakwah dan Ulama"
-      ],
-      "source": "Muhammadiyah",
-      "sources": [
-        "Muhammadiyah"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-20T13:36:54+00:00",
-      "originalUrl": "https://muhammadiyah.or.id/2026/11/muhammadiyah-harus-bertransformasi-dari-employee-mindset-ke-entrepreneurial-mindset"
-    },
-    {
-      "id": "e9fa985b42864724",
-      "title": "Pertahanan Sipil: Ancaman di Jazan Telah Berlalu",
-      "description": "Pertahanan Sipil Arab Saudi menyatakan ancaman di Jazan telah berlalu, usai peringatan dini dikeluarkan, dan mengimbau warga tetap patuhi panduan keselamatan.",
-      "originalTitle": "Pertahanan Sipil: Ancaman di Jazan Telah Berlalu",
-      "originalDescription": "Pertahanan Sipil Arab Saudi menyatakan ancaman di Jazan telah berlalu, usai peringatan dini dikeluarkan, dan mengimbau warga tetap patuhi panduan keselamatan.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-09/الدفاع-المدني-w5RpVk1Z.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-20T13:29:47+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/i5y2n0rxu"
-    },
-    {
-      "id": "c883f32a7b084ace",
-      "title": "Lazismu dan Telkomsel Bersinergi Perkuat Literasi Zakat Berbasis Digital",
-      "description": "MUHAMMADIYAH.OR.ID, JAKARTA – Lazismu Pusat menjalin sinergi dengan PT Telkomsel Indonesia untuk memperkuat literasi zakat melalui pemanfaatan ekosistem digital. Kolaborasi ini diharapkan dapat memperluas edukasi zakat sekaligus mendorong optimalisasi penghimpunan dan penyaluran dana zakat, infak, dan sedekah (ZIS). Kerja sama tersebut ditandai dengan penandatanganan nota kesepahaman (MoU) dalam rangka pengembangan ekosistem digital kedua entitas. Kesepahaman […] The post Lazismu dan Telkomsel Bersinergi Perkuat Literasi Zakat Berbasis Digital appeared first on Muhammadiyah .",
-      "originalTitle": "Lazismu dan Telkomsel Bersinergi Perkuat Literasi Zakat Berbasis Digital",
-      "originalDescription": "MUHAMMADIYAH.OR.ID, JAKARTA – Lazismu Pusat menjalin sinergi dengan PT Telkomsel Indonesia untuk memperkuat literasi zakat melalui pemanfaatan ekosistem digital. Kolaborasi ini diharapkan dapat memperluas edukasi zakat sekaligus mendorong optimalisasi penghimpunan dan penyaluran dana zakat, infak, dan sedekah (ZIS). Kerja sama tersebut ditandai dengan penandatanganan nota kesepahaman (MoU) dalam rangka pengembangan ekosistem digital kedua entitas. Kesepahaman […] The post Lazismu dan Telkomsel Bersinergi Perkuat Literasi Zakat Berbasis Digital appeared first on Muhammadiyah .",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/11/lazismu-dan-telkomsel-bersinergi-perkuat-literasi-zakat-berbasis-digital.jpeg",
-      "category": "Ekonomi Syariah",
-      "tags": [
-        "Ekonomi Syariah"
-      ],
-      "source": "Muhammadiyah",
-      "sources": [
-        "Muhammadiyah"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-20T13:29:46+00:00",
-      "originalUrl": "https://muhammadiyah.or.id/2026/11/lazismu-dan-telkomsel-bersinergi-perkuat-literasi-zakat-berbasis-digital"
     }
   ]
 }
