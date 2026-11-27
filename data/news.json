@@ -1,19 +1,19 @@
 {
-  "status": "success",
-  "lastUpdated": "2026-11-26T23:54:51.921163+00:00",
+  "status": "partial",
+  "lastUpdated": "2026-11-27T08:28:36.986618+00:00",
   "total": 500,
-  "newArticles": 140,
+  "newArticles": 133,
   "sourcesChecked": 12,
-  "sourcesSucceeded": 12,
-  "sourcesFailed": 0,
+  "sourcesSucceeded": 11,
+  "sourcesFailed": 1,
   "sourceStats": [
     {
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 4,
-      "filtered": 21,
-      "filteredFootball": 0,
+      "accepted": 1,
+      "filtered": 24,
+      "filteredFootball": 3,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 29,
-      "accepted": 1,
-      "filtered": 28,
+      "raw": 32,
+      "accepted": 2,
+      "filtered": 30,
       "filteredFootball": 0,
-      "translated": 29,
+      "translated": 32,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -47,9 +47,9 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 2,
-      "filtered": 48,
-      "filteredFootball": 4,
+      "accepted": 0,
+      "filtered": 50,
+      "filteredFootball": 1,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 10,
-      "filtered": 10,
-      "filteredFootball": 4,
+      "accepted": 11,
+      "filtered": 9,
+      "filteredFootball": 3,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -93,22 +93,22 @@
     },
     {
       "name": "Detik",
-      "status": "success",
-      "raw": 100,
-      "accepted": 4,
-      "filtered": 96,
-      "filteredFootball": 1,
+      "status": "error",
+      "raw": 0,
+      "accepted": 0,
+      "filtered": 0,
+      "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
-      "error": null
+      "error": "HTTPSConnectionPool(host='news.detik.com', port=443): Read timed out. (read timeout=25)"
     },
     {
       "name": "Muhammadiyah",
       "status": "success",
       "raw": 10,
-      "accepted": 1,
-      "filtered": 9,
+      "accepted": 0,
+      "filtered": 10,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -119,8 +119,8 @@
       "name": "NU Online",
       "status": "success",
       "raw": 49,
-      "accepted": 26,
-      "filtered": 23,
+      "accepted": 27,
+      "filtered": 22,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -156,16 +156,318 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 186,
+    "translatedArticles": 192,
     "partialArticles": 0,
     "failedArticles": 0,
-    "cacheEntries": 5191
+    "cacheEntries": 5280
   },
   "images": {
     "found": 500,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "8b0cb111e9c5863d",
+      "title": "Anak-anak Gaza terjebak dalam cengkeraman wabah meningitis",
+      "description": "Anak-anak Gaza tertangkap dalam genggaman wabah meningitis diturunkan oleh Hani Abu Rezeq pada Fri, 11 / 27 / 2026 - 08: 11 Air yang terkontaminasi, runtuhnya sistem kesehatan dan persediaan medis yang langka memicu lonjakan infeksi di seluruh wilayah Nine-month Mohammed, yang dirawat untuk meningitis, duduk di pangkuan ibunya Reham Wahdan di Rumah Sakit Al- Rantisi di Gaza (Hani Abu Rezeq / MEE) selama 10 hari, dua bulan - tua Mostafa Halladin telah ditinggalkan di Rumah Sakit Alsad - Rani. Setelah menderita demam tinggi, mencapai 39C, dan berulang pembengkakan perut, bayi Palestina didiagnosis dengan meningitis. \"Ini dimulai dengan ruam kulit dan demam tinggi, dengan suhu mencapai 39C,\" ibunya, Amal, mengatakan Mata Timur Tengah. \"Setiap hari, dokter melakukan scan medis dan tes laboratorium\", katanya kondisinya telah menunjukkan sedikit perbaikan, sebagian besar karena kekurangan obat-obatan penting. Halladin adalah salah satu anak yang baru-baru ini untuk mengembangkan meningitis di tengah-tengah lonjakan dalam kasus di seluruh daerah perang, di mana Israel memiliki semua tetapi menghancurkan sistem kesehatan dan terus melarang obat-obatan penting. Kantor PBB untuk Koordinat Urusan Kemanusiaan (Ocha) melaporkan 413 kasus meningitis yang diduga di Gaza antara 27 September dan 31 Oktober, termasuk 294 virus dan 119 kasus bakteri. Laporan mengatakan 68 persen direkam di Gaza City. Pada hari Selasa, Kementerian Kesehatan Palestina mengumumkan \"peringatan wabah\" di seluruh Gaza, mengutip peningkatan tajam dalam kasus meningitis dan kematian. Departemen mengatakan 1.790 orang telah didiagnosis dengan meningitis sejak awal tahun, dengan 15 kematian dicatat. Pada bulan Oktober saja, setidaknya 272 infeksi dikonfirmasi. Risiko penyakit menular meningkat di tengah penampungan perpindahan yang penuh sesak, air minum yang tidak aman, sistem sanitasi yang rusak dan keruntuhan layanan kesehatan penting di seluruh Gaza. Pada September, Organisasi Kesehatan Dunia (WHO) mengatak",
+      "originalTitle": "Gaza’s children caught in the grip of a meningitis outbreak",
+      "originalDescription": "Gaza’s children caught in the grip of a meningitis outbreak Submitted by Hani Abu Rezeq on Fri, 11/27/2026 - 08:11 Contaminated water, collapse of healthcare system and scarce medical supplies are fuelling a surge in infections across the besieged enclave Nine-month-old Mohammed, who is being treated for meningitis, sits on his mother Reham Wahdan’s lap at Al-Rantisi Hospital in Gaza City (Hani Abu Rezeq/MEE) Off For 10 days, two-month-old Mostafa Hallawin has been bedridden at Al-Rantisi Children’s Hospital in Gaza City. After suffering a persistent high fever, reaching 39C, and recurring abdominal swelling, the Palestinian infant was diagnosed with meningitis. “It started with a skin rash and a high fever, with his temperature reaching 39C,” his mother, Amal, told Middle East Eye. “Every day, doctors perform medical scans and laboratory tests,” she added, saying his condition has shown little improvement, largely because of shortages of essential medicines. Hallawin is one of the most recent children to develop meningitis amid a spike in cases across the war-torn enclave, where Israel has all but destroyed the healthcare system and continues to ban essential medicines. The UN Office for the Coordination of Humanitarian Affairs (Ocha) reported 413 suspected meningitis cases in Gaza between 27 September and 31 October, including 294 viral and 119 bacterial cases. The report said 68 percent were recorded in Gaza City. On Tuesday, the Palestinian Health Ministry declared an \"epidemic alert\" across Gaza, citing a sharp rise in meningitis cases and deaths. The ministry said 1,790 people had been diagnosed with meningitis since the beginning of the year, with 15 deaths recorded. In October alone, at least 272 infections were confirmed. The risk of infectious diseases has increased amid overcrowded displacement shelters, unsafe drinking water, damaged sanitation systems and the collapse of essential healthcare services across Gaza. In September, the World Health Organisat",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Reham%20Wahdan%20sits%20alongside%20her%2010-month-old%20son%2C%20Mohammed%2C%20who%20is%20being%20treated%20for%20meningitis%20at%20Al-Rantisi%20Children%E2%80%99s%20Hospital%20in%20Gaza%20City.%20%281%29.jpg.jpg?itok=wH0ATHTO",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Pendidikan Islam"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-27T08:11:31+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/gazas-children-caught-grip-meningitis-outbreak"
+    },
+    {
+      "id": "34ad437d5a50859a",
+      "title": "Watch: serangan Israel terhadap bangunan perumahan di Gaza City melukai anak-anak",
+      "description": "Watch: serangan Israel terhadap bangunan perumahan di Gaza City melukai anak-anak Sebuah serangan Israel terhadap sebuah bangunan perumahan di lingkungan Rimal Kota Gaza bagian barat pada hari Jumat telah melukai warga sipil, termasuk anak-anak dan perempuan, menurut sumber medis. Departemen Kesehatan Gaza mengatakan pada hari Kamis bahwa serangan Israel menewaskan setidaknya 19 warga Palestina dan melukai 48 orang lainnya dalam 48 jam terakhir. Serangan baru-baru ini meningkatkan jumlah korban sejak gencatan senjata dimulai pada Oktober tahun lalu hingga 1.705. Departemen juga mengatakan total 74.772 orang telah dikonfirmasi tewas dan 176,298 terluka di Gaza sejak Israel memulai perang pada 7 Oktober 2023. Sebuah serangan Israel di sebuah bangunan perumahan di lingkungan Rimal Kota Gaza bagian barat pada hari Jumat telah melukai warga sipil, termasuk anak-anak dan perempuan, menurut sumber medis https: / / t.co / kksl8CCn4x",
+      "originalTitle": "Watch: Israeli attack on residential building in Gaza City wounds children",
+      "originalDescription": "Watch: Israeli attack on residential building in Gaza City wounds children An Israeli strike on a residential building in western Gaza City’s Rimal neighbourhood on Friday has injured civilians, including children and women, according to medical sources. Gaza’s health ministry said on Thursday that Israeli attacks killed at least 19 Palestinians and wounded 48 others in the past 48 hours. The recent attacks increased the total number of casualties since the so-called ceasefire began in October last year to 1,705. The ministry also said a total of 74,772 people have been confirmed killed and 176,298 wounded in Gaza since Israel launched its war on 7 October 2023. An Israeli strike on a residential building in western Gaza City’s Rimal neighbourhood on Friday has injured civilians, including children and women, according to medical sources https://t.co/kksl8CCn4x — Middle East Eye (@MiddleEastEye) November 27, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Untitled_4.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-27T08:03:40+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-israeli-attack-residential-building-gaza-city-wounds-children"
+    },
+    {
+      "id": "3d2867e54d44cc79",
+      "title": "Harga Emas di Arab Saudi Naik, Emas 21 Karat Tembus 385 Riyal",
+      "description": "Harga emas di Arab Saudi mengalami kenaikan hari ini, dengan emas 21 karat yang paling banyak diperdagangkan mencapai 385,94 riyal per gram.",
+      "originalTitle": "Harga Emas di Arab Saudi Naik, Emas 21 Karat Tembus 385 Riyal",
+      "originalDescription": "Harga emas di Arab Saudi mengalami kenaikan hari ini, dengan emas 21 karat yang paling banyak diperdagangkan mencapai 385,94 riyal per gram.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/%D8%A7%D9%84%D8%B0%D9%87%D8%A8-3-XjlzeQsV.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-27T07:43:18+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/ekonomi/advifrjd3"
+    },
+    {
+      "id": "bf4ac4030db1f3d8",
+      "title": "Dapatkah perjanjian Mekah mengubah janji kolektif pertahanan menjadi dukungan nyata?",
+      "description": "Pakistan, Arab Saudi dan Turkiye bertemu di Islamabad karena serangan Houthi di kerajaan terus berlanjut dan pembicaraan Iran tetap terbuka.",
+      "originalTitle": "Can the Mecca pact turn its collective defence promise into real support?",
+      "originalDescription": "Pakistan, Saudi Arabia and Turkiye meet in Islamabad as Houthi attacks on the kingdom continue and Iran talks stay open.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-05T180138Z_991373647_RC26XNAKWGVB_RTRMADP_3_IRAN-CRISIS-SAUDI-TURKEY-PAKISTAN-1791224096.jpg?resize=1920%2C1440",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-27T07:16:30+00:00",
+      "originalUrl": "https://www.aljazeera.com/news-analysis/2026/11/27/can-the-mecca-pact-turn-its-collective-defence-promise-into-real-support"
+    },
+    {
+      "id": "20483f433c207d56",
+      "title": "Houthi serangan tes Arab Saudi gambar keamanan",
+      "description": "Meskipun pemogokan, pasar dan restoran di Riyadh tetap sibuk sebagai warga mengungkapkan kepercayaan pada pemerintah untuk melindungi mereka.",
+      "originalTitle": "Houthi attacks test Saudi Arabia's image of security",
+      "originalDescription": "Despite the strikes, markets and restaurants in Riyadh remain busy as residents express trust in the government to protect them.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56c4/live/551558a0-e96f-11f1-99a1-253766e7ad8b.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "BBC World",
+      "sources": [
+        "BBC World"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-27T06:04:51+00:00",
+      "originalUrl": "https://www.bbc.co.uk/news/articles/c6ly7jgv7jzdo?at_campaign=rss&at_medium=RSS"
+    },
+    {
+      "id": "96d7ef7d1422e685",
+      "title": "Kunjungan Al-Khorayef ke Inggris dorong transfer teknologi dan pengembangan SDM industri militer Saudi",
+      "description": "Menteri Negara Bandar bin Ibrahim Al-Khorayef menuntaskan kunjungan ke Inggris untuk memperluas kerja sama industri dan teknologi demi mendukung kemandirian industri militer Arab Saudi.",
+      "originalTitle": "Kunjungan Al-Khorayef ke Inggris dorong transfer teknologi dan pengembangan SDM industri militer Saudi",
+      "originalDescription": "Menteri Negara Bandar bin Ibrahim Al-Khorayef menuntaskan kunjungan ke Inggris untuk memperluas kerja sama industri dan teknologi demi mendukung kemandirian industri militer Arab Saudi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-GXTJsE-s.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-27T05:55:50+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/ichhnwo4t"
+    },
+    {
+      "id": "88b9f16fd6492c5a",
+      "title": "Hujan Petir dan Angin Kencang Diperkirakan Landa Sejumlah Wilayah Arab Saudi Hari Ini",
+      "description": "Pusat Meteorologi Nasional memperkirakan hujan petir dan angin kencang disertai kabut yang menurunkan jarak pandang akan terjadi di beberapa wilayah Arab Saudi hari ini.",
+      "originalTitle": "Hujan Petir dan Angin Kencang Diperkirakan Landa Sejumlah Wilayah Arab Saudi Hari Ini",
+      "originalDescription": "Pusat Meteorologi Nasional memperkirakan hujan petir dan angin kencang disertai kabut yang menurunkan jarak pandang akan terjadi di beberapa wilayah Arab Saudi hari ini.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/%D8%B7%D9%82%D8%B3-5-0_4laCi0.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-27T05:46:37+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/j1b830k9r"
+    },
+    {
+      "id": "42ce7c48958faddc",
+      "title": "Nasional Nepal terbunuh, beberapa terluka dalam serangan Houthi di kilang Jazan",
+      "description": "RIYADH - Sebuah serangan Houthi pada kilang di kota barat daya Jazan, dekat perbatasan Yaman, pada hari Kamis membunuh seorang pekerja Nepal dan terluka beberapa lainnya, menurut Kementerian Energi Kingdom. Penyerangan tersebut adalah serangan terbaru Houthis terhadap fasilitas kunci Saudi, sehari setelah grup tersebut menyatakan serangan terhadap Ras Tanura, kilang minyak terbesar Arab Saudi dan pusat ekspor minyak utama. Serangan terjadi saat kampanye Houthi yang meningkat menargetkan bandara Saudi, fasilitas minyak dan infrastruktur lainnya. kilang itu ditabrak oleh \"proyektil udara bermusuhan\", yang memicu api dan menyebabkan suspensi dari beberapa operasi, menteri mengatakan dalam sebuah pernyataan yang dilakukan oleh Saudi Press Agency. Apinya telah menyebabkan pengkhianatan. Tim darurat dan teknis telah menanggapi insiden dan menilai kerusakan dan memeriksa keamanan fasilitas, ditambahkan. Koalisi untuk memulihkan Legitimasi di Yaman mengatakan telah menghancurkan landasan peluncuran rudal balistik di kota Yaman Hodeidah, yang mengatakan Houthis telah digunakan dalam serangan Kamis pada kilang tersebut. Para pekerja yang terluka dalam serangan tersebut adalah warga negara yang berbeda-beda dan diberikan perawatan medis yang diperlukan, kata menteri. Ini menyatakan belasungkawa tulus kepada keluarga almarhum. Koalisi awalnya mengumumkan serangan telah terjadi pada Kamis sore, memperingatkan Houthis yang menargetkan warga sipil dan infrastruktur sipil akan dipenuhi dengan respon militer yang kuat. The Iran- didukung Houthis, yang berjuang melawan pemerintah internasional Yaman, kontrol pelabuhan Hodeidah di pantai barat Yaman. Serangan itu datang pada hari yang sama ketika dua pekerja Italia terbunuh dalam serangan terhadap fasilitas di Kuwait, yang disalahkan atas Iran. Houthis juga menyerang pelabuhan Jazan pada hari Rabu, menyebabkan kerusakan kecil dan tidak ada korban, kata koalisi. Militia berusaha menyerang pada hari yang sama di Jeddah Islamic Port dan ",
+      "originalTitle": "Nepali national killed, several wounded in Houthi attack on Jazan refinery",
+      "originalDescription": "RIYADH — A Houthi attack on a refinery in the southwestern city of Jazan, near the Yemeni border, on Thursday killed a Nepali worker and wounded several others, according to the Kingdom's Energy Ministry.The strike was the Houthis' latest attack against key Saudi facilities, a day ​after the group claimed attacks on Ras Tanura, Saudi Arabia's largest refinery ⁠and a major oil export hub.The attacks come amid an escalating Houthi campaign targeting Saudi airports, oil facilities and other infrastructure.The refinery was hit by a “hostile aerial projectile,” which sparked a fire and led to the suspension of some operations, the ministry said in a statement carried by the Saudi Press Agency. The fire was brought ​under control.Emergency and technical teams had responded to the incident and were assessing damage and checking the safety of facilities, it added.The Coalition to Restore Legitimacy in Yemen said it had destroyed a ballistic missile ‌launch platform ⁠in the Yemeni port city of Hodeidah, which it said the Houthis had used in Thursday's attack on the refinery.The workers injured in the attack are of different nationalities and are being given the necessary medical care, the ministry said. It expressed sincere condolences to the family of the deceased.The coalition initially announced an attack had taken place on Thursday afternoon, warning the Houthis that targeting civilians and civilian infrastructure would be met with a firm military response.The Iran-backed Houthis, who are fighting against Yemen’s internationally recognized government, control Hodeidah port on Yemen's west coast.The attack comes the same day that two Italian workers were killed in an attack on a facility in Kuwait, which was blamed on Iran.The Houthis also attacked Jazan port on Wednesday, causing minor damage and no casualties, the coalition said.The militia attempted strikes the same day on Jeddah Islamic Port and the Kingdom’s western region.On Tuesday, a Houthi attack on a tower in Ri",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/27/2800477.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-27T04:51:59+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666574/world/nepali-national-killed-several-wounded-in-houthi-attack-on-jazan-refinery"
+    },
+    {
+      "id": "9fe37aaabe6e33dc",
+      "title": "Militer Israel 'tergantung di Amazon dan Google' untuk perang di Gaza, mantan karyawan mengatakan",
+      "description": "Pihak militer Israel tergantung pada Amazon dan Google untuk perangnya di Gaza, mantan pegawai mengatakan, \"Militer Israel sangat tergantung pada Amazon dan Google\" dalam perang genosida di Gaza, kata Gabi, mantan karyawan Google yang kini bekerja dengan No Tech for Apartheid. Berbicara dengan James Schneider dari Middle East Eye, Gabi menjelaskan bagaimana sistem penyimpanan awan Amazon dan Googles menyediakan ruang untuk menyimpan data pengenalan wajah warga Palestina yang sepertinya memberi makan sistem sasaran AI. Pada Jumat Hitam, serangan global akan berlangsung sebagai bagian dari kampanye Make Amazon Pay, menargetkan perusahaan pada hari tersibuk tahun ini. Militer Israel adalah \"tergantung secara besar-besaran di Amazon dan Google\" dalam perang genosida di Gaza, kata Gabi, seorang mantan karyawan Google yang sekarang bekerja dengan No Tech for Apartheid. Pada Jumat Hitam, serangan global akan berlangsung sebagai bagian dari kampanye Make Amazon Pay, menargetkan perusahaan pada hari tersibuk tahun ini - Mata Timur Tengah (@ MiddleEastEye) November 26, 2026",
+      "originalTitle": "Israeli military 'dependent on Amazon and Google' for its war on Gaza, former employees says",
+      "originalDescription": "Israeli military 'dependent on Amazon and Google' for its war on Gaza, former employees says The Israeli military is \"massively dependent on Amazon and Google\" in its genocidal war on Gaza, said Gabi, a former Google employee who now works with No Tech for Apartheid. Speaking to Middle East Eye's James Schneider, Gabi explained how Amazon and Googles' cloud storage systems provide the space to store the facial recognition data of Palestinians which likely feeds its AI targeting systems. On Black Friday, a global strike will take place as part of the Make Amazon Pay campaign, targeting the company on its busiest day of the year. The Israeli military is \"massively dependent on Amazon and Google\" in its genocidal war on Gaza, said Gabi, a former Google employee who now works with No Tech for Apartheid. On Black Friday, a global strike will take place as part of the Make Amazon Pay campaign, targeting the company on its busiest day of the year — Middle East Eye (@MiddleEastEye) November 26, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Untitled_4.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-27T03:50:52+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-dependent-amazon-and-google-its-war-gaza"
+    },
+    {
+      "id": "fa82a3f8c1797ec7",
+      "title": "Beberapa negara menuduh serangan Iran terhadap Kuwait",
+      "description": "Beberapa negara menuduh serangan Iran terhadap Kuwait sejumlah negara dan pejabat mereka telah mengutuk serangan drone terbaru yang diluncurkan terhadap Kuwait, yang menewaskan dua warga Italia. Menteri Inggris Stephen Doughty mengutuk serangan sebagai \"benar-benar tidak dapat diterima\" dan mengatakan bahwa negaranya \"berdiri tegas dengan Kuwait, Italia dan semua yang terpengaruh, tanpa menyebutkan siapa yang bisa berada di balik serangan. Kementerian Luar Negeri Suriah membanting Iran untuk pemogokan, dan menegaskan\" solidaritas penuh \"dengan Kuwait. Ini juga memperpanjang belasungkawa kepada keluarga dari mereka yang tewas. Sama halnya, Arab Saudi juga telah memsematkan serangan terhadap Iran, yang mengatakan:\" Serangan Iran yang terus menerus semakin parah dan menurunkan stabilitas \". Iran membantah tuduhan bahwa pesawat tersebut meluncurkan pesawat tanpa awak di Kuwait, dengan Menteri Luar Negeri Iran Abbas Araghchi menyebut kejadian itu\" mencurigakan \".",
+      "originalTitle": "Several countries slam suspected Iranian attack on Kuwait",
+      "originalDescription": "Several countries slam suspected Iranian attack on Kuwait A number of countries and their officials have condemned the latest drone attacks launched against Kuwait, which killed two Italian nationals. The UK minister Stephen Doughty condemned the attack as \"utterly unacceptable\" and said that his country \"stands firmly with Kuwait, Italy and all those affected, without making mention of who could be behind the attacks. The Syrian Foreign Ministry slammed Iran for the strikes, and affirmed its \"full solidarity\" with Kuwait. It also extended its condolences to the families of those killed. Similarly, Saudi Arabia has also pinned the attacks on Iran, saying: \"The continued Iranian attacks further exacerbate tensions and undermine stability.\" Iran has denied the allegations that it launched the drones on Kuwait, with Iran’s Foreign Minister Abbas Araghchi calling the incident \"suspicious\".",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Untitled_4.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-27T02:26:09+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/several-countries-slam-suspected-iranian-attack-kuwait"
+    },
+    {
+      "id": "c71f9c9b2514d98f",
+      "title": "Perhatikan: pasukan Israel menghancurkan ternak ternak Palestina tanpa pemberitahuan sebelumnya",
+      "description": "Perhatikan: Pasukan Israel menghancurkan komunitas pertanian ternak Palestina tanpa diketahui sebelumnya pasukan Israel menghancurkan sekitar 50 struktur, termasuk rumah dan tempat penampungan ternak, di komunitas pertanian Palestina Samra di Tubas, di wilayah wilayah Jordan Valley West Bank, tanpa mengeluarkan pemberitahuan pembongkaran sebelumnya. Pembongkaran mengikuti periode serangan pemukim Israel berulang pada masyarakat, salah satu dari sedikit yang tersisa masyarakat pertanian Palestina di Lembah Jordan. Penduduk sekarang tinggal dalam satu tenda, sementara ternak mereka telah ditinggalkan tanpa tempat berlindung. Pasukan Israel menghancurkan sekitar 50 rumah dan tempat penampungan ternak tanpa pemberitahuan sebelumnya di Samra, Tubas, di Tepi Barat yang diduduki, meninggalkan penduduk tinggal di sebuah tenda dan ternak mereka tanpa tempat tinggal. https: / / t.co / qhn30emGaE - Middle East Eye (@ MiddleEastEye) November 26, 2026",
+      "originalTitle": "Watch: Israeli forces demolish Palestinian livestock farming community without prior notice",
+      "originalDescription": "Watch: Israeli forces demolish Palestinian livestock farming community without prior notice Israeli forces demolished approximately 50 structures, including homes and livestock shelters, in the Palestinian farming community of Samra in Tubas, in the occupied West Bank’s Jordan Valley, without issuing any prior demolition notices. The demolitions follow a period of repeated Israeli settler attacks on the community, one of the few remaining Palestinian farming communities in the Jordan Valley. Residents are now living in a single tent, while their livestock having been left without shelter. Israeli forces demolished approximately 50 homes and livestock shelters without prior notice in Samra, Tubas, in the occupied West Bank, leaving residents living in a single tent and their livestock without shelter. https://t.co/qhn30emGaE — Middle East Eye (@MiddleEastEye) November 26, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Untitled_4.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-27T01:08:18+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-israeli-forces-demolish-palestinian-livestock-farming-community"
+    },
+    {
+      "id": "05b7ec90d6665195",
+      "title": "Pesantren Award 2026, Kemenag Luncurkan SIMTREN, Sistem Digital untuk Benahi Data Pesantren",
+      "description": "Kemenag luncurkan SIMTREN untuk benahi data santri dan cegah penghitungan ganda. Sistem ini membuat bantuan tepat sasaran bagi pesantren Indonesia.",
+      "originalTitle": "Pesantren Award 2026, Kemenag Luncurkan SIMTREN, Sistem Digital untuk Benahi Data Pesantren",
+      "originalDescription": "Kemenag luncurkan SIMTREN untuk benahi data santri dan cegah penghitungan ganda. Sistem ini membuat bantuan tepat sasaran bagi pesantren Indonesia.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/kemenag-simtren_1795741282.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah",
+        "Nasional Islam"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-27T00:30:24+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/pesantren-award-2026-kemenag-luncurkan-simtren-sistem-digital-untuk-benahi-data-pesantren-Zt1UE"
+    },
     {
       "id": "22f0cb5f91c25687",
       "title": "Pasukan Israel melukai orang Palestina, ditangkap 27 orang lain di Tepi Barat",
@@ -268,10 +570,10 @@
     },
     {
       "id": "70695ef557d1e4a2",
-      "title": "Mayoritas suara fakultas University Michigan dalam mendukung pro-Palestina siswa yang menghadapi tuntutan",
-      "description": "Mayoritas suara fakultas Universitas Michigan untuk mendukung pro-Palestina siswa yang menghadapi tuntutan Diberikan oleh staf MEE pada Thu, 11 / 26 / 2026 - 18: 42 Gerakan ini datang sebagai selusin mantan mahasiswa dan staf menghadapi tuntutan pidana federal atas 2024 Gaza perkemahan Salma Hamamy (pusat) memegang sebuah bendera Palestina di sebuah protes protes di Universitas Michigan selama upacara pembersihan musim semi pada 4 Mei 2024 (Nic Antaya / Getty Images / AFP) hampir 60 persen dari anggota fakultas di Universitas Michigan telah memilih sebuah resolusi dalam dukungan dari selusin mahasiswa dan staf yang sekarang menghadapi tuduhan pidana dalam 24 kali perang. Langkah ini simbolis tapi juga indikasi di mana banyak staf pengajaran berdiri. Pada tanggal 12 November, 58.2 persen dari hampir 8000 anggota Senat Fakultas mendukung resolusi menyatakan bahwa Departemen Kehakiman dakwaan \"adalah bagian dari serangan yang lebih luas pada solidaritas Palestina dan serikat pekerja di Amerika Serikat\". Tapi pada hari Rabu, dalam sebuah email dari kursi senat Fakultas, Kentaro Toyama, menyatakan ketidaksabaran nya bahwa Departemen Kepolisian Universitas Michigan secara khusus disebut dalam resolusi karena telah partai penindasan dari pidato siswa. \"Bahkan jika tuduhan dalam resolusi itu benar, UMPD melaporkan kepada Presiden UM. Kecuali UMPD bertindak menentang kepemimpinan UM atau etika penegakan hukum, mereka mengikuti perintah sipil sebagai norma polisi yang dibutuhkan,\" Toyama menulis di email yang dilihat oleh Mata Timur Tengah. Resolusi sukses, ia menambahkan, \"keprihatinan hal yang kompleks dan abu-abu\". Adi Saleem, asisten profesor Romance Languages dan studi Yudaic, memperkenalkan resolusi pada pertemuan Senat Fakultas awal bulan ini. Dia mengatakan MEE pada hari Kamis bahwa ada anti- Muslim sentimen di bermain, dan dia dan rekan lain disebut \"Nazi\" setelah oleh mereka yang menentang resolusi. Universitas Michigan masih menghukum siswa pro-Palestina setelah lu",
-      "originalTitle": "Majority of University of Michigan faculty vote in support of pro-Palestine students facing charges",
-      "originalDescription": "Majority of University of Michigan faculty vote in support of pro-Palestine students facing charges Submitted by MEE staff on Thu, 11/26/2026 - 18:42 The move comes as a dozen former students and staff face federal criminal charges over the 2024 Gaza encampments Salma Hamamy (centre) holds a Palestinian flag at a pro-Palestinian protest during the University of Michigan's spring commencement ceremony on 4 May 2024 (Nic Antaya/Getty Images/AFP) Off Nearly 60 percent of faculty members at the University of Michigan have voted for a resolution in support of a dozen former students and staff who are now facing federal criminal charges for their participation in the 2024 anti-war encampments for Gaza. The move is symbolic but also an indication of where much of the teaching staff stands. On 12 November, 58.2 percent of the nearly 8,000-member Faculty Senate backed a resolution stating that the Department of Justice's indictment \"is part of a broader attack on both Palestine solidarity and labor unions in the United States\". But on Wednesday, in an email from the Faculty Senate chair, Kentaro Toyama, expressed his dismay that the University of Michigan Police Department was specifically called out in the resolution as having been party to the repression of students' speech. \"Even if the allegations in the resolutions were true, UMPD reports to the UM President. Unless UMPD acts in defiance of UM leadership or the ethics of law enforcement, they are following civilian orders as police norms require,\" Toyama wrote in the email that was viewed by Middle East Eye. The successful resolution, he added, \"concerns matters that are complex and gray\". Adi Saleem, assistant professor of Romance Languages & Literatures and Judaic Studies, introduced the resolution at the Faculty Senate's meeting earlier this month. He told MEE on Thursday that there was anti-Muslim sentiment at play, and he and another colleague were called \"Nazis\" afterwards by those who opposed the resolution. Univ",
+      "title": "Pemungutan suara fakultas Universitas Michigan dalam mendukung mahasiswa pro-Palestina yang menghadapi tuntutan",
+      "description": "Pemungutan suara fakultas di Universitas Michigan untuk mendukung mahasiswa pro- Palestina yang menghadapi tuntutan Dikirimkan oleh staf MEE pada Thu, 11 / 26 / 2026 - 18: 42 Gerakan ini datang sebagai selusin mantan mahasiswa dan staf menghadapi tuntutan pidana federal atas 2024 Gaza perkemahan Salma Hamamy (pusat) memegang sebuah bendera Palestina di sebuah protes protes di Universitas Michigan selama upacara pembersihan musim semi pada 4 Mei 2024 (Nic Antaya / Getty Images / AFP) hampir 60 persen dari anggota fakultas pemilih di Universitas Michigan telah mendukung sebuah resolusi dalam dukungan dari selusin mantan mahasiswa dan staf yang sekarang menghadapi tuduhan pidana untuk 24 kali perang. Langkah ini simbolis tapi juga indikasi di mana banyak staf pengajaran berdiri. Pada 12 November, setelah 2.425 anggota Senat Fakultas memilih gerak menyatakan bahwa Departemen Kehakiman dakwaan \"adalah bagian dari serangan yang lebih luas pada solidaritas Palestina dan serikat buruh di Amerika Serikat,\" hasil menunjukkan 58,2% memberikan dukungan. Itu lebih dari 1.000 profesor, dosen, dokter, dan karyawan Universitas Michigan lainnya. Senat Fakultas memiliki hampir 8.000 anggota, tetapi tidak semua dari mereka mengambil bagian dalam pemilihan. Pada hari Rabu, ketua Senat Fakultas Kentaro Toyama menyatakan ketidaksabaran nya bahwa University of Michigan Departemen Kepolisian secara khusus dipanggil dalam resolusi karena telah partai penindasan pidato siswa '. \"Bahkan jika tuduhan dalam resolusi itu benar, UMPD melaporkan kepada Presiden UM. Kecuali UMPD bertindak menentang kepemimpinan UM atau etika penegakan hukum, mereka mengikuti perintah sipil sebagai norma polisi yang dibutuhkan,\" Toyama menulis dalam email yang dilihat oleh Mata Timur Tengah. Resolusi sukses, ia menambahkan, \"keprihatinan hal yang kompleks dan abu-abu\". Adi Saleem, asisten profesor Romance Languages dan studi Yudaic, memperkenalkan resolusi pada pertemuan Senat Fakultas awal bulan ini. Dia mengatakan",
+      "originalTitle": "University of Michigan faculty vote in support of pro-Palestine students facing charges",
+      "originalDescription": "University of Michigan faculty vote in support of pro-Palestine students facing charges Submitted by MEE staff on Thu, 11/26/2026 - 18:42 The move comes as a dozen former students and staff face federal criminal charges over the 2024 Gaza encampments Salma Hamamy (centre) holds a Palestinian flag at a pro-Palestinian protest during the University of Michigan's spring commencement ceremony on 4 May 2024 (Nic Antaya/Getty Images/AFP) Off Nearly 60 percent of voting faculty members at the University of Michigan have backed a resolution in support of a dozen former students and staff who are now facing federal criminal charges for their participation in the 2024 anti-war encampments for Gaza. The move is symbolic but also an indication of where much of the teaching staff stands. On 12 November, after 2,425 members of the Faculty Senate voted on a motion stating that the Department of Justice's indictment \"is part of a broader attack on both Palestine solidarity and labor unions in the United States\", results showed 58.2% expressed support. That's more than 1,000 professors, lecturers, clinicians, and other University of Michigan employees. The Faculty Senate has nearly 8,000 members, but not all of them partake in voting. On Wednesday, Faculty Senate chair Kentaro Toyama expressed his dismay that the University of Michigan Police Department was specifically called out in the resolution as having been party to the repression of students' speech. \"Even if the allegations in the resolutions were true, UMPD reports to the UM President. Unless UMPD acts in defiance of UM leadership or the ethics of law enforcement, they are following civilian orders as police norms require,\" Toyama wrote in an email that was viewed by Middle East Eye. The successful resolution, he added, \"concerns matters that are complex and gray\". Adi Saleem, assistant professor of Romance Languages & Literatures and Judaic Studies, introduced the resolution at the Faculty Senate's meeting earlier this mon",
       "translated": true,
       "translationStatus": "success",
       "originalLanguage": "en",
@@ -994,6 +1296,31 @@
       "region": "",
       "publishedAt": "2026-11-26T14:34:16+00:00",
       "originalUrl": "https://saudigazette.com.sa/article/666564/saudi-arabia/sfda-swa-agree-to-expand-cooperation"
+    },
+    {
+      "id": "4199dd689e2fe768",
+      "title": "Pesantren Award 2026, Menag Pesan Majelis Masyayikh Perketat Pengawasan dan Jaga Sanad Pesantren",
+      "description": "Menag minta Majelis Masyayikh awasi pesantren dan pastikan sanad keilmuan. DPR ingatkan pengawasan juga harus menjaga kekhasan pesantren setempat.",
+      "originalTitle": "Pesantren Award 2026, Menag Pesan Majelis Masyayikh Perketat Pengawasan dan Jaga Sanad Pesantren",
+      "originalDescription": "Menag minta Majelis Masyayikh awasi pesantren dan pastikan sanad keilmuan. DPR ingatkan pengawasan juga harus menjaga kekhasan pesantren setempat.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/menag_1795740556.webp",
+      "category": "Pesantren dan Madrasah",
+      "tags": [
+        "Pesantren dan Madrasah"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-26T14:30:34+00:00",
+      "originalUrl": "https://www.nu.or.id/nasional/pesantren-award-2026-menag-pesan-majelis-masyayikh-perketat-pengawasan-dan-jaga-sanad-pesantren-nE7WC"
     },
     {
       "id": "29b093d3a7b68376",
@@ -2838,31 +3165,6 @@
       "region": "",
       "publishedAt": "2026-11-26T05:30:09+00:00",
       "originalUrl": "https://www.nu.or.id/nasional/pesantren-award-2026-dpr-minta-pesantren-siapkan-sdm-untuk-industri-syariah-NO8Vf"
-    },
-    {
-      "id": "953376429b0a1aa0",
-      "title": "Cuaca Arab Saudi Kamis: Hujan Petir, Angin Kencang dan Hujan Es di Sejumlah Wilayah",
-      "description": "Pusat Meteorologi Nasional memperkirakan hujan petir disertai angin kencang dan hujan es masih akan terjadi di beberapa wilayah Arab Saudi hari ini.",
-      "originalTitle": "Cuaca Arab Saudi Kamis: Hujan Petir, Angin Kencang dan Hujan Es di Sejumlah Wilayah",
-      "originalDescription": "Pusat Meteorologi Nasional memperkirakan hujan petir disertai angin kencang dan hujan es masih akan terjadi di beberapa wilayah Arab Saudi hari ini.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/طقس-2-NWRAt2VR.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-26T05:25:31+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/lp5j6x2ci"
     },
     {
       "id": "95faad93d05d550e",
@@ -12444,308 +12746,6 @@
       "region": "",
       "publishedAt": "2026-11-22T11:20:37+00:00",
       "originalUrl": "https://saudigazette.com.sa/article/666431/saudi-arabia/saudi-arabia-announces-50-saudization-of-17-financial-professions-starting-may-2027"
-    },
-    {
-      "id": "4c561c6c3371c6c5",
-      "title": "Arab Saudi Wajibkan 50% Tenaga Kerja Lokal di 17 Profesi Keuangan Mulai Mei 2027",
-      "description": "Kementerian Sumber Daya Manusia Arab Saudi menetapkan kebijakan wajibkan 50% pekerja lokal di 17 profesi keuangan sektor swasta mulai 23 Mei 2027.",
-      "originalTitle": "Arab Saudi Wajibkan 50% Tenaga Kerja Lokal di 17 Profesi Keuangan Mulai Mei 2027",
-      "originalDescription": "Kementerian Sumber Daya Manusia Arab Saudi menetapkan kebijakan wajibkan 50% pekerja lokal di 17 profesi keuangan sektor swasta mulai 23 Mei 2027.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-C-nioUCV.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-22T11:00:26+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/c7ifwusnj"
-    },
-    {
-      "id": "731714f2fc547b04",
-      "title": "Indeks pendapatan operasi Arab Saudi meningkat 12,2% pada bulan September, didorong oleh pertambangan dan aktivitas keuangan",
-      "description": "RIYADH - indeks pendapatan operasi Arab Saudi meningkat 12,2 persen pada September 2026 dibandingkan dengan bulan yang sama pada tahun 2025, didorong oleh pertumbuhan beberapa aktivitas ekonomi, menurut Otoritas Umum untuk Statistik (GASTAT). Otoritas jangka pendek Bisnis lndicators Statistik Bulletin untuk September 2026, yang melacak kinerja sektor ekonomi melalui indikator bulanan, menunjukkan bahwa pertambangan dan perempatan tumbuh 27,5 persen, diikuti oleh kegiatan keuangan dan asuransi pada 19,3 persen dan produksi pada 15.0 persen. Pertukaran ritel dan sepeda motor dan aktivitas perbaikan juga meningkat sebesar 2,1 persen, sementara konstruksi tumbuh sebesar 0,4 persen. Secara bulanan, indeks pendapatan operasi naik 6,6 persen dibandingkan dengan Agustus 2026, didukung oleh peningkatan 37,3 persen dalam pertambangan dan aktivitas penjajahan dan kenaikan 4 persen dalam kegiatan keuangan dan asuransi. Memproduksi dan kesehatan manusia dan kegiatan kerja sosial masing-masing mencatat peningkatan 3,5 persen, sementara profesional, kegiatan ilmiah dan teknis naik sebesar 1,2 persen. Buletin ini juga menunjukkan bahwa indeks kompensasi pekerja meningkat 6,8 persen pada September 2026 dibandingkan dengan bulan yang sama pada tahun 2025, didorong oleh pertumbuhan beberapa aktivitas ekonomi. Manufaktur merekam peningkatan 9,4 persen, diikuti dengan perdagangan ritel dan kendaraan ritel dan aktivitas perbaikan pada 6,8 persen, kegiatan keuangan dan asuransi sebesar 5,6 persen, pertambangan dan perkerugian pada 5.2 persen, dan konstruksi pada 2 persen. Secara bulanan, indeks kompensasi pekerja meningkat sebesar 0,5 persen dibandingkan dengan Agustus 2026, didukung oleh kenaikan 1 persen dalam kegiatan keuangan dan asuransi dan transportasi dan aktivitas penyimpanan, sementara pembangunan meningkat sebesar 0.8 persen. Secara terpisah, angka GASTAT menunjukkan bahwa 6.092 izin bangunan dikeluarkan di Arab Saudi selama September 2026. Buletin mencakup semua kegiatan ekono",
-      "originalTitle": "Saudi Arabia’s operating revenue index rises 12.2% in September, driven by mining and financial activities",
-      "originalDescription": "RIYADH — Saudi Arabia's operating revenue index increased by 12.2 percent in September 2026 compared with the same month in 2025, driven by growth across several economic activities, according to the General Authority for Statistics (GASTAT). The authority's Short-Term Business Indicators Statistics Bulletin for September 2026, which tracks the performance of economic sectors through monthly indicators, showed that mining and quarrying grew by 27.5 percent, followed by financial and insurance activities at 19.3 percent and manufacturing at 15.0 percent. Wholesale and retail trade and motor vehicle repair activities also increased by 2.1 percent, while construction grew by 0.4 percent. On a monthly basis, the operating revenue index rose 6.6 percent compared with August 2026, supported by a 37.3 percent increase in mining and quarrying activities and a 4 percent rise in financial and insurance activities. Manufacturing and human health and social work activities each recorded a 3.5 percent increase, while professional, scientific and technical activities rose by 1.2 percent. The bulletin also showed that the workers' compensation index increased by 6.8 percent in September 2026 compared with the same month in 2025, driven by growth across several economic activities. Manufacturing recorded a 9.4 percent increase, followed by wholesale and retail trade and motor vehicle repair activities at 6.8 percent, financial and insurance activities at 5.6 percent, mining and quarrying at 5.2 percent, and construction at 2 percent. On a monthly basis, the workers' compensation index increased by 0.5 percent compared with August 2026, supported by a 1 percent rise in both financial and insurance activities and transportation and storage activities, while construction increased by 0.8 percent. Separately, GASTAT figures showed that 6,092 building permits were issued in Saudi Arabia during September 2026. The bulletin covers all economic activities carried out by establishments oper",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/22/2797906.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-22T10:44:08+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666430/saudi-arabia/saudi-arabias-operating-revenue-index-rises-122-in-september-driven-by-mining-and-financial-activities"
-    },
-    {
-      "id": "ce5e7be53f97a029",
-      "title": "Nilai Tukar Riyal Saudi terhadap Pound Mesir dan Mata Uang Arab Hari Ini, Minggu 12-6-1448",
-      "description": "Nilai tukar riyal Saudi terhadap sejumlah mata uang Arab bervariasi pada Minggu, 12-6-1448, dengan dinar Kuwait tercatat 12,0269 riyal dan dirham UEA stabil di 1,0209 riyal.",
-      "originalTitle": "Nilai Tukar Riyal Saudi terhadap Pound Mesir dan Mata Uang Arab Hari Ini, Minggu 12-6-1448",
-      "originalDescription": "Nilai tukar riyal Saudi terhadap sejumlah mata uang Arab bervariasi pada Minggu, 12-6-1448, dengan dinar Kuwait tercatat 12,0269 riyal dan dirham UEA stabil di 1,0209 riyal.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/3906-crop-nKJPrApd.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-22T10:20:48+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/dunia/9aghgf54u"
-    },
-    {
-      "id": "21df0a4557a6d929",
-      "title": "Apakah Upload Foto Ibadah di Media Sosial Termasuk Riya? Begini Penjelasan Ulama",
-      "description": "Mengunggah foto ibadah di media sosial, apakah termasuk riya? Simak penjelasan ulama tentang niat, keikhlasan, dan batas syiar kebaikan.",
-      "originalTitle": "Apakah Upload Foto Ibadah di Media Sosial Termasuk Riya? Begini Penjelasan Ulama",
-      "originalDescription": "Mengunggah foto ibadah di media sosial, apakah termasuk riya? Simak penjelasan ulama tentang niat, keikhlasan, dan batas syiar kebaikan.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/whatsapp-image-2026-11-22-at-171557_1795342780.webp",
-      "category": "Dakwah dan Ulama",
-      "tags": [
-        "Dakwah dan Ulama"
-      ],
-      "source": "NU Online",
-      "sources": [
-        "NU Online"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-22T10:04:52+00:00",
-      "originalUrl": "https://islam.nu.or.id/syariah/apakah-upload-foto-ibadah-di-media-sosial-termasuk-riya-begini-penjelasan-ulama-PUFoM"
-    },
-    {
-      "id": "49b4de31e0446ff2",
-      "title": "Ma'ruf Amin Kukuh Mundur dari Ketua Wantim MUI, Ini Kandidat Penggantinya",
-      "description": "Wapres ke-13 RI KH Ma'ruf Amin mundur sebagai Ketua Wantim MUI. MUI berharap Ma'ruf tetap memimpin, namun dia menekankan perlunya kaderisasi.",
-      "originalTitle": "Ma'ruf Amin Kukuh Mundur dari Ketua Wantim MUI, Ini Kandidat Penggantinya",
-      "originalDescription": "Wapres ke-13 RI KH Ma'ruf Amin mundur sebagai Ketua Wantim MUI. MUI berharap Ma'ruf tetap memimpin, namun dia menekankan perlunya kaderisasi.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/10/30/maruf-amin-1761836222569_169.jpeg?w=360&q=90",
-      "category": "Nasional Islam",
-      "tags": [
-        "Nasional Islam"
-      ],
-      "source": "Detik",
-      "sources": [
-        "Detik"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-22T09:47:26+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8764631/maruf-amin-kukuh-mundur-dari-ketua-wantim-mui-ini-kandidat-penggantinya"
-    },
-    {
-      "id": "39977b358d1f4fb4",
-      "title": "Musaned Jelaskan Syarat Rekrut PRT Ketiga dan Kemampuan Finansial",
-      "description": "Layanan resmi tenaga kerja domestik Arab Saudi mengumumkan syarat rekrut PRT ketiga dan batas kemampuan finansial yang dibutuhkan.",
-      "originalTitle": "Musaned Jelaskan Syarat Rekrut PRT Ketiga dan Kemampuan Finansial",
-      "originalDescription": "Layanan resmi tenaga kerja domestik Arab Saudi mengumumkan syarat rekrut PRT ketiga dan batas kemampuan finansial yang dibutuhkan.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/3717-crop-OFC2h3oE.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-22T09:16:29+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/dunia/ivhtvbpyz"
-    },
-    {
-      "id": "bf877a4bed13a4ce",
-      "title": "Wakil Sekjen MUI ajak umat Islam perkuat persaudaraan di PBD",
-      "description": "Wakil Sekretaris Jenderal Majelis Ulama Indonesia (MUI) Pusat, Dr. H. Muhammad Ziyad, mengajak umat Islam di Provinsi ...",
-      "originalTitle": "Wakil Sekjen MUI ajak umat Islam perkuat persaudaraan di PBD",
-      "originalDescription": "Wakil Sekretaris Jenderal Majelis Ulama Indonesia (MUI) Pusat, Dr. H. Muhammad Ziyad, mengajak umat Islam di Provinsi ...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/22/1001314486.jpg",
-      "category": "Nasional Islam",
-      "tags": [
-        "Nasional Islam",
-        "Dakwah dan Ulama"
-      ],
-      "source": "ANTARA Terkini",
-      "sources": [
-        "ANTARA Terkini"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-22T09:14:42+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5870911/wakil-sekjen-mui-ajak-umat-islam-perkuat-persaudaraan-di-pbd"
-    },
-    {
-      "id": "05bc854c00be9cd8",
-      "title": "Hadapi Ateisme di Era Digital, Buya Anwar Abbas Tekankan Pentingnya Dakwah Berbasis Ilmu",
-      "description": "MUHAMMADIYAH.OR.ID, SIDOARJO – Tantangan dakwah Islam di era digital tidak hanya berkaitan dengan persoalan sosial dan moral, tetapi juga menyangkut pemikiran, khususnya berkembangnya pandangan yang meragukan bahkan menolak keberadaan Tuhan. Para mubaligh Muhammadiyah dituntut mampu menjawab tantangan tersebut dengan argumentasi yang kuat, rasional, dan berlandaskan ajaran Islam. Pesan tersebut disampaikan Ketua Pimpinan Pusat (PP) Muhammadiyah, […] The post Hadapi Ateisme di Era Digital, Buya Anwar Abbas Tekankan Pentingnya Dakwah Berbasis Ilmu appeared first on Muhammadiyah .",
-      "originalTitle": "Hadapi Ateisme di Era Digital, Buya Anwar Abbas Tekankan Pentingnya Dakwah Berbasis Ilmu",
-      "originalDescription": "MUHAMMADIYAH.OR.ID, SIDOARJO – Tantangan dakwah Islam di era digital tidak hanya berkaitan dengan persoalan sosial dan moral, tetapi juga menyangkut pemikiran, khususnya berkembangnya pandangan yang meragukan bahkan menolak keberadaan Tuhan. Para mubaligh Muhammadiyah dituntut mampu menjawab tantangan tersebut dengan argumentasi yang kuat, rasional, dan berlandaskan ajaran Islam. Pesan tersebut disampaikan Ketua Pimpinan Pusat (PP) Muhammadiyah, […] The post Hadapi Ateisme di Era Digital, Buya Anwar Abbas Tekankan Pentingnya Dakwah Berbasis Ilmu appeared first on Muhammadiyah .",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/11/hadapi-ateisme-di-era-digital-buya-anwar-abbas-tekankan-pentingnya-dakwah-berbasis-ilmu.jpeg",
-      "category": "Dakwah dan Ulama",
-      "tags": [
-        "Dakwah dan Ulama"
-      ],
-      "source": "Muhammadiyah",
-      "sources": [
-        "Muhammadiyah"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-22T09:12:40+00:00",
-      "originalUrl": "https://muhammadiyah.or.id/2026/11/hadapi-ateisme-di-era-digital-buya-anwar-abbas-tekankan-pentingnya-dakwah-berbasis-ilmu"
-    },
-    {
-      "id": "c50508a8d5fe6876",
-      "title": "Haedar Nashir minta dakwah Muhammadiyah tidak kejar popularitas",
-      "description": "Ketua Umum Pimpinan Pusat (PP) Muhammadiyah Prof KH Haedar Nashir mengingatkan para mubaligh dan pimpinan organisasi ...",
-      "originalTitle": "Haedar Nashir minta dakwah Muhammadiyah tidak kejar popularitas",
-      "originalDescription": "Ketua Umum Pimpinan Pusat (PP) Muhammadiyah Prof KH Haedar Nashir mengingatkan para mubaligh dan pimpinan organisasi ...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://img.antaranews.com/cache/800x533/2026/11/22/1001341681.jpg",
-      "category": "Dakwah dan Ulama",
-      "tags": [
-        "Dakwah dan Ulama"
-      ],
-      "source": "ANTARA Terkini",
-      "sources": [
-        "ANTARA Terkini"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-22T09:07:13+00:00",
-      "originalUrl": "https://www.antaranews.com/berita/5870899/haedar-nashir-minta-dakwah-muhammadiyah-tidak-kejar-popularitas"
-    },
-    {
-      "id": "42d294556faf03d3",
-      "title": "Arab Saudi mengutuk serangan Iran terhadap fasilitas industri sipil di Bahrain, perusahaan solidaritas penuh",
-      "description": "RIYADH - Arab Saudi sangat mengutuk serangan Iran terhadap fasilitas industri sipil di Bahrain, menegaskan kembali solidaritasnya dengan Bahrain dan dukungannya untuk melindungi keamanan dan stabilitas. Dalam sebuah pernyataan yang dikeluarkan oleh Kementerian Luar Negeri pada hari Minggu, Arab Saudi menyatakan hukumannya dan pengungkapan dalam kondisi terkuat dari serangan Iran menargetkan fasilitas sipil di Bahrain. Kerajaan menegaskan kembali solidaritas penuh dengan Bahrain dalam segala hal diperlukan untuk menjaga keamanan dan stabilitas. Arab Saudi mengulangi penolakan lengkap terhadap tindakan berkelanjutan Iran yang melemahkan keamanan daerah dan stabilitas, termasuk serangan menargetkan negara-negara di wilayah dan fasilitas sipil. Hal ini juga menekankan bahwa tindakan tersebut melanggar prinsip-prinsip hukum internasional, Piagam PBB, Piagam Organisasi Kerjasama Islam dan prinsip-prinsip lingkungan yang baik. Kerajaan itu juga bertanggung jawab atas serangan flagrant terhadap Iran.",
-      "originalTitle": "Saudi Arabia condemns Iranian attack on civilian industrial facility in Bahrain, reaffirms full solidarity",
-      "originalDescription": "RIYADH — Saudi Arabia strongly condemned Iran’s attacks on a civilian industrial facility in Bahrain, reaffirming its full solidarity with Bahrain and its support for measures taken to protect its security and stability. In a statement issued by Ministry of Foreign Affairs on Sunday, Saudi Arabia expressed its condemnation and denunciation in the strongest terms of the Iranian attacks targeting the civilian facility in Bahrain. The Kingdom reaffirmed its full solidarity with Bahrain in all measures it takes to safeguard its security and stability. Saudi Arabia reiterated its complete rejection of Iran's continued actions that undermine regional security and stability, including attacks targeting countries in the region and civilian facilities. It also stressed that such actions violate the principles of international law, the Charter of the United Nations, the Charter of the Organization of Islamic Cooperation and the principles of good neighborliness. The Kingdom also held Iran responsible for the consequences of its continued flagrant attacks.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/22/2797862.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-22T08:56:35+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666428/saudi-arabia/saudi-arabia-condemns-iranian-attack-on-civilian-industrial-facility-in-bahrain-reaffirms-full-solidarity"
-    },
-    {
-      "id": "f624939bf724ff48",
-      "title": "Kabar Wafat KHR Munawwir Krapyak di Majalah Berita Nahdlatoel Oelama 1941",
-      "description": "Menelusuri jejak KH Munawwir Krapyak, ulama qiraah sab‘ah yang mendirikan Pesantren Krapyak. Simak perbandingan kabar wafatnya dari arsip BNO 1941.",
-      "originalTitle": "Kabar Wafat KHR Munawwir Krapyak di Majalah Berita Nahdlatoel Oelama 1941",
-      "originalDescription": "Menelusuri jejak KH Munawwir Krapyak, ulama qiraah sab‘ah yang mendirikan Pesantren Krapyak. Simak perbandingan kabar wafatnya dari arsip BNO 1941.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/pesantren-al-munawwir-krapyak_1795337407.webp",
-      "category": "Dakwah dan Ulama",
-      "tags": [
-        "Dakwah dan Ulama",
-        "Pesantren dan Madrasah"
-      ],
-      "source": "NU Online",
-      "sources": [
-        "NU Online"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-22T08:51:46+00:00",
-      "originalUrl": "https://www.nu.or.id/tokoh/kabar-wafat-khr-munawwir-krapyak-di-majalah-berita-nahdlatoel-oelama-1941-QlOpP"
-    },
-    {
-      "id": "63cec4371c0d5bb7",
-      "title": "Penulis Sosial: Integrasi Konektivitas dan Keamanan Siber Kunci Sukses Pemerintahan Digital",
-      "description": "Dr. Reem Al-Anzi menegaskan integrasi konektivitas dan keamanan siber menjadi fondasi utama keberhasilan pemerintahan digital di Arab Saudi.",
-      "originalTitle": "Penulis Sosial: Integrasi Konektivitas dan Keamanan Siber Kunci Sukses Pemerintahan Digital",
-      "originalDescription": "Dr. Reem Al-Anzi menegaskan integrasi konektivitas dan keamanan siber menjadi fondasi utama keberhasilan pemerintahan digital di Arab Saudi.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/ai-edited/2026-11/WCyHwctu_oJKi8Ff.png",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-22T08:46:38+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/rrrum87wv"
     }
   ]
 }
