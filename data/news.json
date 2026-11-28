@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-27T19:01:41.012161+00:00",
+  "lastUpdated": "2026-11-28T02:00:57.056506+00:00",
   "total": 500,
-  "newArticles": 134,
+  "newArticles": 136,
   "sourcesChecked": 12,
   "sourcesSucceeded": 11,
   "sourcesFailed": 1,
@@ -11,9 +11,9 @@
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 5,
-      "filtered": 20,
-      "filteredFootball": 3,
+      "accepted": 4,
+      "filtered": 21,
+      "filteredFootball": 1,
       "translated": 25,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 31,
+      "raw": 22,
       "accepted": 1,
-      "filtered": 30,
-      "filteredFootball": 2,
-      "translated": 31,
+      "filtered": 21,
+      "filteredFootball": 1,
+      "translated": 22,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -35,9 +35,9 @@
       "name": "Republika",
       "status": "success",
       "raw": 15,
-      "accepted": 8,
-      "filtered": 7,
-      "filteredFootball": 1,
+      "accepted": 9,
+      "filtered": 6,
+      "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -47,9 +47,9 @@
       "name": "ANTARA Terkini",
       "status": "success",
       "raw": 50,
-      "accepted": 3,
-      "filtered": 47,
-      "filteredFootball": 3,
+      "accepted": 1,
+      "filtered": 49,
+      "filteredFootball": 4,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,9 +83,9 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 12,
-      "filtered": 8,
-      "filteredFootball": 5,
+      "accepted": 15,
+      "filtered": 5,
+      "filteredFootball": 1,
       "translated": 20,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -118,8 +118,8 @@
     {
       "name": "NU Online",
       "status": "success",
-      "raw": 49,
-      "accepted": 19,
+      "raw": 48,
+      "accepted": 18,
       "filtered": 30,
       "filteredFootball": 0,
       "translated": 0,
@@ -131,9 +131,9 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 33,
-      "filtered": 17,
-      "filteredFootball": 2,
+      "accepted": 35,
+      "filtered": 15,
+      "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -156,16 +156,569 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 187,
+    "translatedArticles": 195,
     "partialArticles": 0,
     "failedArticles": 0,
-    "cacheEntries": 5412
+    "cacheEntries": 5490
   },
   "images": {
     "found": 500,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "f211d1ad97d5caa6",
+      "title": "Ditolak masuk, Francesca Albanese untuk meninggalkan Costa Rica setelah malam kedua di bandara",
+      "description": "Ditolak masuk, Francesca Albania meninggalkan Kosta Rica setelah malam kedua di bandara Francesca Albanese, rapporteur khusus PBB pada wilayah Palestina, yang ditolak masuk ke Kosta Rika, mengatakan dia akan meninggalkan negara pada hari Sabtu setelah menghabiskan dua malam di bandara. \"Malam kedua di bandara. Dijaga oleh keamanan di setiap langkah. Kursi (sic) yang tidak bisa konfortable. Suara bising. Cahaya terang. Menghitung jam sampai penerbangan saya besok,\" dia menulis di X Malam kedua di bandara. Dijaga oleh keamanan di setiap langkah. Kursi yang tidak bisa dipadukan. Suara bising. Cahaya terang. Menghitung jam sampai penerbanganku besok. - Francesca Albania, Rapporteur OPt Khusus PBB (@ FranceskAlbs) November 27, 2026",
+      "originalTitle": "Denied entry, Francesca Albanese to leave Costa Rica after second night at airport",
+      "originalDescription": "Denied entry, Francesca Albanese to leave Costa Rica after second night at airport Francesca Albanese, the UN special rapporteur on the Palestinian territories, who was denied entry into Costa Rica, says she would leave the country on Saturday after spending two nights at the airport. “Second night in the airport. Guarded by security at every step. Unconfortable (sic) chairs. Noise. Bright light. Counting the hours till my flight tomorrow,” she wrote on X. Second night in the airport. Guarded by security at every step. Unconfortable chairs. Noise. Bright light. Counting the hours till my flight tomorrow. — Francesca Albanese, UN Special Rapporteur oPt (@FranceskAlbs) November 27, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Untitled_4.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-28T01:53:35+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/denied-entry-francesca-albanese-leave-costa-rica-after-second-night"
+    },
+    {
+      "id": "286833b9995005f4",
+      "title": "Aliansi Pertahanan Makkah perkuat keamanan Saudi hadapi Houthi",
+      "description": "Turkiye, Pakistan, dan Arab Saudi sepakat meningkatkan upaya guna menjamin keamanan kerajaan Arab Teluk ...",
+      "originalTitle": "Aliansi Pertahanan Makkah perkuat keamanan Saudi hadapi Houthi",
+      "originalDescription": "Turkiye, Pakistan, dan Arab Saudi sepakat meningkatkan upaya guna menjamin keamanan kerajaan Arab Teluk ...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://img.antaranews.com/cache/800x533/2026/10/26/AFP_20261024_D4BJ29E_v1_MidRes_YemenIranSaudiIsraelUsWar.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "ANTARA Terkini",
+      "sources": [
+        "ANTARA Terkini"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-28T01:40:31+00:00",
+      "originalUrl": "https://www.antaranews.com/berita/5884331/aliansi-pertahanan-makkah-perkuat-keamanan-saudi-hadapi-houthi"
+    },
+    {
+      "id": "05dfd5cfef820eb8",
+      "title": "Militer Israel mengklaim pekerja MSF tewas dalam serangan Gaza adalah anggota Hamas",
+      "description": "Militer Israel mengklaim para pekerja MSF yang tewas di Gaza adalah anggota Hamas dari pihak Israel yang mengatakan bahwa dua orang pekerja Dokter Tanpa Batas (MSF) -- Ahmed Sufyan Muhammad Ali Hasira dan Ma 'Aad Anda adalah anggota dari Ali Sabeh -- tewas dalam serangan udara di klinik di Gaza City adalah anggota Hamas. Dalam pernyataan, militer mengatakan Ali Sabeh adalah sebagai komandan unit artileri di Hamas apos; s sayap bersenjata, tanpa menyediakan bukti. Ini ditolak menargetkan rumah sakit atau merusak infrastruktur medis, mengatakan tindakan pencegahan telah dilakukan untuk meminimalkan korban sipil.",
+      "originalTitle": "Israeli military claims MSF workers killed in Gaza strike were Hamas members",
+      "originalDescription": "Israeli military claims MSF workers killed in Gaza strike were Hamas members The Israeli military has said the two Doctors Without Borders (MSF) workers -- Ahmed Sufyan Muhammad Ali Abu Hasira and Ma’ad Yousef Ali Sabeh -- killed in an air strike on a clinic in Gaza City were members of Hamas. In a statement, the military said Ali Sabeh was as an artillery unit commander in Hamas’s armed wing, without providing any evidence. It denied targeting a hospital or damaging medical infrastructure, saying precautions had been taken to minimise civilian casualties.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Untitled_4.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-28T01:26:01+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-claims-msf-workers-killed-gaza-strike-were-hamas"
+    },
+    {
+      "id": "5572ccfa13a7e5d9",
+      "title": "Pentingnya Memahami Tafsir Ayat dan Surat Pendek yang Kita Baca Sehari-hari",
+      "description": "Memahami tafsir ayat dan surat pendek yang sering dibaca dapat memperdalam penghayatan ibadah sekaligus meningkatkan literasi keagamaan umat Islam.",
+      "originalTitle": "Pentingnya Memahami Tafsir Ayat dan Surat Pendek yang Kita Baca Sehari-hari",
+      "originalDescription": "Memahami tafsir ayat dan surat pendek yang sering dibaca dapat memperdalam penghayatan ibadah sekaligus meningkatkan literasi keagamaan umat Islam.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/untitled-design-2026-03-05t095612407_1795821889.webp",
+      "category": "Al-Qur'an dan Hadis",
+      "tags": [
+        "Al-Qur'an dan Hadis"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-28T01:00:00+00:00",
+      "originalUrl": "https://islam.nu.or.id/tafsir/pentingnya-memahami-tafsir-ayat-dan-surat-pendek-yang-kita-baca-sehari-hari-qToD4"
+    },
+    {
+      "id": "61144ba94dd4e2d9",
+      "title": "Aliansi Mekah memenuhi tekanan kebutuhan untuk melanjutkan upaya bersama, Saudi menteri mengatakan",
+      "description": "Mekkah Aliansi memenuhi tekanan kebutuhan untuk melanjutkan upaya bersama, Saudi menteri mengatakan Arab Saudi, Turki dan Pakistan telah menekankan kebutuhan untuk upaya bersama berkelanjutan untuk mendukung \"jalur politik dan pertahanan\" dari Mekah Pertahanan Aliansi, Saudi Pertahanan Menteri Khalid bin Salman mengatakan. Dalam sebuah pos di X, ia mengatakan pertemuan kedua Komite Strategi Politik dan Pertahanan dari Aliansi Pertahanan Mekkah \"menegaskan posisi negara kita 'bersatu dan peran aktif dalam menangani situasi saat ini dan kerjasama dekat dan koordinasi diperlukan untuk memperkuat keamanan dan stabilitas.\" Di sela-sela pertemuan, Khalid bin Salman mengadakan pembicaraan dengan Menteri Pertahanan Nasional Turki, Yasar Guler. \"Kami memuji hasil pertemuan dan menekankan pentingnya untuk terus memperkuat dan mengembangkan militer dan kerjasama pertahanan untuk melayani kepentingan bersama kita dan mencapai keamanan dan stabilitas\", katanya. Pertemuan kedua Komite Strategi Politik dan Pertahanan dari Mekkah Pertahanan Aliansi menegaskan sebuah' posisi unified '. Departemen Pertahanan Saudi Pic",
+      "originalTitle": "Mecca Alliance meet stresses need for continuing joint efforts, Saudi minister says",
+      "originalDescription": "Mecca Alliance meet stresses need for continuing joint efforts, Saudi minister says Saudi Arabia, Turkey and Pakistan have stressed the need for continuing joint efforts to support the \"political and defence tracks\" of the Mecca Defence Alliance, Saudi Defence Minister Khalid bin Salman said. In a post on X, he said the second meeting of the Political and Defence Strategic Committee of the Mecca Defence Alliance \"affirms our countries’ unified position and active role in addressing the current situation and the close cooperation and coordination it requires to strengthen security and stability\". On the sidelines of the meeting, Khalid bin Salman held talks with Turkey's Minister of National Defence, Yasar Guler. \"We commended the meeting’s outcomes and stressed the importance of continuing to strengthen and develop military and defence cooperation to serve our shared interests and achieve security and stability,\" he said. The second meeting of the Political and Defense Strategic Committee of the Mecca Defense Alliance affirmed a 'unified position'. (Pic Saudi Defence Ministry)",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/mecca%20alliance.jpeg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-28T00:47:05+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/mecca-alliance-meet-stresses-need-continuing-joint-efforts-saudi"
+    },
+    {
+      "id": "94f5e9434d60d1fb",
+      "title": "Pertahanan sipil Saudi mengatakan bahaya telah lewat di Provinsi Timur, Al Kharj",
+      "description": "Pertahanan sipil Saudi mengatakan bahaya telah terjadi di Provinsi Timur, Al Kharj Direktorat Umum Pertahanan Sipil Saudi mengatakan bahaya telah berlalu di kerajaan Provinsi Timur dan pemerintah Al Kharj. Sebelumnya, National Early Warning Platform memperingatkan bahaya untuk dua daerah, mendesak penduduk untuk mengikuti tindakan pencegahan keselamatan. Sementara itu, perumahan-afiliasi Al Masira TV mengklaim bahwa serangan Saudi telah menargetkan ibukota Yaman Sanaa, Al Jazeera dilaporkan. Di sini, di sini, di sini, di sini, di sini, di sini, di sini, di sini, di sini, di sini, di sini, di sini. Ini adalah 911. Bahaya telah berlalu di Provinsi Timur. Untuk keselamatanmu, lanjutkan perintah # Civil Defense dan hindari berkumpul dan syuting. Dalam keadaan darurat, hubungi 911.",
+      "originalTitle": "Saudi civil defence says danger has passed in Eastern Province, Al Kharj",
+      "originalDescription": "Saudi civil defence says danger has passed in Eastern Province, Al Kharj The General Directorate of Saudi Civil Defense said the danger has passed in the kingdom's Eastern Province and Al Kharj governorate. Earlier, the National Early Warning Platform issued danger alerts for the two areas, urging residents to follow safety precautions. Meanwhile, Houthi-affiliated Al Masira TV claimed that a Saudi attack has targeted the Yemeni capital city Sanaa, Al Jazeera reported. تنبيه زال الخطر عن المنطقة الشرقية، لسلامتك الاستمرار في اتباع تعليمات #الدفاع_المدني وتجنب التجمهر والتصوير نهائيًا. في حالة الطوارئ اتصل بالرقم (911). Alert: The danger has passed in Eastern Province. For your safety, continue following #CivilDefense instructions and avoid gathering and filming. In case of emergency, call (911). — الدفاع المدني السعودي (@SaudiDCD) November 27, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Untitled_4.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-28T00:24:08+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-civil-defence-says-danger-has-passed-eastern-province-al-kharj"
+    },
+    {
+      "id": "df25878eca541cb3",
+      "title": "Khalid bin Salman Pimpin Diplomasi Pertahanan Koalisi Mekkah di Islamabad",
+      "description": "Menteri Pertahanan Arab Saudi, Pangeran Khalid bin Salman, bertemu Perdana Menteri Pakistan, Panglima Angkatan Darat Pakistan, dan Menteri Pertahanan Turki di Islamabad untuk memperkuat kerja sama Koalisi Pertahanan Mekkah.",
+      "originalTitle": "Khalid bin Salman Pimpin Diplomasi Pertahanan Koalisi Mekkah di Islamabad",
+      "originalDescription": "Menteri Pertahanan Arab Saudi, Pangeran Khalid bin Salman, bertemu Perdana Menteri Pakistan, Panglima Angkatan Darat Pakistan, dan Menteri Pertahanan Turki di Islamabad untuk memperkuat kerja sama Koalisi Pertahanan Mekkah.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/whatsapp/2026-11/whatsapp-2eb6f242-adeb-4cd7-8c8d-af10e607c58d-A1xlJqnm.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-27T23:56:23+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/ix133sg2c"
+    },
+    {
+      "id": "23329a957e58eba4",
+      "title": "Drone yang menewaskan dua orang Italia di Kuwait adalah Iran-dibuat, kata menteri asing Italia",
+      "description": "Drone yang menewaskan dua orang Italia di Kuwait adalah Iran-dibuat, kata menteri asing Italia Drone yang digunakan dalam serangan terhadap Kuwait yang menewaskan dua orang Italia diproduksi di Iran, Menteri Luar Negeri Italia Antonio Tajan mengatakan pada hari Jumat. Dalam sebuah wawancara dengan pers Italia, Tajan berkata: \"Menurut penyelidikan yang dilakukan oleh orang Kuwait, pesawat tak berawak itu diproduksi di Iran\". Serangan pada hari Kamis juga melukai dua orang lainnya. Hal ini menarik kutukan dari banyak negara, dan beberapa, termasuk Suriah dan Arab Saudi, menyalahkan Iran untuk itu. Sementara itu, Iran menolak meluncurkan pesawat tak berawak itu, dengan Menteri Luar Negeri Iran Abbas Araghchi menyebut insiden itu \"mencurigakan\". \"Orang Iran mengatakan itu tidak diluncurkan dari wilayah Iran, tapi, seperti yang Anda tahu, proksi Iran, semua sekutu Iran, memiliki robot buatan Iran\", menurut Tajan pers. \"Akan ada penyelidikan, dan Iran telah mengatakan mereka siap untuk berpartisipasi dalam komisi penyelidikan bersama Italia dan Kuwait\", tambahnya. Menteri Luar Negeri Italia Antonio Tajan: menurut penyelidikan yang dilakukan oleh Kuwait, pesawat tak berawak itu diproduksi di Iran. Iran mengatakan itu tidak diluncurkan dari wilayah Iran, tapi, seperti yang Anda tahu, proksi Iran, semua sekutu Iran, memiliki drone buatan Iran. Akan ada penyelidikan, dan Iran mengatakan mereka siap untuk berpartisipasi dalam komisi penyelidikan bersama Italia dan Kuwait. Kita akan lihat. / Laporan Clash (@ clashreport) November 27, 2026",
+      "originalTitle": "Drone that killed two Italians in Kuwait was Iranian-made, says Italy's foreign minister",
+      "originalDescription": "Drone that killed two Italians in Kuwait was Iranian-made, says Italy's foreign minister The drone used in the attack on Kuwait that killed two Italians was manufactured in Iran , Italian Foreign Minister Antonio Tajani said on Friday. In an interview with the Italian press, Tajani said: \"According to the investigations carried out by the Kuwaitis, the drone was manufactured in Iran.\" The attack on Thursday also injured two other people. It drew condemnation from many countries, and some, including Syria and Saudi Arabia , blamed Iran for it. Meanwhile, Iran has denied launching the drone, with Iranian Foreign Minister Abbas Araghchi calling the incident \"suspicious\". \"The Iranians say it was not launched from Iranian territory, but, as you know, Iran's proxies, all of Iran's allies, have Iranian-made drones,\" Tajani told press. \"There will be investigations, and the Iranians have said they are ready to participate in a commission of inquiry alongside the Italians and Kuwaitis,\" he added. Italian Foreign Minister Antonio Tajani: According to the investigations carried out by the Kuwaitis, the drone was manufactured in Iran. The Iranians say it was not launched from Iranian territory, but, as you know, Iran’s proxies, all of Iran’s allies, have Iranian-made drones. There will be investigations, and the Iranians have said they are ready to participate in a commission of inquiry alongside the Italians and Kuwaitis. We will see. — Clash Report (@clashreport) November 27, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Untitled_4.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-27T23:47:40+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-killed-two-italians-kuwait-was-iranian-made-says-italys-foreign"
+    },
+    {
+      "id": "a23086084130a2c7",
+      "title": "Dokter Tanpa Batas mengatakan dua staf tewas di 'hit langsung' Israel di klinik Gaza",
+      "description": "Doctors Without Borders mengatakan dua staf tewas di klinik langsung Israel Dua karyawan Dokter Tanpa Batas (MSF) tewas dalam serangan Israel pada salah satu klinik organisasi di Jalur Gaza pada hari Jumat. Pemogokan itu \"langsung hit\" di klinik, organisasi mengatakan. \"Kami hancur dan marah dengan pembunuhan dua rekan kami, kedua penjaga, dalam serangan Israel pada salah satu klinik Gaza kami malam ini\", kata MSF di pos X \"Tempat kami jelas ditandai dengan logo MSF, dan lokasi mereka telah dikomunikasikan dan dikenal oleh militer Israel\", tambah. Organisasi mengatakan pembunuhan ini membawa jumlah staf MSF dibunuh oleh Israel di Gaza sampai 17. Serangan terhadap klinik MSF, dekat dengan Rumah Sakit Al- Shifa, membawa korban jiwa dari serangan Israel di seberang lapangan pada hari Jumat sampai delapan. Pada awal Jumat malam, orang Palestina lainnya ditembak mati oleh pasukan Israel di daerah Al- Mawasi, barat daya Rafah di Jalur Gaza Selatan, kantor berita Wafa dilaporkan. Kami hancur dan marah dengan pembunuhan dua rekan kami, kedua penjaga, dalam serangan Israel pada salah satu klinik Gaza kami malam ini. Ini adalah hit langsung di MSF, membawa total rekan MSF tewas di Gaza sampai 17. Tempat kami jelas ditandai dengan logo MSF, dan lokasi mereka telah dikomunikasikan dan dikenal oleh militer Israel. Kami berdiri dalam solidaritas dengan keluarga dan orang-orang yang dicintai rekan-rekan kami. Kami meminta pertanggungjawaban. - MSF International (@ MSF) November 27, 2026",
+      "originalTitle": "Doctors Without Borders says two staff killed in Israeli 'direct hit' on Gaza clinic",
+      "originalDescription": "Doctors Without Borders says two staff killed in Israeli 'direct hit' on Gaza clinic Two employees of Doctors Without Borders (MSF) were killed in an Israeli strike on one of the organisation's clinics in the Gaza Strip on Friday. The strike was a \"direct hit\" on the clinic, the organisation said. \"We are devastated and outraged by the killing of two of our colleagues, both watchmen, in an Israeli strike on one of our Gaza clinics tonight,\" MSF said in a post on X. \"Our premises were clearly marked with MSF logos, and their location had been communicated to and was known by the Israeli military,\" it added. The organisation says these killings bring the number of MSF staff killed by Israel in Gaza to 17. The attack on the MSF clinic, close to al-Shifa Hospital, brought the death toll from Israeli attacks across the strip on Friday to eight. Earlier on Friday evening, another Palestinian was shot dead by Israeli forces in the al-Mawasi area, southwest of Rafah in the southern Gaza Strip, Wafa news agency reported. 🔴 BREAKING - We are devastated and outraged by the killing of two of our colleagues, both watchmen, in an Israeli strike on one of our Gaza clinics tonight. This is a direct hit on MSF, bringing the total number of MSF colleagues killed in Gaza to 17. Our premises were clearly marked with MSF logos, and their location had been communicated to and was known by the Israeli military. We stand in solidarity with the families and loved ones of our colleagues. We call for accountability. — MSF International (@MSF) November 27, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Untitled_4.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-27T22:48:15+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/doctors-without-borders-says-two-staff-killed-israeli-direct-hit-gaza"
+    },
+    {
+      "id": "ee17d1498ed1584b",
+      "title": "Beberapa orang Palestina dipukuli dan ditahan dalam penggerebekan Israel di West Bank",
+      "description": "Beberapa orang Palestina dipukuli dan ditahan dalam serangan Israel di sekitar Raid Bank Barat yang diduduki dan serangan oleh tentara Israel dan pemukim di seluruh Tepi Barat pada hari Jumat kiri setidaknya tiga Palestina terluka dan beberapa ditahan. Tiga orang Palestina terluka dan lainnya, diidentifikasi sebagai Muhammad Daifallah Arara, ditahan pada Jumat malam setelah pasukan Israel menyerbu rumahnya di utara dari menduduki Yerusalem dan menyerang orang-orang di dalam. Ketiga orang itu menderita luka-luka pada bahu mereka, anggota badan dan anggota badan mereka setelah dipukuli oleh tentara Israel, sesuai dengan perintah pemerintah Yerusalem. Sebelumnya, sekelompok pemukim Israel menyerang rumah keluarga, mencoba untuk mendobrak pintu masuk dan badai halamannya, sebelum pasukan Israel campur tangan dan menyerbu rumah. Pasukan Israel menyerbu sebuah gua perumahan di desa Khirbet Khallat al- Daba 'a di Masafe Yatta, selatan Hebron, pada Jumat malam, menyerang pemiliknya, menahan anggota keluarganya dan merusak properti di dalam, Kantor Berita Wafa melaporkan. Gua itu milik aktivis Jaber Al- Dababseh, yang dipukuli oleh tentara Israel saat keluarganya ditahan. Pada Jumat malam, pasukan Israel menembakkan gas air mata ke warga Palestina di kota Beit Ummar, utara Hebron, selama serangan. Tentara Israel memaksa pemilik toko untuk menutup toko mereka. Di desa Jayyus, sebelah timur Qalqilya, pasukan Israel ditahan tujuh Palestina setelah merampok rumah mereka dan merampok properti mereka. Penduduk Israel juga melanjutkan serangan mereka di seluruh Tepi Barat yang diduduki sepanjang hari. Mereka menyerang kendaraan Palestina di Wadi daerah Shaer di pemerintahan Salfit, setidaknya merusak dua mobil, penduduk setempat memberitahu Wafa. Di kota Za' tara, timur Betlehem, pemukim mendirikan tenda, meningkatkan ketakutan antara penduduk Palestina bahwa mereka bisa membuka jalan untuk sebuah pos Israel baru di sana. Terpisah, sekelompok pemukim Israel dibuang limbah dekat rum",
+      "originalTitle": "Several Palestinians beaten and detained in Israeli raids across occupied West Bank",
+      "originalDescription": "Several Palestinians beaten and detained in Israeli raids across occupied West Bank Raids and attacks by Israeli forces and settlers across the occupied West Bank on Friday left at least three Palestinians injured and several detained. Three Palestinians were injured and another, identified as Muhammad Daifallah Arara, was detained on Friday night after Israeli occupation forces raided his home north of occupied Jerusalem and assaulted those inside. The three sustained injuries to their shoulders, limbs and abdomens after being beaten by Israeli soldiers, according to the Jerusalem Governorate. Earlier, a group of Israeli settlers attacked the family's home, attempting to break down its entrance and storm its courtyard, before Israeli forces intervened and raided the house. Israeli forces raided a residential cave in the village of Khirbet Khallat al-Daba'a in Masafer Yatta, south of Hebron, on Friday evening, assaulting its owner, detaining his family members and vandalising property inside, Wafa news agency reported. The cave belongs to activist Jaber al-Dababseh, who was beaten by Israeli soldiers while his family members were detained. On Friday evening, Israeli forces fired tear gas at Palestinian residents in the town of Beit Ummar, north of Hebron, during a raid. Israeli soldiers forced shop owners to close their stores. In the village of Jayyus, east of Qalqilya, Israeli forces detained seven Palestinians after raiding their homes and ransacking their property. Israeli settlers also continued their attacks across the occupied West Bank throughout the day. They attacked Palestinian vehicles in the Wadi al-Shaer area in the Salfit governorate, damaging at least two, locals told Wafa. In the town of Za'tara, east of Bethlehem, settlers set up tents, raising fears among Palestinian residents that they could pave the way for a new Israeli outpost there. Separately, a group of Israeli settlers dumped waste near a Palestinian home in the Turmus Ayya Plain, north of",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/west-bank-tear-gas-israel-palestine.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-27T22:10:15+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/several-palestinians-beaten-and-detained-israeli-raids-across-occupied"
+    },
+    {
+      "id": "afe5953b955f4178",
+      "title": "Pasar saham Oman pada jalur untuk mengalahkan semua negara Teluk di 2026",
+      "description": "Pasar saham Oman pada jalur untuk mengalahkan semua negara Teluk pada 2026 Disampaikan oleh Sean Mathews pada Fri, 11 / 27 / 2026 - 21: 00 Ekonomi Oman telah muncul sebagai pemenang relatif di tengah perang di Iran berkat geografi dan diplomasi, para ahli mengatakan Seorang pria melihat Rasool al Adham Masjid dari Corniche di Port Sultan Qabos di ibukota Oman, Muscat, pada 5 Februari 2026 (Loic Venance / AFP) dari pasar saham Oman akan menjadi pemain terbaik di daerah Teluk pada 2026, dengan pertumbuhan ekonomi yang menarik depan tetangga, dalam tanda-tanda bagaimana perang itu berasal dari Iran berasal dari perang tersebut. Indeks MSX30, yang melacak kinerja dari perdagangan saham Oman, telah melambung 22 persen tahun-tanggal. Pasar saham Dubai, Indeks Pasar Keuangan Dubai, pemain kedua terbaik di wilayah ini, meningkat 8.7% dari sekarang. Pasar Tadaul Arab Saudi menurun 3 persen tahun ke-date. Sebagai perbandingan, di AS, indeks SP500 naik 6,4 persen tahun -to-date setelah pelarangan tajam dalam AI dan teknologi. Pasar saham Saudi dan Dubai telah mencakar kembali kerugian curam awal tahun ini setelah AS dan Israel meluncurkan perang terhadap Iran. Namun kesuksesan Oman lebih menarik ketika orang menganggap kemarahan Presiden AS Donald Trump ditujukan pada hal itu selama negosiasi dengan Iran untuk mengelola lalu lintas di Selat Hormuz, yang terdiri dari perairan teritorial Iran dan Oman. Trump mengancam untuk \"meledakkan\" Oman, dimana bisnis real estate keluarganya telah melisensikan namanya untuk digunakan di sebuah resor golf. Dari luar hingga ketegangan pada trailblazer masih antara AS dan Iran. Amerika telah meluncurkan serangan ke Iran dan kapal-kapalnya, sementara Iran telah menyerang kapal-kapal di Selat Hormuz dan negara-negara Teluk. Kuwait menyalahkan Iran atas serangan pada hari Kamis yang menewaskan dua tentara Italia di sebuah situs militer. Iran menolak tanggung jawab, tapi dalam beberapa minggu terakhir ini telah meluncurkan serangan di Kuwait dan B",
+      "originalTitle": "Oman's stock market on track to beat all Gulf states in 2026",
+      "originalDescription": "Oman's stock market on track to beat all Gulf states in 2026 Submitted by Sean Mathews on Fri, 11/27/2026 - 21:00 Oman's economy has emerged as a relative winner amid the Iran war thanks to its geography and diplomacy, experts say A man views Rasool al-Adham Mosque from the corniche at Port Sultan Qaboos in Oman's capital, Muscat, on 5 February 2026 (Loic Venance/AFP) Off Oman’s stock market is on track to be the best performer in the Gulf region in 2026, with its economic growth pulling ahead of neighbours, in a sign of how it is reaping gains from distancing itself from the US-Israeli war on Iran. The MSX30 Index, which tracks the performance of Oman’s stock exchange, has soared 22 percent year-to-date. Dubai's stock market, the Dubai Financial Market General Index, the region’s second-best performer, is up 8.7 percent year-to-date. Saudi Arabia’s Tadawul market is down 3 percent year-to-date. For comparison, in the US, the SP500 index is up 6.4 percent year-to-date after a sharp selloff in AI and technology. Both the Saudi and Dubai stock markets have clawed back the steep losses of earlier this year after the US and Israel launched a war on Iran. But Oman's success is more interesting when one considers the anger US President Donald Trump directed at it during negotiations with Iran over the way to manage traffic in the Strait of Hormuz, which is comprised of Iran and Oman's territorial waters. Trump threatened to “blow up” Oman, where his family real estate business has licensed its name for use on a golf resort. Oman: From outlier to trailblazer Tensions are still simmering between the US and Iran. The US has launched strikes on Iran and its vessels, while Iran has attacked ships in the Strait of Hormuz and Gulf countries. Kuwait blamed Iran for a strike on Thursday that killed two Italian soldiers at a military site. Iran denied responsibility, but in recent weeks has launched strikes on Kuwait and Bahrain, both of which host US military bases. 'From outlier ",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_96AZ3KE.jpg.jpg?itok=n80CmZqT",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-27T21:53:04+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/omans-stock-market-track-beat-all-gulf-states-double-digit-gains-2026"
+    },
+    {
+      "id": "af853c4fbe6a524d",
+      "title": "SDAIA Ajak Publik Beri Masukan atas Revisi Kebijakan Klasifikasi Data",
+      "description": "SDAIA mengundang masyarakat dan pihak terkait untuk memberikan masukan terhadap revisi kebijakan klasifikasi data guna mendukung pengembangan tata kelola data di Arab Saudi.",
+      "originalTitle": "SDAIA Ajak Publik Beri Masukan atas Revisi Kebijakan Klasifikasi Data",
+      "originalDescription": "SDAIA mengundang masyarakat dan pihak terkait untuk memberikan masukan terhadap revisi kebijakan klasifikasi data guna mendukung pengembangan tata kelola data di Arab Saudi.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/template-person-1-1795814170889-20ubeBCb.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-27T21:15:00+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/2sfgnf2wq"
+    },
+    {
+      "id": "c5550a0607ddd6b8",
+      "title": "Universitas Islam Madinah Raih 5 Medali di Pameran dan Kompetisi 'SAFE' 2026",
+      "description": "Universitas Islam Madinah meraih lima medali—tiga emas dan dua perak—di Pameran dan Kompetisi Keamanan dan Inovasi Dunia 'SAFE' 2026 setelah seluruh proyeknya menang.",
+      "originalTitle": "Universitas Islam Madinah Raih 5 Medali di Pameran dan Kompetisi 'SAFE' 2026",
+      "originalDescription": "Universitas Islam Madinah meraih lima medali—tiga emas dan dua perak—di Pameran dan Kompetisi Keamanan dan Inovasi Dunia 'SAFE' 2026 setelah seluruh proyeknya menang.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-atG1wRZg.jpg",
+      "category": "Pendidikan Islam",
+      "tags": [
+        "Pendidikan Islam",
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-27T20:37:06+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/e9z62c1vc"
+    },
+    {
+      "id": "43f0cda5685e84f5",
+      "title": "UBN Curiga Barbuk Kaus Tulisan Arab Sengaja untuk Memabrikasi Musuh dari Islam",
+      "description": "JAKARTA – Ustaz Bachtiar Nasir (UBN) menyoroti temuan barang bukti berupa rancangan kaus bertulisan Arab dan bergambar senjata dalam pengungkapan kasus dugaan makar yang berkembang dari perkara penyadapan ilegal...",
+      "originalTitle": "UBN Curiga Barbuk Kaus Tulisan Arab Sengaja untuk Memabrikasi Musuh dari Islam",
+      "originalDescription": "JAKARTA – Ustaz Bachtiar Nasir (UBN) menyoroti temuan barang bukti berupa rancangan kaus bertulisan Arab dan bergambar senjata dalam pengungkapan kasus dugaan makar yang berkembang dari perkara penyadapan ilegal...",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://static.republika.co.id/uploads/images/detailnews/080754600-1795514653-830-556.jpg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "Republika",
+      "sources": [
+        "Republika"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-27T20:26:00+00:00",
+      "originalUrl": "https://khazanah.republika.co.id/berita/tp60cw451/ubn-curiga-barbuk-kaus-tulisan-arab-sengaja-untuk-memabrikasi-musuh-dari-islam"
+    },
+    {
+      "id": "98eb787605702c2a",
+      "title": "Serangan Israel di seluruh Gaza membunuh empat orang Palestina",
+      "description": "Serangan Israel di seluruh Gaza membunuh empat orang Palestina, serangan Israel, menewaskan empat orang Palestina di Jalur Gaza pada hari Jumat, agen berita Palestina, Wafa melaporkan. Beberapa lainnya, termasuk seorang anak, terluka dalam serangkaian serangan di seberang jalan. Di kota selatan Rafah, awak pertahanan sipil Gaza pulih tiga mayat. Mereka juga menyelamatkan dua orang yang terluka setelah serangan Israel dekat Masjid Muawiya di jalan Bahr, di barat kota. Wafa melaporkan pada hari Jumat bahwa pesawat tak berawak Israel menabrak kendaraan di daerah Bir di Naaja, sebelah barat kamp pengungsi Jabalia, membunuh orang Palestina dan melukai beberapa orang lainnya, beberapa serius. Sumber medis dan saksi mata mengatakan pasukan Israel ditempatkan di dekat begitu disebut \"Yellow Line\" berulang kali menembak pada tenda melindungi pengungsi Palestina di daerah tersebut. Yang disebut \"Garis Kuning\" adalah batas militer yang diberlakukan oleh pasukan Israel di Jalur Gaza setelah persetujuan gencatan senjata Oktober 2025. Sejak gencatan senjata terjadi pada Oktober 2025, lebih dari 1.600 warga Palestina dilaporkan tewas dan 5,833 terluka. Mourners membawa tubuh terselubung Palestina tewas dalam serangan udara Israel malam sebelumnya, di rumah sakit Al- Shifa di Gaza City, 26 November 2026 (Omar Al- Qattaa / AFP)",
+      "originalTitle": "Israeli attacks across Gaza kill four Palestinians",
+      "originalDescription": "Israeli attacks across Gaza kill four Palestinians Israeli attacks killed four Palestinians across the Gaza Strip on Friday, the Palestinian news agency Wafa reported. Several others, including a child, were wounded in a series of attacks across the strip. In the southern city of Rafah, Gaza's civil defence crews recovered three bodies. They also rescued two wounded people after an Israeli strike near the Muawiya Mosque on al-Bahr Street, in the west of the city. Wafa reported earlier on Friday that an Israeli drone struck a vehicle in the Bir al-Naaja area, west of the Jabalia refugee camp, killing a Palestinian man and wounding several others, some seriously. Medical sources and eyewitnesses said Israeli forces stationed near the so-called \"Yellow Line\" repeatedly opened fire on tents sheltering displaced Palestinians in the area. The so-called \"Yellow Line\" is a military boundary imposed by Israeli forces inside the Gaza Strip following the October 2025 ceasefire agreement. Since the ceasefire came into effect in October 2025, more than 1,600 Palestinians have reportedly been killed and 5,833 injured. Mourners carry the shrouded bodies of Palestinians killed in an Israeli air strike the night before, at Al-Shifa hospital in Gaza City, 26 November 2026 (Omar Al-Qattaa/AFP)",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/gaza-mourning-israel-palestine.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-27T20:22:20+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-attacks-across-gaza-kill-four-palestinians"
+    },
+    {
+      "id": "ad76ffedc496e4f9",
+      "title": "Putra terakhir kepala Hamas yang masih hidup melarikan diri dari serangan Israel di Gaza",
+      "description": "Hamas pemimpin Khadil al- Hayya terakhir hidup putra Izzeldeen selamat upaya pembunuhan Israel pada hari Jumat.",
+      "originalTitle": "Hamas chief’s last surviving son escapes Israeli strike in Gaza",
+      "originalDescription": "Hamas leader Khalil al-Hayya's last surviving son Izzeldeen survived an Israeli assassination attempt on Friday.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795810674.jpg?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-27T20:18:45+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126"
+    },
+    {
+      "id": "cbc8683b9538eb99",
+      "title": "Perusahaan real estate Israel menjual lahan 'Black Friday' di Brooklyn",
+      "description": "Perusahaan real estate Israel mengadakan 'Black Friday' obral kebakaran, bom asap, dan telur di depan para demonstran Proderi Elsamra di Fri, 11 / 27 / 2026 - 16: 33 Demonstrasi Israel melemparkan kembang api, bom asap, dan telur-telur di luar acara pengunjuk rasa Proderi Palestina berkumpul di luar acara \"Black Friday\" yang diadakan oleh perusahaan real estate Israel di Brooklyn, yang diadakan pada hari Sabtu-Jumat dan Jumat lainnya. Petasan, bom asap dan telur dilemparkan pada demonstran oleh demonstran Pro- Israel di luar acara real estate. Kantor real estate Israel mengadakan acara, menjual properti di Essen NY Deli di Brooklyn. Website Kapten mengiklankan beberapa properti di sekitar Yerusalem. Tak ada yang diiklankan di Bank Barat. Mata Timur Tengah tidak dapat memverifikasi bagian mana dari Yerusalem tanah yang sedang dipromosikan berada di dalam. Yerusalem Timur ditempati sesuai dengan hukum internasional. Pal- Awda, sebuah organisasi yang mendukung hak pengungsi Palestina untuk kembali ke tanah air mereka, mengatur protes di luar acara real estate. Juru bicara Pal-Awda menyebut peristiwa itu \"diskriminatif\" dan mengatakan mereka akan memprotes penjualan tanah \"tidak peduli di mana di Palestina tanah curian terletak\" dan bahwa \"semua itu diambil dari orang Palestina yang dicuri, sebagai bagian dari pembersihan etnis Zionis yang sedang berlangsung\". Juru bicara untuk kelompok ini mengatakan bahwa penjualan tanah hanya terbuka untuk pemeriksaan Yahudi Amerika yang sering tidak memiliki sebelumnya atau ikatan keluarga dengan Israel, menyatakan bahwa Kapten memiliki hubungan dengan penjualan tanah terjadi di West Bank yang diduduki. \"Apakah diiklankan atau tidak, Kapten dan rekan real estate Israel lainnya seperti Pertama Israel Mortgage telah secara konsisten menawarkan atau membiayai properti di West Bank dan Yerusalem Timur selama peristiwa ini\". Kelompok mengatakan bahwa penjualan tanah ini melanggar beberapa hukum negara dan federal, termasuk \"Hukum Propert",
+      "originalTitle": "Israeli real estate company holds ‘Black Friday’ land sale in Brooklyn",
+      "originalDescription": "Israeli real estate company holds ‘Black Friday’ land sale in Brooklyn Submitted by Mounira Elsamra on Fri, 11/27/2026 - 16:33 Pro-Israel demonstrators threw fire crackers, smoke bombs and eggs at pro-Palestine protesters outside the event Pro-Palestine protesters gather outside a \"Black Friday\" event an Israeli real estate company was hosting in Brooklyn, in New York City, promoting the sale of land in Jerusalem on 25 November 2026 (Mounira Elsamra/MEE) Off An Israeli real estate group held a \"Black Friday\" event in Brooklyn on Wednesday, advertising property sales and promoting what activist group Pal-Awda termed \"illegal settlement on stolen Palestinian land”. Firecrackers, smoke bombs and eggs were thrown at protesters by pro-Israel demonstrators outside the real estate event. Israel's CapitIL real estate agency held the event, selling property in Essen NY Deli in Brooklyn. CapitIL’s website advertises several properties in and around Jerusalem. None publicly advertised is in the occupied West Bank. Middle East Eye was not able to verify which part of Jerusalem the land being promoted was located in. East Jerusalem is occupied according to international law. Pal-Awda, an organisation that advocates for Palestinian refugees' right of return to their homeland, organised the protest outside the real estate event. A spokesperson for Pal-Awda called the event \"discriminatory\" and said they would protest the land sales “no matter where in Palestine the stolen land is located” and that “all of it was taken from dispossessed Palestinians, as part of the ongoing Zionist ethnic cleansing”. A spokesperson for the group said that these land sales are only open to vetted Jewish Americans who often have no previous or familial ties to Israel, arguing that CapitIL has ties to land sales happening in the occupied West Bank. “Whether advertised or not, CapitIL and the event's other Israeli real estate cohosts like First Israel Mortgage have consistently offered or financed prope",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Image%20from%20iOS_5.jpg.jpg?itok=tf9fC3Ds",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-27T20:13:54+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/israeli-real-estate-company-holds-black-friday-sale-brooklyn"
+    },
+    {
+      "id": "5ea3ebb9e18f7f44",
+      "title": "UN Gaza rapporteur Francesca Orang Albania menolak masuk ke Kosta Rika",
+      "description": "Kosta Rika telah melarang PBB rapporteur khusus Francesca Albanese, mengutip link 'tidak didirikan untuk aksi teroris'.",
+      "originalTitle": "UN Gaza rapporteur Francesca Albanese denied entry into Costa Rica",
+      "originalDescription": "Costa Rica has barred UN special rapporteur Francesca Albanese, citing unfounded ‘links to terrorist acts’.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795810110.jpg?resize=1620%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-27T20:10:30+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/27/un-gaza-rapporteur-francesca-albanese-denied-entry-into-costa-rica"
+    },
+    {
+      "id": "c7317935c341444d",
+      "title": "Israel membunuh empat di Gaza sebagai kepala Hamas al- anak Hayya bertahan serangan",
+      "description": "Empat anak laki-laki Khalil al- Hayya lainnya sebelumnya dibunuh oleh pasukan Israel, menurut kelompok Palestina.",
+      "originalTitle": "Israel kills four in Gaza as Hamas chief al-Hayya’s son survives strike",
+      "originalDescription": "Four of Khalil al-Hayya's other sons were previously killed by Israeli forces, according to the Palestinian group.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b09d72e1273-1795807022.jpg?resize=1920%2C1440",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-27T19:53:25+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/27/israel-kills-four-in-gaza-as-hamas-chief-al-hayyas-son-survives-strike"
+    },
+    {
+      "id": "5513b2f4d675a190",
+      "title": "Langkah Mengurus Pengganti Akta Kelahiran yang Hilang Secara Online lewat Absher",
+      "description": "Kementerian Dalam Negeri Arab Saudi kini menyediakan layanan pengurusan pengganti akta kelahiran yang hilang secara daring melalui platform Absher Individu.",
+      "originalTitle": "Langkah Mengurus Pengganti Akta Kelahiran yang Hilang Secara Online lewat Absher",
+      "originalDescription": "Kementerian Dalam Negeri Arab Saudi kini menyediakan layanan pengurusan pengganti akta kelahiran yang hilang secara daring melalui platform Absher Individu.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-RTsPRSJq.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-27T19:52:05+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/3j0zqpv56"
+    },
+    {
+      "id": "4fef54f4dee0ce55",
+      "title": "Al-Kholood Balikkan Keadaan, Akhiri Rentetan 5 Kekalahan di Liga Pro Saudi",
+      "description": "Al-Kholood berhasil mengakhiri lima kekalahan beruntun setelah membalikkan ketertinggalan dan menang 2-1 atas Al-Khaleej pada pekan ke-13 Liga Pro Saudi di Buraidah.",
+      "originalTitle": "Al-Kholood Balikkan Keadaan, Akhiri Rentetan 5 Kekalahan di Liga Pro Saudi",
+      "originalDescription": "Al-Kholood berhasil mengakhiri lima kekalahan beruntun setelah membalikkan ketertinggalan dan menang 2-1 atas Al-Khaleej pada pekan ke-13 Liga Pro Saudi di Buraidah.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/featured-crop-NjG7WN_h.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-27T19:44:07+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/olahraga/ht01ytrtz"
+    },
+    {
+      "id": "54cab3ee655168fb",
+      "title": "Konsulat Arab Saudi di Istanbul Evakuasi Warga untuk Lanjutkan Pengobatan di Tanah Air",
+      "description": "Konsulat Arab Saudi di Istanbul mengevakuasi seorang warga negara Saudi dengan pesawat evakuasi medis ke Arab Saudi untuk melanjutkan pengobatan.",
+      "originalTitle": "Konsulat Arab Saudi di Istanbul Evakuasi Warga untuk Lanjutkan Pengobatan di Tanah Air",
+      "originalDescription": "Konsulat Arab Saudi di Istanbul mengevakuasi seorang warga negara Saudi dengan pesawat evakuasi medis ke Arab Saudi untuk melanjutkan pengobatan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-ilfZ8vL9.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-27T19:11:03+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/w1a85lqsg"
+    },
     {
       "id": "42a0dfd9c0925752",
       "title": "Hak-hak PBB suara keprihatinan sebagai Costa Rica bar Francesca Albanese",
@@ -12194,560 +12747,6 @@
       "region": "",
       "publishedAt": "2026-11-23T12:30:09+00:00",
       "originalUrl": "https://www.nu.or.id/internasional/arab-saudi-bagikan-100-paket-umroh-gratis-begini-cara-daftarnya-1PpCW"
-    },
-    {
-      "id": "f26ab58ce99356a6",
-      "title": "Hukuman Mati Dilaksanakan terhadap Pelaku Pembunuhan Ibu dan Saudari di Riyadh",
-      "description": "Kementerian Dalam Negeri Arab Saudi mengeksekusi hukuman mati terhadap warga Saudi yang membunuh ibu dan saudarinya serta menembak saudari lainnya di Riyadh.",
-      "originalTitle": "Hukuman Mati Dilaksanakan terhadap Pelaku Pembunuhan Ibu dan Saudari di Riyadh",
-      "originalDescription": "Kementerian Dalam Negeri Arab Saudi mengeksekusi hukuman mati terhadap warga Saudi yang membunuh ibu dan saudarinya serta menembak saudari lainnya di Riyadh.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-07/وزارة-الداخلية-I0hfTy9p.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T12:25:35+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/v4glsena2"
-    },
-    {
-      "id": "91d2f7d1da064f30",
-      "title": "Rahasia Wajah Manusia di Dunia dan Akhirat yang Diungkap Alquran dan Hadis Nabi SAW",
-      "description": "JAKARTA— Bagian paling mulia dari tubuh manusia adalah wajah. Di dalamnya terdapat sebagian besar indra manusia. Wajah juga menjadi tempat tampaknya keindahan atau keburukan seseorang sekaligus menjadi bagian tubuh yang...",
-      "originalTitle": "Rahasia Wajah Manusia di Dunia dan Akhirat yang Diungkap Alquran dan Hadis Nabi SAW",
-      "originalDescription": "JAKARTA— Bagian paling mulia dari tubuh manusia adalah wajah. Di dalamnya terdapat sebagian besar indra manusia. Wajah juga menjadi tempat tampaknya keindahan atau keburukan seseorang sekaligus menjadi bagian tubuh yang...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/wajah-para-tki-ilegal-yang-dideportasi-dari-malaysia-ilustrasi-_140509110800-634.jpg",
-      "category": "Al-Qur'an dan Hadis",
-      "tags": [
-        "Al-Qur'an dan Hadis"
-      ],
-      "source": "Republika",
-      "sources": [
-        "Republika"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-23T12:00:00+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/toxm9o320/rahasia-wajah-manusia-di-dunia-dan-akhirat-yang-diungkap-alquran-dan-hadis-nabi-saw"
-    },
-    {
-      "id": "09e9bfc30b8b1f18",
-      "title": "Borong 4 Penghargaan, BAZNAS Majalengka Siap Perkuat Pengelolaan Zakat",
-      "description": "BAZNAS Majalengka raih penghargaan di Apresiasi BAZNAS Jabar 2026, termasuk Program Zakat Produktif Terbaik. Fokus pada peningkatan kualitas pengelolaan zakat.",
-      "originalTitle": "Borong 4 Penghargaan, BAZNAS Majalengka Siap Perkuat Pengelolaan Zakat",
-      "originalDescription": "BAZNAS Majalengka raih penghargaan di Apresiasi BAZNAS Jabar 2026, termasuk Program Zakat Produktif Terbaik. Fokus pada peningkatan kualitas pengelolaan zakat.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2026/11/20/baznas-kabupaten-majalengka-menerima-empat-penghargaan-dalam-ajang-apresiasi-baznas-provinsi-jawa-barat-2026-1795171724529_169.jpeg?w=360&q=90",
-      "category": "Ekonomi Syariah",
-      "tags": [
-        "Ekonomi Syariah"
-      ],
-      "source": "Detik",
-      "sources": [
-        "Detik"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-23T11:45:35+00:00",
-      "originalUrl": "https://news.detik.com/berita/d-8766299/borong-4-penghargaan-baznas-majalengka-siap-perkuat-pengelolaan-zakat"
-    },
-    {
-      "id": "55a53028d89c7a97",
-      "title": "Wakil Ketua Komisi Antikorupsi Bahas Kerja Sama dengan Sekjen Dewan Ulama Senior",
-      "description": "Wakil Ketua Komisi Pengawasan dan Pemberantasan Korupsi bertemu Sekjen Dewan Ulama Senior untuk memperkuat kerja sama dalam menanamkan nilai integritas dan pemberantasan korupsi.",
-      "originalTitle": "Wakil Ketua Komisi Antikorupsi Bahas Kerja Sama dengan Sekjen Dewan Ulama Senior",
-      "originalDescription": "Wakil Ketua Komisi Pengawasan dan Pemberantasan Korupsi bertemu Sekjen Dewan Ulama Senior untuk memperkuat kerja sama dalam menanamkan nilai integritas dan pemberantasan korupsi.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-y6s-MtR0.jpg",
-      "category": "Dakwah dan Ulama",
-      "tags": [
-        "Dakwah dan Ulama"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T11:41:14+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/mrbuslkos"
-    },
-    {
-      "id": "3dba0d41fd549ed9",
-      "title": "Kemlu Palestina Kecam Serangan Pemukim Israel yang Bakar 12 Kendaraan di Tepi Barat",
-      "description": "Pemukim Israel serang desa di Ramallah, bakar 12 mobil dan corat-coret slogan rasis. Kemenlu Palestina kecam teror dan desak sanksi internasional.",
-      "originalTitle": "Kemlu Palestina Kecam Serangan Pemukim Israel yang Bakar 12 Kendaraan di Tepi Barat",
-      "originalDescription": "Pemukim Israel serang desa di Ramallah, bakar 12 mobil dan corat-coret slogan rasis. Kemenlu Palestina kecam teror dan desak sanksi internasional.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/img-7021_1795433187.webp",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "NU Online",
-      "sources": [
-        "NU Online"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-23T11:30:46+00:00",
-      "originalUrl": "https://www.nu.or.id/internasional/kemlu-palestina-kecam-serangan-pemukim-israel-yang-bakar-12-kendaraan-di-tepi-barat-B3nkU"
-    },
-    {
-      "id": "08f4795f5535f107",
-      "title": "Kementerian Olahraga Tetapkan Cakupan Sertifikat Kecakapan Finansial untuk Klub Divisi Satu",
-      "description": "Kementerian Olahraga Arab Saudi mengumumkan cakupan sertifikat kecakapan finansial untuk klub Divisi Satu musim 2026-2027, termasuk syarat terkait agen dan perantara.",
-      "originalTitle": "Kementerian Olahraga Tetapkan Cakupan Sertifikat Kecakapan Finansial untuk Klub Divisi Satu",
-      "originalDescription": "Kementerian Olahraga Arab Saudi mengumumkan cakupan sertifikat kecakapan finansial untuk klub Divisi Satu musim 2026-2027, termasuk syarat terkait agen dan perantara.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-08/وزارة-الرياضة-NBvJJpRi.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T11:08:50+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/olahraga/jlmee677t"
-    },
-    {
-      "id": "902b1a966eafccfd",
-      "title": "Penyakit Perusak Kehidupan dan Penghalang Kesuksesan yang Diungkap Alquran dan Hadis",
-      "description": "JAKARTA— Di antara penyakit paling berbahaya yang dihadapi manusia dalam pekerjaan dan kehidupannya adalah kebiasaan menunda-nunda (taswif). Taswif berarti mengulur-ulur waktu atau menangguhkan pekerjaan. Ini merupakan penyakit yang membuat seseorang...",
-      "originalTitle": "Penyakit Perusak Kehidupan dan Penghalang Kesuksesan yang Diungkap Alquran dan Hadis",
-      "originalDescription": "JAKARTA— Di antara penyakit paling berbahaya yang dihadapi manusia dalam pekerjaan dan kehidupannya adalah kebiasaan menunda-nunda (taswif). Taswif berarti mengulur-ulur waktu atau menangguhkan pekerjaan. Ini merupakan penyakit yang membuat seseorang...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/stres-bisa-membuat-orang-malas-bergerak-hingga-menyikat-gigi-_200207222658-400.jpg",
-      "category": "Al-Qur'an dan Hadis",
-      "tags": [
-        "Al-Qur'an dan Hadis"
-      ],
-      "source": "Republika",
-      "sources": [
-        "Republika"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-23T11:00:00+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/toxkvs320/penyakit-perusak-kehidupan-dan-penghalang-kesuksesan-yang-diungkap-alquran-dan-hadis"
-    },
-    {
-      "id": "08fd6c0276c6782f",
-      "title": "Indonesia Resmi Teken Kontrak Partisipasi di Expo 2030 Riyadh",
-      "description": "Indonesia menandatangani kontrak partisipasi di Expo 2030 Riyadh, menegaskan komitmen memperkuat kemitraan dengan Arab Saudi dan menampilkan identitas bangsa.",
-      "originalTitle": "Indonesia Resmi Teken Kontrak Partisipasi di Expo 2030 Riyadh",
-      "originalDescription": "Indonesia menandatangani kontrak partisipasi di Expo 2030 Riyadh, menegaskan komitmen memperkuat kemitraan dengan Arab Saudi dan menampilkan identitas bangsa.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-xjXI1cKC.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T10:43:38+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/l7beno3xa"
-    },
-    {
-      "id": "cf13a82935bddab3",
-      "title": "Arab Saudi Perpanjang 60 Hari Masa Koreksi Status Warga Yaman",
-      "description": "Direktorat Jenderal Imigrasi Arab Saudi memperpanjang masa koreksi status bagi warga Yaman yang melanggar hingga 60 hari, dengan layanan daring dan di lokasi tertentu.",
-      "originalTitle": "Arab Saudi Perpanjang 60 Hari Masa Koreksi Status Warga Yaman",
-      "originalDescription": "Direktorat Jenderal Imigrasi Arab Saudi memperpanjang masa koreksi status bagi warga Yaman yang melanggar hingga 60 hari, dengan layanan daring dan di lokasi tertentu.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-UZZYGj7O.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T10:41:17+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/f3z7wwa4z"
-    },
-    {
-      "id": "b4c36af599bd4cf7",
-      "title": "Menteri PPPA Tekankan Tiga Agenda Literasi MUI: Tabayun Digital hingga Pendidikan Ramah Anak",
-      "description": "​JAKARTA -- Menteri Pemberdayaan Perempuan dan Perlindungan Anak (PPPA), Arifah Fauzi, mengapresiasi penyelenggaraan Konferensi Muslimah Indonesia (KMI) 2026 oleh Komisi Perempuan, Remaja, dan Keluarga (KPRK) Majelis Ulama Indonesia (MUI)...",
-      "originalTitle": "Menteri PPPA Tekankan Tiga Agenda Literasi MUI: Tabayun Digital hingga Pendidikan Ramah Anak",
-      "originalDescription": "​JAKARTA -- Menteri Pemberdayaan Perempuan dan Perlindungan Anak (PPPA), Arifah Fauzi, mengapresiasi penyelenggaraan Konferensi Muslimah Indonesia (KMI) 2026 oleh Komisi Perempuan, Remaja, dan Keluarga (KPRK) Majelis Ulama Indonesia (MUI)...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/menteri-pemberdayaan-perempuan-dan-perlindungan-anak-pppa-arifah_261123171400-859.jpg",
-      "category": "Nasional Islam",
-      "tags": [
-        "Nasional Islam",
-        "Dakwah dan Ulama"
-      ],
-      "source": "Republika",
-      "sources": [
-        "Republika"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-23T10:14:35+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/toy9sb430/menteri-pppa-tekankan-tiga-agenda-literasi-mui-tabayun-digital-hingga-pendidikan-ramah-anak"
-    },
-    {
-      "id": "70de1ad4e0bb71cb",
-      "title": "Produk Halal di Pasar Global berasal dari Thailand, Muslimah Indonesia Diimbau Bangkit",
-      "description": "JAKARTA -- Kepala Badan Pengembangan Ekonomi Syariah Kamar Dagang dan Industri (Kadin) Indonesia, Titi Khoiriah, menyoroti maraknya produk halal di pasar global justru berasal dari Thailand. Hal itu ia...",
-      "originalTitle": "Produk Halal di Pasar Global berasal dari Thailand, Muslimah Indonesia Diimbau Bangkit",
-      "originalDescription": "JAKARTA -- Kepala Badan Pengembangan Ekonomi Syariah Kamar Dagang dan Industri (Kadin) Indonesia, Titi Khoiriah, menyoroti maraknya produk halal di pasar global justru berasal dari Thailand. Hal itu ia...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/kepala-badan-pengembangan-ekonomi-syariah-kamar-dagang-dan-industri_261123171008-421.jpg",
-      "category": "Ekonomi Syariah",
-      "tags": [
-        "Ekonomi Syariah"
-      ],
-      "source": "Republika",
-      "sources": [
-        "Republika"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-23T10:11:20+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/toy9mw430/produk-halal-di-pasar-global-berasal-dari-thailandmuslimah-indonesia-diimbau-bangkit"
-    },
-    {
-      "id": "22fef90803a450d5",
-      "title": "MUI Ajak Muslimah Dukung Larangan Medsos untuk Anak di bawah 16 Tahun",
-      "description": "JAKARTA --Wakil Ketua Dewan Pertimbangan Majelis Ulama Indonesia (MUI), Amany Lubis, mengajak para Muslimah serta orang tua untuk mendukung kebijakan Kementerian Komunikasi dan Digital (Komdigi) yang melarang anak di...",
-      "originalTitle": "MUI Ajak Muslimah Dukung Larangan Medsos untuk Anak di bawah 16 Tahun",
-      "originalDescription": "JAKARTA --Wakil Ketua Dewan Pertimbangan Majelis Ulama Indonesia (MUI), Amany Lubis, mengajak para Muslimah serta orang tua untuk mendukung kebijakan Kementerian Komunikasi dan Digital (Komdigi) yang melarang anak di...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/wakil-ketua-dewan-pertimbangan-majelis-ulama-indonesia-mui-amany_261123170434-242.jpg",
-      "category": "Nasional Islam",
-      "tags": [
-        "Nasional Islam",
-        "Dakwah dan Ulama"
-      ],
-      "source": "Republika",
-      "sources": [
-        "Republika"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-23T10:05:36+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/toy9dc430/mui-ajak-muslimah-dukung-larangan-medsos-untuk-anak-di-bawah-16-tahun"
-    },
-    {
-      "id": "ded6149918b8fa31",
-      "title": "Arab Saudi memperketat peraturan penitipan anak dengan standar keselamatan stricter, lisensi aturan",
-      "description": "RIYADH - Arab Saudi diperbarui peraturan untuk pusat pemeliharaan anak swasta memperkenalkan standar keselamatan stricter, tiga hari lisensi dan hukuman sampai pembatalan lisensi untuk pelanggaran. Kementerian Sumber Daya Manusia dan Pengembangan Sosial mengumumkan Amandemen pada hari Senin untuk meningkatkan kualitas pelayanan dan perlindungan anak. Berdasarkan peraturan terbaru, lisensi harus dikeluarkan dalam waktu tiga hari setelah semua persyaratan terpenuhi. Amandemen juga merevisi standar fasilitas, peralatan, kapasitas, staf dan keamanan. Peraturan menetapkan anak-anak terbaru - untuk - rasio pengasuh berdasarkan kelompok usia, bersama kualifikasi dan pengalaman persyaratan untuk staf. Pusat perawatan anak harus menerapkan kebijakan meliputi perlindungan anak, prosedur darurat, keluhan, komunikasi orangtua, nutrisi, pengembangan karyawan dan pembayaran dan pengaturan pengembalian uang. Pusat juga diperlukan untuk menyediakan orang tua dengan laporan harian pada anak-anak mereka dan penilaian bulanan keterampilan yang diperoleh. Amandemen memberikan persyaratan tambahan untuk mengakomodasi anak-anak dengan cacat, termasuk fasilitas yang dapat diakses, peralatan bantu dan personil yang memenuhi syarat. Updated oversight measures prosedur untuk mengatasi pelanggaran dan tenggat waktu untuk tindakan perbaikan, dengan hukuman berkisar dari peringatan dan suspensi operasional sampai pembatalan lisensi. Menteri mengatakan perubahan yang bertujuan untuk memperkuat kesesuaian regulasi, meningkatkan layanan penitipan anak dan menyediakan lingkungan yang lebih aman yang mendukung perkembangan anak-anak.",
-      "originalTitle": "Saudi Arabia tightens childcare regulations with stricter safety standards, licensing rules",
-      "originalDescription": "RIYADH — Saudi Arabia's updated regulations for private childcare centers introduce stricter safety standards, three-day licensing and penalties of up to license revocation for violations. The Ministry of Human Resources and Social Development announced the amendments on Monday to improve service quality and child protection. Under the updated regulations, licenses must be issued within three working days once all requirements are met. The amendments also revise standards for facilities, equipment, capacity, staffing and safety. The regulations establish updated child-to-caregiver ratios based on age groups, alongside qualification and experience requirements for staff. Childcare centers must implement policies covering child protection, emergency procedures, complaints, parental communication, nutrition, employee development and payment and refund arrangements. Centers are also required to provide parents with daily reports on their children and monthly assessments of acquired skills. The amendments introduce additional requirements for accommodating children with disabilities, including accessible facilities, assistive equipment and qualified personnel. Updated oversight measures establish procedures for addressing violations and deadlines for corrective action, with penalties ranging from warnings and operational suspensions to license revocation. The ministry said the changes aim to strengthen regulatory compliance, improve childcare services and provide safer environments that support children's development.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/23/2798486.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T09:38:23+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666460/saudi-arabia/saudi-arabia-tightens-childcare-regulations-with-stricter-safety-standards-licensing-rules"
-    },
-    {
-      "id": "fc8442a1b6e2a2d0",
-      "title": "Update pagi",
-      "description": "Pagi pembaruan Selamat pagi pembaca Mata Timur Tengah, Berikut adalah terbaru: Juru bicara Kementerian Luar Negeri Iran Esmaeil Baqaei mengatakan bahwa Teheran dapat \"bertindak sangat cepat\" untuk membuka kembali Selat Hormuz, diberikan bahwa AS bersekongkol dengan tuntutan negara. \"Iran tetap teguh dalam menghormati komitmennya dan akan memenuhi mereka secepat mungkin, menyediakan kondisi pihak lain yang relevan\", kata Baqaui. Perdana Menteri Israel Benjamin Netanyahu mendesak Trump untuk menyerang Iran \"sesegera mungkin\", menurut penyiar Israel Kan. Laporan, diterbitkan pada hari Minggu, menunjukkan bahwa Trump belum membuat keputusan tentang masalah ini enggan untuk melakukannya. Presiden AS Donald Trump mengklaim bahwa dia memprediksi penurunan pasar saham serta serangan keras dari Iran setelah kemenangan Demokrat dalam pemilihan tengah semester. Trump menjelaskan pemilu sebagai \"sangat aneh\". Dia juga mempertanyakan penurunan harga minyak, mengatakan: \"Bukankah ini menarik bahwa harga minyak telah jatuh drastis setelah pemilihan tengah semester? Aku bilang itu akan terjadi. Semuanya adalah Raksasa Hoax!\" Sebuah serangan Saudi terhadap kota kunci Yaman di Hodeida menewaskan setidaknya empat orang dan melukai 18 orang lainnya, menurut media yang berhubungan dengan perumahan. Pemogokan dilaporkan menargetkan sebuah bangunan milik Perusahaan Telekomunikasi Publik Yaman. Menteri Pertahanan Korea Selatan Kang Shin- chul mengatakan bahwa gerakan untuk memperpanjang penyebaran unit anti-pembajakan Cheonghae di Teluk Aden tidak termasuk keterlibatan dalam perang AS-Israel terhadap Iran. Sebaliknya, ia mengutip kenaikan pembajakan bersama upaya untuk melindungi kapal Korea Selatan dan warga menggunakan rute maritim.",
-      "originalTitle": "Morning update",
-      "originalDescription": "Morning update Good morning Middle East Eye readers, Here are the latest developments: Iranian Foreign Ministry spokesman Esmaeil Baqaei said that Tehran can \"act very quickly\" to reopen the Strait of Hormuz, granted that the US complies with the country's demands. \"Iran remains steadfast in honouring its commitments and will fulfil them as soon as possible, provided the other side complies with the relevant conditions,\" Baqaei said. Israeli Prime Minister Benjamin Netanyahu is urging Trump to carry out strikes on Iran \"as soon as possible\", according to Israel’s public broadcaster Kan. The report, published on Sunday, indicated that Trump has yet to make a decision on the matter is reluctant to do so. US president Donald Trump claimed that he predicted a stock market decline as well as harsher attacks from Iran after the Democratic victory in the recent midterm elections. Trump went onto describe the elections as \"very strange\". He also questioned the drop in oil prices, saying: \"Isn’t it interesting that Oil prices have dropped precipitously after the Midterm Elections? I said that was going to happen. The whole thing is a Giant Hoax!\" A Saudi attack on Yemen's key port city of Hodeida killed at least four people and injured 18 others, according to Houthi-affiliated media. The strike reportedly targeted a building belonging to Yemen's Public Telecommunications Corporation. South Korean Defence Minister Kang Shin-chul said that a motion to extend the deployment of the Cheonghae anti-piracy unit in the Gulf of Aden did not amount to involvement in the US-Israeli war on Iran. Instead, he cited a rise in piracy alongside efforts to protect South Korean ships and citizens using the maritime route.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/lebanon-israel.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-23T08:03:11+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-678"
-    },
-    {
-      "id": "aafa59902d5214c1",
-      "title": "biaya konstruksi Arab Saudi naik 2,3% pada bulan Oktober, dipimpin oleh sektor non- perumahan",
-      "description": "RIYADH - Indeks Biaya Konstruksi Arab Saudi (CCI) meningkat 2,3 persen pada Oktober 2026 dibandingkan dengan bulan yang sama pada tahun 2025, didorong oleh biaya yang lebih tinggi baik dalam konstruksi perumahan maupun non-perumahan, menurut Otoritas Umum untuk Statistik (GASTAT). Laporan otoritas Oktober 2026 menunjukkan bahwa biaya konstruksi non- perumahan naik 2,7 persen tahun-tahun, sementara biaya konstruksi perumahan meningkat sebesar 2,2 persen. Di sektor non- perumahan, peralatan dan biaya rental mesin dicatat peningkatan terbesar sebesar 5,8 persen, didorong oleh kenaikan 7.2 persen biaya sewa peralatan dan mesin dengan operator. Biaya kerja di sektor meningkat 2,1 persen, sementara bahan dasar meningkat 2.0 persen, didukung oleh peningkatan 4.4 persen dari harga bahan bangunan lain. Biaya energi juga meningkat sebesar 3,0 persen. Sementara itu, peningkatan biaya konstruksi perumahan sebagian dikaitkan dengan peningkatan 4.0 persen pada peralatan dan biaya sewa mesin, termasuk kenaikan 5,4 persen biaya sewa untuk peralatan dengan operator. Biaya bahan dasar di sektor perumahan meningkat menjadi 1,8 persen, didukung oleh kenaikan 3,4 persen pada harga kayu dan kerja sama, sementara biaya kerja naik 1,6 persen dan biaya energi meningkat sebesar 3,0 persen. Secara bulanan, Indeks Biaya Konstruksi keseluruhan naik 0,1 persen dibandingkan dengan September 2026, didorong oleh peningkatan 0,1 persen dalam biaya konstruksi non- perumahan, sementara biaya konstruksi tetap tidak berubah. GASTAT mencatat bahwa Indeks Biaya Konstruksi melacak perubahan harga 51 input konstruksi, dengan data dikumpulkan bulanan di 13 wilayah Kingdom dari kantor kontraktor, kantor rekayasa dan pemasok bahan bangunan.",
-      "originalTitle": "Saudi Arabia’s construction costs rise 2.3% in October, led by non-residential sector",
-      "originalDescription": "RIYADH — Saudi Arabia's Construction Cost Index (CCI) increased by 2.3 percent in October 2026 compared with the same month in 2025, driven by higher costs in both residential and non-residential construction, according to the General Authority for Statistics (GASTAT). The authority's October 2026 report showed that non-residential construction costs rose 2.7 percent year-on-year, while residential construction costs increased by 2.2 percent. In the non-residential sector, equipment and machinery rental costs recorded the largest increase at 5.8 percent, driven by a 7.2 percent rise in the cost of renting equipment and machinery with an operator. Labor costs in the sector increased by 2.1 percent, while basic materials rose 2.0 percent, supported by a 4.4 percent increase in the prices of other building materials. Energy costs also increased by 3.0 percent. Meanwhile, the increase in residential construction costs was partly attributed to a 4.0 percent rise in equipment and machinery rental costs, including a 5.4 percent increase in rental costs for equipment with an operator. Basic materials costs in the residential sector increased by 1.8 percent, supported by a 3.4 percent rise in timber and joinery prices, while labor costs rose 1.6 percent and energy costs increased by 3.0 percent. On a monthly basis, the overall Construction Cost Index rose 0.1 percent compared with September 2026, driven by a 0.1 percent increase in non-residential construction costs, while residential construction costs remained unchanged. GASTAT noted that the Construction Cost Index tracks changes in the prices of 51 construction inputs, with data collected monthly across the Kingdom's 13 regions from contractors' offices, engineering offices and construction material suppliers.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/23/2798453.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T07:27:52+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666459/saudi-arabia/saudi-arabias-construction-costs-rise-23-in-october-led-by-non-residential-sector"
-    },
-    {
-      "id": "90be589d25c8d5f3",
-      "title": "Pendapat: Anti- Muslim rasisme adalah sistem global yang digunakan untuk menormalkan pembunuhan massal",
-      "description": "Pendapat: Anti- Muslim rasisme adalah sistem global yang digunakan untuk menormalkan massa membunuh Dr Amina Shareef, seorang peneliti anti- Muslim rasisme, mengatakan bahwa kehancuran berlangsung di Gaza, Iran dan Lebanon adalah bagian dari sejarah yang lebih lama dari anti- rasisme Muslim yang telah membuat massa Muslim penderitaan dan kematian secara politik diperbolehkan. Dia mengatakan bahwa Islamophobia tidak hanya masalah prasangka atau diskriminasi, tetapi sistem global kekuasaan rasial yang membangun Muslim dan mereka diidentifikasi sebagai Muslim sebagai ancaman keamanan, memungkinkan kekerasan terhadap mereka untuk dibenarkan atas nama keamanan. Pusat sistem ini adalah figur teroris Muslim, yang menggambarkan agen politik Muslim sebagai ancaman. Shareef mengatakan bahwa logika ini meluas melampaui pengawasan, penahanan dan perbatasan militer untuk perang, ditinggalkan politik dan kehancuran kondisi yang diperlukan untuk hidup. Dia mengidentifikasi Palestina sebagai situs kunci di mana praktek keamanan kontemporer dan teknologi kontrol telah disempurnakan dan diproduksi kembali di tempat lain, sebuah proses yang dia jelaskan melalui konsep \"bumerang Palestina\". Meskipun konflik di Iran, Lebanon, Kashmir, Suriah, Yaman, Irak dan Afganistan memiliki sejarah yang berbeda, dia berpendapat bahwa mereka mengungkapkan pola yang berulang di mana populasi Muslim digambarkan sebagai ancaman dan penderitaan mereka menjadi lebih mudah untuk membenarkan. Shareef menyimpulkan bahwa menghadapi anti- Muslim rasisme akhirnya perjuangan untuk melindungi kehidupan dan martabat manusia. Dia menyerukan perlawanan berkelanjutan terhadap sistem yang mengekspos seluruh populasi untuk kematian prematur, menyatakan bahwa tanggung jawab untuk mencari keadilan tetap bahkan ketika hasilnya tidak pasti.",
-      "originalTitle": "Opinion: Anti-Muslim racism is a global system used to normalise mass killing",
-      "originalDescription": "Opinion: Anti-Muslim racism is a global system used to normalise mass killing Dr Amina Shareef, a researcher of anti-Muslim racism, says that the destruction unfolding in Gaza, Iran and Lebanon is part of a longer history of anti-Muslim racism that has made mass Muslim suffering and death politically permissible. She says that Islamophobia is not simply a matter of prejudice or discrimination, but a global system of racial power that constructs Muslims and those identified as Muslim as security threats, allowing violence against them to be justified in the name of security. Central to this system is the figure of the Muslim terrorist, which portrays Muslim political agency as inherently threatening. Shareef says that this logic extends beyond surveillance, detention and militarised borders to warfare, political abandonment and the destruction of the conditions necessary for life. She identifies Palestine as a key site where contemporary security practices and technologies of control have been refined and reproduced elsewhere, a process she describes through the concept of the “Palestine boomerang”. Although conflicts in Iran, Lebanon, Kashmir, Syria, Yemen, Iraq and Afghanistan have distinct histories, she argues that they reveal a recurring pattern in which Muslim populations are portrayed as threats and their suffering becomes easier to justify. Shareef concludes that confronting anti-Muslim racism is ultimately a struggle to protect life and human dignity. She calls for sustained resistance to systems that expose entire populations to premature death, arguing that the responsibility to seek justice remains even when the outcome is uncertain.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/lebanon-israel.jpg",
-      "category": "Dunia Muslim",
-      "tags": [
-        "Dunia Muslim",
-        "Islamofobia dan Diskriminasi",
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-23T06:23:22+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/opinion-anti-muslim-racism-global-system-used-normalise-mass-killing"
-    },
-    {
-      "id": "154b8ff982b28df6",
-      "title": "Gus Kikin Ingatkan Pentingnya Membangun Generasi Masa Depan dengan Akhlak dan Persatuan",
-      "description": "Gus Kikin menekankan pendidikan akhlak sebagai fondasi pembentukan karakter santri. Ia juga mengajak warga NU menjaga persatuan dan persaudaraan.",
-      "originalTitle": "Gus Kikin Ingatkan Pentingnya Membangun Generasi Masa Depan dengan Akhlak dan Persatuan",
-      "originalDescription": "Gus Kikin menekankan pendidikan akhlak sebagai fondasi pembentukan karakter santri. Ia juga mengajak warga NU menjaga persatuan dan persaudaraan.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/gus-kikin_1795413567.webp",
-      "category": "Pesantren dan Madrasah",
-      "tags": [
-        "Pesantren dan Madrasah"
-      ],
-      "source": "NU Online",
-      "sources": [
-        "NU Online"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-23T06:00:01+00:00",
-      "originalUrl": "https://www.nu.or.id/nasional/gus-kikin-ingatkan-pentingnya-membangun-generasi-masa-depan-dengan-akhlak-dan-persatuan-p4Fya"
-    },
-    {
-      "id": "f5c72a8e04f222d4",
-      "title": "Hadapi Transformasi Layanan Haji 2027, PPIH Dituntut Kuasai Tugas dan Mekanisme Pelayanan",
-      "description": "PPIH 2027 dituntut memahami mekanisme layanan haji berbasis syarikah. Pelatihan membekali petugas dengan kompetensi, koordinasi, dan fisik prima.",
-      "originalTitle": "Hadapi Transformasi Layanan Haji 2027, PPIH Dituntut Kuasai Tugas dan Mekanisme Pelayanan",
-      "originalDescription": "PPIH 2027 dituntut memahami mekanisme layanan haji berbasis syarikah. Pelatihan membekali petugas dengan kompetensi, koordinasi, dan fisik prima.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/ppih-2027_1795411505.webp",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "NU Online",
-      "sources": [
-        "NU Online"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-23T05:00:09+00:00",
-      "originalUrl": "https://www.nu.or.id/nasional/hadapi-transformasi-layanan-haji-2027-ppih-dituntut-kuasai-tugas-dan-mekanisme-pelayanan-CbywJ"
-    },
-    {
-      "id": "69812ec28b197512",
-      "title": "Yayasan Bakti Putra Perkasa dan Rumah Zakat Salurkan Bantuan Gempa NTT",
-      "description": "JAKARTA — Yayasan Bakti Putra Perkasa berkolaborasi dengan Rumah Zakat menyalurkan bantuan kemanusiaan bagi masyarakat terdampak gempa bumi di Nusa Tenggara Timur (NTT). Bantuan tersebut merupakan hasil penggalangan dana...",
-      "originalTitle": "Yayasan Bakti Putra Perkasa dan Rumah Zakat Salurkan Bantuan Gempa NTT",
-      "originalDescription": "JAKARTA — Yayasan Bakti Putra Perkasa berkolaborasi dengan Rumah Zakat menyalurkan bantuan kemanusiaan bagi masyarakat terdampak gempa bumi di Nusa Tenggara Timur (NTT). Bantuan tersebut merupakan hasil penggalangan dana...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/_261123112654-805.png",
-      "category": "Ekonomi Syariah",
-      "tags": [
-        "Ekonomi Syariah"
-      ],
-      "source": "Republika",
-      "sources": [
-        "Republika"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-23T04:28:35+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/toxtrn370/yayasan-bakti-putra-perkasa-dan-rumah-zakat-salurkan-bantuan-gempa-ntt"
-    },
-    {
-      "id": "ee836f9be94716e8",
-      "title": "Kiai Dahlan Visioner dalam Pemikiran, Bersahaja dalam Kehidupan",
-      "description": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Meski corak berpikirnya maju, bahkan melintasi zamannya, tapi sosok Kiai Ahmad Dahlan tetap menghargai budaya tempat dia dilahirkan sebagai orang Jawa. Hal itu diungkapkan Ketua Umum Pimpinan Pusat (PP) Muhammadiyah, Haedar Nashir pada Ahad (22/11) di Hotel SM Malioboro seusai menjamu Mufti Perlis, Mohd Asri bin Zainul Abidin atau Dato’ MAZA. Haedar […] The post Kiai Dahlan Visioner dalam Pemikiran, Bersahaja dalam Kehidupan appeared first on Muhammadiyah .",
-      "originalTitle": "Kiai Dahlan Visioner dalam Pemikiran, Bersahaja dalam Kehidupan",
-      "originalDescription": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Meski corak berpikirnya maju, bahkan melintasi zamannya, tapi sosok Kiai Ahmad Dahlan tetap menghargai budaya tempat dia dilahirkan sebagai orang Jawa. Hal itu diungkapkan Ketua Umum Pimpinan Pusat (PP) Muhammadiyah, Haedar Nashir pada Ahad (22/11) di Hotel SM Malioboro seusai menjamu Mufti Perlis, Mohd Asri bin Zainul Abidin atau Dato’ MAZA. Haedar […] The post Kiai Dahlan Visioner dalam Pemikiran, Bersahaja dalam Kehidupan appeared first on Muhammadiyah .",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/11/kiai-dahlan-visioner-dalam-pemikiran-bersahaja-dalam-kehidupan.jpeg",
-      "category": "Dakwah dan Ulama",
-      "tags": [
-        "Dakwah dan Ulama"
-      ],
-      "source": "Muhammadiyah",
-      "sources": [
-        "Muhammadiyah"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-23T04:02:41+00:00",
-      "originalUrl": "https://muhammadiyah.or.id/2026/11/kiai-dahlan-visioner-dalam-pemikiran-bersahaja-dalam-kehidupan"
-    },
-    {
-      "id": "0086e2f04a527025",
-      "title": "Mufti Perlis Empat Kali ke Yogyakarta, Selalu Kagumi Luasnya Dakwah Muhammadiyah",
-      "description": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Mufti Negeri Perlis, Malaysia, adalah Prof. Dato’ Arif Perkasa Dr. Mohd Asri bin Zainul Abidin atau Dr. MAZA kembali berkunjung ke Yogyakarta, dan kembali kagum dengan Muhammadiyah. Dato’ MAZA dalam keterangannya ke awak media muhammadiyah.or.id pada Ahad (22/11) di Hotel SM Malioboro menyampaikan, bahwa ini adalah kunjungan keempatnya ke Yogyakarta dan bersilaturahmi […] The post Mufti Perlis Empat Kali ke Yogyakarta, Selalu Kagumi Luasnya Dakwah Muhammadiyah appeared first on Muhammadiyah .",
-      "originalTitle": "Mufti Perlis Empat Kali ke Yogyakarta, Selalu Kagumi Luasnya Dakwah Muhammadiyah",
-      "originalDescription": "MUHAMMADIYAH.OR.ID, YOGYAKARTA – Mufti Negeri Perlis, Malaysia, adalah Prof. Dato’ Arif Perkasa Dr. Mohd Asri bin Zainul Abidin atau Dr. MAZA kembali berkunjung ke Yogyakarta, dan kembali kagum dengan Muhammadiyah. Dato’ MAZA dalam keterangannya ke awak media muhammadiyah.or.id pada Ahad (22/11) di Hotel SM Malioboro menyampaikan, bahwa ini adalah kunjungan keempatnya ke Yogyakarta dan bersilaturahmi […] The post Mufti Perlis Empat Kali ke Yogyakarta, Selalu Kagumi Luasnya Dakwah Muhammadiyah appeared first on Muhammadiyah .",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/11/mufti-perlis-empat-kali-ke-yogyakarta-selalu-kagumi-luasnya-dakwah-muhammadiyah.jpeg",
-      "category": "Dakwah dan Ulama",
-      "tags": [
-        "Dakwah dan Ulama"
-      ],
-      "source": "Muhammadiyah",
-      "sources": [
-        "Muhammadiyah"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-23T03:54:33+00:00",
-      "originalUrl": "https://muhammadiyah.or.id/2026/11/mufti-perlis-empat-kali-ke-yogyakarta-selalu-kagumi-luasnya-dakwah-muhammadiyah"
-    },
-    {
-      "id": "19b70c70b27453ab",
-      "title": "Saudi menyerang Hodeida Yaman membunuh empat, luka 18 lainnya",
-      "description": "Serangan ke Saudi terhadap Hodeida di Yaman menewaskan empat orang, luka 18 orang lainnya serangan Saudi terhadap kota pelabuhan di Yaman Hodeida menewaskan setidaknya empat orang dan melukai 18 orang lainnya, menurut media yang terlibat dengan perumahan. Pemogokan dilaporkan menargetkan sebuah bangunan milik Perusahaan Telekomunikasi Publik Yaman.",
-      "originalTitle": "Saudi attack on Yemen's Hodeida kills four, wounds 18 others",
-      "originalDescription": "Saudi attack on Yemen's Hodeida kills four, wounds 18 others A Saudi attack on Yemen's key port city of Hodeida killed at least four people and injured 18 others, according to Houthi-affiliated media. The strike reportedly targeted a building belonging to Yemen's Public Telecommunications Corporation.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/lebanon-israel.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-23T03:42:49+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-attack-yemens-hodeida-kills-four-wounds-18-others"
     }
   ]
 }
