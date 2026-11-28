@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "lastUpdated": "2026-11-28T02:00:57.056506+00:00",
+  "lastUpdated": "2026-11-28T10:26:11.571821+00:00",
   "total": 500,
-  "newArticles": 136,
+  "newArticles": 131,
   "sourcesChecked": 12,
   "sourcesSucceeded": 11,
   "sourcesFailed": 1,
@@ -11,8 +11,8 @@
       "name": "Al Jazeera",
       "status": "success",
       "raw": 25,
-      "accepted": 4,
-      "filtered": 21,
+      "accepted": 3,
+      "filtered": 22,
       "filteredFootball": 1,
       "translated": 25,
       "translationPartial": 0,
@@ -22,11 +22,11 @@
     {
       "name": "BBC World",
       "status": "success",
-      "raw": 22,
+      "raw": 24,
       "accepted": 1,
-      "filtered": 21,
+      "filtered": 23,
       "filteredFootball": 1,
-      "translated": 22,
+      "translated": 24,
       "translationPartial": 0,
       "translationFailed": 0,
       "error": null
@@ -49,7 +49,7 @@
       "raw": 50,
       "accepted": 1,
       "filtered": 49,
-      "filteredFootball": 4,
+      "filteredFootball": 1,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -83,8 +83,8 @@
       "name": "Middle East Eye",
       "status": "success",
       "raw": 20,
-      "accepted": 15,
-      "filtered": 5,
+      "accepted": 13,
+      "filtered": 7,
       "filteredFootball": 1,
       "translated": 20,
       "translationPartial": 0,
@@ -107,8 +107,8 @@
       "name": "Muhammadiyah",
       "status": "success",
       "raw": 10,
-      "accepted": 0,
-      "filtered": 10,
+      "accepted": 1,
+      "filtered": 9,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -118,9 +118,9 @@
     {
       "name": "NU Online",
       "status": "success",
-      "raw": 48,
-      "accepted": 18,
-      "filtered": 30,
+      "raw": 50,
+      "accepted": 12,
+      "filtered": 38,
       "filteredFootball": 0,
       "translated": 0,
       "translationPartial": 0,
@@ -131,9 +131,9 @@
       "name": "Ajel Indonesia",
       "status": "success",
       "raw": 50,
-      "accepted": 35,
-      "filtered": 15,
-      "filteredFootball": 0,
+      "accepted": 38,
+      "filtered": 12,
+      "filteredFootball": 2,
       "translated": 0,
       "translationPartial": 0,
       "translationFailed": 0,
@@ -156,16 +156,744 @@
     "engine": "Argos Translate",
     "sourceLanguage": "en",
     "targetLanguage": "id",
-    "translatedArticles": 195,
+    "translatedArticles": 200,
     "partialArticles": 0,
     "failedArticles": 0,
-    "cacheEntries": 5490
+    "cacheEntries": 5585
   },
   "images": {
     "found": 500,
     "missing": 0
   },
   "articles": [
+    {
+      "id": "599d26bb1d852e9c",
+      "title": "Lebih dari 9.000 Pelanggar Izin Tinggal dan Kerja Ditangkap dalam Sepekan",
+      "description": "Operasi gabungan di seluruh Arab Saudi selama 19-25 November 2026 berhasil menangkap lebih dari 9.000 pelanggar aturan izin tinggal, kerja, dan keamanan perbatasan.",
+      "originalTitle": "Lebih dari 9.000 Pelanggar Izin Tinggal dan Kerja Ditangkap dalam Sepekan",
+      "originalDescription": "Operasi gabungan di seluruh Arab Saudi selama 19-25 November 2026 berhasil menangkap lebih dari 9.000 pelanggar aturan izin tinggal, kerja, dan keamanan perbatasan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-82IYGh4Z.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-28T10:10:41+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/m9h5tb2yb"
+    },
+    {
+      "id": "8856d2a5d4cbb835",
+      "title": "Koalisi Saudi melaporkan peluncuran rudal balistik Houthi ke arah selatan kerajaan",
+      "description": "Koalisi Saudi melaporkan peluncuran rudal balistik Houthi menuju selatan Saudi-dipimpin koalisi di Yaman mengatakan pertahanan udara dicegat dan menghancurkan rudal balistik yang ditembakkan oleh Houthis menuju daerah selatan kerajaan. Pertahanan Sipil Arab Saudi sebentar mengeluarkan peringatan atas Khamis Mushait di provinsi Asir barat daya, sebelum mengumumkan bahwa ancaman telah berlalu. Pasukan pemerintah Yaman juga menembak jatuh sebuah drone Houthi atas front timur kota Taiz, di mana pertempuran terus berlanjut, Al Jazeera melaporkan. Dua orang tewas dalam serangan pesawat tak berawak di bagian barat laut depan kota, Kantor Taiz Siege Affairs mengumumkan. Laporan tersebut mengatakan tidak jelas apakah kematian tersebut sama dengan tiga kematian warga sipil, termasuk seorang anak, dilaporkan sebelumnya oleh pemerintah Yaman - menjalankan biro berita Saba dalam serangan di provinsi Taiz.",
+      "originalTitle": "Saudi coalition reports Houthi ballistic missile launch towards kingdom’s south",
+      "originalDescription": "Saudi coalition reports Houthi ballistic missile launch towards kingdom’s south The Saudi-led coalition in Yemen said its air defences intercepted and destroyed a ballistic missile fired by the Houthis toward the southern region of the kingdom. Saudi Arabia’s Civil Defence briefly issued a warning alert over Khamis Mushait in the southwestern Asir province, before announcing that the threat had passed. Yemeni government forces also shot down a Houthi drone over the eastern front of Taiz city, where fighting has continued, Al Jazeera reported. Two people died in a drone attack on the northwest front of the city, the Taiz Siege Affairs Office announced. The report said it was unclear if those deaths were the same as the three civilian deaths, including a child, reported earlier by Yemen's government-run Saba news agency in attacks in Taiz province.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-08/Vessels%20in%20the%20Strait%20of%20Hormuz%20are%20visible%20near%20the%20beach%20of%20Bandar%20Abbas%20Iran%2028%20august%202026%20retuers.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-28T10:08:03+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-coalition-says-it-intercepts-houthi-ballistic-missile-targeting"
+    },
+    {
+      "id": "2ddb996a2957830e",
+      "title": "Pemain catur Gaza bertahan genosida dan membangun kembali komunitas",
+      "description": "Pemain catur Gaza kembali ke olahraga setelah tiga tahun genosida.",
+      "originalTitle": "Gaza’s chess players survive a genocide and rebuild a community",
+      "originalDescription": "Gaza's chess players are returning to the sport after three years of genocide.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/%D8%B4%D8%B7%D8%B1%D9%86%D8%AC-%D8%B3%D8%AA%D9%84%D9%8A%D9%85%D8%AA-1795850701.jpg?resize=1200%2C630",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-28T09:41:45+00:00",
+      "originalUrl": "https://www.aljazeera.com/features/2026/11/28/gazas-chess-players-survive-a-genocide-and-rebuild-a-community"
+    },
+    {
+      "id": "46108bd12ae0ba96",
+      "title": "Koalisi Arab Saudi Tembak Jatuh Rudal Balistik Houthi di Wilayah Selatan",
+      "description": "Koalisi Arab Saudi mengumumkan sistem pertahanan udara berhasil mencegat dan menghancurkan rudal balistik yang diluncurkan kelompok Houthi ke wilayah selatan.",
+      "originalTitle": "Koalisi Arab Saudi Tembak Jatuh Rudal Balistik Houthi di Wilayah Selatan",
+      "originalDescription": "Koalisi Arab Saudi mengumumkan sistem pertahanan udara berhasil mencegat dan menghancurkan rudal balistik yang diluncurkan kelompok Houthi ke wilayah selatan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/HXVlPtFW4AA9poW-crop-lsW09Gnl.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-28T09:34:33+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/cvp4y99b8"
+    },
+    {
+      "id": "d02070304de27035",
+      "title": "Afrika Selatan dituduh munafik atas proyek minyak lepas pantai Israel",
+      "description": "Afrika Selatan dituduh atas proyek minyak lepas pantai Israel yang dituduhkan oleh Azad Essa di Wed, 11 / 25 / 2026 - 20: 09 aktivis Afrika Selatan mengatakan persetujuan pemerintah terhadap kesepakatan minyak lepas pantai perusahaan Israel bertentangan dengan komitmen iklim dan tindakan hukum terhadap Israel di ICJ South African relakan di Sea Point, Cape Town, pada 3 Oktober 2026, menjelang peringatan ulang tahun pemerintahan Israel atas perang genosida di Gaza (Esa / Reuder Off) yang dituduhkan oleh para aktivis Afrika di luar negeri tersebut dalam sebuah perusahaan tersebut yang menyatakan bahwa dalam pemerintahan tersebut telah memberikan persetujuan terhadap perizinan minyak Afrika. Lebih dari dua bulan setelah Canada- berbasis Eco Atlantic mengumumkan transfer nya saham 37,5 persen di Blok 1 CBK untuk Navatas Petroleum Israel, aktivis mengatakan mereka masih menunggu penjelasan yang jelas dari pemerintah tentang mengapa kesepakatan itu disetujui. Konsesi lepas pantai, ditransfer pada bulan September, terletak di Basin Orange, dekat perbatasan maritim Afrika Selatan dengan Namibia. Basin membentang sepanjang pantai barat dari kedua negara. Menurut perkiraan perusahaan, blok ini bisa berisi lebih dari 3,6 miliar barel sumber daya minyak prospektif, menarik bunga tumbuh dari perusahaan energi internasional. Beberapa telah menggambarkan Basin Jeruk sebagai \"Frontier Minyak Afrika\". Satu publikasi menggambarkan daerah di bawah kendali Navas sebagai \"salah satu daerah eksplorasi paling aktif di benua Afrika\". Tapi para aktivis memantau kesepakatan itu mengatakan keputusan Pretoria untuk menyetujui masuk Navatas ke dalam proyek ini mengancam lingkungan laut Afrika Selatan dan mata pencaharian komunitas pesisir. Mereka juga berpendapat bahwa gerakan bertentangan dengan posisi Afrika Selatan di ICJ, yang telah menuduh Israel melakukan genosida di Gaza. \"Navas adalah perusahaan bahan bakar fosil Israel yang secara material menguntungkan ekonomi Israel\", Tara Nair van R",
+      "originalTitle": "South Africa accused of hypocrisy over Israeli offshore oil project",
+      "originalDescription": "South Africa accused of hypocrisy over Israeli offshore oil project Submitted by Azad Essa on Wed, 11/25/2026 - 20:09 South African activists say the government's approval of an Israeli company's offshore oil deal contradicts its climate commitments and legal action against Israel at the ICJ South Africans rally in Sea Point, Cape Town, on 3 October 2026, ahead of the third anniversary of Israel’s genocidal war on Gaza (Esa Alexander/Reuters) Off South African activists have accused the government of hypocrisy over its decision to approve an Israeli company's takeover of an offshore oil and gas project, saying the move undermines Pretoria's climate commitments and its case against Israel at the International Court of Justice (ICJ). More than two months after Canada-based Eco Atlantic announced the transfer of its 37.5 percent stake in Block 1 CBK to Israel's Navitas Petroleum, activists say they are still waiting for a clear explanation from the government about why the deal was approved. The offshore concession, transferred in September, is located in the Orange Basin, near South Africa's maritime border with Namibia. The basin stretches along the west coasts of both countries. According to company estimates, the block could contain more than 3.6 billion barrels of prospective oil resources, attracting growing interest from international energy companies. Some have described the Orange Basin as \" Africa's Oil Frontier \". One publication described the area under Navitas's control as \"one of the most active exploration regions on the African continent\". But activists monitoring the deal say Pretoria's decision to approve Navitas's entry into the project threatens South Africa's marine environment and the livelihoods of coastal communities. They also argue that the move contradicts South Africa's position at the ICJ, where it has accused Israel of committing genocide in Gaza. \"Navitas is an Israeli fossil fuel company that materially benefits the Israeli economy,\" Tar",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/south-africa-rally-cape-town-3-oct-2026-against-israel-genocide-gaza-reuters.jpg.jpg?itok=YrFh1dnf",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-28T09:31:34+00:00",
+      "originalUrl": "https://www.middleeasteye.net/news/south-africa-accused-hypocrisy-over-israeli-offshore-oil-project"
+    },
+    {
+      "id": "61c5a61f9fbe676d",
+      "title": "Muhammadiyah Jangan Terlena Capaian, Tantangan Masa Depan Kian Berat",
+      "description": "MUHAMMADIYAH.OR.ID, JAKARTA – Muhammadiyah banyak dinilai berhasil oleh masyarakat, Ketua Pimpinan Pusat (PP) Muhammadiyah, Syafiq A. Mughni berpesan supaya tidak merasa puas dan terlena sebab tantangan di depan masih ada. Pesan itu disampaikan Syafiq pada Jumat malam (27/11) dalam Pengajian PP Muhammadiyah yang diselenggarakan secara offline di Gedung Pusat Dakwah Muhammadiyah, Jl. Menteng Raya, Kota […] The post Muhammadiyah Jangan Terlena Capaian, Tantangan Masa Depan Kian Berat appeared first on Muhammadiyah .",
+      "originalTitle": "Muhammadiyah Jangan Terlena Capaian, Tantangan Masa Depan Kian Berat",
+      "originalDescription": "MUHAMMADIYAH.OR.ID, JAKARTA – Muhammadiyah banyak dinilai berhasil oleh masyarakat, Ketua Pimpinan Pusat (PP) Muhammadiyah, Syafiq A. Mughni berpesan supaya tidak merasa puas dan terlena sebab tantangan di depan masih ada. Pesan itu disampaikan Syafiq pada Jumat malam (27/11) dalam Pengajian PP Muhammadiyah yang diselenggarakan secara offline di Gedung Pusat Dakwah Muhammadiyah, Jl. Menteng Raya, Kota […] The post Muhammadiyah Jangan Terlena Capaian, Tantangan Masa Depan Kian Berat appeared first on Muhammadiyah .",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://muhammadiyah.or.id/wp-content/uploads/2026/11/muhammadiyah-jangan-terlena-capaian-tantangan-masa-depan-kian-berat.jpeg",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "Muhammadiyah",
+      "sources": [
+        "Muhammadiyah"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-28T09:30:43+00:00",
+      "originalUrl": "https://muhammadiyah.or.id/2026/11/muhammadiyah-jangan-terlena-capaian-tantangan-masa-depan-kian-berat"
+    },
+    {
+      "id": "42fcd09e422be952",
+      "title": "Pertahanan Sipil: Ancaman di Jazan Telah Berlalu",
+      "description": "Pertahanan Sipil Arab Saudi menyatakan ancaman di wilayah Jazan telah berlalu setelah sebelumnya dikeluarkan peringatan dini darurat.",
+      "originalTitle": "Pertahanan Sipil: Ancaman di Jazan Telah Berlalu",
+      "originalDescription": "Pertahanan Sipil Arab Saudi menyatakan ancaman di wilayah Jazan telah berlalu setelah sebelumnya dikeluarkan peringatan dini darurat.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-10/%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A-pzRu49pD.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-28T08:47:49+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/wjheu8u3z"
+    },
+    {
+      "id": "ef8b535428325267",
+      "title": "Kuwait Kecam Serangan Houthi ke Jazan, Tegaskan Dukungan untuk Arab Saudi",
+      "description": "Kuwait mengecam serangan berulang milisi Houthi ke Arab Saudi dan menegaskan solidaritasnya dalam menjaga kedaulatan serta keamanan Kerajaan.",
+      "originalTitle": "Kuwait Kecam Serangan Houthi ke Jazan, Tegaskan Dukungan untuk Arab Saudi",
+      "originalDescription": "Kuwait mengecam serangan berulang milisi Houthi ke Arab Saudi dan menegaskan solidaritasnya dalam menjaga kedaulatan serta keamanan Kerajaan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-rmAtcsHM-Vu81R8ug.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-28T08:30:27+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/srgf83leb"
+    },
+    {
+      "id": "e2448b127d0c9981",
+      "title": "Update pagi",
+      "description": "Morning update Good Morning East Eye pembaca, Jika Anda baru saja bergabung dengan kami, inilah perkembangan kunci dari seluruh wilayah dan seterusnya: * Dua kapal tanker minyak telah meledak dan terbakar setelah menyerang ranjau dekat pelabuhan Oman Khasab dan di bagian timur Selat Hormuz, Korps Garda Revolusi Islam Iran (IRGC) mengatakan. * Komando Pusat AS mengatakan pasukan-pasukan mematikan kapal komersial di Teluk Oman setelah kru diduga berusaha menghindari blokade angkatan laut AS di Iran pada hari Jumat. * Drone yang digunakan dalam serangan terhadap Kuwait yang menewaskan dua orang Italia diproduksi di Iran, Menteri Luar Negeri Italia Antonio Tajan telah mengatakan. * Dua karyawan Doctors Without Borders (MSF) tewas dalam serangan Israel pada salah satu klinik organisasi di Jalur Gaza pada hari Jumat. * Arab Saudi, Turki dan Pakistan telah menekankan kebutuhan untuk upaya bersama terus untuk mendukung \"jalur politik dan pertahanan\" Aliansi Pertahanan Mekah, Menteri Pertahanan Saudi Khalid bin Salman mengatakan. * Kolonel Majed al- Nuzaili, juru bicara untuk pasukan pemerintah Yaman, mengklaim sebanyak 726 serangan telah dilakukan terhadap posisi Houthi selama 24 jam terakhir. * Menteri Pertahanan Israel Israel Katz telah menolak permintaan baru dari kepala staf militer Eyal Zamir untuk mengotorisasi perintah penahanan administratif terhadap pemukim Israel yang terlibat dalam serangan terhadap Palestina di West Bank, Kan melaporkan. * Serangan di provinsi Taiz di Yaman menewaskan tiga warga sipil, termasuk seorang anak, menurut pemerintah - menjalankan kantor berita Saba. * Pertahanan udara Arab Saudi telah dicegat dan menghancurkan sebuah rudal pesiar yang diluncurkan oleh Houthis Yaman menuju Riyadh, Mayor Jenderal Turki - Maliki, juru bicara untuk Saudi- yang dipimpin pasukan koalisi, mengatakan pada X. * raporteur khusus di wilayah Palestina yang ditempati, Francesca Albania, polisi imigrasi Costa Rican menolak untuk membebaskannya dari bandara meskipun",
+      "originalTitle": "Morning update",
+      "originalDescription": "Morning update Good Morning Middle East Eye readers, If you are just joining us, here are key developments from across the region and beyond: *Two oil tankers have exploded and caught fire after striking mines near Oman's Khasab port and in the eastern part of the Strait of Hormuz, Iran's Islamic Revolutionary Guard Corps (IRGC) said. *The US Central Command has said it forces disabled a commercial vessel in the Gulf of Oman after its crew allegedly attempted to evade the US naval blockade on Iran on Friday. *The drone used in the attack on Kuwait that killed two Italians was manufactured in Iran, Italian Foreign Minister Antonio Tajani has said. *Two employees of Doctors Without Borders (MSF) were killed in an Israeli strike on one of the organisation's clinics in the Gaza Strip on Friday. *Saudi Arabia, Turkey and Pakistan have stressed the need for continuing joint efforts to support the \"political and defence tracks\" of the Mecca Defence Alliance, Saudi Defence Minister Khalid bin Salman said. *Colonel Majed al-Nuzaili, spokesman for Yemen’s government forces, claimed as many as 726 attacks had been carried against Houthi positions over the past 24 hours. *Israeli Defence Minister Israel Katz has rejected a new request from military chief of staff Eyal Zamir to authorise administrative detention orders against Israeli settlers involved in attacks against Palestinians in the occupied West Bank, Kan reported. *Houthi attacks in Yemen's Taiz province killed three civilians, including a child, according to the government-run Saba news agency. *Saudi Arabia’s air defences have intercepted and destroyed a cruise missile launched by Yemen’s Houthis towards Riyadh, Major General Turki al-Maliki, spokesman for the Saudi-led coalition forces, said on X. *UN special rapporteur on the occupied Palestinian territory, Francesca Albanese, says Costa Rican immigration police are refusing to release her from an airport despite a Constitutional Court order allowing her to go to a",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-08/Vessels%20in%20the%20Strait%20of%20Hormuz%20are%20visible%20near%20the%20beach%20of%20Bandar%20Abbas%20Iran%2028%20august%202026%20retuers.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina",
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-28T07:58:45+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-683"
+    },
+    {
+      "id": "5cfc71bd398de766",
+      "title": "Tiga Laga Tutup Pekan ke-13 Liga Pro Saudi Hari Ini",
+      "description": "Tiga pertandingan akan menutup pekan ke-13 Liga Pro Saudi hari ini, termasuk laga antara juara bertahan Al Nassr melawan Al Hazm di Buraidah.",
+      "originalTitle": "Tiga Laga Tutup Pekan ke-13 Liga Pro Saudi Hari Ini",
+      "originalDescription": "Tiga pertandingan akan menutup pekan ke-13 Liga Pro Saudi hari ini, termasuk laga antara juara bertahan Al Nassr melawan Al Hazm di Buraidah.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-08/%D8%AF%D9%88%D8%B1%D9%8A-%D8%B1%D9%88%D8%B4%D9%86-GyfuhwMQ.png",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-28T07:54:29+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/olahraga/40qfpbvlk"
+    },
+    {
+      "id": "42065bec7a6498e2",
+      "title": "Tembakan Israel membunuh anak Palestina di Gaza Khan Younis",
+      "description": "Tembakan orang Israel membunuh anak-anak Palestina di Gaza Khan Younis Seorang anak Palestina terluka oleh tembakan pasukan Israel 'Sabtu awal di kota Khan Younis, selatan Jalur Gaza, Wafa melaporkan. Pasukan Israel terus menembakan artileri dan senapan mesin dari tank, kendaraan militer, helikopter dan kapal angkatan laut, menargetkan berbagai daerah di selatan, pusat dan utara Gaza, laporan ditambahkan.",
+      "originalTitle": "Israeli gunfire kills Palestinian child in Gaza's Khan Younis",
+      "originalDescription": "Israeli gunfire kills Palestinian child in Gaza's Khan Younis A Palestinian child was wounded by Israeli forces' gunfire early Saturday in the city of Khan Younis, south of the Gaza Strip, Wafa reported. Israeli forces continued artillery shelling and machine-gun fire from tanks, military vehicles, helicopters and naval vessels, targeting various areas across southern, central and northern Gaza, the report added.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-08/Vessels%20in%20the%20Strait%20of%20Hormuz%20are%20visible%20near%20the%20beach%20of%20Bandar%20Abbas%20Iran%2028%20august%202026%20retuers.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-28T07:38:28+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-gunfire-kills-palestinian-child-gazas-khan-younis"
+    },
+    {
+      "id": "597748441fcc95a3",
+      "title": "'Republik Pisang lagi': mantan presiden Costa Rika membanting larangan Albania",
+      "description": "'Republik Banana lagi': Mantan presiden Kosta Rika membanting larangan Albania mantan presiden Costa Rican dan Hadiah Nobel Perdamaian Laureate Oscar Arias Sanchez telah mengkritik pemerintah karena menyangkal masuk ke Francesca Albanese, raporteur Khusus PBB di wilayah Palestina yang ditempati. \"Hari ini, kita sekali lagi telah berubah menjadi republik pisang\", kata Sánvez, menurut wartawan Paolo Mossetti. El Premio Nobel de la Paz 1987, Ex Presidente de Kosta Rica Oscar Arias, en viaje a Italia a reunión de Premios Nóbeles, fue a solidarizard con @ FranceskAlbeen el aerosgatiken en San José de Costa Rica: / / t.co / Kb0uTinR - Paulina Astroza S. (@ PaullinastrozaII) November, 20222232121s, catestriagane, dari Machriales, dari universitas nasional, dan juga menerima dua triales, dan juga menerima dua puluh dua trius, dan juga menerima dua puluh dua bulan, dan juga menerima dua puluh dua puluh dua bulan, dan juga. Dia berhenti di bandara Juan Santamaria, yang melayani ibukota, San Jose. Pemerintah Costa Rica menegaskan bahwa Albania adalah subjek dari \"peringatan internasional atas link untuk aksi teroris\". Rekaman yang dibagikan oleh Mossetti di X menunjukkan orang Albania menerima tepuk tangan berdiri di universitas, dengan rektor meminta maaf kepadanya karena dia dihentikan di bandara. Sebuah tepuk tangan berdiri untuk Francesca Albania di Universitas Kosta Rika, dengan rektor meminta maaf padanya karena dia dihentikan di bandara. \"Hari ini, kita telah sekali lagi telah berubah menjadi republik pisang\", kata mantan presiden Costa Rican Aren Sánón. https: / / t.co / YWKhRlVJo - Paolo Mossetti (@ palomossetti) November 27, 2026",
+      "originalTitle": "'Banana republic again': Former Costa Rican president slams Albanese ban",
+      "originalDescription": "'Banana republic again': Former Costa Rican president slams Albanese ban Former Costa Rican president and Nobel Peace Prize Laureate Oscar Arias Sanchez has criticised the government for denying entry to Francesca Albanese, the United Nations special rapporteur on the occupied Palestinian territory. “Today, we have once again been turned into a banana republic,” Sánchez said, according to journalist Paolo Mossetti. El Premio Nobel de la Paz 1987, Ex Presidente de Costa Rica Oscar Arias, en viaje a Italia a reunión de Premios Nóbeles, fue a solidarizar con @FranceskAlbs en el aeropuerto en San José de Costa Rica https://t.co/KbSy0uTinR — Paulina Astroza S. (@PaulinaAstrozaS) November 28, 2026 Albanese, an Italian national, had travelled to Costa Rica to receive an honorary doctorate from the state-run University of Costa Rica. She was stopped at Juan Santamaria airport, which serves the capital, San Jose. The Costa Rican government asserted that Albanese was the subject of an \"international alert over links to terrorist acts\". Footage shared by Mossetti on X shows Albanese receiving a standing ovation at the university, with the rector apologising to her for her being stopped at the airport. A standing ovation for Francesca Albanese at the University of Costa Rica, with the rector apologizing to her for her being stopped at the airport. “Today, we have once again been turned into a banana republic,” said Former Costa Rican president Óscar Arias Sánchez. https://t.co/YWKhRhlVJo — Paolo Mossetti (@paolomossetti) November 27, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-08/Vessels%20in%20the%20Strait%20of%20Hormuz%20are%20visible%20near%20the%20beach%20of%20Bandar%20Abbas%20Iran%2028%20august%202026%20retuers.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-28T07:25:34+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/banana-republic-again-former-costa-rican-president-slams-albanese-ban"
+    },
+    {
+      "id": "971425ecdc871cfa",
+      "title": "Langkah Mengurus Penggantian Akta Kelahiran yang Hilang Secara Online lewat Absher",
+      "description": "Ditjen Catatan Sipil Kementerian Dalam Negeri Arab Saudi menjelaskan langkah-langkah pengajuan penggantian akta kelahiran yang hilang secara daring melalui platform Absher.",
+      "originalTitle": "Langkah Mengurus Penggantian Akta Kelahiran yang Hilang Secara Online lewat Absher",
+      "originalDescription": "Ditjen Catatan Sipil Kementerian Dalam Negeri Arab Saudi menjelaskan langkah-langkah pengajuan penggantian akta kelahiran yang hilang secara daring melalui platform Absher.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-09/%D8%A3%D8%A8%D8%B4%D8%B1-KvcQMm1R.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-28T07:06:32+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/c9ygzjqm9"
+    },
+    {
+      "id": "b4c3740cb06f97ab",
+      "title": "Dua staf tewas dalam serangan Israel di klinik medis Gaza, MSF mengatakan",
+      "description": "Militer Israel mengatakan itu ditargetkan \"Teroris Hamas\" dalam serangan yang telah dikutuk oleh Organisasi Kesehatan Dunia.",
+      "originalTitle": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
+      "originalDescription": "The Israeli military says it targeted \"Hamas terrorists\" in the strike which has been condemned by the World Health Organization.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b215/live/7a8dcfc0-eacf-11f1-b107-c5fb3c6f82eb.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "BBC World",
+      "sources": [
+        "BBC World"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-28T06:52:05+00:00",
+      "originalUrl": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_campaign=rss&at_medium=RSS"
+    },
+    {
+      "id": "190ab8dd12000df3",
+      "title": "Qatar Kecam Serangan Houthi ke Kilang Minyak Jazan, Tegaskan Dukungan untuk Arab Saudi",
+      "description": "Qatar mengecam keras serangan Houthi ke kilang minyak Jazan dan menegaskan dukungan penuh terhadap Arab Saudi dalam menjaga kedaulatan dan keamanannya.",
+      "originalTitle": "Qatar Kecam Serangan Houthi ke Kilang Minyak Jazan, Tegaskan Dukungan untuk Arab Saudi",
+      "originalDescription": "Qatar mengecam keras serangan Houthi ke kilang minyak Jazan dan menegaskan dukungan penuh terhadap Arab Saudi dalam menjaga kedaulatan dan keamanannya.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-07/%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D9%88%D9%82%D8%B7%D8%B1-a_OIqmJ5.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia",
+        "ANTARA Terkini"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-28T06:01:24+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/9vimh0zs1"
+    },
+    {
+      "id": "374a07dc952739e7",
+      "title": "Saudi, menteri pertahanan Turki membahas peningkatan kerjasama militer",
+      "description": "ISLAMABAD - Saudi Menteri Pertahanan Pangeran Khalid bin Salman bertemu dengan Menteri Pertahanan Türkish Yaşar Güler di Islamabad pada sela-sela pertemuan kedua Komite Strategi Politik dan Pertahanan Aliansi Pertahanan. Para menteri memuji hasil pertemuan ini dan menekankan pentingnya memperkuat lebih lanjut militer dan kerjasama pertahanan untuk melayani kepentingan bersama kedua negara dan mempromosikan keamanan dan stabilitas. Menteri Luar Negeri Saudi, Pangeran Faisal bin Farhan; Kepala Staf Umum dan Komandan Pasukan Gabungan Jenderal Fayyad Al- Ruwaili; Penasihat Menteri Pertahanan untuk urusan Intelejen Hisham bin Saif, Turkish Menteri Luar Negeri Hakan Fidan, Kepala Staf Umum Jendral Selçuk Bayraktatoğlu, dan pejabat lain menghadiri pertemuan tersebut.",
+      "originalTitle": "Saudi, Turkish defense ministers discuss enhancing military cooperation",
+      "originalDescription": "ISLAMABAD — Saudi Minister of Defense Prince Khalid bin Salman met with Türkish Minister of National Defense Yaşar Güler in Islamabad on the sidelines of the second meeting of the Political and Defense Strategy Committee of the Makkah Alliance for Defense.The ministers commended the meeting's outcomes and stressed the importance of further strengthening military and defense cooperation to serve both countries' shared interests and promote security and stability.Saudi Minister of Foreign Affairs Prince Faisal bin Farhan; Chief of the General Staff and Acting Commander of the Joint Forces General Fayyad Al-Ruwaili; Adviser to the Minister of Defense for Intelligence Affairs Hisham bin Saif, Turkish Minister of Foreign Affairs Hakan Fidan, Chief of the General Staff General Selçuk Bayraktaroğlu, and other officials attended the meeting.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/28/2800796.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-28T05:59:53+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666587/saudi-arabia/saudi-turkish-defense-ministers-discuss-enhancing-military-cooperation"
+    },
+    {
+      "id": "965ef9ddc166e17b",
+      "title": "Arab Saudi, Pakistan untuk memperkuat kemampuan pertahanan bilateral",
+      "description": "ISLAMABAD - Saudi Menteri Pertahanan Pangeran Khalid bin Salman bertemu dengan Pakistan Kepala Staf Angkatan Darat dan Kepala Marshal Pasukan Pertahanan Asim Munir di Islamabad pada sela-sela pertemuan kedua Komite Strategi Politik dan Pertahanan Aliansi Pertahanan. Mereka menyoroti peran penting aliansi dalam mendukung keamanan dan stabilitas dan mendiskusikan cara untuk memperkuat dua negara kemampuan militer dan pertahanan untuk melawan semua tantangan dan ancaman. Kepala Staf Umum dan Bertindak Komandan Pasukan Gabungan Jenderal Fasayad Al- Ruwaili dan Penasehat untuk Menteri Pertahanan Urusan Intelijen Hisham bin Saif menghadiri pertemuan.",
+      "originalTitle": "Saudi Arabia, Pakistan to strengthen bilateral defense capabilities",
+      "originalDescription": "ISLAMABAD — Saudi Minister of Defense Prince Khalid bin Salman met with Pakistan’s Chief of Army Staff and Chief of Defense Forces Field Marshal Asim Munir in Islamabad on the sidelines of the second meeting of the Political and Defense Strategy Committee of the Makkah Alliance for Defense.They highlighted the alliance's pivotal role in supporting security and stability and discussed ways to strengthen the two countries' military and defense capabilities to counter all challenges and threats.Chief of the General Staff and Acting Commander of the Joint Forces General Fayyad Al-Ruwaili and Adviser to the Minister of Defense for Intelligence Affairs Hisham bin Saif attended the meeting.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/28/2800793.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-28T05:45:29+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666586/saudi-arabia/saudi-arabia-pakistan-to-strengthen-bilateral-defense-capabilities"
+    },
+    {
+      "id": "3482e047dfc4a3c7",
+      "title": "Aktivis Amerika kembali dari tur West Bank ditahan oleh polisi Israel, UCPiP mengatakan",
+      "description": "Aktivis AS yang kembali dari tur West Bank yang ditahan oleh polisi Israel, UCPIP mengatakan bahwa polisi Israel telah menahan Mel Duncan, pendiri Perlindungan Sipil yang tidak bersenjata di Palestina (UCPIP), ketika dia kembali ke Tel Aviv setelah tur Bank Barat yang diduduki, organisasi tersebut mengatakan dalam pernyataan X Seorang warga AS dari St Paul, Minnesota, dan advokat lama untuk antikekerasan dan perlindungan sipil, Mel tidak terlibat dalam kegiatan ilegal apapun, kata UCPiP. \"Dia bepergian dengan bus yang penuh dengan warga Israel yang kembali dari tur Tel Aviv dan menuju Tel Aviv ketika polisi Israel menghentikan bus, menahannya sekitar satu jam, dan menyita paspornya. Mel adalah satu-satunya penumpang ditahan\", pernyataan itu dibaca. Dia saat ini sedang ditahan di kantor polisi Ma 'ale Adumim, dan alasan untuk penahanannya tetap tidak jelas, pernyataan ditambahkan. Pengacaranya telah meminta intervensi diplomatik mendesak untuk memastikan dia dipertanyakan malam ini daripada menghabiskan dua malam dalam penahanan. Organisasi ini juga mendesak Kedutaan Besar AS di Israel, wakil terpilih dan komunitas internasional untuk ikut campur dan mengamankan pembebasan Mel. McGREGOR: Mel tidak terlibat dalam kegiatan ilegal. Dia bepergian di bus yang penuh dengan warga Israel yang kembali dari tur Tel Aviv dan menuju ke Tel Aviv ketika polisi Israel menghentikan bus itu, menahannya sekitar satu jam, dan menyita paspornya. Mel satu-satunya penumpang yang ditahan. Dia sedang ditahan di kantor polisi Ma' ale Adumim. Alasan untuk penahanannya masih belum jelas. Pengacaranya telah meminta intervensi diplomatik mendesak untuk memastikan dia dipertanyakan malam ini daripada menghabiskan dua malam dalam penahanan. Kami segera memanggil Kedutaan AS, perwakilan terpilih dan komunitas internasional untuk segera membebaskan Mel. Aboenim Pastikan pertanyaan berlangsung malam ini tanpa penundaan yang tidak perlu. Dijamin keselamatannya, hak hukum dan akses ke bantuan konsul. M",
+      "originalTitle": "US activist returning from West Bank tour detained by Israeli police, UCPiP says",
+      "originalDescription": "US activist returning from West Bank tour detained by Israeli police, UCPiP says Israeli police have detained Mel Duncan, co-founder of Unarmed Civilian Protection in Palestine (UCPiP), as he was returning to Tel Aviv after a tour of the occupied West Bank, the organisation said in a statement on X. A US citizen from St. Paul, Minnesota, and a longtime advocate for nonviolence and civilian protection, Mel was not engaged in any illegal activity, UCPiP said. \"He was travelling on a bus full of Israeli citizens returning from a tour of the West Bank and heading towards Tel Aviv when Israeli police stopped the bus, held it for approximately an hour, and confiscated his passport. Mel was the only passenger detained,\" the statement read. He is currently being held at Ma’ale Adumim police station, and the grounds for his detention remain unclear, the statement added. His lawyer has requested urgent diplomatic intervention to ensure he is questioned tonight rather than spending two nights in detention. The organisation also urged the US Embassy in Israel, elected representatives and the international community to intervene and secure Mel's release. 🚨 URGENT ACTION ALERT: UCPiP Co-Founder Mel Duncan Detained by Israeli Police 27 November 2026 Mel Duncan, co-founder of Unarmed Civilian Protection in Palestine (UCPiP), a U.S. citizen from St. Paul, Minnesota, and a longtime advocate for nonviolence and civilian protection, was detained today by Israeli police. Mel was not engaged in any illegal activity. He was travelling on a bus full of Israeli citizens returning from a tour of the West Bank and heading towards Tel Aviv when Israeli police stopped the bus, held it for approximately an hour, and confiscated his passport. Mel was the only passenger detained. He is currently being held at Ma’ale Adumim police station. The grounds for his detention remain unclear. His lawyer has requested urgent diplomatic intervention to ensure he is questioned tonight rather than spending two",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-08/Vessels%20in%20the%20Strait%20of%20Hormuz%20are%20visible%20near%20the%20beach%20of%20Bandar%20Abbas%20Iran%2028%20august%202026%20retuers.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-28T05:35:41+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/us-activist-returning-west-bank-tour-detained-israeli-police-ucpip-says"
+    },
+    {
+      "id": "0096a5ff37fc88f0",
+      "title": "Harga Emas di Arab Saudi Hari Ini Sabtu 18-6-1448 Naik Seiring Kenaikan Global",
+      "description": "Harga emas di Arab Saudi naik pada Sabtu 18-6-1448 untuk semua kadar, mengikuti tren kenaikan harga emas dunia menjelang akhir pekan.",
+      "originalTitle": "Harga Emas di Arab Saudi Hari Ini Sabtu 18-6-1448 Naik Seiring Kenaikan Global",
+      "originalDescription": "Harga emas di Arab Saudi naik pada Sabtu 18-6-1448 untuk semua kadar, mengikuti tren kenaikan harga emas dunia menjelang akhir pekan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-10/%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-559sjxmc.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-28T05:33:59+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/dunia/nvxn5hy3w"
+    },
+    {
+      "id": "cec7709ede5f6590",
+      "title": "PM Pakistan bertemu dengan menteri pertahanan Saudi dan asing",
+      "description": "ISLAMABAD - Perdana Menteri Pakistan Muhammad Shehbaz Sharif menerima Saudi Menteri Pertahanan Pangeran Khalid bin Salman, Menteri Luar Negeri Pangeran Faisal bin Farhan dan pejabat menghadiri pertemuan kedua Komite Strategi Politik dan Pertahanan Aliansi Pertahanan di Islamabad pada hari Jumat. * * Media [2800792] * Pangeran Khalid menyampaikan salam dari Custodian dari Dua Masjid Suci Raja Salman dan Putra Mahkota dan Perdana Menteri Muhammad bin Salman ke perdana menteri, bersama dengan keinginan mereka untuk kemajuan lebih lanjut dan kemakmuran bagi pemerintah Pakistan dan rakyat. Sharif menyampaikan salam dan penghargaan. Mereka menekankan pentingnya memperkuat kemitraan strategis antara anggota negara aliansi dan membangun pada hasil pertemuan sebelumnya. Mereka memuji peran penting aliansi dalam menjaga perdamaian dan keamanan internasional. Pangeran Khalid berterima kasih kepada perdana menteri untuk penerimaan hangat dan keramahan murah hati. Pangeran Khalid bin Salman memimpin delegasi Saudi untuk pertemuan kedua Komite Strategi Politik dan Pertahanan Aliansi Pertahanannya diadakan di Islamabad pada hari Jumat.",
+      "originalTitle": "Pakistani PM meets Saudi defense and foreign ministers",
+      "originalDescription": "ISLAMABAD — Pakistani Prime Minister Muhammad Shehbaz Sharif received Saudi Minister of Defense Prince Khalid bin Salman, Minister of Foreign Affairs Prince Faisal bin Farhan and officials attending the second meeting of the Political and Defense Strategy Committee of the Makkah Alliance for Defense in Islamabad on Friday. **media[2800792]**Prince Khalid conveyed the greetings of Custodian of the Two Holy Mosques King Salman and Crown Prince and Prime Minister Mohammed bin Salman to the prime minister, along with their wishes for further progress and prosperity for Pakistan's government and people. Sharif conveyed his greetings and appreciation.They stressed the importance of strengthening the strategic partnership among the alliance's member states and building on the outcomes of its previous meetings. They commended the alliance's pivotal role in maintaining international peace and security. Prince Khalid thanked the prime minister for the warm reception and generous hospitality. Prince Khalid bin Salman led the Saudi delegation to the second meeting of the Political and Defense Strategy Committee of the Makkah Alliance for Defense held in Islamabad on Friday.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/28/2800791.webp",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi",
+        "Masjid dan Peradaban"
+      ],
+      "source": "Saudi Gazette",
+      "sources": [
+        "Saudi Gazette"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-28T05:27:13+00:00",
+      "originalUrl": "https://saudigazette.com.sa/article/666585/saudi-arabia/pakistani-pm-meets-saudi-defense-and-foreign-ministers"
+    },
+    {
+      "id": "bf8a0a0f3cdf64bb",
+      "title": "Perdana Menteri Pakistan Terima Pangeran Khalid bin Salman dan Delegasi Komite Pakta Pertahanan Mekkah di Islamabad",
+      "description": "Perdana Menteri Pakistan menyambut Menteri Pertahanan Arab Saudi dan delegasi Komite Pakta Pertahanan Mekkah, menegaskan kemitraan strategis kedua negara.",
+      "originalTitle": "Perdana Menteri Pakistan Terima Pangeran Khalid bin Salman dan Delegasi Komite Pakta Pertahanan Mekkah di Islamabad",
+      "originalDescription": "Perdana Menteri Pakistan menyambut Menteri Pertahanan Arab Saudi dan delegasi Komite Pakta Pertahanan Mekkah, menegaskan kemitraan strategis kedua negara.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-jT6A7KtD.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-28T05:18:44+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/4h2r3dhpk"
+    },
+    {
+      "id": "f17b5f681c3b080f",
+      "title": "Menteri Pertahanan dan Panglima Militer Pakistan Puji Peran Sentral Aliansi Mekkah",
+      "description": "Menteri Pertahanan Arab Saudi dan Panglima Militer Pakistan menyoroti peran penting Aliansi Mekkah dalam mendukung keamanan dan stabilitas kawasan.",
+      "originalTitle": "Menteri Pertahanan dan Panglima Militer Pakistan Puji Peran Sentral Aliansi Mekkah",
+      "originalDescription": "Menteri Pertahanan Arab Saudi dan Panglima Militer Pakistan menyoroti peran penting Aliansi Mekkah dalam mendukung keamanan dan stabilitas kawasan.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/featured-crop-NIYrS_yl.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-28T05:12:18+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/n16y4470s"
+    },
+    {
+      "id": "e52515d8bd3fbf6d",
+      "title": "Menteri Pertahanan Arab Saudi dan Turki Sepakati Penguatan Kerja Sama Militer",
+      "description": "Menteri Pertahanan Arab Saudi Pangeran Khalid bin Salman bertemu Menteri Pertahanan Turki Yasar Guler di sela pertemuan Komite Strategis Pakta Pertahanan Mekkah.",
+      "originalTitle": "Menteri Pertahanan Arab Saudi dan Turki Sepakati Penguatan Kerja Sama Militer",
+      "originalDescription": "Menteri Pertahanan Arab Saudi Pangeran Khalid bin Salman bertemu Menteri Pertahanan Turki Yasar Guler di sela pertemuan Komite Strategis Pakta Pertahanan Mekkah.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://cdn.ajel.sa/articles/2026-11/featured-crop-3WuLTxj8.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Ajel Indonesia",
+      "sources": [
+        "Ajel Indonesia"
+      ],
+      "country": "Saudi Arabia",
+      "sourceCountry": "Saudi Arabia",
+      "region": "",
+      "publishedAt": "2026-11-28T05:11:26+00:00",
+      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/uvt96m6i4"
+    },
+    {
+      "id": "66cecb757d46fdb9",
+      "title": "Albania mengatakan Costa Rican polisi menolak untuk membebaskannya meskipun perintah pengadilan",
+      "description": "Albania mengatakan polisi Costa Rika menolak untuk membebaskannya meskipun perintah pengadilan PBB rapporteur khusus pada wilayah Palestina yang diduduki, Francesca Albania, mengatakan polisi imigrasi Costa Rico menolak untuk membebaskannya dari bandara meskipun perintah pengadilan Konstitusional memungkinkan dia untuk pergi ke hotel. \"Shocking. Pengadilan Konstitusional CR memerintahkan bahwa saya membiarkan keluar untuk pergi ke hotel dan istirahat dan polisi imigrasi tidak membiarkan saya. Apa aku ditahan? Bantuan\", kata Albania dalam pos di X Di pos lain, dia mengatakan bahwa staf pembawa nya, Air France, mengabaikan perintah pengadilan untuk membawanya ke sebuah hotel. \"@ airfrance staf aktif mengabaikan putusan dengan alasan sementara aku sudah terjaga selama 50 hrs lurus\", katanya. Albania, seorang warga Italia, telah melakukan perjalanan ke Kosta Rika untuk menerima gelar doktor dari negara bagian Universitas Kosta Rika. Dia berhenti di bandara Juan Santamaria, yang melayani ibukota, San Jose. Shocking. Pengadilan Konstitusional CR memerintahkan bahwa saya membiarkan keluar untuk pergi ke hotel dan istirahat dan polisi imigrasi tidak membiarkan saya. Apa aku ditahan? Tolong. / Francesca Albania, Rapporteur OPt spesial PBB (@ FranceskAlbs) 28 November 2026",
+      "originalTitle": "Albanese says Costa Rican police refuse to release her despite court order",
+      "originalDescription": "Albanese says Costa Rican police refuse to release her despite court order UN special rapporteur on the occupied Palestinian territory, Francesca Albanese, says Costa Rican immigration police are refusing to release her from an airport despite a Constitutional Court order allowing her to go to a hotel. “SHOCKING. The Constitutional Court of CR ordered that I am let out to go to a hotel and rest and the immigration police does not let me. Am I detained?? HELP,” Albanese said in a post on X. In another post, she said that the staff of her carrier, Air France, were ignoring the court order to take her to a hotel. \"@airfrance staff are actively ignoring the ruling with excuses while I’ve been awake for 50hrs straight,\" she wrote. Albanese, an Italian national, had travelled to Costa Rica to receive an honorary doctorate from the state-run University of Costa Rica. She was stopped at Juan Santamaria airport, which serves the capital, San Jose. SHOCKING. The Constitutional Court of CR ordered that I am let out to go to a hotel and rest and the immigration police does not let me. Am I detained?? HELP. — Francesca Albanese, UN Special Rapporteur oPt (@FranceskAlbs) November 28, 2026",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-08/Vessels%20in%20the%20Strait%20of%20Hormuz%20are%20visible%20near%20the%20beach%20of%20Bandar%20Abbas%20Iran%2028%20august%202026%20retuers.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-28T04:48:27+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/albanese-says-costa-rican-police-refuse-release-her-despite-court-order"
+    },
+    {
+      "id": "f9705eb796ff7dfc",
+      "title": "Pertahanan udara Saudi menghancurkan rudal pelayaran Houthi atas Riyadh",
+      "description": "Pertahanan udara Saudi menghancurkan rudal pelayaran Houthi atas Riyadh Saudi pertahanan udara telah dicegat dan menghancurkan sebuah rudal pesiar diluncurkan oleh Houthis Yaman menuju Riyadh, Mayor Jenderal Turki al- Maliki, juru bicara untuk Saudi-dipimpin pasukan koalisi, mengatakan pada X. Sementara itu, TV Al Masirah berafiliasi Houthi- melaporkan bahwa serangan udara Saudi telah menargetkan jaringan telekomunikasi di setiap distrik Sawma 'ah, Mukayras dan daerah pedesaan pemerintah Bayda.",
+      "originalTitle": "Saudi air defences destroy Houthi cruise missile over Riyadh",
+      "originalDescription": "Saudi air defences destroy Houthi cruise missile over Riyadh Saudi Arabia’s air defences have intercepted and destroyed a cruise missile launched by Yemen’s Houthis towards Riyadh, Major General Turki al-Maliki, spokesman for the Saudi-led coalition forces, said on X. Meanwhile, Houthi-affiliated Al Masirah TV reported that Saudi air strikes have targeted telecommunications networks in the districts of al-Sawma’ah, Mukayras and the rural areas of al-Bayda governorate.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-08/Vessels%20in%20the%20Strait%20of%20Hormuz%20are%20visible%20near%20the%20beach%20of%20Bandar%20Abbas%20Iran%2028%20august%202026%20retuers.jpg",
+      "category": "Arab Saudi",
+      "tags": [
+        "Arab Saudi"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-28T03:55:53+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-air-defences-destroy-houthi-cruise-missile-over-riyadh"
+    },
+    {
+      "id": "e3003657bdab6d65",
+      "title": "Israel 'langsung hit' on Doctors Without Borders Gaza klinik membunuh 2 staf",
+      "description": "MSF mengatakan tempat 'jelas ditandai' dengan logo, lokasi berkomunikasi dan dikenal oleh militer Israel.",
+      "originalTitle": "Israeli ‘direct hit ‘on Doctors Without Borders Gaza clinic kills 2 staff",
+      "originalDescription": "MSF says premises 'clearly marked' with its logos, location communicated to and known by Israeli military.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b0a40eea0b0-1795834094.jpg?resize=1920%2C1440",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-28T03:45:58+00:00",
+      "originalUrl": "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff"
+    },
+    {
+      "id": "d4970675e5a293ac",
+      "title": "Menteri pertahanan Israel menolak panggilan kepala tentara untuk menahan pemukim kekerasan, laporan mengatakan",
+      "description": "Menteri pertahanan Israel menolak panggilan kepala tentara untuk menahan pemukim kekerasan, laporan mengatakan Menteri Pertahanan Israel Israel Katz telah menolak permintaan baru dari kepala militer staf Eyal Zamir untuk otorisasi perintah penahanan administratif terhadap pemukim Israel yang terlibat dalam serangan terhadap Palestina di West Bank, Kan melaporkan. Zamir mengatakan kepada Katz pada hari Kamis bahwa langkah-langkah lebih lanjut diperlukan di tengah naik pemukim kekerasan, dan disebut untuk penahanan administratif dan perintah penahanan terhadap pelaku, laporan mengatakan. Penahanan administrasi memungkinkan tersangka ditahan tanpa batas waktu tanpa biaya atau pengadilan. Hal ini umum digunakan terhadap Palestina, termasuk anak-anak, tapi Katz dihentikan penggunaan terhadap Israel Yahudi pada November 2024. Dia telah, pada kenyataannya, berulang kali menyombongkan melakukannya, sementara memperluas penggunaan terhadap Palestina. Puluhan perintah penahanan, yang bar individu dari bagian Tepi Barat, sedang menunggu Shin Bet persetujuan, menurut Kan. Channel 12 melaporkan bahwa 70 orang yang dicurigai terlibat dalam serangan tersebut ditangkap dalam beberapa minggu terakhir, tapi pengadilan Israel melepaskan mereka semua tanpa dakwaan. Kepala Shin Bet David Zini, yang merupakan anggota kamp Hardal nasionalis Ortodoks, selalu keberatan untuk bergerak. Dia telah dituduh merusak unit agensi yang ditugaskan menangani kekerasan pemukim. Sebuah gelombang di Israel pemukim serangan terhadap Palestina di Tepi Barat tahun ini telah dikutuk secara global. (AFP)",
+      "originalTitle": "Israeli defence minister rejects army chief's call to detain violent settlers, report says",
+      "originalDescription": "Israeli defence minister rejects army chief's call to detain violent settlers, report says Israeli Defence Minister Israel Katz has rejected a new request from military chief of staff Eyal Zamir to authorise administrative detention orders against Israeli settlers involved in attacks against Palestinians in the occupied West Bank, Kan reported. Zamir told Katz at a security consultation on Thursday that further steps were needed amid rising settler violence, and called for administrative detention and restraining orders against perpetrators, the report said. Administrative detention allows suspects to be held indefinitely without charge or trial. It is widely used against Palestinians, including children, but Katz halted its use against Jewish Israelis in November 2024. He has, in fact, repeatedly boasted of doing so, while expanding its use against Palestinians. Dozens of restraining orders, which bar individuals from parts of the West Bank, are awaiting Shin Bet approval, according to Kan. Channel 12 reported that 70 people suspected of involvement in such attacks were arrested in recent weeks, but Israeli courts released all of them without indictments. Shin Bet chief David Zini, who belongs to the Orthodox nationalist Hardal camp, has consistently objected to movement bans. He has been accused of undermining the agency's unit tasked with tackling settler violence. A surge in Israeli settler attacks on Palestinians in the West Bank this year has been condemned globally. (AFP)",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.middleeasteye.net/sites/default/files/Settler%20lespresso.jpg",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Middle East Eye",
+      "sources": [
+        "Middle East Eye"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-28T02:59:26+00:00",
+      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-defence-minister-rejects-army-chiefs-call-detain-violent"
+    },
+    {
+      "id": "4ef96a66ac7d4667",
+      "title": "Ajengan dan Menak Sunda Bersatu Menggerakkan NU",
+      "description": "Artikel ini menjelaskan para kiai dan menak Sunda pernah bersatu. Kedua kalangan itu pernah bersama membesarkan Nahdlatul Ulama di Tatar Sunda.",
+      "originalTitle": "Ajengan dan Menak Sunda Bersatu Menggerakkan NU",
+      "originalDescription": "Artikel ini menjelaskan para kiai dan menak Sunda pernah bersatu. Kedua kalangan itu pernah bersama membesarkan Nahdlatul Ulama di Tatar Sunda.",
+      "translated": false,
+      "translationStatus": "not_required",
+      "originalLanguage": "id",
+      "language": "id",
+      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/seruan-persatuan-di-bawah-panji-hijau-1_1795827483.webp",
+      "category": "Dakwah dan Ulama",
+      "tags": [
+        "Dakwah dan Ulama"
+      ],
+      "source": "NU Online",
+      "sources": [
+        "NU Online"
+      ],
+      "country": "Indonesia",
+      "sourceCountry": "Indonesia",
+      "region": "",
+      "publishedAt": "2026-11-28T02:00:56+00:00",
+      "originalUrl": "https://www.nu.or.id/fragmen/ajengan-dan-menak-sunda-bersatu-menggerakkan-nu-As1GJ"
+    },
+    {
+      "id": "57d361ebfb2b437e",
+      "title": "Israel membunuh dua staf MSF yang ditargetkan menyerang klinik Gaza",
+      "description": "Sebuah serangan Israel terhadap klinik yang dioperasikan oleh Doctors Without Borders (MSF) di Gaza telah membunuh dua penjaga.",
+      "originalTitle": "Israel kills two MSF staff in targeted strike on Gaza clinic",
+      "originalDescription": "An Israeli strike on a clinic operated by Doctors Without Borders (MSF) in Gaza has killed two watchmen.",
+      "translated": true,
+      "translationStatus": "success",
+      "originalLanguage": "en",
+      "language": "id",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/wide-thumb-israel-kills-msf-staff-2711-1795830840.png?resize=1920%2C1080&quality=80",
+      "category": "Palestina",
+      "tags": [
+        "Palestina"
+      ],
+      "source": "Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "country": "International",
+      "sourceCountry": "International",
+      "region": "",
+      "publishedAt": "2026-11-28T01:55:03+00:00",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/28/israel-kills-two-msf-staff-in-targeted-strike-on-gaza-clinic"
+    },
     {
       "id": "f211d1ad97d5caa6",
       "title": "Ditolak masuk, Francesca Albanese untuk meninggalkan Costa Rica setelah malam kedua di bandara",
@@ -643,31 +1371,6 @@
       "region": "",
       "publishedAt": "2026-11-27T19:53:25+00:00",
       "originalUrl": "https://www.aljazeera.com/news/2026/11/27/israel-kills-four-in-gaza-as-hamas-chief-al-hayyas-son-survives-strike"
-    },
-    {
-      "id": "5513b2f4d675a190",
-      "title": "Langkah Mengurus Pengganti Akta Kelahiran yang Hilang Secara Online lewat Absher",
-      "description": "Kementerian Dalam Negeri Arab Saudi kini menyediakan layanan pengurusan pengganti akta kelahiran yang hilang secara daring melalui platform Absher Individu.",
-      "originalTitle": "Langkah Mengurus Pengganti Akta Kelahiran yang Hilang Secara Online lewat Absher",
-      "originalDescription": "Kementerian Dalam Negeri Arab Saudi kini menyediakan layanan pengurusan pengganti akta kelahiran yang hilang secara daring melalui platform Absher Individu.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/Capture-crop-RTsPRSJq.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-27T19:52:05+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/dunia/3j0zqpv56"
     },
     {
       "id": "4fef54f4dee0ce55",
@@ -1600,31 +2303,6 @@
       "originalUrl": "https://indonesian.ajel.sa/arab-saudi/5qxowldgy"
     },
     {
-      "id": "7e413ee8c7a20e05",
-      "title": "GCC Kecam Serangan Houthi ke Kilang Minyak Jazan, Tegaskan Dukungan untuk Arab Saudi",
-      "description": "Sekjen GCC Jassem Al-Budaiwi mengecam keras serangan Houthi ke kilang minyak Jazan yang menewaskan satu pekerja dan melukai lainnya.",
-      "originalTitle": "GCC Kecam Serangan Houthi ke Kilang Minyak Jazan, Tegaskan Dukungan untuk Arab Saudi",
-      "originalDescription": "Sekjen GCC Jassem Al-Budaiwi mengecam keras serangan Houthi ke kilang minyak Jazan yang menewaskan satu pekerja dan melukai lainnya.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/%D8%A7%D9%84%D8%A8%D8%AF%D9%8A%D9%88%D9%8A-uOVwnLI8.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-27T12:52:19+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/h2ulx5qtr"
-    },
-    {
       "id": "00c40602f4e37841",
       "title": "Sikka Al-At'imah Hadirkan Lebih dari 80 Pengalaman Kuliner di Riyadh",
       "description": "Sikka Al-At'imah di kawasan Qasr Al-Hukm Riyadh terus menghadirkan lebih dari 80 pengalaman kuliner lokal dan internasional sejak Ramadan lalu.",
@@ -2376,31 +3054,6 @@
       "region": "",
       "publishedAt": "2026-11-26T23:07:36+00:00",
       "originalUrl": "https://www.aljazeera.com/news/2026/11/26/israeli-settlers-damage-palestinian-familys-homes-in-west-bank-attack"
-    },
-    {
-      "id": "86b4947d3933651a",
-      "title": "Koalisi Arab Saudi Tembak Jatuh Drone Houthi di Wilayah Selatan",
-      "description": "Koalisi Arab Saudi mengumumkan telah menembak jatuh drone yang diluncurkan kelompok Houthi ke wilayah selatan, menurut juru bicara resmi.",
-      "originalTitle": "Koalisi Arab Saudi Tembak Jatuh Drone Houthi di Wilayah Selatan",
-      "originalDescription": "Koalisi Arab Saudi mengumumkan telah menembak jatuh drone yang diluncurkan kelompok Houthi ke wilayah selatan, menurut juru bicara resmi.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-09/التحالف-المالكي-jAdFc_io.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-26T23:00:13+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/k31nufk5b"
     },
     {
       "id": "647ba58f029910d7",
@@ -3280,31 +3933,6 @@
       "region": "",
       "publishedAt": "2026-11-26T14:03:18+00:00",
       "originalUrl": "https://saudigazette.com.sa/article/666563/saudi-arabia/77-of-saudi-residents-now-within-800-meters-of-public-spaces"
-    },
-    {
-      "id": "d0c74e22ce9a9a10",
-      "title": "Pertahanan Sipil Nyatakan Jazan Aman dari Ancaman",
-      "description": "Pertahanan Sipil Arab Saudi menyatakan bahaya di wilayah Jazan telah berlalu setelah sebelumnya dikeluarkan peringatan dini.",
-      "originalTitle": "Pertahanan Sipil Nyatakan Jazan Aman dari Ancaman",
-      "originalDescription": "Pertahanan Sipil Arab Saudi menyatakan bahaya di wilayah Jazan telah berlalu setelah sebelumnya dikeluarkan peringatan dini.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-08/الدفاع-المدني-chbX2_YE.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-26T13:49:46+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/txfrw6vgx"
     },
     {
       "id": "ad94ceeefb7997ca",
@@ -5858,31 +6486,6 @@
       "originalUrl": "https://www.middleeasteye.net/news/loud-booms-rock-riyadh-houthis-attack-saudi-ports"
     },
     {
-      "id": "9cf3d8663f3dcf60",
-      "title": "Koalisi Arab Saudi Tembak Jatuh Dua Rudal Balistik Houthi yang Mengarah ke Riyadh",
-      "description": "Koalisi Arab Saudi mengumumkan berhasil mencegat dan menghancurkan dua rudal balistik yang ditembakkan kelompok Houthi ke arah Riyadh pada Rabu malam.",
-      "originalTitle": "Koalisi Arab Saudi Tembak Jatuh Dua Rudal Balistik Houthi yang Mengarah ke Riyadh",
-      "originalDescription": "Koalisi Arab Saudi mengumumkan berhasil mencegat dan menghancurkan dua rudal balistik yang ditembakkan kelompok Houthi ke arah Riyadh pada Rabu malam.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-07/اللواء-الركن-تركي-المالكي-OVx1Phz3.png",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-25T21:25:57+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/czg92z0ci"
-    },
-    {
       "id": "a1899134aaa92047",
       "title": "Serangan pesawat tak berawak Israel di Gaza membunuh tiga",
       "description": "Serangan pesawat tak berawak Israel di Gaza menewaskan tiga orang Israel menyerang sekelompok warga sipil di Tuffah di timur Gaza, menewaskan setidaknya tiga orang, Al Jazeera melaporkan, mengutip sumber di Rumah Sakit Al- Shifa.",
@@ -5981,31 +6584,6 @@
       "region": "",
       "publishedAt": "2026-11-25T21:02:10+00:00",
       "originalUrl": "https://indonesian.ajel.sa/arab-saudi/7l0t9np8j"
-    },
-    {
-      "id": "7ab9a73ced6c8a29",
-      "title": "Pertahanan Udara Arab Saudi Tembak Jatuh Rudal Kruis Houthi ke Wilayah Barat",
-      "description": "Juru bicara Koalisi Arab Saudi menyatakan pertahanan udara berhasil mencegat dan menghancurkan rudal kruis yang diluncurkan Houthi ke wilayah barat.",
-      "originalTitle": "Pertahanan Udara Arab Saudi Tembak Jatuh Rudal Kruis Houthi ke Wilayah Barat",
-      "originalDescription": "Juru bicara Koalisi Arab Saudi menyatakan pertahanan udara berhasil mencegat dan menghancurkan rudal kruis yang diluncurkan Houthi ke wilayah barat.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-09/التحالف-المالكي-jAdFc_io.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-25T20:47:30+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/ctc6ld6to"
     },
     {
       "id": "0136ef03632d5041",
@@ -12169,584 +12747,6 @@
       "region": "",
       "publishedAt": "2026-11-23T15:45:40+00:00",
       "originalUrl": "https://saudigazette.com.sa/article/666474/saudi-arabia/saudi-crown-prince-calls-emir-of-kuwait-to-inquire-about-his-health"
-    },
-    {
-      "id": "06ab0062dbebca16",
-      "title": "Tentara Israel menyerang Palestina setelah merampok rumahnya.",
-      "description": "Pasukan Israel menyerang orang Palestina selama serangan di rumahnya di Tepi Barat yang diduduki.",
-      "originalTitle": "Israeli soldiers assault Palestinian after raiding his home",
-      "originalDescription": "Israeli forces assault a Palestinian man during a raid on his home in the occupied West Bank.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-81-1795448373.png?resize=1920%2C1080&quality=80",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Al Jazeera",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-23T15:40:15+00:00",
-      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/23/israeli-soldiers-assault-palestinian-after-raiding-his-home"
-    },
-    {
-      "id": "b22c7f8bd8dc8ea7",
-      "title": "Utusan Saudi Bahas Penguatan Kerja Sama Arab di Liga Arab",
-      "description": "Duta Besar Abdulaziz bin Abdullah Al-Matar bertemu pejabat Liga Arab di Kairo untuk membahas penguatan kerja sama Arab-Afrika di bawah naungan Liga Arab.",
-      "originalTitle": "Utusan Saudi Bahas Penguatan Kerja Sama Arab di Liga Arab",
-      "originalDescription": "Duta Besar Abdulaziz bin Abdullah Al-Matar bertemu pejabat Liga Arab di Kairo untuk membahas penguatan kerja sama Arab-Afrika di bawah naungan Liga Arab.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/ingested/2026-11/source-a3thzW4e.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T15:25:31+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/21s4jspmj"
-    },
-    {
-      "id": "6a8125febbb3716b",
-      "title": "Jumlah jet tempur Rafale India berkurang tiga setelah 2025 pertempuran udara dengan Pakistan",
-      "description": "jumlah jet tempur Rafale India berkurang tiga setelah 2025 pertempuran udara dengan Pakistan Dipersembahkan oleh staf MEE pada Mon, 11 / 23 / 2026 - 13: 01 Terbukti oleh Angkatan Udara Dunia meningkatkan pengawasan dari penolakan kerugian India terhadap konflik dengan Pakistan pada tahun 2025 pilot naik ke jet tempur Rafale sebelum latihan militer Prancis-India di Mont-Marsan pangkalan udara, Prancis barat daya, 26 November 2025 (Christohe Archabault / AFP). Mati Jumlah jet tempur Rafale aktif di Angkatan Udara India telah jatuh ke 32 dari 35 dalam edisi terbaru dari direktori penerbangan militer internasional, yang telah diaduk pengawasan terbaru India Mei 2025 militer konfrontasi dengan Pakistan. Angka yang direvisi, yang muncul di direktori Angkatan Udara Dunia 2027 yang diterbitkan oleh majalah penerbangan Inggris FlightGlobal, telah memperbarui pertanyaan tentang sejauh kerugian India selama Operasi Sindoor. Setelah 22 April 2025 Pahalgam serangan di Indian- diberikan Kashmir, India meluncurkan kampanye militer pada 7 Mei dan menyerang beberapa target jauh di dalam Pakistan. Dalam keterlibatan jet terbesar abad ke-21, lebih dari 114 pesawat tempur dimobilisasi dan terlibat melintasi perbatasan. Beberapa 72 Angkatan Udara India (IAF) pesawat dan 42 Pakistan Angkatan Udara (PAF) terlibat satu sama lain dalam konfrontasi yang berlangsung sekitar 50 menit, menurut pengarahan militer dan analisis pertahanan. Pakistan mengaku telah menembak jatuh enam pesawat militer India, termasuk tiga Rapales, selama konfrontasi. New Delhi membantah skala klaim Islamabad tapi tidak menerbitkan rekening rinci kerugian pesawat sendiri. Selama briefing militer pada 11 Mei, Marshal Udara Awadhesh Kumar Bharti mengakui bahwa India telah menderita kerugian pesawat tapi menolak untuk mengidentifikasi jumlah atau jenis yang terlibat. \"Kami berada dalam skenario pertempuran dan kerugian adalah bagian dari pertempuran\", kata Bharti. India Rahul Gandhi kembali melanjutkan perdagangan senjata",
-      "originalTitle": "India's Rafale fighter jet count reduced by three after 2025 aerial battles with Pakistan",
-      "originalDescription": "India's Rafale fighter jet count reduced by three after 2025 aerial battles with Pakistan Submitted by MEE staff on Mon, 11/23/2026 - 13:01 Listing by World Air Forces increases scrutiny of India's denial of losses in conflict with Pakistan in 2025 A pilot climbs into a Rafale fighter jet before a French-Indian military exercise at Mont-de-Marsan air base, southwestern France, 26 November 2025 (Christophe Archambault/AFP). Off The number of active Rafale fighter jets in the Indian Air Force has fallen to 32 from 35 in the latest edition of an international military aviation directory, which has stirred renewed scrutiny of India's May 2025 military confrontation with Pakistan. The revised figures, which appear in the 2027 World Air Forces directory published by British aviation magazine FlightGlobal, have renewed questions about the extent of Indian losses during Operation Sindoor. Following the 22 April 2025 Pahalgam attack in Indian-administered Kashmir, India launched the military campaign on 7 May and attacked several targets deep inside Pakistan. In the largest jet engagements of the 21st century, over 114 fighter jets were mobilised and engaged across the border. Some 72 Indian Air Force (IAF) aircraft and 42 Pakistan Air Force (PAF) aircraft engaged each other in a confrontation that lasted roughly 50 minutes, according to military briefings and defence analyses. Pakistan claimed to have shot down six Indian military aircraft, including three Rafales, during the confrontation. New Delhi disputed the scale of Islamabad's claims but did not publish a detailed account of its own aircraft losses. During a military briefing on 11 May, Air Marshal Awadhesh Kumar Bharti acknowledged that India had suffered aircraft losses but declined to identify the number or types involved. “We are in a combat scenario and losses are a part of combat,” Bharti said. India's Rahul Gandhi backs continued arms trade with Israel despite Gaza genocide Read More » Chief of Defence Staff G",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/A%20French%20pilot%20climbs%20into%20a%20Rafale%20fighter%20jet%20before%20a%20flight%20during%20the%20Garuda%202025%20French-Indian%20military%20exercise%20at%20Mont-de-Marsan%20air%20base%2C%20southwestern%20France%2C%2026%20November%202025%20%28Christophe%20Archambault%20AFP%29..jpg.jpg?itok=bl3qFff1",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-23T15:11:33+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/indias-active-rafale-count-reduced-32-after-aerial-conflict-pakistan"
-    },
-    {
-      "id": "27781f601c5336de",
-      "title": "Israel mungkin akan kehilangan kasus genosida Gaza jika ICJ mengikuti pemerintahan Myanmar, sarjana Tel Aviv mengatakan",
-      "description": "Israel mungkin kehilangan kasus genosida Gaza jika ICJ mengikuti putusan Myanmar, sarjana Tel Aviv mengatakan Dipersembahkan oleh staf MEE pada Mon, 11 / 23 / 2026 - 14: 00 Profesor Hukum Israel Eliav Liebich mengatakan bahasa yang digunakan oleh pejabat Myanmar dengan ringan dibandingkan dengan Netanyahu, Ben Gvir dan lainnya Perdana Menteri Caretaker Benjamin Netanyahu melihat pada pidato di Knesset Israel pada hari pembukaan parlemen baru di Yerusalem pada tanggal 10 November 2026 (Pengadilan Internasional) \"Ini sangat buruk bahwa kita telah mencapai titik ini. Ini adalah gempa bumi yang nyata,\" kata Eliav Liebich, seorang profesor di Tel Aviv University fakultas hukum. \"Sebelum melompat ke teori konspirasi tentang pengadilan, Israel terutama menyalahkan dirinya sendiri,\" ia menulis dalam serangkaian posting dalam Ibrani pada X \"Bahkan jika Anda tidak setuju dengan mayoritas pada setiap titik hukum, tidak ada negara yang masuk akal harus datang di mana saja dekat dengan jatuh pendek standar yang ditetapkan. Dalam banyak hal, pemerintah Netanyahu menggali lubang ini sendiri\". ICJ pada hari Kamis menyimpulkan dalam keputusan 9- 6 bahwa pasukan keamanan Myanmar telah melakukan genosida terhadap populasi Rohingya di Negara Rakhine Utara selama operasi militer 2017. Penilaian, pertama kalinya pengadilan tertinggi PBB menyatakan bertanggung jawab atas genosida, menawarkan preseden hukum di Afrika Selatan dalam kasus ini menuduh Israel melakukan genosida melawan Palestina di Gaza, terutama atas bagaimana hakim menilai niat genosida ketika negara mengklaim tindakan militer didorong oleh tujuan keamanan. Untuk membuktikan genosida, ICJ pertama kali harus membuktikan bahwa tindakan genosida dilakukan, maka ada \"maksud khusus\" oleh negara bagian Myanmar untuk menghancurkan kelompok. Genosida niat niat Genosida jarang pernah dinyatakan secara eksplisit, sehingga pengadilan biasanya mengandalkan bukti tidak langsung. Dan di mana ada berbagai niat mungkin, seperti tujuan milit",
-      "originalTitle": "Israel likely to lose Gaza genocide case if ICJ follows Myanmar ruling, Tel Aviv scholar says",
-      "originalDescription": "Israel likely to lose Gaza genocide case if ICJ follows Myanmar ruling, Tel Aviv scholar says Submitted by MEE staff on Mon, 11/23/2026 - 14:00 Israeli law professor Eliav Lieblich says language used by Myanmar officials mild compared to Netanyahu, Ben Gvir and others Caretaker Prime Minister Benjamin Netanyahu looks on during a speech at the Israeli Knesset during the opening day of the new parliament in Jerusalem on 10 November 2026 (AFP) Off Israel will probably lose the genocide case brought by South Africa if the International Court of Justice (ICJ) applies the reasoning it used last week to find Myanmar responsible for genocide against the Rohingya, an Israeli international law scholar has said. “It is very bad that we have reached this point. It is a real earthquake,” said Eliav Lieblich, a professor at Tel Aviv University’s law faculty. “Before jumping to conspiracy theories about the court, Israel has mainly itself to blame,” he wrote in a series of posts in Hebrew on X. “Even if you disagree with the majority on every legal point, no reasonable country should come anywhere close to falling short of the standards it set. In many respects, Netanyahu’s government dug this hole itself.” The ICJ on Thursday concluded in a 9-6 decision that Myanmar's security forces had committed genocide against the Rohingya population in northern Rakhine State during the military's 2017 operations. The judgment, the first time the UN's highest court has found a state responsible for genocide, offers South Africa a significant legal precedent in its case accusing Israel of committing genocide against Palestinians in Gaza, particularly over how judges assess genocidal intent when a state claims its military actions are driven by security objectives. To prove the genocide, the ICJ first had to prove that genocidal acts were committed, then that there was a “specific intent” by the Myanmar state to destroy the group. Genocidal intent Genocidal intent is rarely ever stated explicit",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/netanyahu-afp_1.jpg.jpg?itok=qNeGtLWb",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-23T15:10:12+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/israel-likely-lose-gaza-genocide-case-if-icj-follows-myanmar-ruling-tel-aviv-scholar-says"
-    },
-    {
-      "id": "777a4fe1046a03ae",
-      "title": "Houthis Yaman mengatakan serangan Saudi terhadap fasilitas telekomunikasi membunuh 17",
-      "description": "Perumahan Yaman mengatakan serangan Saudi terhadap fasilitas telekomunikasi membunuh 17 orang Yaman Houthis mengatakan serangan Saudi terhadap fasilitas telekomunikasi menewaskan 17 orang dan menghancurkan beberapa bangunan di Red Sea gubernur Hodeidah pada hari Senin. Kementerian telekomunikasi Houthis 'mengatakan serangan udara koalisi menewaskan 17 pekerja, terluka 11 lagi dan menyebabkan \"kehancuran total\" dari gedung administratif, perumahan staf, masjid dan situs lainnya. \"Ini telah menyebabkan kehancuran lengkap fasilitas-fasilitas (dan) gangguan telekomunikasi dan layanan internet\", kata mereka.",
-      "originalTitle": "Yemen's Houthis say Saudi attack on telecoms facilities kills 17",
-      "originalDescription": "Yemen's Houthis say Saudi attack on telecoms facilities kills 17 Yemen's Houthis said a Saudi attack on a telecoms facility killed 17 people and destroyed several buildings in the Red Sea governorate of Hodeidah on Monday. The Houthis' telecommunications ministry said coalition air strikes killed 17 workers, wounded 11 more and caused the \"total destruction\" of administrative buildings, staff housing, a mosque and other sites. \"This has led to the complete destruction of these facilities (and) the disruption of telecommunications and internet services,\" they said.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-11/Gaza_UNRWA_killed_Nov26.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi",
-        "Masjid dan Peradaban"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-23T15:02:48+00:00",
-      "originalUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-say-saudi-attack-telecoms-facilities-kills-17"
-    },
-    {
-      "id": "fca2ac954c4e3d79",
-      "title": "LPBI PWNU Jabar Dorong Masjid dan Pesantren Terapkan Pengelolaan Air Berkelanjutan",
-      "description": "LPBI PWNU Jabar mendorong masjid dan pesantren menerapkan teknologi pengelolaan air bersih untuk menjaga kelestarian sumber daya air.",
-      "originalTitle": "LPBI PWNU Jabar Dorong Masjid dan Pesantren Terapkan Pengelolaan Air Berkelanjutan",
-      "originalDescription": "LPBI PWNU Jabar mendorong masjid dan pesantren menerapkan teknologi pengelolaan air bersih untuk menjaga kelestarian sumber daya air.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/whatsapp-image-2026-11-23-at-203028_1795442346.webp",
-      "category": "Pesantren dan Madrasah",
-      "tags": [
-        "Pesantren dan Madrasah",
-        "Masjid dan Peradaban"
-      ],
-      "source": "NU Online",
-      "sources": [
-        "NU Online"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-23T15:00:20+00:00",
-      "originalUrl": "https://www.nu.or.id/jabar/lpbi-pwnu-jabar-dorong-masjid-dan-pesantren-terapkan-pengelolaan-air-berkelanjutan-jVfwS"
-    },
-    {
-      "id": "645aae918436593f",
-      "title": "10 Kesaksian Cendekiawan Barat Non-Muslim Ini Tegaskan Alquran Bukan Perkataan Manusia",
-      "description": "JAKARTA— Dalam berbagai kesempatan, sejumlah ilmuwan non-Muslim dari beragam bidang keahlian pernah diajak berdiskusi mengenai Alquran. Ketika mereka memaparkan sejumlah fakta ilmiah yang berhasil ditemukan melalui penelitian dan kajian, kemudian...",
-      "originalTitle": "10 Kesaksian Cendekiawan Barat Non-Muslim Ini Tegaskan Alquran Bukan Perkataan Manusia",
-      "originalDescription": "JAKARTA— Dalam berbagai kesempatan, sejumlah ilmuwan non-Muslim dari beragam bidang keahlian pernah diajak berdiskusi mengenai Alquran. Ketika mereka memaparkan sejumlah fakta ilmiah yang berhasil ditemukan melalui penelitian dan kajian, kemudian...",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://static.republika.co.id/uploads/images/detailnews/010645700-1773158822-830-556.jpg",
-      "category": "Al-Qur'an dan Hadis",
-      "tags": [
-        "Al-Qur'an dan Hadis"
-      ],
-      "source": "Republika",
-      "sources": [
-        "Republika"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-23T15:00:00+00:00",
-      "originalUrl": "https://khazanah.republika.co.id/berita/toxw4f320/10-kesaksian-cendekiawan-barat-nonmuslim-ini-tegaskan-alquran-bukan-perkataan-manusia"
-    },
-    {
-      "id": "b4837cc74e6e2253",
-      "title": "Industri masalah pelayanan hampir 56.000 Sertifikat Asal pada bulan Oktober",
-      "description": "RIYADH - Departemen Industri dan Sumber Daya Mineral mengeluarkan 55.965 Khasiat Origin pada Oktober 2026. Ini adalah bagian dari upaya untuk mendukung dan memperlancar layanan bagi para pengekspor di seluruh industri, komersial, dan sektor individu. Menteri mengatakan dalam sebuah pernyataan bahwa Sertifikat Asal adalah sertifikat dokumen yang diekspor produk adalah asal nasional atau telah memperoleh status tersebut. Layanan menargetkan industri perusahaan, perusahaan komersial dan lembaga, serta individu, termasuk petani, nelayan, orang-orang terlibat dalam kegiatan individu, seniman lokal, dan lainnya. Departemen ini menjelaskan bahwa sertifikat tersedia dalam empat format: sebuah Sertifikat Origin untuk produk nasional yang ditakdirkan untuk Dewan Kerjasama Teluk (GCC); Sertifikat produk-produk nasional yang ditentukan untuk negara-negara Arab; sebuah Sertifikat Preferensial dari Origin, yang merupakan bentuk terpadu yang diadopsi oleh GCC untuk ekspor ke negara-negara dan blocs ekonomi dengan perjanjian perdagangan bebas telah diselesaikan; dan sebuah Bilingual (dan bahasa Inggris) yang diadopsi oleh negara-negara yang tidak memberikan pilihan umum. Ahli waris dapat menerapkan sertifikat Origin melalui situs kementerian.",
-      "originalTitle": "Industry ministry issues nearly 56,000 Certificates of Origin in October",
-      "originalDescription": "RIYADH — The Ministry of Industry and Mineral Resources issued 55,965 Certificates of Origin in October 2026. This was part of its efforts to support and streamline the service for exporters across the industrial, commercial, and individual sectors.The ministry said in a statement that a Certificate of Origin is a document certifying that exported products are of national origin or have acquired that status.The service targets industrial establishments, commercial companies and institutions, as well as individuals, including farmers, fishermen, people engaged in individual activities, local artisans, and others. The ministry explained that the certificate is available in four formats: a Certificate of Origin for national products destined for Gulf Cooperation Council (GCC) countries; a Certificate of Origin for national products destined for Arab countries; a Preferential Certificate of Origin, which is the unified form adopted by the GCC for exports to countries and economic blocs with which free trade agreements have been concluded; and a bilingual (Arabic and English) Certificate of Origin for countries that do not grant preferential treatment (the general form).Beneficiaries can apply for a Certificate of Origin through the ministry's website.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/23/2798692.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T14:49:21+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666471/saudi-arabia/industry-ministry-issues-nearly-56000-certificates-of-origin-in-october"
-    },
-    {
-      "id": "e228ad47a81e4b46",
-      "title": "Bunuh diri tentara Israel mencapai level tertinggi sejak 2010: Laporan pers",
-      "description": "bunuh diri tentara Israel mencapai level tertinggi sejak 2010: tinjauan pers diturunkan oleh Nayav Rapaport pada Mon, 11 / 23 / 2026 - 14: 10 Sementara itu, seorang perwira tentara Israel memperingatkan 'terorisme Yahudi' di Tepi Barat dapat menyebar ke Israel, dan Kan 11 didesak untuk menekan penyelidikan perisai manusia Gaza seorang tentara Israel melihat gedung-gedung yang hancur di Jalur Gaza sebagai pasukan berdiri di perbatasan dengan wilayah Palestina, pada tanggal 13 Agustus 2025 (Jack Guez / AFP) bunuh diri militer Israel mencapai 16- tahun ke-23 personil militer Israel telah meninggal dengan bunuh diri karena awal tahun ini, nomor tertinggi dalam tentara pada tahun 2010, dilaporkan dalam tentara pada hari Senin. Setidaknya 17 mantan tentara juga meninggal karena bunuh diri tahun lalu, tak lama setelah diberhentikan dari dinas militer, membawa total layanan dan mantan tentara yang bunuh diri sampai 40 tahun. Bunuh diri tidak terbatas pada militer Israel. Haaretz mencatat bahwa lima polisi juga meninggal oleh bunuh diri pada tahun 2026. Menurut data resmi militer Israel dikutip oleh laporan, 73 petugas dan tentara telah meninggal karena bunuh diri sejak Hamas- dipimpin serangan di Israel selatan pada 7 Oktober. Namun, jumlah perang yang sebenarnya terkait bunuh diri kemungkinan jauh lebih tinggi, sebagai angka militer termasuk hanya personil yang meninggal saat masih melayani. \"Perang ini adalah peristiwa yang belum pernah terjadi sebelumnya dalam hal tingkat kesulitan dan kelelahan dari para tentara yang mengambil bagian di dalamnya, seorang akademisi kesehatan mental di University of Haifa kepada Haaretz.\" Tahun-tahun mendatang sangat penting, bahkan mungkin dramatis, berkaitan dengan tingkat bunuh diri \". Petugas Israel memperingatkan tentang 'wilayah Yahudi' Seorang perwira militer senior Israel telah memperingatkan bahwa serangan oleh pendatang melawan Palestina di West Bank yang diduduki terorganisir dan melibatkan ribuan orang, Berita Channel 12 Israe",
-      "originalTitle": "Israeli army suicides reach highest level since 2010: Press review",
-      "originalDescription": "Israeli army suicides reach highest level since 2010: Press review Submitted by Nadav Rapaport on Mon, 11/23/2026 - 14:10 Meanwhile, an army officer warns ‘Jewish terrorism’ in the West Bank could spread into Israel, and Kan 11 is urged to censor Gaza human shields investigation An Israeli army soldier looks at destroyed buildings in the Gaza Strip as troops stand on the boundary with the Palestinian territory, on 13 August 2025 (Jack Guez/AFP) Off Israeli military suicides reach 16-year high A total of 23 serving Israeli military personnel have died by suicide since the beginning of this year, the highest number recorded in the army since 2010, Haaretz reported on Monday. At least 17 former soldiers also died by suicide in the past year, shortly after being discharged from military service, bringing the total number of serving and former soldiers who took their own lives to 40. Suicides are not confined to Israel's military. Haaretz noted that five police officers also died by suicide in 2026. According to official Israeli military data cited by the report, 73 officers and soldiers have died by suicide since the Hamas-led attacks in southern Israel on 7 October. However, the actual number of war-related suicides is likely to be much higher, as the military's figures include only personnel who died while still serving. \"This war is an unprecedented event in terms of the level of distress and burnout of the soldiers who took part in it,\" a mental health academic at the University of Haifa told Haaretz. \"The coming years are critical, perhaps even dramatic, with regard to suicide rates.\" Israeli officer warns of ‘Jewish terrorism’ An Israeli senior military officer has warned that attacks by settlers against Palestinians in the occupied West Bank are organised and involve thousands of people, Israel's Channel 12 News reported on Monday. \"These are organised terrorist organisations. They have an agenda of expelling Arabs and are working to achieve it,\" the officer said",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_69FF46E%20%281%29.jpg.jpg?itok=nzW3uiqO",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-23T14:44:48+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/israeli-army-suicides-reach-highest-level-2010-press-review"
-    },
-    {
-      "id": "7efd5291c98d355b",
-      "title": "Lowongan Akuntan Umum di Universitas Taif untuk Laki-laki dan Perempuan",
-      "description": "Universitas Taif membuka lowongan posisi Akuntan Umum dan mengundang warga negara Saudi yang memenuhi syarat untuk melamar.",
-      "originalTitle": "Lowongan Akuntan Umum di Universitas Taif untuk Laki-laki dan Perempuan",
-      "originalDescription": "Universitas Taif membuka lowongan posisi Akuntan Umum dan mengundang warga negara Saudi yang memenuhi syarat untuk melamar.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/266008-crop-XeaOd8Jr.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T14:43:25+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/dunia/b572neiy4"
-    },
-    {
-      "id": "bd6011431bfc3702",
-      "title": "Arab Saudi Peringkat Satu Dunia dalam Layanan Pemerintahan Digital",
-      "description": "Arab Saudi menempati posisi teratas dunia dalam Indeks Layanan Pemerintahan Digital dan masuk lima besar global dalam Indeks PBB untuk E-Government.",
-      "originalTitle": "Arab Saudi Peringkat Satu Dunia dalam Layanan Pemerintahan Digital",
-      "originalDescription": "Arab Saudi menempati posisi teratas dunia dalam Indeks Layanan Pemerintahan Digital dan masuk lima besar global dalam Indeks PBB untuk E-Government.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/featured-crop-SbXnxz2c.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T14:43:20+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/00ad3vd3j"
-    },
-    {
-      "id": "bc8c8301038509b9",
-      "title": "NU Dorong Kepastian Hukum Distribusi Nilai Manfaat Dana Haji yang Lebih Sehat dan Maslahat",
-      "description": "NU mendorong kepastian hukum distribusi nilai manfaat dana haji agar adil. BPKH mendukung perubahan bertahap menuju pembiayaan haji yang mandiri.",
-      "originalTitle": "NU Dorong Kepastian Hukum Distribusi Nilai Manfaat Dana Haji yang Lebih Sehat dan Maslahat",
-      "originalDescription": "NU mendorong kepastian hukum distribusi nilai manfaat dana haji agar adil. BPKH mendukung perubahan bertahap menuju pembiayaan haji yang mandiri.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/jamaah-haji-mch-2025_1795443576.webp",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah"
-      ],
-      "source": "NU Online",
-      "sources": [
-        "NU Online"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-23T14:30:09+00:00",
-      "originalUrl": "https://www.nu.or.id/nasional/nu-dorong-kepastian-hukum-distribusi-nilai-manfaat-dana-haji-yang-lebih-sehat-dan-maslahat-ahV29"
-    },
-    {
-      "id": "facc1ac8da951deb",
-      "title": "Exclusive: Guatemala beredar proposal untuk mengekang ICC kekuatan sejalan dengan permintaan US- Israel",
-      "description": "Exclusive: Guatemala beredar proposal untuk mengekang kekuatan ICC sejalan dengan permintaan US- Israel Diberikan oleh Sondos Asem di Sat, 11 / 21 / 2026 - 18: 15 Negara Amerika Latin mengajukan gagasan ini kepada para diplomat di Den Haag meskipun ada pembelaan terhadap upaya untuk mengekang misi pengadilan Donald Trump berbicara sebagai Wapres JD Vance dan Sekretaris Negara Marco Rubio mendengarkan selama sebuah pengarahan berita di Gedung Putih pada 20 November 2026 (AFP) Guatemala telah mengedarkan proposal kepada negara-negara Internasional Crime Court (ICC) yang secara dekat dengan permintaan yang dibuat oleh Amerika Serikat dan Israel untuk membatasi kekuasaan pengadilan, Timur dapat mengungkapkan. Tiga halaman kertas telah disampaikan pada penutupan-pintu mundur untuk duta besar dari ICC anggota negara di Den Hague pada 18 November, kurang dari dua minggu sebelum pengadilan Majelis Amerika Parties (ASP) membuka sesi tahunan. Proposal ini menganjurkan dialog dengan AS lebih dari membatasi kemampuan ICC untuk mengejar kasus-kasus yang melibatkan negara-negara yang bukan anggota pengadilan, seperti AS, Israel dan Rusia. MEE memahami bahwa sekutu G7 Washington, termasuk Inggris, Jerman dan Italia, menyatakan kesiapan untuk mendiskusikan proposal serupa dengan AS tapi enggan untuk mendukung ide itu secara terbuka. Akibatnya, Guatemala, sebuah negara Amerika Latin bersekutu dengan Israel dan AS, memutuskan untuk memimpin dan menyusun proposal. Dokumen itu, dilihat oleh MEE, mencerminkan oposisi lama Washington terhadap penuntutan pemimpin Israel dan kemampuan pengadilan untuk juga menuntut pejabat AS atas kejahatan yang dilakukan di wilayah negara anggota. Kertas mengapung membutuhkan persetujuan dari negara tersangka kewarganegaraan bahkan ketika dugaan kejahatan berlangsung di wilayah negara anggota ICC. Dapo Akande terpilih sebagai hakim ICJ, memulihkan kehadiran Inggris di dalam pengadilan PBB tertinggi Baca Lebih \"Hal ini juga menyerukan pendapat penasihat da",
-      "originalTitle": "Exclusive: Guatemala circulates proposal to curb ICC powers in line with US-Israeli demands",
-      "originalDescription": "Exclusive: Guatemala circulates proposal to curb ICC powers in line with US-Israeli demands Submitted by Sondos Asem on Sat, 11/21/2026 - 18:15 The Latin American country pitched the idea to diplomats in The Hague despite rights advocates warning against attempts to curb the court's mission Donald Trump speaks as Vice President JD Vance and Secretary of State Marco Rubio listen during a news briefing in the White House on 20 November 2026 (AFP) Off Guatemala has circulated a proposal to member states of the International Criminal Court (ICC) that closely echoed demands made by the United States and Israel to severely restrict the court's powers, Middle East Eye can reveal. The three-page paper was submitted at a closed-door retreat for ambassadors from ICC member states in The Hague on 18 November, less than two weeks before the court's Assembly of States Parties (ASP) opens its annual session. The proposal advocated for dialogue with the US over curbing the ICC's ability to pursue cases involving nationals of countries that aren't members of the court, such as the US, Israel and Russia. MEE understands that Washington's G7 allies, including the UK, Germany and Italy, expressed a readiness to discuss similar proposals with the US but were reluctant to advocate the idea publicly. As a result, Guatemala, a Latin American country allied with Israel and the US, decided to take the lead and draft the proposal. The document, seen by MEE, reflects Washington's longstanding opposition to the prosecution of Israeli leaders and the court's ability to also prosecute US officials for crimes committed on the territory of member states. The paper floats requiring consent from a suspect's country of nationality even when the alleged crimes took place on the territory of an ICC member state. Dapo Akande elected as ICJ judge, restoring British presence inside highest UN court Read More » It also calls for an advisory opinion from the International Court of Justice (ICJ) on immunity ",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/trump-white-house-20-nov-2026-afp.jpg.jpg?itok=KWnuqqh2",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Middle East Eye",
-      "sources": [
-        "Middle East Eye"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-23T14:16:42+00:00",
-      "originalUrl": "https://www.middleeasteye.net/news/guatemala-proposal-curb-icc-powers-echoing-us-israeli-demands"
-    },
-    {
-      "id": "cca6ff5e83622335",
-      "title": "Lebih dari 45 juta transaksi elektronik pada bulan Oktober.",
-      "description": "RIYADH - Kementerian Dalam Negeri elektronik Absher telah memproses total 45.168.522 transaksi elektronik untuk penerima selama Oktober. Melalui platform Absher Individuals, transaksi total mencapai 42.607.799, dan ini termasuk 33,989.242 dokumen dilihat melalui dompet dokumen digital, yang dapat diakses oleh warga, warga, dan pengunjung melalui aplikasi Absher. Sementara itu, platform bisnis Absher merekam 2.560,723 transaksi. Direktorat Umum Keamanan Umum diproses 3.539.011 transaksi, termasuk 3.400,356 oleh Direktorat Umum lalu lintas, 2.328.379 oleh General Directorat Passport, dan 450,714 oleh Departemen Dalam Negeri Status Badan Sipil. Melalui platform Absher Individuals, 108.073 laporan dikeluarkan menggunakan layanan Laporan Absher, sementara 2.100 pertanyaan umum terkait dengan sidik jari diproses. Perlu dicatat bahwa ID digital yang terpadu dikeluarkan oleh Kementerian Dalam Negeri melalui platform Absher memungkinkan warga, penduduk, dan pengunjung untuk mengakses layanan yang disediakan oleh berbagai sektor pelayanan dengan mudah dan aman melalui platform elektronik: Individuals Absher, Businesses, dan Pemerintah Absher. Mereka juga memfasilitasi akses ke layanan yang ditawarkan oleh pemerintah dan swasta entitas melalui National Unified Access Portal Hafath.",
-      "originalTitle": "Absher carries out over 45 million electronic transactions in October",
-      "originalDescription": "RIYADH — The Ministry of Interior’s electronic platform Absher has processed a total of 45,168,522 electronic transactions for beneficiaries during October.Through the Absher Individuals platform, total transactions reached 42,607,799, and these include 33,989,242 document viewings through the digital document wallet, which is accessible to citizens, residents, and visitors via the Absher application. Meanwhile, the Absher Businesses platform recorded 2,560,723 transactions.The General Directorate of Public Security processed 3,539,011 transactions, including 3,400,356 by the General Directorate of Traffic, 2,328,379 by the General Directorate of Passports, and 450,714 by the Ministry of Interior’s Civil Status Agency. Through the Absher Individuals platform, 108,073 reports were issued using the Absher Reports service, while 2,100 general inquiries related to fingerprinting were processed.It is noteworthy that the unified digital IDs issued by the Ministry of Interior through the Absher platform enable citizens, residents, and visitors to access services provided by the ministry’s various sectors easily and securely through its electronic platforms: Absher Individuals, Absher Businesses, and Absher Government. They also facilitate access to services offered by government and private entities through the National Unified Access Portal Nafath.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/23/2798650.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T14:05:15+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666468/saudi-arabia/absher-carries-out-over-45-million-electronic-transactions-in-october"
-    },
-    {
-      "id": "25033dcdf2308443",
-      "title": "Pembatasan Israel memotong persediaan bantuan pendengaran vital di Gaza",
-      "description": "Batas Israel telah meninggalkan Gaza menghadapi kekurangan baterai bantuan pendengaran.",
-      "originalTitle": "Israeli restrictions cut off vital hearing aid supplies in Gaza",
-      "originalDescription": "Israeli restrictions have left Gaza facing a severe shortage of hearing aid batteries.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/Screenshot-2026-11-23-at-13.46.25-1795441711.png?resize=1200%2C675",
-      "category": "Palestina",
-      "tags": [
-        "Palestina"
-      ],
-      "source": "Al Jazeera",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "country": "International",
-      "sourceCountry": "International",
-      "region": "",
-      "publishedAt": "2026-11-23T13:54:48+00:00",
-      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/23/israeli-restrictions-cut-off-vital-hearing-aid-supplies-in-gaza"
-    },
-    {
-      "id": "679cf459680eb8ab",
-      "title": "Transformasi Digital Kementerian Kesehatan Pangkas Waktu Penebusan Obat Jadi di Bawah 8 Menit",
-      "description": "Kementerian Kesehatan Arab Saudi kini menyediakan lebih dari 700 layanan digital, memangkas waktu penebusan obat menjadi kurang dari 8 menit.",
-      "originalTitle": "Transformasi Digital Kementerian Kesehatan Pangkas Waktu Penebusan Obat Jadi di Bawah 8 Menit",
-      "originalDescription": "Kementerian Kesehatan Arab Saudi kini menyediakan lebih dari 700 layanan digital, memangkas waktu penebusan obat menjadi kurang dari 8 menit.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/featured-crop-RNxvkrM2.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T13:49:30+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/e85s3fpp9"
-    },
-    {
-      "id": "0fbdd9f6fc9a6db5",
-      "title": "Saudi, menteri asing Norwegia mendiskusikan situasi regional dalam panggilan telepon",
-      "description": "RIYADH - Saudi Menteri Luar Negeri Pangeran Faisal bin Farhan mengadakan panggilan telepon dengan Menteri Luar Negeri Norwegia Espen Barth Eide. Selama panggilan, para menteri meninjau hubungan bilateral antara dua negara dan kesempatan untuk memperkuat mereka. Mereka juga mendiskusikan perkembangan regional terbaru dan upaya yang sedang berlangsung untuk mengatasi mereka.",
-      "originalTitle": "Saudi, Norwegian foreign ministers discuss regional situation in phone call",
-      "originalDescription": "RIYADH — Saudi Minister of Foreign Affairs Prince Faisal bin Farhan held a phone call with Norwegian Minister of Foreign Affairs Espen Barth Eide. During the call, the ministers reviewed bilateral relations between the two countries and opportunities to strengthen them. They also discussed the latest regional developments and ongoing efforts to address them.",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/23/2798617.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T13:11:49+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666467/saudi-arabia/saudi-norwegian-foreign-ministers-discuss-regional-situation-in-phone-call"
-    },
-    {
-      "id": "c7c7c7c9a3290d77",
-      "title": "Fenomena Bulan Super Akan Hiasi Langit Arab Saudi Selasa Sore",
-      "description": "Langit Arab Saudi akan dihiasi fenomena Bulan super pada Selasa sore, dengan puncak terdekat ke Bumi terjadi Rabu malam.",
-      "originalTitle": "Fenomena Bulan Super Akan Hiasi Langit Arab Saudi Selasa Sore",
-      "originalDescription": "Langit Arab Saudi akan dihiasi fenomena Bulan super pada Selasa sore, dengan puncak terdekat ke Bumi terjadi Rabu malam.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-09/الجمعية-الفلكية-بجدة-eVS1UHEa.png",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T13:00:37+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/h86ly7jfl"
-    },
-    {
-      "id": "a9ef1a60823b2309",
-      "title": "Bank Sentral Arab Saudi Terbitkan Izin untuk Sabil Anta Saudi di Layanan Pembayaran",
-      "description": "Bank Sentral Arab Saudi mengumumkan pemberian izin kepada Sabil Anta Saudi untuk layanan pembayaran melalui dompet elektronik, sehingga total perusahaan berizin menjadi 34.",
-      "originalTitle": "Bank Sentral Arab Saudi Terbitkan Izin untuk Sabil Anta Saudi di Layanan Pembayaran",
-      "originalDescription": "Bank Sentral Arab Saudi mengumumkan pemberian izin kepada Sabil Anta Saudi untuk layanan pembayaran melalui dompet elektronik, sehingga total perusahaan berizin menjadi 34.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-07/البنك-المركزي-السعودي-mMQEsYEL.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T12:54:23+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/ekonomi/3h1i8weuy"
-    },
-    {
-      "id": "e9291b084e022e40",
-      "title": "Majelis Syura Setujui Nota Kesepahaman Kesehatan dengan Portugal",
-      "description": "Majelis Syura menyetujui nota kesepahaman antara Kementerian Kesehatan Arab Saudi dan Portugal di bidang kesehatan.",
-      "originalTitle": "Majelis Syura Setujui Nota Kesepahaman Kesehatan dengan Portugal",
-      "originalDescription": "Majelis Syura menyetujui nota kesepahaman antara Kementerian Kesehatan Arab Saudi dan Portugal di bidang kesehatan.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/HXzj7FGW8AAeWuI-crop-si0tDqZW.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T12:38:07+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/20u73eyzz"
-    },
-    {
-      "id": "1c93ed82b2a6cd2a",
-      "title": "Kontrak Partisi Indonesia untuk Expo 2030 Riyadh",
-      "description": "JAKARTA - Indonesia telah menandatangani Kontrak Partipasinya untuk Expo 2030 Riyadh, menandai sebuah langkah penting karena berkembang partisipasi dalam World Expo. Kontrak Partisi ditandatangani di Indonesia oleh Kepala Eksekutif Expo 2030 Riyadh Al- Marri dan Menteri Pembangunan Nasional / Kepala Bappenas Pachmat. Penandatanganan Indonesia menambah perluasan komunitas internasional memformalisasi partisipasi di Expo 2030 Riyadh. Lebih dari 185 Partisipan Resmi telah mengkonfirmasi partisipasi mereka, menunjukkan karakter yang benar-benar global dari World Expo dan luas pengalaman dan perspektif yang akan datang bersama-sama di Riyadh pada 2030. Prawdy berkata: \"Tanda tangan awal kontrak partisipasi kami untuk Expo 2030 Riyadh mencerminkan kesiapan kami untuk memimpin melalui kemitraan dan memperkuat antara Indonesia dan Arab Saudi. Membangun dengan momentum Expo 2025 Osaka, yang menghasilkan lebih dari $28 miliar dalam komitmen investasi untuk Indonesia, kami melihat Riyadh sebagai platform penting untuk diplomasi ekonomi di mana Golden Indonesia 2045 dan Saudi Vision 2030 converge untuk mengubah shared foresight menjadi abadi, pembangunan beton hasil.\" Melihat ke depan, Indonesia akan membawa ceritanya hidup di Distrik Planet di Expo 2030 Riyadh, menampilkan kekayaan warisannya, kreativitas rakyatnya dan ambisi untuk masa depan melalui paviliun unik yang merayakan identitasnya sambil berbagi visi dengan dunia. \"Visi kami untuk Expo 2030 Riyadh berjalan jauh di luar pameran enam bulan. Kami ingin Paviliun Indonesia menjadi titik pertemuan abadi di mana pemerintah, bisnis, dan investor mengubah ide-ide menjadi perkembangan konkret. Dipandu oleh tema kami, 'Nature Unfolding: Explore, Wise, Nurture,' dan filsafat Indonesia bahwa alam adalah guru terbesar kami, kami membawa komitmen nasional terpadu untuk Riyadh, menunjukkan bagaimana kebijakan dan tindakan kolektif dapat membentuk yang berkelanjutan, inklusif, dan masa depan yang makmur bagi generasi yang akan datan",
-      "originalTitle": "Indonesia signs Participation Contract for Expo 2030 Riyadh",
-      "originalDescription": "JAKARTA — Indonesia has signed its Participation Contract for Expo 2030 Riyadh, marking an important step as it progresses its participation in the World Expo. The Participation Contract was signed in Indonesia by Chief Executive Officer of Expo 2030 Riyadh Talal Al-Marri and Indonesia's Minister for National Development Planning/Head of Bappenas Rachmat Pambudy. Indonesia’s signing adds to an expanding international community formalizing its participation in Expo 2030 Riyadh. More than 185 Official Participants have already confirmed their participation, demonstrating the truly global character of a World Expo and the breadth of experiences and perspectives that will come together in Riyadh in 2030.Pambudy said: “The early signing of our participation contract for Expo 2030 Riyadh reflects our readiness to lead through partnership and strengthen ties between Indonesia and Saudi Arabia. Building on the momentum of Expo 2025 Osaka, which generated over $28 billion in investment commitments for Indonesia, we view Riyadh as a vital platform for economic diplomacy where Golden Indonesia 2045 and Saudi Vision 2030 converge to turn shared foresight into lasting, concrete development outcomes.” Looking ahead, Indonesia will bring its story to life in the Planet District at Expo 2030 Riyadh, showcasing the richness of its heritage, the creativity of its people and its ambitions for the future through a unique pavilion that celebrates its identity while sharing its vision with the world. Pambudy added: “Our vision for Expo 2030 Riyadh goes far beyond a six-month exhibition. We want the Indonesia Pavilion to serve as a lasting meeting point where governments, businesses, and investors turn ideas into concrete development outcomes. Guided by our theme, ‘Nature Unfolding: Explore, Wisdom, Nurture,’ and the Indonesian philosophy that nature is our greatest teacher, we are bringing a unified national commitment to Riyadh, demonstrating how wisdom and collective action can shape a",
-      "translated": true,
-      "translationStatus": "success",
-      "originalLanguage": "en",
-      "language": "id",
-      "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/23/2798596.webp",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Saudi Gazette",
-      "sources": [
-        "Saudi Gazette"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T12:37:01+00:00",
-      "originalUrl": "https://saudigazette.com.sa/article/666465/saudi-arabia/indonesia-signs-participation-contract-for-expo-2030-riyadh"
-    },
-    {
-      "id": "67da82296394e20a",
-      "title": "Kejaksaan Arab Saudi Luncurkan Kantor Manajemen Nilai Berkelanjutan",
-      "description": "Jaksa Agung Khalid bin Mohammed Al-Yousef meluncurkan Kantor Manajemen Nilai Berkelanjutan untuk mengukur dampak inisiatif dan meningkatkan kualitas output Kejaksaan.",
-      "originalTitle": "Kejaksaan Arab Saudi Luncurkan Kantor Manajemen Nilai Berkelanjutan",
-      "originalDescription": "Jaksa Agung Khalid bin Mohammed Al-Yousef meluncurkan Kantor Manajemen Nilai Berkelanjutan untuk mengukur dampak inisiatif dan meningkatkan kualitas output Kejaksaan.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://cdn.ajel.sa/articles/2026-11/images3-crop-IW59Hk68.jpg",
-      "category": "Arab Saudi",
-      "tags": [
-        "Arab Saudi"
-      ],
-      "source": "Ajel Indonesia",
-      "sources": [
-        "Ajel Indonesia"
-      ],
-      "country": "Saudi Arabia",
-      "sourceCountry": "Saudi Arabia",
-      "region": "",
-      "publishedAt": "2026-11-23T12:36:41+00:00",
-      "originalUrl": "https://indonesian.ajel.sa/arab-saudi/577fur40x"
-    },
-    {
-      "id": "779c6d2dc1be6088",
-      "title": "Arab Saudi Bagikan 100 Paket Umroh Gratis, Begini Cara Daftarnya",
-      "description": "Arab Saudi bagikan paket umrah gratis 2 orang dan air zamzam via aplikasi Nusuk. Dua warga Indonesia masuk daftar pemenang.",
-      "originalTitle": "Arab Saudi Bagikan 100 Paket Umroh Gratis, Begini Cara Daftarnya",
-      "originalDescription": "Arab Saudi bagikan paket umrah gratis 2 orang dan air zamzam via aplikasi Nusuk. Dua warga Indonesia masuk daftar pemenang.",
-      "translated": false,
-      "translationStatus": "not_required",
-      "originalLanguage": "id",
-      "language": "id",
-      "image": "https://storage.nu.or.id/storage/post/4_3/thumb/haji-umrah-kabah-freepik_1795440157.webp",
-      "category": "Haji dan Umrah",
-      "tags": [
-        "Haji dan Umrah",
-        "Arab Saudi"
-      ],
-      "source": "NU Online",
-      "sources": [
-        "NU Online"
-      ],
-      "country": "Indonesia",
-      "sourceCountry": "Indonesia",
-      "region": "",
-      "publishedAt": "2026-11-23T12:30:09+00:00",
-      "originalUrl": "https://www.nu.or.id/internasional/arab-saudi-bagikan-100-paket-umroh-gratis-begini-cara-daftarnya-1PpCW"
     }
   ]
 }
